@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/icon.svg" width="160" alt="Hearth &amp; Hollow icon"></p>
+<p align="center"><img src="assets/logo.png" width="320" alt="Hearth &amp; Hollow: a cottage on a hill above a lantern-lit cave, under the Hearth &amp; Hollow Modpack wordmark"></p>
 
 # Hearth & Hollow
 
