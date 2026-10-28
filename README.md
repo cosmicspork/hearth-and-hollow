@@ -21,7 +21,7 @@ No quests, scripts, configs or other assets from those packs are included. The q
 - **Mining:** the Allthemodium mining, Other and Beyond dimensions, Mining Gadgets, Allthemodium gear, one set of ores from AllTheOres
 - **Building:** Macaw's, Handcrafted, FramedBlocks, Supplementaries, Cluttered, Twigs, Building Gadgets
 - **Tech:** Mekanism, Refined Storage, Powah, Flux Networks, Oritech resource nodes, Mystical Agriculture with Botany Pots, Pylons and Modular Routers
-- **Cozy:** Farmer's Delight and Croptopia food, Comforts, Hourglass, Cooking for Blockheads, ambient sounds and auroras
+- **Cozy:** Farmer's Delight and Croptopia food, Comforts, Hourglass, Cooking for Blockheads, ambient sounds, auroras, falling leaves, fireflies and other small particle details
 - **Shaders:** Complementary Reimagined and Unbound (with Euphoria Patches), BSL and MakeUp Ultra Fast are included and off by default
 - **Controllers:** Controlify, for gamepads and the Steam Deck
 

@@ -1226,6 +1226,11 @@ hash = "760b68f2927bf6e2043afa4e3a19956f5405e4dfad2940bb6140c904974cdcad"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "48bebfeddb6f40706b00671a8759ce73a4078e7d644e0ee85d522674c9a396b1"
+metafile = true
+
+[[files]]
 file = "mods/gateways-to-eternity.pw.toml"
 hash = "a918d214c27222c510f6526721a1c41b0111221ac348c7d20b2a28d4691dfdd4"
 metafile = true
@@ -1676,6 +1681,11 @@ hash = "abfaa1603e21bbcd94e8464c460ccb29a465f8b0ced64abdc661c79c03bab395"
 metafile = true
 
 [[files]]
+file = "mods/particular-reforged.pw.toml"
+hash = "b4c1580cb726c3d5053aced31cb378e847ac18cb7d58e4c04830f8aaf0b941bb"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
@@ -1933,6 +1943,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "411be936c8db5e39300bcafaa7707b236d9a6bbaaf2171879b56b19d5ceea6ca"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "e37f7d0e1286d488fb45b3999436601ffadfdf0621bd9fa929338c9865d149a5"
 metafile = true
 
 [[files]]
