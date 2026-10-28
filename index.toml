@@ -65,6 +65,10 @@ file = "config/ftbquests/quests/chapters/allthemodium_ascent.snbt"
 hash = "75da4e273b0323a3bb5cb6cdc82210569a453f9884da6b5f942c2e2578498db3"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/almanac.snbt"
+hash = "359d2aeaf19e84e4bd38e4978f84b5b012eb3d384159c346f985e9b752aadc24"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
 hash = "474aa9d1a295bc5d9f8b0c2333bf2b7e301d042601e7d67cc8080d14c966077c"
 
@@ -134,7 +138,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3adbdb74c379c174b927d9b30fa245636bf41ba466d3a25aa6060b4fedbf51b5"
+hash = "2de05b47e7935ec20095be23daf2245aaeed3f5787f72aaa09a58ab79a3236d1"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"
@@ -521,6 +525,14 @@ file = "kubejs/data/croptopia/recipe/botanypots/walnut.json"
 hash = "6b74973871695e3df2020a6a66a9f01c4e395fe6066d8b61b500d1b4562ba106"
 
 [[files]]
+file = "kubejs/data/hearthandhollow/loot_modifiers/crate_from_bosses.json"
+hash = "665492b64ee3cb82b1e230d1bdbffcc31fc760365670535c60fe239486b42d8e"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/loot_modifiers/crate_from_mobs.json"
+hash = "0adfebe85701e7b49881379799e1a02a95dfd60c3ac891ccfec3b4bca4bb549f"
+
+[[files]]
 file = "kubejs/data/hearthandhollow/loot_table/botanypots/croptopia/almond.json"
 hash = "b82b63ec48a2b9ba84b971b68c98a069b8d3d1df3984d90acf74019cfcfa63de"
 
@@ -627,6 +639,22 @@ hash = "65ba98e880502dcac691c81b9dd4e4b114b1d2d12bacf2841e3b7fb8980dca61"
 [[files]]
 file = "kubejs/data/hearthandhollow/loot_table/botanypots/croptopia/walnut.json"
 hash = "a2b852bb61a8384683f48d29f0722c638f504ff524d28157f947f3479d6b6b36"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/loot_table/crates/boss.json"
+hash = "a63f49b8893ea85257812b92b1f4219db92013cb68ad5d6d4fe38ee45f9033a9"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/loot_table/crates/mob.json"
+hash = "c4fb608cf653b84033a71ab58f5f773321fecbc7be9caa56f14d42f7e67a1a0f"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/tags/entity_type/crate_bosses.json"
+hash = "c45fcf0c722d8b0b63678de6165b6a44a68534ed218b849e984abf6eadc25c02"
+
+[[files]]
+file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "66d26444f6a04e62c278949624bb818f7efa2f7bc25ba0946fa0e49f494bb776"
 
 [[files]]
 file = "kubejs/data/oritech/neoforge/biome_modifier/ore_nickel.json"
