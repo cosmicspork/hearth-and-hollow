@@ -1,0 +1,1595 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "builders_bench"
+	group: "6D64CA34D687FD52"
+	icon: {
+		count: 1
+		id: "handcrafted:oak_chair"
+	}
+	id: "50A71B15CF9C9BA4"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4792FFB4325B8F0C"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "728D2F0E6200C997"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "39AB7C0BE37D3C0B"
+			rewards: [
+				{
+					id: "64BA51E5D43E19E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56C81AC610C5F839"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "41C919D6FA043FDD"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45E49BCB3C6A8978"
+					item: {
+						count: 1
+						id: "rechiseled:chisel"
+					}
+					type: "item"
+				}
+			]
+			x: -2.65d
+			y: -3.64d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "2ECB18270BE008E3"
+			rewards: [
+				{
+					id: "3313EE6C7845CC74"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7646674B5E50392E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2950F37A534B5C98"
+					item: {
+						count: 1
+						id: "twigs:paper_lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50CC8F3C04FD020A"
+					item: {
+						count: 1
+						id: "twigs:twig"
+					}
+					type: "item"
+				}
+				{
+					id: "61AD8DC4E7D7BAB8"
+					item: {
+						count: 1
+						id: "twigs:pebble"
+					}
+					type: "item"
+				}
+			]
+			x: -1.7d
+			y: -5.23d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "1BC71C2BD841B2CD"
+			rewards: [
+				{
+					id: "175B3DEE400FDCAC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D740BC519576E58"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A054146012C54D7"
+					item: {
+						count: 1
+						id: "handcrafted:red_cushion"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F77A03E624BBB4B"
+					item: {
+						count: 1
+						id: "handcrafted:white_sheet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "handcrafted:oak_chair"
+					}
+					id: "3D2A05B4A71003A2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(handcrafted:chairs)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "handcrafted:oak_table"
+					}
+					id: "293DFB668E453536"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(handcrafted:tables)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1BC71C2BD841B2CD"]
+			id: "2E0EE5F1079BE906"
+			rewards: [
+				{
+					id: "312F31038122139A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0241C28FC3D9998B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "700CF49795ABA084"
+					item: {
+						count: 1
+						id: "handcrafted:oak_nightstand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "handcrafted:oak_fancy_bed"
+					}
+					id: "7DE561EDC4FECE52"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(handcrafted:fancy_beds)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "3A0EE173F063AF38"
+			rewards: [
+				{
+					id: "04EF6509663FEFA4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20F8B93AFC68478E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1F11D4026DB46A2D"
+					item: {
+						count: 1
+						id: "mcwfurnitures:oak_drawer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwfurnitures:oak_chair"
+					}
+					id: "3EE55D12D4C2F86D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwfurnitures:oak_chair)item(mcwfurnitures:oak_table)item(mcwfurnitures:oak_drawer)item(mcwfurnitures:oak_wardrobe)item(mcwfurnitures:oak_desk)item(mcwfurnitures:oak_coffee_table)item(mcwfurnitures:oak_kitchen_cabinet)item(mcwfurnitures:oak_bookshelf)item(mcwfurnitures:spruce_chair)item(mcwfurnitures:spruce_table)item(mcwfurnitures:spruce_drawer)item(mcwfurnitures:spruce_wardrobe)item(mcwfurnitures:spruce_desk)item(mcwfurnitures:spruce_coffee_table)item(mcwfurnitures:spruce_kitchen_cabinet)item(mcwfurnitures:spruce_bookshelf)item(mcwfurnitures:birch_chair)item(mcwfurnitures:birch_table)item(mcwfurnitures:birch_drawer)item(mcwfurnitures:birch_wardrobe)item(mcwfurnitures:birch_desk)item(mcwfurnitures:birch_coffee_table)item(mcwfurnitures:birch_kitchen_cabinet)item(mcwfurnitures:birch_bookshelf)item(mcwfurnitures:jungle_chair)item(mcwfurnitures:jungle_table)item(mcwfurnitures:jungle_drawer)item(mcwfurnitures:jungle_wardrobe)item(mcwfurnitures:jungle_desk)item(mcwfurnitures:jungle_coffee_table)item(mcwfurnitures:jungle_kitchen_cabinet)item(mcwfurnitures:jungle_bookshelf)item(mcwfurnitures:acacia_chair)item(mcwfurnitures:acacia_table)item(mcwfurnitures:acacia_drawer)item(mcwfurnitures:acacia_wardrobe)item(mcwfurnitures:acacia_desk)item(mcwfurnitures:acacia_coffee_table)item(mcwfurnitures:acacia_kitchen_cabinet)item(mcwfurnitures:acacia_bookshelf)item(mcwfurnitures:dark_oak_chair)item(mcwfurnitures:dark_oak_table)item(mcwfurnitures:dark_oak_drawer)item(mcwfurnitures:dark_oak_wardrobe)item(mcwfurnitures:dark_oak_desk)item(mcwfurnitures:dark_oak_coffee_table)item(mcwfurnitures:dark_oak_kitchen_cabinet)item(mcwfurnitures:dark_oak_bookshelf)item(mcwfurnitures:mangrove_chair)item(mcwfurnitures:mangrove_table)item(mcwfurnitures:mangrove_drawer)item(mcwfurnitures:mangrove_wardrobe)item(mcwfurnitures:mangrove_desk)item(mcwfurnitures:mangrove_coffee_table)item(mcwfurnitures:mangrove_kitchen_cabinet)item(mcwfurnitures:mangrove_bookshelf)item(mcwfurnitures:cherry_chair)item(mcwfurnitures:cherry_table)item(mcwfurnitures:cherry_drawer)item(mcwfurnitures:cherry_wardrobe)item(mcwfurnitures:cherry_desk)item(mcwfurnitures:cherry_coffee_table)item(mcwfurnitures:cherry_kitchen_cabinet)item(mcwfurnitures:cherry_bookshelf)item(mcwfurnitures:crimson_chair)item(mcwfurnitures:crimson_table)item(mcwfurnitures:crimson_drawer)item(mcwfurnitures:crimson_wardrobe)item(mcwfurnitures:crimson_desk)item(mcwfurnitures:crimson_coffee_table)item(mcwfurnitures:crimson_kitchen_cabinet)item(mcwfurnitures:crimson_bookshelf)item(mcwfurnitures:warped_chair)item(mcwfurnitures:warped_table)item(mcwfurnitures:warped_drawer)item(mcwfurnitures:warped_wardrobe)item(mcwfurnitures:warped_desk)item(mcwfurnitures:warped_coffee_table)item(mcwfurnitures:warped_kitchen_cabinet)item(mcwfurnitures:warped_bookshelf))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.7d
+			y: -5.23d
+		}
+		{
+			dependencies: ["3A0EE173F063AF38"]
+			id: "6CB7B4C89FB16CD2"
+			optional: true
+			rewards: [
+				{
+					id: "15ECF7120C9F1AD8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "196EDADD457CCFD6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2D7B192926883DBF"
+					item: {
+						count: 1
+						id: "cluttered:starry_wallpaper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "cluttered:teddy_bear"
+					}
+					id: "210AB02763E22BE9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cluttered:teddy_bear)item(cluttered:stack_of_books)item(cluttered:small_glass_jars)item(cluttered:picnic_basket)item(cluttered:glass_vase_of_flowers)item(cluttered:two_flower_pots)item(cluttered:cottage_chair)item(cluttered:small_bookcase)item(cluttered:wine_bottle_rack)item(cluttered:starry_wallpaper)item(cluttered:mint_wallpaper)item(cluttered:pancake_stack)item(cluttered:sewing_machine_antique)item(cluttered:traditional_radio))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.24d
+			y: -6.9d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "13014BA2499A6131"
+			rewards: [
+				{
+					id: "02E31E275CEB90F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EEE70D3C8D3F78B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "570005DBED1051C7"
+					item: {
+						count: 1
+						id: "framedblocks:framed_slope"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "00A4D63EB4BCE023"
+					item: {
+						count: 1
+						id: "framedblocks:framed_stairs"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6097661DCE302996"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
+			x: 2.65d
+			y: -3.64d
+		}
+		{
+			dependencies: ["13014BA2499A6131"]
+			id: "0CEF74E40FB2F4B5"
+			rewards: [
+				{
+					id: "2E0A9279011015EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34D9B34D5F022C9C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "04705D71160C92FB"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BFDE7329A8117E6"
+					item: {
+						count: 1
+						id: "framedblocks:framing_saw"
+					}
+					type: "item"
+				}
+			]
+			x: 3.67d
+			y: -5.06d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "32A0644E86AE7667"
+			rewards: [
+				{
+					id: "64704F972CD19914"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "36DDB010D61CB245"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "595FD69F379150E4"
+					item: {
+						count: 1
+						id: "mcwroofs:thatch_roof"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwroofs:oak_roof"
+					}
+					id: "77F5E2085C91D9A7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwroofs:oak_roof)item(mcwroofs:spruce_roof)item(mcwroofs:birch_roof)item(mcwroofs:jungle_roof)item(mcwroofs:acacia_roof)item(mcwroofs:dark_oak_roof)item(mcwroofs:mangrove_roof)item(mcwroofs:cherry_roof)item(mcwroofs:crimson_roof)item(mcwroofs:warped_roof)item(mcwroofs:bamboo_roof)item(mcwroofs:oak_planks_roof)item(mcwroofs:spruce_planks_roof)item(mcwroofs:birch_planks_roof)item(mcwroofs:jungle_planks_roof)item(mcwroofs:acacia_planks_roof)item(mcwroofs:dark_oak_planks_roof)item(mcwroofs:mangrove_planks_roof)item(mcwroofs:cherry_planks_roof)item(mcwroofs:crimson_planks_roof)item(mcwroofs:warped_planks_roof)item(mcwroofs:bamboo_planks_roof)item(mcwroofs:cobblestone_roof)item(mcwroofs:stone_bricks_roof)item(mcwroofs:bricks_roof)item(mcwroofs:stone_roof)item(mcwroofs:deepslate_roof)item(mcwroofs:andesite_roof)item(mcwroofs:granite_roof)item(mcwroofs:diorite_roof)item(mcwroofs:blackstone_roof)item(mcwroofs:sandstone_roof)item(mcwroofs:thatch_roof)item(mcwroofs:mud_brick_roof))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: -3.23d
+		}
+		{
+			dependencies: ["32A0644E86AE7667"]
+			id: "396B8362F17604D3"
+			rewards: [
+				{
+					id: "17BC00AD95E90031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31960E32A7892E48"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "249FB41E8AE2AD42"
+					item: {
+						count: 1
+						id: "mcwstairs:oak_railing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwstairs:oak_balcony"
+					}
+					id: "4B01344D556DF3CF"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwstairs:oak_balcony)item(mcwstairs:oak_railing)item(mcwstairs:oak_platform)item(mcwstairs:spruce_balcony)item(mcwstairs:spruce_railing)item(mcwstairs:spruce_platform)item(mcwstairs:birch_balcony)item(mcwstairs:birch_railing)item(mcwstairs:birch_platform)item(mcwstairs:jungle_balcony)item(mcwstairs:jungle_railing)item(mcwstairs:jungle_platform)item(mcwstairs:acacia_balcony)item(mcwstairs:acacia_railing)item(mcwstairs:acacia_platform)item(mcwstairs:dark_oak_balcony)item(mcwstairs:dark_oak_railing)item(mcwstairs:dark_oak_platform)item(mcwstairs:mangrove_balcony)item(mcwstairs:mangrove_railing)item(mcwstairs:mangrove_platform)item(mcwstairs:cherry_balcony)item(mcwstairs:cherry_railing)item(mcwstairs:cherry_platform)item(mcwstairs:crimson_balcony)item(mcwstairs:crimson_railing)item(mcwstairs:crimson_platform)item(mcwstairs:warped_balcony)item(mcwstairs:warped_railing)item(mcwstairs:warped_platform)item(mcwstairs:cobblestone_balcony)item(mcwstairs:cobblestone_railing)item(mcwstairs:stone_brick_balcony)item(mcwstairs:stone_brick_railing)item(mcwstairs:brick_balcony)item(mcwstairs:brick_railing)item(mcwstairs:andesite_balcony)item(mcwstairs:andesite_railing)item(mcwstairs:sandstone_balcony)item(mcwstairs:sandstone_railing))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.87d
+			y: -4.26d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "56AF8269532901B1"
+			rewards: [
+				{
+					id: "25E1C9921AD6973A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C6F0C13D444E6D0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "67E5B4A9DD3AFEF2"
+					item: {
+						count: 1
+						id: "mcwwindows:hammer"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "109EC13E058D3DC7"
+					item: {
+						count: 1
+						id: "mcwwindows:oak_shutter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwwindows:oak_window"
+					}
+					id: "3672D8FD12FD0C3B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwwindows:oak_window)item(mcwwindows:spruce_window)item(mcwwindows:birch_window)item(mcwwindows:jungle_window)item(mcwwindows:acacia_window)item(mcwwindows:dark_oak_window)item(mcwwindows:mangrove_window)item(mcwwindows:cherry_window)item(mcwwindows:oak_plank_window)item(mcwwindows:spruce_plank_window)item(mcwwindows:birch_plank_window)item(mcwwindows:jungle_plank_window)item(mcwwindows:acacia_plank_window)item(mcwwindows:dark_oak_plank_window)item(mcwwindows:mangrove_plank_window)item(mcwwindows:cherry_plank_window)item(mcwwindows:oak_pane_window)item(mcwwindows:spruce_pane_window)item(mcwwindows:birch_pane_window)item(mcwwindows:jungle_pane_window)item(mcwwindows:acacia_pane_window)item(mcwwindows:dark_oak_pane_window)item(mcwwindows:mangrove_pane_window)item(mcwwindows:cherry_pane_window)item(mcwwindows:crimson_pane_window)item(mcwwindows:warped_pane_window)item(mcwwindows:metal_window)item(mcwwindows:andesite_window)item(mcwwindows:bricks_window)item(mcwwindows:deepslate_window)item(mcwwindows:diorite_window)item(mcwwindows:granite_window)item(mcwwindows:blackstone_window)item(mcwwindows:quartz_window))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.28d
+			y: -1.39d
+		}
+		{
+			dependencies: ["56AF8269532901B1"]
+			id: "63E0ADA390159C38"
+			rewards: [
+				{
+					id: "7A7EBA4DE7F941D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5193D236D4DF4B0B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "386E80B95B815C49"
+					item: {
+						count: 1
+						id: "mcwwindows:oak_curtain_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwwindows:red_curtain"
+					}
+					id: "5BC36AD2D44B51A8"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwwindows:white_curtain)item(mcwwindows:orange_curtain)item(mcwwindows:magenta_curtain)item(mcwwindows:light_blue_curtain)item(mcwwindows:yellow_curtain)item(mcwwindows:lime_curtain)item(mcwwindows:pink_curtain)item(mcwwindows:gray_curtain)item(mcwwindows:light_gray_curtain)item(mcwwindows:cyan_curtain)item(mcwwindows:purple_curtain)item(mcwwindows:blue_curtain)item(mcwwindows:brown_curtain)item(mcwwindows:green_curtain)item(mcwwindows:red_curtain)item(mcwwindows:black_curtain))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.94d
+			y: -1.93d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "31C91E01FF122D39"
+			rewards: [
+				{
+					id: "74FD673697506289"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1355CF6E70AC72D0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "614FEC0EFAD057DA"
+					item: {
+						count: 1
+						id: "mcwtrpdoors:oak_cottage_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwtrpdoors:oak_barn_trapdoor"
+					}
+					id: "31FF9531693B2A70"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwtrpdoors:oak_barn_trapdoor)item(mcwtrpdoors:oak_barred_trapdoor)item(mcwtrpdoors:oak_barrel_trapdoor)item(mcwtrpdoors:oak_glass_trapdoor)item(mcwtrpdoors:oak_four_panel_trapdoor)item(mcwtrpdoors:oak_ranch_trapdoor)item(mcwtrpdoors:oak_bark_trapdoor)item(mcwtrpdoors:spruce_barn_trapdoor)item(mcwtrpdoors:spruce_barred_trapdoor)item(mcwtrpdoors:spruce_barrel_trapdoor)item(mcwtrpdoors:spruce_glass_trapdoor)item(mcwtrpdoors:spruce_four_panel_trapdoor)item(mcwtrpdoors:spruce_ranch_trapdoor)item(mcwtrpdoors:spruce_bark_trapdoor)item(mcwtrpdoors:birch_barn_trapdoor)item(mcwtrpdoors:birch_barred_trapdoor)item(mcwtrpdoors:birch_barrel_trapdoor)item(mcwtrpdoors:birch_glass_trapdoor)item(mcwtrpdoors:birch_four_panel_trapdoor)item(mcwtrpdoors:birch_ranch_trapdoor)item(mcwtrpdoors:birch_bark_trapdoor)item(mcwtrpdoors:jungle_barn_trapdoor)item(mcwtrpdoors:jungle_barred_trapdoor)item(mcwtrpdoors:jungle_barrel_trapdoor)item(mcwtrpdoors:jungle_glass_trapdoor)item(mcwtrpdoors:jungle_four_panel_trapdoor)item(mcwtrpdoors:jungle_ranch_trapdoor)item(mcwtrpdoors:jungle_bark_trapdoor)item(mcwtrpdoors:acacia_barn_trapdoor)item(mcwtrpdoors:acacia_barred_trapdoor)item(mcwtrpdoors:acacia_barrel_trapdoor)item(mcwtrpdoors:acacia_glass_trapdoor)item(mcwtrpdoors:acacia_four_panel_trapdoor)item(mcwtrpdoors:acacia_ranch_trapdoor)item(mcwtrpdoors:acacia_bark_trapdoor)item(mcwtrpdoors:dark_oak_barn_trapdoor)item(mcwtrpdoors:dark_oak_barred_trapdoor)item(mcwtrpdoors:dark_oak_barrel_trapdoor)item(mcwtrpdoors:dark_oak_glass_trapdoor)item(mcwtrpdoors:dark_oak_ranch_trapdoor)item(mcwtrpdoors:dark_oak_bark_trapdoor)item(mcwtrpdoors:mangrove_barn_trapdoor)item(mcwtrpdoors:mangrove_barred_trapdoor)item(mcwtrpdoors:mangrove_barrel_trapdoor)item(mcwtrpdoors:mangrove_glass_trapdoor)item(mcwtrpdoors:mangrove_four_panel_trapdoor)item(mcwtrpdoors:mangrove_ranch_trapdoor)item(mcwtrpdoors:mangrove_bark_trapdoor)item(mcwtrpdoors:cherry_barn_trapdoor)item(mcwtrpdoors:cherry_barred_trapdoor)item(mcwtrpdoors:cherry_barrel_trapdoor)item(mcwtrpdoors:cherry_glass_trapdoor)item(mcwtrpdoors:cherry_four_panel_trapdoor)item(mcwtrpdoors:cherry_ranch_trapdoor)item(mcwtrpdoors:cherry_bark_trapdoor)item(mcwtrpdoors:crimson_barn_trapdoor)item(mcwtrpdoors:crimson_barrel_trapdoor)item(mcwtrpdoors:crimson_glass_trapdoor)item(mcwtrpdoors:crimson_four_panel_trapdoor)item(mcwtrpdoors:crimson_ranch_trapdoor)item(mcwtrpdoors:crimson_bark_trapdoor)item(mcwtrpdoors:warped_barn_trapdoor)item(mcwtrpdoors:warped_barred_trapdoor)item(mcwtrpdoors:warped_barrel_trapdoor)item(mcwtrpdoors:warped_glass_trapdoor)item(mcwtrpdoors:warped_four_panel_trapdoor)item(mcwtrpdoors:warped_ranch_trapdoor)item(mcwtrpdoors:warped_bark_trapdoor)item(mcwtrpdoors:bamboo_barn_trapdoor)item(mcwtrpdoors:bamboo_barred_trapdoor)item(mcwtrpdoors:bamboo_barrel_trapdoor)item(mcwtrpdoors:bamboo_glass_trapdoor)item(mcwtrpdoors:bamboo_four_panel_trapdoor)item(mcwtrpdoors:bamboo_bark_trapdoor))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "2137A757227177C3"
+			rewards: [
+				{
+					id: "3F46A9D98C0EAD4E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0DA40E8AC92DB2C7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "33F93B7F03499E2E"
+					item: {
+						count: 1
+						id: "mcwdoors:oak_cottage_door"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwdoors:oak_barn_door"
+					}
+					id: "6FFC7E03F144460D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwdoors:oak_barn_door)item(mcwdoors:oak_glass_door)item(mcwdoors:oak_barn_glass_door)item(mcwdoors:oak_four_panel_door)item(mcwdoors:oak_stable_door)item(mcwdoors:oak_western_door)item(mcwdoors:oak_japanese_door)item(mcwdoors:spruce_barn_door)item(mcwdoors:spruce_glass_door)item(mcwdoors:spruce_barn_glass_door)item(mcwdoors:spruce_four_panel_door)item(mcwdoors:spruce_stable_door)item(mcwdoors:spruce_western_door)item(mcwdoors:spruce_japanese_door)item(mcwdoors:birch_barn_door)item(mcwdoors:birch_glass_door)item(mcwdoors:birch_barn_glass_door)item(mcwdoors:birch_four_panel_door)item(mcwdoors:birch_stable_door)item(mcwdoors:birch_western_door)item(mcwdoors:birch_japanese_door)item(mcwdoors:jungle_barn_door)item(mcwdoors:jungle_glass_door)item(mcwdoors:jungle_barn_glass_door)item(mcwdoors:jungle_four_panel_door)item(mcwdoors:jungle_stable_door)item(mcwdoors:jungle_western_door)item(mcwdoors:jungle_japanese_door)item(mcwdoors:acacia_barn_door)item(mcwdoors:acacia_glass_door)item(mcwdoors:acacia_barn_glass_door)item(mcwdoors:acacia_four_panel_door)item(mcwdoors:acacia_stable_door)item(mcwdoors:acacia_western_door)item(mcwdoors:acacia_japanese_door)item(mcwdoors:dark_oak_barn_door)item(mcwdoors:dark_oak_glass_door)item(mcwdoors:dark_oak_barn_glass_door)item(mcwdoors:dark_oak_stable_door)item(mcwdoors:dark_oak_western_door)item(mcwdoors:dark_oak_japanese_door)item(mcwdoors:mangrove_barn_door)item(mcwdoors:mangrove_glass_door)item(mcwdoors:mangrove_barn_glass_door)item(mcwdoors:mangrove_four_panel_door)item(mcwdoors:mangrove_stable_door)item(mcwdoors:mangrove_western_door)item(mcwdoors:mangrove_japanese_door)item(mcwdoors:cherry_barn_door)item(mcwdoors:cherry_glass_door)item(mcwdoors:cherry_barn_glass_door)item(mcwdoors:cherry_four_panel_door)item(mcwdoors:cherry_stable_door)item(mcwdoors:cherry_western_door)item(mcwdoors:cherry_japanese_door)item(mcwdoors:crimson_barn_door)item(mcwdoors:crimson_glass_door)item(mcwdoors:crimson_barn_glass_door)item(mcwdoors:crimson_four_panel_door)item(mcwdoors:crimson_stable_door)item(mcwdoors:crimson_western_door)item(mcwdoors:crimson_japanese_door)item(mcwdoors:warped_barn_door)item(mcwdoors:warped_glass_door)item(mcwdoors:warped_barn_glass_door)item(mcwdoors:warped_four_panel_door)item(mcwdoors:warped_stable_door)item(mcwdoors:warped_western_door)item(mcwdoors:warped_japanese_door)item(mcwdoors:bamboo_barn_door)item(mcwdoors:bamboo_glass_door)item(mcwdoors:bamboo_barn_glass_door)item(mcwdoors:bamboo_four_panel_door)item(mcwdoors:bamboo_stable_door)item(mcwdoors:bamboo_western_door)item(mcwdoors:bamboo_japanese_door))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.28d
+			y: 1.39d
+		}
+		{
+			dependencies: ["2137A757227177C3"]
+			id: "1F8973A17F817A3A"
+			rewards: [
+				{
+					id: "745504FE815E3FA3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AD1F09F62F7402E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5DC0EF9FE6B1A208"
+					item: {
+						count: 1
+						id: "mcwfences:oak_picket_fence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwfences:oak_picket_fence"
+					}
+					id: "3BBA7EDE1F18FA46"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwfences:oak_picket_fence)item(mcwfences:oak_stockade_fence)item(mcwfences:oak_horse_fence)item(mcwfences:oak_wired_fence)item(mcwfences:spruce_picket_fence)item(mcwfences:spruce_stockade_fence)item(mcwfences:spruce_horse_fence)item(mcwfences:spruce_wired_fence)item(mcwfences:birch_picket_fence)item(mcwfences:birch_stockade_fence)item(mcwfences:birch_horse_fence)item(mcwfences:birch_wired_fence)item(mcwfences:jungle_picket_fence)item(mcwfences:jungle_stockade_fence)item(mcwfences:jungle_horse_fence)item(mcwfences:jungle_wired_fence)item(mcwfences:acacia_picket_fence)item(mcwfences:acacia_stockade_fence)item(mcwfences:acacia_horse_fence)item(mcwfences:acacia_wired_fence)item(mcwfences:dark_oak_picket_fence)item(mcwfences:dark_oak_stockade_fence)item(mcwfences:dark_oak_horse_fence)item(mcwfences:dark_oak_wired_fence)item(mcwfences:mangrove_picket_fence)item(mcwfences:mangrove_stockade_fence)item(mcwfences:mangrove_horse_fence)item(mcwfences:mangrove_wired_fence)item(mcwfences:cherry_picket_fence)item(mcwfences:cherry_stockade_fence)item(mcwfences:cherry_horse_fence)item(mcwfences:cherry_wired_fence)item(mcwfences:crimson_picket_fence)item(mcwfences:crimson_stockade_fence)item(mcwfences:crimson_horse_fence)item(mcwfences:crimson_wired_fence)item(mcwfences:warped_picket_fence)item(mcwfences:warped_stockade_fence)item(mcwfences:warped_horse_fence)item(mcwfences:warped_wired_fence)item(mcwfences:oak_hedge)item(mcwfences:spruce_hedge)item(mcwfences:birch_hedge)item(mcwfences:jungle_hedge)item(mcwfences:acacia_hedge)item(mcwfences:dark_oak_hedge)item(mcwfences:mangrove_hedge)item(mcwfences:cherry_hedge)item(mcwfences:modern_stone_brick_wall)item(mcwfences:modern_andesite_wall)item(mcwfences:modern_diorite_wall)item(mcwfences:modern_granite_wall)item(mcwfences:modern_sandstone_wall))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.94d
+			y: 1.93d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "402FF1E4D7717A7D"
+			rewards: [
+				{
+					id: "2D9BFE0267BF0D21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59DE7623E4499D01"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "57EE05C92E22805D"
+					item: {
+						count: 1
+						id: "mcwbridges:rope_oak_bridge"
+					}
+					type: "item"
+				}
+				{
+					id: "1B303511B693D26F"
+					item: {
+						count: 1
+						id: "mcwbridges:pliers"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwbridges:rope_oak_bridge"
+					}
+					id: "4F1D928025B93DF5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwbridges:rope_oak_bridge)item(mcwbridges:rope_spruce_bridge)item(mcwbridges:rope_birch_bridge)item(mcwbridges:rope_jungle_bridge)item(mcwbridges:rope_acacia_bridge)item(mcwbridges:rope_dark_oak_bridge)item(mcwbridges:rope_mangrove_bridge)item(mcwbridges:rope_cherry_bridge)item(mcwbridges:rope_crimson_bridge)item(mcwbridges:rope_warped_bridge)item(mcwbridges:oak_rail_bridge)item(mcwbridges:spruce_rail_bridge)item(mcwbridges:birch_rail_bridge)item(mcwbridges:jungle_rail_bridge)item(mcwbridges:acacia_rail_bridge)item(mcwbridges:dark_oak_rail_bridge)item(mcwbridges:mangrove_rail_bridge)item(mcwbridges:cherry_rail_bridge)item(mcwbridges:crimson_rail_bridge)item(mcwbridges:warped_rail_bridge)item(mcwbridges:cobblestone_bridge)item(mcwbridges:stone_brick_bridge)item(mcwbridges:brick_bridge)item(mcwbridges:andesite_bridge)item(mcwbridges:granite_bridge)item(mcwbridges:diorite_bridge)item(mcwbridges:sandstone_bridge)item(mcwbridges:iron_bridge)item(mcwbridges:glass_bridge)item(mcwbridges:bamboo_bridge))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: 3.23d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "738D460B9DBF23A5"
+			rewards: [
+				{
+					id: "698FED09E1A53713"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "398C35B25C4F4203"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7166726D5AC76F27"
+					item: {
+						count: 1
+						id: "supplementaries:flower_box"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A5F781022412072"
+					item: {
+						count: 1
+						id: "supplementaries:item_shelf"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "supplementaries:jar"
+					}
+					id: "670A1E5FBE136A90"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(supplementaries:jar)item(supplementaries:flower_box)item(supplementaries:item_shelf)item(supplementaries:notice_board)item(supplementaries:globe)item(supplementaries:planter)item(supplementaries:pedestal)item(supplementaries:sack)item(supplementaries:doormat)item(supplementaries:candle_holder)item(supplementaries:hat_stand)item(supplementaries:clock_block)item(supplementaries:wind_vane))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.65d
+			y: 3.64d
+		}
+		{
+			dependencies: ["738D460B9DBF23A5"]
+			id: "73A74258BA4CDD10"
+			rewards: [
+				{
+					id: "55D9FB566BE08FD0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "299FE73D6632CCB4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1D35346F2FE076E5"
+					item: {
+						count: 1
+						id: "supplementaries:timber_frame"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "580B6FD031B967BC"
+					item: {
+						count: 1
+						id: "supplementaries:daub"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "supplementaries:timber_frame"
+					}
+					id: "159B930FE297DF53"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(supplementaries:timber_frame)item(supplementaries:timber_brace)item(supplementaries:timber_cross_brace)item(supplementaries:daub)item(supplementaries:daub_frame)item(supplementaries:daub_brace)item(supplementaries:daub_cross_brace))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.67d
+			y: 5.06d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "07B9BA1B3E67D805"
+			min_width: 300
+			rewards: [
+				{
+					id: "47C028AE38DE32B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5304BA612B337676"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1672A4D74F5F9003"
+					type: "checkmark"
+				}
+			]
+			x: 1.7d
+			y: 5.23d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "54AE7316B0A452D1"
+			rewards: [
+				{
+					id: "2B688F7F89BE5FCE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "64D7B0CFC930879B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6DDC9725728B56B4"
+					item: {
+						count: 1
+						id: "mcwlights:oak_tiki_torch"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "576D34983E0EAB25"
+					item: {
+						count: 1
+						id: "mcwlights:chain_lantern"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwlights:chain_lantern"
+					}
+					id: "533C344A7D7924D8"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwlights:oak_tiki_torch)item(mcwlights:spruce_tiki_torch)item(mcwlights:birch_tiki_torch)item(mcwlights:jungle_tiki_torch)item(mcwlights:acacia_tiki_torch)item(mcwlights:dark_oak_tiki_torch)item(mcwlights:mangrove_tiki_torch)item(mcwlights:cherry_tiki_torch)item(mcwlights:crimson_tiki_torch)item(mcwlights:warped_tiki_torch)item(mcwlights:bamboo_tiki_torch)item(mcwlights:chain_lantern)item(mcwlights:bell_lantern)item(mcwlights:cross_lantern)item(mcwlights:festive_lantern)item(mcwlights:striped_lantern)item(mcwlights:tavern_lantern)item(mcwlights:covered_lantern)item(mcwlights:wall_lantern)item(mcwlights:classic_street_lamp)item(mcwlights:double_street_lamp)item(mcwlights:garden_light)item(mcwlights:lava_lamp)item(mcwlights:iron_chandelier)item(mcwlights:golden_chandelier)item(mcwlights:copper_chandelier)item(mcwlights:iron_candle_holder)item(mcwlights:rustic_torch)item(mcwlights:white_lamp)item(mcwlights:white_paper_lamp))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54AE7316B0A452D1"]
+			id: "1E496E2ED47A7FDD"
+			rewards: [
+				{
+					id: "00F97E62D8A12ACE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C3B007B2CBF8DD8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "121353A3DB0E78CC"
+					item: {
+						count: 1
+						id: "luminax:yellow_luminax_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "luminax:light_blue_luminax_block"
+					}
+					id: "2AC24C5202C2EFEA"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(luminax:blocks)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "73C6F26208A51C9C"
+			rewards: [
+				{
+					id: "029FE98DBCD697AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0256583B9265719A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55BDA1719F14AEAD"
+					item: {
+						count: 1
+						id: "everythingcopper:copper_lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "everythingcopper:copper_lantern"
+					}
+					id: "3B320042F6F0C0CE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(everythingcopper:copper_lantern)item(everythingcopper:copper_soul_lantern)item(everythingcopper:copper_chain)item(everythingcopper:copper_bars)item(everythingcopper:copper_ladder)item(everythingcopper:copper_door)item(everythingcopper:copper_trapdoor)item(everythingcopper:copper_lamp)item(everythingcopper:copper_rail)item(everythingcopper:copper_button)item(everythingcopper:copper_pressure_plate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.7d
+			y: 5.23d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "26D79DF0FCFBA2C5"
+			rewards: [
+				{
+					id: "6A15C4367506B789"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72DA55038CDEDED8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "79BAE9D71052AF73"
+					item: {
+						count: 1
+						id: "mcwpaths:stone_flagstone_path"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwpaths:stone_flagstone_path"
+					}
+					id: "72F3BCF5E0B14BED"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwpaths:oak_planks_path)item(mcwpaths:spruce_planks_path)item(mcwpaths:birch_planks_path)item(mcwpaths:jungle_planks_path)item(mcwpaths:acacia_planks_path)item(mcwpaths:dark_oak_planks_path)item(mcwpaths:mangrove_planks_path)item(mcwpaths:cherry_planks_path)item(mcwpaths:crimson_planks_path)item(mcwpaths:warped_planks_path)item(mcwpaths:bamboo_planks_path)item(mcwpaths:stone_flagstone_path)item(mcwpaths:stone_running_bond_path)item(mcwpaths:stone_windmill_weave_path)item(mcwpaths:stone_strewn_rocky_path)item(mcwpaths:stone_crystal_floor_path)item(mcwpaths:andesite_flagstone_path)item(mcwpaths:andesite_running_bond_path)item(mcwpaths:andesite_windmill_weave_path)item(mcwpaths:andesite_strewn_rocky_path)item(mcwpaths:andesite_crystal_floor_path)item(mcwpaths:andesite_honeycomb_paving)item(mcwpaths:andesite_basket_weave_paving)item(mcwpaths:andesite_square_paving)item(mcwpaths:granite_flagstone_path)item(mcwpaths:granite_running_bond_path)item(mcwpaths:granite_windmill_weave_path)item(mcwpaths:granite_strewn_rocky_path)item(mcwpaths:granite_crystal_floor_path)item(mcwpaths:granite_honeycomb_paving)item(mcwpaths:granite_basket_weave_paving)item(mcwpaths:granite_square_paving)item(mcwpaths:diorite_flagstone_path)item(mcwpaths:diorite_running_bond_path)item(mcwpaths:diorite_windmill_weave_path)item(mcwpaths:diorite_strewn_rocky_path)item(mcwpaths:diorite_crystal_floor_path)item(mcwpaths:diorite_honeycomb_paving)item(mcwpaths:diorite_basket_weave_paving)item(mcwpaths:diorite_square_paving)item(mcwpaths:brick_flagstone_path)item(mcwpaths:brick_running_bond_path)item(mcwpaths:brick_windmill_weave_path)item(mcwpaths:brick_strewn_rocky_path)item(mcwpaths:brick_crystal_floor_path)item(mcwpaths:brick_honeycomb_paving)item(mcwpaths:brick_basket_weave_paving)item(mcwpaths:brick_square_paving)item(mcwpaths:sandstone_flagstone_path)item(mcwpaths:sandstone_running_bond_path)item(mcwpaths:sandstone_windmill_weave_path)item(mcwpaths:sandstone_strewn_rocky_path)item(mcwpaths:sandstone_crystal_floor_path)item(mcwpaths:sandstone_honeycomb_paving)item(mcwpaths:sandstone_basket_weave_paving)item(mcwpaths:sandstone_square_paving)item(mcwpaths:cobbled_deepslate_flagstone_path)item(mcwpaths:cobbled_deepslate_running_bond_path)item(mcwpaths:cobbled_deepslate_windmill_weave_path)item(mcwpaths:cobbled_deepslate_strewn_rocky_path)item(mcwpaths:cobbled_deepslate_crystal_floor_path)item(mcwpaths:cobbled_deepslate_honeycomb_paving)item(mcwpaths:cobbled_deepslate_basket_weave_paving)item(mcwpaths:cobbled_deepslate_square_paving)item(mcwpaths:mossy_stone_flagstone_path)item(mcwpaths:mossy_stone_running_bond_path)item(mcwpaths:mossy_stone_windmill_weave_path)item(mcwpaths:mossy_stone_strewn_rocky_path)item(mcwpaths:mossy_stone_crystal_floor_path)item(mcwpaths:blackstone_flagstone_path)item(mcwpaths:blackstone_running_bond_path)item(mcwpaths:blackstone_windmill_weave_path)item(mcwpaths:blackstone_strewn_rocky_path)item(mcwpaths:blackstone_crystal_floor_path)item(mcwpaths:blackstone_honeycomb_paving)item(mcwpaths:blackstone_basket_weave_paving)item(mcwpaths:blackstone_square_paving))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.65d
+			y: 3.64d
+		}
+		{
+			dependencies: ["26D79DF0FCFBA2C5"]
+			id: "12F5BD1F0D1406B7"
+			optional: true
+			rewards: [
+				{
+					id: "01520A2734098917"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D288B164281116C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E4CDEE42BBEAF59"
+					item: {
+						count: 1
+						id: "mcwholidays:red_oak_leaves"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "590EEC46676AEC58"
+					item: {
+						count: 1
+						id: "mcwholidays:orange_oak_leaves"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mcwholidays:carved_smile_pumpkin"
+					}
+					id: "3E9C226B470DB60E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mcwholidays:red_oak_leaves)item(mcwholidays:orange_oak_leaves)item(mcwholidays:yellow_oak_leaves)item(mcwholidays:brown_oak_leaves)item(mcwholidays:mixed_oak_leaves)item(mcwholidays:snowy_oak_leaves)item(mcwholidays:carved_friendly_pumpkin)item(mcwholidays:carved_smile_pumpkin)item(mcwholidays:small_pumpkin)item(mcwholidays:pair_of_pumpkins)item(mcwholidays:scarecrow)item(mcwholidays:pumpkin_wheelbarrow)item(mcwholidays:snowman)item(mcwholidays:garland)item(mcwholidays:wavy_garland)item(mcwholidays:colorful_string_lights)item(mcwholidays:wreath_wall_deco_1)item(mcwholidays:icicle)item(mcwholidays:wooden_sled)item(mcwholidays:christmas_tree_base))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -3.67d
+			y: 5.06d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "6C9C4B1D8A7D18E5"
+			rewards: [
+				{
+					id: "6BF072D6F8ED0D45"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "49EE006A61FAB694"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0A3B6F2A54A5CD66"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "162A944EED7DD5D2"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_building"
+					}
+					type: "item"
+				}
+			]
+			x: -4.45d
+			y: 3.23d
+		}
+		{
+			dependencies: ["6C9C4B1D8A7D18E5"]
+			id: "5642D750C58BD75A"
+			rewards: [
+				{
+					id: "7C5BCD4312F96F4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3AA302EBA611D883"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D12D7B1E4A606BE"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+					}
+					type: "item"
+				}
+			]
+			x: -5.87d
+			y: 4.26d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "7B86AD6AA450F6EE"
+			rewards: [
+				{
+					id: "41B8BAB8EE1E3BCF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55948BC093763F6E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7B59E1E2E23CF911"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E8652B3F729E379"
+					item: {
+						count: 1
+						id: "charginggadgets:charging_station"
+					}
+					type: "item"
+				}
+			]
+			x: -4.28d
+			y: 1.39d
+		}
+		{
+			dependencies: ["7B86AD6AA450F6EE"]
+			id: "4BEE64357E5E7FD6"
+			optional: true
+			rewards: [
+				{
+					id: "6EC931B0CFD7C2E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48AE11BDC0EA5256"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AD6F18ADA934E35"
+					item: {
+						count: 1
+						id: "wirelesschargers:basic_wireless_player_charger"
+					}
+					type: "item"
+				}
+			]
+			x: -5.94d
+			y: 1.93d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "35D05A93F31D6519"
+			rewards: [
+				{
+					id: "22A06D771E6FBC6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5888E6B41326E7BA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74CBF3602761FAED"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23B5E8CDF1FB3679"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35D05A93F31D6519"]
+			id: "458E44B277264570"
+			optional: true
+			rewards: [
+				{
+					id: "610687568903C272"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "65755468CB017D26"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "762F7313003F93EA"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79C789648601CFF8"
+					item: {
+						count: 1
+						id: "buildinggadgets2:template_manager"
+					}
+					type: "item"
+				}
+			]
+			x: -7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			id: "58D3F3C3A75952A5"
+			optional: true
+			rewards: [
+				{
+					id: "5885DDC6F79B384C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ECD582E0E853B17"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7447AF4ADF9224D2"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+					}
+					type: "item"
+				}
+			]
+			x: -4.28d
+			y: -1.39d
+		}
+		{
+			dependencies: ["4792FFB4325B8F0C"]
+			icon: {
+				count: 1
+				id: "handcrafted:oak_fancy_bed"
+			}
+			id: "2DA61AEB4C78A0AF"
+			rewards: [
+				{
+					id: "7561038E94A5BB16"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "494FB3675B1BAF22"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6469E6C048F59DC7"
+					type: "checkmark"
+				}
+			]
+			x: -4.45d
+			y: -3.23d
+		}
+	]
+}

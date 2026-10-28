@@ -1,0 +1,25 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "croptopia:pear_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:pear_sapling",
+  "input": {
+    "item": "croptopia:pear_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 1400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "hearthandhollow:botanypots/croptopia/pear"
+    }
+  ]
+}

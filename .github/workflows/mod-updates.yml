@@ -1,0 +1,58 @@
+name: mod-updates
+
+# Renovate can't update a packwiz mod: the file id, filename and hash in each
+# .pw.toml change together. packwiz does that itself, so this runs it weekly and
+# opens one PR. CI boots a server from the PR before anyone merges it.
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PACKWIZ_VERSION: v0.0.0-20261014010756-170b22d78595
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version: stable
+      - run: go install github.com/packwiz/packwiz@${PACKWIZ_VERSION}
+      # Files pinned with `packwiz pin` are skipped. The shaderpacks are pinned: their
+      # newest files often aren't tagged 1.21.1, so an update would be a downgrade.
+      - name: update mods
+        run: |
+          packwiz update --all -y | tee update.log
+          packwiz refresh
+          {
+            echo "Weekly mod updates from \`packwiz update --all\`."
+            echo
+            echo "Check the boot test, then launch a client before merging: CI can't test client-only mods."
+            echo
+            echo '```'
+            sed -n '/^Updates found:/,/^Do you want/p' update.log | sed '1d;$d'
+            echo '```'
+          } > pr-body.md
+          rm update.log
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          # GITHUB_TOKEN-opened PRs don't trigger CI; see release.yml.
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN || github.token }}
+          branch: fix/mod-updates
+          delete-branch: true
+          title: "fix(mods): weekly mod updates"
+          commit-message: "fix(mods): weekly mod updates"
+          body-path: pr-body.md
+          add-paths: |
+            mods/
+            index.toml
+            pack.toml

@@ -1,0 +1,138 @@
+{
+	id: "27DF773AF193952A"
+	loot_crate: {
+		color: 11049608
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 0b
+		string_id: "kindling"
+	}
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "1AD0EF17BFA5E24B"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{
+			count: 8
+			id: "3D3D084A308AF29D"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+		}
+		{
+			count: 6
+			id: "261103D2C280CBBA"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 16
+			id: "177755B4337710A8"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 8
+			id: "78E859FD62F90BE9"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 12
+			id: "68C7FE3D4163C279"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "3B97420CA225C55B"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "22885DFC936F2057"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "477914713D0F1699"
+			item: {
+				count: 1
+				id: "minecraft:cherry_sapling"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 6
+			id: "484FFD9128485ED4"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "5666F772B9A1DC7F"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "16D93C4D89680932"
+			item: {
+				count: 1
+				id: "minecraft:candle"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "4571E50500A0821D"
+			item: {
+				count: 1
+				id: "minecraft:flower_pot"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 6
+			id: "663F377BA5045A91"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+			weight: 0.6f
+		}
+	]
+	use_title: true
+}

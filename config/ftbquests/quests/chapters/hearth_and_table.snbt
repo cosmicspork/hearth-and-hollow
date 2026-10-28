@@ -1,0 +1,1282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hearth_and_table"
+	group: "6D64CA34D687FD52"
+	icon: {
+		count: 1
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "26CBCB3533099AA7"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "farmersdelight:flint_knife"
+			}
+			id: "01EFE30897AF9B5A"
+			rewards: [
+				{
+					id: "74AC10CC2B2083D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2A70959C82E882A0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
+					id: "11E1DA99C8BE82EC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:flint_knife)item(farmersdelight:iron_knife)item(farmersdelight:golden_knife)item(farmersdelight:diamond_knife)item(farmersdelight:netherite_knife))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01EFE30897AF9B5A"]
+			id: "26AF74EA4C09B57C"
+			rewards: [
+				{
+					id: "6AF5134FA51404A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "131883B3EF50AA99"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "69726CD283ED9ADD"
+					item: {
+						count: 1
+						id: "farmersdelight:straw"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01EFE30897AF9B5A"]
+			id: "6AF886AF6C938EDD"
+			rewards: [
+				{
+					id: "5F7EA6B93A7128FC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "714134B336374943"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19DDD205E997C837"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A9C2DBA3D7345BD"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					id: "4477CD302009AFF7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:cabbage)item(farmersdelight:tomato)item(farmersdelight:onion)item(farmersdelight:rice))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AF886AF6C938EDD"]
+			id: "533E9A11E9D7F019"
+			rewards: [
+				{
+					id: "164CD84AA217499B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BC98B13E01AF8AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5621E5DF2FF5F64C"
+					item: {
+						count: 1
+						id: "croptopia:lettuce_seed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "croptopia:strawberry_seed"
+					}
+					id: "7F99FC3B51108E4D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(croptopia:lettuce_seed)item(croptopia:garlic_seed)item(croptopia:strawberry_seed)item(croptopia:corn_seed)item(croptopia:tomato_seed)item(croptopia:basil_seed)item(croptopia:bellpepper_seed)item(croptopia:onion_seed)item(croptopia:rice_seed)item(croptopia:ginger_seed))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["533E9A11E9D7F019"]
+			id: "6CC432F2B3F3FECF"
+			rewards: [
+				{
+					id: "46B30F80C896A736"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "559B5BB1226B6DF7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					icon: {
+						count: 1
+						id: "croptopia:orange_sapling"
+					}
+					id: "46C56977A68CECF0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(croptopia:almond_sapling)item(croptopia:apple_sapling)item(croptopia:apricot_sapling)item(croptopia:avocado_sapling)item(croptopia:banana_sapling)item(croptopia:cashew_sapling)item(croptopia:cherry_sapling)item(croptopia:cinnamon_sapling)item(croptopia:coconut_sapling)item(croptopia:date_sapling)item(croptopia:dragonfruit_sapling)item(croptopia:fig_sapling)item(croptopia:grapefruit_sapling)item(croptopia:kumquat_sapling)item(croptopia:lemon_sapling)item(croptopia:lime_sapling)item(croptopia:mango_sapling)item(croptopia:nectarine_sapling)item(croptopia:nutmeg_sapling)item(croptopia:orange_sapling)item(croptopia:peach_sapling)item(croptopia:pear_sapling)item(croptopia:pecan_sapling)item(croptopia:persimmon_sapling)item(croptopia:plum_sapling)item(croptopia:starfruit_sapling)item(croptopia:walnut_sapling))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "croptopia:orange"
+					}
+					id: "2F762CD33931A90D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(croptopia:almond)item(croptopia:apricot)item(croptopia:avocado)item(croptopia:banana)item(croptopia:cashew)item(croptopia:cherry)item(croptopia:coconut)item(croptopia:date)item(croptopia:dragonfruit)item(croptopia:fig)item(croptopia:grapefruit)item(croptopia:kumquat)item(croptopia:lemon)item(croptopia:lime)item(croptopia:mango)item(croptopia:nectarine)item(croptopia:orange)item(croptopia:peach)item(croptopia:pear)item(croptopia:pecan)item(croptopia:persimmon)item(croptopia:plum)item(croptopia:starfruit)item(croptopia:walnut))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AF886AF6C938EDD"]
+			id: "7EAF12A262A3D126"
+			rewards: [
+				{
+					id: "3EEE9882E1B5DD2F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E1C686F6BBCEDD4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "708C38A44A9066A3"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E9ABFCA0285481C"
+					item: {
+						count: 1
+						id: "farmingforblockheads:market"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EAF12A262A3D126"]
+			id: "4C96A0F8665954F6"
+			optional: true
+			rewards: [
+				{
+					id: "7CF04F5E6776820E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39F76CD64CFE5DA0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "farmingforblockheads:green_fertilizer"
+					}
+					id: "1F0C5F131D2DBD47"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(farmingforblockheads:red_fertilizer)item(farmingforblockheads:green_fertilizer)item(farmingforblockheads:yellow_fertilizer))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AF886AF6C938EDD"]
+			id: "0B84A3E5BE9783DF"
+			rewards: [
+				{
+					id: "5AB063FED5C40FCC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08CADA74BA66BE22"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63808C1870918E6F"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B84A3E5BE9783DF"]
+			id: "7954892B593269ED"
+			rewards: [
+				{
+					id: "0105BAEEA6285C26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "13D1D5D40EF6C442"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60380FE23C10AB61"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7954892B593269ED"]
+			id: "7D8106D659F1FE1E"
+			optional: true
+			rewards: [
+				{
+					id: "3BE9D918B28E1227"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "163D2F43641109EA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5615127883079CB7"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B84A3E5BE9783DF"]
+			id: "16B6BBC93215E6BF"
+			optional: true
+			rewards: [
+				{
+					id: "18A472F5B44AAEE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "44888AFFE40668FD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "313DB0F64AC49DDD"
+					item: {
+						count: 1
+						id: "farmingforblockheads:feeding_trough"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16B6BBC93215E6BF"]
+			id: "602CCEDB5F28ED21"
+			optional: true
+			rewards: [
+				{
+					id: "205BE6BCC145EB63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63BC272DFCA0255D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35CF72A8231367F5"
+					item: {
+						count: 1
+						id: "farmingforblockheads:chicken_nest"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B84A3E5BE9783DF"]
+			id: "6F7946E42B17D436"
+			rewards: [
+				{
+					id: "106F9A1FD0BD2E82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67AD40BC7DA1F6C2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56BDB76A78F4649D"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7946E42B17D436"]
+			id: "3FD66994E830D38E"
+			rewards: [
+				{
+					id: "18EF0E13550000BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E56C4DBC7BF087E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "788EFCB59F5AA9EC"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F7946E42B17D436"]
+			id: "011DA9679A6EC6A1"
+			optional: true
+			rewards: [
+				{
+					id: "692727ED0A49800C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "38208D664F80C8EF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "583F968666664CF7"
+					item: {
+						count: 1
+						id: "farmersdelight:skillet"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F7946E42B17D436"]
+			icon: {
+				count: 1
+				id: "solcarrot:food_book"
+			}
+			id: "7176D1C3D0815DF5"
+			rewards: [
+				{
+					id: "5783DC11E861FFD0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "7F834CB747BE4019"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7336271231723C5E"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7176D1C3D0815DF5"]
+			id: "5B8915F850F2D439"
+			rewards: [
+				{
+					id: "2FB98254F552EC69"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71119869CA87DF23"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "croptopia:frying_pan"
+					}
+					id: "776AC08B80C4FAEA"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(croptopia:frying_pan)item(croptopia:cooking_pot)item(croptopia:knife)item(croptopia:mortar_and_pestle)item(croptopia:food_press))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7176D1C3D0815DF5"]
+			id: "39BE6161684FC574"
+			optional: true
+			rewards: [
+				{
+					id: "206A03AB5C9C4112"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "416A82D3507A0FA2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "culturaldelights:corn_cob"
+					}
+					id: "4110C6C679DB677F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(culturaldelights:corn_cob)item(culturaldelights:cucumber)item(culturaldelights:eggplant)item(culturaldelights:white_eggplant)item(culturaldelights:beans)item(culturaldelights:avocado)item(culturaldelights:lemon))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7176D1C3D0815DF5"]
+			id: "010C799C31E428CC"
+			rewards: [
+				{
+					id: "649601927B2FEE2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "52324E789A3D4C7A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0F545293ED34CCF1"
+					item: {
+						count: 1
+						id: "cookingforblockheads:recipe_book"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["010C799C31E428CC"]
+			id: "2D4F71A8058260DE"
+			rewards: [
+				{
+					id: "304099F05E701CA4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6580B9A13BD4C303"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "4A3A331ED579552F"
+					item: {
+						count: 1
+						id: "cookingforblockheads:toaster"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "cookingforblockheads:cooking_table"
+					}
+					id: "35ECD5C223642F60"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cookingforblockheads:cooking_table)item(cookingforblockheads:white_cooking_table)item(cookingforblockheads:orange_cooking_table)item(cookingforblockheads:magenta_cooking_table)item(cookingforblockheads:light_blue_cooking_table)item(cookingforblockheads:yellow_cooking_table)item(cookingforblockheads:lime_cooking_table)item(cookingforblockheads:pink_cooking_table)item(cookingforblockheads:gray_cooking_table)item(cookingforblockheads:light_gray_cooking_table)item(cookingforblockheads:cyan_cooking_table)item(cookingforblockheads:purple_cooking_table)item(cookingforblockheads:blue_cooking_table)item(cookingforblockheads:brown_cooking_table)item(cookingforblockheads:green_cooking_table)item(cookingforblockheads:red_cooking_table)item(cookingforblockheads:black_cooking_table))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D4F71A8058260DE"]
+			id: "2F2DA16F3553EA88"
+			rewards: [
+				{
+					id: "0C72AE04BC3667A6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D740CEF9246354C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0A5F1ADCE0ECA3CC"
+					item: {
+						count: 1
+						id: "cookingforblockheads:spice_rack"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "cookingforblockheads:white_fridge"
+					}
+					id: "7C29DEF7D1A02221"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cookingforblockheads:fridge)item(cookingforblockheads:white_fridge)item(cookingforblockheads:orange_fridge)item(cookingforblockheads:magenta_fridge)item(cookingforblockheads:light_blue_fridge)item(cookingforblockheads:yellow_fridge)item(cookingforblockheads:lime_fridge)item(cookingforblockheads:pink_fridge)item(cookingforblockheads:gray_fridge)item(cookingforblockheads:light_gray_fridge)item(cookingforblockheads:cyan_fridge)item(cookingforblockheads:purple_fridge)item(cookingforblockheads:blue_fridge)item(cookingforblockheads:brown_fridge)item(cookingforblockheads:green_fridge)item(cookingforblockheads:red_fridge)item(cookingforblockheads:black_fridge))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "cookingforblockheads:counter"
+					}
+					id: "7ADF8B736859CB28"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cookingforblockheads:counter)item(cookingforblockheads:white_counter)item(cookingforblockheads:orange_counter)item(cookingforblockheads:magenta_counter)item(cookingforblockheads:light_blue_counter)item(cookingforblockheads:yellow_counter)item(cookingforblockheads:lime_counter)item(cookingforblockheads:pink_counter)item(cookingforblockheads:gray_counter)item(cookingforblockheads:light_gray_counter)item(cookingforblockheads:cyan_counter)item(cookingforblockheads:purple_counter)item(cookingforblockheads:blue_counter)item(cookingforblockheads:brown_counter)item(cookingforblockheads:green_counter)item(cookingforblockheads:red_counter)item(cookingforblockheads:black_counter))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "cookingforblockheads:sink"
+					}
+					id: "3B17F4E26387A4C9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(cookingforblockheads:sink)item(cookingforblockheads:white_sink)item(cookingforblockheads:orange_sink)item(cookingforblockheads:magenta_sink)item(cookingforblockheads:light_blue_sink)item(cookingforblockheads:yellow_sink)item(cookingforblockheads:lime_sink)item(cookingforblockheads:pink_sink)item(cookingforblockheads:gray_sink)item(cookingforblockheads:light_gray_sink)item(cookingforblockheads:cyan_sink)item(cookingforblockheads:purple_sink)item(cookingforblockheads:blue_sink)item(cookingforblockheads:brown_sink)item(cookingforblockheads:green_sink)item(cookingforblockheads:red_sink)item(cookingforblockheads:black_sink))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D4F71A8058260DE"]
+			id: "6269BD5E294CD53A"
+			optional: true
+			rewards: [
+				{
+					id: "21922F4005B6675B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67BE212ADA085824"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0340B10B203BECAA"
+					item: {
+						count: 1
+						id: "cookingforblockheads:cow_jar"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D4F71A8058260DE"]
+			icon: {
+				count: 1
+				id: "solcarrot:food_book"
+			}
+			id: "6F341E1F6E495AC2"
+			rewards: [
+				{
+					id: "46BE18D384FFD83D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6650E3C86ED61D01"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "62072197BE75639F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "17C048CD6FFF9B98"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F341E1F6E495AC2"]
+			id: "43FC015E34776F75"
+			rewards: [
+				{
+					id: "6C6FD4A728718A81"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B33C56174FAF3D3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FD3B3A631121558"
+					item: {
+						count: 1
+						id: "aquaculture:iron_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43FC015E34776F75"]
+			id: "0B29A883C2F19A1E"
+			rewards: [
+				{
+					id: "59DD01FDDBE37BA6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59FA466C04EFF49F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C4F2CC45634C535"
+					item: {
+						count: 1
+						id: "aquaculture:worm"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E2247C1C82E1AC7"
+					item: {
+						count: 1
+						id: "aquaculture:tackle_box"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B29A883C2F19A1E"]
+			id: "1807251A0DBF9634"
+			rewards: [
+				{
+					id: "2F34B241FE2CEB79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DF00210B5576AD0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "aquaculture:tuna"
+					}
+					id: "3AABB44BD8469EF6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aquaculture:tuna)item(aquaculture:catfish)item(aquaculture:arapaima)item(aquaculture:muskellunge)item(aquaculture:pacific_halibut)item(aquaculture:atlantic_halibut)item(aquaculture:red_grouper))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F341E1F6E495AC2"]
+			id: "1F62F17ACBD1A0A7"
+			rewards: [
+				{
+					id: "4B19B5217286D417"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76A1B483A51BB43D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0ABF664390DEA21F"
+					item: {
+						count: 1
+						id: "aquaculture:fish_fillet_raw"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F62F17ACBD1A0A7"]
+			id: "45423E939EF42180"
+			optional: true
+			rewards: [
+				{
+					id: "11E97839F328833D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A9DA119675C4484"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "aquaculture:oak_fish_mount"
+					}
+					id: "1C3F7DC0897AB54C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aquaculture:oak_fish_mount)item(aquaculture:spruce_fish_mount)item(aquaculture:birch_fish_mount)item(aquaculture:jungle_fish_mount)item(aquaculture:acacia_fish_mount)item(aquaculture:dark_oak_fish_mount))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F341E1F6E495AC2"]
+			icon: {
+				count: 1
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "6B00282E9FE189A4"
+			rewards: [
+				{
+					id: "6C14ED7A17B88C53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "210AD3418F1337A8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					id: "53A32D7647AC1972"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(farmersdelight:roast_chicken_block)item(farmersdelight:honey_glazed_ham_block)item(farmersdelight:shepherds_pie_block)item(farmersdelight:stuffed_pumpkin_block)item(farmersdelight:rice_roll_medley_block)item(culturaldelights:eggplant_parmesan_block))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B00282E9FE189A4"]
+			icon: {
+				count: 1
+				id: "solcarrot:food_book"
+			}
+			id: "7A74DD440B26E87A"
+			rewards: [
+				{
+					id: "7340DDDFBFE533CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4323A3053ECED524"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB31AF42AAB1225"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "46AB2698EE8C3056"
+					item: {
+						count: 1
+						id: "farmersdelight:diamond_knife"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "28ABCB74FC0E9352"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

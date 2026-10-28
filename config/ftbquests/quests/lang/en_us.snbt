@@ -1,0 +1,3021 @@
+{
+	chapter.07BB46C630FA3246.chapter_subtitle: ["Ores, where they hide, and faster ways to dig"]
+	chapter.07BB46C630FA3246.title: "Into the Hollow"
+	chapter.086C57609DB3DB96.chapter_subtitle: ["Big machines, lasers, and ore from below the bedrock"]
+	chapter.086C57609DB3DB96.title: "Oritech"
+	chapter.109E2C32DE0A3837.chapter_subtitle: ["Three endgame metals, two strange dimensions and some very big tables"]
+	chapter.109E2C32DE0A3837.title: "Allthemodium Ascent"
+	chapter.1D4A618624BD29FC.chapter_subtitle: ["Chests that grow, pipes that carry, routers that sort"]
+	chapter.1D4A618624BD29FC.title: "Packing It In"
+	chapter.1EAC187E22BADD01.chapter_subtitle: ["Artifacts, relics, and a few extra hearts"]
+	chapter.1EAC187E22BADD01.title: "Curios \\& Keepsakes"
+	chapter.202EED7366C92DEC.chapter_subtitle: ["Your first night, and some tips and tricks"]
+	chapter.202EED7366C92DEC.title: "Welcome Home"
+	chapter.26CBCB3533099AA7.chapter_subtitle: ["Grow it, catch it, cook it, and eat a little of everything"]
+	chapter.26CBCB3533099AA7.title: "Hearth \\& Table"
+	chapter.31F28E2FD86A0C95.chapter_subtitle: ["Jetpacks, elevators and a waystone network of your own"]
+	chapter.31F28E2FD86A0C95.title: "Up \\& Away"
+	chapter.3380E1EE475D131E.chapter_subtitle: ["From stone to netherite, and the small upgrades that make it last"]
+	chapter.3380E1EE475D131E.title: "Tools of the Trade"
+	chapter.3EA4678A9B0E7634.chapter_subtitle: ["One network for everything: disks, grids, autocrafting, wireless access and chemicals"]
+	chapter.3EA4678A9B0E7634.title: "Refined Storage"
+	chapter.4BF4F37B8A473892.chapter_subtitle: ["Grow your resources, then let the farm run itself"]
+	chapter.4BF4F37B8A473892.title: "Green Thumb"
+	chapter.50A71B15CF9C9BA4.chapter_subtitle: ["Roofs, chairs, lamps and a gadget that builds walls"]
+	chapter.50A71B15CF9C9BA4.title: "The Builder's Bench"
+	chapter.5201D4A39447C9B2.chapter_subtitle: ["Up to five ingots from every ore"]
+	chapter.5201D4A39447C9B2.title: "Mekanism"
+	chapter.6A08833828DDC5F3.chapter_subtitle: ["The capstone: one tool, every road"]
+	chapter.6A08833828DDC5F3.title: "The Alloy Paxel"
+	chapter.7030ACE742146D78.chapter_subtitle: ["Repeatable deliveries and hunts, in three tiers"]
+	chapter.7030ACE742146D78.title: "Bounty Board"
+	chapter.7183322E45A36FDC.chapter_subtitle: ["Strange biomes, sky islands, old towns and older ruins"]
+	chapter.7183322E45A36FDC.title: "Wanderlust"
+	chapter.795AB1D39D51C32D.chapter_subtitle: ["Better gear, harder fights"]
+	chapter.795AB1D39D51C32D.title: "Monsters \\& Mettle"
+	chapter.7EA6232EE1978E1C.chapter_subtitle: ["From a coal generator to a reactor, carried anywhere"]
+	chapter.7EA6232EE1978E1C.title: "Sparks"
+	chapter_group.35FD6D18A971484E.title: "Out in the World"
+	chapter_group.3D424858AC8D0F3F.title: "The Long Road"
+	chapter_group.6D64CA34D687FD52.title: "Getting Settled"
+	chapter_group.6FE350D5D0123F96.title: "Always Open"
+	chapter_group.73D6AE1B18A4548B.title: "Making It Hum"
+	file.0000000000000001.title: "Hearth \\& Hollow"
+	quest.003E10B908F86968.quest_desc: [
+		"A netherite pickaxe or paxel: the best tool you can carry without a machine behind it."
+		""
+		"From here, the tech chapters take over. Stronger gear is out there, but this will carry you a very long way."
+	]
+	quest.003E10B908F86968.title: "Built to Last"
+	quest.00A10C0097A2F25A.quest_desc: [
+		"Refined Types adds &eEnergy Storage Disks&r, which hold FE in a Disk Drive like any other resource."
+		""
+		"A &eNetwork Energizer&r, eight copper blocks around an Interface, draws on those disks to keep the network running."
+	]
+	quest.00A10C0097A2F25A.title: "Power in the Bank"
+	quest.010C799C31E428CC.quest_desc: [
+		"Smelt a plain book and you get &eCooking for Blockheads I&r: a recipe book that shows every food you can make with what you're carrying."
+		""
+		"It's also the first step toward a full kitchen. Add a crafting table and two diamonds to make &eCooking for Blockheads II&r, which goes into the Cooking Table."
+	]
+	quest.010C799C31E428CC.title: "Cooking for Blockheads"
+	quest.011DA9679A6EC6A1.quest_desc: [
+		"A &eSkillet&r is a frying pan you carry. Stand near a heat source, hold the skillet, and put food in your other hand to cook it."
+		""
+		"Sneak to place it as a block, on a stove for instance. It also makes a fine club in a pinch."
+	]
+	quest.011DA9679A6EC6A1.title: "Cooking on the Go"
+	quest.01EFE30897AF9B5A.quest_desc: [
+		"Steak and bread will keep you going. This chapter is about eating well: growing your own food, catching fish, and turning it all into proper meals."
+		""
+		"Start with a &eknife&r. It's a kitchen tool and a weapon, and it gets more out of plants and animals than your bare hands. A flint one is fine for now."
+	]
+	quest.01EFE30897AF9B5A.title: "Hearth \\& Table"
+	quest.0206A15D6B33C72C.quest_desc: [
+		"Somewhere out there, whole biomes of land float high above the ground: Terralith's &eSkylands&r, in spring, summer, autumn and winter colors."
+		""
+		"Let the Nature's Compass find one. Bring blocks to climb up, and a paraglider for the way down."
+	]
+	quest.0206A15D6B33C72C.title: "Above the Clouds"
+	quest.02116DB82D768CF8.quest_desc: [
+		"Alloys won't hold without something to bind them. A &ePiglich Heart&r does it."
+		""
+		"Piglichs guard the &eAncient Pyramids&r in the soul sand valleys of the Other. Each one drops a heart. Bring friends."
+		""
+		"Once you've met one, a Hostile Networks model can learn them, and every Piglich prediction fabricates four hearts. The tools and the paxel take eighteen hearts between them, so the model pays for itself."
+	]
+	quest.02116DB82D768CF8.title: "Heart of a Lich"
+	quest.023B3A10D76CF2E9.quest_desc: [
+		"The world out there is bigger and stranger than you'd think. Terralith reshapes the land into dozens of new biomes, islands float overhead, and towns, towers and ruins wait to be found."
+		""
+		"Craft a &eNature's Compass&r: a compass ringed with saplings and logs. Open it, pick a biome and press &eStart Search&r. The needle points the way and the screen shows the coordinates."
+		""
+		"It won't teleport you. The walk is the point."
+	]
+	quest.023B3A10D76CF2E9.title: "Wanderlust"
+	quest.024A7C9C1B8D951F.quest_desc: [
+		"Hold &e`&r (the key above Tab) and break a block. Every matching block touching it breaks too: a whole ore vein, a tree, a patch of gravel."
+		""
+		"While holding it, the up and down arrows change the shape, for tunnels or flat layers."
+		""
+		"Each extra block costs a little hunger, so eat first."
+	]
+	quest.024A7C9C1B8D951F.title: "Mine a Vein"
+	quest.0275CC16427ED3E9.quest_desc: [
+		"Once you have a paxel, you can make more without the tech pieces. Put yours in the middle of a crafting table with eight blocks of alloy around it: Vibranium-Allthemodium and Unobtainium-Vibranium on the corners, two of each, and Unobtainium-Allthemodium on the four sides."
+		""
+		"Your paxel stays in the grid, so you end up with two. Pass one on, or keep a spare."
+	]
+	quest.0275CC16427ED3E9.title: "One for a Friend"
+	quest.0299C1CAECBAD261.quest_desc: [
+		"Some keepsakes are made for a scrap:"
+		""
+		"the &eVampiric Glove&r drains life from what you hit, the &ePower Glove&r hits harder, &eFeral Claws&r swing faster, and the &eCross Necklace&r keeps you safe a moment longer after a hit."
+		""
+		"Any one of them will do."
+	]
+	quest.0299C1CAECBAD261.title: "A Fighting Chance"
+	quest.02BAEEEB6FEBDA21.quest_desc: [
+		"Powah's &eReactor&r is a big generator built from 36 reactor blocks. Hold all of them and place one where there's open room, 3 blocks across and 4 tall: the reactor builds itself."
+		""
+		"It runs on &eUraninite&r. Energize uranium ingots in the orb to make it, both for the blocks and for fuel."
+		""
+		"Wire it into a flux network and your whole world has power. Higher tiers of reactor make much more."
+	]
+	quest.02BAEEEB6FEBDA21.title: "Reactor"
+	quest.02BC9448B77D2685.quest_desc: [
+		"&eLead&r, &eSilver&r, &eNickel&r and &eOsmium&r keep below sea level, and they're thickest around the top of the deepslate."
+		""
+		"Osmium is the one you'll want most: a lot of Mekanism runs on it. Grab every vein you see."
+	]
+	quest.02BC9448B77D2685.title: "Below Sea Level"
+	quest.03888092D173CBED.quest_desc: [
+		"Upgrades go into the gadget at a &eModification Table&r. Put the gadget in, then drop upgrades onto the screen."
+		""
+		"Click an installed upgrade to take it back out."
+	]
+	quest.03888092D173CBED.title: "Modification Table"
+	quest.03CD6EA75FF72BF7.quest_desc: [
+		"For the miners among us:"
+		""
+		"&eDigging Claws&r speed up mining, the &eLucky Scarf&r adds a little Fortune, the &ePickaxe Heater&r smelts ore as you dig it, and &eNight Vision Goggles&r light up the dark."
+		""
+		"Wear one while you mine and it levels up as you go."
+	]
+	quest.03CD6EA75FF72BF7.title: "Pocket Prospector"
+	quest.03D4D2011F0DD177.quest_desc: [
+		"The &eCrusher&r grinds ingots back into dust and, more to the point, turns &eClumps&r into &eDirty Dust&r."
+		""
+		"Dirty Dust goes back through the Enrichment Chamber to come out clean. Every higher tier of ore processing ends with this pair, so build them side by side."
+	]
+	quest.03D4D2011F0DD177.title: "The Crusher"
+	quest.03DBD108CAB3356F.quest_desc: [
+		"Fluids get disks too. A &e64B Fluid Storage Disk&r holds 64 buckets, and the bigger ones go up from there."
+		""
+		"Stored fluids show up in the Grid right next to your items."
+	]
+	quest.03DBD108CAB3356F.title: "Liquid Assets"
+	quest.0598186D0C1FD3C3.quest_desc: [
+		"No socket on your favorite sword? A &eSigil of Socketing&r adds one. Combine the item and the sigil in a Smithing Table."
+		""
+		"Sigils can add up to two sockets to an item."
+		""
+		"The recipe needs &eGem-Fused Slate&r, which is deepslate around a pinch of Gem Dust."
+	]
+	quest.0598186D0C1FD3C3.title: "Make Some Room"
+	quest.06215D112F4387BC.quest_desc: [
+		"A full set of &ediamond armor&r is a real step up from iron, and it's the base for netherite later."
+		""
+		"Don't throw it away when you find netherite: you'll upgrade each piece in a smithing table, and it keeps its enchantments."
+	]
+	quest.06215D112F4387BC.title: "Dressed in Diamond"
+	quest.0684FFD80B7BF030.quest_desc: [
+		"Past netherite sit three harder metals: &eAllthemodium&r, &eVibranium&r and &eUnobtainium&r. Each hides somewhere stranger than the last, and each needs a pickaxe made from the one before."
+		""
+		"Allthemodium Ore needs at least a netherite pickaxe, so that's where the climb starts."
+	]
+	quest.0684FFD80B7BF030.title: "Beyond Netherite"
+	quest.068FA4414CCAC321.quest_desc: [
+		"No need to tear out your generator to get a better one. Right-click a placed one with an upgrade, such as &eCopper to Iron Upgrade&r, and it changes on the spot."
+		""
+		"Iron makes twice what copper does, gold twice that again, and the ladder keeps climbing through diamond and beyond."
+	]
+	quest.068FA4414CCAC321.title: "Turn It Up"
+	quest.06F534555780A3B1.quest_desc: [
+		"The ones you'll reach for most:"
+		""
+		"&e`&r  Ultimine"
+		"&eB&r  Open your backpack"
+		"&eM&r  Claim map"
+		"&eJ&r  Full JourneyMap"
+		"&eShift+B&r  New waypoint"
+		"&eShift+G&r  Curios slots, for rings, charms and belts"
+		"&eShift+E&r  Crafting on a Stick, and later the wireless grid"
+		"&eCtrl+M&r  Turn your magnet on or off"
+		"&eR&r / &eU&r  Recipes and uses, while hovering an item"
+		""
+		"Change any of them under Options, Controls, Key Binds. The search box at the top finds a key by name."
+	]
+	quest.06F534555780A3B1.title: "Keys Worth Knowing"
+	quest.0728E3B31BA30CC0.quest_desc: [
+		"Power needs a road. Powah's &eEnergy Cables&r carry it from generators to machines."
+		""
+		"Nearly every Powah recipe starts with &eDielectric Paste&r: three coal, two clay balls and a bucket of lava make a big batch."
+		""
+		"Pipez &eEnergy Pipes&r work too, if you'd rather match your item pipes."
+	]
+	quest.0728E3B31BA30CC0.title: "Carry the Current"
+	quest.07431CCAB9825F77.quest_desc: [
+		"The &eBasic Generator&r burns ordinary furnace fuel, like coal, charcoal or wood, and makes 32 RF a tick. That's enough for your first few machines."
+		""
+		"It's cheap and needs no multiblock, so build a second or third rather than waiting for something better."
+	]
+	quest.07431CCAB9825F77.title: "Your First Oritech Machine"
+	quest.078FCCEEAB719D91.quest_desc: [
+		"Mekanism turns one ore into two ingots, then three, then four, and finally five. Each step is a new machine and a new chemical, and each one pays you back on every ore you mine from then on."
+		""
+		"Almost all of it starts with &eosmium&r. Smelt a stack and keep it handy."
+	]
+	quest.078FCCEEAB719D91.title: "Mekanism"
+	quest.07B9BA1B3E67D805.quest_desc: [
+		"Amendments lets ordinary blocks go where they couldn't before:"
+		""
+		"Lanterns hang on walls"
+		"Carpet lies on stairs and slabs"
+		"Flower pots hang from the ceiling"
+		"Banners hang from the ceiling, too"
+		"Tools hang on tripwire hooks"
+		"Items sit on hanging signs"
+		"Cakes stack, and can be eaten from any side"
+		""
+		"No new blocks to learn. Just try it."
+	]
+	quest.07B9BA1B3E67D805.title: "Small Touches"
+	quest.07E13ADC954AED93.quest_desc: [
+		"A Wireless Transmitter stops at the edge of its range and at the edge of the dimension it's in. The &eInterdimensional Wireless Transmitter&r doesn't: infinite range, from any dimension."
+		""
+		"It takes four Wireless Transmitters, four nether stars and an elytra, and it draws more power than an ordinary one."
+		""
+		"One last thing: a &e64k Storage Disk&r is part of the &eAllthemodium Alloy Paxel&r recipe. The paxel quest gives it back once you've crafted it."
+	]
+	quest.07E13ADC954AED93.title: "No Borders"
+	quest.080B9D0F0230DC03.quest_desc: [
+		"Suspicious sand and gravel can hide artifacts too. Look around desert pyramids, desert wells, ocean ruins and trail ruins."
+		""
+		"Hold right-click with a &eBrush&r to dust it off. Mine it with a tool instead and whatever was inside is lost."
+	]
+	quest.080B9D0F0230DC03.title: "Brush Up"
+	quest.0855FCBDDE619451.quest_desc: [
+		"A &eSharestone&r is a waystone with a color. It takes you to any other sharestone of the same color."
+		""
+		"Give each part of your world its own color: blue for the coast, green for the farms. Playing with friends? A shared color makes a meeting place everyone can reach."
+	]
+	quest.0855FCBDDE619451.title: "Sharestones"
+	quest.086155A9E07F1B84.quest_desc: [
+		"&eTin&r, &eZinc&r and &eAluminum&r spread through a tall band of stone, from deep caves up into the hills. Any decent caving trip turns some up."
+		""
+		"Aluminum climbs highest of all, so look in mountain cliffs too."
+	]
+	quest.086155A9E07F1B84.title: "Everyday Metals"
+	quest.088391B0BEA824F5.quest_desc: [
+		"In dark caves you may find small, glinting bushes. Those are &eOreberry Bushes&r, and they grow metal."
+		""
+		"Break one and it comes with you. Replant it somewhere dark: they won't take root in the light."
+	]
+	quest.088391B0BEA824F5.title: "Berries That Grow Metal"
+	quest.093A6FEC87B7921C.quest_desc: [
+		"Fire makes wind. Glide over a lit &eCampfire&r or an open fire and the rising air lifts you up."
+		""
+		"Rising air uses stamina too, so catch your breath before a long flight."
+	]
+	quest.093A6FEC87B7921C.title: "Warm Air Rising"
+	quest.0963E028E48BD57C.quest_desc: ["Any crop at all, from wheat to whatever Croptopia grows."]
+	quest.0963E028E48BD57C.quest_subtitle: "Odd Job"
+	quest.0963E028E48BD57C.title: "Harvest Help"
+	quest.0986D3CB4ECEDA74.quest_desc: [
+		"A &eGrowth Accelerator&r goes under your farmland and speeds up the crop above it."
+		""
+		"Stack several, of any tier, as long as the crop is within their range. The tooltip shows each one's range."
+	]
+	quest.0986D3CB4ECEDA74.title: "Growth Accelerator"
+	quest.0A696EC87643D065.quest_desc: [
+		"When a research finishes, install it from the center's screen. Installing costs a one-time fee in materials, and the augment stays with you after that, with no upkeep."
+		""
+		"Hold &eCtrl+G&r to open the augment wheel and switch any installed augment on or off. Handy when Night Vision gets a bit much."
+		""
+		"Augments can be removed, but what you paid to install them isn't refunded."
+	]
+	quest.0A696EC87643D065.title: "Augmented"
+	quest.0B29A883C2F19A1E.quest_desc: [
+		"Put your rod in a &eTackle Box&r to fit it with a hook, bait, fishing line and a bobber."
+		""
+		"Hooks change how it fishes: a Double Hook can catch two at once, a Light Hook casts farther, and a Note Hook plays a sound when a fish is coming."
+		""
+		"&eWorms&r make good bait. A Worm Farm will raise them for you."
+	]
+	quest.0B29A883C2F19A1E.title: "The Tackle Box"
+	quest.0B84A3E5BE9783DF.quest_desc: [
+		"Place an item on a &eCutting Board&r, then use it with a knife in hand to chop it up: cabbage into leaves, meat into cuts, a pumpkin into slices."
+		""
+		"Other tools work too. An axe strips logs and gives you tree bark."
+		""
+		"Press &eU&r on the board to see everything it can do."
+	]
+	quest.0B84A3E5BE9783DF.title: "The Cutting Board"
+	quest.0BBD7EA7E8E80EA5.quest_desc: ["Two &eUnobtainium Ingots&r, two &eAllthemodium Ingots&r and a Piglich Heart, into the orb again. This one wants 5,000,000 FE."]
+	quest.0BBD7EA7E8E80EA5.title: "Unobtainium Meets Allthemodium"
+	quest.0BEE409DF9D8D1A1.quest_desc: [
+		"Each jetpack is crafted around one from the tier below, and it keeps its charge when you do."
+		""
+		"Stone or copper, then iron, gold, diamond, and finally &eEmerald&r. Along the way, steel, electrum and other metals offer a few alternatives at each step."
+		""
+		"Each tier holds more charge and flies faster. Hover over a jetpack to compare."
+	]
+	quest.0BEE409DF9D8D1A1.title: "Faster, Higher"
+	quest.0C219C46B19A7D0C.quest_desc: [
+		"An &eElevator&r is eight wool around an ender pearl. Stack two or more in a shaft, one above the other, with room to stand on each."
+		""
+		"Stand on one and jump to go up to the next. Sneak to go down. They can be a long way apart, and the colors don't have to match."
+		""
+		"Elevators can also be disguised as other blocks, so the shaft can look like part of the wall."
+	]
+	quest.0C219C46B19A7D0C.title: "Going Up"
+	quest.0C2BD9BCDC181F7E.quest_desc: [
+		"Past emerald, Hearth \\& Hollow adds jetpacks of its own, made from allthemodium, vibranium and unobtainium."
+		""
+		"The &eAllthemodium Jetpack&r is built around your emerald one. It's tougher, faster and holds more charge."
+		""
+		"With elevators in the walls, waystones on every hill and this on your back, the whole world is a short trip away."
+	]
+	quest.0C2BD9BCDC181F7E.title: "Above the Clouds"
+	quest.0CC61BCE024A2E4A.quest_desc: ["Before they get to the garden."]
+	quest.0CC61BCE024A2E4A.quest_subtitle: "Odd Job"
+	quest.0CC61BCE024A2E4A.title: "Creeper Control"
+	quest.0CDA0A16614D8DC7.quest_desc: [
+		"Four netherite scrap and four gold ingots make one &enetherite ingot&r."
+		""
+		"One ingot upgrades one piece of diamond gear in a smithing table. Netherite gear is tougher, lasts longer, and floats in lava if you drop it."
+		""
+		"Here's an upgrade template to get you started."
+	]
+	quest.0CDA0A16614D8DC7.title: "Netherite"
+	quest.0CDF490522849D03.quest_desc: [
+		"Point, hold right-click, and a beam melts through stone in front of you."
+		""
+		"The &eMining Gadget&r runs on power, a little per block, so it needs charging. The reward includes a &eCharging Station&r to get you started."
+		""
+		"There are three models that differ only in looks, so pick the one you like."
+	]
+	quest.0CDF490522849D03.title: "The Mining Gadget"
+	quest.0CEF74E40FB2F4B5.quest_desc: [
+		"Crafting every framed shape by hand gets old. The &eFraming Saw&r turns Framed Cubes into any other framed block."
+		""
+		"Put cubes in, pick a shape from the list, take it out. If you're short of material, it tells you what's missing."
+	]
+	quest.0CEF74E40FB2F4B5.title: "The Framing Saw"
+	quest.0D049BFE3167C50C.quest_desc: [
+		"Right-click Farmland with an essence to turn it into &eEssence Farmland&r of that tier, or craft it from Farmland and the essence."
+		""
+		"Inferium Seeds yield more essence on higher tier farmland. In a Botany Pot, Mystical crops need farmland of their own tier or better to grow at all."
+	]
+	quest.0D049BFE3167C50C.title: "Essence Farmland"
+	quest.0D187C475F7A8621.quest_desc: [
+		"Recipes that call for a water or lava bucket normally need a real filled bucket in storage."
+		""
+		"A &eFluid Substitution Pattern&r, a Pattern between two buckets, lets autocrafting use the stored fluid instead."
+	]
+	quest.0D187C475F7A8621.title: "Buckets Not Included"
+	quest.0D91FA312E1E873C.quest_desc: ["Sixteen steel ingots for a new bridge."]
+	quest.0D91FA312E1E873C.quest_subtitle: "Commission"
+	quest.0D91FA312E1E873C.title: "Steel Order"
+	quest.0E66799BE221568C.quest_desc: [
+		"Stick templates add a second mode to your Construction Stick. Put the stick, a template and the extra item in a &esmithing table&r to apply it."
+		""
+		"The &eAngel&r template places blocks in mid air or on the far side of a wall. &eDestruction&r takes a whole face down instead, and &eReplacement&r swaps blocks for whatever is in your off hand."
+		""
+		"Press &eU&r on a template to see what it needs."
+	]
+	quest.0E66799BE221568C.title: "New Tricks for an Old Stick"
+	quest.0EE59A78B459C2F8.quest_desc: [
+		"An emerald, energized, and hungrier still."
+		""
+		"Past this is the &eNitro Crystal&r: a nether star, two redstone blocks and a block of blazing crystal, for sixteen at once."
+	]
+	quest.0EE59A78B459C2F8.title: "Spirited Crystal"
+	quest.0EF2A9AC02797372.quest_desc: [
+		"The size upgrade turns your beam into a 3x3 square. A tunnel takes seconds."
+		""
+		"It asks for diamond blocks, redstone blocks, ender pearls and a diamond pickaxe, so it's a real investment. You won't want to go back."
+	]
+	quest.0EF2A9AC02797372.title: "Three by Three"
+	quest.0F0B905A64EAA527.quest_desc: [
+		"Sophisticated chests and barrels have upgrade slots, just like your backpack. Start with an &eUpgrade Base&r: planks and iron."
+		""
+		"A &eHopper Upgrade&r moves items in and out, a &eSmelting Upgrade&r cooks, a &eCompacting Upgrade&r packs items into their compact forms, and a &eVoid Upgrade&r deletes junk you've marked."
+		""
+		"A &eStack Upgrade&r lets each slot hold more: Tier 1 doubles it. A chest takes two at most, so make them count."
+	]
+	quest.0F0B905A64EAA527.title: "Chests with Talents"
+	quest.0F986B821B20FE79.quest_desc: [
+		"Four Tertium make &eImperium Essence&r, tier four."
+		""
+		"Your farm is getting big. A Harvester Pylon or a wall of Hopper Botany Pots will save your wrists."
+	]
+	quest.0F986B821B20FE79.title: "Imperium"
+	quest.10A4DA00ABAC4A9D.quest_desc: [
+		"Hold right-click with a &eshield&r and most hits stop dead, arrows included. Keep it in your off hand and you'll wonder how you managed without it."
+		""
+		"Mekanism Tools adds shields in its own metals too, if you want one that lasts longer."
+	]
+	quest.10A4DA00ABAC4A9D.title: "Shield Up"
+	quest.1192ADD637ED05E0.quest_desc: [
+		"Dirty slurry needs a wash. The &eChemical Washer&r cleans it with water, turning Dirty Slurry into Clean Slurry."
+		""
+		"It drinks a lot of water. An &eElectric Pump&r over a lake keeps it well fed."
+	]
+	quest.1192ADD637ED05E0.title: "Washing Slurry"
+	quest.1274527C4172D943.quest_desc: ["Ten wither skeletons. Skulls are yours to keep."]
+	quest.1274527C4172D943.quest_subtitle: "Commission"
+	quest.1274527C4172D943.title: "Skull Duty"
+	quest.12B47441FFAF6872.quest_desc: [
+		"Right-click your crops with a &eWatering Can&r and they grow faster."
+		""
+		"Upgraded with essence, a can reaches further and grows things quicker. &eShift+right-click&r into the air with an upgraded can to have it water on its own."
+	]
+	quest.12B47441FFAF6872.title: "Watering Can"
+	quest.12F5BD1F0D1406B7.quest_desc: [
+		"Macaw's Holidays has decorations for autumn and winter: carved pumpkins, scarecrows, autumn leaves in red, orange and yellow, snowmen, garlands, wreaths and string lights."
+		""
+		"Some pieces have more than one look. Right-click them to switch, and check the tooltip."
+	]
+	quest.12F5BD1F0D1406B7.title: "For the Season"
+	quest.13014BA2499A6131.quest_desc: [
+		"A &eFramed Cube&r is an empty frame that can look like any other block. Right-click it with a block in hand and it takes on that block's look."
+		""
+		"There are framed slopes, stairs, slabs, panels, doors and dozens more, so you can make shapes no ordinary block comes in, in any material you like."
+		""
+		"Right-click a framed block with &eGlowstone Dust&r to make it glow. A &eFramed Hammer&r takes the look back off."
+	]
+	quest.13014BA2499A6131.title: "Wear Any Face"
+	quest.137B469576A8CCE6.quest_desc: ["Refined Storage processors: Basic, Improved or Advanced. A mix is fine."]
+	quest.137B469576A8CCE6.quest_subtitle: "Commission"
+	quest.137B469576A8CCE6.title: "Processor Batch"
+	quest.13C6D6D1360653CF.quest_desc: [
+		"Villages here come in far more shapes than the usual. Towns and Towers builds them to suit the land, plus special towns in Tudor, Swedish, Iberian and Mediterranean styles. ChoiceTheorem's Overhauled Village adds villages for nearly every biome, some of them walled."
+		""
+		"Visit one of each. Most villages have a waystone, and a village is a fine place to trade for what you can't find."
+	]
+	quest.13C6D6D1360653CF.title: "Every Town Is Different"
+	quest.143980085A5AA972.quest_desc: [
+		"Chests fill up. Then the chests need chests. Refined Storage puts everything you own into one network you can search, sort and craft from."
+		""
+		"Almost every part of it starts with &eQuartz Enriched Iron&r: three iron ingots and a piece of quartz make four."
+		""
+		"Make a good pile. You'll need more than you think."
+	]
+	quest.143980085A5AA972.title: "One Network for Everything"
+	quest.143B863D240BBEAB.quest_desc: [
+		"The &eAssembler&r crafts Oritech's components, like motors and magnetic coils, on its own 2x2 grid. Many parts can be made by hand, but the assembler uses far less material."
+		""
+		"The order of the inputs doesn't matter, and Refined Storage autocrafting works with it out of the box."
+	]
+	quest.143B863D240BBEAB.title: "The Assembler"
+	quest.1488E2F6B38359C5.quest_desc: ["The village feast needs bread, and plenty of it."]
+	quest.1488E2F6B38359C5.quest_subtitle: "Odd Job"
+	quest.1488E2F6B38359C5.title: "Baker's Order"
+	quest.152D7F3650198C5A.quest_desc: [
+		"Oil springs gush up out of the ground, and they're much more common in deserts."
+		""
+		"Fill a bucket, or set a &ePump&r over the spring. It lowers a pipe until it finds the oil, then drains the whole pool into its tank."
+		""
+		"Crude oil burns in a &eFuel Generator&r as it is, but it's worth far more refined."
+	]
+	quest.152D7F3650198C5A.title: "Black Gold"
+	quest.15B40A5194C9C466.quest_desc: [
+		"Prefer a proper field to pots? The &eHarvester Pylon&r harvests ripe crops in a square around it, from 3x3 up to 9x9, and puts them in a chest on top."
+		""
+		"Set it in the water block of your farm or level with the crops. It needs a hoe inside, which loses a point of durability with each harvest, so Unbreaking is a good friend here."
+	]
+	quest.15B40A5194C9C466.title: "Harvester Pylon"
+	quest.15DB8A6DADF7653F.quest_desc: ["Four Allthemodium Ingots, straight from the deep."]
+	quest.15DB8A6DADF7653F.quest_subtitle: "Grand Bounty"
+	quest.15DB8A6DADF7653F.title: "Allthemodium Shipment"
+	quest.16B6BBC93215E6BF.quest_desc: [
+		"A &eFeeding Trough&r breeds animals for you. Fill it with their food and it feeds any nearby animal that's ready to mate."
+		""
+		"It stops once there are 24 of a kind around, so your pen won't overflow."
+	]
+	quest.16B6BBC93215E6BF.title: "Feeding Time"
+	quest.16DF54AC7EE95A47.quest_desc: [
+		"Mekanism's machines run on power, and the &eHeat Generator&r is the easy first source. It burns lava or anything a furnace would take."
+		""
+		"It's made from iron, copper, planks and one osmium ingot, so you can build it today."
+	]
+	quest.16DF54AC7EE95A47.title: "Something to Run It On"
+	quest.17768AA219D41404.quest_desc: [
+		"A &eSharestone&r links only to other sharestones of the same color. Put a pair of red ones at your base and your mine, and you have a private line between them."
+		""
+		"Each one takes a Warp Stone to make, so plan your colors before you craft."
+	]
+	quest.17768AA219D41404.title: "Matching Pairs"
+	quest.180677ED035E6F04.quest_desc: ["The top of the line, built around a Vibranium Jetpack. The fastest thing in the sky, and the toughest thing to wear on your back."]
+	quest.180677ED035E6F04.title: "Unobtainium Jetpack"
+	quest.1807251A0DBF9634.quest_desc: [
+		"Land a fish worth bragging about. A tuna, a catfish, an arapaima, a halibut: something that took a while to reel in."
+		""
+		"They're rare, so be patient. Tuna and grouper live in the ocean, arapaima in jungle water, and catfish and muskellunge in rivers and lakes."
+	]
+	quest.1807251A0DBF9634.title: "One for the Wall"
+	quest.187942916B31E3C3.quest_desc: [
+		"Plenty of mods want tin, lead or osmium, and they all share one set of ores. You'll never end up with three different tin ingots that don't stack."
+		""
+		"Each ore comes in stone and deepslate versions, and many have Nether and End versions too. They all smelt to the same thing."
+		""
+		"Some gem ores show up in JEI but don't generate in this pack. If an ore isn't in this chapter, don't go looking for it."
+	]
+	quest.187942916B31E3C3.title: "One Metal, One Ingot"
+	quest.18C318E39F348084.quest_desc: [
+		"&eProsperity Ore&r sits a little deeper than Inferium, from about Y 24 down to Y -60, and drops &eProsperity Shards&r."
+		""
+		"Shards go into Infusion Crystals and into the seed base that every resource seed is built on, so keep a healthy pile."
+	]
+	quest.18C318E39F348084.title: "Prosperity Shards"
+	quest.1945F94AA7E4F2FE.quest_desc: [
+		"A bare pipe is slow. Right-click the pulling end of a pipe to open it, and slot in an upgrade."
+		""
+		"Upgrades move more at once and more often. Better ones also unlock filters, redstone control and how items are shared out, such as round robin across all your furnaces."
+		""
+		"They go Basic, Improved, Advanced and Ultimate."
+	]
+	quest.1945F94AA7E4F2FE.title: "Faster Pipes"
+	quest.19A28662874641C7.quest_desc: [
+		"The &eNetherite Stick&r places up to 1024 blocks at a time. Floors, walls and bridges go down in a few clicks."
+		""
+		"It takes a netherite ingot to make, so maybe wait until you have a spare."
+	]
+	quest.19A28662874641C7.title: "The Big Build"
+	quest.1B86F686C714BC59.quest_desc: [
+		"Wear an affix item in all four armor slots and hold an affix weapon, and the &eFrontier&r tier unlocks."
+		""
+		"Tiers don't switch on by themselves. Open &eCtrl+T&r, pick Frontier and activate it. Monsters get tougher and loot gets better, and from here on &cApothic Invaders&r start to show up."
+		""
+		"You can switch back to an easier tier any time."
+	]
+	quest.1B86F686C714BC59.title: "Ready for the Frontier"
+	quest.1BC71C2BD841B2CD.quest_desc: [
+		"Handcrafted makes proper furniture: chairs, couches, benches, tables, desks, shelves and cupboards, in every kind of wood."
+		""
+		"Right-click a chair or couch to sit down."
+		""
+		"Dress things up with fabric. Right-click a chair with a &eCushion&r, or a table with a &eSheet&r, to give it a seat pad or a tablecloth in that color."
+	]
+	quest.1BC71C2BD841B2CD.title: "Pull Up a Chair"
+	quest.1BF6AF98B756BF4E.quest_desc: [
+		"Some of those campsite chests are &cMimics&r. Open one and it opens you right back."
+		""
+		"They hop, they bite, and they're tougher than they look. Fight one with good armor on and a full belly."
+		""
+		"The reward is worth the bruises: a beaten Mimic coughs up artifacts."
+	]
+	quest.1BF6AF98B756BF4E.title: "Not a Chest"
+	quest.1C1A825F6E5C9885.quest_desc: [
+		"The minimap in the corner is JourneyMap. Press &eJ&r to open the full map."
+		""
+		"Press &eShift+B&r to drop a waypoint where you stand: your base, a village, the cave you mean to come back to."
+	]
+	quest.1C1A825F6E5C9885.title: "Never Lost"
+	quest.1D6E474243C8ED6F.quest_desc: [
+		"An &eItem Collector&r picks up items lying around it and puts them in the inventory it's attached to."
+		""
+		"Put one on a chest next to your mob farm or under a tree farm and stop chasing drops. You can widen or shrink its range in its menu."
+		""
+		"The &eAdvanced Item Collector&r reaches a little farther and has a filter."
+	]
+	quest.1D6E474243C8ED6F.title: "Tidy Up the Floor"
+	quest.1D8C13C5D445839D.quest_desc: [
+		"Mekanism Tools makes full sets of tools and armor from more than just iron and diamond."
+		""
+		"&eLapis lazuli&r and &eosmium&r gear is easy to start with. &eBronze&r and &esteel&r come once you can make alloys, and the refined metals once Mekanism's machines are running."
+		""
+		"Press &eR&r on any of them to compare."
+	]
+	quest.1D8C13C5D445839D.title: "Other Metals"
+	quest.1DBF1C72400C8C4A.quest_desc: [
+		"A &ePickup Upgrade&r scoops items into your backpack as you walk over them."
+		""
+		"Craft it into a &eMagnet Upgrade&r and the backpack pulls them in from a few blocks away. Mining, farming and mob fights get a lot less fiddly."
+		""
+		"Both have filters, so you can leave the cobblestone on the ground."
+	]
+	quest.1DBF1C72400C8C4A.title: "Pull It In"
+	quest.1E496E2ED47A7FDD.quest_desc: [
+		"&eLuminax&r blocks are colored stone that gives off light, made from stone, a dye and glowstone dust."
+		""
+		"They come as blocks, stairs, slabs, walls, buttons and pressure plates in all sixteen colors, so a floor or a ceiling can be the light. Dim versions are made with wool instead of glowstone."
+	]
+	quest.1E496E2ED47A7FDD.title: "Glow in Color"
+	quest.1E53EE806FDBBCAC.quest_desc: [
+		"Strongholds are huge here: libraries, armories, prisons, crypts and long, dark corridors, all around the End Portal room."
+		""
+		"You don't have to go through the portal yet. But it's worth knowing where it is."
+	]
+	quest.1E53EE806FDBBCAC.title: "The Stronghold"
+	quest.1EBD11F16E51110E.quest_desc: [
+		"Artifacts turn up in loot chests all over: dungeons, mineshafts, temples, shipwrecks, strongholds and village houses."
+		""
+		"Each one does one thing well. A &eCloud in a Bottle&r gives you a double jump, &eFlippers&r make you a fish, and the &eAntidote Vessel&r cuts poisons short."
+		""
+		"Hover over an artifact to see what it does, then wear it in a Curios slot."
+	]
+	quest.1EBD11F16E51110E.title: "Finders Keepers"
+	quest.1ED950662D2763B3.quest_desc: [
+		"Sooner or later every base turns into a maze of chests. This chapter is about taming the pile: chests that grow with you, pipes that carry, and small machines that sort things while you're out."
+		""
+		"Start with a Sophisticated &echest&r or &ebarrel&r: planks around a lever. It holds as much as a vanilla chest, plus a slot for an upgrade."
+		""
+		"Already have chests full of stuff? Right-click a placed vanilla chest with a &eBasic Tier Upgrade&r and it becomes a Sophisticated one, with everything still inside."
+	]
+	quest.1ED950662D2763B3.title: "Packing It In"
+	quest.1F62F17ACBD1A0A7.quest_desc: [
+		"Put a fish and a &eFillet Knife&r in the crafting grid to cut it into fish fillets."
+		""
+		"Cooked fillets are quick, easy food, and they count for the Food Book like anything else."
+	]
+	quest.1F62F17ACBD1A0A7.title: "Fish Fillets"
+	quest.1F8973A17F817A3A.quest_desc: [
+		"Macaw's Fences and Walls has picket fences, stockade walls, horse fences, wrought-iron railings, hedges and modern stone walls."
+		""
+		"Some of them stack upward into a taller wall, and the tooltip says which. Wired fences hurt anything that pushes through them, so keep them away from the path."
+		""
+		"Fences in this pack also join up corner to corner, so a fence can run diagonally."
+	]
+	quest.1F8973A17F817A3A.title: "Good Fences"
+	quest.1FAA038CEAECB651.quest_desc: [
+		"A &eWind Generator&r needs no fuel at all. It makes more power the higher up it stands, so hilltops and tall towers are worth the climb."
+		""
+		"A row of them along a ridge makes a fine little wind farm."
+	]
+	quest.1FAA038CEAECB651.title: "Catch the Wind"
+	quest.202A345B110DB328.quest_desc: [
+		"Four Allthemodium Nuggets around an Ender Pearl make a &eTeleport Pad&r."
+		""
+		"Place it in the Overworld, empty both hands, then sneak and right-click it."
+		""
+		"&cIt doesn't drop when you break it&r, so pick its spot carefully."
+	]
+	quest.202A345B110DB328.title: "Teleport Pad"
+	quest.2038E7A17CB7EF02.quest_desc: [
+		"Some recipes don't fit in a 3x3 grid. Extended Crafting adds bigger tables, and they all start with &eBlack Iron&r: an iron ingot and black dye."
+		""
+		"You'll want &eLuminessence&r too. Two glowstone dust, a redstone and some gunpowder make two."
+	]
+	quest.2038E7A17CB7EF02.title: "Black Iron"
+	quest.2137A757227177C3.quest_desc: [
+		"A front door says a lot about a house. Macaw's Doors has barn doors, stable doors, glass doors, paper doors, western doors and plenty more."
+		""
+		"Metal doors need redstone power to open, like vanilla iron ones. A &eGarage Door&r goes on the ceiling and rolls down when opened."
+	]
+	quest.2137A757227177C3.title: "Come On In"
+	quest.2160790A754ADE19.quest_desc: ["Winter's coming somewhere. Any logs will do."]
+	quest.2160790A754ADE19.quest_subtitle: "Odd Job"
+	quest.2160790A754ADE19.title: "Firewood"
+	quest.21CEC5AD22967163.quest_desc: [
+		"A few clicks that save a lot of clicking:"
+		""
+		"&eShift&r and drag over items to move them all across"
+		"&eCtrl&r-click to move just one"
+		"&eShift+Ctrl&r-click to move every stack of that item"
+		"&eSpace&r-click to move everything in that inventory"
+		"&eMiddle-click&r to sort"
+		""
+		"When a tool breaks or a stack of blocks runs out, the next one from your inventory slides into your hand."
+	]
+	quest.21CEC5AD22967163.title: "Inventory Tricks"
+	quest.2279FC04A2534288.quest_desc: [
+		"The &eWireless Universal Grid&r rolls a Wireless Grid, a Wireless Crafting Grid and a Wireless Autocrafting Monitor into one, with a button to switch between them."
+		""
+		"Press &eShift+E&r to open it straight from your inventory."
+		""
+		"Your Curios (&eShift+G&r) have a Refined Storage slot for wireless grids, so it doesn't have to take up a pocket."
+	]
+	quest.2279FC04A2534288.title: "The Universal Grid"
+	quest.22B24728E5E74512.quest_desc: [
+		"Put a Pattern in an &eAutocrafter&r and that item shows up in the Grid as craftable, even with none in stock. Ask for any amount and the network works out the rest, sub-recipes included."
+		""
+		"For a processing pattern, face the Autocrafter at the machine that does the work. Autocrafters facing each other form a chain, so one machine can serve many patterns."
+		""
+		"The &eAutocrafter Manager&r lists every pattern in one place."
+	]
+	quest.22B24728E5E74512.title: "Autocrafting"
+	quest.22C7E8EF01341668.quest_desc: [
+		"Autocrafting starts with &ePatterns&r. Put a blank one in a &ePattern Grid&r, lay out a recipe and encode it."
+		""
+		"Crafting patterns cover anything from a crafting table. Processing patterns are for machines: you list what goes in and what should come back out."
+		""
+		"Fuzzy mode lets a pattern accept alternatives, like any kind of plank."
+	]
+	quest.22C7E8EF01341668.title: "Write It Down"
+	quest.2318106F8EB8AEAE.quest_desc: [
+		"Ancient Cities hide &eSuspicious Clay&r. Brush it and you may find an &eAllthemodium Smithing Template&r."
+		""
+		"Seven netherite ingots and a deepslate block copy a template into two. That's pricey, so brush every bit of clay you see."
+	]
+	quest.2318106F8EB8AEAE.title: "Ancient Blueprints"
+	quest.235016AF92062BCA.quest_desc: ["Three ghasts. Mind the fireballs."]
+	quest.235016AF92062BCA.quest_subtitle: "Commission"
+	quest.235016AF92062BCA.title: "Quiet the Wailing"
+	quest.23A286CC00383011.quest_desc: [
+		"Tier five starts by dissolving ore in &esulfuric acid&r. The &eChemical Dissolution Chamber&r turns each ore into a big helping of &eDirty Slurry&r."
+		""
+		"Slurry is a chemical, not an item, so it travels through Pressurized Tubes like the gases do."
+	]
+	quest.23A286CC00383011.title: "Dissolving Ore"
+	quest.23C1DD9684D170D9.quest_desc: [
+		"A &ediamond pickaxe&r mines obsidian and ancient debris, and it'll outlast a stack of iron ones."
+		""
+		"Diamonds sit deep, well below sea level. Bring torches, food and a way home."
+		""
+		"Here's an anvil to look after your new tools."
+	]
+	quest.23C1DD9684D170D9.title: "Diamonds!"
+	quest.246332DA8CEFA248.quest_desc: [
+		"A &eRed Health Patch&r is wool, string and a red heart. Use it to heal a heart on the spot."
+		""
+		"It has a short cooldown and a few uses before it wears out. Handy in a pinch, but the canisters are the real prize."
+	]
+	quest.246332DA8CEFA248.title: "Patch Yourself Up"
+	quest.246B52C8CBC86FB5.quest_desc: [
+		"The &eFragment Forge&r is the big step up for ore. Ore blocks become raw ore, and raw ore becomes a clump and some small clumps, plus small clumps of a second metal as a bonus."
+		""
+		"Nine small clumps make a clump, and the Centrifuge spins clumps into dust."
+		""
+		"It needs seven machine cores. Feed it ore blocks mined with Silk Touch for the best return."
+	]
+	quest.246B52C8CBC86FB5.title: "Fragment Forge"
+	quest.248E8BBF58BC0886.quest_desc: [
+		"Deep in forests, jungles and taiga stands a lonely tower. Somebody lived here, and they didn't like visitors."
+		""
+		"Watch for traps and the monster spawner inside. There's a brewing stand, chests worth opening, and a bed. Spend the night in it, if you dare."
+		""
+		"It's rare. The Explorer's Compass knows it as the Witch Tower."
+	]
+	quest.248E8BBF58BC0886.title: "The Witch's Tower"
+	quest.25252A32CFAE3243.quest_desc: [
+		"Wireless grids have four upgrade slots."
+		""
+		"&eMagnet&r picks up items within 6 blocks, into your inventory or the network. &eInsert&r sends chosen inventory slots into the network. &eExport&r pulls chosen items out to you. &eBlock Picker&r makes Pick Block fetch from storage. &eEnergy Capacity&r adds to the battery."
+	]
+	quest.25252A32CFAE3243.title: "Upgrades in Your Pocket"
+	quest.2557EF532F297862.quest_desc: [
+		"The last tier is built with &eRefined Obsidian&r."
+		""
+		"Crush obsidian into dust, infuse the dust with diamond, then press the result into an ingot in an &eOsmium Compressor&r. The compressor burns osmium to do it."
+	]
+	quest.2557EF532F297862.title: "Refined Obsidian"
+	quest.25B4A69244502CF2.quest_desc: [
+		"The &eController&r is the heart of the network. It takes power from any FE source and shares it with every device on the cables."
+		""
+		"No power, no network, so give it a steady supply before you build out. Every device draws a little, and a Disk Drive draws more for each disk in it."
+		""
+		"A big network that runs short can have more than one Controller."
+	]
+	quest.25B4A69244502CF2.title: "The Controller"
+	quest.260BBD6E309437E5.quest_desc: [
+		"A &eModular Router&r is a tiny block with one slot of buffer and room for modules. Each module does one job."
+		""
+		"A &ePuller Module&r takes items from the inventory beside it. A &eSender Module&r ships them to an inventory in a straight line; the Mk2 doesn't need line of sight."
+		""
+		"Hover a module and press &eCtrl+C&r to set its direction and filter."
+	]
+	quest.260BBD6E309437E5.title: "Route It"
+	quest.26AF74EA4C09B57C.quest_desc: [
+		"Cut grass, wheat or rice with a knife and you'll collect &eStraw&r."
+		""
+		"Straw makes canvas, straw bales and rope, and it goes into organic compost."
+		""
+		"Knives are good for more than plants: a pig felled with one drops ham."
+	]
+	quest.26AF74EA4C09B57C.title: "Last Straw"
+	quest.26D79DF0FCFBA2C5.quest_desc: [
+		"The ground around a house matters as much as the house. Macaw's Paths and Pavings has flagstones, cobbled paths, running bond brick, basket weave and more, in most kinds of stone and wood."
+		""
+		"Some pavings change when you right-click them: a pickaxe engraves them and a shovel flattens them. The tooltip says which."
+	]
+	quest.26D79DF0FCFBA2C5.title: "The Garden Path"
+	quest.26EBB0CE42133A10.quest_desc: [
+		"Terralith's volcanoes rise out of the land like nothing else in the world."
+		""
+		"Find a Volcanic Peak or Crater, climb to the rim and look in. Then glide down the side."
+	]
+	quest.26EBB0CE42133A10.title: "Hot Ground"
+	quest.27757E04058E0A74.quest_desc: [
+		"Infuse an iron ingot with carbon for &eEnriched Iron&r, then infuse that with carbon again for Steel Dust. Smelt the dust and you have steel."
+		""
+		"Steel, glass and osmium make the &eSteel Casing&r at the heart of most Mekanism machines. Steel also goes into Universal Cables."
+	]
+	quest.27757E04058E0A74.title: "Steel, the Mekanism Way"
+	quest.27D6C6A84097486E.quest_desc: [
+		"A &eMega Torch&r stops hostile mobs from spawning naturally for 64 blocks in every direction. Put one in your base and the nights get a lot quieter."
+		""
+		"It works in caves too. Set one in the middle of a cave system and you can mine it out in peace."
+		""
+		"Spawners still work near it, so a mob farm will keep running."
+	]
+	quest.27D6C6A84097486E.title: "Light Up the Dark"
+	quest.283B243E044874AC.quest_desc: ["Don't look them in the eye. Well, until you have to."]
+	quest.283B243E044874AC.quest_subtitle: "Commission"
+	quest.283B243E044874AC.title: "Ender Harvest"
+	quest.28403086B7915729.quest_desc: [
+		"Template, Allthemodium pickaxe, Vibranium Ingot."
+		""
+		"Unobtainium won't budge for anything less."
+	]
+	quest.28403086B7915729.title: "Vibranium Pickaxe"
+	quest.28B1507A648721C2.quest_desc: [
+		"Place a Teleport Pad in the Nether and it leads to &eThe Other&r: an older, hotter Nether under a sky where it's always night."
+		""
+		"Water boils away here, just like in the Nether. Wither skeletons, blazes and ghasts keep you company."
+		""
+		"The ground is &eAncient Stone&r, and the strange trees are worth a few logs for the build pile."
+	]
+	quest.28B1507A648721C2.title: "The Other"
+	quest.28E4E8A287384CDB.quest_desc: [
+		"Put an &eExternal Storage&r against a chest, barrel or drawer and its contents show up in the Grid. The network can fill it too."
+		""
+		"It's a gentle way to move in: keep your old storage and hook it up while you build disks."
+	]
+	quest.28E4E8A287384CDB.title: "Bring Your Chests"
+	quest.2929FC1A5CE99D97.quest_desc: [
+		"A backpack you can wear, place like a chest, or carry in your hand."
+		""
+		"Upgrades turn it into a magnet, a compactor, a lunchbox and more. &ePacking It In&r covers those, and bigger packs."
+	]
+	quest.2929FC1A5CE99D97.title: "Room for More"
+	quest.294CFFE1B731A60A.quest_desc: [
+		"Many of Oritech's stronger machines need &eFluxite&r. Point a laser at amethyst clusters and they come off as fluxite instead."
+		""
+		"Aim one at a &eBudding Amethyst&r and it speeds up the growth without breaking the block, so one geode can keep you supplied."
+	]
+	quest.294CFFE1B731A60A.title: "Fluxite"
+	quest.2953D46CB7F13B9C.quest_desc: [
+		"A few ores give something other than metal: &eFluorite&r, &eSulfur&r and &eSalt&r."
+		""
+		"Fluorite and salt run from deep down up into the hills. Sulfur keeps low, mostly down in the deepslate. Machines later on will be glad of all three."
+	]
+	quest.2953D46CB7F13B9C.title: "Not Just Metal"
+	quest.297CFF2AA839CF49.quest_desc: [
+		"Look up. Moog's Soaring Structures floats islands high over the land: castle ruins, little houses, ponds, groves of trees, even a volcano."
+		""
+		"This quest wants the &eCalcite House&r. Search for it in your Explorer's Compass, then build your way up and step onto it. Your paraglider is the easy way down."
+	]
+	quest.297CFF2AA839CF49.title: "Land on a Sky Island"
+	quest.29995D29C69D9893.quest_desc: [
+		"Hostile Neural Networks grows mob drops from simulations instead of seeds."
+		""
+		"Craft a &eDeep Learner&r and a &eModel Framework&r. Right-click a mob with the framework to attune it, put the model in the learner, and wear the learner in its Curios slot. &eShift+U&r opens it."
+		""
+		"Then go fight. Every kill of that mob teaches the model a little more."
+	]
+	quest.29995D29C69D9893.title: "Deep Learner"
+	quest.29A7793116934600.quest_desc: ["Summon it, beat it, keep the star."]
+	quest.29A7793116934600.quest_subtitle: "Grand Bounty"
+	quest.29A7793116934600.title: "The Wither"
+	quest.29E58A46426E1598.quest_desc: [
+		"Each rod tier passes power to the orb faster, so a few good rods beat a ring of starter ones."
+		""
+		"Craft a &eBasic Energizing Rod&r from a starter rod, then keep climbing as you make better crystals."
+	]
+	quest.29E58A46426E1598.title: "Better Rods"
+	quest.29F6424BECE6700C.quest_desc: [
+		"&eMimi-Dust&r turns an ordinary chest into a Mimic."
+		""
+		"Here's the trick: the Mimic drops as many random relics as the chest held items before you dusted it. Fill a chest with junk, wake it up, and win it back as treasure."
+		""
+		"It takes an Echo Shard, so you'll need a trip to an ancient city first."
+	]
+	quest.29F6424BECE6700C.title: "Make Your Own Mimic"
+	quest.2A3151FDFB9A441B.quest_desc: [
+		"Out on the plains and in the forests, Explorify scatters small places to stop: taverns, farmsteads, campsites, watchtowers and supply caches."
+		""
+		"Find a tavern. A warm room on a long road is worth something."
+	]
+	quest.2A3151FDFB9A441B.title: "A Roadside Tavern"
+	quest.2A40B24FF7219947.quest_desc: [
+		"YUNG's Better Dungeons replaces the old cobblestone box with real dungeons: skeleton dungeons, spider dungeons, and zombie dungeons with a staircase down from the surface."
+		""
+		"Bring torches, food and a good sword. Breaking the spawners makes the place quieter, and drops something you'll want soon."
+	]
+	quest.2A40B24FF7219947.title: "Down in the Dark"
+	quest.2AA2D6536DD79316.quest_desc: [
+		"The &eHeart Amulet&r is glass, string and a heart. It sits in its own Curios slot."
+		""
+		"Right-click it to open it. Every heart canister you put inside adds a heart to your health bar, and each kind of canister stacks to ten."
+		""
+		"Your first canister is next. It needs a few ingredients from around the world."
+	]
+	quest.2AA2D6536DD79316.title: "Heart Amulet"
+	quest.2B6F91E95002C65E.quest_desc: [
+		"Four Supremium around an Infusion Crystal make &eInsanium Essence&r, the very top of the ladder."
+		""
+		"For the &eWither Prediction&r, right-click the Wither with a Model Framework (carefully), then train the model past Faulty with several Wither fights. Simulating it costs 2,560 FE a tick, so have power to spare."
+		""
+		"Both are pieces of the &eAllthemodium Alloy Paxel&r, the pack's capstone. The paxel quest gives them back once you've crafted the paxel."
+	]
+	quest.2B6F91E95002C65E.title: "Insanium"
+	quest.2B830E5582EA61E4.quest_desc: [
+		"A &eHopper Botany Pot&r harvests its own crop and passes it down into a chest or hopper underneath."
+		""
+		"Line a few up over a row of hoppers feeding one chest, and your essence piles up while you're off doing something else."
+	]
+	quest.2B830E5582EA61E4.title: "A Row of Pots"
+	quest.2BE5EA215EFEA58E.quest_desc: [
+		"Most villages have a waystone near the middle. Right-click one to remember it."
+		""
+		"From any waystone you can travel to any other one you've found, and it costs nothing. Wander as far as you like and come home in a heartbeat."
+		""
+		"A Return Scroll takes you back to the last waystone you used."
+	]
+	quest.2BE5EA215EFEA58E.title: "Find a Waystone"
+	quest.2C21ED508BC849C4.quest_desc: [
+		"A 5x5 grid. The Allthemodium alloy tools are made on one of these, so it's worth building now."
+		""
+		"Every size also comes as an &eAuto Crafting Table&r, for a recipe you want made over and over."
+	]
+	quest.2C21ED508BC849C4.title: "Advanced Crafting Table"
+	quest.2C3777741D8F6C26.quest_desc: [
+		"&eCable&r links devices to each other. Six &eQuartz Enriched Copper&r, two glass and a redstone make twelve. The copper works like the iron: three ingots and a quartz."
+		""
+		"Dyed cable only joins cable of the same color or plain gray, so two networks can run side by side without merging."
+	]
+	quest.2C3777741D8F6C26.title: "Run the Cables"
+	quest.2C6FBC60B724FF19.quest_desc: [
+		"Every chapter is open from the start, so read ahead, skip around, and come back whenever you like. The lines between quests show a sensible order, not a locked door."
+		""
+		"Most quests finish on their own once you have the item. The rest have a checkmark to click after you've read them."
+		""
+		"Rewards come in crates, from humble to grand: &7Kindling&r, &aHearth&r, &dLantern&r and &6Ember&r. Right-click one to open it."
+	]
+	quest.2C6FBC60B724FF19.title: "How This Book Works"
+	quest.2D15C773B7089981.quest_desc: [
+		"A &eWireless Player Charger&r tops up the powered gear of anyone standing near it: tools, armor, jetpacks, anything that holds FE."
+		""
+		"Put one by your front door and never think about batteries again. The &eWireless Block Charger&r does the same for machines around it, no cables needed."
+		""
+		"The advanced versions reach farther and charge faster."
+	]
+	quest.2D15C773B7089981.title: "Charge on the Go"
+	quest.2D4F71A8058260DE.quest_desc: [
+		"The &eCooking Table&r is the center of a kitchen. Right-click it to see every food you can make from the ingredients in the kitchen around it, and craft any of them with a click or two."
+		""
+		"Counters, fridges, sinks, ovens and the rest share their contents with it when they touch it or each other. Kitchen Floor connects them across a room."
+		""
+		"Here's a toaster to get you started."
+	]
+	quest.2D4F71A8058260DE.title: "The Heart of the Kitchen"
+	quest.2D87FC29B228BF14.quest_desc: [
+		"The &eEnderic Laser&r fires a beam up to 128 blocks. Aim it with a &eTarget Designator&r and it mines everything in that line, passing through glass, until something stops it."
+		""
+		"Mined drops go into the laser's own inventory, and anything that doesn't fit is destroyed, so pipe them out."
+		""
+		"Aim it at a machine instead and it charges the machine, ignoring the usual input limit. Your biggest machines need power this way."
+	]
+	quest.2D87FC29B228BF14.title: "Enderic Laser"
+	quest.2DA61AEB4C78A0AF.quest_desc: [
+		"A roof with a ridge, windows with curtains, a chair by the fire and a path to the door. That's not a shelter any more, that's a home."
+		""
+		"There's always one more thing to add. Have fun with it."
+	]
+	quest.2DA61AEB4C78A0AF.title: "A Place of Your Own"
+	quest.2DA83054B4065A27.quest_desc: [
+		"Underground, in the Nether and in some villages, you may find a darker statue with horns. It's the goddess's opposite, and it deals in the same goods."
+		""
+		"Give it a Heart Container or Stamina Vessel and it pays you in emeralds and an &eEssence&r. Bring it an Essence and some emeralds, and it gives one back."
+		""
+		"Wish you'd picked stamina over hearts? This is how you change your mind. This quest wants one of the underground statues."
+	]
+	quest.2DA83054B4065A27.title: "The Horned Statue"
+	quest.2E0EE5F1079BE906.quest_desc: [
+		"A &eFancy Bed&r has a proper wooden frame and works just like any other bed."
+		""
+		"Right-click it with a &eSheet&r to change the bedding, or with a &eCushion&r to change the pillow. Put a nightstand next to it and a lamp on top, and you've got a bedroom."
+	]
+	quest.2E0EE5F1079BE906.title: "Sweet Dreams"
+	quest.2E175A47DAF209EC.quest_desc: [
+		"A &eFlux Controller&r turns on wireless charging for its network: the powered gear of the players on that network gets topped up from it."
+		""
+		"Pair it with a big flux storage and your jetpack never runs dry."
+	]
+	quest.2E175A47DAF209EC.title: "Charge from Anywhere"
+	quest.2E6009811F8E12CE.quest_desc: [
+		"Generators make power whether or not you're using it. An &eEnergy Cell&r saves the extra for later."
+		""
+		"Put one between your generators and machines. It fills up overnight and covers the busy moments when everything runs at once."
+		""
+		"Higher tiers hold more, and you can build each tier out of cells from the one before."
+	]
+	quest.2E6009811F8E12CE.title: "Store It Up"
+	quest.2ECB18270BE008E3.quest_desc: [
+		"Look down as you walk. &eTwigs&r lie about in forests and taiga, and &ePebbles&r on plains, beaches and riverbanks. Pick them up."
+		""
+		"A twig crafts into two sticks, and four pebbles make a cobblestone, so they're handy on your first day. Pebbles can be thrown, too."
+		""
+		"Twigs also adds small tables made from a fence and a slab, paper lanterns, seashells on the beach, and a few new kinds of stone underground."
+	]
+	quest.2ECB18270BE008E3.title: "Bits on the Ground"
+	quest.2F2DA16F3553EA88.quest_desc: [
+		"Fill out the kitchen. A &eFridge&r and &eKitchen Counters&r store ingredients the Cooking Table can reach. A &eSink&r supplies water to recipes, as much as you need."
+		""
+		"An &eOven&r and a &eTool Rack&r for your knives and pans round it out. Hang cabinets on the wall for even more space."
+	]
+	quest.2F2DA16F3553EA88.title: "Stock the Pantry"
+	quest.2F7240862881C340.quest_desc: [
+		"Every part of the Mining Gadget starts from a &eBlank Upgrade Module&r: redstone, lapis, diamonds and a glass pane."
+		""
+		"Make a few. The gadget takes one, its workbench takes another, and most upgrades need one more."
+	]
+	quest.2F7240862881C340.title: "A Blank Slate"
+	quest.2F8C6FD9A76B3A2E.quest_desc: [
+		"A 7x7 grid, and the table the &eAllthemodium Alloy Paxel&r itself is made on."
+		""
+		"Two Advanced tables, a block of diamond and Elite components."
+	]
+	quest.2F8C6FD9A76B3A2E.title: "Elite Crafting Table"
+	quest.302537769E5066AA.quest_desc: [
+		"An &eenchanting table&r puts your experience to work on tools and armor."
+		""
+		"Bookshelves around it unlock stronger enchantments, so build a little library around it."
+		""
+		"Enchanted books can go on an anvil with a tool to add that enchantment, or with each other to make a stronger book."
+	]
+	quest.302537769E5066AA.title: "A Touch of Shine"
+	quest.30B8CC0C1ABCCA7E.quest_desc: [
+		"Bring it all to an &eElite Crafting Table&r: the four alloy tools, a ring of alloy ingots, four Insanium Essence and the five tech pieces."
+		""
+		"One tool for every block, made from everything you've built along the way. Well done."
+		""
+		"The tech pieces come back to you as rewards, so your bases don't go short."
+	]
+	quest.30B8CC0C1ABCCA7E.title: "The Allthemodium Alloy Paxel"
+	quest.30D6C9F473F2BB9B.quest_desc: [
+		"The &eCharging Station&r burns ordinary fuel, like coal or wood, and pours the power into whatever you put in its charging slot."
+		""
+		"Drop your gadget in, feed it a few logs, and come back to a full battery. Later on, any machine that charges items will do the same job."
+	]
+	quest.30D6C9F473F2BB9B.title: "Full Charge"
+	quest.31C91E01FF122D39.quest_desc: [
+		"Macaw's Trapdoors comes in the same styles as its doors: barn, ranch, barred, glass and more, in every wood."
+		""
+		"They make good shutters on a wall, cupboard doors on a shelf, or a cellar hatch in the floor."
+	]
+	quest.31C91E01FF122D39.title: "Hatches and Shutters"
+	quest.31D3CC66FAA927AB.quest_desc: [
+		"The witch who lives in the swamp has had a renovation. YUNG's Better Witch Huts are bigger and stranger than the old shack on stilts."
+		""
+		"There's usually a witch at home, and a cat."
+	]
+	quest.31D3CC66FAA927AB.title: "Swamp Cottage"
+	quest.32A0644E86AE7667.quest_desc: [
+		"Stairs make a fine roof. Macaw's Roofs makes a better one: steep pitches, low pitches, attic pieces and top caps in wood, stone, brick, concrete, terracotta and thatch."
+		""
+		"Try a steep roof on a narrow cottage and a low one on a wide barn, and finish the peak with a top piece so it doesn't look chopped off."
+	]
+	quest.32A0644E86AE7667.title: "A Proper Roof"
+	quest.331970696BC30085.quest_desc: [
+		"The &ePowered Furnace&r smelts twice as fast as a stone furnace and needs no fuel, only power."
+		""
+		"It needs one machine core beside it. Right-click the furnace and the spot lights up."
+	]
+	quest.331970696BC30085.title: "Powered Furnace"
+	quest.33976B383FA077EA.quest_desc: [
+		"The hardest of the three: two &eUnobtainium Ingots&r, two &eVibranium Ingots&r and a Piglich Heart, for 10,000,000 FE."
+		""
+		"If your power grid has been coasting, this is where you'll find out."
+	]
+	quest.33976B383FA077EA.title: "Unobtainium Meets Vibranium"
+	quest.347DB171ECD19E8C.quest_desc: [
+		"&eGems&r turn up in chest loot and now and then from monsters. Bosses and Invaders drop them more often."
+		""
+		"Each gem has a &ePurity&r, from Cracked up to Perfect, and purity is all that sets its strength. A gem gives a different bonus depending on what you put it in: hover over one to see."
+	]
+	quest.347DB171ECD19E8C.title: "A Gem in the Rough"
+	quest.349C0D23BBAF2413.quest_desc: [
+		"Eight Inferium Essence around a Wheat Seed make &eInferium Seeds&r, which grow more Inferium Essence. Once a few are in the ground, you'll never need to dig for it again."
+		""
+		"They grow on any farmland, but do best on Essence Farmland, just above."
+	]
+	quest.349C0D23BBAF2413.title: "Plant an Inferium Seed"
+	quest.34DAED11CB75C78C.quest_desc: [
+		"Processors come in three grades. Craft a &eProcessor Binding&r from string and a slime ball, add silicon, redstone and one more ingredient, then smelt the raw processor in a furnace."
+		""
+		"Iron makes a &eBasic&r processor, gold an &eImproved&r one and a diamond an &eAdvanced&r one."
+		""
+		"&eSilicon&r is just quartz, smelted. One binding recipe makes eight, so string is rarely the problem."
+	]
+	quest.34DAED11CB75C78C.title: "Printed Circuits"
+	quest.3510303011B01564.quest_desc: [
+		"Every job on this board can be done again and again, as often as you like."
+		""
+		"Deliveries take the items when you hand them in, so open the quest and click the task to turn them over. Don't hand over anything you still need. Hunts only count kills."
+		""
+		"Three tiers: &7Odd Jobs&r pay a Kindling crate, &aCommissions&r a Hearth crate, and &6Grand Bounties&r an Ember crate."
+	]
+	quest.3510303011B01564.title: "The Bounty Board"
+	quest.35719E573E8621A6.quest_desc: [
+		"Once in a long while, a cow you kill drops &eEverlasting Beef&r. Kill it while it's on fire and you get it already cooked."
+		""
+		"Take a bite and it grows back. It's the last packed lunch you'll ever need."
+	]
+	quest.35719E573E8621A6.title: "A Meal That Never Ends"
+	quest.35B4A1778EF5E80B.quest_desc: ["A stack of nether quartz for the glassworks."]
+	quest.35B4A1778EF5E80B.quest_subtitle: "Commission"
+	quest.35B4A1778EF5E80B.title: "Quartz Delivery"
+	quest.35B6228C78CEFB29.quest_desc: ["Thirty-two osmium ingots for the machine shop."]
+	quest.35B6228C78CEFB29.quest_subtitle: "Commission"
+	quest.35B6228C78CEFB29.title: "Osmium Order"
+	quest.35D05A93F31D6519.quest_desc: [
+		"Built something you like? The &eCopy Paste Gadget&r builds it again."
+		""
+		"In copy mode, right-click one corner of your build and shift-right-click the opposite corner. A green box shows what's copied. Switch to paste mode, look where you want it, and right-click."
+		""
+		"It uses blocks from your inventory. The &eMaterial List&r in its menu shows what you need and what you're short of."
+	]
+	quest.35D05A93F31D6519.title: "Copy That"
+	quest.36889D472FF37BBA.quest_desc: [
+		"A resource seed grows the real thing: stone, coal, iron, diamond and many more. Each one is a seed base on the altar, with four of the material and four essences on the pedestals."
+		""
+		"Better materials need better essence. Look any seed up in JEI with &eR&r to see what it takes, and start with whatever you use the most of."
+	]
+	quest.36889D472FF37BBA.title: "Your First Resource Seed"
+	quest.36EB4650F02BEA32.quest_desc: [
+		"The waystones in villages are handy, but they're never quite where you live. Make your own."
+		""
+		"A &eWarp Stone&r takes amethyst shards, ender pearls and an emerald. Set it in stone bricks over a row of obsidian, and you have a &eWaystone&r."
+		""
+		"Put one at home, one at the mine, one at the farm. Traveling between them costs nothing in this pack."
+	]
+	quest.36EB4650F02BEA32.title: "A Waystone of Your Own"
+	quest.37BF4A1A5D96EDBF.quest_desc: [
+		"An &eEnergizing Orb&r does nothing alone. Place &eEnergizing Rods&r within four blocks of it, set them on cables so they get power, and right-click your ingredients into the orb. More rods, and better ones, means faster crafting."
+		""
+		"The orb itself needs no power. Right-click it with an empty hand to take things back out."
+		""
+		"Most of Powah's better parts are made here. Press &eU&r on the orb to see what it can make."
+	]
+	quest.37BF4A1A5D96EDBF.title: "The Energizing Orb"
+	quest.38534A91108CF3B2.quest_desc: [
+		"Point a &eConstruction Stick&r at a wall and right-click: it copies the face you're looking at, one block deep, using blocks from your inventory."
+		""
+		"The Iron Stick places up to 27 blocks at a time. Diamond and netherite sticks place far more."
+		""
+		"Made a mess? Hold Shift while hovering the stick for its full guide, including how to undo your last few placements."
+	]
+	quest.38534A91108CF3B2.title: "Build Faster"
+	quest.38755BA4A1629EAF.quest_desc: [
+		"A &eBlank Scroll&r is paper, a feather and gold nuggets. Use it on a waystone and it becomes a &eBound Scroll&r that takes you to that waystone."
+		""
+		"Keep a few bound to home in your backpack. A &eWarp Scroll&r lets you pick any waystone you know instead."
+	]
+	quest.38755BA4A1629EAF.title: "A Ticket Home"
+	quest.38885A1AF52B23C8.quest_desc: [
+		"Strange glowing &eSpirit Orbs&r turn up in old chests: buried treasure, ocean ruins, woodland mansions, ancient cities and bastions."
+		""
+		"Every monster spawner you break drops one, and trial chamber rewards include them too."
+		""
+		"Collect four. You'll see why next."
+	]
+	quest.38885A1AF52B23C8.title: "Spirit Orbs"
+	quest.38EAC5CC9ABC90B8.quest_desc: [
+		"In the Nether, every skeleton is a Wither Skeleton, not just the ones in fortresses."
+		""
+		"They drop &eWither Skull Fragments&r. Nine fragments craft a Wither Skeleton Skull, so you'll have three skulls long before your luck would give them to you."
+	]
+	quest.38EAC5CC9ABC90B8.title: "Skull Fragments"
+	quest.396B8362F17604D3.quest_desc: [
+		"Macaw's Stairs adds new stair styles, railings, platforms and balconies."
+		""
+		"A &eBalcony&r can be placed up to four times on the same block. A &eRailing&r goes along the side of a stair. Hit either with &eShears&r to change its style."
+	]
+	quest.396B8362F17604D3.title: "Up and Out"
+	quest.39AB7C0BE37D3C0B.quest_desc: [
+		"The &eChisel&r turns plain blocks into fancier versions of themselves: stone into tiles, planks into panels, bricks into patterns."
+		""
+		"Use it to open its menu, drop in a stack, and pick the look you want. &eChisel all&r converts the whole stack at once."
+		""
+		"Many variants have connected textures that join up across a wall. Turn that on or off in the same menu."
+	]
+	quest.39AB7C0BE37D3C0B.title: "A Chisel for Everything"
+	quest.39BE6161684FC574.quest_desc: [
+		"Cultural Delights brings corn, cucumbers, eggplants and beans, all found growing wild, plus avocado and lemon trees."
+		""
+		"They open up tacos, curries, pickles and a lot more. Plenty of it uses the cooking pot and cutting board you already have, and the mod adds its own Oven for baking and a Vat for aging."
+	]
+	quest.39BE6161684FC574.title: "Flavors from Afar"
+	quest.3A0D837FE1BE2F95.quest_desc: [
+		"Too much cobblestone? Nine of most common blocks craft into a &e1x&r compressed block, nine of those into a 2x, and so on up to 9x."
+		""
+		"A 9x block holds 387,420,489 of the original. Craft one back down to get nine out again."
+	]
+	quest.3A0D837FE1BE2F95.title: "Squeeze It Down"
+	quest.3A0EE173F063AF38.quest_desc: [
+		"Macaw's Furniture is another full set: chairs, tables, desks, kitchen cabinets, bookshelves, drawers and wardrobes."
+		""
+		"Chairs seat you, and many of the cabinets and drawers open up to store things, so a kitchen can hold your food as well as look the part."
+		""
+		"Mix it freely with Handcrafted. Nobody's checking."
+	]
+	quest.3A0EE173F063AF38.title: "A Second Opinion on Furniture"
+	quest.3B003232D8A9449B.quest_desc: [
+		"Wear a full set of &aUncommon&r gear, weapon included, and slay an &cApothic Invader&r. They arrive with a loud noise and a beam of light from the sky, and never in Haven."
+		""
+		"Do both and the &eAscent&r tier is yours. Every Invader drops its own affix item, so it's worth the fight."
+		""
+		"Beyond Ascent lie Summit and Pinnacle, behind the Wither and the Ender Dragon. Keep climbing."
+	]
+	quest.3B003232D8A9449B.title: "The Ascent"
+	quest.3B5008C4F0E744F8.quest_desc: [
+		"A bed, a fire, a pack on your back and a way home. That's a start."
+		""
+		"From here the book branches out. &eTools of the Trade&r gets you better gear, &eHearth \\& Table&r fills the kitchen, and &eWanderlust&r is for the road. Follow whichever calls to you."
+	]
+	quest.3B5008C4F0E744F8.title: "Settled In"
+	quest.3B9F8587B26491A8.quest_desc: [
+		"Bastion treasure rooms in the Nether have &eSuspicious Soul Sand&r. Brush it for a &eVibranium Smithing Template&r."
+		""
+		"Seven Allthemodium Ingots and a block of Ancient Stone copy a template into two."
+	]
+	quest.3B9F8587B26491A8.title: "Bastion Treasure"
+	quest.3BF050ED090F5DFF.quest_desc: [
+		"&eAllthemodium Ore&r sits on the floor of the Deep Dark, right down at the very bottom."
+		""
+		"It's tough stuff: you need a netherite pickaxe to mine it."
+		""
+		"Smelt the raw ore into an ingot and break that into nuggets. Four of them open the way to the next step."
+	]
+	quest.3BF050ED090F5DFF.title: "Allthemodium"
+	quest.3C0C3CB21143B2C8.quest_desc: [
+		"The &ePurification Chamber&r feeds &eoxygen&r into each ore and gets three &eClumps&r out."
+		""
+		"Crush the clumps into Dirty Dust, enrich that into dust, and smelt it. Three ingots per ore."
+		""
+		"Oxygen comes from the Electrolytic Separator, just above."
+	]
+	quest.3C0C3CB21143B2C8.title: "Triple Your Ores"
+	quest.3C2424D4625EDF33.quest_desc: [
+		"Give the bush time and it ripens into &eOreberries&r."
+		""
+		"Smelt them for nuggets of their metal. It's slow, but it never runs out, and a closet full of bushes adds up."
+	]
+	quest.3C2424D4625EDF33.title: "First Harvest"
+	quest.3C468B27D06F9F1C.quest_desc: [
+		"An &eImporter&r pulls from whatever it faces into the network. An &eExporter&r pushes the items you choose back out. Between them they can feed furnaces, machines and farms."
+		""
+		"A &eRegulator Upgrade&r in an Exporter keeps a set amount in the target instead of emptying the network into it."
+	]
+	quest.3C468B27D06F9F1C.title: "In and Out"
+	quest.3CEF37B6337C7241.quest_desc: [
+		"Use the pearl on a block in an open space and stand back."
+		""
+		"A Gateway fails in a burst of lightning if the timer runs out, a monster wanders too far, or it can't find room to spawn. Fight on flat ground and stay close."
+		""
+		"Rewards pop out of the Gateway as you earn them."
+	]
+	quest.3CEF37B6337C7241.title: "Hold the Gate"
+	quest.3CFD7811CEC9356F.quest_desc: [
+		"Terralith has cherry groves, lavender fields, orchid swamps, deserts with grass in them, and far more."
+		""
+		"Visit these ten. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far."
+		""
+		"Keep an eye out on the way: villages, ruins and waystones turn up where you least expect them. Take this &eExplorer's Compass&r for the structures you'll want to find next."
+	]
+	quest.3CFD7811CEC9356F.title: "Ten Corners of the World"
+	quest.3D35156C3E3C8B71.quest_desc: [
+		"Infuse &eInfused Alloy&r with diamond for &eReinforced Alloy&r, the second of the three alloys."
+		""
+		"Two of them and an Advanced Control Circuit make the next circuit up."
+	]
+	quest.3D35156C3E3C8B71.title: "Reinforced Alloy"
+	quest.3DA2D9FFD9251C31.quest_desc: [
+		"&ePacking Tape&r is a slimeball and a sheet of paper. Use it on a Sophisticated chest or barrel, then break it: it drops as one item with everything still packed inside."
+		""
+		"Try to break a stuffed chest without tape and the game stops you, so you don't spray hundreds of items across the floor. Sneak if you really mean it."
+	]
+	quest.3DA2D9FFD9251C31.title: "Moving Day"
+	quest.3E3A18A6D93159F3.quest_desc: [
+		"Your first energizing recipe: an iron ingot and a gold ingot in the orb come out as two &eEnergized Steel&r."
+		""
+		"It goes into better capacitors, cables and cells, so make a good stack."
+	]
+	quest.3E3A18A6D93159F3.title: "Energized Steel"
+	quest.3EBE29B0EF89E033.quest_desc: [
+		"A &eWireless Transmitter&r lets a &eWireless Grid&r reach the network from 16 blocks away. Each Range Upgrade in the transmitter adds 8 more."
+		""
+		"Use the Wireless Grid on any device in the network to bind it, then open it anywhere in range."
+		""
+		"It runs on a battery, so charge it like any other FE item."
+	]
+	quest.3EBE29B0EF89E033.title: "Storage on the Go"
+	quest.3ECE66DE6744CB4E.quest_desc: [
+		"Flux Networks starts in an odd place: the bottom of the world."
+		""
+		"Set a block of obsidian on top of bedrock, drop some redstone on it, and left-click the obsidian. The redstone gets crushed into &eFlux Dust&r."
+		""
+		"Bring plenty of redstone. You'll want a lot of dust."
+	]
+	quest.3ECE66DE6744CB4E.title: "Flux Dust"
+	quest.3F2D985BFCF53A6F.quest_desc: [
+		"A crafting table on a stick. Right-click it to craft wherever you stand."
+		""
+		"Better yet, tuck it into its Curios slot and press &eShift+E&r to open it without digging through your bags. Anything you leave in the grid is still there next time."
+		""
+		"The stonecutter, loom, smithing table, anvil and a few others come on sticks too."
+	]
+	quest.3F2D985BFCF53A6F.title: "A Workbench in Your Pocket"
+	quest.3FD66994E830D38E.quest_desc: [
+		"A &eStove&r cooks food set on top of it, like a campfire, and heats a cooking pot or skillet placed on it."
+		""
+		"It's made from a campfire, bricks and iron, and looks right at home in a kitchen."
+	]
+	quest.3FD66994E830D38E.title: "The Stove"
+	quest.3FDDFD72DAD0EED3.quest_desc: [
+		"A diamond, energized. Takes a good deal more power than a blazing crystal, so it's a fair test of your rods."
+		""
+		"Niotic parts make the tier after blazing."
+	]
+	quest.3FDDFD72DAD0EED3.title: "Niotic Crystal"
+	quest.3FEC3275BCBAA28A.quest_desc: ["Wake it on purpose this time."]
+	quest.3FEC3275BCBAA28A.quest_subtitle: "Grand Bounty"
+	quest.3FEC3275BCBAA28A.title: "The Warden"
+	quest.402FF1E4D7717A7D.quest_desc: [
+		"Macaw's Bridges builds bridges in rope, wood, stone and iron. Lay the pieces in a line and they connect on their own."
+		""
+		"Use &ePliers&r on a bridge two or more blocks wide to open a gap in the railing for a side entrance. Bridge lanterns and torches sit on the handrails."
+	]
+	quest.402FF1E4D7717A7D.title: "Across the River"
+	quest.40E8C5A0930086CC.quest_desc: [
+		"Most Oritech machines are multiblocks. Place the machine, then right-click it: the spots that need &emachine cores&r light up for a few seconds."
+		""
+		"Right-click the machine with a core in hand and it places the next one for you, as long as the spot is clear. The &ePrimitive Machine Core&r is just planks around a crafting table."
+		""
+		"Better cores don't make a machine faster. They raise its quality, which decides how many addons it can take."
+	]
+	quest.40E8C5A0930086CC.title: "Machine Cores"
+	quest.417C041D143D1FDF.quest_desc: [
+		"The second size upgrade widens the beam to 5x5. It takes your 3x3 upgrade, a netherite block, diamond blocks, ender pearls and a netherite pickaxe."
+		""
+		"Take it to the Mining Dimension, aim at a wall, and watch a room open up in front of you."
+		""
+		"That's the Hollow, mapped and mastered."
+	]
+	quest.417C041D143D1FDF.title: "Five by Five"
+	quest.42D3CDF4C2603F32.quest_desc: [
+		"Terralith builds its own walled villages, including one for the desert."
+		""
+		"Safe places to spend a night on the road, as long as the gates hold."
+	]
+	quest.42D3CDF4C2603F32.title: "Behind the Walls"
+	quest.43DC8D9332D82C58.quest_desc: [
+		"Why mine iron when you can grow it? Mystical Agriculture has seeds that grow real resources, and the rest of this chapter gets the farm running by itself."
+		""
+		"It all starts with &eInferium Essence&r. Grass and mobs don't drop it in this pack, so dig for it: &eInferium Ore&r is common underground in the Overworld, from about Y 64 down to Y -32, and each one drops two to four essence. Fortune helps."
+		""
+		"The Nether and the End have Inferium Ore of their own, too."
+	]
+	quest.43DC8D9332D82C58.title: "Green Thumb"
+	quest.43FC015E34776F75.quest_desc: [
+		"Aquaculture fills the water with real fish: bass and trout in rivers and lakes, tuna and halibut at sea, piranha in the jungle, and plenty more."
+		""
+		"An &eIron Fishing Rod&r is the first rod that takes upgrades. Every kind of water has its own catch, so fish everywhere you go."
+	]
+	quest.43FC015E34776F75.title: "Gone Fishing"
+	quest.4418452E7585B972.quest_desc: [
+		"The &eCybernetic Augmentation Center&r researches and installs permanent upgrades to your body: more health, more armor, faster mining, longer reach, and stranger things further up the tree."
+		""
+		"It needs ten machine cores, plus at least one &eCybernetic Research Station&r with three cores of its own. Walk into the center to open its research screen."
+		""
+		"Research takes materials and a great deal of power, so build it near your best generators."
+	]
+	quest.4418452E7585B972.title: "Better Than Flesh"
+	quest.44827C5C087DBCAA.quest_desc: [
+		"The first night is the longest. Put up four walls, a door and a bed before the sun goes down, and the mobs will have to wait until tomorrow."
+		""
+		"Sleeping in a bed sets your spawn point, so it's also how you find your way home after a bad fall."
+	]
+	quest.44827C5C087DBCAA.title: "A Roof Over Your Head"
+	quest.4491DE4DCDDF00A4.quest_desc: [
+		"Gear you've outgrown is still worth something. The &eSalvaging Table&r breaks affix items down into &eRarity Materials&r, one kind per rarity."
+		""
+		"Common gear gives Mysterious Scrap Metal, Uncommon gives Timeworn Fabric, Rare gives Luminous Crystal Shards, and up from there."
+		""
+		"Those materials pay for reforging, gem cutting and more."
+	]
+	quest.4491DE4DCDDF00A4.title: "Waste Not"
+	quest.45423E939EF42180.quest_desc: [
+		"A &eFish Mount&r hangs on the wall and shows off a fish of your choosing. You'll need an Iron Hook to make one."
+		""
+		"Every proper cabin has one over the fireplace."
+	]
+	quest.45423E939EF42180.title: "Mount Your Catch"
+	quest.458E38962AACF686.quest_desc: [
+		"A diamond, four Prosperity Shards and four Inferium Essence make an &eInfusion Crystal&r."
+		""
+		"Four essences of one tier around the crystal make one essence of the next tier up. The crystal comes back each time with one use fewer, and it's good for a thousand."
+	]
+	quest.458E38962AACF686.title: "Infusion Crystal"
+	quest.458E44B277264570.quest_desc: [
+		"The &eTemplate Manager&r saves a copied build onto paper, so you can keep a library of designs and load one back onto the gadget later."
+		""
+		"It can also copy a design to your clipboard as text, to share with friends in another world. They paste it in, and it's theirs."
+	]
+	quest.458E44B277264570.title: "Blueprints"
+	quest.45E3776247E65942.quest_desc: [
+		"Bosses drop bigger hearts. Beat one and you'll find a &eMiniature Yellow Heart&r."
+		""
+		"A &eYellow Heart Canister&r is a Red Heart Canister, a yellow heart and an Enchanted Golden Apple. In this pack you can craft that apple from an apple and eight gold blocks."
+		""
+		"Stronger hearts come from stronger foes: the Ender Dragon and the Warden have their own. Your collection is only getting started."
+	]
+	quest.45E3776247E65942.title: "Heart of a Champion"
+	quest.464331F2EC5BB489.quest_desc: [
+		"The Allthemodium Alloy Paxel is a pickaxe, axe and shovel in one, forged from the three endgame metals and a finished piece of everything else you've built."
+		""
+		"It's a long road, and that's the point:"
+		""
+		"&e1.&r Piglich Hearts, to bind the metals"
+		"&e2.&r Three alloy ingots, from the Energizing Orb"
+		"&e3.&r Four alloy tools, on an Advanced Crafting Table"
+		"&e4.&r One piece from each tech chapter"
+		"&e5.&r The paxel, on an Elite Crafting Table"
+		""
+		"Every recipe is in JEI. Press &eU&r on an alloy ingot to see where it goes."
+	]
+	quest.464331F2EC5BB489.title: "The Alloy Paxel"
+	quest.46D8D8490278ACF7.quest_desc: ["A &eFortune&r upgrade gives the gadget's beam the same luck as an enchanted pickaxe. Each tier costs a little more power per block."]
+	quest.46D8D8490278ACF7.title: "Lucky Beam"
+	quest.473B845B86B822CE.quest_desc: [
+		"Eating the same steak forever keeps you alive. Eating a little of everything makes you stronger."
+		""
+		"Spice of Life counts every hearty food you've tried, and each milestone adds &c3 hearts&r. The first comes at 25 foods and the last at 500. Hearts you've earned stay when you die."
+		""
+		"Only filling food counts: at least four drumsticks of hunger, so snacks won't do. Farmer's Delight and Croptopia have hundreds of meals that qualify."
+		""
+		"The Food Book shows what you've eaten and how far it is to the next milestone."
+	]
+	quest.473B845B86B822CE.title: "A Varied Diet"
+	quest.4781CCBA023D08B1.quest_desc: [
+		"Iron Furnaces take augments. Right-click a furnace with an augment to fit it."
+		""
+		"The &eGenerator&r augment turns the furnace's heat into power, though it can't smelt any more. Better furnaces make more."
+		""
+		"The &eSpeed&r augment halves cook time but burns twice the fuel, and the &eFactory&r augment runs on power instead of fuel."
+	]
+	quest.4781CCBA023D08B1.title: "A Furnace That Makes Power"
+	quest.4792FFB4325B8F0C.quest_desc: [
+		"Four walls keep the rain off. This chapter is about making them feel like home."
+		""
+		"Each quest shows you one family of blocks from the pack's building mods and hands you a few to try. Do them in any order, or skip the ones that don't suit your style."
+		""
+		"Most of these blocks are made from everyday materials. Hover over one and press &eR&r to see how. Many also have a second trick when you right-click them, so poke at everything."
+	]
+	quest.4792FFB4325B8F0C.title: "The Builder's Bench"
+	quest.492C3906176473DF.quest_desc: [
+		"A Grid, an Advanced Processor and a crafting table make a &eCrafting Grid&r: a Grid with a crafting area that pulls ingredients straight from storage."
+		""
+		"JEI's recipe transfer button fills it for you."
+	]
+	quest.492C3906176473DF.title: "Craft in Place"
+	quest.4965DD5EE6DB56CA.quest_desc: [
+		"Pipez also makes &eFluid Pipes&r and &eEnergy Pipes&r that work the same way: wrench a side to pull from it."
+		""
+		"The &eUniversal Pipe&r carries items, fluids and energy in one line, which keeps a busy wall tidy."
+	]
+	quest.4965DD5EE6DB56CA.title: "One Pipe for Everything"
+	quest.4A3EC994756078B7.quest_desc: [
+		"The paxel takes one finished piece from each tech chapter. Each one is near the end of its chapter. You'll get them all back when you craft the paxel."
+		""
+		"&eMekanism:&r an Ultimate Control Circuit"
+		"&eOritech:&r an Ultimate Machine Core"
+		"&eRefined Storage:&r a 64K Storage Disk"
+		"&eGreen Thumb:&r Insanium Essence and a Wither Prediction"
+		""
+		"The recipe takes four Insanium Essence, so grow a few more."
+	]
+	quest.4A3EC994756078B7.title: "A Piece of Everything"
+	quest.4A440CD3C7BF5EBB.quest_desc: [
+		"A &eWarp Plate&r links to exactly one other plate. Step on one and you arrive at its partner."
+		""
+		"To pair them, put a &eDormant Shard&r into the first plate. It comes out attuned. Carry the &eAttuned Shard&r to the second plate and slot it in."
+		""
+		"Plates carry animals too, so they're perfect for moving a herd to the new barn."
+	]
+	quest.4A440CD3C7BF5EBB.title: "Warp Plates"
+	quest.4BC9D4CA74A6568C.quest_desc: [
+		"The &esmithing table&r is where diamond gear becomes netherite, and where armor trims are applied."
+		""
+		"Each upgrade uses a &eNetherite Upgrade&r template. You'll find them in bastion chests in the Nether."
+		""
+		"Found one? Copy it: seven diamonds, a block of netherrack and the template make two."
+	]
+	quest.4BC9D4CA74A6568C.title: "The Smithing Table"
+	quest.4BEE64357E5E7FD6.quest_desc: [
+		"Once you have power running, a &eBasic Wireless Player Charger&r charges the items in your inventory whenever you're near it, gadgets included."
+		""
+		"Feed it FE from a generator or cable and set it in the middle of your build site. The advanced version reaches further and charges faster."
+	]
+	quest.4BEE64357E5E7FD6.title: "Charge As You Go"
+	quest.4C099DAA5AC4678D.quest_desc: [
+		"The &eWireless Crafting Grid&r is a Crafting Grid you carry. It's built like the Wireless Grid, around a Crafting Grid instead."
+		""
+		"Craft one, and a &eWireless Autocrafting Monitor&r too: you'll want both for the next step."
+	]
+	quest.4C099DAA5AC4678D.title: "Craft Anywhere"
+	quest.4C1EE078836EAA3A.quest_desc: ["Eight Basic Control Circuits for somebody's new factory."]
+	quest.4C1EE078836EAA3A.quest_subtitle: "Commission"
+	quest.4C1EE078836EAA3A.title: "Circuit Order"
+	quest.4C48B47AAEB05307.quest_desc: [
+		"Monsters very occasionally drop a &eTrophy&r of themselves. Bosses drop them far more often, and the Ender Dragon always does."
+		""
+		"Place one and pose it however you like: size, rotation, standing or flying. A wall of trophies makes a fine record of your adventures."
+	]
+	quest.4C48B47AAEB05307.title: "Something for the Mantel"
+	quest.4C513A7AE7FC93F6.quest_desc: ["The fortress has gotten crowded again."]
+	quest.4C513A7AE7FC93F6.quest_subtitle: "Commission"
+	quest.4C513A7AE7FC93F6.title: "Blaze Hunt"
+	quest.4C6B33B00966495A.quest_desc: [
+		"The &eEnrichment Chamber&r turns one ore into two dusts. Smelt them and every ore you mine is worth two ingots."
+		""
+		"Raw ore works too, at a lower rate: three raw ores make four dusts. Ore blocks get the full deal."
+		""
+		"That's the first tier of five. Keep going."
+	]
+	quest.4C6B33B00966495A.title: "Double Your Ores"
+	quest.4C96A0F8665954F6.quest_desc: [
+		"Use fertilizer on farmland and it stays fertilized."
+		""
+		"&cRed&r makes crops grow faster. &aGreen&r gives a bigger harvest. &eYellow&r stops the soil being trampled."
+		""
+		"Craft them from dye, seeds and a few gold nuggets."
+	]
+	quest.4C96A0F8665954F6.title: "Better Dirt"
+	quest.4CA601136464C123.quest_desc: [
+		"A &eFactory&r is a machine with several lanes, so it works on more than one stack at a time."
+		""
+		"Craft one from the machine it replaces, or upgrade a machine where it stands with a &eTier Installer&r. Installers run from Basic up to Ultimate, and each step adds lanes."
+	]
+	quest.4CA601136464C123.title: "More Lanes"
+	quest.4CDCAAADA0BE1D67.quest_desc: [
+		"64k not cutting it? Extra Disks and ExtraStorage both go far past it, starting at &e256k&r with parts built from 64k parts and Advanced Processors."
+		""
+		"Extra Disks keeps going all the way to Infinite, which needs a &eWithering Processor&r made with a nether star."
+	]
+	quest.4CDCAAADA0BE1D67.title: "Bigger Disks"
+	quest.4CDEC2B59132FFD1.quest_desc: [
+		"Mekanism machines have upgrade slots. &eSpeed Upgrades&r make a machine work faster and use more power, and &eEnergy Upgrades&r bring the power bill back down."
+		""
+		"The slowest machine in your line sets the pace for the whole thing, so upgrade that one first."
+	]
+	quest.4CDEC2B59132FFD1.title: "Faster, Please"
+	quest.4D17C75658589C4A.quest_desc: ["A stack of cobblestone for the new road."]
+	quest.4D17C75658589C4A.quest_subtitle: "Odd Job"
+	quest.4D17C75658589C4A.title: "Quarry Run"
+	quest.4D181A9753CCF516.quest_desc: [
+		"The &eMetallurgic Infuser&r soaks an item in an infusion: carbon from coal, redstone, diamond and more. It's where Mekanism's alloys, circuits and steel come from."
+		""
+		"The infusion is stored in a gauge, so you can top it up ahead of time and let it work through a stack."
+		""
+		"Hover over the infuser and press &eU&r to see everything it makes."
+	]
+	quest.4D181A9753CCF516.title: "The Metallurgic Infuser"
+	quest.4D71FB47FC70EFB3.quest_desc: [
+		"&eFlux Storage&r holds power for the whole network and evens out the peaks."
+		""
+		"The Basic one holds 2 million FE, the Herculean 16 million and the Gargantuan 128 million."
+	]
+	quest.4D71FB47FC70EFB3.title: "A Battery for the Network"
+	quest.4D769763BD93898C.quest_desc: [
+		"Steel and redstone make eight &eBasic Universal Cables&r. Run them from your generators to your machines and the power follows."
+		""
+		"Every Mekanism machine has a side configuration tab in its screen. Use it to choose which faces take power, items and chemicals, and which push them out."
+	]
+	quest.4D769763BD93898C.title: "Power Lines"
+	quest.4DC4179E7D8F319B.quest_desc: [
+		"The &eCentrifuge&r spins ore clumps into dust and coal dust into &eCarbon Fibre Strands&r, which you'll need for better machine cores."
+		""
+		"Attach a &eFluid Addon&r and it handles liquids too. Open the machine once after placing the addon so it notices."
+	]
+	quest.4DC4179E7D8F319B.title: "Spin Cycle"
+	quest.4DC5D14811471696.quest_desc: [
+		"In the Other's Soul Sand Valleys stand &eAncient Pyramids&r."
+		""
+		"They're full of loot and guarded by something worse than piglins."
+	]
+	quest.4DC5D14811471696.title: "Ancient Pyramid"
+	quest.4DD0768E9FF2E9AD.quest_desc: [
+		"Craft any Sophisticated chest, barrel or shulker box together with a minecart or a boat, and it rides along."
+		""
+		"A storage minecart is handy at the end of a long rail line, and a storage boat makes a fine floating pantry for river trips."
+	]
+	quest.4DD0768E9FF2E9AD.title: "Storage on the Move"
+	quest.4DD5DC3C6F9063D0.quest_desc: [
+		"Getting around is half of exploring. A few keepsakes make it much more fun:"
+		""
+		"&eRunning Shoes&r speed up your sprint, &eBunny Hoppers&r launch you skyward, the &eHelium Flamingo&r lets you swim through the air, and &eAqua-Dashers&r run across water."
+		""
+		"Any one of them will do."
+	]
+	quest.4DD5DC3C6F9063D0.title: "Fleet of Foot"
+	quest.4E2D24400FE1977B.quest_desc: [
+		"Machines want power, measured in FE. Every bit of it starts with a generator."
+		""
+		"The &eCopper Generator&r burns coal and other furnace fuel. Powah's &eFurnator&r does the same job."
+		""
+		"Feed it, connect it to a machine, and you've got a spark. The rest of this chapter turns that spark into a power grid."
+	]
+	quest.4E2D24400FE1977B.title: "Sparks"
+	quest.4E3DAB4C06AB591E.quest_desc: [
+		"Harder fights mean the odd death. When you die, your things go into a &eGrave&r where you fell, and only you can open it."
+		""
+		"The chat message tells you where it is, so you can go back for it."
+		""
+		"Items with the &eSoulbound&r enchantment stay with you instead. Here's a book to start with."
+	]
+	quest.4E3DAB4C06AB591E.title: "When It Goes Wrong"
+	quest.4E43AB0121CDC8BB.quest_desc: [
+		"Once a relic hits its level cap, you can &eRank Up&r on the research screen."
+		""
+		"It wipes the relic's levels and unspent points back to zero, but raises its maximum level, and some abilities change once ranked."
+		""
+		"It's a big step, so read the warning before you hold the button."
+	]
+	quest.4E43AB0121CDC8BB.title: "Rank Up"
+	quest.4E4EDA230B97EFA0.quest_desc: [
+		"Sulfur Ore drops Sulfur straight out of the ground."
+		""
+		"A &eChemical Oxidizer&r turns it into sulfur dioxide. A Chemical Infuser adds oxygen to make sulfur trioxide, and a second infuser mixes that with water vapor for &esulfuric acid&r. A &eRotary Condensentrator&r turns water into water vapor."
+		""
+		"It's a long chain, so build it once and leave it running."
+	]
+	quest.4E4EDA230B97EFA0.title: "Sulfuric Acid"
+	quest.4E5916FA573E8B4E.quest_desc: [
+		"A &eDisk Drive&r holds storage disks and adds their space to the network. A &e1k Storage Disk&r holds a thousand items of any kind."
+		""
+		"When you outgrow a disk, craft it with a bigger Storage Part to upgrade it. An empty disk used in your hand gives its part back."
+	]
+	quest.4E5916FA573E8B4E.title: "Disks and Drives"
+	quest.4EB6672AAA138F13.quest_desc: [
+		"A full set of &eiron armor&r turns a creeper ambush into a bad afternoon instead of a trip back to bed."
+		""
+		"Iron gear also repairs cheaply: combine two worn pieces in a crafting grid, or patch one up with ingots on an anvil."
+	]
+	quest.4EB6672AAA138F13.title: "Suit of Iron"
+	quest.4EC4115450CD8A2F.quest_desc: [
+		"Build a wall of Sophisticated chests and barrels touching each other, then add a &eStorage Controller&r touching the wall."
+		""
+		"The whole wall now acts as one. Pipe items into the controller and they spread across every chest in the group; pull from it and you can reach them all."
+		""
+		"It's not a full storage network, but it ends a lot of chest-hunting."
+	]
+	quest.4EC4115450CD8A2F.title: "One Chest to Rule Them"
+	quest.4F1908AA3DFF27E5.quest_desc: [
+		"Netherite starts as &eancient debris&r, buried near the bottom of the Nether. It shrugs off explosions and lava, and only a diamond pickaxe or better can mine it."
+		""
+		"Smelt it into netherite scrap. Bring a fire resistance potion and some blocks to wall off the lava."
+	]
+	quest.4F1908AA3DFF27E5.title: "Ancient Debris"
+	quest.50923A38F1212EF9.quest_desc: [
+		"A &eBotany Pot&r grows a crop on a single block. Give it soil and a seed and it grows right there, with no farmland to trample and no field to fence in."
+		""
+		"Mystical seeds need Essence Farmland as their soil, of their own tier or better. Essence Farmland makes them grow a little faster, too."
+	]
+	quest.50923A38F1212EF9.title: "A Garden in a Pot"
+	quest.50AD5140D01BB781.quest_desc: [
+		"Desert temples here are deep tombs, and the curse is real: you get &cMining Fatigue&r inside until the temple is cleared, so digging is slow going."
+		""
+		"Find the Pharaoh at its heart and put him to rest. The curse lifts with him."
+	]
+	quest.50AD5140D01BB781.title: "The Pharaoh's Curse"
+	quest.5165414AC564B48A.quest_desc: [
+		"A few commands anyone can use:"
+		""
+		"&e/sethome&r  Save this spot as your home"
+		"&e/home&r  Go back to it"
+		"&e/back&r  Return to where you died or last teleported from"
+		"&e/spawn&r  Go to the world spawn"
+		"&e/tpa <name>&r  Ask to teleport to a friend"
+		"&e/rtp&r  Jump somewhere random and far away, once every 10 minutes"
+	]
+	quest.5165414AC564B48A.title: "Handy Commands"
+	quest.516C2476AA7CD9EB.quest_desc: ["One Cobblestone 3x: that's 729 cobblestone, compressed three times."]
+	quest.516C2476AA7CD9EB.quest_subtitle: "Grand Bounty"
+	quest.516C2476AA7CD9EB.title: "The Mountain"
+	quest.51B1C7B11F2C5AFD.quest_desc: [
+		"Found a great enchantment on a rubbish pickaxe? The &eDis-Enchanting Table&r lifts the enchantments off an item and onto a book, for a little experience."
+		""
+		"The item's anvil cost resets too, which makes it cheap to work on again."
+	]
+	quest.51B1C7B11F2C5AFD.title: "Take It Back"
+	quest.51C69B12C6CD8B94.quest_desc: [
+		"Seeds for mob drops, like zombie or skeleton seeds, need a &eSoul Jar&r full of that mob's souls."
+		""
+		"Carry an empty Soul Jar and kill the mob with a &eSoulium Dagger&r to fill it. Soulium Ore hides in Soulstone veins in the Nether."
+		""
+		"A Soul Extractor can fill jars from spare mob drops too, though more slowly."
+	]
+	quest.51C69B12C6CD8B94.title: "Mob Seeds"
+	quest.51C7E2D472ECE61B.quest_desc: [
+		"Fifty chests opened, from villages to tombs to islands in the sky. You've seen more of this world than most."
+		""
+		"There's always another horizon. Keep your compass handy and your waystones close."
+	]
+	quest.51C7E2D472ECE61B.title: "Seasoned Traveler"
+	quest.51CC9B1DCA0B6DB9.quest_desc: [
+		"Every automated setup makes something you don't want. A &eTrash Can&r deletes it."
+		""
+		"The Item Trash Can has a filter for up to nine items. There are fluid and energy cans too, and the &eUltimate Trash Can&r takes all three."
+		""
+		"Pipe your overflow into one and nothing backs up."
+	]
+	quest.51CC9B1DCA0B6DB9.title: "Take Out the Trash"
+	quest.529EB9E5D8A11071.quest_desc: [
+		"A &eTeleport Pad&r is an ender pearl ringed with four Allthemodium Nuggets. Place it in the Overworld, then sneak and right-click it with both hands empty."
+		""
+		"It takes you to the &eMining Dimension&r: flat layers of stone, deepslate, netherrack and end stone, packed with ore and made to be dug up."
+		""
+		"Allthemodium turns up in the deepslate layer, and there's plenty of everything else besides."
+	]
+	quest.529EB9E5D8A11071.title: "The Mining Dimension"
+	quest.52E482C149D7265D.quest_desc: [
+		"The next metal hides in the &eDeep Dark&r, the hushed sculk caves near the bottom of the world."
+		""
+		"Walk softly. Sculk shriekers call the Warden, and you don't want to meet it today. Sneak everywhere and keep the noise down."
+	]
+	quest.52E482C149D7265D.title: "Somewhere Quiet"
+	quest.52FC1296570F76B8.quest_desc: [
+		"Each Storage Part is three parts of the size below, a redstone, a Quartz Enriched Iron and four processors: Basic for 4k, Improved for 16k and Advanced for 64k."
+		""
+		"Put the part in a Storage Housing for a new disk, or craft it with an old disk to upgrade."
+	]
+	quest.52FC1296570F76B8.title: "Room to Grow"
+	quest.533E9A11E9D7F019.quest_desc: [
+		"Croptopia adds dozens more crops, each growing wild in its own kind of biome: lettuce in one place, garlic or strawberries in another."
+		""
+		"Found one? Put the crop in a crafting grid to turn it into seeds, and start a patch at home."
+	]
+	quest.533E9A11E9D7F019.title: "A Bigger Garden"
+	quest.5400B57216D6FB2B.quest_desc: ["Eight diamonds, no questions asked."]
+	quest.5400B57216D6FB2B.quest_subtitle: "Commission"
+	quest.5400B57216D6FB2B.title: "Diamond Order"
+	quest.540741D4DD608444.quest_desc: [
+		"Mekanism's gases, acids and slurries can live on the network too. &eChemical Storage Disks&r start at 64B, and their parts use osmium where the item parts use iron."
+		""
+		"Extra Disks carries chemical disks all the way up to infinite."
+	]
+	quest.540741D4DD608444.title: "Gas and Slurry"
+	quest.5409135A38E1707B.quest_desc: [
+		"The &eElectrolytic Separator&r splits water into &ehydrogen&r and &eoxygen&r. Pipe water in, and run Pressurized Tubes from the oxygen side to your Purification Chamber."
+		""
+		"Each output has a button to dump what you don't need, but don't throw the hydrogen away for long. Tier four wants it."
+	]
+	quest.5409135A38E1707B.title: "Splitting Water"
+	quest.54178643295A1635.quest_desc: [
+		"Some drops are easier to farm the old way. The &eMob Masher&r is a mob grinder you can fit with upgrades for Sharpness, Looting, Fire Aspect and more. Its kills count as player kills."
+		""
+		"For a steady supply of monsters, &eDreadful Dirt&r spawns them in the dark. Keep it out of the daylight, or it catches fire."
+	]
+	quest.54178643295A1635.title: "Mob Masher"
+	quest.544AAD2E2A678816.quest_desc: [
+		"A campfire cooks four pieces of food at once with no fuel, keeps bees calm while you take their honey, and looks right in front of any cottage."
+		""
+		"Set it on a hay bale and the smoke climbs high enough to see from far off. That makes a fine beacon home."
+	]
+	quest.544AAD2E2A678816.title: "Keep the Fire Lit"
+	quest.544D6A15C87339ED.quest_desc: [
+		"Three metals, three dimensions, and a table big enough for anything. That's the long climb done."
+		""
+		"What's left is putting them together. The alloys, the alloy tools and the &eAllthemodium Alloy Paxel&r are waiting in &eThe Alloy Paxel&r chapter. Bring Piglich Hearts."
+	]
+	quest.544D6A15C87339ED.title: "The Summit"
+	quest.547881E0F1DBF4B7.quest_desc: [
+		"Plenty of mods come with a guide book, and they pile up fast."
+		""
+		"The Akashic Tome holds them all. Craft a guide book together with the tome to tuck it inside, then right-click the tome to pick which one to read."
+		""
+		"For anything else, hover over an item and press &eR&r to see its recipe or &eU&r to see what it's used in."
+	]
+	quest.547881E0F1DBF4B7.title: "Every Book in One"
+	quest.549EDCE390DC120F.quest_desc: [
+		"The &ePulverizer&r crushes ore into dust, and dust smelts into more metal than raw ore does. It's slow and simple, and it earns its keep from day one."
+		""
+		"It also grinds plants into &ebiomass&r for generators, and coal into coal dust for carbon parts later on."
+	]
+	quest.549EDCE390DC120F.title: "Crush It"
+	quest.54AE7316B0A452D1.quest_desc: [
+		"Torches keep monsters away. Macaw's Lights does it with style: chandeliers, street lamps, candle holders, paper lamps, garden lights and a dozen kinds of lantern."
+		""
+		"Tiki torches stack: put one on top of another for a taller one. Some lamps take a dye to change color, and the tooltip tells you which."
+	]
+	quest.54AE7316B0A452D1.title: "Lamps and Lanterns"
+	quest.550CC753646BC765.quest_desc: [
+		"Keep a &eWarp Stone&r of your own instead of setting it in a waystone. Hold right-click to charge it up, and you can jump to any waystone you know from wherever you're standing."
+		""
+		"It wears out with use, so carry a spare on long trips."
+	]
+	quest.550CC753646BC765.title: "Waystones in Your Pocket"
+	quest.5524BBF09C99175C.quest_desc: [
+		"&eCrystaltine Ingots&r are made from diamonds, lapis, iron, gold and a &enether star&r, laid out seven columns wide. Only an Elite table or bigger can fit them."
+		""
+		"One craft makes four."
+	]
+	quest.5524BBF09C99175C.title: "Your First Elite Recipe"
+	quest.55274C15951A8044.quest_desc: [
+		"Out in the world, gear isn't just iron or diamond. A sword can roll with bonus damage, a chestplate with extra health, boots with a burst of speed. Some even carry sockets for gems."
+		""
+		"How strong that loot gets, and how strong the monsters guarding it are, depends on your &eWorld Tier&r. Press &eCtrl+T&r to see them."
+		""
+		"This chapter walks you from your first lucky drop to the tiers beyond."
+	]
+	quest.55274C15951A8044.title: "Monsters \\& Mettle"
+	quest.55554CCED560B585.quest_desc: [
+		"Oritech comes with a full in-game manual, the &eOracle Index&r, with a page for nearly every block and a guide to getting started."
+		""
+		"Hover over an Oritech item and the tooltip tells you to hold &eAlt&r for its documentation."
+		""
+		"The key to open the whole manual is unbound in this pack. If you'd like one, set &eOpen Oracle Index&r under Options, Controls, Key Binds."
+	]
+	quest.55554CCED560B585.title: "Read the Manual"
+	quest.561E53F418E4C692.quest_desc: [
+		"The &eChemical Injection Chamber&r uses &ehydrogen chloride&r to break each ore into four &eShards&r."
+		""
+		"Send the shards through the Purification Chamber to make clumps, then on through the Crusher, the Enrichment Chamber and the furnace. Four ingots per ore."
+		""
+		"Hydrogen chloride takes a little chemistry, just above."
+	]
+	quest.561E53F418E4C692.title: "Quadruple Your Ores"
+	quest.5642D750C58BD75A.quest_desc: [
+		"The &eExchanging Gadget&r replaces blocks that are already there. Shift-right-click the block you want, then right-click a wall or floor to swap a whole area for it."
+		""
+		"You get the old blocks back. Put Silk Touch on the gadget if you want grass back as grass rather than dirt."
+	]
+	quest.5642D750C58BD75A.title: "Swap It Out"
+	quest.56510ACDC6D66C53.quest_desc: [
+		"Infuse Reinforced Alloy with refined obsidian for &eAtomic Alloy&r, the top of the alloy ladder."
+		""
+		"Two Atomic Alloys around an Elite Control Circuit make an &eUltimate Control Circuit&r. Each machine in the last tier needs two, so make plenty."
+	]
+	quest.56510ACDC6D66C53.title: "Atomic Alloy"
+	quest.5698544588B47CF8.quest_desc: [
+		"Playing with others? Make a party."
+		""
+		"Open your inventory and click the team button at the top left to create one, then invite your friends. Everyone in the party shares claims, force-loaded chunks and progress in this book."
+		""
+		"Playing alone is fine too. This one is optional."
+	]
+	quest.5698544588B47CF8.title: "Bring a Friend"
+	quest.56AF8269532901B1.quest_desc: [
+		"Glass panes are fine. Macaw's Windows has framed windows in every wood and stone, and many of them open with a right-click."
+		""
+		"Stack windows together and they join into one bigger window. A &eWindow Hammer&r changes a window's shape, and a &eWindow Key&r locks it."
+		""
+		"Shutters, blinds and parapets come in the same woods."
+	]
+	quest.56AF8269532901B1.title: "Let the Light In"
+	quest.56E562F5985B73AF.quest_desc: [
+		"A &epaxel&r is a pickaxe, an axe and a shovel in one tool. No more swapping every time you hit dirt."
+		""
+		"Craft one from a matching pickaxe, axe and shovel with two sticks underneath. There's one for every tier from wood to diamond, plus all of Mekanism's metals. A netherite paxel is upgraded from a diamond one in a smithing table."
+	]
+	quest.56E562F5985B73AF.title: "Pick, Axe and Shovel"
+	quest.57CFE8378E7F3BE5.quest_desc: [
+		"A &eGoddess Statue&r stands in some villages, and now and then on its own out on the plains. Bring her four Spirit Orbs and she'll trade them for a gift:"
+		""
+		"A &cHeart Container&r gives you one more heart, up to 20 extra."
+		"A &eStamina Vessel&r grows your stamina wheel for longer flights, up to 10 of them."
+		""
+		"Winning a raid, or beating the Wither or the Ender Dragon, gives you a Heart Container as well."
+	]
+	quest.57CFE8378E7F3BE5.title: "Pray to the Goddess"
+	quest.57D58CBCC225CD17.quest_desc: [
+		"Every machine in the pack eats metal, and all of it comes out of the ground."
+		""
+		"This chapter covers which ores are out there and where they sit, a few unusual ways to get more, and a gadget that turns a day of mining into ten minutes."
+		""
+		"Start by packing a stack of torches. It's dark down there."
+	]
+	quest.57D58CBCC225CD17.title: "Into the Hollow"
+	quest.580EB79C40EEF010.quest_desc: ["Respawn the dragon with four End Crystals and do it all over again."]
+	quest.580EB79C40EEF010.quest_subtitle: "Grand Bounty"
+	quest.580EB79C40EEF010.title: "The Dragon, Again"
+	quest.5884C4A63513DFB7.quest_desc: [
+		"Hearth \\& Hollow is a cozy-adjacent kitchen-sink pack: a big, pretty world to explore, curated quality of life, tech to automate the boring stuff, and building mods to make it all feel like home. No magic."
+		""
+		"Take your time. Nothing in the pack is locked behind a quest and there's no wrong order to do things in."
+		""
+		"Found a bug or a crash? Open an issue at &9github.com/cosmicspork/hearth-and-hollow&r."
+		""
+		"Take a sleeping bag and something to eat. Night is coming."
+	]
+	quest.5884C4A63513DFB7.title: "Welcome to Hearth \\& Hollow!"
+	quest.58B1A49E08CE631A.quest_desc: ["Thin out the shamblers around the farms."]
+	quest.58B1A49E08CE631A.quest_subtitle: "Odd Job"
+	quest.58B1A49E08CE631A.title: "Night Watch"
+	quest.58CDE30C6FFCCEC4.quest_desc: [
+		"With Botany Trees, saplings grow in Botany Pots too. An oak sapling in a pot of dirt gives logs, leaves, apples and the odd sapling, with no tree to chop and no leaves to clear."
+		""
+		"Put one in a Hopper Botany Pot and you have a wood supply the size of a block."
+	]
+	quest.58CDE30C6FFCCEC4.title: "Trees in a Pot"
+	quest.58CF101FCF38A937.quest_desc: [
+		"Two upgrades keep the mess down."
+		""
+		"&eMagnet&r pulls the drops straight to you. &eVoid Junk&r throws away the blocks you've marked as junk, like stone and dirt, before they ever reach your pack."
+	]
+	quest.58CF101FCF38A937.title: "Tidy Mining"
+	quest.58D3F3C3A75952A5.quest_desc: [
+		"The &eCut Paste Gadget&r picks a build up and puts it down somewhere else, chests and their contents included. No blocks needed."
+		""
+		"Mark the corners as you would with the Copy Paste Gadget, press &eCut&r in its menu, then paste."
+		""
+		"&cIt has no undo&r, and it only holds one build at a time. Check where you're pasting before you click."
+	]
+	quest.58D3F3C3A75952A5.title: "Moving House"
+	quest.59737F6289621673.quest_desc: [
+		"Chests in dungeons, villages and ruins are &eLoot Chests&r here. Everyone who opens one gets their own fresh loot, so you never find a chest a friend already emptied."
+		""
+		"Barrels, minecarts with chests and decorated pots work the same way."
+	]
+	quest.59737F6289621673.title: "Everyone's Share"
+	quest.59783A9F9FEDDB79.quest_desc: [
+		"Four Prudentium make &eTertium Essence&r, tier three. Every tier opens up seeds for more valuable materials."
+		""
+		"A field of resource crops occasionally drops &eFertilized Essence&r, which works like bone meal on Mystical crops. Save it for the slow ones."
+	]
+	quest.59783A9F9FEDDB79.title: "Tertium"
+	quest.5981048DC24CF0EB.quest_desc: [
+		"Mekanism's own ores are switched off here. Osmium, tin, lead, uranium and fluorite come from the same AllTheOres veins as everything else, and Mekanism's machines take them happily."
+		""
+		"Save some ore blocks whole with &eSilk Touch&r. Every machine in this chapter pays out more for an ore block than for raw ore."
+	]
+	quest.5981048DC24CF0EB.title: "Where the Osmium Is"
+	quest.59EC7BD5FE16B14B.quest_desc: [
+		"The &cPiglich&r haunts the pyramids, and each one drops a &ePiglich Heart&r."
+		""
+		"Hold on to the hearts. The alloys at the end of this road need them."
+	]
+	quest.59EC7BD5FE16B14B.title: "The Piglich"
+	quest.5B8915F850F2D439.quest_desc: [
+		"Many Croptopia recipes call for a utensil in the crafting grid: a &eFrying Pan&r, &eCooking Pot&r, &eKnife&r, &eMortar and Pestle&r or &eAll Purpose Food Press&r."
+		""
+		"They're quick to make. Press &eU&r on one to see the dishes it unlocks."
+	]
+	quest.5B8915F850F2D439.title: "Croptopia's Kitchen"
+	quest.5BBAFCEE171ADDC2.quest_desc: [
+		"Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more."
+		""
+		"They're a fast way to find ore, and the minecart chests are Loot Chests too."
+	]
+	quest.5BBAFCEE171ADDC2.title: "Rails Under the Hills"
+	quest.5BBCAFE8772F71C8.quest_desc: [
+		"The &eChemical Crystallizer&r needs two &eFluorite&r gems along with its Ultimate Control Circuits."
+		""
+		"Fluorite Ore turns up at most depths. It's never plentiful, so pocket every piece you see."
+	]
+	quest.5BBCAFE8772F71C8.title: "Fluorite"
+	quest.5C2EFC1448F3F67D.quest_desc: [
+		"&eOther Vibranium Ore&r sits in cave ceilings in the Other, between Y 0 and 40. Some Vibranium Ore turns up in the Nether too."
+		""
+		"Either way you need an Allthemodium pickaxe or better."
+	]
+	quest.5C2EFC1448F3F67D.title: "Vibranium"
+	quest.5CAEE453D80469D5.quest_desc: [
+		"The &eAdvanced Magnet&r reaches farther, and you can set its range for items and experience separately, from 3 to 11 blocks."
+		""
+		"It also has an item filter. Set it to a whitelist and it only picks up what you ask for, or a blacklist to leave the cobblestone where it fell."
+	]
+	quest.5CAEE453D80469D5.title: "A Stronger Pull"
+	quest.5D03C361BA83F81A.quest_desc: [
+		"Relics are rarer keepsakes: mantles, belts, boots, a flute that holds your horse, a ring with seven sins in it."
+		""
+		"Each one turns up in chests that suit it. Fiery relics hide in Nether chests, others in villages, mineshafts, deserts or the End. Explore widely."
+		""
+		"In this pack every artifact counts as a relic too, so everything in this chapter can level up."
+	]
+	quest.5D03C361BA83F81A.title: "A Relic of Your Own"
+	quest.5D5482E0506DF402.quest_desc: [
+		"Hostile mobs sometimes drop a &cMiniature Red Heart&r. Hold Shift over one to see the odds."
+		""
+		"Hearts are the start of something lasting: canisters that add &cextra hearts&r for good."
+	]
+	quest.5D5482E0506DF402.title: "A Heart in Hand"
+	quest.5DCB5C69545DC2F9.quest_desc: [
+		"Put a trained model and a &ePrediction Matrix&r in a powered &eSimulation Chamber&r and it fights the battle for you, producing that mob's &ePrediction&r. A &eLoot Fabricator&r turns predictions into real drops."
+		""
+		"New models are Faulty, and a Faulty model can't be simulated. Get a few kills in first. After that, the chamber's Training Mode can level a model up for you, at the cost of making nothing while it does."
+	]
+	quest.5DCB5C69545DC2F9.title: "Train a Model"
+	quest.5E0069472D72B496.quest_desc: [
+		"Nearly every Mekanism machine needs a &eBasic Control Circuit&r. Infuse an osmium ingot with redstone to make one."
+		""
+		"Better circuits build on this one, all the way up to Ultimate. Make a few extra while you're here."
+	]
+	quest.5E0069472D72B496.title: "Basic Control Circuit"
+	quest.5E15185300FB6262.quest_desc: [
+		"Love a sword but hate its affixes? Reforge it."
+		""
+		"The &eSimple Reforging Table&r rerolls an item up to Rare. Put in the item, the Rarity Materials for the rarity you want, and &eSigils of Rebirth&r, then pick one of three outcomes, a bit like enchanting."
+		""
+		"It works on plain gear too, so any good sword can become an affix item."
+	]
+	quest.5E15185300FB6262.title: "Try, Try Again"
+	quest.5E6E2522ED0889B4.quest_desc: ["Proper Croptopia meals for a wedding: pizzas, pies, stews and the like."]
+	quest.5E6E2522ED0889B4.quest_subtitle: "Commission"
+	quest.5E6E2522ED0889B4.title: "Catering Job"
+	quest.5EA53D57AFC58156.quest_desc: [
+		"A &eParaglider&r is a few sticks and some leather, and it changes how you see a mountain."
+		""
+		"Hold it in your hand and step off something tall, and you'll glide instead of falling. Gliding uses stamina, shown by the wheel on screen. Land before it runs out."
+		""
+		"Running and swimming don't use stamina in this pack. Only gliding does."
+	]
+	quest.5EA53D57AFC58156.title: "Off the Edge"
+	quest.5EC6CBA9F64119C4.quest_desc: ["Somebody has to keep the archers in check."]
+	quest.5EC6CBA9F64119C4.quest_subtitle: "Odd Job"
+	quest.5EC6CBA9F64119C4.title: "Bone Collector"
+	quest.5EF80534532D44CF.quest_desc: ["An apple wrapped in two diamonds and two emeralds. Expensive, but you only need one per canister."]
+	quest.5EF80534532D44CF.title: "Relic Apple"
+	quest.5F5FCE8205AFF256.quest_desc: [
+		"The &eAbsorption Hopper&r vacuums up items and experience orbs in a 7x7x7 area around it."
+		""
+		"It can push out of any side you choose, into chests for items and tanks for experience. Radius upgrades make the area bigger."
+	]
+	quest.5F5FCE8205AFF256.title: "Absorption Hopper"
+	quest.5FFB46F7B1D9E908.quest_desc: [
+		"Enchanting goes deeper here. Every shelf has stats: &eEterna&r sets how high you can enchant, &eQuanta&r makes results swing more, and &eArcana&r brings in rarer enchantments."
+		""
+		"A &eHellshelf&r adds more Eterna and Quanta than a bookshelf. Your World Tier caps how far Eterna can take you, so the best shelves pay off in higher tiers."
+		""
+		"The question mark on the enchanting screen shows exactly what you can roll."
+	]
+	quest.5FFB46F7B1D9E908.title: "Shelves With Heat"
+	quest.601DB237139FA898.quest_desc: [
+		"Right-click two &eAllthemodium Ingots&r, two &eVibranium Ingots&r and a &ePiglich Heart&r into an Energizing Orb. It takes 2,000,000 FE and gives you two alloy ingots."
+		""
+		"That's a lot of power through one orb. More rods, and better ones, fill it faster."
+	]
+	quest.601DB237139FA898.title: "Vibranium Meets Allthemodium"
+	quest.602941FC879E457D.quest_desc: [
+		"Walking is lovely. Flying is faster."
+		""
+		"Your first &eJetpack&r can be made of wood: planks, a leather strap and a few simple parts. Wear it in your chest slot or a Curios slot (&eShift+G&r), then hold jump to lift off."
+		""
+		"A wooden jetpack is slow and drinks its charge quickly, but it gets you onto the roof. Better ones are built around the one before."
+	]
+	quest.602941FC879E457D.title: "Up \\& Away"
+	quest.602CCEDB5F28ED21.quest_desc: [
+		"A &eChicken Nest&r collects eggs laid by chickens around it, so you don't have to chase them across the coop."
+		""
+		"Eggs go into a surprising number of recipes. Keep a few chickens."
+	]
+	quest.602CCEDB5F28ED21.title: "No More Egg Hunts"
+	quest.602D1C759C7EFD0E.quest_desc: [
+		"A blaze rod, or four blaze powder, energized into a &eBlazing Crystal&r."
+		""
+		"It's the key to Powah's blazing tier: stronger generators, cells, cables and rods. Each crystal after this one unlocks the next tier the same way."
+	]
+	quest.602D1C759C7EFD0E.title: "Blazing Crystal"
+	quest.606225A066E886EA.quest_desc: [
+		"Got a gem you don't need? Drop it on the ground and drop an &eanvil&r on top. It breaks down into &eGem Dust&r."
+		""
+		"Gem Dust goes into nearly every Apotheosis workbench, so crush your spares rather than tossing them."
+	]
+	quest.606225A066E886EA.title: "Crushed"
+	quest.609BC9D0610D0E4E.quest_desc: [
+		"The &eVacuum Module&r sucks nearby items off the ground into the router."
+		""
+		"Pair it with a Sender Module and items go straight to storage. Add an &eXP Vacuum Augment&r and it gathers experience orbs instead, turning them into Bottles o' Enchanting."
+	]
+	quest.609BC9D0610D0E4E.title: "Vacuum Module"
+	quest.60B320F12F354161.quest_desc: [
+		"An &eAutocrafting Upgrade&r in an Exporter starts a craft whenever something it should export is missing."
+		""
+		"Pair it with a Regulator Upgrade and a chest of torches, or a machine's input, stays topped up forever."
+	]
+	quest.60B320F12F354161.title: "Never Run Out"
+	quest.60FE95B6343462DA.quest_desc: [
+		"A diamond chest, fully upgraded, fed by pipes and kept tidy by routers. That's a storeroom."
+		""
+		"When the chests start to feel small again, &eRefined Storage&r turns the whole thing into one searchable network."
+	]
+	quest.60FE95B6343462DA.title: "A Place for Everything"
+	quest.618B176F170F61CA.quest_desc: [
+		"&eAllthemodium Ore&r forms on cave ceilings in Deep Dark biomes, below Y 10. Bring light, walk softly and look up."
+		""
+		"Smelt the raw ore into ingots. Save a few nuggets: the next quest needs them."
+	]
+	quest.618B176F170F61CA.title: "Down in the Deep Dark"
+	quest.6269BD5E294CD53A.quest_desc: [
+		"A &eMilk Jar&r stores milk for recipes. A Cow in a Jar makes its own."
+		""
+		"Lead a cow over a Milk Jar and drop an anvil on it. Don't ask how it fits."
+	]
+	quest.6269BD5E294CD53A.title: "Cow in a Jar"
+	quest.6278C057B3D87B2C.quest_desc: [
+		"A &egrindstone&r strips the enchantments from an item and hands back some of the experience. Curses stay put."
+		""
+		"It also combines two worn tools of the same kind into one, with the durability added together."
+	]
+	quest.6278C057B3D87B2C.title: "Start Fresh"
+	quest.62A7AD121090F731.quest_desc: [
+		"From the top down, the Mining Dimension is stone, then deepslate, then netherrack, then end stone above the bedrock."
+		""
+		"Ores take on the look of the block they're set in, so you'll see Nether and End versions of familiar ores in the lower layers. They smelt the same."
+	]
+	quest.62A7AD121090F731.title: "Layer Cake"
+	quest.6329FCE0566316B7.quest_desc: [
+		"The biggest of them: 9x9, from two Elite tables, a block of emerald and Ultimate components."
+		""
+		"Few recipes need all 81 slots. Hover the table and press &eU&r to see which ones do."
+	]
+	quest.6329FCE0566316B7.title: "Ultimate Crafting Table"
+	quest.638FB2C471203051.quest_desc: [
+		"The &eRefinery&r splits crude oil into &eheavy oil&r, &enaphtha&r and &esulfuric acid&r. It needs nine machine cores."
+		""
+		"Out of the box only the first output works. Stack &eRefinery Chamber Modules&r on top to open the other two."
+		""
+		"Heavy oil refines again into diesel. Refined fuels give a Fuel Generator much more power per bucket than crude."
+	]
+	quest.638FB2C471203051.title: "The Refinery"
+	quest.63B7777813217FB5.quest_desc: [
+		"Creepers and endermen here dress for the biome they live in, and they don't all fight the same way. Endermen out in the End can throw you somewhere else with a single hit."
+		""
+		"Many endermen drop a pearl of their own. Snowy ones drop the &eIcy Pearl&r, which freezes whatever it hits, a &eBubble Pearl&r flies straight with no drop, and an &eAncient Pearl&r calls a friendly enderman to fight for you."
+	]
+	quest.63B7777813217FB5.title: "Locals With Attitude"
+	quest.63E0ADA390159C38.quest_desc: [
+		"Every window deserves curtains. Macaw's Windows has them in all sixteen colors, plus curtain rods to hang them from."
+		""
+		"Right-click a curtain to tie it back to one side."
+	]
+	quest.63E0ADA390159C38.title: "Draw the Curtains"
+	quest.63FBB5FB2DC3C943.quest_desc: [
+		"XyCraft's &eExtractor&r pulls items out of the world. Point it at a stone block with water and lava touching it, and it makes copies of that stone, slowly, with no power."
+		""
+		"It keeps what it makes, so pipe the stone out into a chest."
+		""
+		"Cobblestone, andesite, granite and more each have their own setup. Press &eU&r on the Extractor to see them all."
+	]
+	quest.63FBB5FB2DC3C943.title: "Stone from Nowhere"
+	quest.6414F40CD42B0211.quest_desc: ["Built around an Allthemodium Jetpack with vibranium ingots. More armor, more speed, more charge."]
+	quest.6414F40CD42B0211.title: "Vibranium Jetpack"
+	quest.64D7E229F3AD6A18.quest_desc: [
+		"Cable Tiers makes faster Importers, Exporters, Constructors, Destructors and more, in three grades: &eElite&r, &eUltra&r and &eMega&r."
+		""
+		"An Elite Importer is four Importers, four iron blocks and an Advanced Processor, and runs twice as fast. Ultra uses Elite ones and diamond blocks. Ultra and Mega have a Stack Upgrade built in."
+	]
+	quest.64D7E229F3AD6A18.title: "Faster Hands"
+	quest.65B21594EE43AAD9.quest_desc: [
+		"Your backpack has upgrade slots down its side. Every upgrade starts from an &eUpgrade Base&r: string, iron and leather."
+		""
+		"Many chest upgrades also craft straight into their backpack twin, so a spare from the last quest isn't wasted."
+	]
+	quest.65B21594EE43AAD9.title: "Backpack Upgrades"
+	quest.65EE65E03AAB3B13.quest_desc: [
+		"An Advanced Control Circuit between two Reinforced Alloys makes an &eElite Control Circuit&r."
+		""
+		"The Chemical Injection Chamber needs two, plus Reinforced Alloy, gold, and a Purification Chamber to build on."
+	]
+	quest.65EE65E03AAB3B13.title: "Elite Control Circuit"
+	quest.65F3240CE2B8E852.quest_desc: [
+		"Infuse a &ecopper ingot&r with redstone and you get &eInfused Alloy&r, the first of Mekanism's three alloys."
+		""
+		"You'll go through a lot of it. Generators, the Electrolytic Separator, the Purification Chamber and the chemical machines all want some."
+	]
+	quest.65F3240CE2B8E852.title: "Infused Alloy"
+	quest.6601A12B22EEFB28.quest_desc: [
+		"Jetpacks run on FE, so they need charging. Anything that charges items will do: a &eWireless Player Charger&r by the door, a Powah &ePlayer Transmitter&r, or a &eFlux Controller&r on your network. &eSparks&r covers the charger and the controller."
+		""
+		"Jetpacks have their own keys to toggle the engine, hover mode and the HUD, and to change throttle. Search \"hover\" or \"engine\" in Key Binds to find them. Hover mode lets you hang in the air while you build."
+	]
+	quest.6601A12B22EEFB28.title: "Keep It Charged"
+	quest.6620A16CFB01713B.quest_desc: [
+		"The &eFoundry&r makes Oritech's alloys: steel, electrum, adamant and more. You can hand-craft the first few, but it costs far more metal than the foundry does."
+		""
+		"It needs three machine cores. The manual's advice is to pair it with your Pulverizer as soon as you can."
+		""
+		"Adamant from the foundry is what you need for the Assembler, next."
+	]
+	quest.6620A16CFB01713B.title: "The Foundry"
+	quest.672BDE2DDB749647.quest_desc: [
+		"A full chest doesn't need emptying to get bigger. Right-click a placed one with a tier upgrade, such as &eBasic to Iron Tier Upgrade&r, and it grows on the spot with everything still inside. A double chest takes two."
+		""
+		"You can also craft the next tier directly: a Sophisticated chest ringed with copper ingots becomes a Copper Chest."
+		""
+		"Copper, iron, gold, diamond, netherite. Each step adds room, and most add another upgrade slot."
+	]
+	quest.672BDE2DDB749647.title: "Upgrade in Place"
+	quest.672D4A365A04B735.quest_desc: [
+		"Five ingots from every ore. Every swing of the pickaxe is worth five times what it used to be."
+		""
+		"The &eUltimate Control Circuit&r is also one of the pieces of the &eAllthemodium Alloy Paxel&r, the pack's capstone. The paxel quest gives it back once you've crafted the paxel."
+		""
+		"From here, swap your machines for factories and let the line chew through everything you dig up."
+	]
+	quest.672D4A365A04B735.title: "Five From One"
+	quest.67388593CFA104CC.quest_desc: [
+		"Everything you store, in one window. Connect a &eGrid&r to the network and put things in or take them out from one place."
+		""
+		"The search box has tricks: start with &e@&r to search by mod, &e#&r by tag, or &e$&r by tooltip."
+		""
+		"A &eMachine Casing&r is eight Quartz Enriched Iron around a stone. The two cores are a Basic Processor with glowstone dust or with quartz."
+	]
+	quest.67388593CFA104CC.title: "The Grid"
+	quest.677BEC24411F3B73.quest_desc: [
+		"You already know waystones live in villages. They also stand alone out in the countryside, in a style that matches the land around them."
+		""
+		"Activate five. The more you have, the less walking home."
+		""
+		"Here's a &eWarp Stone&r. Hold right-click with it, anywhere, and you can travel to any waystone you've activated."
+	]
+	quest.677BEC24411F3B73.title: "Stones in the Wild"
+	quest.67ED1E2EBC73CAC8.quest_desc: [
+		"Relics learn by doing. Use an ability for what it's meant for and the relic earns experience: boots by running, a pendant by being hit, claws by digging."
+		""
+		"When the bar fills, the relic levels up and gives you an &eUpgrade Point&r. Spend it on the research screen to make an ability stronger."
+		""
+		"The &eRelic Experience Bottles&r in the reward are a shortcut: experience for your relics rather than for you."
+	]
+	quest.67ED1E2EBC73CAC8.title: "It Grows on You"
+	quest.6865ABE5A88680EF.quest_desc: [
+		"The &eMaster Infusion Crystal&r never wears out. It's made from a Supremium Gemstone, Supremium Essence and Prosperity Shards."
+		""
+		"Once you have one, your old crystals can retire."
+	]
+	quest.6865ABE5A88680EF.title: "Master Infusion Crystal"
+	quest.69274539DC7502D1.quest_desc: ["Cooked fish of any kind, for the Friday fish fry."]
+	quest.69274539DC7502D1.quest_subtitle: "Odd Job"
+	quest.69274539DC7502D1.title: "Fresh Catch"
+	quest.69E0CF50C3BE5944.quest_desc: [
+		"Now and then you'll find a heap of deepslate studded with ore sitting on the surface. That's an &eore boulder&r, and it marks a &eresource node&r in the bedrock directly below."
+		""
+		"Common boulders sit over copper, iron, nickel and coal. Rarer ones sit over diamond, gold, emerald, uranium and platinum. The ores in the boulder hint at which."
+		""
+		"Resource nodes can't be broken and never run out. Press &eShift+B&r to drop a waypoint."
+	]
+	quest.69E0CF50C3BE5944.title: "Ore Boulders"
+	quest.69EF1B2D9FF9825F.quest_desc: [
+		"Eight iron ingots around a furnace make an &eIron Furnace&r, which smelts faster than the stone one."
+		""
+		"Already built a row of vanilla furnaces? Sneak and right-click one with a &eStone to Iron Furnace Upgrade&r. It keeps going up from there: gold, diamond, emerald, obsidian, netherite and the allthemodium metals."
+		""
+		"Every furnace in the pack runs a little lighter on your computer, too."
+	]
+	quest.69EF1B2D9FF9825F.title: "Iron Furnaces"
+	quest.69F7194ABD61411C.quest_desc: [
+		"Four Inferium around your crystal make &ePrudentium Essence&r, the second of five tiers."
+		""
+		"Each tier opens up more resource seeds, better farmland and faster growth accelerators. Every step up costs four of the step below, so a big inferium field pays off."
+	]
+	quest.69F7194ABD61411C.title: "Prudentium"
+	quest.6A017F11683968AD.quest_desc: ["Any color. The weavers aren't fussy."]
+	quest.6A017F11683968AD.quest_subtitle: "Odd Job"
+	quest.6A017F11683968AD.title: "Shearing Day"
+	quest.6A1D87E61510373E.quest_desc: [
+		"The &ePersonal Shrinking Device&r makes you small. Right-click it to pick a size, then sneak and right-click to shrink. Do it again to grow back."
+		""
+		"Small you fits through gaps and under slabs, which is half the fun of building a tiny house inside a big one."
+		""
+		"It runs on FE, a little each time, so charge it like your jetpack. It works on animals too."
+	]
+	quest.6A1D87E61510373E.title: "Honey, I Shrunk Me"
+	quest.6A3830D4991E6114.quest_desc: [
+		"A &eRed Heart Canister&r is a Canister, a Miniature Red Heart, a Relic Apple and a Wither Bone. The Canister itself is iron and a bone."
+		""
+		"Put it in your Heart Amulet and enjoy &c+1 heart&r. You can fit up to ten red ones."
+	]
+	quest.6A3830D4991E6114.title: "One More Heart"
+	quest.6AED27556BB184E8.quest_desc: [
+		"A &eMagnet&r pulls nearby items and experience orbs straight to you, from up to 5 blocks away."
+		""
+		"Press &eCtrl+M&r to turn it on or off. Switch it off before you stand over a farm or a pile of things you meant to leave behind."
+		""
+		"A &eDemagnetization Coil&r stops magnets from grabbing items near it, which is handy around machines."
+	]
+	quest.6AED27556BB184E8.title: "Pull It All In"
+	quest.6AF886AF6C938EDD.quest_desc: [
+		"Cabbages, tomatoes, onions and rice grow wild out in the world, along with wild carrots, potatoes and beets. Break them for seeds and the odd crop to take home."
+		""
+		"When your own crops are ready, just &eright-click&r them. You get the harvest and the crop replants itself. No hoe needed."
+	]
+	quest.6AF886AF6C938EDD.title: "Wild Crops"
+	quest.6AFDF6EE260C2E44.quest_desc: [
+		"The &eChemical Crystallizer&r turns clean slurry into &eCrystals&r: five from every ore."
+		""
+		"Crystals go into the Chemical Injection Chamber to become shards, and from there down the same line as tier four. Five ingots per ore."
+	]
+	quest.6AFDF6EE260C2E44.title: "Quintuple Your Ores"
+	quest.6B00282E9FE189A4.quest_desc: [
+		"Some dishes are too big for one plate. A &efeast&r is placed on the table, and everyone can help themselves to a serving."
+		""
+		"Roast chicken, honey glazed ham, shepherd's pie, stuffed pumpkin: each one is a new food for the book, and a good excuse to have people over."
+	]
+	quest.6B00282E9FE189A4.title: "A Feast for Friends"
+	quest.6C228A15C8184693.quest_desc: [
+		"&eItem Pipes&r connect to anything with an inventory. Right-click where a pipe meets a chest with the &ePipe Wrench&r, and that side starts pulling items out."
+		""
+		"Pipes push into whichever face they touch. Run one along the tops of a row of furnaces for ore, one along the sides for fuel, and pull the bottoms into an output chest."
+		""
+		"Now you can fill one chest and walk away."
+	]
+	quest.6C228A15C8184693.title: "Pipe a Furnace Array"
+	quest.6C9C4B1D8A7D18E5.quest_desc: [
+		"The &eBuilding Gadget&r places whole rows, columns and walls of blocks at once."
+		""
+		"Shift-right-click a block to choose what to build with, then right-click to place. You'll see a ghost of what's coming first. Hold &eG&r to open its menu, where you pick the mode and the size. &eShift+H&r anchors the preview so you can look around."
+		""
+		"The blocks come out of your inventory, and the gadget runs on FE, so charge it before you start."
+	]
+	quest.6C9C4B1D8A7D18E5.title: "A Wall in One Click"
+	quest.6CB7B4C89FB16CD2.quest_desc: [
+		"Real homes are full of small things. Cluttered has hundreds of them: stacks of books, teddy bears, vases of flowers, sewing machines, radios, picnic baskets and patterned wallpaper."
+		""
+		"Most are simple crafts. A stack of books is three books, a teddy bear is brown wool. Press &eU&r on an everyday item to see what it makes."
+	]
+	quest.6CB7B4C89FB16CD2.title: "A Little Clutter"
+	quest.6CC432F2B3F3FECF.quest_desc: [
+		"Fruit trees grow wild across the world: oranges, peaches, bananas, nuts and plenty more. Their leaves sometimes drop a sapling."
+		""
+		"No luck? Two pieces of fruit and any sapling craft a new one."
+		""
+		"Plant a few and wait. When the fruit is ripe, right-click it to pick it and leave the tree to grow more."
+	]
+	quest.6CC432F2B3F3FECF.title: "Plant an Orchard"
+	quest.6D15724E29BBA7A5.quest_desc: [
+		"Fill out the set: something for your head, your neck, your belt, your hands and your feet."
+		""
+		"Mix and match for the job at hand. A diving kit, a mining kit and a fighting kit are all worth keeping in a chest by the door."
+	]
+	quest.6D15724E29BBA7A5.title: "Dressed for Adventure"
+	quest.6D40D938E2A94CDA.quest_desc: [
+		"Trial Chambers are copper halls buried underground, full of Trial Spawners and Breezes."
+		""
+		"Beat a spawner's wave and it drops loot, sometimes a &eTrial Key&r. Keys open Vaults, the locked boxes with the best loot in the place."
+		""
+		"Bring blocks to wall off corridors, and a shield for the arrows."
+	]
+	quest.6D40D938E2A94CDA.title: "Trial Chambers"
+	quest.6D4A8EE2E92BB963.quest_desc: [
+		"Comforts adds two ways to rest away from your bed."
+		""
+		"A &esleeping bag&r gets you through the night without moving your spawn point, which is handy on long trips."
+		""
+		"A &ehammock&r hangs between two Rope and Nails. Rest in it during the day and you'll wake at dusk."
+	]
+	quest.6D4A8EE2E92BB963.title: "Afternoon Nap"
+	quest.6D9ECE8EE856BC35.quest_desc: [
+		"Two enchantments keep good gear going for a very long time."
+		""
+		"&eUnbreaking&r makes each use less likely to cost durability."
+		""
+		"&eMending&r repairs the item from experience orbs you pick up. Librarian villagers sometimes sell it, and it turns up in chests."
+		""
+		"Find a Mending book, then put both on your favorite pickaxe. It may never need replacing."
+	]
+	quest.6D9ECE8EE856BC35.title: "Tools That Last"
+	quest.6E03269FEA380C16.quest_desc: [
+		"Surround your backpack with copper or iron ingots and it becomes a bigger one, contents and upgrades included."
+		""
+		"Gold and diamond come next, each built around the one before. The last step, netherite, happens on a smithing table."
+		""
+		"Bigger packs have more slots and more room for upgrades."
+	]
+	quest.6E03269FEA380C16.title: "A Bigger Backpack"
+	quest.6E2A53E1997A4DDF.quest_desc: [
+		"&eAddons&r are blocks that attach to a machine at its marked spots. A &eSpeed Addon&r makes it work faster but costs more power, and an &eEfficiency Addon&r saves power."
+		""
+		"A connected addon's pink parts turn blue. If yours stays pink, right-click the machine."
+		""
+		"A &eMachine Addon Extender&r adds more spots, as many layers deep as the machine's core quality allows."
+	]
+	quest.6E2A53E1997A4DDF.title: "Addons"
+	quest.6E6B72FCC24A72C7.quest_desc: ["Clear the spiders out of the barn rafters."]
+	quest.6E6B72FCC24A72C7.quest_subtitle: "Odd Job"
+	quest.6E6B72FCC24A72C7.title: "Cobweb Duty"
+	quest.6E890BBA5D1DDE91.quest_desc: [
+		"A &eFlux Plug&r takes power from whatever it touches. A &eFlux Point&r gives power to whatever it touches. Put both on the same network, and power jumps between them however far apart they are."
+		""
+		"Right-click a flux block to make a network or pick one. You can have up to five."
+		""
+		"Flux can't keep chunks loaded here, so force-load both ends with the claim map (&eM&r, then &eShift&r-drag)."
+	]
+	quest.6E890BBA5D1DDE91.title: "Link Two Bases"
+	quest.6ED4658DE20BD246.quest_desc: [
+		"To socket a gem, put the item and the gem together in a &eSmithing Table&r. Or pick the gem up in your inventory and right-click it onto the item."
+		""
+		"The item needs an empty socket. Uncommon and better gear often has one, and a Sigil of Socketing can add more."
+		""
+		"Changed your mind? A &eSigil of Withdrawal&r pops the gems back out, and you keep both."
+	]
+	quest.6ED4658DE20BD246.title: "Set in Stone"
+	quest.6EF77A7565F00B61.quest_desc: ["Iron for hinges, buckets and a hundred small repairs."]
+	quest.6EF77A7565F00B61.quest_subtitle: "Odd Job"
+	quest.6EF77A7565F00B61.title: "Smelter's Due"
+	quest.6F341E1F6E495AC2.quest_desc: [
+		"Eat &e50 different foods&r for another &c3 hearts&r."
+		""
+		"By now the easy foods are behind you. Sort the Cooking Table's list by &eEaten&r to find something new."
+		""
+		"Click the checkmark once your Food Book shows 50."
+	]
+	quest.6F341E1F6E495AC2.title: "Seasoned Cook"
+	quest.6F7946E42B17D436.quest_desc: [
+		"The &eCooking Pot&r makes soups, stews and proper meals. Set it over heat: a campfire, a stove, fire, a magma block or lava."
+		""
+		"Most meals need a bowl to serve into, so keep some nearby. The pot holds the finished food until you take it."
+		""
+		"Hearty meals grant &eNourishment&r, which keeps your hunger from dropping for a while."
+	]
+	quest.6F7946E42B17D436.title: "Something on the Stove"
+	quest.6FD54CDF7C272EF3.quest_desc: [
+		"Each alloy tool upgrades its unobtainium counterpart. On an &eAdvanced Crafting Table&r, surround an Unobtainium pickaxe, axe, shovel or sword with alloy ingots and Unobtainium Rods."
+		""
+		"They're the best tools in the pack in their own right, so use them while you work toward the paxel. It needs all four."
+	]
+	quest.6FD54CDF7C272EF3.title: "Four Alloy Tools"
+	quest.6FDEE1032AA1E808.quest_desc: [
+		"Watch for gear with a colored name. That's an &eaffix item&r: Common, Uncommon, Rare, Epic or Mythic, each with more bonuses than the last."
+		""
+		"They turn up in chests, and on &eElite&r mobs, the ones with names that hit too hard."
+		""
+		"Until you open the World Tier screen with &eCtrl+T&r and activate Haven, they show as Unidentified. Do that first."
+	]
+	quest.6FDEE1032AA1E808.title: "Something Special"
+	quest.7034F747A83C00B3.quest_desc: ["Clear the guardians from an ocean monument."]
+	quest.7034F747A83C00B3.quest_subtitle: "Commission"
+	quest.7034F747A83C00B3.title: "Monument Work"
+	quest.705C0BABD066C4AC.quest_desc: [
+		"A &eThermo Generator&r sits on top of something hot, like lava, and makes power as long as you give it a coolant such as water."
+		""
+		"No fuel to shovel. Pipe water in and it hums along on its own."
+	]
+	quest.705C0BABD066C4AC.title: "Hot and Cold"
+	quest.70FF78BBF74A4686.quest_desc: [
+		"Hydrogen chloride needs &echlorine&r, and chlorine comes from &ebrine&r."
+		""
+		"The quick way is a &eChemical Oxidizer&r fed with salt. Salt Blocks form patches on the beds of lakes and seas, where you'd find clay, and the Enrichment Chamber turns each one into four Salt. Salt Ore underground works too."
+		""
+		"The grand way is a &eThermal Evaporation Plant&r, a multiblock that draws brine out of plain water. Look up its controller in JEI: Just Enough Mekanism Multiblocks shows every Mekanism multiblock layer by layer, with the full bill of materials."
+	]
+	quest.70FF78BBF74A4686.title: "Brine"
+	quest.71099A6DBC9C74FE.quest_desc: [
+		"The first of the three. Allthemodium makes gear a step above netherite, and everything else in this chapter builds on it."
+		""
+		"On a Smithing Table, an Allthemodium Smithing Template and one ingot turn a piece of netherite gear into Allthemodium."
+	]
+	quest.71099A6DBC9C74FE.title: "Allthemodium"
+	quest.7117CFC3FC8EF5B1.quest_desc: [
+		"Generator Galore has generators for things other than coal."
+		""
+		"The &eCulinary Generator&r eats food, the &eMagmatic Generator&r drinks lava, and the &eEnder Generator&r burns ender pearls. There are honey, potion and enchantment ones too."
+		""
+		"Most are upgrades from an earlier generator. Press &eR&r on one to see the path."
+	]
+	quest.7117CFC3FC8EF5B1.title: "Odd Fuels"
+	quest.714590CDDF3837D6.quest_desc: [
+		"Oritech is industry on a grand scale: multiblock machines, lasers, oil refineries, and a drill that pulls ore up from below the bedrock forever."
+		""
+		"It runs on &enickel&r. Here nickel comes from AllTheOres veins, and the ore boulders you'll find on the surface often have some showing."
+		""
+		"Bring copper, iron, coal and redstone too. You'll want all of them early."
+	]
+	quest.714590CDDF3837D6.title: "Oritech"
+	quest.7176D1C3D0815DF5.quest_desc: [
+		"Eat &e25 different foods&r and you gain &c3 extra hearts&r."
+		""
+		"Only filling food counts: four drumsticks or more. Open your Food Book to see how many you've eaten and what's left."
+		""
+		"Click the checkmark once you've reached the milestone."
+	]
+	quest.7176D1C3D0815DF5.title: "A Taste of Everything"
+	quest.71C17E71CA1B9CBF.quest_desc: [
+		"A bottle that slowly fills with time while you carry it."
+		""
+		"Use it on a furnace, a machine or a growing crop to speed it up for 30 seconds. Use it again while it's running to double the speed, up to 256 times as fast."
+		""
+		"Gold, diamonds, lapis, a clock and a glass bottle."
+	]
+	quest.71C17E71CA1B9CBF.title: "Time in a Bottle"
+	quest.72498393775CC042.quest_desc: [
+		"A whole world built for digging: no towns, no structures, just stone, layer on layer, laced with ore."
+		""
+		"Dig as much as you like. Your base back home stays exactly as you left it."
+		""
+		"Take your pad with you, or build another one here, for the trip home."
+	]
+	quest.72498393775CC042.title: "The Mining Dimension"
+	quest.72B21F5C5E982E8B.quest_desc: [
+		"A full set of &enetherite armor&r is the toughest you can wear without building it yourself."
+		""
+		"It also resists knockback, so you're far less likely to be shoved off a ledge into lava."
+	]
+	quest.72B21F5C5E982E8B.title: "Dressed for the Nether"
+	quest.7316299424FC5AA5.quest_desc: [
+		"The &eFeeding Upgrade&r feeds you from the food in your backpack when you get hungry."
+		""
+		"Pack something filling and stop worrying about the hunger bar on long digs. It takes a golden apple, a golden carrot and a glistering melon slice, so it's a treat to make."
+	]
+	quest.7316299424FC5AA5.title: "Packed Lunch"
+	quest.7358113C8896FA6E.quest_desc: [
+		"Apotheosis has a challenge Gateway for each World Tier past Haven. The Frontier gate is full of zombies and skeletons in affixed armor."
+		""
+		"Win and it pays in affix gear, gems and Gem Dust. Check JEI for the pearl's recipe."
+	]
+	quest.7358113C8896FA6E.title: "Challenge Gates"
+	quest.7366B4A0D762F3EB.quest_desc: [
+		"Now and then you'll see a lump of deepslate sitting out on the surface, studded with ore. It's a marker."
+		""
+		"Straight below it, down in the bedrock, is a &eResource Node&r. Nodes can't be broken, and they never run dry."
+		""
+		"Write down where it is. Oritech's &eBedrock Extractor&r can mine a node forever, once you can power it."
+	]
+	quest.7366B4A0D762F3EB.title: "Marked by a Boulder"
+	quest.7366E6C3CEFC9AE8.quest_desc: [
+		"People lived out here once. Structory leaves their traces: abandoned camps and chapels, an old manor, firetowers, graveyards, and ruins both above and below ground."
+		""
+		"Most have a chest or two. Some have company."
+	]
+	quest.7366E6C3CEFC9AE8.title: "Old Stones"
+	quest.738D460B9DBF23A5.quest_desc: [
+		"Supplementaries is a box of useful oddments. A few to start with:"
+		""
+		"A &eJar&r holds bottles, buckets, cookies or even a small mob. An &eItem Shelf&r shows off one item on a wall. A &eFlower Box&r holds any big plant under a window. A &eGlobe&r spins when you hit it."
+		""
+		"There are notice boards, hat stands, sacks, doormats and a lot more. Browse the mod in JEI."
+	]
+	quest.738D460B9DBF23A5.title: "Odds and Ends"
+	quest.73A74258BA4CDD10.quest_desc: [
+		"A &eTimber Frame&r is a wooden frame that holds any full block. Right-click one with a block and it fills in behind the beams."
+		""
+		"Braces and cross braces give you the diagonal beams, and &eDaub&r is the plaster to fill them with. That's a cottage wall in two blocks."
+	]
+	quest.73A74258BA4CDD10.title: "Half-Timbered"
+	quest.73C6F26208A51C9C.quest_desc: [
+		"All that copper from the mines has somewhere to go: copper lanterns, chains, bars, ladders, doors, trapdoors, rails, even copper tools and armor."
+		""
+		"Like copper blocks, they turn green with age. Wax them with a &eHoneycomb&r to keep the color you like."
+	]
+	quest.73C6F26208A51C9C.title: "Everything Copper"
+	quest.7405D0DBF5E9DF26.quest_desc: [
+		"Resource seeds are made on an &eInfusion Altar&r with eight &eInfusion Pedestals&r around it. Place the altar first and it shows you where the pedestals go."
+		""
+		"Put the seed base on the altar and the ingredients on the pedestals, then right-click the altar with a &eWand&r, or give it a redstone signal."
+	]
+	quest.7405D0DBF5E9DF26.title: "The Infusion Altar"
+	quest.7422BC30ED1E3918.quest_desc: [
+		"A &eGate Pearl&r opens a Gateway: a portal that sends out waves of monsters, and pays out if you beat them all."
+		""
+		"&eOverworldian Nights&r is a good first one: zombies, skeletons, spiders, creepers and witches, with a pile of dungeon loot at the end."
+		""
+		"Hover over a pearl to see its waves, rewards and rules."
+	]
+	quest.7422BC30ED1E3918.title: "A Pearl Full of Trouble"
+	quest.74FDF8562F62A3A2.quest_desc: [
+		"A Teleport Pad placed in the End leads to &eThe Beyond&r."
+		""
+		"There's nothing there at all: no land, no ore, no monsters. Just open sky. Bring blocks before you step off the pad. It's the biggest blank canvas in the pack."
+	]
+	quest.74FDF8562F62A3A2.title: "The Beyond"
+	quest.753554D6A0BA6123.quest_desc: [
+		"&eSolar Generators&r run whenever the sun can see them. Four of them and some Infused Alloy make an &eAdvanced Solar Generator&r, which does the job in one block."
+		""
+		"Pair your solar farm with wind or a Heat Generator so the lights stay on at night."
+	]
+	quest.753554D6A0BA6123.title: "Soak Up the Sun"
+	quest.75D1AEF5F001EFB1.quest_desc: [
+		"Structory Towers adds tall things to climb: lighthouses, lookouts and outposts, a great toadstool and a few stranger ones."
+		""
+		"The view from the top is free. So is the jump, with a paraglider."
+	]
+	quest.75D1AEF5F001EFB1.title: "Lookouts and Lighthouses"
+	quest.75F3E3DFA31E06B2.quest_desc: [
+		"The Nether has trial chambers of its own, buried low beneath the lava sea."
+		""
+		"Their vaults hold diamond gear, a mace now and then, and the odd scrap of netherite. The fights are hotter too."
+	]
+	quest.75F3E3DFA31E06B2.title: "Trials, but Hotter"
+	quest.75FD93A935F23B49.quest_desc: [
+		"The &eBasic Crafting Table&r is 3x3 like the one you know, but it's the first rung. Each bigger table takes two of the one below it."
+		""
+		"Components and Catalysts come from Black Iron Slate, Luminessence and a material: iron for Basic, gold for Advanced, diamond for Elite and emerald for Ultimate."
+		""
+		"These tables keep their contents when you close them."
+	]
+	quest.75FD93A935F23B49.title: "Basic Crafting Table"
+	quest.76ABBDB1A7DF4ACD.quest_desc: [
+		"A Basic Control Circuit between two Infused Alloys makes an &eAdvanced Control Circuit&r. You can also infuse a Basic circuit with more redstone, if you'd rather save the alloy."
+		""
+		"The Purification Chamber needs two."
+	]
+	quest.76ABBDB1A7DF4ACD.title: "Advanced Control Circuit"
+	quest.76DF8AE0C9039AE4.quest_desc: [
+		"&ePlatinum&r and &eUranium&r live low, down in the deepslate. Platinum is rare, so don't skip a single block of it."
+		""
+		"Treat uranium with respect later on. For now it's just another rock in your pack."
+	]
+	quest.76DF8AE0C9039AE4.title: "Down Deep"
+	quest.77BBC2D46DBB90A5.quest_desc: [
+		"Four Imperium make &eSupremium Essence&r, the top tier in Mystical Agriculture itself. The seeds for the most precious materials need it."
+		""
+		"One more step remains, from Mystical Agradditions. That's the finale."
+	]
+	quest.77BBC2D46DBB90A5.title: "Supremium"
+	quest.78AC94275EBD0E2B.quest_desc: [
+		"The &eUltimate Machine Core&r is Oritech's best: prometheum around a superconductor. It gives a machine the highest quality there is, and with it the most room for addons."
+		""
+		"It's also one of the pieces of the &eAllthemodium Alloy Paxel&r, the pack's capstone. The paxel quest gives it back once you've crafted the paxel."
+		""
+		"Your drills never stop and your lasers never miss. Not bad at all."
+	]
+	quest.78AC94275EBD0E2B.title: "The Ultimate Core"
+	quest.7954892B593269ED.quest_desc: [
+		"&eOrganic Compost&r is dirt, straw, rotten flesh and bone meal mixed together. Place it and it slowly turns into rich soil."
+		""
+		"It composts faster with sunlight, water nearby and mushrooms around it."
+	]
+	quest.7954892B593269ED.title: "Black Gold"
+	quest.797D951557C7583E.quest_desc: [
+		"An &eiron pickaxe&r mines diamond, gold and redstone ore, and lasts a good deal longer than stone."
+		""
+		"Hold &e`&r while you mine and the whole vein comes out at once. Iron veins are often bigger than they look."
+	]
+	quest.797D951557C7583E.title: "The Iron Age"
+	quest.79D304C9B1FD1C5D.quest_desc: [
+		"A Mega Torch stops spawns but leaves the cave dark. The &eFeral Flare Lantern&r fixes that: it places invisible lights in the dark spots for 16 blocks around it."
+		""
+		"Its settings let you choose whether it lights only what it can see, or reaches behind walls too."
+		""
+		"A &eFrozen Pearl&r clears its lights away again."
+	]
+	quest.79D304C9B1FD1C5D.title: "No Torch Required"
+	quest.79EFCF37DCBCAC63.quest_desc: [
+		"The &eBedrock Extractor&r sits over resource nodes and mines them forever. It scans the 3x3 area beneath it, up to three blocks down, and picks one spot at random each cycle, so center it over as many nodes as you can."
+		""
+		"It needs 26 machine cores, and it only takes power from &eEnderic Lasers&r. Each ore costs about 20,000 RF."
+		""
+		"Right-click it to see which nodes it can reach."
+	]
+	quest.79EFCF37DCBCAC63.title: "Endless Ore"
+	quest.79F842955B3A5B92.quest_desc: [
+		"A new relic doesn't show you everything right away. Its abilities have to be researched first."
+		""
+		"Hover over a relic and hold the research key its tooltip names. The research screen shows each ability, what it does, and how it earns experience."
+		""
+		"Researching an ability costs some of your own experience, so bring a few levels."
+	]
+	quest.79F842955B3A5B92.title: "Read It Closely"
+	quest.7A401849EA875061.quest_desc: [
+		"Wither Skeletons in Nether fortresses sometimes drop a &eWither Bone&r."
+		""
+		"If you already have a Wither Skeleton Skull, three bones and the skull craft six Wither Bones at once."
+	]
+	quest.7A401849EA875061.title: "Wither Bones"
+	quest.7A60B5FB3AFB6CC9.quest_desc: [
+		"Some geodes deep underground aren't amethyst. They're lined with ore instead: coal, copper, iron, gold, lapis, redstone, emerald, even diamond."
+		""
+		"The budding blocks grow clusters over time. Break a full-grown cluster for &eshards&r, and smelt the shards into ingots or gems."
+		""
+		"Leave the budding blocks where they are, and come back later for another crop."
+	]
+	quest.7A60B5FB3AFB6CC9.title: "Crystal Caves"
+	quest.7A74DD440B26E87A.quest_desc: [
+		"Eat &e100 different foods&r. That's four milestones and &c12 extra hearts&r, and you keep every one of them if you die."
+		""
+		"There's more to come: milestones carry on all the way to 500 foods, each worth another &c3 hearts&r."
+		""
+		"Click the checkmark once your Food Book shows 100."
+	]
+	quest.7A74DD440B26E87A.title: "A Hundred Flavors"
+	quest.7A9FB006B9CF7BCA.quest_desc: [
+		"Deep underground you may stumble on a little abandoned campsite, with a chest or a barrel left behind."
+		""
+		"They're well worth a look, since the loot leans towards artifacts. Just knock on the chest before you open it."
+	]
+	quest.7A9FB006B9CF7BCA.title: "Campfire Stories"
+	quest.7B15752D4C4D1108.quest_desc: ["Sixteen blocks of diamond for the vault."]
+	quest.7B15752D4C4D1108.quest_subtitle: "Grand Bounty"
+	quest.7B15752D4C4D1108.title: "Diamond Hoard"
+	quest.7B86AD6AA450F6EE.quest_desc: [
+		"Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way."
+		""
+		"Feed it furnace fuel, like coal, and put a gadget in to charge. Coal blocks burn longest, which is why the last quest gave you some."
+		""
+		"Later on, any machine or cell that charges items will top up a gadget too."
+	]
+	quest.7B86AD6AA450F6EE.title: "Power to the Gadgets"
+	quest.7BA7C43ED5298D12.quest_desc: [
+		"Press &eM&r to open the claim map. Click and drag over the land around your base to claim it, and nobody outside your team can break or take anything there."
+		""
+		"Hold &eShift&r while you drag to force-load those chunks instead. Furnaces and farms in a force-loaded chunk keep running while you're away."
+		""
+		"Right-click and drag to let land go."
+	]
+	quest.7BA7C43ED5298D12.title: "Stake Your Claim"
+	quest.7BD4696CF3657AE3.quest_desc: [
+		"Template, netherite pickaxe, Allthemodium Ingot."
+		""
+		"You'll need it: Vibranium Ore won't break for anything less."
+	]
+	quest.7BD4696CF3657AE3.title: "A Better Pick"
+	quest.7C0FD60D61B613A9.quest_desc: [
+		"More patterns than slots? Time to upgrade."
+		""
+		"ExtraStorage makes &eIron&r, &eGold&r, &eDiamond&r and &eNetherite Autocrafters&r that hold more patterns and work faster. Cable Tiers adds &eElite&r, &eUltra&r and &eMega Autocrafters&r. Hover one to see its slots and speed."
+	]
+	quest.7C0FD60D61B613A9.title: "Bigger Autocrafters"
+	quest.7C136704376D02D6.quest_desc: [
+		"The &eWrench&r has three modes."
+		""
+		"&eConfig&r changes which way a cable sends power. &eLink&r ties blocks together, like an Energizing Orb and its rods. &eRotate&r turns blocks to face the way you want."
+		""
+		"You won't need it often, but when you do, nothing else will do."
+	]
+	quest.7C136704376D02D6.title: "Powah Wrench"
+	quest.7C2B1D710BBE205C.quest_desc: [
+		"The rarest of the three lives in the End, and only in the &eEnd Highlands&r: the hilly outer islands, past the main one."
+		""
+		"It forms in end stone near the surface. Bring a Vibranium pickaxe, and an elytra for the gaps."
+	]
+	quest.7C2B1D710BBE205C.title: "Unobtainium"
+	quest.7C39909A9EE12274.quest_desc: [
+		"Every good home needs a good toolbox. This chapter takes you from your first stone pickaxe all the way to netherite, with a few handy extras on the way."
+		""
+		"A &estone pickaxe&r is where it starts. It mines iron ore, which is the next step up."
+	]
+	quest.7C39909A9EE12274.title: "Tools of the Trade"
+	quest.7CB170FDD5D037D4.quest_desc: [
+		"Repurposed Structures puts villages where vanilla never would: in badlands, bamboo jungles, birch and dark forests, cherry groves, mountains, swamps and mushroom islands."
+		""
+		"Even the Nether has a couple, if you're feeling brave."
+	]
+	quest.7CB170FDD5D037D4.title: "Off the Usual Map"
+	quest.7D30F9A01AB5F498.quest_desc: [
+		"Got a second group of chests across the room? Put a &eStorage Link&r against it."
+		""
+		"Link it to your controller with the &eStorage Tool&r and both groups answer to the same controller."
+	]
+	quest.7D30F9A01AB5F498.title: "Storage Link"
+	quest.7D8106D659F1FE1E.quest_desc: [
+		"&eRich Soil&r gives crops planted in it a chance at a free bone meal boost as they grow. Till it for farmland that keeps the bonus."
+		""
+		"Mushrooms planted on it grow into colonies you can shear for more mushrooms."
+	]
+	quest.7D8106D659F1FE1E.title: "Rich Soil"
+	quest.7DF583EE662550BA.quest_desc: [
+		"Run brine through a second &eElectrolytic Separator&r to get chlorine, with some sodium on the side."
+		""
+		"A &eChemical Infuser&r then combines that chlorine with hydrogen from your first separator. Pipe the &ehydrogen chloride&r into the Chemical Injection Chamber and tier four is running."
+	]
+	quest.7DF583EE662550BA.title: "Hydrogen Chloride"
+	quest.7E470B8B3A5FBCC8.quest_desc: [
+		"Out in the world there are trinkets worth more than diamonds: boots that walk on water, a scarf that finds extra ore, a necklace that bites back."
+		""
+		"You wear them in extra slots for your head, neck, belt, hands, feet and more. Press &eShift+G&r to open them."
+		""
+		"Most of these keepsakes also grow stronger the longer you use them. This chapter shows you how."
+	]
+	quest.7E470B8B3A5FBCC8.title: "Curios \\& Keepsakes"
+	quest.7E53F8F026CA59BE.quest_desc: [
+		"Normally a Vault only opens once for each player. Not here: use another key on a vault you've already opened and it pays out again."
+		""
+		"So a good chamber is worth coming back to. Open a vault, then open one a second time."
+		""
+		"Drink an Ominous Bottle before you go in, and the chamber turns ominous: harder fights, &eOminous Trial Keys&r and better vaults."
+	]
+	quest.7E53F8F026CA59BE.title: "Back for Seconds"
+	quest.7EAF12A262A3D126.quest_desc: [
+		"Can't find a seed in the wild? Buy it. The &eMarket&r sells seeds and saplings for an emerald each, including Croptopia's fruit trees and the crops from Farmer's Delight and Cultural Delights."
+		""
+		"Here are some emeralds to spend."
+	]
+	quest.7EAF12A262A3D126.title: "Market Day"
+	quest.7F0ADAE03FD86B05.quest_desc: ["Cooked beef, pork, chicken or mutton for the work crews."]
+	quest.7F0ADAE03FD86B05.quest_subtitle: "Odd Job"
+	quest.7F0ADAE03FD86B05.title: "Hot Supper"
+	quest.7FC77056CEFCDCF2.quest_desc: [
+		"The &eGem Cutting Table&r raises a gem's purity. It takes a second gem of the same purity, plus Gem Dust and some salvaged materials."
+		""
+		"The better the gem, the more it costs. JEI shows the exact price for each step."
+	]
+	quest.7FC77056CEFCDCF2.title: "Cut and Polish"
+	reward_table.092D24A5C2535F79.title: "&6Ember Crate"
+	reward_table.27DF773AF193952A.title: "&7Kindling Crate"
+	reward_table.354604C3695F61A5.title: "&dLantern Crate"
+	reward_table.3B7A20930808D1EF.title: "&aHearth Crate"
+	task.0020A9EADF46996A.title: "Sulfur"
+	task.00C621D86FEB1E77.title: "Any Structory tower"
+	task.01D2D92F747771E1.title: "Got it"
+	task.03612743E4094A1B.title: "A Repurposed Structures village"
+	task.03FE4697B44C1F6D.title: "Sakura Grove"
+	task.04B46072E24D23BA.title: "A Copper Generator or a Furnator"
+	task.05B16E687BAB2ADB.title: "Lush Desert"
+	task.05C68EA39402AE4D.title: "Any storage upgrade"
+	task.05D082591AA14A87.title: "Raw Osmium"
+	task.060A53F521A94C1D.title: "Any backpack"
+	task.06E24EF972A7F671.title: "A Towns and Towers village"
+	task.06F52439B3709AEA.title: "A fortified village"
+	task.086AFD05D37FDA27.title: "Any volcanic biome"
+	task.09DC59BB798E12A9.title: "Something for your hands"
+	task.0A3E8F424BE5D5FC.title: "An iron stick or better"
+	task.0A7263289DFE4F03.title: "Any resource seed"
+	task.0B10A15D8DE67E71.title: "Raw Allthemodium"
+	task.0B5AE8F0604768FE.title: "Everlasting Beef, raw or cooked"
+	task.0DC7E7BC10DBFBB9.title: "Wither Prediction"
+	task.0E53E2EABA2FF525.title: "An Allthemodium Jetpack"
+	task.0EDA88E344ADA662.title: "Any YUNG's mineshaft"
+	task.0FE5E7CCEDF35B9C.title: "Socketed a gem"
+	task.104C000CE660C16A.title: "Got it"
+	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
+	task.112A40DF19A640C0.title: "4 Allthemodium Ingots"
+	task.1161EEFEEB42CFD7.title: "A diamond chest or barrel, or better"
+	task.1169824E5067B52B.title: "A campfire, either kind"
+	task.11996A1BA4BBED4B.title: "Vibranium Ingot"
+	task.11E1DA99C8BE82EC.title: "Any knife"
+	task.12011417992E3EB4.title: "Opened a vault a second time"
+	task.129BBFBAF3641CF4.title: "Activate a waystone"
+	task.12EAB4CC72282C0A.title: "Raw Aluminum"
+	task.141D08FB600AA9F5.title: "Raw Tin"
+	task.1486C2BB35930FFE.title: "A storage minecart or boat"
+	task.14974EBC63ECADDD.title: "Activate 5 waystones"
+	task.159B930FE297DF53.title: "Any timber frame or daub"
+	task.160CCBA902A0FE07.title: "16 Steel Ingots"
+	task.165D627B7309C30F.title: "Two elevators"
+	task.1672A4D74F5F9003.title: "Got it"
+	task.16A8B54504205298.title: "Got it"
+	task.17C048CD6FFF9B98.title: "I've eaten 50 foods"
+	task.17C99A65C64E229C.title: "32 Osmium Ingots"
+	task.182AF15AECA6DE72.title: "Any YUNG's dungeon"
+	task.18539D277111E0F9.title: "Any wireless charger"
+	task.1A8A10EAF076C178.title: "Any sharestone"
+	task.1BC91CA46067539E.title: "Any Skylands biome"
+	task.1C04C0DD6D8FDAC9.title: "Any upgraded Autocrafter"
+	task.1C3F7DC0897AB54C.title: "Any fish mount"
+	task.1D8ED9183F0DDD2D.title: "Pulled an enchantment onto a book"
+	task.1DFF689FFB4569A0.title: "Any Autocrafter"
+	task.1EDC8BD735A74914.title: "Any Mining Gadget"
+	task.1F0C5F131D2DBD47.title: "Any fertilizer"
+	task.1FD32C349F5BE4CE.title: "Orchid Swamp"
+	task.210AB02763E22BE9.title: "Any of these knick-knacks"
+	task.21B8CA7B9DB538B0.title: "Found one"
+	task.22B3228EB0192AEB.title: "Any 256k Storage Disk"
+	task.235703669BFB2C20.title: "Stand on the Calcite House island"
+	task.24574331F3AD1F72.title: "Three machine cores, any tier"
+	task.24A27D380EC9FC88.title: "Any special pearl"
+	task.24E5710F8E27E3F8.title: "A Vibranium Jetpack"
+	task.252ECF421401926A.title: "Four Hopper Botany Pots, any kind"
+	task.254D95A316632283.title: "Show me the way"
+	task.2709944F6F67517F.title: "A Speed or Efficiency Addon"
+	task.27847F78FAA33D05.title: "A fluid, energy or universal pipe"
+	task.27EA2CF1AA9387DA.title: "Any jetpack"
+	task.28ABCB74FC0E9352.title: "I've eaten 100 foods"
+	task.28BFA14D07D2A4A9.title: "An Explorify tavern"
+	task.28CE5200B010CA74.title: "Raw Silver"
+	task.293A41125A6FAB36.title: "Got it"
+	task.293DFB668E453536.title: "Any Handcrafted table"
+	task.29E71D4FDF060875.title: "8 energy cables or pipes"
+	task.2A2DC1D02ED7C209.title: "An iron furnace or better"
+	task.2A324A3234090DFE.title: "Unobtainium Ingot"
+	task.2AC24C5202C2EFEA.title: "Any Luminax block"
+	task.2AF481585DD458B9.title: "Got it"
+	task.2BE7C57E865B6807.title: "Show me"
+	task.2C0DC9BF315A0AB3.title: "Found a node"
+	task.2C1BBB4A004879D7.title: "Arrive"
+	task.2CDF9582E525CD02.title: "Any Pattern Grid"
+	task.2D6A1FF21A37E88E.title: "Home sweet home"
+	task.2DCF1F9E06A25E50.title: "Any flux storage"
+	task.2F4F4E2573029283.title: "Enter the Mining Dimension"
+	task.2F762CD33931A90D.title: "Fruit from a Croptopia tree"
+	task.301DE51A4CE85C30.title: "Any wireless upgrade"
+	task.304F6643BB193A0B.title: "Shrubland"
+	task.314321CCCCFFEAA8.title: "Any External Storage"
+	task.3192840CE12B900A.title: "Got it"
+	task.319A0CEA0AA7B7D4.title: "Something for your feet"
+	task.319E1AA394C84D36.title: "A Chemical Oxidizer or a Thermal Evaporation Controller"
+	task.31FF9531693B2A70.title: "Any Macaw's trapdoor"
+	task.32C52FC69C0344F7.title: "Raw Lead"
+	task.32DDB26D25250A05.title: "Find a Trial Chamber"
+	task.33397A484C0B60A7.title: "Crystals of any metal"
+	task.341F6F5CA4127A19.title: "Good to know"
+	task.35ECD5C223642F60.title: "A Cooking Table"
+	task.3672D8FD12FD0C3B.title: "Any Macaw's window"
+	task.3680617E3FF2727D.title: "Any paxel"
+	task.37C98A61F15AE711.title: "Raw Platinum"
+	task.37EB5CD679DA1D10.title: "A Sophisticated chest or barrel"
+	task.3807E1E12BBFCB20.title: "Raw Zinc"
+	task.389EC6491653276C.title: "Raw Nickel"
+	task.389ED288E8F44930.title: "Got it"
+	task.3A0C7F4C62056F74.title: "A keepsake for fighting"
+	task.3A2464F15CB46D49.title: "Any Wireless Transmitter"
+	task.3AABB44BD8469EF6.title: "A big fish"
+	task.3AE03A6D90137C2E.title: "16 cooked meat, any kind"
+	task.3B17F4E26387A4C9.title: "A Sink"
+	task.3B320042F6F0C0CE.title: "Anything copper from Everything Copper"
+	task.3BBA7EDE1F18FA46.title: "Any Macaw's fence, hedge or wall"
+	task.3BC6111D03DE8FC8.title: "Lavender Forest"
+	task.3BFB117C3C7562A3.title: "Find a Nether trial"
+	task.3C0C5FB20723A394.title: "Find a Witch Tower"
+	task.3D2A05B4A71003A2.title: "Any Handcrafted chair"
+	task.3DD1D0A49DAFA4F2.title: "Any relic"
+	task.3E458D26F1B32C6D.title: "Visit the Beyond"
+	task.3E75C98FEB25110A.title: "Birch Taiga"
+	task.3E9C226B470DB60E.title: "Any of these decorations"
+	task.3EE55D12D4C2F86D.title: "Any Macaw's chair, table, desk, drawer or wardrobe"
+	task.3EE920524342544A.title: "Researched an ability"
+	task.3F8D1E0332E6F9A1.title: "Any oreberry"
+	task.405A978664FE39D6.title: "4 Allthemodium Ingots"
+	task.40DF75848B4247D8.title: "Osmium Ingot"
+	task.40E7BC15071DB0F4.title: "Any stick template"
+	task.40EDA2B4EAFB892C.title: "Got it"
+	task.4110C6C679DB677F.title: "Corn, cucumber, eggplant, beans, avocado or lemon"
+	task.41D3B29E8FE18C21.title: "Visit the Mining Dimension"
+	task.41E8FF2DA3EA0D21.title: "Any basic factory"
+	task.4477CD302009AFF7.title: "Cabbage, tomato, onion or rice"
+	task.45C6223ABA31A303.title: "Any generator with an odd appetite"
+	task.467DC2EF08DE4158.title: "Something for your neck"
+	task.468CA454A94D5AC3.title: "Any Mekanism Tools chestplate"
+	task.46C56977A68CECF0.title: "Four fruit tree saplings"
+	task.46DBC9085592ED28.title: "Something for your belt"
+	task.46E124F9A67BEC59.title: "Any oreberry bush"
+	task.4877B3DAF9D0A321.title: "Osmium Ore"
+	task.49D5EB9C6751CA06.title: "12 Cable"
+	task.4A2394EC462A25F0.title: "Got it"
+	task.4A9020F4241394A6.title: "Got it"
+	task.4A9D8ED2E7AAB659.title: "Overworldian Nights Gate Pearl"
+	task.4B01344D556DF3CF.title: "Any balcony, railing or platform"
+	task.4B48ED3A521FB7AA.title: "Vibranium Ingot"
+	task.4B7C5C9DE64F7789.title: "A tier upgrade, or a copper or iron chest"
+	task.4B94B6C0938AA923.title: "Upgraded"
+	task.4BD5609781C10DAF.title: "An Unobtainium Jetpack"
+	task.4C3150A8E6FD30D6.title: "Something for your head"
+	task.4CC1018B9A3D7BC6.title: "Any Exporter"
+	task.4EDD878C8FBF1330.title: "32 wool, any color"
+	task.4F1D928025B93DF5.title: "Any Macaw's bridge"
+	task.4FFF1B45F91EDD28.title: "Raw Uranium"
+	task.503B93D8BCE4E9C0.title: "Steel Ingot"
+	task.50F37AD4828EC49F.title: "Any Controller"
+	task.50FE5849B10F2D10.title: "Got it"
+	task.52146EE7CD4934E2.title: "Any Botany Pot"
+	task.5230052CA58924C4.title: "Any Importer"
+	task.533C344A7D7924D8.title: "Any Macaw's light"
+	task.535A1353A094B3D7.title: "Steppe"
+	task.53A32D7647AC1972.title: "Any feast"
+	task.5514FC50F2C15160.title: "An Emerald Jetpack"
+	task.55510BA463EC6A4A.title: "Visit the Other"
+	task.556C080414F0C440.title: "Any Growth Accelerator"
+	task.5658F2DE00118B83.title: "Moonlight Grove"
+	task.57C6DAA5E8BB6C01.title: "Any tiered Importer or Exporter"
+	task.581E71A351C4A503.title: "Find the stronghold"
+	task.59275E9143D53F3B.title: "Got it"
+	task.599E506CD4D2F728.title: "Magnet or Void Junk"
+	task.59EA90AEC5DF667C.title: "Salt"
+	task.5AAA7C49AA04660C.title: "A witch hut"
+	task.5B44038E14BD636A.title: "Any Crafting Grid"
+	task.5BC36AD2D44B51A8.title: "Curtains, any color"
+	task.5BE243441D9F8FF5.title: "An Overhauled Village"
+	task.5D1FADFE0B0E8988.title: "Find an Ancient Pyramid"
+	task.5D945DE9C431A11A.title: "Any waystone"
+	task.5FFCC895842351C2.title: "A relic leveled up"
+	task.6026EDE2B5CE50C3.title: "64 crops, any kind"
+	task.6093645102144E6C.title: "Fluorite"
+	task.61F2AFC16D61167C.title: "A Mending book"
+	task.62F28B5A7D949A0F.title: "A keepsake for getting around"
+	task.6317C587E1D38B08.title: "Nickel Ingot"
+	task.63A12CE2D6300D51.title: "Any artifact"
+	task.6469E6C048F59DC7.title: "Home sweet home"
+	task.650AA1E592EA3E57.title: "Any bed"
+	task.66628684157625AA.title: "Show me"
+	task.66FD4B4E12D83E19.title: "Four solar generators, either kind"
+	task.670A1E5FBE136A90.title: "Any of these"
+	task.6768969FF533D0EE.title: "Got it"
+	task.6815E8C99BF279D2.title: "16 cooked fish, any kind"
+	task.695880EE04617F49.title: "Any hammock"
+	task.696088678AD4535D.title: "Any 1x compressed block"
+	task.6A6984AEAFE9C23F.title: "A keepsake for mining"
+	task.6B57AB182B64E268.title: "Any GeOre shard"
+	task.6CB7819F0176EC13.title: "Any gem"
+	task.6CE668C15DB281D0.title: "Got it"
+	task.6CF6FDAFD316C3BB.title: "Allthemodium Ingot"
+	task.6D1AA13DA702459B.title: "Charged it"
+	task.6DBBAE5C125636AB.title: "Any Structory ruin"
+	task.6DC4948959CC4A49.title: "Visit the Deep Dark"
+	task.6F78BFC2E40B5689.title: "64 logs, any kind"
+	task.6FFC7E03F144460D.title: "Any Macaw's door"
+	task.70EEF7F7464AD547.title: "8 processors, any grade"
+	task.71812351F6ACFE58.title: "An iron, gold or diamond generator"
+	task.723EADE44873F914.title: "Got it"
+	task.728D2F0E6200C997.title: "Let's build"
+	task.72A3097D3D3B6448.title: "Fluorite"
+	task.72C834CC8ECD5A60.title: "Any Grid"
+	task.72F3BCF5E0B14BED.title: "Any Macaw's path or paving"
+	task.7336271231723C5E.title: "I've eaten 25 foods"
+	task.735FBAF53702E674.title: "A copper backpack or better"
+	task.7414478B6B0141B5.title: "Unobtainium Ingot"
+	task.7417025329E1464E.title: "Interdimensional Wireless Transmitter"
+	task.752DC1BFBFC4B602.title: "Any Chemical Storage Disk"
+	task.75D80002C5B017BD.title: "Got it"
+	task.7758F8A2B06C146F.title: "Any trash can"
+	task.776AC08B80C4FAEA.title: "Any Croptopia utensil"
+	task.77F5E2085C91D9A7.title: "Any Macaw's roof"
+	task.7893EF5B520AE6ED.title: "Any pipe upgrade"
+	task.79B34A1C1380E8F7.title: "Found one"
+	task.7ACED0B76983BD79.title: "Alpine Grove"
+	task.7ADF8B736859CB28.title: "A Kitchen Counter"
+	task.7B94A6D43110E7A6.title: "Raw Allthemodium"
+	task.7BFD9735AE6C017F.title: "Any item collector"
+	task.7C263B6C2046F6C8.title: "Any Energy Storage Disk"
+	task.7C29DEF7D1A02221.title: "A Fridge"
+	task.7D6ED177B60D72F1.title: "Find a Horned Statue underground"
+	task.7DCB21C439C38E4B.title: "Sulfur"
+	task.7DE561EDC4FECE52.title: "Any fancy bed"
+	task.7E26C0366C71D28A.title: "Any sharestone"
+	task.7E81F48D4EDF9D8B.title: "Survived a Gateway"
+	task.7EB95C7D5A751D6B.title: "32 Croptopia meals, any kind"
+	task.7F6C62B0B3CFE250.title: "Highlands"
+	task.7F99FC3B51108E4D.title: "Croptopia seeds"
+}

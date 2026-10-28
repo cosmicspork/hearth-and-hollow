@@ -1,0 +1,8 @@
+# exported packs and local test runs
+*.zip
+*.mrpack
+/run/
+.cache/
+/build/
+/dist/
+__pycache__/

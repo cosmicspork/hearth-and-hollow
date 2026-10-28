@@ -1,0 +1,25 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "croptopia:cinnamon_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:cinnamon_sapling",
+  "input": {
+    "item": "croptopia:cinnamon_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 1600,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "hearthandhollow:botanypots/croptopia/cinnamon"
+    }
+  ]
+}

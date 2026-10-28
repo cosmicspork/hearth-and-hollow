@@ -1,0 +1,900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "curios_and_keepsakes"
+	group: "35FD6D18A971484E"
+	icon: {
+		count: 1
+		id: "bhc:heart_amulet"
+	}
+	id: "1EAC187E22BADD01"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E470B8B3A5FBCC8"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2BE7C57E865B6807"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E470B8B3A5FBCC8"]
+			icon: {
+				count: 1
+				id: "artifacts:cloud_in_a_bottle"
+			}
+			id: "1EBD11F16E51110E"
+			rewards: [
+				{
+					id: "1C9C917D1CEEC20D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CC62C03D3D6D9DB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:cloud_in_a_bottle"
+					}
+					id: "63A12CE2D6300D51"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(artifacts:artifacts)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBD11F16E51110E"]
+			icon: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			id: "7A9FB006B9CF7BCA"
+			optional: true
+			rewards: [
+				{
+					id: "063137D4CA40BAD0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "248C15733B21B485"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79B34A1C1380E8F7"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A9FB006B9CF7BCA"]
+			id: "080B9D0F0230DC03"
+			optional: true
+			rewards: [
+				{
+					id: "5ED8A6491E217E6F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C1347FD932DD962"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09C2076BDA1A0C93"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EBD11F16E51110E"]
+			id: "35719E573E8621A6"
+			optional: true
+			rewards: [
+				{
+					id: "3F16584AEFE9442A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "703A9A07FC4B07F8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:everlasting_beef"
+					}
+					id: "0B5AE8F0604768FE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(artifacts:everlasting_beef)item(artifacts:eternal_steak))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EBD11F16E51110E"]
+			id: "1BF6AF98B756BF4E"
+			rewards: [
+				{
+					id: "05F3C7EF1EFB54AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "427A5B3F29D383D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "artifacts:mimic"
+					id: "6C127BD0743F914D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF6AF98B756BF4E"]
+			id: "29F6424BECE6700C"
+			optional: true
+			rewards: [
+				{
+					id: "10EC2BE4A42291CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AB98777ED514591"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C77AD611C11B9C6"
+					item: {
+						count: 1
+						id: "reliquified_artifacts:mimi_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BF6AF98B756BF4E"]
+			icon: {
+				count: 1
+				id: "relics:leafy_mantle"
+			}
+			id: "5D03C361BA83F81A"
+			rewards: [
+				{
+					id: "789C7B98B12F4F1B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B834AC3A21CCC24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "relics:leafy_mantle"
+					}
+					id: "3DD1D0A49DAFA4F2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(relics:relic)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D03C361BA83F81A"]
+			icon: {
+				count: 1
+				id: "artifacts:running_shoes"
+			}
+			id: "4DD5DC3C6F9063D0"
+			optional: true
+			rewards: [
+				{
+					id: "33ED3F910B8F572E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "381D8176CC90912A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					id: "62F28B5A7D949A0F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(artifacts:running_shoes)item(artifacts:bunny_hoppers)item(artifacts:cloud_in_a_bottle)item(artifacts:helium_flamingo)item(artifacts:aqua_dashers)item(relics:roller_skate)item(relics:springy_boot))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D03C361BA83F81A"]
+			icon: {
+				count: 1
+				id: "artifacts:digging_claws"
+			}
+			id: "03CD6EA75FF72BF7"
+			optional: true
+			rewards: [
+				{
+					id: "25F27D5F596630CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F44F4242613353F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:digging_claws"
+					}
+					id: "6A6984AEAFE9C23F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(artifacts:digging_claws)item(artifacts:lucky_scarf)item(artifacts:pickaxe_heater)item(artifacts:onion_ring)item(artifacts:night_vision_goggles))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D03C361BA83F81A"]
+			id: "79F842955B3A5B92"
+			rewards: [
+				{
+					id: "74593368B4949B98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1193EDDCCA566A90"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EE920524342544A"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79F842955B3A5B92"]
+			icon: {
+				count: 1
+				id: "relics:relic_experience_bottle"
+			}
+			id: "67ED1E2EBC73CAC8"
+			rewards: [
+				{
+					id: "13AF805631D83BF9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "15591A3344F246E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6AB235899FB5224C"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5FFCC895842351C2"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67ED1E2EBC73CAC8"]
+			id: "4E43AB0121CDC8BB"
+			rewards: [
+				{
+					id: "20686C01EDE07DAE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3700C18F698CB8D7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "01D2D92F747771E1"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67ED1E2EBC73CAC8"]
+			id: "5D5482E0506DF402"
+			rewards: [
+				{
+					id: "0A533CC192882176"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E58766583EF32DA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38DC37F1478336D3"
+					item: {
+						count: 1
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5482E0506DF402"]
+			id: "246332DA8CEFA248"
+			optional: true
+			rewards: [
+				{
+					id: "38804284DAEE1E36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70A37F373D1BF986"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A963F612E81CDCD"
+					item: {
+						count: 1
+						id: "bhc:red_heart_patch"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D5482E0506DF402"]
+			id: "2AA2D6536DD79316"
+			rewards: [
+				{
+					id: "4DCD14960AE589E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F2D7C239C986AB3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19F3AC7348B544B3"
+					item: {
+						count: 1
+						id: "bhc:heart_amulet"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AA2D6536DD79316"]
+			id: "5EF80534532D44CF"
+			rewards: [
+				{
+					id: "6250ABF23B844DAA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D352B99EB5CCF4D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06565C93500AFA9E"
+					item: {
+						count: 1
+						id: "bhc:relic_apple"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EF80534532D44CF"]
+			id: "7A401849EA875061"
+			rewards: [
+				{
+					id: "6EB6FB00048757E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "13D9C06B030196F4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D48D981507A7793"
+					item: {
+						count: 1
+						id: "bhc:wither_bone"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AA2D6536DD79316"]
+			id: "6A3830D4991E6114"
+			rewards: [
+				{
+					id: "4BBB336922508A04"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6DD90454AE809FFD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "671666AEB245B29A"
+					item: {
+						count: 1
+						id: "bhc:red_heart_canister"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A3830D4991E6114"]
+			icon: {
+				count: 1
+				id: "artifacts:snorkel"
+			}
+			id: "6D15724E29BBA7A5"
+			min_width: 300
+			rewards: [
+				{
+					id: "535E4714FBB60DAD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0C79F0134DD5B2E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:cowboy_hat"
+					}
+					id: "4C3150A8E6FD30D6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(curios:head)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "artifacts:cross_necklace"
+					}
+					id: "467DC2EF08DE4158"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(curios:necklace)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "artifacts:obsidian_skull"
+					}
+					id: "46DBC9085592ED28"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(curios:belt)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "artifacts:power_glove"
+					}
+					id: "09DC59BB798E12A9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(curios:hands)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					id: "319A0CEA0AA7B7D4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(curios:feet)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15724E29BBA7A5"]
+			icon: {
+				count: 1
+				id: "artifacts:vampiric_glove"
+			}
+			id: "0299C1CAECBAD261"
+			optional: true
+			rewards: [
+				{
+					id: "5D3FB1F42278E509"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "582257CF6885FE45"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "artifacts:vampiric_glove"
+					}
+					id: "3A0C7F4C62056F74"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(artifacts:vampiric_glove)item(artifacts:power_glove)item(artifacts:feral_claws)item(artifacts:fire_gauntlet)item(artifacts:cross_necklace)item(artifacts:panic_necklace))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D15724E29BBA7A5"]
+			id: "45E3776247E65942"
+			rewards: [
+				{
+					id: "1A7E5CDB5BFF30FC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67CEC10EBD841B0C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "692FC376D5F14B7A"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "42A9356E5335413D"
+					item: {
+						count: 1
+						id: "bhc:yellow_heart_canister"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+}

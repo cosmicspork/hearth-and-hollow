@@ -1,0 +1,1095 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wanderlust"
+	group: "35FD6D18A971484E"
+	icon: {
+		count: 1
+		id: "paraglider:paraglider"
+	}
+	id: "7183322E45A36FDC"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "naturescompass:naturescompass"
+			}
+			id: "023B3A10D76CF2E9"
+			rewards: [
+				{
+					id: "63F5BD0E1AD47A39"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16461B0C8396D8B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "76FE97CC00FF22CF"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["023B3A10D76CF2E9"]
+			id: "59737F6289621673"
+			rewards: [
+				{
+					id: "2375A956511E194F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E4F3881A02488BD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "7AF1E64901B235CE"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["023B3A10D76CF2E9"]
+			id: "5EA53D57AFC58156"
+			rewards: [
+				{
+					id: "2AE36586C18D7BE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "281B2D7A66D2B962"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3566497F4DD0DDDE"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EA53D57AFC58156"]
+			id: "093A6FEC87B7921C"
+			rewards: [
+				{
+					id: "69DD8F641700CF71"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B9405513276403F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "59275E9143D53F3B"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA53D57AFC58156"]
+			icon: {
+				count: 1
+				id: "minecraft:filled_map"
+			}
+			id: "3CFD7811CEC9356F"
+			min_width: 300
+			rewards: [
+				{
+					id: "6E7CAE5A120EAF1E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "426FEC1B27194E50"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "51AAF9A8A09668DA"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					biome: "terralith:sakura_grove"
+					icon: {
+						count: 1
+						id: "minecraft:cherry_sapling"
+					}
+					id: "03FE4697B44C1F6D"
+					type: "biome"
+				}
+				{
+					biome: "terralith:lavender_forest"
+					icon: {
+						count: 1
+						id: "minecraft:allium"
+					}
+					id: "3BC6111D03DE8FC8"
+					type: "biome"
+				}
+				{
+					biome: "terralith:moonlight_grove"
+					icon: {
+						count: 1
+						id: "minecraft:white_tulip"
+					}
+					id: "5658F2DE00118B83"
+					type: "biome"
+				}
+				{
+					biome: "terralith:birch_taiga"
+					icon: {
+						count: 1
+						id: "minecraft:birch_sapling"
+					}
+					id: "3E75C98FEB25110A"
+					type: "biome"
+				}
+				{
+					biome: "terralith:shrubland"
+					icon: {
+						count: 1
+						id: "minecraft:dead_bush"
+					}
+					id: "304F6643BB193A0B"
+					type: "biome"
+				}
+				{
+					biome: "terralith:steppe"
+					icon: {
+						count: 1
+						id: "minecraft:short_grass"
+					}
+					id: "535A1353A094B3D7"
+					type: "biome"
+				}
+				{
+					biome: "terralith:highlands"
+					icon: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					id: "7F6C62B0B3CFE250"
+					type: "biome"
+				}
+				{
+					biome: "terralith:orchid_swamp"
+					icon: {
+						count: 1
+						id: "minecraft:blue_orchid"
+					}
+					id: "1FD32C349F5BE4CE"
+					type: "biome"
+				}
+				{
+					biome: "terralith:lush_desert"
+					icon: {
+						count: 1
+						id: "minecraft:cactus"
+					}
+					id: "05B16E687BAB2ADB"
+					type: "biome"
+				}
+				{
+					biome: "terralith:alpine_grove"
+					icon: {
+						count: 1
+						id: "minecraft:spruce_sapling"
+					}
+					id: "7ACED0B76983BD79"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CFD7811CEC9356F"]
+			id: "0206A15D6B33C72C"
+			optional: true
+			rewards: [
+				{
+					id: "117E1D0E6CE1BD98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B17294833B4E4B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#terralith:skylands"
+					icon: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					id: "1BC91CA46067539E"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CFD7811CEC9356F"]
+			id: "26EBB0CE42133A10"
+			optional: true
+			rewards: [
+				{
+					id: "0E80DC059C4AB195"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "599890073342A5F5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "#terralith:volcanic"
+					icon: {
+						count: 1
+						id: "minecraft:basalt"
+					}
+					id: "086AFD05D37FDA27"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CFD7811CEC9356F"]
+			id: "13C6D6D1360653CF"
+			rewards: [
+				{
+					id: "035CEDB37CA56955"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F81EF341360A9F3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5B78A78F4514CF3E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:bell"
+					}
+					id: "06E24EF972A7F671"
+					structure: "#towns_and_towers:town"
+					type: "structure"
+				}
+				{
+					icon: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					id: "5BE243441D9F8FF5"
+					structure: "#ctov:village"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13C6D6D1360653CF"]
+			id: "7CB170FDD5D037D4"
+			optional: true
+			rewards: [
+				{
+					id: "6253F47A464A7F0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C323AA9B26584A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:cherry_planks"
+					}
+					id: "03612743E4094A1B"
+					structure: "#repurposed_structures:collections/villages"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13C6D6D1360653CF"]
+			id: "2A3151FDFB9A441B"
+			optional: true
+			rewards: [
+				{
+					id: "49BC3408ED7BD90E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F417862B7366D20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "78EE9ED3744F050D"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:barrel"
+					}
+					id: "28BFA14D07D2A4A9"
+					structure: "explorify:tavern"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A3151FDFB9A441B"]
+			id: "42D3CDF4C2603F32"
+			optional: true
+			rewards: [
+				{
+					id: "329C83C6AEFE5639"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "668D39991A418153"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:cobblestone_wall"
+					}
+					id: "06F52439B3709AEA"
+					structure: "#terralith:fortified_villages"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13C6D6D1360653CF"]
+			id: "677BEC24411F3B73"
+			rewards: [
+				{
+					id: "33278CCDA0557580"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2727FEB27893AB35"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "59D4D38188E09E1F"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					id: "14974EBC63ECADDD"
+					stat: "waystones:waystone_activated"
+					type: "stat"
+					value: 5
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677BEC24411F3B73"]
+			id: "17768AA219D41404"
+			optional: true
+			rewards: [
+				{
+					id: "579AC321E527D12A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CD3F5240E8C9F1F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "waystones:red_sharestone"
+					}
+					id: "7E26C0366C71D28A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(waystones:sharestones)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["677BEC24411F3B73"]
+			id: "7366E6C3CEFC9AE8"
+			rewards: [
+				{
+					id: "6B443112C760CF0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73F5402BE21D3137"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:mossy_cobblestone"
+					}
+					id: "6DBBAE5C125636AB"
+					structure: "#structory:all_structory_structures"
+					type: "structure"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7366E6C3CEFC9AE8"]
+			id: "75D1AEF5F001EFB1"
+			optional: true
+			rewards: [
+				{
+					id: "07A1532142F59C13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E29499DFC89F61A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					id: "00C621D86FEB1E77"
+					structure: "#structory_towers:any_tower"
+					type: "structure"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7366E6C3CEFC9AE8"]
+			icon: {
+				count: 1
+				id: "minecraft:grass_block"
+			}
+			id: "297CFF2AA839CF49"
+			rewards: [
+				{
+					id: "5535D2AE3B3E1795"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "616D395EEB84557B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5217FB1FD1CD89F0"
+					item: {
+						count: 1
+						id: "minecraft:scaffolding"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:calcite"
+					}
+					id: "235703669BFB2C20"
+					structure: "mss:calcite_house"
+					type: "structure"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["297CFF2AA839CF49"]
+			id: "248E8BBF58BC0886"
+			rewards: [
+				{
+					id: "4E0F69A61FCA48F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E2D63C1AF855DDC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:brewing_stand"
+					}
+					id: "3C0C5FB20723A394"
+					structure: "formationsoverworld:witch_tower"
+					type: "structure"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["248E8BBF58BC0886"]
+			id: "31D3CC66FAA927AB"
+			optional: true
+			rewards: [
+				{
+					id: "189DE64BF4C8235D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C7ED8F9D27EA5F4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:cauldron"
+					}
+					id: "5AAA7C49AA04660C"
+					structure: "betterwitchhuts:witch_hut"
+					type: "structure"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["248E8BBF58BC0886"]
+			id: "2A40B24FF7219947"
+			rewards: [
+				{
+					id: "2761B6852FE67861"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F061B01EDD087D6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					id: "182AF15AECA6DE72"
+					structure: "#betterdungeons:better_dungeons"
+					type: "structure"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A40B24FF7219947"]
+			id: "5BBAFCEE171ADDC2"
+			optional: true
+			rewards: [
+				{
+					id: "2F1A1F256EB27FCF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47691F29F25A8C3F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					id: "0EDA88E344ADA662"
+					structure: "#bettermineshafts:better_mineshafts"
+					type: "structure"
+				}
+			]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A40B24FF7219947"]
+			id: "50AD5140D01BB781"
+			optional: true
+			rewards: [
+				{
+					id: "1BEDF59760B79B5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0159B7E030F5EBC0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "240AF6815FEEC556"
+					type: "advancement"
+				}
+			]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50AD5140D01BB781"]
+			id: "1E53EE806FDBBCAC"
+			optional: true
+			rewards: [
+				{
+					id: "2C6223F8C9E953EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A477B00E404A8AC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					id: "581E71A351C4A503"
+					structure: "betterstrongholds:stronghold"
+					type: "structure"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A40B24FF7219947"]
+			id: "38885A1AF52B23C8"
+			rewards: [
+				{
+					id: "6FC76A7AAD192132"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "242C915F0A56CA28"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0B7CC2706C34A3CE"
+					item: {
+						count: 1
+						id: "paraglider:spirit_orb"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38885A1AF52B23C8"]
+			icon: {
+				count: 1
+				id: "paraglider:goddess_statue"
+			}
+			id: "57CFE8378E7F3BE5"
+			rewards: [
+				{
+					id: "7A1722C9E0C2B79B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "48ED5339F619C265"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "paraglider:pray_to_the_goddess"
+					criterion: ""
+					id: "722277A56D1E9169"
+					type: "advancement"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57CFE8378E7F3BE5"]
+			id: "2DA83054B4065A27"
+			optional: true
+			rewards: [
+				{
+					id: "3D30BBAFFCBDC66F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "283107E3333012C1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "paraglider:horned_statue"
+					}
+					id: "7D6ED177B60D72F1"
+					structure: "paraglider:underground_horned_statue"
+					type: "structure"
+				}
+			]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57CFE8378E7F3BE5"]
+			icon: {
+				count: 1
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "51C7E2D472ECE61B"
+			rewards: [
+				{
+					id: "081635AFB11E036F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "09B534FF225650D7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "5FB71FF0E731B7AC"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "lootr:50loot"
+					criterion: ""
+					id: "5316567A6263ADB3"
+					type: "advancement"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+	]
+}

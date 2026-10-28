@@ -1,0 +1,1131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "6FE350D5D0123F96"
+	icon: {
+		count: 1
+		id: "minecraft:bell"
+	}
+	id: "7030ACE742146D78"
+	order_index: 17
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3510303011B01564"
+			min_width: 300
+			rewards: [ ]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2AF481585DD458B9"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "2160790A754ADE19"
+			rewards: [
+				{
+					id: "0449347173B4C4FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14C91C4C70437540"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					icon: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					id: "6F78BFC2E40B5689"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -9.625d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "1488E2F6B38359C5"
+			rewards: [
+				{
+					id: "419768903ED9CB30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F87FF9A0505B71F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "35A1E705D4FDD081"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "58B1A49E08CE631A"
+			rewards: [
+				{
+					id: "5B047440ADA4D947"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02659C0741463DB0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "10B886BDCE5B5C28"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -6.125d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "4D17C75658589C4A"
+			rewards: [
+				{
+					id: "56555AD2BC0E6DC7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CA27BA0F864572C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "5ACBC951C11F42FA"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "6A017F11683968AD"
+			rewards: [
+				{
+					id: "162571E22CB49B52"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20A72F3D14FC6B23"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					icon: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					id: "4EDD878C8FBF1330"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:wool)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "5EC6CBA9F64119C4"
+			rewards: [
+				{
+					id: "0C2A1BE2EB4B140E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BF1E186B3CE4FF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "0739BA3E42128FCA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -0.875d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "6E6B72FCC24A72C7"
+			rewards: [
+				{
+					id: "13B2DDB9FF498370"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "118CE501ECDF9F42"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "12C559A20665E485"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 0.875d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "6EF77A7565F00B61"
+			rewards: [
+				{
+					id: "35483078D04CBCC0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3AF6434343257CC0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "57447DAAF4894A23"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "0963E028E48BD57C"
+			rewards: [
+				{
+					id: "7202A824D5E94B2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EDB249F3C78DE8E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					icon: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					id: "6026EDE2B5CE50C3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:crops)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "7F0ADAE03FD86B05"
+			rewards: [
+				{
+					id: "791335FDE5C40569"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AA131E58780E707"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					icon: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					id: "3AE03A6D90137C2E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:foods/cooked_meat)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "0CC61BCE024A2E4A"
+			rewards: [
+				{
+					id: "2642199BF01C23D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DFD15D3C6850DAF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "6ED1694A3FE63FE2"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 7.875d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "69274539DC7502D1"
+			rewards: [
+				{
+					id: "6972CAC694B71516"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49BC414092BB68E0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					icon: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					id: "6815E8C99BF279D2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:foods/cooked_fish)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			id: "0D91FA312E1E873C"
+			rewards: [
+				{
+					id: "623F3A8EA6A0F127"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DCBECFC55CE2050"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					icon: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					id: "160CCBA902A0FE07"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/steel)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -9.625d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "5E6E2522ED0889B4"
+			rewards: [
+				{
+					id: "66CE918E17D68849"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AEE5D762814FD60"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					icon: {
+						count: 1
+						id: "croptopia:supreme_pizza"
+					}
+					id: "7EB95C7D5A751D6B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(croptopia:advancements_food_big)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "4C513A7AE7FC93F6"
+			rewards: [
+				{
+					id: "4CFCBAD3633C0CEE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B99DF7C5AA9F8DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "7F43342982B7AFAE"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: -6.125d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "137B469576A8CCE6"
+			rewards: [
+				{
+					id: "50FEEC0943B2AFD9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F892EA345262C83"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					icon: {
+						count: 1
+						id: "refinedstorage:advanced_processor"
+					}
+					id: "70EEF7F7464AD547"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(refinedstorage:basic_processor)item(refinedstorage:improved_processor)item(refinedstorage:advanced_processor))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "1274527C4172D943"
+			rewards: [
+				{
+					id: "27980943A7BDCFD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "178695601169D029"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "0A991F4B749F005F"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: -2.625d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "283B243E044874AC"
+			rewards: [
+				{
+					id: "2B9A4039BFD92166"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "411C6FFDABCE01A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "04402F03BC8B9C98"
+					type: "kill"
+					value: 12L
+				}
+			]
+			x: -0.875d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "35B6228C78CEFB29"
+			rewards: [
+				{
+					id: "68915296F9F6D51D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73116F20BD0BBF12"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					icon: {
+						count: 1
+						id: "alltheores:osmium_ingot"
+					}
+					id: "17C99A65C64E229C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/osmium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "5400B57216D6FB2B"
+			rewards: [
+				{
+					id: "494E82CC4C3BA202"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F69C56BC0D042FD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "262DE53E6F22223B"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "35B4A1778EF5E80B"
+			rewards: [
+				{
+					id: "59CF08FFFE6A90B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5334F133929723A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0A25E2BDB24BAC6D"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "235016AF92062BCA"
+			rewards: [
+				{
+					id: "485EB9C0094BCEB9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75FF615D5880A1B5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "6E5D6467285DA1B5"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 6.125d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "7034F747A83C00B3"
+			rewards: [
+				{
+					id: "04DAB2C9B7B9FB06"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59FC56EF711F282F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:guardian"
+					id: "38117E9E850700AB"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 7.875d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "4C1EE078836EAA3A"
+			rewards: [
+				{
+					id: "53E8CF5ED76CECE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4843D27FC6AF2B66"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "65B0C780A57C1BA3"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "29A7793116934600"
+			rewards: [
+				{
+					id: "7CB87F3B6A576689"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7BCE05E92464B269"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "55F07623B1CAD7ED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.375d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "3FEC3275BCBAA28A"
+			rewards: [
+				{
+					id: "73D25C25DDDE4DBC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7332A2E6ED7D3EB2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "1C8E439560D66FFC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.625d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "580EB79C40EEF010"
+			rewards: [
+				{
+					id: "54BF954D285A6157"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "13AFBC0FF41A30AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "108329B491F864B0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -0.875d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "15DB8A6DADF7653F"
+			rewards: [
+				{
+					id: "02F9B586B5347E4A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "443C776A03ACDE3B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					icon: {
+						count: 1
+						id: "allthemodium:allthemodium_ingot"
+					}
+					id: "112A40DF19A640C0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/allthemodium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "7B15752D4C4D1108"
+			rewards: [
+				{
+					id: "6666F9939C23C052"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "72B695C419C0A1A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "47E98344BFB45FC2"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "516C2476AA7CD9EB"
+			rewards: [
+				{
+					id: "7094256B99EC4AD1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "772C65C0C06F2238"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "6B269CE76734EDAA"
+					item: {
+						count: 1
+						id: "allthecompressed:cobblestone_3x"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 5.25d
+		}
+	]
+}

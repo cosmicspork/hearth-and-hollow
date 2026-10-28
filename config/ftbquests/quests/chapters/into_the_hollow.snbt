@@ -1,0 +1,1091 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "into_the_hollow"
+	group: "35FD6D18A971484E"
+	icon: {
+		count: 1
+		id: "mininggadgets:mininggadget"
+	}
+	id: "07BB46C630FA3246"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "57D58CBCC225CD17"
+			rewards: [
+				{
+					id: "3688A4C2F0F1F97F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0063C5C64864A234"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 64L
+					id: "3F183B37BBC6712E"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D58CBCC225CD17"]
+			id: "187942916B31E3C3"
+			rewards: [
+				{
+					id: "00D4197A9783B7D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "315C7C4BEB93BE10"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6CE668C15DB281D0"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D58CBCC225CD17"]
+			icon: {
+				count: 1
+				id: "alltheores:fluorite"
+			}
+			id: "2953D46CB7F13B9C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "3E9D41650AA8F179"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2AE38C9E9C10FE2A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "alltheores:fluorite"
+					}
+					id: "72A3097D3D3B6448"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:gems/fluorite)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:sulfur"
+					}
+					id: "7DCB21C439C38E4B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:dusts/sulfur)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:salt"
+					}
+					id: "59EA90AEC5DF667C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:dusts/salt)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D58CBCC225CD17"]
+			icon: {
+				count: 1
+				id: "alltheores:raw_tin"
+			}
+			id: "086155A9E07F1B84"
+			min_width: 300
+			rewards: [
+				{
+					id: "22A19EA383D4BEDA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E4D1D594138A993"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_tin"
+					}
+					id: "141D08FB600AA9F5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/tin)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_zinc"
+					}
+					id: "3807E1E12BBFCB20"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/zinc)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_aluminum"
+					}
+					id: "12EAB4CC72282C0A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/aluminum)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086155A9E07F1B84"]
+			icon: {
+				count: 1
+				id: "oreberriesreplanted:iron_oreberry_bush"
+			}
+			id: "088391B0BEA824F5"
+			rewards: [
+				{
+					id: "76A665825C98E823"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E0F7E5BCB3008C9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "oreberriesreplanted:iron_oreberry_bush"
+					}
+					id: "46E124F9A67BEC59"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(oreberriesreplanted:iron_oreberry_bush)item(oreberriesreplanted:gold_oreberry_bush)item(oreberriesreplanted:copper_oreberry_bush)item(oreberriesreplanted:tin_oreberry_bush)item(oreberriesreplanted:aluminum_oreberry_bush)item(oreberriesreplanted:lead_oreberry_bush)item(oreberriesreplanted:nickel_oreberry_bush)item(oreberriesreplanted:uranium_oreberry_bush)item(oreberriesreplanted:osmium_oreberry_bush)item(oreberriesreplanted:zinc_oreberry_bush)item(oreberriesreplanted:silver_oreberry_bush))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["088391B0BEA824F5"]
+			icon: {
+				count: 1
+				id: "oreberriesreplanted:iron_oreberry"
+			}
+			id: "3C2424D4625EDF33"
+			rewards: [
+				{
+					id: "6C3B362A2877F8E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73C025718A3388E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "oreberriesreplanted:iron_oreberry"
+					}
+					id: "3F8D1E0332E6F9A1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(oreberriesreplanted:iron_oreberry)item(oreberriesreplanted:gold_oreberry)item(oreberriesreplanted:copper_oreberry)item(oreberriesreplanted:tin_oreberry)item(oreberriesreplanted:aluminum_oreberry)item(oreberriesreplanted:lead_oreberry)item(oreberriesreplanted:nickel_oreberry)item(oreberriesreplanted:uranium_oreberry)item(oreberriesreplanted:osmium_oreberry)item(oreberriesreplanted:zinc_oreberry)item(oreberriesreplanted:silver_oreberry))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086155A9E07F1B84"]
+			icon: {
+				count: 1
+				id: "alltheores:raw_osmium"
+			}
+			id: "02BC9448B77D2685"
+			min_width: 300
+			rewards: [
+				{
+					id: "05D6A701EAB468B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3329DB4675907519"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_lead"
+					}
+					id: "32C52FC69C0344F7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/lead)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_silver"
+					}
+					id: "28CE5200B010CA74"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/silver)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_nickel"
+					}
+					id: "389EC6491653276C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/nickel)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_osmium"
+					}
+					id: "05D082591AA14A87"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/osmium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02BC9448B77D2685"]
+			icon: {
+				count: 1
+				id: "geore:diamond_shard"
+			}
+			id: "7A60B5FB3AFB6CC9"
+			optional: true
+			rewards: [
+				{
+					id: "39D4FCBFDFD107FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B379D8F0E3BE682"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "geore:diamond_shard"
+					}
+					id: "6B57AB182B64E268"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(geore:coal_shard)item(geore:copper_shard)item(geore:iron_shard)item(geore:gold_shard)item(geore:lapis_shard)item(geore:redstone_shard)item(geore:emerald_shard)item(geore:diamond_shard)item(geore:quartz_shard)item(geore:ancient_debris_shard))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02BC9448B77D2685"]
+			icon: {
+				count: 1
+				id: "alltheores:raw_platinum"
+			}
+			id: "76DF8AE0C9039AE4"
+			rewards: [
+				{
+					id: "76EE86BFA0B4B3DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "18B96344280CEFD4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "662D1E689A21AB6F"
+					item: {
+						count: 1
+						id: "alltheores:raw_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F4B27BEB4A69372"
+					item: {
+						count: 1
+						id: "alltheores:raw_tin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_platinum"
+					}
+					id: "37C98A61F15AE711"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/platinum)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "alltheores:raw_uranium"
+					}
+					id: "4FFF1B45F91EDD28"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/uranium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76DF8AE0C9039AE4"]
+			icon: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+			id: "7366B4A0D762F3EB"
+			optional: true
+			rewards: [
+				{
+					id: "3CBAFB722959EFD1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F1407A26CA40FB0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C0DC9BF315A0AB3"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76DF8AE0C9039AE4"]
+			id: "2F7240862881C340"
+			rewards: [
+				{
+					id: "17D97ED74787CE8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3766D103892B72E8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49A4CD5FA7795BB0"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_empty"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F7240862881C340"]
+			icon: {
+				count: 1
+				id: "mininggadgets:mininggadget"
+			}
+			id: "0CDF490522849D03"
+			rewards: [
+				{
+					id: "458F68098ACAD665"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56069F1C4D54D349"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "66753B8D550C4D7F"
+					item: {
+						count: 1
+						id: "charginggadgets:charging_station"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mininggadgets:mininggadget"
+					}
+					id: "1EDC8BD735A74914"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mininggadgets:mininggadget_simple)item(mininggadgets:mininggadget_fancy)item(mininggadgets:mininggadget))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CDF490522849D03"]
+			id: "03888092D173CBED"
+			rewards: [
+				{
+					id: "066400B0ADD5B540"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "167D8A69BBAD65E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "268E95BCEC8594DF"
+					item: {
+						count: 1
+						id: "mininggadgets:modificationtable"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CDF490522849D03"]
+			icon: {
+				count: 1
+				id: "charginggadgets:charging_station"
+			}
+			id: "30D6C9F473F2BB9B"
+			rewards: [
+				{
+					id: "726F35331FA2081E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "356D6FB9E5EE4D24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D1AA13DA702459B"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0CDF490522849D03"]
+			id: "0EF2A9AC02797372"
+			rewards: [
+				{
+					id: "0E572F3461508D43"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "56ACD058E59554E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "777DA6E5960622AA"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_size_1"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0EF2A9AC02797372"]
+			icon: {
+				count: 1
+				id: "mininggadgets:upgrade_magnet"
+			}
+			id: "58CF101FCF38A937"
+			optional: true
+			rewards: [
+				{
+					id: "1BF50CD1BF3B4078"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7643F746758E8526"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mininggadgets:upgrade_magnet"
+					}
+					id: "599E506CD4D2F728"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mininggadgets:upgrade_magnet)item(mininggadgets:upgrade_void_junk))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0EF2A9AC02797372"]
+			id: "46D8D8490278ACF7"
+			optional: true
+			rewards: [
+				{
+					id: "7793E388605316AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40EC0DC723C80395"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01B85ABA55192DB2"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_fortune_1"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0EF2A9AC02797372"]
+			id: "52E482C149D7265D"
+			rewards: [
+				{
+					id: "428A7034E2C01C6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0388B6A8AD1C52E0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:deep_dark"
+					icon: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					id: "6DC4948959CC4A49"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["52E482C149D7265D"]
+			icon: {
+				count: 1
+				id: "allthemodium:raw_allthemodium"
+			}
+			id: "3BF050ED090F5DFF"
+			rewards: [
+				{
+					id: "308A40D3C35677C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "671AE3A905CBD895"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "allthemodium:raw_allthemodium"
+					}
+					id: "7B94A6D43110E7A6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:raw_materials/allthemodium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3BF050ED090F5DFF"]
+			id: "202A345B110DB328"
+			rewards: [
+				{
+					id: "0606B9C9FBEDBA1B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74A8D8431B38CB24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C62A5D5F78625AA"
+					item: {
+						count: 1
+						id: "allthemodium:teleport_pad"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["202A345B110DB328"]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "72498393775CC042"
+			rewards: [
+				{
+					id: "4C2386DD83063403"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "04EA841F928D007A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37DE2FA49F7EF90B"
+					item: {
+						count: 1
+						id: "alltheores:raw_platinum"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7265AE80F03A7E2D"
+					item: {
+						count: 1
+						id: "alltheores:raw_silver"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					dimension: "allthemodium:mining"
+					icon: {
+						count: 1
+						id: "allthemodium:teleport_pad"
+					}
+					id: "2F4F4E2573029283"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["72498393775CC042"]
+			id: "62A7AD121090F731"
+			rewards: [
+				{
+					id: "774950249B129105"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A2E60DB67C5923E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "389ED288E8F44930"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["72498393775CC042"]
+			id: "417C041D143D1FDF"
+			rewards: [
+				{
+					id: "6AB0EBE5EDB395B2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F058CF98B9E6E2E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7CEB3BD277A81F64"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_size_2"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.0d
+		}
+	]
+}

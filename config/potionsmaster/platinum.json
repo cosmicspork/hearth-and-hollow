@@ -1,0 +1,8 @@
+{
+    "entryname": "platinum",
+    "oretag": "c:ores/platinum",
+    "color": -6367508,
+    "drawing": false,
+    "order": 0,
+    "recipeItem": "alltheores:raw_platinum"
+}

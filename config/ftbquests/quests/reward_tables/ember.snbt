@@ -1,0 +1,82 @@
+{
+	id: "092D24A5C2535F79"
+	loot_crate: {
+		color: 14714922
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "ember"
+	}
+	loot_size: 2
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "62278D528B540C5F"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_ingot"
+			}
+		}
+		{
+			id: "598EB40FB3F2373E"
+			item: {
+				count: 1
+				id: "allthemodium:vibranium_ingot"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "3292A17B2AB40225"
+			item: {
+				count: 1
+				id: "allthemodium:unobtainium_ingot"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "1AF493E1D4FE6B87"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "7250212AB6729BEE"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "68A9134048F975C2"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "387795A1581648CF"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "133F08CCA67F3B70"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 0.8f
+		}
+	]
+	use_title: true
+}

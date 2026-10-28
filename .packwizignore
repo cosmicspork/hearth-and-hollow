@@ -1,0 +1,17 @@
+README.md
+LICENSE
+/assets/
+.gitignore
+.packwizignore
+run/
+scripts/
+docs/
+.github/
+CHANGELOG.md
+release-please-config.json
+.release-please-manifest.json
+version.txt
+justfile
+build/
+dist/
+.cache/

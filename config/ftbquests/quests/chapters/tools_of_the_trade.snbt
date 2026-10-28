@@ -1,0 +1,968 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_of_the_trade"
+	group: "6D64CA34D687FD52"
+	icon: {
+		count: 1
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "3380E1EE475D131E"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "7C39909A9EE12274"
+			rewards: [
+				{
+					id: "14701746A2629D52"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40B8E9C500373146"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "55C2462C42310547"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C39909A9EE12274"]
+			id: "10A4DA00ABAC4A9D"
+			rewards: [
+				{
+					id: "4717A019846F684A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7FA8BAA0C7E16FBB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52394BA96AD0F6D9"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C39909A9EE12274"]
+			id: "797D951557C7583E"
+			rewards: [
+				{
+					id: "4ABBF31284CCFB67"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3452C1590A7D6BEE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "566C37E61CEF96C9"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797D951557C7583E"]
+			id: "6AED27556BB184E8"
+			rewards: [
+				{
+					id: "2F087E5AD87816AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AA3E82AFB8511ED"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AB133FAF677CF38"
+					item: {
+						count: 1
+						id: "simplemagnets:basicmagnet"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AED27556BB184E8"]
+			id: "5CAEE453D80469D5"
+			optional: true
+			rewards: [
+				{
+					id: "475F9263B16F389A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B6396690144BE35"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01C81F54A42034C5"
+					item: {
+						count: 1
+						id: "simplemagnets:advancedmagnet"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797D951557C7583E"]
+			id: "38534A91108CF3B2"
+			rewards: [
+				{
+					id: "417D65D2D8FC4331"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "558A9EDA76F2AB00"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "constructionstick:iron_stick"
+					}
+					id: "0A3E8F424BE5D5FC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(constructionstick:iron_stick)item(constructionstick:diamond_stick)item(constructionstick:netherite_stick))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38534A91108CF3B2"]
+			id: "0E66799BE221568C"
+			optional: true
+			rewards: [
+				{
+					id: "61EAD68905F52939"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6658F3B051147081"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "constructionstick:template_angel"
+					}
+					id: "40E7BC15071DB0F4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(constructionstick:template_angel)item(constructionstick:template_destruction)item(constructionstick:template_replacement)item(constructionstick:template_battery)item(constructionstick:template_unbreakable))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797D951557C7583E"]
+			id: "4EB6672AAA138F13"
+			rewards: [
+				{
+					id: "6C84ADABC02FF0C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "737BC374892C547D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37F37FE6A9FBFA5C"
+					item: {
+						count: 1
+						id: "minecraft:iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "0D83D41597520017"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "0EB8702F54B4CE12"
+					item: {
+						count: 1
+						id: "minecraft:iron_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "06FC2B5D8BDB08E0"
+					item: {
+						count: 1
+						id: "minecraft:iron_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EB6672AAA138F13"]
+			id: "1D8C13C5D445839D"
+			optional: true
+			rewards: [
+				{
+					id: "2CC298C61409618F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3C5373CEC2EAB4C7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mekanismtools:osmium_chestplate"
+					}
+					id: "468CA454A94D5AC3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mekanismtools:lapis_lazuli_chestplate)item(mekanismtools:osmium_chestplate)item(mekanismtools:bronze_chestplate)item(mekanismtools:steel_chestplate)item(mekanismtools:refined_glowstone_chestplate)item(mekanismtools:refined_obsidian_chestplate))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EB6672AAA138F13"]
+			id: "56E562F5985B73AF"
+			rewards: [
+				{
+					id: "64A41B2827F5D647"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FCDEA80C35F5AA4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mekanismtools:iron_paxel"
+					}
+					id: "3680617E3FF2727D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mekanismtools:wood_paxel)item(mekanismtools:stone_paxel)item(mekanismtools:iron_paxel)item(mekanismtools:gold_paxel)item(mekanismtools:diamond_paxel)item(mekanismtools:netherite_paxel)item(mekanismtools:lapis_lazuli_paxel)item(mekanismtools:osmium_paxel)item(mekanismtools:bronze_paxel)item(mekanismtools:steel_paxel)item(mekanismtools:refined_glowstone_paxel)item(mekanismtools:refined_obsidian_paxel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56E562F5985B73AF"]
+			id: "23C1DD9684D170D9"
+			rewards: [
+				{
+					id: "385C0CE38629BE05"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "096FE5B3E3C22555"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "6C9F5E440D76FD50"
+					item: {
+						count: 1
+						id: "minecraft:anvil"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "01DD56E0166474B0"
+					item: {
+						count: 1
+						id: "minecraft:diamond_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23C1DD9684D170D9"]
+			id: "06215D112F4387BC"
+			rewards: [
+				{
+					id: "680FD0960E1778CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64684E977B518E56"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06992479BCDC87F1"
+					item: {
+						count: 1
+						id: "minecraft:diamond_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7624FAC6E232B7C2"
+					item: {
+						count: 1
+						id: "minecraft:diamond_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "487DB249F4A36328"
+					item: {
+						count: 1
+						id: "minecraft:diamond_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "02240B4480D824FE"
+					item: {
+						count: 1
+						id: "minecraft:diamond_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23C1DD9684D170D9"]
+			id: "27D6C6A84097486E"
+			rewards: [
+				{
+					id: "4C7D0251D84B757D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E7F569A0F6F175A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "022ADB4B721AAADB"
+					item: {
+						count: 1
+						id: "torchmaster:megatorch"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["27D6C6A84097486E"]
+			id: "79D304C9B1FD1C5D"
+			optional: true
+			rewards: [
+				{
+					id: "752763C6BADA05D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5000E1CAA5CEC1F5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0505702B245279CE"
+					item: {
+						count: 1
+						id: "torchmaster:feral_flare_lantern"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23C1DD9684D170D9"]
+			id: "302537769E5066AA"
+			rewards: [
+				{
+					id: "400E85BF3C563BCA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B00E3B1525DC028"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0F36F28A8754195B"
+					item: {
+						count: 1
+						id: "minecraft:enchanting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["302537769E5066AA"]
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			id: "6D9ECE8EE856BC35"
+			rewards: [
+				{
+					id: "5B498E973183C022"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43BFBA74E09712F3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "649D40D378D4D35E"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					id: "61F2AFC16D61167C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item(minecraft:enchanted_book)component(fuzzy:{\"minecraft:stored_enchantments\":{\"levels\":{\"minecraft:mending\":1}}})"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["302537769E5066AA"]
+			id: "6278C057B3D87B2C"
+			optional: true
+			rewards: [
+				{
+					id: "7DD1B5F9C39A65B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0194A65B562C549A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "505748C448505E2F"
+					item: {
+						count: 1
+						id: "minecraft:grindstone"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["302537769E5066AA"]
+			id: "4BC9D4CA74A6568C"
+			rewards: [
+				{
+					id: "482A727516737513"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1713D5937A48DC09"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59380F661B3FEA63"
+					item: {
+						count: 1
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4BC9D4CA74A6568C"]
+			id: "4F1908AA3DFF27E5"
+			rewards: [
+				{
+					id: "2D5FC4B127FB3A65"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42EE074963A4B58B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14B96F31B7967382"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4F1908AA3DFF27E5"]
+			id: "0CDA0A16614D8DC7"
+			rewards: [
+				{
+					id: "02D47F0EBE482B2D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "580A750F48E2F6C4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "4A201C8146029E02"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6C2C270949624392"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0CDA0A16614D8DC7"]
+			id: "72B21F5C5E982E8B"
+			rewards: [
+				{
+					id: "45F03CFB2BDF6C37"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "055E6E96ADBC2A55"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C0F43E3B0621615"
+					item: {
+						count: 1
+						id: "minecraft:netherite_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "54AAB008D5AC7073"
+					item: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "49482105331785B3"
+					item: {
+						count: 1
+						id: "minecraft:netherite_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "5D5AE40CE46ADE30"
+					item: {
+						count: 1
+						id: "minecraft:netherite_boots"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0CDA0A16614D8DC7"]
+			id: "19A28662874641C7"
+			optional: true
+			rewards: [
+				{
+					id: "2282192A9E75CFBE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C051ED3EA914094"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F7681EDF427ECE0"
+					item: {
+						count: 1
+						id: "constructionstick:netherite_stick"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0CDA0A16614D8DC7"]
+			icon: {
+				count: 1
+				id: "mekanismtools:netherite_paxel"
+			}
+			id: "003E10B908F86968"
+			rewards: [
+				{
+					id: "474A58792E693CBF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6A4B3FEC012ABC0F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1B53B466AA03F81C"
+					item: {
+						count: 1
+						id: "minecraft:rib_armor_trim_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:netherite_pickaxe"
+					}
+					id: "10CE82F2D14B7A10"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:netherite_pickaxe)item(mekanismtools:netherite_paxel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "croptopia:avocado_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "croptopia:avocado_sapling",
+  "input": {
+    "item": "croptopia:avocado_sapling"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 1400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "hearthandhollow:botanypots/croptopia/avocado"
+    }
+  ]
+}

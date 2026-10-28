@@ -1,0 +1,7 @@
+renderDistance:10
+simulationDistance:8
+autoJump:false
+narrator:0
+onboardAccessibility:false
+tutorialStep:none
+skipMultiplayerWarning:true

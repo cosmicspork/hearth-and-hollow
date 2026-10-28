@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alloy_paxel"
+	group: "3D424858AC8D0F3F"
+	icon: {
+		count: 1
+		id: "allthemodium:alloy_paxel"
+	}
+	id: "6A08833828DDC5F3"
+	order_index: 16
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "464331F2EC5BB489"
+			min_width: 300
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "254D95A316632283"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["464331F2EC5BB489"]
+			id: "02116DB82D768CF8"
+			rewards: [
+				{
+					id: "2BCA137D2B592D08"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "72D7F3200573DFF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6F4B7D2584141252"
+					item: {
+						count: 1
+						id: "allthemodium:piglich_heart"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["02116DB82D768CF8"]
+			id: "601DB237139FA898"
+			rewards: [
+				{
+					id: "6D64971C4DFDE66B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "4589A7D0F9D46707"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1DB2008F8D90249C"
+					item: {
+						count: 1
+						id: "allthemodium:vibranium_allthemodium_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02116DB82D768CF8"]
+			id: "0BBD7EA7E8E80EA5"
+			rewards: [
+				{
+					id: "12A77D244F407F6C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "46544C12B56830D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12B9A178298AB3B6"
+					item: {
+						count: 1
+						id: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02116DB82D768CF8"]
+			id: "33976B383FA077EA"
+			rewards: [
+				{
+					id: "5FFEF5E695DA93F2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "443CCA55AFBB0C4F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "765D71D2C06F6AF5"
+					item: {
+						count: 1
+						id: "allthemodium:unobtainium_vibranium_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"601DB237139FA898"
+				"0BBD7EA7E8E80EA5"
+				"33976B383FA077EA"
+			]
+			icon: {
+				count: 1
+				id: "allthemodium:alloy_pick"
+			}
+			id: "6FD54CDF7C272EF3"
+			min_width: 300
+			rewards: [
+				{
+					id: "508344ACCFAE7361"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6E006DB3C10320D7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51114DE7E86FCE83"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_pick"
+					}
+					type: "item"
+				}
+				{
+					id: "668C7C0469A044E8"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "21688B5C37668F22"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "072213A62BB05988"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_sword"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mekanism:ultimate_control_circuit"
+			}
+			id: "4A3EC994756078B7"
+			min_width: 300
+			rewards: [
+				{
+					id: "7B2E5BF6AE80EF7A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "057E0D9181668F42"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "537BD1A17B2BED62"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "43776E5C1DA3E1B8"
+					item: {
+						count: 1
+						id: "oritech:machine_core_7"
+					}
+					type: "item"
+				}
+				{
+					id: "556D9C3425EEAD78"
+					item: {
+						count: 1
+						id: "refinedstorage:64k_storage_disk"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "515100995360C8B6"
+					item: {
+						count: 1
+						id: "mysticalagradditions:insanium_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "0DC7E7BC10DBFBB9"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"6FD54CDF7C272EF3"
+				"4A3EC994756078B7"
+			]
+			icon: {
+				count: 1
+				id: "allthemodium:alloy_paxel"
+			}
+			id: "30B8CC0C1ABCCA7E"
+			rewards: [
+				{
+					id: "40A6F57A68A4BC90"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 3
+					id: "1BCEE21D8479F792"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "6FEC19534B4E7E70"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BaseBlock: "minecraft:smooth_stone_slab"
+								Spin: true
+								Subject: "item.allthemodium.alloy_paxel"
+								TrophyItem: {
+									count: 1
+									id: "allthemodium:alloy_paxel"
+								}
+								TrophyType: "item"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "4142CA637685966D"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "00D7393ECEEA5AC5"
+					item: {
+						count: 1
+						id: "oritech:machine_core_7"
+					}
+					type: "item"
+				}
+				{
+					id: "59F7BAED025428DB"
+					item: {
+						count: 1
+						id: "refinedstorage:64k_storage_disk"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32037B5D274FB36F"
+					item: {
+						count: 1
+						id: "mysticalagradditions:insanium_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "22FFAAF634BB8739"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					command: "/tellraw @a [\"\",{\"text\":\"{p}\",\"color\":\"gold\"},{\"text\":\" has forged the Allthemodium Alloy Paxel!\",\"color\":\"yellow\"}]"
+					id: "4A3607A30D0F73CE"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "551C3D3577776CCF"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_paxel"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["30B8CC0C1ABCCA7E"]
+			id: "0275CC16427ED3E9"
+			optional: true
+			rewards: [
+				{
+					id: "3557B2057CFB673E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5CF5034C9968F964"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4FEFE6BD3CDAE8C2"
+					item: {
+						count: 1
+						id: "allthemodium:alloy_paxel"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.25d
+		}
+	]
+}

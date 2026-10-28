@@ -1,0 +1,942 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "monsters_and_mettle"
+	group: "35FD6D18A971484E"
+	icon: {
+		count: 1
+		id: "apotheosis:sigil_of_socketing"
+	}
+	id: "795AB1D39D51C32D"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "55274C15951A8044"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66628684157625AA"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55274C15951A8044"]
+			id: "4E3DAB4C06AB591E"
+			rewards: [
+				{
+					id: "1E407729B6C75A58"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "639CE8EB4E3BB85D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "32BC3D9EBA9B3B72"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"epitaphs:soulbound": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "341F6F5CA4127A19"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55274C15951A8044"]
+			icon: {
+				count: 1
+				id: "minecraft:golden_sword"
+			}
+			id: "6FDEE1032AA1E808"
+			rewards: [
+				{
+					id: "150C569DB298B58C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D648BEF9B54DD2C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:progression/haven"
+					criterion: ""
+					id: "1E8712472A842ADE"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FDEE1032AA1E808"]
+			icon: {
+				count: 1
+				id: "endermanoverhaul:icy_pearl"
+			}
+			id: "63B7777813217FB5"
+			optional: true
+			rewards: [
+				{
+					id: "31C4CA4112F7E3F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BC01DC7C1D635BC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "endermanoverhaul:icy_pearl"
+					}
+					id: "24A27D380EC9FC88"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(endermanoverhaul:ender_pearls)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FDEE1032AA1E808"]
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "1B86F686C714BC59"
+			rewards: [
+				{
+					id: "4C72A81F2D6AC157"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "68529687C400123E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1B9AA4678F87F198"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "apotheosis:progression/frontier"
+					criterion: ""
+					id: "2317BAD2FFAF564A"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B86F686C714BC59"]
+			icon: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			id: "347DB171ECD19E8C"
+			rewards: [
+				{
+					id: "5AA9BC72FD6B34A0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6768D8C168DCAD08"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					id: "6CB7819F0176EC13"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["347DB171ECD19E8C"]
+			icon: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			id: "606225A066E886EA"
+			rewards: [
+				{
+					id: "3B50A253A39E6729"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34938356745A4A4B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "056BEF35EF57B4FC"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["606225A066E886EA"]
+			id: "7FC77056CEFCDCF2"
+			optional: true
+			rewards: [
+				{
+					id: "070378738A633A65"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07174A1434EC26A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33CC329FA7E7D447"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["606225A066E886EA"]
+			id: "0598186D0C1FD3C3"
+			optional: true
+			rewards: [
+				{
+					id: "07D2F4E91E603BFF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22EF8C8D267EEB32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C79CD2694D14AF4"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["606225A066E886EA"]
+			icon: {
+				count: 1
+				id: "minecraft:smithing_table"
+			}
+			id: "6ED4658DE20BD246"
+			rewards: [
+				{
+					id: "27437E050DB7CF4E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B9A3C7E7328905E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0FE5E7CCEDF35B9C"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ED4658DE20BD246"]
+			id: "4491DE4DCDDF00A4"
+			rewards: [
+				{
+					id: "1B10969707AC396A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43B44611DF56B5EF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2CB048771BB74F69"
+					item: {
+						count: 1
+						id: "apotheosis:salvaging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4491DE4DCDDF00A4"]
+			id: "5E15185300FB6262"
+			rewards: [
+				{
+					id: "3DF803FE498518CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B22E78F08F8B6CF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3867A4DFE2EAF330"
+					item: {
+						count: 1
+						id: "apotheosis:simple_reforging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E15185300FB6262"]
+			id: "5FFB46F7B1D9E908"
+			optional: true
+			rewards: [
+				{
+					id: "1783E2B8FA753B7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "614B0E1581D7AB4D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07E5723E1353CA74"
+					item: {
+						count: 1
+						id: "apothic_enchanting:hellshelf"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E15185300FB6262"]
+			id: "51B1C7B11F2C5AFD"
+			rewards: [
+				{
+					id: "5C849E5E93B91147"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "420DCAD0BDDC1D38"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "252FC3D15784BA7A"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2367A4C93AB8FA6C"
+					item: {
+						count: 1
+						id: "disenchanting_table:disenchanting_table"
+					}
+					type: "item"
+				}
+				{
+					id: "1D8ED9183F0DDD2D"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E15185300FB6262"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "7422BC30ED1E3918"
+			rewards: [
+				{
+					id: "567E32BBE4FABF60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6649BFA1EE46E077"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A9D8ED2E7AAB659"
+					item: {
+						components: {
+							"gateways:gateway": "gateways:overworldian_nights"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7422BC30ED1E3918"]
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "3CEF37B6337C7241"
+			rewards: [
+				{
+					id: "01BC2AB952A4A869"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2BE49F190373B3B7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "65D7800DA1069844"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/ballast"
+							"apotheosis:purity": "flawed"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7E81F48D4EDF9D8B"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CEF37B6337C7241"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "7358113C8896FA6E"
+			optional: true
+			rewards: [
+				{
+					id: "0B75309C4EE02B90"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49AEBA6E259D2261"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:gateways/frontier"
+					criterion: ""
+					id: "4CA93C6E91E3F270"
+					type: "advancement"
+				}
+			]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CEF37B6337C7241"]
+			icon: {
+				count: 1
+				id: "trophymanager:trophy"
+			}
+			id: "4C48B47AAEB05307"
+			optional: true
+			rewards: [
+				{
+					id: "636B986AB23AA1DB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59C6ED2CDDAF978F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A58C7BAC14F867E"
+					item: {
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CEF37B6337C7241"]
+			icon: {
+				count: 1
+				id: "minecraft:trial_key"
+			}
+			id: "6D40D938E2A94CDA"
+			rewards: [
+				{
+					id: "75BED640F7A9987A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BFB962D94458FC9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:trial_spawner"
+					}
+					id: "32DDB26D25250A05"
+					structure: "minecraft:trial_chambers"
+					type: "structure"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D40D938E2A94CDA"]
+			icon: {
+				count: 1
+				id: "minecraft:nether_bricks"
+			}
+			id: "75F3E3DFA31E06B2"
+			optional: true
+			rewards: [
+				{
+					id: "27A6811BF2974E0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "380E8CC2848136BA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:vault"
+					}
+					id: "3BFB117C3C7562A3"
+					structure: "hellish_trials:nether_trial"
+					type: "structure"
+				}
+			]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75F3E3DFA31E06B2"]
+			icon: {
+				count: 1
+				id: "wstweaks:fragment"
+			}
+			id: "38EAC5CC9ABC90B8"
+			optional: true
+			rewards: [
+				{
+					id: "790FB700D06136BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6547BBB55349C9A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "44F7D10914126430"
+					item: {
+						count: 1
+						id: "wstweaks:fragment"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D40D938E2A94CDA"]
+			icon: {
+				count: 1
+				id: "minecraft:vault"
+			}
+			id: "7E53F8F026CA59BE"
+			rewards: [
+				{
+					id: "3A543AF1DBCB844B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "449579C0D15A1C87"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "532D212F78334F5C"
+					item: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/under_lock_and_key"
+					criterion: ""
+					id: "505189F941D62D22"
+					type: "advancement"
+				}
+				{
+					id: "12011417992E3EB4"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E53F8F026CA59BE"]
+			icon: {
+				count: 1
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "3B003232D8A9449B"
+			rewards: [
+				{
+					id: "1EDD099A97169C54"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D7E272F80CB21D6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE40207BC05AF5F"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/splendor"
+							"apotheosis:purity": "normal"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "20C7A53ADD472FBF"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "apotheosis:progression/ascent"
+					criterion: ""
+					id: "71B44D8ED8FAA2D7"
+					type: "advancement"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+}

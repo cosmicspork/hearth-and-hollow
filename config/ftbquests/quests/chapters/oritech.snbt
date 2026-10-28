@@ -1,0 +1,764 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "oritech:laser_arm_block"
+	}
+	id: "086C57609DB3DB96"
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "oritech:basic_generator_block"
+			}
+			id: "714590CDDF3837D6"
+			rewards: [
+				{
+					id: "7CAD446CDB436530"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "178523E38DFD86C8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					icon: {
+						count: 1
+						id: "alltheores:nickel_ingot"
+					}
+					id: "6317C587E1D38B08"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/nickel)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["714590CDDF3837D6"]
+			id: "55554CCED560B585"
+			rewards: [
+				{
+					id: "562ADBA68D5BF0E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53F94C2319ECB37B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "50FE5849B10F2D10"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["714590CDDF3837D6"]
+			id: "07431CCAB9825F77"
+			rewards: [
+				{
+					id: "2B5C3E36D6D7464A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39AF946C190C9BD8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39E1EA74507B9CDC"
+					item: {
+						count: 1
+						id: "oritech:basic_generator_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07431CCAB9825F77"]
+			id: "331970696BC30085"
+			rewards: [
+				{
+					id: "518F86E4454C8932"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14A89FFFD35E1BE2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1629EED48BEA9B88"
+					item: {
+						count: 1
+						id: "oritech:powered_furnace_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07431CCAB9825F77"]
+			id: "549EDCE390DC120F"
+			rewards: [
+				{
+					id: "0BB030295551FF13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F756102FDE3C2D5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0DF0189DC842E2A7"
+					item: {
+						count: 1
+						id: "oritech:pulverizer_block"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["549EDCE390DC120F"]
+			id: "40E8C5A0930086CC"
+			rewards: [
+				{
+					id: "1414F6D6A68A1AD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3DEDA26601D2EBC6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					icon: {
+						count: 1
+						id: "oritech:machine_core_1"
+					}
+					id: "24574331F3AD1F72"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(oritech:machine_core_1)item(oritech:machine_core_2)item(oritech:machine_core_3))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40E8C5A0930086CC"]
+			id: "6E2A53E1997A4DDF"
+			rewards: [
+				{
+					id: "6F755A2782C0D872"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "38B8E22FC686B501"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "oritech:machine_speed_addon"
+					}
+					id: "2709944F6F67517F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(oritech:machine_speed_addon)item(oritech:machine_efficiency_addon))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40E8C5A0930086CC"]
+			id: "6620A16CFB01713B"
+			rewards: [
+				{
+					id: "6974E15A8180C51E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "61511DA7CA150BCA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7BC06207992340E1"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4450034A457286C5"
+					item: {
+						count: 1
+						id: "oritech:foundry_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6620A16CFB01713B"]
+			id: "143B863D240BBEAB"
+			rewards: [
+				{
+					id: "12E489DF6BDE7205"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4881E9D71B14DF78"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "772D52CCBB606DC7"
+					item: {
+						count: 1
+						id: "oritech:assembler_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["143B863D240BBEAB"]
+			id: "4DC4179E7D8F319B"
+			rewards: [
+				{
+					id: "4DF946A5C71E85F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41F7E7752C303B8A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D3E86349775461B"
+					item: {
+						count: 1
+						id: "oritech:centrifuge_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["143B863D240BBEAB"]
+			id: "4418452E7585B972"
+			optional: true
+			rewards: [
+				{
+					id: "486155D7C30416E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57C1CEE73C15EFDC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11C5A2B7E98E6EC8"
+					item: {
+						count: 1
+						id: "oritech:augment_application_block"
+					}
+					type: "item"
+				}
+				{
+					id: "73FC572E18B4FAD9"
+					item: {
+						count: 1
+						id: "oritech:simple_augment_station"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4418452E7585B972"]
+			id: "0A696EC87643D065"
+			optional: true
+			rewards: [
+				{
+					id: "0BE8EC998E33972D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "61D2C93E661807C3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B94B6C0938AA923"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["143B863D240BBEAB"]
+			id: "2D87FC29B228BF14"
+			rewards: [
+				{
+					id: "268CBB36DA4A6DE4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5226F2B37C7D5237"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6FA2D5BFF9888EEB"
+					item: {
+						count: 1
+						id: "alltheores:electrum_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "74B1CC4FB857E3BC"
+					item: {
+						count: 1
+						id: "oritech:laser_arm_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D87FC29B228BF14"]
+			id: "294CFFE1B731A60A"
+			rewards: [
+				{
+					id: "389BFB446FEAEAD0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FF8E471D4A91760"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5A07AE25B1BCC23C"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["294CFFE1B731A60A"]
+			id: "246B52C8CBC86FB5"
+			rewards: [
+				{
+					id: "41780C76F27FF346"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "65195F462C0A1A8E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4970270F12C2631E"
+					item: {
+						count: 1
+						id: "oritech:fragment_forge_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D87FC29B228BF14"]
+			id: "152D7F3650198C5A"
+			rewards: [
+				{
+					id: "2CF64837245D4051"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4143115EC3951DEB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30784C0842A456DF"
+					item: {
+						count: 1
+						id: "oritech:still_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["152D7F3650198C5A"]
+			id: "638FB2C471203051"
+			rewards: [
+				{
+					id: "13E236B3CD1BAD86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "238719276F36F213"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52D9DED74B6DB61F"
+					item: {
+						count: 1
+						id: "oritech:refinery_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D87FC29B228BF14"]
+			icon: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+			id: "69E0CF50C3BE5944"
+			rewards: [
+				{
+					id: "5F60E8AA3D953F3A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E461C0B32486250"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21B8CA7B9DB538B0"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69E0CF50C3BE5944"]
+			id: "79EFCF37DCBCAC63"
+			rewards: [
+				{
+					id: "0BBB593FFAC0C5FE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6BFABECAE2E577C8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51812E37372D8FFC"
+					item: {
+						count: 1
+						id: "oritech:deep_drill_block"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79EFCF37DCBCAC63"]
+			icon: {
+				count: 1
+				id: "oritech:machine_core_7"
+			}
+			id: "78AC94275EBD0E2B"
+			rewards: [
+				{
+					id: "5B40C152CCBA9EE4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4CF696652815248A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "058025C8DDA4A09F"
+					item: {
+						count: 1
+						id: "oritech:machine_ultimate_addon"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0A8AEBC64A619D38"
+					item: {
+						count: 1
+						id: "oritech:machine_core_7"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

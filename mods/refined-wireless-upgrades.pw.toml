@@ -1,0 +1,13 @@
+name = "Refined Wireless Upgrades"
+filename = "refinedwirelessupgrades-neoforge-1.21.1-2.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7918225e65fb94b33b21054bd578fa16f624dc3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9164449
+project-id = 897173

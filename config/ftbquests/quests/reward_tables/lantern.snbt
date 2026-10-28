@@ -1,0 +1,175 @@
+{
+	id: "354604C3695F61A5"
+	loot_crate: {
+		color: 11562960
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "lantern"
+	}
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "0FE08D01249739CD"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+		}
+		{
+			count: 2
+			id: "11A24D79B0F50DD1"
+			item: {
+				count: 1
+				id: "allthemodium:vibranium_nugget"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 6
+			id: "6742330886B184A3"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 2
+			id: "7599E3773AE18363"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "02B8D45670A87746"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "14EE27909A734B2F"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "783F89B4ED1281EF"
+			item: {
+				count: 1
+				id: "mysticalagriculture:iron_seeds"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "45E8E8D25D7B586C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:gold_seeds"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "1E5E976C5817CBD4"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "655D32DBE6BC9B64"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "046FC5773FB5F463"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:efficiency": 4
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "3ABD03E3BBFA2E20"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "2A57AD63F20410EF"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:looting": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "5C320E68C28F49A5"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:protection": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.8f
+		}
+	]
+	use_title: true
+}

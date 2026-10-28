@@ -1,0 +1,610 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_home"
+	group: "6D64CA34D687FD52"
+	icon: {
+		count: 1
+		id: "minecraft:campfire"
+	}
+	id: "202EED7366C92DEC"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "minecraft:campfire"
+			}
+			id: "5884C4A63513DFB7"
+			rewards: [
+				{
+					count: 2
+					id: "4C68EC8F2915514E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "5E30691DE9C6C8C7"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_red"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4868F7B7C5607051"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					id: "2C1BBB4A004879D7"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ftbquests:book"
+			}
+			id: "2C6FBC60B724FF19"
+			rewards: [
+				{
+					id: "1162FC9BDEBBCEC2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ECE71756E9B4D1B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6768969FF533D0EE"
+					type: "checkmark"
+				}
+			]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			id: "5165414AC564B48A"
+			min_width: 300
+			rewards: [
+				{
+					id: "1C2669B24FB52F02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4177B70113DE4A11"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "4A2394EC462A25F0"
+					type: "checkmark"
+				}
+			]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			id: "44827C5C087DBCAA"
+			rewards: [
+				{
+					id: "1209CDDA41079E77"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "397B4C1686EB7C91"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:red_bed"
+					}
+					id: "650AA1E592EA3E57"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:beds)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["44827C5C087DBCAA"]
+			id: "6D4A8EE2E92BB963"
+			rewards: [
+				{
+					id: "55C64D971B7D4EAA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EB11D551E9CA5B9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "comforts:hammock_white"
+					}
+					id: "695880EE04617F49"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(comforts:hammocks)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 1.75d
+		}
+		{
+			id: "544AAD2E2A678816"
+			rewards: [
+				{
+					id: "4022040A813CEA66"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E7E3442151B3924"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					id: "1169824E5067B52B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(minecraft:campfire)item(minecraft:soul_campfire))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["544AAD2E2A678816"]
+			id: "473B845B86B822CE"
+			rewards: [
+				{
+					id: "678FE4AAC3C893F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0AA1AC0AE9EA74D2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "79778B420EE6B664"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2CBC8F85B6DD8DDA"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 3.25d
+		}
+		{
+			id: "2929FC1A5CE99D97"
+			rewards: [
+				{
+					id: "65522AF50644C4DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18F3C05674FFB02A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					id: "060A53F521A94C1D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:backpack)item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2929FC1A5CE99D97"]
+			id: "547881E0F1DBF4B7"
+			rewards: [
+				{
+					id: "642D503E7C63CDE3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1625239F410A624D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "41FA6B85F15CD8D7"
+					item: {
+						count: 1
+						id: "akashictome:tome"
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 4.75d
+		}
+		{
+			id: "2BE5EA215EFEA58E"
+			rewards: [
+				{
+					id: "64E16C1E605C8E9B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "109C58ADA4B52D13"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2290E1B12CF3F141"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					id: "129BBFBAF3641CF4"
+					stat: "waystones:waystone_activated"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 1.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2BE5EA215EFEA58E"]
+			id: "1C1A825F6E5C9885"
+			rewards: [
+				{
+					id: "2DC2198458C9EB12"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C3454688D82976D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3192840CE12B900A"
+					type: "checkmark"
+				}
+			]
+			x: 3.75d
+			y: 1.75d
+		}
+		{
+			id: "7BA7C43ED5298D12"
+			rewards: [
+				{
+					id: "521D293C00028854"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1157AC5ED2F33F1A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75D80002C5B017BD"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7BA7C43ED5298D12"]
+			id: "5698544588B47CF8"
+			optional: true
+			rewards: [
+				{
+					id: "5660C8B6874C1F81"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6093B03CFEA38991"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "293A41125A6FAB36"
+					type: "checkmark"
+				}
+			]
+			x: 3.75d
+			y: 3.25d
+		}
+		{
+			id: "024A7C9C1B8D951F"
+			rewards: [
+				{
+					id: "1D7BC3EBB0805267"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ECF460BE605BBCA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A9020F4241394A6"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["024A7C9C1B8D951F"]
+			id: "06F534555780A3B1"
+			min_width: 300
+			rewards: [
+				{
+					id: "02507F0B617A0DC2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58834BE587DABFCC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "40EDA2B4EAFB892C"
+					type: "checkmark"
+				}
+			]
+			x: 3.75d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"44827C5C087DBCAA"
+				"544AAD2E2A678816"
+				"2929FC1A5CE99D97"
+				"2BE5EA215EFEA58E"
+				"7BA7C43ED5298D12"
+				"024A7C9C1B8D951F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			id: "3B5008C4F0E744F8"
+			rewards: [
+				{
+					id: "4209A6E7FF737BA5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D6C464C51611241"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2D6A1FF21A37E88E"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+}
