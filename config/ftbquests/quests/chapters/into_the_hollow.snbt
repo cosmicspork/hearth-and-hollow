@@ -421,6 +421,56 @@
 			dependencies: ["02BC9448B77D2685"]
 			icon: {
 				count: 1
+				id: "goblintraders:goblin_trader_spawn_egg"
+			}
+			id: "581E9572D231D818"
+			optional: true
+			rewards: [
+				{
+					id: "6AD543D1CF649DF2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77F46E7B9EEF3E21"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "23458CF7CA18069D"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "goblintraders:goblin_trader_spawn_egg"
+					}
+					id: "6A9E7505904A18A6"
+					stat: "goblintraders:trade_with_goblin"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02BC9448B77D2685"]
+			icon: {
+				count: 1
 				id: "geore:diamond_shard"
 			}
 			id: "7A60B5FB3AFB6CC9"
@@ -575,6 +625,53 @@
 				}
 			]
 			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76DF8AE0C9039AE4"]
+			icon: {
+				count: 1
+				id: "potionsmaster:pestle"
+			}
+			id: "75EDDC31AD42FAC6"
+			optional: true
+			rewards: [
+				{
+					id: "749C0D0FA391BCAE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A97D499966E97A0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AF9B67A9213FBB9"
+					item: {
+						count: 1
+						id: "potionsmaster:tile_mortar"
+					}
+					type: "item"
+				}
+				{
+					id: "742561F7D1D2C90C"
+					item: {
+						count: 1
+						id: "potionsmaster:pestle"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: 6.0d
 		}
 		{

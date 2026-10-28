@@ -90,7 +90,7 @@ hash = "8b0c6674dadee0f7dd28b2e3a96a693f0c82a0b2f18281e7a432d407850850a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/into_the_hollow.snbt"
-hash = "cb0b771ccd47f15e43f2f71521a98e00b06e11c3b5bba1813c9326a9ebb125c1"
+hash = "c4525615255a95978eb686192b8cb3d412a5727a1067a150d67acfbc0ff7c7c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -98,7 +98,7 @@ hash = "7f6330f566979359b62ac72b54a107b0341fdaa97a2adda642fea0e2f4bfdfc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/monsters_and_mettle.snbt"
-hash = "3c22f25a8d3fb38f3b1eab68e115c758ee355a835c3a8ce66e20a34f845dcf7f"
+hash = "f0dfe5a62f3e38d202d553ef2a3379f1873f3a289d17624c843e716e13b9c93b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -126,7 +126,7 @@ hash = "46fcd4fe03681191111c581b128fab08fe469f7e7843b8a3923ab1d93f05fe80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wanderlust.snbt"
-hash = "4e5ca594a7c00add37f1b87c570fa10b7ff285d0c6b0e8dbe29118f6b2cf2a9c"
+hash = "b43fb5ff97fb6b65d8e94f5d10e94c0bfa6de0b00814a314b12f27ffbb032ae3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_home.snbt"
@@ -138,7 +138,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "2de05b47e7935ec20095be23daf2245aaeed3f5787f72aaa09a58ab79a3236d1"
+hash = "d95474367f7bfc6dd58f48a52f7c18a5201569ac96373e62952ce30f4867c0ba"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"

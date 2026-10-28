@@ -110,6 +110,41 @@
 		}
 		{
 			dependencies: ["6FDEE1032AA1E808"]
+			id: "5A9E40D30101FD3A"
+			optional: true
+			rewards: [
+				{
+					id: "7EA4DB01881C2495"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C6163412D21E758"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1DCC12317F802169"
+					item: {
+						count: 1
+						id: "dummmmmmy:target_dummy"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FDEE1032AA1E808"]
 			icon: {
 				count: 1
 				id: "endermanoverhaul:icy_pearl"
