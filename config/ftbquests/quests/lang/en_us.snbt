@@ -696,6 +696,12 @@
 		"You'll want &eLuminessence&r too. Two glowstone dust, a redstone and some gunpowder make two."
 	]
 	quest.2038E7A17CB7EF02.title: "Black Iron"
+	quest.2095408ABFC31E96.quest_desc: [
+		"Not everything you find out here is a plain sword. Chests in dungeons and ruins, and the tougher monsters guarding them, carry gear with bonus stats."
+		""
+		"&eMonsters \\& Mettle&r is the chapter for all of that. The two quests below are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win."
+	]
+	quest.2095408ABFC31E96.title: "Trouble Worth Finding"
 	quest.2137A757227177C3.quest_desc: [
 		"A front door says a lot about a house. Macaw's Doors has barn doors, stable doors, glass doors, paper doors, western doors and plenty more."
 		""
@@ -2012,6 +2018,14 @@
 	quest.580EB79C40EEF010.quest_desc: ["Respawn the dragon with four End Crystals and do it all over again."]
 	quest.580EB79C40EEF010.quest_subtitle: "Grand Bounty"
 	quest.580EB79C40EEF010.title: "The Dragon, Again"
+	quest.581E9572D231D818.quest_desc: [
+		"Every so often a &eGoblin Trader&r turns up in the caves. They don't stay long, so trade while you can."
+		""
+		"Goblins want odds and ends: apples, raw ore, gravel, even rotten flesh. In return they sell things you can't easily make: Goblin Tuned tools, music discs, and maps to hidden places. Every goblin carries different stock."
+		""
+		"Hit one and it hits back. In the Nether, its cousin the &eVein Goblin&r deals in Nether goods."
+	]
+	quest.581E9572D231D818.title: "A Goblin Market"
 	quest.5884C4A63513DFB7.quest_desc: [
 		"Hearth \\& Hollow is a cozy-adjacent kitchen-sink pack: a big, pretty world to explore, curated quality of life, tech to automate the boring stuff, and building mods to make it all feel like home. No magic."
 		""
@@ -2079,6 +2093,12 @@
 		"Hold on to the hearts. The alloys at the end of this road need them."
 	]
 	quest.59EC7BD5FE16B14B.title: "The Piglich"
+	quest.5A9E40D30101FD3A.quest_desc: [
+		"A &eTarget Dummy&r shows the damage of every hit and your damage per second, so you can tell whether that new affix really is better. Your gear doesn't wear down hitting it."
+		""
+		"Put a pumpkin on its head and it doubles as a scarecrow: animals keep their distance and monsters won't spawn nearby."
+	]
+	quest.5A9E40D30101FD3A.title: "Practice Makes Perfect"
 	quest.5B8915F850F2D439.quest_desc: [
 		"Many Croptopia recipes call for a utensil in the crafting grid: a &eFrying Pan&r, &eCooking Pot&r, &eKnife&r, &eMortar and Pestle&r or &eAll Purpose Food Press&r."
 		""
@@ -2762,6 +2782,14 @@
 		"The view from the top is free. So is the jump, with a paraglider."
 	]
 	quest.75D1AEF5F001EFB1.title: "Lookouts and Lighthouses"
+	quest.75EDDC31AD42FAC6.quest_desc: [
+		"Potions Master brews potions that let you see one kind of ore through solid rock while they last. Nearly every ore in the pack has one, Allthemodium included."
+		""
+		"It starts at a &eMortar&r with a &ePestle&r and ends at a brewing stand. JEI shows every step in between: press &eU&r on the Pestle."
+		""
+		"Worth it when you want diamonds and nothing else."
+	]
+	quest.75EDDC31AD42FAC6.title: "Seeing Through Stone"
 	quest.75F3E3DFA31E06B2.quest_desc: [
 		"The Nether has trial chambers of its own, buried low beneath the lava sea."
 		""
@@ -3004,6 +3032,7 @@
 	task.0A7263289DFE4F03.title: "Any resource seed"
 	task.0B10A15D8DE67E71.title: "Raw Allthemodium"
 	task.0B5AE8F0604768FE.title: "Everlasting Beef, raw or cooked"
+	task.0C97E1B67886CB94.title: "Got it"
 	task.0DC7E7BC10DBFBB9.title: "Wither Prediction"
 	task.0E53E2EABA2FF525.title: "An Allthemodium Jetpack"
 	task.0EDA88E344ADA662.title: "Any YUNG's mineshaft"
@@ -3208,6 +3237,7 @@
 	task.695880EE04617F49.title: "Any hammock"
 	task.696088678AD4535D.title: "Any 1x compressed block"
 	task.6A6984AEAFE9C23F.title: "A keepsake for mining"
+	task.6A9E7505904A18A6.title: "Trade with a goblin"
 	task.6B57AB182B64E268.title: "Any GeOre shard"
 	task.6CB7819F0176EC13.title: "Any gem"
 	task.6CE668C15DB281D0.title: "Got it"
