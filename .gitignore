@@ -6,3 +6,5 @@
 /build/
 /dist/
 __pycache__/
+# built from the mod jars by `just quest-index`
+/scripts/questgen/index/

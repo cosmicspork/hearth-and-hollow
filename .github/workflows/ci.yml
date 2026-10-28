@@ -63,6 +63,15 @@ jobs:
             echo "::error::index.toml is stale. Run 'packwiz refresh' and commit the result."
             exit 1
           }
+      # The quest book is generated; a hand edit to the SNBT is lost on the next regenerate.
+      - name: quest book matches its source
+        run: |
+          python3 scripts/questgen/gen.py
+          if [ -n "$(git status --porcelain -- config/ftbquests)" ]; then
+            git status --short -- config/ftbquests
+            echo "::error::config/ftbquests doesn't match scripts/questgen. Edit the chapters, run 'just quests', and commit both."
+            exit 1
+          fi
       - name: export builds
         run: |
           packwiz curseforge export -o pack.zip
