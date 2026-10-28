@@ -1,0 +1,2273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "almanac"
+	group: "3D424858AC8D0F3F"
+	icon: {
+		count: 1
+		id: "minecraft:writable_book"
+	}
+	id: "7FF15EBCAE2C8B9B"
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "596B7B19800D1766"
+			rewards: [ ]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "79887281A4B7E2D0"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "croptopia:the_big_breakfast"
+			}
+			id: "5F793A298673F7E9"
+			min_width: 300
+			rewards: [
+				{
+					id: "188FF00A5591F0A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "789A0EC8ECA1DAE1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36221FB0886BEE2A"
+					item: {
+						count: 1
+						id: "croptopia:the_big_breakfast"
+					}
+					type: "item"
+				}
+				{
+					id: "01C56DC8CFC64F80"
+					item: {
+						count: 1
+						id: "farmersdelight:bacon_and_eggs"
+					}
+					type: "item"
+				}
+				{
+					id: "1FC639BCC4B5AD37"
+					item: {
+						count: 1
+						id: "croptopia:cinnamon_roll"
+					}
+					type: "item"
+				}
+				{
+					id: "36818F2D2F774C62"
+					item: {
+						count: 1
+						id: "croptopia:oatmeal"
+					}
+					type: "item"
+				}
+				{
+					id: "64CCB2A6B3CF1469"
+					item: {
+						count: 1
+						id: "croptopia:toast_with_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "1F4AB50A35302189"
+					item: {
+						count: 1
+						id: "croptopia:scones"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F793A298673F7E9"]
+			icon: {
+				count: 1
+				id: "farmersdelight:vegetable_soup"
+			}
+			id: "4D67700D3BBF9BEB"
+			min_width: 300
+			rewards: [
+				{
+					id: "2BF4EC640AC08614"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6265BD6CCF92BF03"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F8BE1153097A8BB"
+					item: {
+						count: 1
+						id: "farmersdelight:chicken_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "69672167054DB9C0"
+					item: {
+						count: 1
+						id: "farmersdelight:vegetable_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "4C29746E9A914C57"
+					item: {
+						count: 1
+						id: "farmersdelight:onion_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "555005422553178B"
+					item: {
+						count: 1
+						id: "croptopia:leek_soup"
+					}
+					type: "item"
+				}
+				{
+					id: "4F487F2FA9E7DDA6"
+					item: {
+						count: 1
+						id: "croptopia:borscht"
+					}
+					type: "item"
+				}
+				{
+					id: "0D477F72471B1130"
+					item: {
+						count: 1
+						id: "croptopia:potato_soup"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D67700D3BBF9BEB"]
+			icon: {
+				count: 1
+				id: "croptopia:cherry_pie"
+			}
+			id: "0E11ACD43E3C4DF8"
+			min_width: 300
+			rewards: [
+				{
+					id: "118EADDF0C0B6808"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "741E179F3BC26E07"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2FB277C0D0BDB0EF"
+					item: {
+						count: 1
+						id: "croptopia:cherry_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "1FECA96D3DA99642"
+					item: {
+						count: 1
+						id: "croptopia:banana_nut_bread"
+					}
+					type: "item"
+				}
+				{
+					id: "75BE97C91D305EA0"
+					item: {
+						count: 1
+						id: "croptopia:doughnut"
+					}
+					type: "item"
+				}
+				{
+					id: "2BB2CA14EFF8B2AB"
+					item: {
+						count: 1
+						id: "croptopia:macaron"
+					}
+					type: "item"
+				}
+				{
+					id: "086A6E6ADA620962"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cheesecake"
+					}
+					type: "item"
+				}
+				{
+					id: "68EA7EAD5873195E"
+					item: {
+						count: 1
+						id: "culturaldelights:lemon_muffin"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E11ACD43E3C4DF8"]
+			icon: {
+				count: 1
+				id: "culturaldelights:spicy_curry"
+			}
+			id: "102120BAD782AC54"
+			min_width: 300
+			rewards: [
+				{
+					id: "4ACD4D40DF4E4C02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "007BEE40F3CA032D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BB6441843FEFBEF"
+					item: {
+						count: 1
+						id: "culturaldelights:spicy_curry"
+					}
+					type: "item"
+				}
+				{
+					id: "69F8C8D3588EC0F4"
+					item: {
+						count: 1
+						id: "culturaldelights:chicken_taco"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE4A26CB1FABAD7"
+					item: {
+						count: 1
+						id: "culturaldelights:eggplant_burger"
+					}
+					type: "item"
+				}
+				{
+					id: "46F22FEA4B471740"
+					item: {
+						count: 1
+						id: "culturaldelights:elote"
+					}
+					type: "item"
+				}
+				{
+					id: "485EC90280DC9EFE"
+					item: {
+						count: 1
+						id: "croptopia:sushi"
+					}
+					type: "item"
+				}
+				{
+					id: "20F487DD8FE6E4E5"
+					item: {
+						count: 1
+						id: "croptopia:tamales"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["102120BAD782AC54"]
+			icon: {
+				count: 1
+				id: "croptopia:strawberry_ice_cream"
+			}
+			id: "613FAEC013BB28F5"
+			min_width: 300
+			rewards: [
+				{
+					id: "0C61318159BC6FD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EEA1FBD0315D86F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35A5D7748B1F019E"
+					item: {
+						count: 1
+						id: "croptopia:vanilla_ice_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "512A642A740968A8"
+					item: {
+						count: 1
+						id: "croptopia:strawberry_ice_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "0517E81F2217146A"
+					item: {
+						count: 1
+						id: "croptopia:chocolate_ice_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "69969DD79DFF0537"
+					item: {
+						count: 1
+						id: "croptopia:mango_ice_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "396A4D685DABFA21"
+					item: {
+						count: 1
+						id: "croptopia:pecan_ice_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACB3AB93735A999"
+					item: {
+						count: 1
+						id: "croptopia:kiwi_sorbet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["613FAEC013BB28F5"]
+			icon: {
+				count: 1
+				id: "croptopia:strawberry_jam"
+			}
+			id: "35959001CADEC254"
+			min_width: 300
+			rewards: [
+				{
+					id: "340202E3AC4E93D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "368E068427D5F719"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "527034FB9E7F9776"
+					item: {
+						count: 1
+						id: "croptopia:apricot_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "117920BF1041A60C"
+					item: {
+						count: 1
+						id: "croptopia:blackberry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "35225DD4B5F47B7E"
+					item: {
+						count: 1
+						id: "croptopia:blueberry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "413358610623747F"
+					item: {
+						count: 1
+						id: "croptopia:cherry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "048B4A6E1F66D5EB"
+					item: {
+						count: 1
+						id: "croptopia:elderberry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "23EF2045913CE9A1"
+					item: {
+						count: 1
+						id: "croptopia:grape_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "6A4CCDB0F2088B82"
+					item: {
+						count: 1
+						id: "croptopia:peach_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE8FC7CFCB0F2A0"
+					item: {
+						count: 1
+						id: "croptopia:raspberry_jam"
+					}
+					type: "item"
+				}
+				{
+					id: "2E86358965A947BD"
+					item: {
+						count: 1
+						id: "croptopia:strawberry_jam"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35959001CADEC254"]
+			icon: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham_block"
+			}
+			id: "665EEB86298DA219"
+			min_width: 300
+			rewards: [
+				{
+					id: "3C64443DAF05ACD5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6108A52DCDCE66A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CBBF27D4EACF1CE"
+					item: {
+						count: 1
+						id: "farmersdelight:roast_chicken_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6F1DC78EF04A9216"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0F6BA45C1FCF1166"
+					item: {
+						count: 1
+						id: "farmersdelight:shepherds_pie_block"
+					}
+					type: "item"
+				}
+				{
+					id: "458FA6AC6C9AC40C"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0DD24C3AF0C177A0"
+					item: {
+						count: 1
+						id: "farmersdelight:rice_roll_medley_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5A5B9BF104E9A3A2"
+					item: {
+						count: 1
+						id: "farmersdelight:gleaming_salad_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2C9A5BB2D8B8D7AB"
+					item: {
+						count: 1
+						id: "culturaldelights:eggplant_parmesan_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["665EEB86298DA219"]
+			icon: {
+				count: 1
+				id: "solcarrot:food_book"
+			}
+			id: "25A641CB52BF8788"
+			rewards: [
+				{
+					id: "3F7429DFEE5A88D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FB3E81F10D30200"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "345832B194E94B45"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25A641CB52BF8788"]
+			icon: {
+				count: 1
+				id: "solcarrot:food_book"
+			}
+			id: "2768A866D8D5DFFB"
+			rewards: [
+				{
+					id: "5BA5230E0303B98F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "113425195B439069"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0038491BE3AE330E"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2768A866D8D5DFFB"]
+			id: "0A72F92664F513E3"
+			rewards: [
+				{
+					id: "7465B3E41807F829"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "29C9491E58EF619D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "10AD8447E6EC6B7C"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BaseBlock: "minecraft:smooth_stone_slab"
+								Spin: true
+								Subject: "item.croptopia.nether_star_cake"
+								TrophyItem: {
+									count: 1
+									id: "croptopia:nether_star_cake"
+								}
+								TrophyType: "item"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "69897C6A52DBBE60"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "cookbook"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Cookbook\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7ABA651218E5F824"
+					item: {
+						count: 1
+						id: "croptopia:nether_star_cake"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "aquaculture:smallmouth_bass"
+			}
+			id: "19DCC7B13D81267F"
+			min_width: 300
+			rewards: [
+				{
+					id: "7BC5DDCBF872AC64"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6892AF3F3F6B7259"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AA66EF4DB618A6C"
+					item: {
+						count: 1
+						id: "aquaculture:smallmouth_bass"
+					}
+					type: "item"
+				}
+				{
+					id: "55E7E2B775289F5E"
+					item: {
+						count: 1
+						id: "aquaculture:bluegill"
+					}
+					type: "item"
+				}
+				{
+					id: "478B5A9DF4930294"
+					item: {
+						count: 1
+						id: "aquaculture:brown_trout"
+					}
+					type: "item"
+				}
+				{
+					id: "658549DA27CDA0F7"
+					item: {
+						count: 1
+						id: "aquaculture:carp"
+					}
+					type: "item"
+				}
+				{
+					id: "17846E7B6FA1BAD0"
+					item: {
+						count: 1
+						id: "aquaculture:catfish"
+					}
+					type: "item"
+				}
+				{
+					id: "15316A11F8B23F59"
+					item: {
+						count: 1
+						id: "aquaculture:gar"
+					}
+					type: "item"
+				}
+				{
+					id: "31476718AFCC0EA6"
+					item: {
+						count: 1
+						id: "aquaculture:minnow"
+					}
+					type: "item"
+				}
+				{
+					id: "166B0307A67FE6ED"
+					item: {
+						count: 1
+						id: "aquaculture:muskellunge"
+					}
+					type: "item"
+				}
+				{
+					id: "44A69F621CB0A41A"
+					item: {
+						count: 1
+						id: "aquaculture:perch"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19DCC7B13D81267F"]
+			icon: {
+				count: 1
+				id: "aquaculture:atlantic_cod"
+			}
+			id: "7B4F04D3F0EF829A"
+			min_width: 300
+			rewards: [
+				{
+					id: "0E3CE68B3239792E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E238EF9023357C3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A8975078521AC04"
+					item: {
+						count: 1
+						id: "aquaculture:atlantic_cod"
+					}
+					type: "item"
+				}
+				{
+					id: "0152C10A0D8B8506"
+					item: {
+						count: 1
+						id: "aquaculture:blackfish"
+					}
+					type: "item"
+				}
+				{
+					id: "2FEF3C4A5CECECC8"
+					item: {
+						count: 1
+						id: "aquaculture:pacific_halibut"
+					}
+					type: "item"
+				}
+				{
+					id: "0E3D85C01EE0CC86"
+					item: {
+						count: 1
+						id: "aquaculture:pink_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "745AC0A03C9E006B"
+					item: {
+						count: 1
+						id: "aquaculture:pollock"
+					}
+					type: "item"
+				}
+				{
+					id: "1D37ADF3CAF3F9BD"
+					item: {
+						count: 1
+						id: "aquaculture:rainbow_trout"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B4F04D3F0EF829A"]
+			icon: {
+				count: 1
+				id: "aquaculture:tuna"
+			}
+			id: "6F17D8D9506A3BAC"
+			min_width: 300
+			rewards: [
+				{
+					id: "665E9E081FCE123A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "297BBEA25782D10F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69C3D7704E981CD7"
+					item: {
+						count: 1
+						id: "aquaculture:atlantic_halibut"
+					}
+					type: "item"
+				}
+				{
+					id: "062A3D7956A341D3"
+					item: {
+						count: 1
+						id: "aquaculture:atlantic_herring"
+					}
+					type: "item"
+				}
+				{
+					id: "0CB5F5E4DCBEA515"
+					item: {
+						count: 1
+						id: "aquaculture:jellyfish"
+					}
+					type: "item"
+				}
+				{
+					id: "3413AA02CE1710BA"
+					item: {
+						count: 1
+						id: "aquaculture:red_grouper"
+					}
+					type: "item"
+				}
+				{
+					id: "0FE649FCD2999359"
+					item: {
+						count: 1
+						id: "aquaculture:tuna"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F17D8D9506A3BAC"]
+			icon: {
+				count: 1
+				id: "aquaculture:bayad"
+			}
+			id: "61517948B15EF2E1"
+			min_width: 300
+			rewards: [
+				{
+					id: "6360F3621BECD6FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "463FF747AA413650"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F8EFAC124AD3159"
+					item: {
+						count: 1
+						id: "aquaculture:bayad"
+					}
+					type: "item"
+				}
+				{
+					id: "305A954404414C3A"
+					item: {
+						count: 1
+						id: "aquaculture:boulti"
+					}
+					type: "item"
+				}
+				{
+					id: "058C9249CADD5A66"
+					item: {
+						count: 1
+						id: "aquaculture:capitaine"
+					}
+					type: "item"
+				}
+				{
+					id: "2E9FC423A8FAEF54"
+					item: {
+						count: 1
+						id: "aquaculture:synodontis"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61517948B15EF2E1"]
+			icon: {
+				count: 1
+				id: "aquaculture:arapaima"
+			}
+			id: "0123AB4A358212F1"
+			min_width: 300
+			rewards: [
+				{
+					id: "431637A1716F7F3C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6360E21D00BC33F6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C39D2CE1B630F55"
+					item: {
+						count: 1
+						id: "aquaculture:arapaima"
+					}
+					type: "item"
+				}
+				{
+					id: "79AD0812767BDFAB"
+					item: {
+						count: 1
+						id: "aquaculture:arrau_turtle"
+					}
+					type: "item"
+				}
+				{
+					id: "1B26CB70A8E10937"
+					item: {
+						count: 1
+						id: "aquaculture:piranha"
+					}
+					type: "item"
+				}
+				{
+					id: "47CDD7E9A26C1328"
+					item: {
+						count: 1
+						id: "aquaculture:tambaqui"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0123AB4A358212F1"]
+			icon: {
+				count: 1
+				id: "aquaculture:box_turtle"
+			}
+			id: "6BFAA2D8C21B4C12"
+			rewards: [
+				{
+					id: "0D4FCBFE1BED9EDD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6768F1DEABE41138"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E10F930E9B4F74D"
+					item: {
+						count: 1
+						id: "aquaculture:leech"
+					}
+					type: "item"
+				}
+				{
+					id: "415EC6529BACFB4B"
+					item: {
+						count: 1
+						id: "aquaculture:box_turtle"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BFAA2D8C21B4C12"]
+			icon: {
+				count: 1
+				id: "aquaculture:red_shrooma"
+			}
+			id: "5B9CEE28BBEF9AD6"
+			rewards: [
+				{
+					id: "23F0B567EE16E617"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73B22C2D69F615C2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21059225564C5EC7"
+					item: {
+						count: 1
+						id: "aquaculture:red_shrooma"
+					}
+					type: "item"
+				}
+				{
+					id: "73029D33CF432B59"
+					item: {
+						count: 1
+						id: "aquaculture:brown_shrooma"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9CEE28BBEF9AD6"]
+			icon: {
+				count: 1
+				id: "aquaculture:neptunes_bounty"
+			}
+			id: "45F5D1639569BC0F"
+			rewards: [
+				{
+					id: "420E9207369A0EDC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1EAEFC0CB1E3D38B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "3ECE77908E282DB4"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.aquaculture.tuna"
+								TrophyEntity: {
+									entityType: "aquaculture:tuna"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "247D91867CDABB15"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "angler"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Angler's Log\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7F6F33B272FAA480"
+					item: {
+						count: 1
+						id: "aquaculture:neptunes_bounty"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:moss_block"
+			}
+			id: "22AAF987309806CA"
+			min_width: 300
+			rewards: [
+				{
+					id: "1907D97EBA077A56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A75E0B80894278C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					icon: {
+						count: 1
+						id: "minecraft:moss_block"
+					}
+					id: "3B85B2F10C9E7B06"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:dripstone_caves"
+					icon: {
+						count: 1
+						id: "minecraft:pointed_dripstone"
+					}
+					id: "11EEED92444B24A3"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/fungal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:red_mushroom"
+					}
+					id: "071FFC4172E4B8E9"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/frostfire_caves"
+					icon: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					id: "1CD12FB79631558E"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/underground_jungle"
+					icon: {
+						count: 1
+						id: "minecraft:jungle_leaves"
+					}
+					id: "2101C9BF79FEFD2F"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/thermal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					id: "2D2EDEC67A26C2A0"
+					type: "biome"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22AAF987309806CA"]
+			icon: {
+				count: 1
+				id: "minecraft:snow_block"
+			}
+			id: "3B2379512913DFEE"
+			min_width: 300
+			rewards: [
+				{
+					id: "33DFB9B2DC4F483E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4407963C08095DD5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:siberian_taiga"
+					icon: {
+						count: 1
+						id: "minecraft:spruce_sapling"
+					}
+					id: "598BBDF7EEB9EBC8"
+					type: "biome"
+				}
+				{
+					biome: "terralith:snowy_maple_forest"
+					icon: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					id: "625ECFD22E7BC5B7"
+					type: "biome"
+				}
+				{
+					biome: "terralith:snowy_cherry_grove"
+					icon: {
+						count: 1
+						id: "minecraft:cherry_leaves"
+					}
+					id: "770C17826C831C8B"
+					type: "biome"
+				}
+				{
+					biome: "terralith:ice_marsh"
+					icon: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					id: "49332FAC69684920"
+					type: "biome"
+				}
+				{
+					biome: "terralith:frozen_cliffs"
+					icon: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
+					id: "1A7DC2287779DD21"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:ice_spikes"
+					icon: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					id: "2E5402373D5F2357"
+					type: "biome"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B2379512913DFEE"]
+			icon: {
+				count: 1
+				id: "minecraft:red_sand"
+			}
+			id: "1701B5AD38CD52FD"
+			min_width: 300
+			rewards: [
+				{
+					id: "7258BDF727FF5DDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "616B4A7CF6B64895"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:desert_oasis"
+					icon: {
+						count: 1
+						id: "minecraft:lily_pad"
+					}
+					id: "3EF80FF4D3B5B3C2"
+					type: "biome"
+				}
+				{
+					biome: "terralith:red_oasis"
+					icon: {
+						count: 1
+						id: "minecraft:red_sand"
+					}
+					id: "587E4854720241AC"
+					type: "biome"
+				}
+				{
+					biome: "terralith:tropical_jungle"
+					icon: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					id: "1C3DABD7BE4DE4F1"
+					type: "biome"
+				}
+				{
+					biome: "terralith:painted_mountains"
+					icon: {
+						count: 1
+						id: "minecraft:orange_terracotta"
+					}
+					id: "560BAC2ACA4F883E"
+					type: "biome"
+				}
+				{
+					biome: "terralith:warped_mesa"
+					icon: {
+						count: 1
+						id: "minecraft:warped_nylium"
+					}
+					id: "124EDD03B61C0620"
+					type: "biome"
+				}
+				{
+					biome: "terralith:ashen_savanna"
+					icon: {
+						count: 1
+						id: "minecraft:acacia_sapling"
+					}
+					id: "0F7BB1E5AEA314BC"
+					type: "biome"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1701B5AD38CD52FD"]
+			icon: {
+				count: 1
+				id: "minecraft:amethyst_cluster"
+			}
+			id: "3B05A6F3D0207C39"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D150EAFAF9F3DFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5612CFF9288300FF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:yellowstone"
+					icon: {
+						count: 1
+						id: "minecraft:yellow_terracotta"
+					}
+					id: "44FB0A83D7614B26"
+					type: "biome"
+				}
+				{
+					biome: "terralith:bryce_canyon"
+					icon: {
+						count: 1
+						id: "minecraft:terracotta"
+					}
+					id: "7E00C8C5D4C3A141"
+					type: "biome"
+				}
+				{
+					biome: "terralith:amethyst_canyon"
+					icon: {
+						count: 1
+						id: "minecraft:amethyst_cluster"
+					}
+					id: "5B0718317590C1F9"
+					type: "biome"
+				}
+				{
+					biome: "terralith:mirage_isles"
+					icon: {
+						count: 1
+						id: "minecraft:white_terracotta"
+					}
+					id: "61BF063488CA0899"
+					type: "biome"
+				}
+				{
+					biome: "terralith:glacial_chasm"
+					icon: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
+					id: "66C154FA20EBC2CD"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:mushroom_fields"
+					icon: {
+						count: 1
+						id: "minecraft:mycelium"
+					}
+					id: "2F16A0C084949714"
+					type: "biome"
+				}
+			]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B05A6F3D0207C39"]
+			icon: {
+				count: 1
+				id: "minecraft:feather"
+			}
+			id: "2BE03CBB14E8327A"
+			min_width: 300
+			rewards: [
+				{
+					id: "0E5FD8D5F55341BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "43FA327EC975F1B0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:skylands_spring"
+					icon: {
+						count: 1
+						id: "minecraft:pink_tulip"
+					}
+					id: "54BD1C2B15F18CEA"
+					type: "biome"
+				}
+				{
+					biome: "terralith:skylands_summer"
+					icon: {
+						count: 1
+						id: "minecraft:sunflower"
+					}
+					id: "3EA3AF5FEE570E54"
+					type: "biome"
+				}
+				{
+					biome: "terralith:skylands_autumn"
+					icon: {
+						count: 1
+						id: "minecraft:orange_tulip"
+					}
+					id: "28649250150397FF"
+					type: "biome"
+				}
+				{
+					biome: "terralith:skylands_winter"
+					icon: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					id: "6E8E039819E84275"
+					type: "biome"
+				}
+			]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BE03CBB14E8327A"]
+			icon: {
+				count: 1
+				id: "minecraft:end_stone"
+			}
+			id: "15638F6B41DA25BE"
+			min_width: 300
+			rewards: [
+				{
+					id: "65681EFB5FFA9976"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "42A97E7A00FD06AF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "31E4A255782F82C9"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+					type: "item"
+				}
+				{
+					id: "0CAAC7B86D709DBE"
+					item: {
+						count: 1
+						id: "cluttered:antique_map"
+					}
+					type: "item"
+				}
+				{
+					id: "4A97757EFEA2D6BC"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "field_notes"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: Field Notes\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "nullscape:crystal_peaks"
+					icon: {
+						count: 1
+						id: "minecraft:amethyst_block"
+					}
+					id: "789AB5D6C7AFFB81"
+					type: "biome"
+				}
+				{
+					biome: "nullscape:shadowlands"
+					icon: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					id: "748973B9C418CC7F"
+					type: "biome"
+				}
+				{
+					biome: "nullscape:void_barrens"
+					icon: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					id: "44AA2DAC06F651B4"
+					type: "biome"
+				}
+			]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			id: "50C07FD3C57F42D2"
+			rewards: [
+				{
+					id: "75A0A750CECD9838"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46F42BBC1BC5234E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1888C221976368CD"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.minecraft.elder_guardian"
+								TrophyEntity: {
+									entityType: "minecraft:elder_guardian"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					id: "5240A5B70CAE3C96"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50C07FD3C57F42D2"]
+			icon: {
+				count: 1
+				id: "minecraft:sculk_shrieker"
+			}
+			id: "72E1310967061C15"
+			rewards: [
+				{
+					id: "57B9FCEA99E09A79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "007FFCEB6B4EF4FD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1C988ACC9A6D0149"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.minecraft.warden"
+								TrophyEntity: {
+									entityType: "minecraft:warden"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: {
+						count: 1
+						id: "minecraft:sculk_shrieker"
+					}
+					id: "5701A8BF97CC6412"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72E1310967061C15"]
+			icon: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "2637571AD1864C37"
+			rewards: [
+				{
+					id: "5023B6B65CB8B4FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F2B9DF262541116"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "2440ED86485DA08F"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.minecraft.wither"
+								TrophyEntity: {
+									entityType: "minecraft:wither"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					id: "173A187114B99DC0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2637571AD1864C37"]
+			icon: {
+				count: 1
+				id: "allthemodium:piglich_heart"
+			}
+			id: "7179EBBC885D43E1"
+			rewards: [
+				{
+					id: "32FF7BD410C43180"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6CFB7E8D091049C3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "3794A109B4A4CC11"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.allthemodium.piglich"
+								TrophyEntity: {
+									entityType: "allthemodium:piglich"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "allthemodium:piglich"
+					icon: {
+						count: 1
+						id: "allthemodium:piglich_heart"
+					}
+					id: "0621DEB3B80CF2CF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7179EBBC885D43E1"]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
+			id: "22AB6B800BDAE25C"
+			rewards: [
+				{
+					id: "2C290E347F3032D0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3C65A6B1363A859E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1E3499C559B8A54A"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Subject: "entity.minecraft.ender_dragon"
+								TrophyEntity: {
+									entityType: "minecraft:ender_dragon"
+								}
+								TrophyType: "entity"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "06982DE816C8585B"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "77A9510A630811E5"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "trophies"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Trophy Wall\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					id: "06ED96D427FD4A5D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0A72F92664F513E3"
+				"45F5D1639569BC0F"
+				"15638F6B41DA25BE"
+				"22AB6B800BDAE25C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "25B014576D57B5C6"
+			rewards: [
+				{
+					id: "4CFE89A991A1F16E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "79484258A9F21FAA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "41FA40C64B806364"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BaseBlock: "minecraft:smooth_stone_slab"
+								Spin: true
+								Subject: "item.minecraft.writable_book"
+								TrophyItem: {
+									count: 1
+									id: "minecraft:writable_book"
+								}
+								TrophyType: "item"
+							}
+						}
+						count: 1
+						id: "trophymanager:trophy"
+					}
+					type: "item"
+				}
+				{
+					command: "/tellraw @a [\"\",{\"text\":\"{p}\",\"color\":\"gold\"},{\"text\":\" has completed the Almanac!\",\"color\":\"yellow\"}]"
+					id: "3BF1F7A0871A3CFE"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "cookbook"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Cookbook\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					id: "4B0F74D5901E7199"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "cookbook"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Cookbook\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "angler"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Angler's Log\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					id: "53B2D8E593FB7523"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "angler"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Angler's Log\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "field_notes"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: Field Notes\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					id: "2A8B583CAE43FC66"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "field_notes"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: Field Notes\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "trophies"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Trophy Wall\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					id: "476D3EEADF805404"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								AlmanacPage: "trophies"
+							}
+							"minecraft:custom_name": "{\"text\":\"Almanac Page: The Trophy Wall\",\"color\":\"gold\",\"italic\":false}"
+							"minecraft:enchantment_glint_override": true
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+}

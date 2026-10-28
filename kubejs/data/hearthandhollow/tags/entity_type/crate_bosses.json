@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#c:bosses",
+    "minecraft:warden",
+    "minecraft:elder_guardian",
+    {
+      "id": "allthemodium:piglich",
+      "required": false
+    }
+  ]
+}

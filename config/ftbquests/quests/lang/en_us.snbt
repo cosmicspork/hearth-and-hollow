@@ -35,6 +35,8 @@
 	chapter.795AB1D39D51C32D.title: "Monsters \\& Mettle"
 	chapter.7EA6232EE1978E1C.chapter_subtitle: ["From a coal generator to a reactor, carried anywhere"]
 	chapter.7EA6232EE1978E1C.title: "Sparks"
+	chapter.7FF15EBCAE2C8B9B.chapter_subtitle: ["Every fish, every feast, every far-off place"]
+	chapter.7FF15EBCAE2C8B9B.title: "The Almanac"
 	chapter_group.35FD6D18A971484E.title: "Out in the World"
 	chapter_group.3D424858AC8D0F3F.title: "The Long Road"
 	chapter_group.6D64CA34D687FD52.title: "Getting Settled"
@@ -65,6 +67,12 @@
 		"Sneak to place it as a block, on a stove for instance. It also makes a fine club in a pinch."
 	]
 	quest.011DA9679A6EC6A1.title: "Cooking on the Go"
+	quest.0123AB4A358212F1.quest_desc: [
+		"Jungle rivers hold the biggest catch in the log, the &eArapaima&r, and the toothiest, the &cPiranha&r."
+		""
+		"Arrau turtles come up on the line here too."
+	]
+	quest.0123AB4A358212F1.title: "Jungle Water"
 	quest.01EFE30897AF9B5A.quest_desc: [
 		"Steak and bread will keep you going. This chapter is about eating well: growing your own food, catching fish, and turning it all into proper meals."
 		""
@@ -286,6 +294,14 @@
 		"Augments can be removed, but what you paid to install them isn't refunded."
 	]
 	quest.0A696EC87643D065.title: "Augmented"
+	quest.0A72F92664F513E3.quest_desc: [
+		"The last page of the cookbook: a &eNether Star Cake&r."
+		""
+		"Yes, it takes a Nether Star. Yes, you can eat it. Whether you should is between you and your Food Book."
+		""
+		"Here's a trophy of it to keep, whatever you decide."
+	]
+	quest.0A72F92664F513E3.title: "A Cake Fit for a Star"
 	quest.0B29A883C2F19A1E.quest_desc: [
 		"Put your rod in a &eTackle Box&r to fit it with a hook, bait, fishing line and a bobber."
 		""
@@ -368,6 +384,12 @@
 	quest.0D91FA312E1E873C.quest_desc: ["Sixteen steel ingots for a new bridge."]
 	quest.0D91FA312E1E873C.quest_subtitle: "Commission"
 	quest.0D91FA312E1E873C.title: "Steel Order"
+	quest.0E11ACD43E3C4DF8.quest_desc: [
+		"Flour, sugar, butter, and a lot of patience."
+		""
+		"Some of these need fruit from trees you may not have planted yet. The Market sells the saplings."
+	]
+	quest.0E11ACD43E3C4DF8.title: "The Bakery"
 	quest.0E66799BE221568C.quest_desc: [
 		"Stick templates add a second mode to your Construction Stick. Put the stick, a template and the extra item in a &esmithing table&r to apply it."
 		""
@@ -402,6 +424,12 @@
 		"Your farm is getting big. A Harvester Pylon or a wall of Hopper Botany Pots will save your wrists."
 	]
 	quest.0F986B821B20FE79.title: "Imperium"
+	quest.102120BAD782AC54.quest_desc: [
+		"Dishes from a long way off, made from crops you've found growing wild."
+		""
+		"Corn, eggplant and cucumbers come from Cultural Delights; rice grows wild near water."
+	]
+	quest.102120BAD782AC54.title: "From Far Afield"
 	quest.10A4DA00ABAC4A9D.quest_desc: [
 		"Hold right-click with a &eshield&r and most hits stop dead, arrows included. Keep it in your off hand and you'll wonder how you managed without it."
 		""
@@ -471,6 +499,14 @@
 		"Crude oil burns in a &eFuel Generator&r as it is, but it's worth far more refined."
 	]
 	quest.152D7F3650198C5A.title: "Black Gold"
+	quest.15638F6B41DA25BE.quest_desc: [
+		"The last page of the field notes is the strangest place in the world."
+		""
+		"Past the dragon's island, the outer End has its own lands: crystal peaks, shadowlands and the empty void barrens."
+		""
+		"Here's a globe for the study, and a map to go with it."
+	]
+	quest.15638F6B41DA25BE.title: "Beyond the Dragon"
 	quest.15B40A5194C9C466.quest_desc: [
 		"Prefer a proper field to pots? The &eHarvester Pylon&r harvests ripe crops in a square around it, from 3x3 up to 9x9, and puts them in a chest on top."
 		""
@@ -492,6 +528,8 @@
 		"It's made from iron, copper, planks and one osmium ingot, so you can build it today."
 	]
 	quest.16DF54AC7EE95A47.title: "Something to Run It On"
+	quest.1701B5AD38CD52FD.quest_desc: ["Somewhere to thaw out afterward. Oases count double in the heart, if not in the book."]
+	quest.1701B5AD38CD52FD.title: "Warm Places"
 	quest.17768AA219D41404.quest_desc: [
 		"A &eSharestone&r links only to other sharestones of the same color. Put a pair of red ones at your base and your mine, and you have a private line between them."
 		""
@@ -534,6 +572,14 @@
 		"It takes a netherite ingot to make, so maybe wait until you have a spare."
 	]
 	quest.19A28662874641C7.title: "The Big Build"
+	quest.19DCC7B13D81267F.quest_desc: [
+		"Every fish in the Angler's Log, starting close to home."
+		""
+		"These live in rivers and lakes in ordinary country: forests, plains and hills. A few of them skip the warm biomes, and a few skip the snowy ones."
+		""
+		"Each one only needs to be in your inventory once. Release them afterward if you like."
+	]
+	quest.19DCC7B13D81267F.title: "Rivers and Lakes"
 	quest.1B86F686C714BC59.quest_desc: [
 		"Wear an affix item in all four armor slots and hold an affix weapon, and the &eFrontier&r tier unlocks."
 		""
@@ -679,6 +725,20 @@
 		"Your Curios (&eShift+G&r) have a Refined Storage slot for wireless grids, so it doesn't have to take up a pocket."
 	]
 	quest.2279FC04A2534288.title: "The Universal Grid"
+	quest.22AAF987309806CA.quest_desc: [
+		"The world underground has biomes of its own. Each of these is a whole cave system, not just a room."
+		""
+		"Stand anywhere inside one and it counts. Mantle and thermal caves sit deep; bring fire resistance."
+	]
+	quest.22AAF987309806CA.title: "Under the Hills"
+	quest.22AB6B800BDAE25C.quest_desc: [
+		"Last on the wall: the &eEnder Dragon&r."
+		""
+		"Already beaten it once? Respawn it with four End Crystals on the exit portal. It's a good afternoon out with friends."
+		""
+		"Here's its trophy, and a dragon's head to hang beside it."
+	]
+	quest.22AB6B800BDAE25C.title: "The Trophy Wall"
 	quest.22B24728E5E74512.quest_desc: [
 		"Put a Pattern in an &eAutocrafter&r and that item shows up in the Grid as craftable, even with none in stock. Ask for any amount and the network works out the rest, sub-recipes included."
 		""
@@ -752,6 +812,22 @@
 		"Crush obsidian into dust, infuse the dust with diamond, then press the result into an ingot in an &eOsmium Compressor&r. The compressor burns osmium to do it."
 	]
 	quest.2557EF532F297862.title: "Refined Obsidian"
+	quest.25A641CB52BF8788.quest_desc: [
+		"Eat &e150 different foods&r for another &c3 hearts&r."
+		""
+		"The cookbook pages above are a good place to find ones you haven't tried."
+		""
+		"Click the checkmark once your Food Book shows 150."
+	]
+	quest.25A641CB52BF8788.title: "A Hundred and Fifty Flavors"
+	quest.25B014576D57B5C6.quest_desc: [
+		"Every page filled: the cookbook, the angler's log, the field notes and the trophy wall."
+		""
+		"There's nothing left to unlock. That was never really the point."
+		""
+		"Bring the four &6Almanac Pages&r together, and the whole server will hear about it."
+	]
+	quest.25B014576D57B5C6.title: "The Almanac, Complete"
 	quest.25B4A69244502CF2.quest_desc: [
 		"The &eController&r is the heart of the network. It takes power from any FE source and shares it with every device on the cables."
 		""
@@ -768,6 +844,12 @@
 		"Hover a module and press &eCtrl+C&r to set its direction and filter."
 	]
 	quest.260BBD6E309437E5.title: "Route It"
+	quest.2637571AD1864C37.quest_desc: [
+		"Summon the &eWither&r somewhere you don't mind losing. It breaks almost everything."
+		""
+		"Its Nether Star bakes into a certain cake, if you're working on the cookbook."
+	]
+	quest.2637571AD1864C37.title: "Three Heads Are Worse Than One"
 	quest.26AF74EA4C09B57C.quest_desc: [
 		"Cut grass, wheat or rice with a knife and you'll collect &eStraw&r."
 		""
@@ -788,6 +870,14 @@
 		"Find a Volcanic Peak or Crater, climb to the rim and look in. Then glide down the side."
 	]
 	quest.26EBB0CE42133A10.title: "Hot Ground"
+	quest.2768A866D8D5DFFB.quest_desc: [
+		"Eat &e200 different foods&r. That's &c3 more hearts&r."
+		""
+		"There are milestones past this one, all the way to 500, if you're the sort who has to see the end of a list."
+		""
+		"Click the checkmark once your Food Book shows 200."
+	]
+	quest.2768A866D8D5DFFB.title: "Two Hundred Flavors"
 	quest.27757E04058E0A74.quest_desc: [
 		"Infuse an iron ingot with carbon for &eEnriched Iron&r, then infuse that with carbon again for Steel Dust. Smelt the dust and you have steel."
 		""
@@ -908,6 +998,12 @@
 		"Line a few up over a row of hoppers feeding one chest, and your essence piles up while you're off doing something else."
 	]
 	quest.2B830E5582EA61E4.title: "A Row of Pots"
+	quest.2BE03CBB14E8327A.quest_desc: [
+		"The Skylands come in four seasons. Find all of them."
+		""
+		"A paraglider and a good updraft will get you between islands. Falling will get you down."
+	]
+	quest.2BE03CBB14E8327A.title: "Four Seasons in the Sky"
 	quest.2BE5EA215EFEA58E.quest_desc: [
 		"Most villages have a waystone near the middle. Right-click one to remember it."
 		""
@@ -934,6 +1030,8 @@
 		"Most quests finish on their own once you have the item. The rest have a checkmark to click after you've read them."
 		""
 		"Rewards come in crates, from humble to grand: &7Kindling&r, &aHearth&r, &dLantern&r and &6Ember&r. Right-click one to open it."
+		""
+		"Quests aren't the only source. Now and then a monster you defeat drops a &7Kindling&r crate, and bosses always leave something better behind."
 	]
 	quest.2C6FBC60B724FF19.title: "How This Book Works"
 	quest.2D15C773B7089981.quest_desc: [
@@ -1106,6 +1204,12 @@
 		"Take a bite and it grows back. It's the last packed lunch you'll ever need."
 	]
 	quest.35719E573E8621A6.title: "A Meal That Never Ends"
+	quest.35959001CADEC254.quest_desc: [
+		"A jar of every berry and stone fruit you can find, lined up on a shelf."
+		""
+		"Berry bushes grow wild in their own biomes. Break one for the berries, then craft them into seeds to grow your own."
+	]
+	quest.35959001CADEC254.title: "The Jam Shelf"
 	quest.35B4A1778EF5E80B.quest_desc: ["A stack of nether quartz for the glassworks."]
 	quest.35B4A1778EF5E80B.quest_subtitle: "Commission"
 	quest.35B4A1778EF5E80B.title: "Quartz Delivery"
@@ -1212,6 +1316,10 @@
 		"Beyond Ascent lie Summit and Pinnacle, behind the Wither and the Ender Dragon. Keep climbing."
 	]
 	quest.3B003232D8A9449B.title: "The Ascent"
+	quest.3B05A6F3D0207C39.quest_desc: ["The places worth a screenshot. Some are rare enough that you may need a Nature's Compass to find them."]
+	quest.3B05A6F3D0207C39.title: "Wonders of the World"
+	quest.3B2379512913DFEE.quest_desc: ["Pack a warm coat. These are the most beautiful cold places in the world."]
+	quest.3B2379512913DFEE.title: "Cold Country"
 	quest.3B5008C4F0E744F8.quest_desc: [
 		"A bed, a fire, a pack on your back and a way home. That's a start."
 		""
@@ -1415,6 +1523,14 @@
 		"Stronger hearts come from stronger foes: the Ender Dragon and the Warden have their own. Your collection is only getting started."
 	]
 	quest.45E3776247E65942.title: "Heart of a Champion"
+	quest.45F5D1639569BC0F.quest_desc: [
+		"Every so often the line comes up heavy with treasure instead of a fish. The best of it is &eNeptune's Bounty&r, a chest full of a sea god's loot."
+		""
+		"Better rods and the right hooks help. After that it's patience, and a comfortable chair."
+		""
+		"Here's a tuna for the wall. It won't spoil."
+	]
+	quest.45F5D1639569BC0F.title: "Neptune's Bounty"
 	quest.464331F2EC5BB489.quest_desc: [
 		"The Allthemodium Alloy Paxel is a pickaxe, axe and shovel in one, forged from the three endgame metals and a finished piece of everything else you've built."
 		""
@@ -1565,6 +1681,12 @@
 		"Hover over the infuser and press &eU&r to see everything it makes."
 	]
 	quest.4D181A9753CCF516.title: "The Metallurgic Infuser"
+	quest.4D67700D3BBF9BEB.quest_desc: [
+		"A pot on the stove and whatever the garden gave you today."
+		""
+		"Farmer's Delight soups simmer in the &eCooking Pot&r. Croptopia's come together in the crafting grid."
+	]
+	quest.4D67700D3BBF9BEB.title: "Soup Night"
 	quest.4D71FB47FC70EFB3.quest_desc: [
 		"&eFlux Storage&r holds power for the whole network and evens out the peaks."
 		""
@@ -1673,6 +1795,12 @@
 		"Find the Pharaoh at its heart and put him to rest. The curse lifts with him."
 	]
 	quest.50AD5140D01BB781.title: "The Pharaoh's Curse"
+	quest.50C07FD3C57F42D2.quest_desc: [
+		"Every boss in the world belongs on the wall. Defeat each one and this page gives you its &eTrophy&r to mount."
+		""
+		"Start with an &eElder Guardian&r, deep in an ocean monument. They'll tire you out before you see them: bring milk for the fatigue."
+	]
+	quest.50C07FD3C57F42D2.title: "Something from the Deep"
 	quest.5165414AC564B48A.quest_desc: [
 		"A few commands anyone can use:"
 		""
@@ -1917,6 +2045,16 @@
 		"&cIt has no undo&r, and it only holds one build at a time. Check where you're pasting before you click."
 	]
 	quest.58D3F3C3A75952A5.title: "Moving House"
+	quest.596B7B19800D1766.quest_desc: [
+		"Not every long road runs through a reactor. This one runs through rivers, kitchens, far-off biomes and the occasional boss fight."
+		""
+		"The Almanac has four pages: a &ecookbook&r, an &eangler's log&r, &efield notes&r and a &etrophy wall&r. Finish all four and the book is complete."
+		""
+		"The last quest on each page gives you a glowing &6Almanac Page&r. Bring all four to the end of the book."
+		""
+		"None of it is needed for anything else. Take your time, and bring friends: it goes faster with a fisher, a cook and an explorer."
+	]
+	quest.596B7B19800D1766.title: "The Almanac"
 	quest.59737F6289621673.quest_desc: [
 		"Chests in dungeons, villages and ruins are &eLoot Chests&r here. Everyone who opens one gets their own fresh loot, so you never find a chest a friend already emptied."
 		""
@@ -1947,6 +2085,12 @@
 		"They're quick to make. Press &eU&r on one to see the dishes it unlocks."
 	]
 	quest.5B8915F850F2D439.title: "Croptopia's Kitchen"
+	quest.5B9CEE28BBEF9AD6.quest_desc: [
+		"The rarest water in the world surrounds the mushroom fields, and the &eShroomas&r live nowhere else."
+		""
+		"Mushroom islands are far out at sea. A Nature's Compass will point the way."
+	]
+	quest.5B9CEE28BBEF9AD6.title: "Mushroom Island"
 	quest.5BBAFCEE171ADDC2.quest_desc: [
 		"Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more."
 		""
@@ -2027,6 +2171,12 @@
 		"It can push out of any side you choose, into chests for items and tanks for experience. Radius upgrades make the area bigger."
 	]
 	quest.5F5FCE8205AFF256.title: "Absorption Hopper"
+	quest.5F793A298673F7E9.quest_desc: [
+		"Start the cookbook the way you start the day."
+		""
+		"Croptopia's dishes mostly come together in a crafting grid with a utensil or two. Press &eR&r on any of these to see what it takes."
+	]
+	quest.5F793A298673F7E9.title: "Farmhouse Breakfast"
 	quest.5FFB46F7B1D9E908.quest_desc: [
 		"Enchanting goes deeper here. Every shelf has stats: &eEterna&r sets how high you can enchant, &eQuanta&r makes results swing more, and &eArcana&r brings in rarer enchantments."
 		""
@@ -2085,6 +2235,14 @@
 		"When the chests start to feel small again, &eRefined Storage&r turns the whole thing into one searchable network."
 	]
 	quest.60FE95B6343462DA.title: "A Place for Everything"
+	quest.613FAEC013BB28F5.quest_desc: [
+		"Six scoops, six flavors. Some of them grow on trees in places you'll need to go looking for."
+		""
+		"A good excuse for a trip somewhere warm."
+	]
+	quest.613FAEC013BB28F5.title: "The Ice Cream Parlor"
+	quest.61517948B15EF2E1.quest_desc: ["Deserts, savannas and badlands look dry, but find water there and these four are waiting in it."]
+	quest.61517948B15EF2E1.title: "Rivers in Dry Country"
 	quest.618B176F170F61CA.quest_desc: [
 		"&eAllthemodium Ore&r forms on cave ceilings in Deep Dark biomes, below Y 10. Bring light, walk softly and look up."
 		""
@@ -2183,6 +2341,12 @@
 		"Adamant from the foundry is what you need for the Assembler, next."
 	]
 	quest.6620A16CFB01713B.title: "The Foundry"
+	quest.665EEB86298DA219.quest_desc: [
+		"Every feast there is. Set them out on one long table and invite the whole server."
+		""
+		"Each one only has to be in your inventory once. After that, set it out and let everyone help themselves."
+	]
+	quest.665EEB86298DA219.title: "A Table for Everyone"
 	quest.672BDE2DDB749647.quest_desc: [
 		"A full chest doesn't need emptying to get bigger. Right-click a placed one with a tier upgrade, such as &eBasic to Iron Tier Upgrade&r, and it grows on the spot with everything still inside. A double chest takes two."
 		""
@@ -2297,6 +2461,12 @@
 		"Roast chicken, honey glazed ham, shepherd's pie, stuffed pumpkin: each one is a new food for the book, and a good excuse to have people over."
 	]
 	quest.6B00282E9FE189A4.title: "A Feast for Friends"
+	quest.6BFAA2D8C21B4C12.quest_desc: [
+		"The swamp's catch isn't pretty, but it counts."
+		""
+		"A leech makes decent bait, if you can bring yourself to use it."
+	]
+	quest.6BFAA2D8C21B4C12.title: "Swamp Fishing"
 	quest.6C228A15C8184693.quest_desc: [
 		"&eItem Pipes&r connect to anything with an inventory. Right-click where a pipe meets a chest with the &ePipe Wrench&r, and that side starts pulling items out."
 		""
@@ -2397,6 +2567,12 @@
 	quest.6EF77A7565F00B61.quest_desc: ["Iron for hinges, buckets and a hundred small repairs."]
 	quest.6EF77A7565F00B61.quest_subtitle: "Odd Job"
 	quest.6EF77A7565F00B61.title: "Smelter's Due"
+	quest.6F17D8D9506A3BAC.quest_desc: [
+		"Fish from a boat, or off a beach."
+		""
+		"Halibut and herring prefer seas that aren't too warm. Tuna, grouper and jellyfish turn up in any ocean."
+	]
+	quest.6F17D8D9506A3BAC.title: "The Open Sea"
 	quest.6F341E1F6E495AC2.quest_desc: [
 		"Eat &e50 different foods&r for another &c3 hearts&r."
 		""
@@ -2474,6 +2650,12 @@
 		"Click the checkmark once you've reached the milestone."
 	]
 	quest.7176D1C3D0815DF5.title: "A Taste of Everything"
+	quest.7179EBBC885D43E1.quest_desc: [
+		"The &ePiglich&r guards the Ancient Pyramids in the soul sand valleys of the Other."
+		""
+		"You'll be fighting a few of these for their hearts if you're after the Alloy Paxel. One of them goes on the wall."
+	]
+	quest.7179EBBC885D43E1.title: "A Lich in Gold"
 	quest.71C17E71CA1B9CBF.quest_desc: [
 		"A bottle that slowly fills with time while you carry it."
 		""
@@ -2496,6 +2678,12 @@
 		"It also resists knockback, so you're far less likely to be shoved off a ledge into lava."
 	]
 	quest.72B21F5C5E982E8B.title: "Dressed for the Nether"
+	quest.72E1310967061C15.quest_desc: [
+		"The &eWarden&r is blind, but it can hear you breathe."
+		""
+		"Sneak, throw snowballs to distract it, and don't fight it in a corridor. Plenty of people never do fight it, and that's allowed."
+	]
+	quest.72E1310967061C15.title: "Quiet, Please"
 	quest.7316299424FC5AA5.quest_desc: [
 		"The &eFeeding Upgrade&r feeds you from the food in your backpack when you get hungry."
 		""
@@ -2681,6 +2869,12 @@
 	quest.7B15752D4C4D1108.quest_desc: ["Sixteen blocks of diamond for the vault."]
 	quest.7B15752D4C4D1108.quest_subtitle: "Grand Bounty"
 	quest.7B15752D4C4D1108.title: "Diamond Hoard"
+	quest.7B4F04D3F0EF829A.quest_desc: [
+		"Bundle up. These fish only bite along cold coasts and in cold seas."
+		""
+		"Rainbow trout and pink salmon also turn up in cold rivers."
+	]
+	quest.7B4F04D3F0EF829A.title: "Cold Water"
 	quest.7B86AD6AA450F6EE.quest_desc: [
 		"Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way."
 		""
@@ -2789,6 +2983,7 @@
 	reward_table.354604C3695F61A5.title: "&dLantern Crate"
 	reward_table.3B7A20930808D1EF.title: "&aHearth Crate"
 	task.0020A9EADF46996A.title: "Sulfur"
+	task.0038491BE3AE330E.title: "I've eaten 200 foods"
 	task.00C621D86FEB1E77.title: "Any Structory tower"
 	task.01D2D92F747771E1.title: "Got it"
 	task.03612743E4094A1B.title: "A Repurposed Structures village"
@@ -2798,8 +2993,11 @@
 	task.05C68EA39402AE4D.title: "Any storage upgrade"
 	task.05D082591AA14A87.title: "Raw Osmium"
 	task.060A53F521A94C1D.title: "Any backpack"
+	task.0621DEB3B80CF2CF.title: "Defeat a Piglich"
 	task.06E24EF972A7F671.title: "A Towns and Towers village"
+	task.06ED96D427FD4A5D.title: "Defeat the Ender Dragon"
 	task.06F52439B3709AEA.title: "A fortified village"
+	task.071FFC4172E4B8E9.title: "Fungal Caves"
 	task.086AFD05D37FDA27.title: "Any volcanic biome"
 	task.09DC59BB798E12A9.title: "Something for your hands"
 	task.0A3E8F424BE5D5FC.title: "An iron stick or better"
@@ -2809,6 +3007,7 @@
 	task.0DC7E7BC10DBFBB9.title: "Wither Prediction"
 	task.0E53E2EABA2FF525.title: "An Allthemodium Jetpack"
 	task.0EDA88E344ADA662.title: "Any YUNG's mineshaft"
+	task.0F7BB1E5AEA314BC.title: "Ashen Savanna"
 	task.0FE5E7CCEDF35B9C.title: "Socketed a gem"
 	task.104C000CE660C16A.title: "Got it"
 	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
@@ -2817,7 +3016,9 @@
 	task.1169824E5067B52B.title: "A campfire, either kind"
 	task.11996A1BA4BBED4B.title: "Vibranium Ingot"
 	task.11E1DA99C8BE82EC.title: "Any knife"
+	task.11EEED92444B24A3.title: "Dripstone Caves"
 	task.12011417992E3EB4.title: "Opened a vault a second time"
+	task.124EDD03B61C0620.title: "Warped Mesa"
 	task.129BBFBAF3641CF4.title: "Activate a waystone"
 	task.12EAB4CC72282C0A.title: "Raw Aluminum"
 	task.141D08FB600AA9F5.title: "Raw Tin"
@@ -2828,19 +3029,24 @@
 	task.165D627B7309C30F.title: "Two elevators"
 	task.1672A4D74F5F9003.title: "Got it"
 	task.16A8B54504205298.title: "Got it"
+	task.173A187114B99DC0.title: "Defeat the Wither"
 	task.17C048CD6FFF9B98.title: "I've eaten 50 foods"
 	task.17C99A65C64E229C.title: "32 Osmium Ingots"
 	task.182AF15AECA6DE72.title: "Any YUNG's dungeon"
 	task.18539D277111E0F9.title: "Any wireless charger"
+	task.1A7DC2287779DD21.title: "Frozen Cliffs"
 	task.1A8A10EAF076C178.title: "Any sharestone"
 	task.1BC91CA46067539E.title: "Any Skylands biome"
 	task.1C04C0DD6D8FDAC9.title: "Any upgraded Autocrafter"
+	task.1C3DABD7BE4DE4F1.title: "Tropical Jungle"
 	task.1C3F7DC0897AB54C.title: "Any fish mount"
+	task.1CD12FB79631558E.title: "Frostfire Caves"
 	task.1D8ED9183F0DDD2D.title: "Pulled an enchantment onto a book"
 	task.1DFF689FFB4569A0.title: "Any Autocrafter"
 	task.1EDC8BD735A74914.title: "Any Mining Gadget"
 	task.1F0C5F131D2DBD47.title: "Any fertilizer"
 	task.1FD32C349F5BE4CE.title: "Orchid Swamp"
+	task.2101C9BF79FEFD2F.title: "Underground Jungle"
 	task.210AB02763E22BE9.title: "Any of these knick-knacks"
 	task.21B8CA7B9DB538B0.title: "Found one"
 	task.22B3228EB0192AEB.title: "Any 256k Storage Disk"
@@ -2853,6 +3059,7 @@
 	task.2709944F6F67517F.title: "A Speed or Efficiency Addon"
 	task.27847F78FAA33D05.title: "A fluid, energy or universal pipe"
 	task.27EA2CF1AA9387DA.title: "Any jetpack"
+	task.28649250150397FF.title: "Skylands in Autumn"
 	task.28ABCB74FC0E9352.title: "I've eaten 100 foods"
 	task.28BFA14D07D2A4A9.title: "An Explorify tavern"
 	task.28CE5200B010CA74.title: "Raw Silver"
@@ -2861,14 +3068,18 @@
 	task.29E71D4FDF060875.title: "8 energy cables or pipes"
 	task.2A2DC1D02ED7C209.title: "An iron furnace or better"
 	task.2A324A3234090DFE.title: "Unobtainium Ingot"
+	task.2A8B583CAE43FC66.title: "Almanac Page: Field Notes"
 	task.2AC24C5202C2EFEA.title: "Any Luminax block"
 	task.2AF481585DD458B9.title: "Got it"
 	task.2BE7C57E865B6807.title: "Show me"
 	task.2C0DC9BF315A0AB3.title: "Found a node"
 	task.2C1BBB4A004879D7.title: "Arrive"
 	task.2CDF9582E525CD02.title: "Any Pattern Grid"
+	task.2D2EDEC67A26C2A0.title: "Thermal Caves"
 	task.2D6A1FF21A37E88E.title: "Home sweet home"
 	task.2DCF1F9E06A25E50.title: "Any flux storage"
+	task.2E5402373D5F2357.title: "Ice Spikes"
+	task.2F16A0C084949714.title: "Mushroom Fields"
 	task.2F4F4E2573029283.title: "Enter the Mining Dimension"
 	task.2F762CD33931A90D.title: "Fruit from a Croptopia tree"
 	task.301DE51A4CE85C30.title: "Any wireless upgrade"
@@ -2882,6 +3093,7 @@
 	task.32DDB26D25250A05.title: "Find a Trial Chamber"
 	task.33397A484C0B60A7.title: "Crystals of any metal"
 	task.341F6F5CA4127A19.title: "Good to know"
+	task.345832B194E94B45.title: "I've eaten 150 foods"
 	task.35ECD5C223642F60.title: "A Cooking Table"
 	task.3672D8FD12FD0C3B.title: "Any Macaw's window"
 	task.3680617E3FF2727D.title: "Any paxel"
@@ -2896,6 +3108,7 @@
 	task.3AE03A6D90137C2E.title: "16 cooked meat, any kind"
 	task.3B17F4E26387A4C9.title: "A Sink"
 	task.3B320042F6F0C0CE.title: "Anything copper from Everything Copper"
+	task.3B85B2F10C9E7B06.title: "Lush Caves"
 	task.3BBA7EDE1F18FA46.title: "Any Macaw's fence, hedge or wall"
 	task.3BC6111D03DE8FC8.title: "Lavender Forest"
 	task.3BFB117C3C7562A3.title: "Find a Nether trial"
@@ -2905,8 +3118,10 @@
 	task.3E458D26F1B32C6D.title: "Visit the Beyond"
 	task.3E75C98FEB25110A.title: "Birch Taiga"
 	task.3E9C226B470DB60E.title: "Any of these decorations"
+	task.3EA3AF5FEE570E54.title: "Skylands in Summer"
 	task.3EE55D12D4C2F86D.title: "Any Macaw's chair, table, desk, drawer or wardrobe"
 	task.3EE920524342544A.title: "Researched an ability"
+	task.3EF80FF4D3B5B3C2.title: "Desert Oasis"
 	task.3F8D1E0332E6F9A1.title: "Any oreberry"
 	task.405A978664FE39D6.title: "4 Allthemodium Ingots"
 	task.40DF75848B4247D8.title: "Osmium Ingot"
@@ -2916,18 +3131,23 @@
 	task.41D3B29E8FE18C21.title: "Visit the Mining Dimension"
 	task.41E8FF2DA3EA0D21.title: "Any basic factory"
 	task.4477CD302009AFF7.title: "Cabbage, tomato, onion or rice"
+	task.44AA2DAC06F651B4.title: "Void Barrens"
+	task.44FB0A83D7614B26.title: "Yellowstone"
 	task.45C6223ABA31A303.title: "Any generator with an odd appetite"
 	task.467DC2EF08DE4158.title: "Something for your neck"
 	task.468CA454A94D5AC3.title: "Any Mekanism Tools chestplate"
 	task.46C56977A68CECF0.title: "Four fruit tree saplings"
 	task.46DBC9085592ED28.title: "Something for your belt"
 	task.46E124F9A67BEC59.title: "Any oreberry bush"
+	task.476D3EEADF805404.title: "Almanac Page: The Trophy Wall"
 	task.4877B3DAF9D0A321.title: "Osmium Ore"
+	task.49332FAC69684920.title: "Ice Marsh"
 	task.49D5EB9C6751CA06.title: "12 Cable"
 	task.4A2394EC462A25F0.title: "Got it"
 	task.4A9020F4241394A6.title: "Got it"
 	task.4A9D8ED2E7AAB659.title: "Overworldian Nights Gate Pearl"
 	task.4B01344D556DF3CF.title: "Any balcony, railing or platform"
+	task.4B0F74D5901E7199.title: "Almanac Page: The Cookbook"
 	task.4B48ED3A521FB7AA.title: "Vibranium Ingot"
 	task.4B7C5C9DE64F7789.title: "A tier upgrade, or a copper or iron chest"
 	task.4B94B6C0938AA923.title: "Upgraded"
@@ -2942,19 +3162,27 @@
 	task.50FE5849B10F2D10.title: "Got it"
 	task.52146EE7CD4934E2.title: "Any Botany Pot"
 	task.5230052CA58924C4.title: "Any Importer"
+	task.5240A5B70CAE3C96.title: "Defeat an Elder Guardian"
 	task.533C344A7D7924D8.title: "Any Macaw's light"
 	task.535A1353A094B3D7.title: "Steppe"
 	task.53A32D7647AC1972.title: "Any feast"
+	task.53B2D8E593FB7523.title: "Almanac Page: The Angler's Log"
+	task.54BD1C2B15F18CEA.title: "Skylands in Spring"
 	task.5514FC50F2C15160.title: "An Emerald Jetpack"
 	task.55510BA463EC6A4A.title: "Visit the Other"
 	task.556C080414F0C440.title: "Any Growth Accelerator"
+	task.560BAC2ACA4F883E.title: "Painted Mountains"
 	task.5658F2DE00118B83.title: "Moonlight Grove"
+	task.5701A8BF97CC6412.title: "Defeat a Warden"
 	task.57C6DAA5E8BB6C01.title: "Any tiered Importer or Exporter"
 	task.581E71A351C4A503.title: "Find the stronghold"
+	task.587E4854720241AC.title: "Red Oasis"
 	task.59275E9143D53F3B.title: "Got it"
+	task.598BBDF7EEB9EBC8.title: "Siberian Taiga"
 	task.599E506CD4D2F728.title: "Magnet or Void Junk"
 	task.59EA90AEC5DF667C.title: "Salt"
 	task.5AAA7C49AA04660C.title: "A witch hut"
+	task.5B0718317590C1F9.title: "Amethyst Canyon"
 	task.5B44038E14BD636A.title: "Any Crafting Grid"
 	task.5BC36AD2D44B51A8.title: "Curtains, any color"
 	task.5BE243441D9F8FF5.title: "An Overhauled Village"
@@ -2963,13 +3191,16 @@
 	task.5FFCC895842351C2.title: "A relic leveled up"
 	task.6026EDE2B5CE50C3.title: "64 crops, any kind"
 	task.6093645102144E6C.title: "Fluorite"
+	task.61BF063488CA0899.title: "Mirage Isles"
 	task.61F2AFC16D61167C.title: "A Mending book"
+	task.625ECFD22E7BC5B7.title: "Snowy Maple Forest"
 	task.62F28B5A7D949A0F.title: "A keepsake for getting around"
 	task.6317C587E1D38B08.title: "Nickel Ingot"
 	task.63A12CE2D6300D51.title: "Any artifact"
 	task.6469E6C048F59DC7.title: "Home sweet home"
 	task.650AA1E592EA3E57.title: "Any bed"
 	task.66628684157625AA.title: "Show me"
+	task.66C154FA20EBC2CD.title: "Glacial Chasm"
 	task.66FD4B4E12D83E19.title: "Four solar generators, either kind"
 	task.670A1E5FBE136A90.title: "Any of these"
 	task.6768969FF533D0EE.title: "Got it"
@@ -2984,6 +3215,7 @@
 	task.6D1AA13DA702459B.title: "Charged it"
 	task.6DBBAE5C125636AB.title: "Any Structory ruin"
 	task.6DC4948959CC4A49.title: "Visit the Deep Dark"
+	task.6E8E039819E84275.title: "Skylands in Winter"
 	task.6F78BFC2E40B5689.title: "64 logs, any kind"
 	task.6FFC7E03F144460D.title: "Any Macaw's door"
 	task.70EEF7F7464AD547.title: "8 processors, any grade"
@@ -2997,12 +3229,16 @@
 	task.735FBAF53702E674.title: "A copper backpack or better"
 	task.7414478B6B0141B5.title: "Unobtainium Ingot"
 	task.7417025329E1464E.title: "Interdimensional Wireless Transmitter"
+	task.748973B9C418CC7F.title: "Shadowlands"
 	task.752DC1BFBFC4B602.title: "Any Chemical Storage Disk"
 	task.75D80002C5B017BD.title: "Got it"
+	task.770C17826C831C8B.title: "Snowy Cherry Grove"
 	task.7758F8A2B06C146F.title: "Any trash can"
 	task.776AC08B80C4FAEA.title: "Any Croptopia utensil"
 	task.77F5E2085C91D9A7.title: "Any Macaw's roof"
 	task.7893EF5B520AE6ED.title: "Any pipe upgrade"
+	task.789AB5D6C7AFFB81.title: "Crystal Peaks"
+	task.79887281A4B7E2D0.title: "Open the book"
 	task.79B34A1C1380E8F7.title: "Found one"
 	task.7ACED0B76983BD79.title: "Alpine Grove"
 	task.7ADF8B736859CB28.title: "A Kitchen Counter"
@@ -3013,6 +3249,7 @@
 	task.7D6ED177B60D72F1.title: "Find a Horned Statue underground"
 	task.7DCB21C439C38E4B.title: "Sulfur"
 	task.7DE561EDC4FECE52.title: "Any fancy bed"
+	task.7E00C8C5D4C3A141.title: "Bryce Canyon"
 	task.7E26C0366C71D28A.title: "Any sharestone"
 	task.7E81F48D4EDF9D8B.title: "Survived a Gateway"
 	task.7EB95C7D5A751D6B.title: "32 Croptopia meals, any kind"
