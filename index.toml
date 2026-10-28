@@ -1344,6 +1344,11 @@ hash = "87d5822fd5757378e66eb480206d9a5b20d6b26be6700afa8c2b08c5898ab80b"
 metafile = true
 
 [[files]]
+file = "mods/incendium.pw.toml"
+hash = "5a1604eb3c113c5a540de4768de72660ea652b41730ea318798a24b9f60d88b7"
+metafile = true
+
+[[files]]
 file = "mods/interdimensional-wireless-transmitter.pw.toml"
 hash = "d094c5c4cf873481273c416d53eaa5210f7711f935ef3a02c48577958cbce39d"
 metafile = true
