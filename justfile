@@ -58,6 +58,24 @@ sync *args: refresh
 play: sync
     nohup {{prism_cmd}} --launch "{{instance}}" >/dev/null 2>&1 &
 
+# Regenerate the quest book in config/ftbquests from scripts/questgen
+quests:
+    python3 scripts/questgen/gen.py
+
+# Check the quest chapters: ids exist in the pack, layouts fit, text follows the rules
+quest-check:
+    python3 scripts/questgen/check.py
+
+# Index the dev instance's items, tags, biomes and more for quest-check (run `just sync` first)
+quest-index:
+    python3 scripts/questgen/build_index.py "{{prism}}/instances/{{instance}}/minecraft/mods" \
+        "{{prism}}/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar" scripts/questgen/index
+
+# Write the whole quest book as Markdown to run/quests.md, for reading it through
+quest-book:
+    mkdir -p run
+    python3 scripts/questgen/export_md.py run/quests.md
+
 # Add a mod from CurseForge: just add <slug, url or --addon-id N --file-id N>
 add *args:
     packwiz curseforge add -y {{args}}

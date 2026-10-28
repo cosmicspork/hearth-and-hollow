@@ -38,7 +38,7 @@ If the game crashes, the Crash Assistant window can upload your logs and open a 
 
 ## Development
 
-The pack is managed with [packwiz](https://packwiz.infra.link/). Mods are referenced by CurseForge project and file, never committed as jars. The pack's own content lives in `config/` and `kubejs/`.
+The pack is managed with [packwiz](https://packwiz.infra.link/). Mods are referenced by CurseForge project and file, never committed as jars. The pack's own content lives in `config/` and `kubejs/`. The quest book in `config/ftbquests` is generated from Python in [`scripts/questgen`](scripts/questgen/README.md): edit the chapters there and run `just quests`, never the book itself.
 
 Common tasks are in the `justfile` (run `just` to list them):
 
@@ -49,6 +49,7 @@ just play     # sync, then launch it
 just server   # update the local server in run/server and start it
 just boot     # build the server pack and boot it once, as CI does
 just update   # update every mod to its newest file
+just quests   # regenerate the quest book from scripts/questgen
 ```
 
 `just sync` updates the Prism instance `Hearth & Hollow (dev)`, creating it the first time, so the working copy never touches a `Hearth & Hollow` you installed from CurseForge to play. Local builds show the version `dev` on the title screen. Set `HH_INSTANCE` for another instance name, `PRISM_DIR` for a non-Flatpak install, and `just sync --dry-run` to see the changes first. It replaces the instance's mods, config and kubejs files with the pack's and leaves saves, options and keybinds alone.
