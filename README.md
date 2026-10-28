@@ -51,7 +51,7 @@ just boot     # build the server pack and boot it once, as CI does
 just update   # update every mod to its newest file
 ```
 
-`just sync` updates the instance named `Hearth & Hollow` in the Flatpak Prism's data folder. Set `HH_INSTANCE` for another instance name, `PRISM_DIR` for a non-Flatpak install, and `just sync --dry-run` to see the changes first. It replaces the instance's mods, config and kubejs files with the pack's and leaves saves, options and keybinds alone.
+`just sync` updates the Prism instance `Hearth & Hollow (dev)`, creating it the first time, so the working copy never touches a `Hearth & Hollow` you installed from CurseForge to play. Local builds show the version `dev` on the title screen. Set `HH_INSTANCE` for another instance name, `PRISM_DIR` for a non-Flatpak install, and `just sync --dry-run` to see the changes first. It replaces the instance's mods, config and kubejs files with the pack's and leaves saves, options and keybinds alone.
 
 ## License
 

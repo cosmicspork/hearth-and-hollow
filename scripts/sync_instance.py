@@ -10,6 +10,9 @@ Saves, options, keybinds and anything else the pack doesn't ship are left alone.
   ones this script wrote (tracked in .hearth-sync.json in the instance).
 - mmc-pack.json: the Minecraft and NeoForge versions are set to the pack's.
 
+If the instance folder doesn't exist yet, it's created as a plain Prism instance named after the
+folder. Prism downloads Minecraft and NeoForge on its first launch.
+
 Default Options only applies config/defaultoptions on a first launch, so new default keybinds and
 options don't reach an instance that already has options.txt.
 
@@ -41,6 +44,20 @@ def running(instance: Path, game: Path) -> bool:
     return False
 
 
+def create(instance: Path, pack_dir: Path):
+    """A new, empty Prism instance; the sync below fills it and sets the versions."""
+    pack = tomllib.loads((pack_dir / "pack.toml").read_text())
+    (instance / "minecraft").mkdir(parents=True)
+    (instance / "instance.cfg").write_text(
+        f"[General]\nConfigVersion=1.3\nInstanceType=OneSix\niconKey=flame\nname={instance.name}\n")
+    mmc = {"components": [
+        {"uid": "net.minecraft", "version": pack["versions"]["minecraft"], "important": True},
+        {"uid": "net.neoforged", "version": pack["versions"]["neoforge"]},
+    ], "formatVersion": 1}
+    (instance / "mmc-pack.json").write_text(json.dumps(mmc, indent=4) + "\n")
+    print(f"created the Prism instance {instance.name}; restart Prism if it's open so it shows up")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("pack", type=Path)
@@ -50,6 +67,8 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="sync even if the instance looks like it's running")
     args = ap.parse_args()
 
+    if not args.instance.exists() and not args.dry_run:
+        create(args.instance, args.pack)
     game = next((args.instance / d for d in ("minecraft", ".minecraft") if (args.instance / d).is_dir()), None)
     if game is None or not (args.instance / "mmc-pack.json").is_file():
         print(f"{args.instance} doesn't look like a Prism instance", file=sys.stderr)
