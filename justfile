@@ -6,7 +6,8 @@ export PATH := env("HOME") / "go/bin:" + env("PATH")
 
 prism := env("PRISM_DIR", env("HOME") / ".var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher")
 prism_cmd := env("PRISM_CMD", "flatpak run org.prismlauncher.PrismLauncher")
-instance := env("HH_INSTANCE", "Hearth & Hollow")
+# A separate instance for local builds, so an install from CurseForge is never synced over.
+instance := env("HH_INSTANCE", "Hearth & Hollow (dev)")
 cache := "run/cache"
 version := "dev"
 
