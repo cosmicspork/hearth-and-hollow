@@ -25,6 +25,9 @@ def lines(name):
 
 
 ITEMS = lines("items.tsv")
+# Items the pack registers itself in KubeJS aren't in any mod jar, so the index can't see them.
+ITEMS |= {m for p in (HERE.parents[1] / "kubejs/startup_scripts").glob("*.js")
+          for m in re.findall(r"""\.create\(['"]([a-z0-9_]+:[a-z0-9_/]+)['"]\)""", p.read_text())}
 ITEM_TAGS = {t.lstrip("#") for t in lines("item_tags.txt")}
 ENTITIES = lines("entities.tsv")
 STRUCTURES = lines("structures.txt")
