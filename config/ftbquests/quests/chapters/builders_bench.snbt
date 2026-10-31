@@ -14,8 +14,8 @@
 		{
 			id: "4A3E4596042F1B38"
 			linked_quest: "74F1BBF845B45E83"
-			x: -7.2d
-			y: 2.2d
+			x: 4.0d
+			y: 2.25d
 		}
 	]
 	quests: [
@@ -60,8 +60,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["4792FFB4325B8F0C"]
@@ -103,11 +103,10 @@
 					type: "item"
 				}
 			]
-			x: -2.65d
-			y: -3.64d
+			x: -2.0d
+			y: 0.75d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "2ECB18270BE008E3"
 			rewards: [
 				{
@@ -154,11 +153,10 @@
 					type: "item"
 				}
 			]
-			x: -1.7d
-			y: -5.23d
+			x: 2.625d
+			y: 12.75d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "1BC71C2BD841B2CD"
 			rewards: [
 				{
@@ -228,11 +226,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: -4.375d
+			y: 8.5d
 		}
 		{
-			dependencies: ["1BC71C2BD841B2CD"]
 			id: "2E0EE5F1079BE906"
 			rewards: [
 				{
@@ -277,11 +274,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.25d
+			x: -2.625d
+			y: 8.5d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "3A0EE173F063AF38"
 			rewards: [
 				{
@@ -327,11 +323,10 @@
 					type: "item"
 				}
 			]
-			x: 1.7d
-			y: -5.23d
+			x: -0.875d
+			y: 8.5d
 		}
 		{
-			dependencies: ["3A0EE173F063AF38"]
 			id: "6CB7B4C89FB16CD2"
 			optional: true
 			rewards: [
@@ -378,8 +373,8 @@
 					type: "item"
 				}
 			]
-			x: 2.24d
-			y: -6.9d
+			x: 0.875d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4792FFB4325B8F0C"]
@@ -431,8 +426,8 @@
 					type: "item"
 				}
 			]
-			x: 2.65d
-			y: -3.64d
+			x: -2.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["13014BA2499A6131"]
@@ -474,11 +469,10 @@
 					type: "item"
 				}
 			]
-			x: 3.67d
-			y: -5.06d
+			x: -2.0d
+			y: 5.25d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "32A0644E86AE7667"
 			rewards: [
 				{
@@ -525,11 +519,10 @@
 					type: "item"
 				}
 			]
-			x: 4.45d
-			y: -3.23d
+			x: -4.375d
+			y: 10.25d
 		}
 		{
-			dependencies: ["32A0644E86AE7667"]
 			id: "396B8362F17604D3"
 			rewards: [
 				{
@@ -575,11 +568,10 @@
 					type: "item"
 				}
 			]
-			x: 5.87d
-			y: -4.26d
+			x: -2.625d
+			y: 10.25d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "56AF8269532901B1"
 			rewards: [
 				{
@@ -633,11 +625,10 @@
 					type: "item"
 				}
 			]
-			x: 4.28d
-			y: -1.39d
+			x: -0.875d
+			y: 10.25d
 		}
 		{
-			dependencies: ["56AF8269532901B1"]
 			id: "63E0ADA390159C38"
 			rewards: [
 				{
@@ -683,11 +674,10 @@
 					type: "item"
 				}
 			]
-			x: 5.94d
-			y: -1.93d
+			x: 0.875d
+			y: 10.25d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "31C91E01FF122D39"
 			rewards: [
 				{
@@ -733,11 +723,10 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 0.0d
+			x: 2.625d
+			y: 10.25d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "2137A757227177C3"
 			rewards: [
 				{
@@ -783,11 +772,10 @@
 					type: "item"
 				}
 			]
-			x: 4.28d
-			y: 1.39d
+			x: 4.375d
+			y: 10.25d
 		}
 		{
-			dependencies: ["2137A757227177C3"]
 			id: "1F8973A17F817A3A"
 			rewards: [
 				{
@@ -833,11 +821,10 @@
 					type: "item"
 				}
 			]
-			x: 5.94d
-			y: 1.93d
+			x: -2.625d
+			y: 12.75d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "402FF1E4D7717A7D"
 			rewards: [
 				{
@@ -891,11 +878,10 @@
 					type: "item"
 				}
 			]
-			x: 4.45d
-			y: 3.23d
+			x: -0.875d
+			y: 12.75d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "738D460B9DBF23A5"
 			rewards: [
 				{
@@ -950,11 +936,10 @@
 					type: "item"
 				}
 			]
-			x: 2.65d
-			y: 3.64d
+			x: 2.625d
+			y: 8.5d
 		}
 		{
-			dependencies: ["738D460B9DBF23A5"]
 			id: "73A74258BA4CDD10"
 			rewards: [
 				{
@@ -1009,43 +994,10 @@
 					type: "item"
 				}
 			]
-			x: 3.67d
-			y: 5.06d
+			x: 4.375d
+			y: 8.5d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
-			id: "07B9BA1B3E67D805"
-			min_width: 300
-			rewards: [
-				{
-					id: "47C028AE38DE32B4"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "5304BA612B337676"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "kindling"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [
-				{
-					id: "1672A4D74F5F9003"
-					type: "checkmark"
-				}
-			]
-			x: 1.7d
-			y: 5.23d
-		}
-		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "54AE7316B0A452D1"
 			rewards: [
 				{
@@ -1101,11 +1053,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.5d
+			x: -2.625d
+			y: 14.5d
 		}
 		{
-			dependencies: ["54AE7316B0A452D1"]
 			id: "1E496E2ED47A7FDD"
 			rewards: [
 				{
@@ -1151,11 +1102,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.25d
+			x: -0.875d
+			y: 14.5d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "73C6F26208A51C9C"
 			rewards: [
 				{
@@ -1201,11 +1151,10 @@
 					type: "item"
 				}
 			]
-			x: -1.7d
-			y: 5.23d
+			x: 0.875d
+			y: 14.5d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
 			id: "26D79DF0FCFBA2C5"
 			rewards: [
 				{
@@ -1251,11 +1200,10 @@
 					type: "item"
 				}
 			]
-			x: -2.65d
-			y: 3.64d
+			x: 0.875d
+			y: 12.75d
 		}
 		{
-			dependencies: ["26D79DF0FCFBA2C5"]
 			id: "12F5BD1F0D1406B7"
 			optional: true
 			rewards: [
@@ -1311,8 +1259,8 @@
 					type: "item"
 				}
 			]
-			x: -3.67d
-			y: 5.06d
+			x: 2.625d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4792FFB4325B8F0C"]
@@ -1355,8 +1303,8 @@
 					type: "item"
 				}
 			]
-			x: -4.45d
-			y: 3.23d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6C9C4B1D8A7D18E5"]
@@ -1389,11 +1337,11 @@
 					type: "item"
 				}
 			]
-			x: -5.87d
-			y: 4.26d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
+			dependencies: ["6C9C4B1D8A7D18E5"]
 			id: "4545BC108AF73330"
 			rewards: [
 				{
@@ -1423,11 +1371,11 @@
 					type: "item"
 				}
 			]
-			x: -4.28d
-			y: 1.39d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
+			dependencies: ["6C9C4B1D8A7D18E5"]
 			id: "35D05A93F31D6519"
 			rewards: [
 				{
@@ -1466,8 +1414,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 0.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["35D05A93F31D6519"]
@@ -1510,11 +1458,11 @@
 					type: "item"
 				}
 			]
-			x: -7.25d
-			y: 0.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4792FFB4325B8F0C"]
+			dependencies: ["6C9C4B1D8A7D18E5"]
 			id: "58D3F3C3A75952A5"
 			optional: true
 			rewards: [
@@ -1545,44 +1493,8 @@
 					type: "item"
 				}
 			]
-			x: -4.28d
-			y: -1.39d
-		}
-		{
-			dependencies: ["4792FFB4325B8F0C"]
-			icon: {
-				count: 1
-				id: "handcrafted:oak_fancy_bed"
-			}
-			id: "2DA61AEB4C78A0AF"
-			rewards: [
-				{
-					id: "7561038E94A5BB16"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "494FB3675B1BAF22"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "6469E6C048F59DC7"
-					type: "checkmark"
-				}
-			]
-			x: -4.45d
-			y: -3.23d
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }

@@ -26,52 +26,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["6FDEE1032AA1E808"]
-			id: "4E3DAB4C06AB591E"
-			rewards: [
-				{
-					id: "1E407729B6C75A58"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "639CE8EB4E3BB85D"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					id: "32BC3D9EBA9B3B72"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"epitaphs:soulbound": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [
-				{
-					id: "341F6F5CA4127A19"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
 			icon: {
 				count: 1
 				id: "minecraft:golden_sword"
@@ -94,6 +48,21 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1348593CA12D6E0A"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"epitaphs:soulbound": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -105,11 +74,10 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["347DB171ECD19E8C"]
 			id: "5A9E40D30101FD3A"
 			optional: true
 			rewards: [
@@ -140,8 +108,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
+			x: 3.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1B86F686C714BC59"]
@@ -186,7 +154,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -238,7 +206,7 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -280,7 +248,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -3.0d
 			y: 8.5d
 		}
 		{
@@ -318,7 +286,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -353,7 +321,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
@@ -388,45 +356,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["606225A066E886EA"]
-			icon: {
-				count: 1
-				id: "minecraft:smithing_table"
-			}
-			id: "6ED4658DE20BD246"
-			rewards: [
-				{
-					id: "27437E050DB7CF4E"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "2B9A3C7E7328905E"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0FE5E7CCEDF35B9C"
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["6ED4658DE20BD246"]
 			id: "4491DE4DCDDF00A4"
 			rewards: [
 				{
@@ -456,7 +390,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 1.0d
 			y: 8.5d
 		}
 		{
@@ -490,7 +424,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 3.0d
 			y: 8.5d
 		}
 		{
@@ -525,7 +459,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -572,7 +506,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			x: 3.0d
 			y: 10.0d
 		}
 		{
@@ -585,16 +519,28 @@
 				{
 					id: "567E32BBE4FABF60"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 				{
 					id: "6649BFA1EE46E077"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "hearth"
+							"ftbquests:loot_crate": "lantern"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "4A54DD90C881763A"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/ballast"
+							"apotheosis:purity": "flawed"
+						}
+						count: 1
+						id: "apotheosis:gem"
 					}
 					type: "item"
 				}
@@ -614,55 +560,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["7422BC30ED1E3918"]
-			icon: {
-				count: 1
-				id: "minecraft:shield"
-			}
-			id: "3CEF37B6337C7241"
-			rewards: [
-				{
-					id: "01BC2AB952A4A869"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "2BE49F190373B3B7"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					id: "65D7800DA1069844"
-					item: {
-						components: {
-							"apotheosis:gem": "apotheosis:core/ballast"
-							"apotheosis:purity": "flawed"
-						}
-						count: 1
-						id: "apotheosis:gem"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7E81F48D4EDF9D8B"
-					type: "checkmark"
-				}
-			]
-			x: 2.0d
-			y: 15.5d
+			x: -3.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1B86F686C714BC59"]
@@ -698,11 +597,10 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3CEF37B6337C7241"]
 			icon: {
 				count: 1
 				id: "trophymanager:trophy"
@@ -737,11 +635,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 17.0d
+			x: 1.75d
+			y: 15.0d
 		}
 		{
-			dependencies: ["3CEF37B6337C7241"]
 			icon: {
 				count: 1
 				id: "minecraft:trial_key"
@@ -776,11 +673,10 @@
 					type: "structure"
 				}
 			]
-			x: 4.0d
-			y: 15.5d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["6D40D938E2A94CDA"]
 			icon: {
 				count: 1
 				id: "minecraft:nether_bricks"
@@ -816,11 +712,10 @@
 					type: "structure"
 				}
 			]
-			x: 4.0d
-			y: 14.0d
+			x: -1.75d
+			y: 15.0d
 		}
 		{
-			dependencies: ["75F3E3DFA31E06B2"]
 			icon: {
 				count: 1
 				id: "wstweaks:fragment"
@@ -856,7 +751,101 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7E53F8F026CA59BE"]
+			icon: {
+				count: 1
+				id: "minecraft:heavy_core"
+			}
+			id: "31D0EC8B143255E7"
+			rewards: [
+				{
+					id: "7F0989FA0DE19E25"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "557846A984B30627"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0BEA19E1B3C86706"
+					item: {
+						count: 1
+						id: "minecraft:ominous_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "774CDEBD3439DA24"
+					item: {
+						count: 1
+						id: "minecraft:heavy_core"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31D0EC8B143255E7"]
+			icon: {
+				count: 1
+				id: "minecraft:mace"
+			}
+			id: "003C128A87A1AE88"
+			rewards: [
+				{
+					id: "629500A2016596FC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2C7FE3AD190EE2C5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "435F398F7998F886"
+					item: {
+						count: 1
+						id: "minecraft:wind_charge"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "30EF5E28057EF962"
+					item: {
+						count: 1
+						id: "minecraft:mace"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
 			y: 12.5d
 		}
 		{
@@ -900,13 +889,9 @@
 					id: "505189F941D62D22"
 					type: "advancement"
 				}
-				{
-					id: "12011417992E3EB4"
-					type: "checkmark"
-				}
 			]
-			x: 6.0d
-			y: 15.5d
+			x: -1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B86F686C714BC59"]
@@ -969,7 +954,7 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -1006,7 +991,7 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -1055,7 +1040,7 @@
 					type: "advancement"
 				}
 			]
-			x: 6.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -1092,7 +1077,7 @@
 					type: "advancement"
 				}
 			]
-			x: 6.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -1142,7 +1127,7 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -1179,7 +1164,7 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -1216,7 +1201,7 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: 0.0d
 		}
 	]

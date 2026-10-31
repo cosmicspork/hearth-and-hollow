@@ -49,24 +49,25 @@ def boss_trophy(entity, subject):
     return {"item": "trophymanager:trophy", "components": trophy(entity, subject)}
 
 
-# Four pages, one row each, every row ending in a column of finales that meets at the capstone.
-ROWS = [
-    ["breakfast", "soups", "bakery", "far_afield", "parlor", "jams", "feasts", "food_150", "food_200", "star_cake"],
-    ["rivers", "cold_water", "open_sea", "dry_country", "jungle_water", "swamp", "mushroom", "bounty"],
-    ["caves", "cold_country", "warm_places", "wonders", "skylands", "end"],
-    ["elder", "warden", "wither", "piglich", "dragon"],
+# Four pages, one to a corner. A page's quests need no order: each fans in to the page's
+# finale, and the four finales meet at the capstone in the middle.
+PAGES_LAYOUT = [  # (quests, finale, corner)
+    (["breakfast", "soups", "bakery", "far_afield", "parlor", "jams", "feasts"], "star_cake", (-1, -1)),
+    (["rivers", "cold_water", "open_sea", "dry_country", "jungle_water", "swamp", "mushroom"], "bounty", (1, -1)),
+    (["caves", "cold_country", "warm_places", "wonders", "skylands"], "end", (-1, 1)),
+    (["elder", "warden", "wither", "piglich"], "dragon", (1, 1)),
 ]
-FINAL_X = 2.0 * (max(len(r) for r in ROWS) - 1)
-ROW_Y = [-3.0, -1.0, 1.0, 3.0]
-FREE = {k: (FINAL_X - 2.0 * (len(row) - 1 - i), y) for row, y in zip(ROWS, ROW_Y) for i, k in enumerate(row)}
-FREE["almanac"] = (0.0, 2.0)
-FREE["complete"] = (FINAL_X + 3.0, 0.0)
-DEPS = {k: [row[i - 1]] for row in ROWS for i, k in enumerate(row) if i}
-DEPS["complete"] = [row[-1] for row in ROWS]
+PAGE_X, ROW_Y, FINALE_Y, DX = 7.0, 4.0, 2.0, 1.5
+FREE = {"complete": (0.0, 0.0), "almanac": (0.0, -ROW_Y)}
+DEPS = {"complete": [f for _, f, _ in PAGES_LAYOUT]}
+for quests, finale, (sx, sy) in PAGES_LAYOUT:
+    for i, k in enumerate(quests):
+        FREE[k] = (sx * PAGE_X + (i - (len(quests) - 1) / 2) * DX, sy * ROW_Y)
+    FREE[finale] = (sx * PAGE_X, sy * FINALE_Y)
+    DEPS[finale] = list(quests)
 
 CHAPTER = {
     "file": "almanac",
-    "group": "long",
     "title": "The Almanac",
     "subtitle": "Every fish, every feast, every far-off place",
     "icon": "minecraft:writable_book",
@@ -79,7 +80,7 @@ CHAPTER = {
                 "",
                 "The Almanac has four pages: a &ecookbook&r, an &eangler's log&r, &efield notes&r and a &etrophy wall&r. Finish all four and the book is complete.",
                 "",
-                "The last quest on each page gives you a glowing &6Almanac Page&r. Bring all four to the end of the book.",
+                "Each page is a handful of quests in any order, fanning in to a finale that gives you a glowing &6Almanac Page&r. Bring all four to the middle of the book.",
                 "",
                 "None of it is needed for anything else. Take your time, and bring friends: it goes faster with a fisher, a cook and an explorer.",
             ],
@@ -171,30 +172,6 @@ CHAPTER = {
                             "farmersdelight:rice_roll_medley_block", "farmersdelight:gleaming_salad_block",
                             "culturaldelights:eggplant_parmesan_block"),
             "rewards": [{"xp": 25}, {"crate": "lantern"}],
-        },
-        {
-            "key": "food_150", "title": "A Hundred and Fifty Flavors", "icon": "solcarrot:food_book",
-            "desc": [
-                "Eat &e150 different foods&r for another &c3 hearts&r.",
-                "",
-                "The cookbook pages above are a good place to find ones you haven't tried.",
-                "",
-                "Click the checkmark once your Food Book shows 150.",
-            ],
-            "tasks": [{"check": "I've eaten 150 foods"}],
-            "rewards": [{"xp": 10}, {"crate": "lantern"}],
-        },
-        {
-            "key": "food_200", "title": "Two Hundred Flavors", "icon": "solcarrot:food_book",
-            "desc": [
-                "Eat &e200 different foods&r. That's &c3 more hearts&r.",
-                "",
-                "There are milestones past this one, all the way to 500, if you're the sort who has to see the end of a list.",
-                "",
-                "Click the checkmark once your Food Book shows 200.",
-            ],
-            "tasks": [{"check": "I've eaten 200 foods"}],
-            "rewards": [{"xp": 10}, {"crate": "lantern"}],
         },
         {
             "key": "star_cake", "title": "A Cake Fit for a Star", "shape": "hexagon", "size": 1.5,

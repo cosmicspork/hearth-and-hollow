@@ -51,20 +51,68 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["602941FC879E457D"]
-			id: "6601A12B22EEFB28"
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			id: "39EAE1E71E2CAFF7"
 			rewards: [
 				{
-					id: "72263A3144326CAD"
+					id: "69E38EC2F719AC59"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "23C64F5BAB2CF483"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4270102D96D0C57C"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5ED3F4BB3810DBAD"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["39EAE1E71E2CAFF7"]
+			id: "67D301ADF4ADA2EC"
+			optional: true
+			rewards: [
+				{
+					id: "61274A1A59AAAF2C"
 					type: "xp"
 					xp: 10
 				}
 				{
-					id: "0DC9173751E1F5EC"
+					id: "74D9F8FC88B24DF7"
 					item: {
 						components: {
 							"ftbquests:loot_crate": "hearth"
@@ -75,15 +123,53 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
 			tasks: [
 				{
-					id: "104C000CE660C16A"
-					type: "checkmark"
+					id: "7628D2AB4D31F012"
+					item: {
+						count: 1
+						id: "mekanism:hdpe_elytra"
+					}
+					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39EAE1E71E2CAFF7"]
+			id: "3974DD3DA4A70787"
+			optional: true
+			rewards: [
+				{
+					id: "3AC48A264773E63B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6817BF7032A4FFCF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0BB991FC1E0070BB"
+					item: {
+						count: 1
+						id: "oritech:jetpack_exo_elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -128,11 +214,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 9.5d
+			x: -0.875d
+			y: 12.0d
 		}
 		{
-			dependencies: ["0C219C46B19A7D0C"]
 			id: "6A1D87E61510373E"
 			optional: true
 			rewards: [
@@ -163,8 +248,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 9.5d
+			x: 0.875d
+			y: 12.0d
 		}
 		{
 			icon: {
@@ -208,8 +293,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.5d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -254,8 +339,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -289,8 +374,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.0d
+			x: -2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["550CC753646BC765"]
@@ -323,8 +408,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 5.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -357,8 +442,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 5.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["602941FC879E457D"]
@@ -414,7 +499,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -472,7 +557,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -518,7 +603,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -564,7 +649,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: 0.0d
 		}
 	]

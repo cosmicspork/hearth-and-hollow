@@ -4,19 +4,23 @@ CHAPTER = {
     "title": "Allthemodium Ascent",
     "subtitle": "Three endgame metals, two strange dimensions and some very big tables",
     "icon": "allthemodium:allthemodium_ingot",
+    # The three metals in one line, in the order you can mine them; the maces upgrade along
+    # with them; the Extended Crafting tables are a line of their own.
     "layout": {
-        "direction": "up",
-        "spine": ["intro", "deep", "mining", "atm_ingot", "other", "vibranium", "unobtainium",
-                  "black_iron", "basic_table", "advanced_table", "elite_table", "crystaltine", "summit"],
-        "branches": {
-            "intro": {"down": ["tiab"]},
-            "deep": {"up": ["ancient_city"]},
-            "atm_ingot": {"up": ["atm_pick"], "down": ["compress"]},
-            "other": {"down": ["pyramid", "piglich"]},
-            "vibranium": {"up": ["vib_template", "vib_pick"]},
-            "unobtainium": {"up": ["beyond"]},
-            "elite_table": {"up": ["ultimate"]},
-        },
+        "lines": [
+            {"flow": ["intro", "deep", "atm_ingot", "vibranium", "other", "unobtainium"],
+             "branches": {
+                 "deep": {"up": ["ancient_city"], "down": ["mining"]},
+                 "atm_ingot": {"up": ["atm_pick"]},
+                 "vibranium": {"up": ["vib_template", "vib_pick"]},
+                 "other": {"down": ["pyramid", "piglich"]},
+                 "unobtainium": {"up": ["beyond"]},
+             }},
+            {"flow": ["atm_mace", "vib_mace", "unob_mace"]},
+            {"flow": ["black_iron", "basic_table", "advanced_table", "elite_table", "crystaltine", "summit"],
+             "branches": {"elite_table": {"up": ["ultimate"]}}},
+            {"rows": ["compress", "tiab"]},
+        ],
     },
     "quests": [
         {
@@ -47,7 +51,7 @@ CHAPTER = {
             "desc": [
                 "&eAllthemodium Ore&r forms on cave ceilings in Deep Dark biomes, below Y 10. Bring light, walk softly and look up.",
                 "",
-                "Smelt the raw ore into ingots. Save a few nuggets: the next quest needs them.",
+                "Smelt the raw ore into ingots. Save a few nuggets: a Teleport Pad needs them.",
             ],
             "tasks": [{"tag": "c:raw_materials/allthemodium", "title": "Raw Allthemodium",
                        "icon": "allthemodium:raw_allthemodium"}],
@@ -117,7 +121,7 @@ CHAPTER = {
                 "",
                 "Water boils away here, just like in the Nether. Wither skeletons, blazes and ghasts keep you company.",
                 "",
-                "The ground is &eAncient Stone&r, and the strange trees are worth a few logs for the build pile.",
+                "The ground is &eAncient Stone&r, and the strange trees are worth a few logs for the build pile. Look up in the caves: the ceilings are where the Vibranium is.",
             ],
             "tasks": [{"dimension": "allthemodium:the_other", "title": "Visit the Other",
                        "icon": "allthemodium:ancient_stone"}],
@@ -147,9 +151,9 @@ CHAPTER = {
         {
             "key": "vibranium", "title": "Vibranium", "shape": "hexagon",
             "desc": [
-                "&eOther Vibranium Ore&r sits in cave ceilings in the Other, between Y 0 and 40. Some Vibranium Ore turns up in the Nether too.",
+                "&eVibranium Ore&r turns up in the Nether, and it needs an Allthemodium pickaxe or better.",
                 "",
-                "Either way you need an Allthemodium pickaxe or better.",
+                "The Nether only has a little. For more, head through to &eThe Other&r, where &eOther Vibranium Ore&r lines the cave ceilings between Y 0 and 40.",
             ],
             "tasks": [{"tag": "c:ingots/vibranium", "title": "Vibranium Ingot", "icon": "allthemodium:vibranium_ingot"}],
             "rewards": [{"xp": 25}, {"crate": "lantern"}],
@@ -173,6 +177,32 @@ CHAPTER = {
             ],
             "tasks": [{"item": "allthemodium:vibranium_pickaxe"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "atm_mace", "title": "A Heavier Mace", "optional": True,
+            "desc": [
+                "Bring a vanilla &eMace&r to a Smithing Table with an Allthemodium Smithing Template and a &eBlock of Allthemodium&r. A block, not an ingot: maces are greedy.",
+                "",
+                "Monsters & Mettle covers the mace itself.",
+            ],
+            "tasks": [{"item": "allthemodium:allthemodium_mace"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "vib_mace", "title": "Vibranium Mace", "optional": True,
+            "desc": [
+                "The Allthemodium Mace, a Vibranium Smithing Template and a &eBlock of Vibranium&r.",
+            ],
+            "tasks": [{"item": "allthemodium:vibranium_mace"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "unob_mace", "title": "Unobtainium Mace", "optional": True,
+            "desc": [
+                "The Vibranium Mace, an Unobtainium Smithing Template and a &eBlock of Unobtainium&r. That's nine of the rarest ingots in the pack in one swing.",
+            ],
+            "tasks": [{"item": "allthemodium:unobtainium_mace"}],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}],
         },
         {
             "key": "unobtainium", "title": "Unobtainium", "shape": "hexagon",

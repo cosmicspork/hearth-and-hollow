@@ -54,21 +54,7 @@
 					type: "item"
 				}
 			]
-			x: -7.875d
-			y: 0.0d
-		}
-		{
-			id: "7A9FB006B9CF7BCA"
-			optional: true
-			rewards: [ ]
-			shape: "gear"
-			tasks: [
-				{
-					id: "79B34A1C1380E8F7"
-					type: "checkmark"
-				}
-			]
-			x: 6.125d
+			x: -4.375d
 			y: 0.0d
 		}
 		{
@@ -102,8 +88,8 @@
 					type: "item"
 				}
 			]
-			x: 4.375d
-			y: 0.0d
+			x: -2.625d
+			y: 1.75d
 		}
 		{
 			id: "35719E573E8621A6"
@@ -143,7 +129,7 @@
 					type: "item"
 				}
 			]
-			x: -0.875d
+			x: 2.625d
 			y: 0.0d
 		}
 		{
@@ -174,8 +160,8 @@
 					value: 1L
 				}
 			]
-			x: 0.875d
-			y: 0.0d
+			x: -0.875d
+			y: 1.75d
 		}
 		{
 			id: "29F6424BECE6700C"
@@ -208,8 +194,8 @@
 					type: "item"
 				}
 			]
-			x: 2.625d
-			y: 0.0d
+			x: 0.875d
+			y: 1.75d
 		}
 		{
 			icon: {
@@ -217,6 +203,7 @@
 				id: "relics:leafy_mantle"
 			}
 			id: "5D03C361BA83F81A"
+			min_width: 300
 			rewards: [
 				{
 					id: "789C7B98B12F4F1B"
@@ -262,7 +249,7 @@
 					type: "item"
 				}
 			]
-			x: -2.625d
+			x: 2.625d
 			y: 1.75d
 		}
 		{
@@ -307,7 +294,7 @@
 					type: "item"
 				}
 			]
-			x: -6.125d
+			x: -2.625d
 			y: 0.0d
 		}
 		{
@@ -352,47 +339,8 @@
 					type: "item"
 				}
 			]
-			x: -4.375d
-			y: 0.0d
-		}
-		{
-			id: "79F842955B3A5B92"
-			rewards: [ ]
-			shape: "gear"
-			tasks: [
-				{
-					id: "3EE920524342544A"
-					type: "checkmark"
-				}
-			]
 			x: -0.875d
-			y: 1.75d
-		}
-		{
-			id: "67ED1E2EBC73CAC8"
-			rewards: [ ]
-			shape: "gear"
-			tasks: [
-				{
-					id: "5FFCC895842351C2"
-					type: "checkmark"
-				}
-			]
-			x: 0.875d
-			y: 1.75d
-		}
-		{
-			id: "4E43AB0121CDC8BB"
-			rewards: [ ]
-			shape: "gear"
-			tasks: [
-				{
-					id: "01D2D92F747771E1"
-					type: "checkmark"
-				}
-			]
-			x: 2.625d
-			y: 1.75d
+			y: 0.0d
 		}
 		{
 			id: "5D5482E0506DF402"
@@ -698,7 +646,7 @@
 					type: "item"
 				}
 			]
-			x: 7.875d
+			x: 4.375d
 			y: 0.0d
 		}
 		{
@@ -743,7 +691,7 @@
 					type: "item"
 				}
 			]
-			x: -2.625d
+			x: 0.875d
 			y: 0.0d
 		}
 		{

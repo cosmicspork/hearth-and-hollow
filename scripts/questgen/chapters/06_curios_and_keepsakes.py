@@ -6,8 +6,8 @@ CHAPTER = {
     "icon": "bhc:heart_amulet",
     # A grid: these turn up in whatever order the world hands them out.
     "layout": {"grid": [
-        ["artifact", "fleet", "prospector", "fighter", "beef", "mimic", "mimi_dust", "brush", "campsite", "slots"],
-        ["relic", "research", "level", "rank"],
+        ["artifact", "fleet", "prospector", "fighter", "beef", "slots"],
+        ["brush", "mimic", "mimi_dust", "relic"],
         ["red_heart", "patch", "amulet", "relic_apple", "wither_bone", "canister", "yellow"],
     ]},
     "quests": [
@@ -19,19 +19,12 @@ CHAPTER = {
                 "Each one does one thing well. A &eCloud in a Bottle&r gives you a double jump, &eFlippers&r make you a fish, and the &eAntidote Vessel&r cuts poisons short.",
                 "",
                 "Hover over an artifact to see what it does, then wear it in a Curios slot: press &eShift+G&r to open them. There are slots for your head, neck, belt, hands, feet and more.",
+                "",
+                "Deep underground you may stumble on a little abandoned campsite. Its loot leans towards artifacts, but knock on the chest before you open it.",
             ],
             "tasks": [{"tag": "artifacts:artifacts", "title": "Any artifact", "icon": "artifacts:cloud_in_a_bottle"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
-        {
-            "key": "campsite", "title": "Campfire Stories", "shape": "gear", "optional": True,
-            "desc": [
-                "Deep underground you may stumble on a little abandoned campsite, with a chest or a barrel left behind.",
-                "",
-                "They're well worth a look, since the loot leans towards artifacts. Just knock on the chest before you open it.",
-            ],
-            "tasks": [{"check": "Found one"}],
-                    },
         {
             "key": "brush", "title": "Brush Up", "optional": True,
             "desc": [
@@ -78,13 +71,17 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "relic", "title": "A Relic of Your Own", "shape": "hexagon", "icon": "relics:leafy_mantle",
+            "key": "relic", "title": "A Relic of Your Own", "shape": "hexagon", "icon": "relics:leafy_mantle", "wide": True,
             "desc": [
                 "Relics are rarer keepsakes: mantles, belts, boots, a flute that holds your horse, a ring with seven sins in it.",
                 "",
                 "Each one turns up in chests that suit it. Fiery relics hide in Nether chests, others in villages, mineshafts, deserts or the End. Explore widely.",
                 "",
                 "In this pack every artifact counts as a relic too, so everything in this chapter can level up.",
+                "",
+                "A new relic hides its abilities until you research them: hover over it and hold the research key its tooltip names. Research costs a few of your own levels.",
+                "",
+                "Relics earn experience by doing their job, boots by running and claws by digging, and each level gives an &eUpgrade Point&r to spend on the research screen. At the level cap you can &eRank Up&r for a higher cap, though the relic starts again from zero. &eRelic Experience Bottles&r speed it all along.",
             ],
             "tasks": [{"tag": "relics:relic", "title": "Any relic", "icon": "relics:leafy_mantle"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "relics:relic_experience_bottle", "count": 4}],
@@ -118,39 +115,6 @@ CHAPTER = {
                        "title": "A keepsake for mining", "icon": "artifacts:digging_claws"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
-        {
-            "key": "research", "title": "Read It Closely", "shape": "gear",
-            "desc": [
-                "A new relic doesn't show you everything right away. Its abilities have to be researched first.",
-                "",
-                "Hover over a relic and hold the research key its tooltip names. The research screen shows each ability, what it does, and how it earns experience.",
-                "",
-                "Researching an ability costs some of your own experience, so bring a few levels.",
-            ],
-            "tasks": [{"check": "Researched an ability"}],
-                    },
-        {
-            "key": "level", "title": "It Grows on You", "shape": "gear",
-            "desc": [
-                "Relics learn by doing. Use an ability for what it's meant for and the relic earns experience: boots by running, a pendant by being hit, claws by digging.",
-                "",
-                "When the bar fills, the relic levels up and gives you an &eUpgrade Point&r. Spend it on the research screen to make an ability stronger.",
-                "",
-                "&eRelic Experience Bottles&r are a shortcut: experience for your relics rather than for you.",
-            ],
-            "tasks": [{"check": "A relic leveled up"}],
-                    },
-        {
-            "key": "rank", "title": "Rank Up", "shape": "gear",
-            "desc": [
-                "Once a relic hits its level cap, you can &eRank Up&r on the research screen.",
-                "",
-                "It wipes the relic's levels and unspent points back to zero, but raises its maximum level, and some abilities change once ranked.",
-                "",
-                "It's a big step, so read the warning before you hold the button.",
-            ],
-            "tasks": [{"check": "Got it"}],
-                    },
         {
             "key": "red_heart", "title": "A Heart in Hand", "shape": "hexagon",
             "desc": [

@@ -5,7 +5,6 @@ GROUPS = [
     {"key": "world", "title": "Out in the World"},
     {"key": "hum", "title": "Making It Hum"},
     {"key": "long", "title": "The Long Road"},
-    {"key": "always", "title": "Always Open"},
 ]
 
 # rewards: (item id | ("book", enchantment, level), count, weight)

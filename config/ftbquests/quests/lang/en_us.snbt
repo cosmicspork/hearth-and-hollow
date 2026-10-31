@@ -13,7 +13,7 @@
 	chapter.202EED7366C92DEC.title: "Welcome Home"
 	chapter.26CBCB3533099AA7.chapter_subtitle: ["Grow it, catch it, cook it, and eat a little of everything"]
 	chapter.26CBCB3533099AA7.title: "Hearth \\& Table"
-	chapter.31F28E2FD86A0C95.chapter_subtitle: ["Jetpacks, elevators and a waystone network of your own"]
+	chapter.31F28E2FD86A0C95.chapter_subtitle: ["Jetpacks, wings, elevators and a waystone network of your own"]
 	chapter.31F28E2FD86A0C95.title: "Up \\& Away"
 	chapter.3380E1EE475D131E.chapter_subtitle: ["From stone to netherite, and the small upgrades that make it last"]
 	chapter.3380E1EE475D131E.title: "Tools of the Trade"
@@ -42,9 +42,14 @@
 	chapter_group.35FD6D18A971484E.title: "Out in the World"
 	chapter_group.3D424858AC8D0F3F.title: "The Long Road"
 	chapter_group.6D64CA34D687FD52.title: "Getting Settled"
-	chapter_group.6FE350D5D0123F96.title: "Always Open"
 	chapter_group.73D6AE1B18A4548B.title: "Making It Hum"
 	file.0000000000000001.title: "Hearth \\& Hollow"
+	quest.003C128A87A1AE88.quest_desc: [
+		"A Heavy Core and a &eBreeze Rod&r make a &eMace&r. It hits hard on its own, and much harder when you fall onto your target first: the further the drop, the bigger the smash."
+		""
+		"It's also where the Allthemodium maces start. &eAllthemodium Ascent&r upgrades it three times over."
+	]
+	quest.003C128A87A1AE88.title: "Mind the Drop"
 	quest.003E10B908F86968.quest_desc: [
 		"A netherite pickaxe or paxel: the best tool you can carry without a machine behind it."
 		""
@@ -139,14 +144,6 @@
 		"Made on the Infusion Altar: a Soulium Seed Base in the middle, with four Soul Jars full of spider souls and four Tertium Essence on the pedestals."
 	]
 	quest.0242D9EDBDEC7000.title: "Spider Seeds"
-	quest.024A7C9C1B8D951F.quest_desc: [
-		"Hold &e`&r (the key above Tab) and break a block. Every matching block touching it breaks too: a whole ore vein, a tree, a patch of gravel."
-		""
-		"While holding it, the up and down arrows change the shape, for tunnels or flat layers."
-		""
-		"Each extra block costs a little hunger, so eat first."
-	]
-	quest.024A7C9C1B8D951F.title: "Mine a Vein"
 	quest.0251B5C76B9DB63E.quest_desc: ["A &eRotational Complex&r sits on the top rotor, with &ePressure Dispersers&r filling the rest of that layer. &eElectromagnetic Coils&r above it turn the spin into power."]
 	quest.0251B5C76B9DB63E.title: "Spinning Into Power"
 	quest.0263092562281BE7.quest_desc: ["128 FE/t, and the root of three odd ones: magmatic, ender and enchantment generators all grow from it."]
@@ -246,7 +243,7 @@
 	quest.0598186D0C1FD3C3.quest_desc: [
 		"No socket on your favorite sword? A &eSigil of Socketing&r adds one. Combine the item and the sigil in a Smithing Table."
 		""
-		"Sigils can add up to two sockets to an item."
+		"Sigils can add up to two sockets to an item. Changed your mind about a gem? A &eSigil of Withdrawal&r pops it back out, and you keep both."
 		""
 		"The recipe needs &eGem-Fused Slate&r, which is deepslate around a pinch of Gem Dust."
 	]
@@ -300,9 +297,9 @@
 	]
 	quest.06E31EAC9DB27957.title: "Coal Seeds"
 	quest.06F534555780A3B1.quest_desc: [
-		"The ones you'll reach for most:"
+		"The keys you'll reach for most:"
 		""
-		"&e`&r  Ultimine"
+		"&e`&r  Ultimine: hold it and break a block to take the whole vein, tree or patch"
 		"&eB&r  Open your backpack"
 		"&eM&r  Claim map"
 		"&eJ&r  Full JourneyMap"
@@ -312,9 +309,13 @@
 		"&eCtrl+M&r  Turn your magnet on or off"
 		"&eR&r / &eU&r  Recipes and uses, while hovering an item"
 		""
-		"Change any of them under Options, Controls, Key Binds. The search box at the top finds a key by name."
+		"Change any of them under Options, Controls, Key Binds."
+		""
+		"Commands anyone can use: &e/sethome&r and &e/home&r, &e/back&r to where you died or last teleported from, &e/spawn&r, &e/tpa <name>&r to ask to join a friend, and &e/rtp&r to jump somewhere far away, once every 10 minutes."
+		""
+		"Playing with others? The team button at the top left of your inventory makes a party, and everyone in it shares claims, force-loaded chunks and progress in this book."
 	]
-	quest.06F534555780A3B1.title: "Keys Worth Knowing"
+	quest.06F534555780A3B1.title: "Keys \\& Commands"
 	quest.0728E3B31BA30CC0.quest_desc: [
 		"Power needs a road. Powah's &eEnergy Cables&r carry it from generators to machines."
 		""
@@ -341,20 +342,6 @@
 		"Almost all of it starts with &eosmium&r. Smelt a stack and keep it handy."
 	]
 	quest.078FCCEEAB719D91.title: "Mekanism"
-	quest.07B9BA1B3E67D805.quest_desc: [
-		"Amendments lets ordinary blocks go where they couldn't before:"
-		""
-		"Lanterns hang on walls"
-		"Carpet lies on stairs and slabs"
-		"Flower pots hang from the ceiling"
-		"Banners hang from the ceiling, too"
-		"Tools hang on tripwire hooks"
-		"Items sit on hanging signs"
-		"Cakes stack, and can be eaten from any side"
-		""
-		"No new blocks to learn. Just try it."
-	]
-	quest.07B9BA1B3E67D805.title: "Small Touches"
 	quest.07BD59A4F375F180.quest_desc: [
 		"Deep in the Deep Dark lie the ruins of an &eAncient City&r: halls of deepslate and sculk around a great empty portal frame."
 		""
@@ -389,6 +376,8 @@
 		"&eTin&r, &eZinc&r and &eAluminum&r spread through a tall band of stone, from deep caves up into the hills. Any decent caving trip turns some up."
 		""
 		"Aluminum climbs highest of all, so look in mountain cliffs too."
+		""
+		"Every mod that wants tin, lead or osmium shares one set of ores, so you'll never hold three tin ingots that don't stack. Some gem ores show up in JEI but don't generate in this pack: if an ore isn't in this chapter, don't go looking for it."
 	]
 	quest.086155A9E07F1B84.title: "Everyday Metals"
 	quest.086732A830815C38.quest_desc: [
@@ -413,12 +402,6 @@
 		"Each block costs power according to how hard it is, so keep it charged."
 	]
 	quest.08FF4166F9031312.title: "Hand Drill"
-	quest.093A6FEC87B7921C.quest_desc: [
-		"Fire makes wind. Glide over a lit &eCampfire&r or an open fire and the rising air lifts you up."
-		""
-		"Rising air uses stamina too, so catch your breath before a long flight."
-	]
-	quest.093A6FEC87B7921C.title: "Warm Air Rising"
 	quest.09555D5AEF321AB0.quest_desc: [
 		"The &eAutocrafting Monitor&r shows every craft the network is working on, and lets you cancel one that's stuck."
 		""
@@ -592,7 +575,7 @@
 	quest.0CDF490522849D03.quest_desc: [
 		"Point, hold right-click, and a beam melts through stone in front of you."
 		""
-		"The &eMining Gadget&r runs on power, a little per block, so it needs charging. The reward includes a &eCharging Station&r to get you started."
+		"The &eMining Gadget&r runs on power, a little per block, so it needs charging. The reward includes a &eCharging Station&r: feed it coal or logs and it fills whatever sits in its charging slot."
 		""
 		"There are three models that differ only in looks, so pick the one you like."
 	]
@@ -945,14 +928,6 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Uranium Ingots and four Imperium Essence on the pedestals."
 	]
 	quest.18130E4605BA22F4.title: "Uranium Seeds"
-	quest.187942916B31E3C3.quest_desc: [
-		"Plenty of mods want tin, lead or osmium, and they all share one set of ores. You'll never end up with three different tin ingots that don't stack."
-		""
-		"Each ore comes in stone and deepslate versions, and many have Nether and End versions too. They all smelt to the same thing."
-		""
-		"Some gem ores show up in JEI but don't generate in this pack. If an ore isn't in this chapter, don't go looking for it."
-	]
-	quest.187942916B31E3C3.title: "One Metal, One Ingot"
 	quest.18C1ACA005EE7810.quest_desc: [
 		"Grows &eRedstone Essence&r, which crafts back into the real thing."
 		""
@@ -1037,12 +1012,6 @@
 		"The reward is worth the bruises: a beaten Mimic coughs up artifacts."
 	]
 	quest.1BF6AF98B756BF4E.title: "Not a Chest"
-	quest.1C1A825F6E5C9885.quest_desc: [
-		"The minimap in the corner is JourneyMap. Press &eJ&r to open the full map."
-		""
-		"Press &eShift+B&r to drop a waypoint where you stand: your base, a village, the cave you mean to come back to."
-	]
-	quest.1C1A825F6E5C9885.title: "Never Lost"
 	quest.1C20D9666E88AA0C.quest_desc: ["Fortune books make &eFortune Upgrades&r, one for each level. In a Destructor they work like a Fortune pickaxe."]
 	quest.1C20D9666E88AA0C.title: "Fortune Upgrade"
 	quest.1C36DF7EAAA290B4.quest_desc: [
@@ -1119,6 +1088,8 @@
 		"Each one does one thing well. A &eCloud in a Bottle&r gives you a double jump, &eFlippers&r make you a fish, and the &eAntidote Vessel&r cuts poisons short."
 		""
 		"Hover over an artifact to see what it does, then wear it in a Curios slot: press &eShift+G&r to open them. There are slots for your head, neck, belt, hands, feet and more."
+		""
+		"Deep underground you may stumble on a little abandoned campsite. Its loot leans towards artifacts, but knock on the chest before you open it."
 	]
 	quest.1EBD11F16E51110E.title: "Finders Keepers"
 	quest.1EC8865833770926.quest_desc: [
@@ -1205,12 +1176,6 @@
 		"You'll want &eLuminessence&r too. Two glowstone dust, a redstone and some gunpowder make two."
 	]
 	quest.2038E7A17CB7EF02.title: "Black Iron"
-	quest.2095408ABFC31E96.quest_desc: [
-		"Not everything you find out here is a plain sword. Chests in dungeons and ruins, and the tougher monsters guarding them, carry gear with bonus stats."
-		""
-		"&eMonsters \\& Mettle&r is the chapter for all of that. The two quests beside this one are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win."
-	]
-	quest.2095408ABFC31E96.title: "Trouble Worth Finding"
 	quest.20A6E2690755C894.quest_desc: ["&ePressurized Tubes&r carry chemicals: gases, slurries and the rest. Oxygen, hydrogen chloride and sulfuric acid all travel in them."]
 	quest.20A6E2690755C894.title: "Moving Gases"
 	quest.20C476B8FEEEC24F.quest_desc: ["The Mk3 sends items to an inventory anywhere, even in another dimension. Mining Dimension output, straight home."]
@@ -1423,14 +1388,6 @@
 		"Use it to empty an old disk into the network, or to fill a disk with something to carry away."
 	]
 	quest.25A274611DB85C54.title: "Disk Interface"
-	quest.25A641CB52BF8788.quest_desc: [
-		"Eat &e150 different foods&r for another &c3 hearts&r."
-		""
-		"The cookbook pages above are a good place to find ones you haven't tried."
-		""
-		"Click the checkmark once your Food Book shows 150."
-	]
-	quest.25A641CB52BF8788.title: "A Hundred and Fifty Flavors"
 	quest.25B014576D57B5C6.quest_desc: [
 		"Every page filled: the cookbook, the angler's log, the field notes and the trophy wall."
 		""
@@ -1497,14 +1454,6 @@
 	quest.27154EAD7D43083A.title: "Industrial Chiller"
 	quest.27347AB0CB8D902E.quest_desc: ["Gold generators make 32 FE/t, and burn their fuel a little slower than iron ones."]
 	quest.27347AB0CB8D902E.title: "Gold Generator"
-	quest.2768A866D8D5DFFB.quest_desc: [
-		"Eat &e200 different foods&r. That's &c3 more hearts&r."
-		""
-		"There are milestones past this one, all the way to 500, if you're the sort who has to see the end of a list."
-		""
-		"Click the checkmark once your Food Book shows 200."
-	]
-	quest.2768A866D8D5DFFB.title: "Two Hundred Flavors"
 	quest.27757E04058E0A74.quest_desc: [
 		"Infuse an iron ingot with carbon for &eEnriched Iron&r, then infuse that with carbon again for Steel Dust. Smelt the dust and you have steel."
 		""
@@ -1547,7 +1496,7 @@
 		""
 		"Water boils away here, just like in the Nether. Wither skeletons, blazes and ghasts keep you company."
 		""
-		"The ground is &eAncient Stone&r, and the strange trees are worth a few logs for the build pile."
+		"The ground is &eAncient Stone&r, and the strange trees are worth a few logs for the build pile. Look up in the caves: the ceilings are where the Vibranium is."
 	]
 	quest.28B1507A648721C2.title: "The Other"
 	quest.28B8277869D8B299.quest_desc: [
@@ -1677,6 +1626,8 @@
 		"From any waystone you can travel to any other one you've found, and it costs nothing. Wander as far as you like and come home in a heartbeat."
 		""
 		"A Return Scroll takes you back to the last waystone you used."
+		""
+		"The minimap in the corner is JourneyMap. Press &eShift+B&r to drop a waypoint where you stand, and &eJ&r for the full map."
 	]
 	quest.2BE5EA215EFEA58E.title: "Find a Waystone"
 	quest.2C21ED508BC849C4.quest_desc: [
@@ -1700,9 +1651,11 @@
 	]
 	quest.2C4BF0B9105678DE.title: "Air Seeds"
 	quest.2C6FBC60B724FF19.quest_desc: [
-		"Every chapter is open from the start, so read ahead, skip around, and come back whenever you like. The lines between quests show a sensible order, not a locked door."
+		"Every chapter is open from the start, so read ahead, skip around, and come back whenever you like."
 		""
-		"Most quests finish on their own once you have the item. The rest have a checkmark to click after you've read them."
+		"You can finish a quest's tasks at any time, in any order. Its rewards wait until the quests before it are done, so a line between two quests means the second one pays out after the first. Most quests have nothing before them at all."
+		""
+		"Most quests finish on their own once you have the item. A few explainers like this one have a checkmark to click after you've read them."
 		""
 		"Rewards come in crates, from humble to grand: &7Kindling&r, &aHearth&r, &dLantern&r and &6Ember&r. Right-click one to open it."
 		""
@@ -1728,6 +1681,8 @@
 		""
 		"Counters, fridges, sinks, ovens and the rest share their contents with it when they touch it or each other. Kitchen Floor connects them across a room."
 		""
+		"Looking for something you haven't eaten yet? Sort the Cooking Table's list by &eEaten&r."
+		""
 		"Here's a toaster to get you started."
 	]
 	quest.2D4F71A8058260DE.title: "The Heart of the Kitchen"
@@ -1745,12 +1700,6 @@
 		"Aim it at a machine instead and it charges the machine, ignoring the usual input limit. Your biggest machines need power this way."
 	]
 	quest.2D87FC29B228BF14.title: "Enderic Laser"
-	quest.2DA61AEB4C78A0AF.quest_desc: [
-		"A roof with a ridge, windows with curtains, a chair by the fire and a path to the door. That's not a shelter any more, that's a home."
-		""
-		"There's always one more thing to add. Have fun with it."
-	]
-	quest.2DA61AEB4C78A0AF.title: "A Place of Your Own"
 	quest.2DA83054B4065A27.quest_desc: [
 		"Underground, in the Nether and in some villages, you may find a darker statue with horns. It's the goddess's opposite, and it deals in the same goods."
 		""
@@ -1867,12 +1816,6 @@
 		"The tech pieces come back to you as rewards, so your bases don't go short."
 	]
 	quest.30B8CC0C1ABCCA7E.title: "The Allthemodium Alloy Paxel"
-	quest.30D6C9F473F2BB9B.quest_desc: [
-		"The &eCharging Station&r burns ordinary fuel, like coal or wood, and pours the power into whatever you put in its charging slot."
-		""
-		"Drop your gadget in, feed it a few logs, and come back to a full battery. Later on, any machine that charges items will do the same job."
-	]
-	quest.30D6C9F473F2BB9B.title: "Full Charge"
 	quest.311E4E25B1251EAB.quest_desc: [
 		"Cave spiders are small enough to slip through a one-block gap, and their bite is poisonous."
 		""
@@ -1882,7 +1825,7 @@
 	quest.314A53DD91312149.quest_desc: [
 		"Moss, spikes, mud, mushrooms, hot springs, blue ice, cobwebs, tuff, magma and the great dark caverns. You've seen the whole underground."
 		""
-		"Visit every cave on this line and this one completes too."
+		"Visit every cave in the rows below and this one completes too."
 	]
 	quest.314A53DD91312149.title: "Spelunker"
 	quest.317638A2227C9CED.quest_desc: [
@@ -1903,6 +1846,14 @@
 		"They make good shutters on a wall, cupboard doors on a shelf, or a cellar hatch in the floor."
 	]
 	quest.31C91E01FF122D39.title: "Hatches and Shutters"
+	quest.31D0EC8B143255E7.quest_desc: [
+		"A &eHeavy Core&r is the rarest thing in a Trial Chamber. Drink an Ominous Bottle, beat the chamber's ominous waves for an &eOminous Trial Key&r, and open an &eOminous Vault&r. Now and then one gives a core."
+		""
+		"If luck won't oblige, Oritech can make one. Forge &eReinforced Deepslate&r in the Atomic Forge from deepslate and two duratium ingots, then collide it with &eDuratium Dust&r in the Particle Accelerator."
+		""
+		"Oritech's &eElectric Mace&r needs a core too."
+	]
+	quest.31D0EC8B143255E7.title: "Heavier Than It Looks"
 	quest.31D3CC66FAA927AB.quest_desc: [
 		"The witch who lives in the swamp has had a renovation. YUNG's Better Witch Huts are bigger and stranger than the old shack on stilts."
 		""
@@ -1985,6 +1936,8 @@
 		"&eGems&r turn up in chest loot and now and then from monsters. Bosses and Invaders drop them more often."
 		""
 		"Each gem has a &ePurity&r, from Cracked up to Perfect, and purity is all that sets its strength. A gem gives a different bonus depending on what you put it in: hover over one to see."
+		""
+		"To socket a gem, put the item and the gem together in a &eSmithing Table&r, or pick the gem up and right-click it onto the item. The item needs an empty socket: Uncommon and better gear often has one."
 		""
 		"This line covers what to do with them, and with the gear you outgrow."
 	]
@@ -2184,6 +2137,8 @@
 		""
 		"Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them."
 		""
+		"Chests out here, and the monsters guarding them, carry gear with bonus stats. The two quests either side of the next row are from &eMonsters \\& Mettle&r, the chapter for all of that."
+		""
 		"Here's a &espyglass&r for scouting the horizon."
 	]
 	quest.39466924602BC427.title: "Wanderlust"
@@ -2193,6 +2148,12 @@
 		"A &eBalcony&r can be placed up to four times on the same block. A &eRailing&r goes along the side of a stair. Hit either with &eShears&r to change its style."
 	]
 	quest.396B8362F17604D3.title: "Up and Out"
+	quest.3974DD3DA4A70787.quest_desc: [
+		"Oritech's &eBoosted Exo Elytra&r builds an elytra into the Exo Jetpack, with processing units and gunpowder."
+		""
+		"Its engine only fires while you're already gliding, so take off the usual way and let it carry you from there."
+	]
+	quest.3974DD3DA4A70787.title: "Wings With an Engine"
 	quest.399CBDCC664EE39F.quest_desc: [
 		"A &ePressurized Reaction Chamber&r turns polonium, water and fluorite into &ePolonium Pellets&r."
 		""
@@ -2225,6 +2186,14 @@
 		"Feed it nuclear waste and it makes &epolonium&r. Feed it lithium and it makes tritium, for fusion."
 	]
 	quest.39E401E4A9D05B9C.title: "Sunlight, Weaponized"
+	quest.39EAE1E71E2CAFF7.quest_desc: [
+		"An &eElytra&r hangs in the ship moored beside some &eEnd Cities&r, out on the outer islands. Jump off something high, press jump again, and glide. Fireworks give you a boost in the air."
+		""
+		"No ship in sight? Oritech's &eParticle Accelerator&r collides feathers with a saddle and makes one."
+		""
+		"Hang on to a spare. Refined Storage's &eInterdimensional Wireless Transmitter&r takes one, and so does Oritech's &eBoosted Elytra&r."
+	]
+	quest.39EAE1E71E2CAFF7.title: "Wings of the End"
 	quest.3A0D837FE1BE2F95.quest_desc: [
 		"Too much cobblestone? Nine of most common blocks craft into a &e1x&r compressed block, nine of those into a 2x, and so on up to 9x."
 		""
@@ -2266,7 +2235,7 @@
 	quest.3B32C2E02BEE59B5.quest_desc: ["Past 4096 buckets, ExtraStorage and Extra Disks take over, just as they do for items."]
 	quest.3B32C2E02BEE59B5.title: "16384B Fluid Storage Disk"
 	quest.3B5008C4F0E744F8.quest_desc: [
-		"A bed, a fire, a pack on your back and a way home. That's a start."
+		"A bed, a fire, a pack on your back and a way home. Hang a &elantern&r by the door and call it home."
 		""
 		"From here the book branches out. &eTools of the Trade&r gets you better gear, &eHearth \\& Table&r fills the kitchen, and &eWanderlust&r is for the road. Follow whichever calls to you."
 	]
@@ -2327,18 +2296,10 @@
 		"Handy when you want a lot of one color for a build."
 	]
 	quest.3CE585E4B4A78412.title: "Three Kinds of Stone"
-	quest.3CEF37B6337C7241.quest_desc: [
-		"Use the pearl on a block in an open space and stand back."
-		""
-		"A Gateway fails in a burst of lightning if the timer runs out, a monster wanders too far, or it can't find room to spawn. Fight on flat ground and stay close."
-		""
-		"Rewards pop out of the Gateway as you earn them."
-	]
-	quest.3CEF37B6337C7241.title: "Hold the Gate"
 	quest.3CFD7811CEC9356F.quest_desc: [
 		"Terralith has cherry groves, lavender fields, orchid swamps, deserts with grass in them, and far more."
 		""
-		"Visit all ten. Each one ticks off its own quest in this row too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far."
+		"Visit all ten. Each one ticks off its own quest in the rows above too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far."
 		""
 		"Keep an eye out on the way: villages, ruins and waystones turn up where you least expect them. Take this &eExplorer's Compass&r for the structures you'll want to find next."
 	]
@@ -2554,6 +2515,8 @@
 		"The first night is the longest. Put up four walls, a door and a bed before the sun goes down, and the mobs will have to wait until tomorrow."
 		""
 		"Sleeping in a bed sets your spawn point, so it's also how you find your way home after a bad fall."
+		""
+		"Then make it yours: press &eM&r and drag over the land around your base to claim it, so nobody outside your team can break anything there. Hold &eShift&r while you drag to force-load those chunks instead, and furnaces and farms keep running while you're away."
 	]
 	quest.44827C5C087DBCAA.title: "A Roof Over Your Head"
 	quest.4491DE4DCDDF00A4.quest_desc: [
@@ -2649,6 +2612,8 @@
 		"&e5.&r The paxel, on an Elite Crafting Table"
 		""
 		"Every recipe is in JEI. Press &eU&r on an alloy ingot to see where it goes."
+		""
+		"To start, bring one ingot of each metal and the &eEnergizing Orb&r that will fuse them."
 	]
 	quest.464331F2EC5BB489.title: "The Alloy Paxel"
 	quest.46A00DCC00396BA0.quest_desc: ["Each Fluid Storage Part is three parts of the size below, a bucket, a Quartz Enriched Iron and four processors."]
@@ -2941,22 +2906,6 @@
 		"Feed it, connect it to a machine, and you've got a spark. This chapter has a line each for Generator Galore, Iron Furnaces, Powah, Flux Networks and charging your gear."
 	]
 	quest.4E2D24400FE1977B.title: "Sparks"
-	quest.4E3DAB4C06AB591E.quest_desc: [
-		"Harder fights mean the odd death. When you die, your things go into a &eGrave&r where you fell, and only you can open it."
-		""
-		"The chat message tells you where it is, so you can go back for it."
-		""
-		"Items with the &eSoulbound&r enchantment stay with you instead. Here's a book to start with."
-	]
-	quest.4E3DAB4C06AB591E.title: "When It Goes Wrong"
-	quest.4E43AB0121CDC8BB.quest_desc: [
-		"Once a relic hits its level cap, you can &eRank Up&r on the research screen."
-		""
-		"It wipes the relic's levels and unspent points back to zero, but raises its maximum level, and some abilities change once ranked."
-		""
-		"It's a big step, so read the warning before you hold the button."
-	]
-	quest.4E43AB0121CDC8BB.title: "Rank Up"
 	quest.4E4EDA230B97EFA0.quest_desc: [
 		"Sulfur Ore drops Sulfur straight out of the ground."
 		""
@@ -3063,17 +3012,6 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Platinum Ingots and four Supremium Essence on the pedestals."
 	]
 	quest.514A36F113B7DAF4.title: "Platinum Seeds"
-	quest.5165414AC564B48A.quest_desc: [
-		"A few commands anyone can use:"
-		""
-		"&e/sethome&r  Save this spot as your home"
-		"&e/home&r  Go back to it"
-		"&e/back&r  Return to where you died or last teleported from"
-		"&e/spawn&r  Go to the world spawn"
-		"&e/tpa <name>&r  Ask to teleport to a friend"
-		"&e/rtp&r  Jump somewhere random and far away, once every 10 minutes"
-	]
-	quest.5165414AC564B48A.title: "Handy Commands"
 	quest.516C2476AA7CD9EB.quest_desc: ["One Cobblestone 3x: that's 729 cobblestone, compressed three times."]
 	quest.516C2476AA7CD9EB.quest_subtitle: "Grand Bounty"
 	quest.516C2476AA7CD9EB.title: "The Mountain"
@@ -3260,6 +3198,8 @@
 		"Damage and enchantments carry over, so nothing you put into the old piece is lost."
 	]
 	quest.54CE2C3605DBE750.title: "Tertium Gear"
+	quest.54F1AEA280C30276.quest_desc: ["The Allthemodium Mace, a Vibranium Smithing Template and a &eBlock of Vibranium&r."]
+	quest.54F1AEA280C30276.title: "Vibranium Mace"
 	quest.550CC753646BC765.quest_desc: [
 		"Keep a &eWarp Stone&r of your own instead of setting it in a waystone. Hold right-click to charge it up, and you can jump to any waystone you know from wherever you're standing."
 		""
@@ -3277,7 +3217,9 @@
 		""
 		"How strong that loot gets, and how strong the monsters guarding it are, depends on your &eWorld Tier&r. Press &eCtrl+T&r to see them."
 		""
-		"The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom one is fights worth seeking out. Follow whichever you're in the mood for."
+		"The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom ones are fights worth seeking out. Follow whichever you're in the mood for."
+		""
+		"Harder fights mean the odd death. Your things go into a &eGrave&r where you fell, which only you can open, and the chat tells you where. Items with the &eSoulbound&r enchantment stay with you instead: World Tier Haven gives you a book of it."
 	]
 	quest.55274C15951A8044.title: "Monsters \\& Mettle"
 	quest.554152D8D574A7E0.quest_desc: [
@@ -3330,14 +3272,6 @@
 		"Two Atomic Alloys around an Elite Control Circuit make an &eUltimate Control Circuit&r. Each machine in the last tier needs two, so make plenty."
 	]
 	quest.56510ACDC6D66C53.title: "Atomic Alloy"
-	quest.5698544588B47CF8.quest_desc: [
-		"Playing with others? Make a party."
-		""
-		"Open your inventory and click the team button at the top left to create one, then invite your friends. Everyone in the party shares claims, force-loaded chunks and progress in this book."
-		""
-		"Playing alone is fine too. This one is optional."
-	]
-	quest.5698544588B47CF8.title: "Bring a Friend"
 	quest.56AF8269532901B1.quest_desc: [
 		"Glass panes are fine. Macaw's Windows has framed windows in every wood and stone, and many of them open with a right-click."
 		""
@@ -3372,7 +3306,7 @@
 	quest.57D58CBCC225CD17.quest_desc: [
 		"Under every hill there's another world: mossy grottos, ice halls lit by soul lanterns, warm pools, jungles that never see the sun, and rivers of lava near the bottom."
 		""
-		"Step into any cave and this chapter opens up. The top line is a tour of the caves themselves. The others follow the ores down, dig up what's buried, and build a gadget that clears a tunnel in seconds."
+		"Step into any cave and this chapter opens up. The rows below are a tour of the caves themselves, then the ores and what's buried with them. The lines underneath follow the ores down to a dimension of their own, and build a gadget that clears a tunnel in seconds."
 		""
 		"Take these torches. It's dark down there."
 	]
@@ -3440,7 +3374,7 @@
 		""
 		"The Almanac has four pages: a &ecookbook&r, an &eangler's log&r, &efield notes&r and a &etrophy wall&r. Finish all four and the book is complete."
 		""
-		"The last quest on each page gives you a glowing &6Almanac Page&r. Bring all four to the end of the book."
+		"Each page is a handful of quests in any order, fanning in to a finale that gives you a glowing &6Almanac Page&r. Bring all four to the middle of the book."
 		""
 		"None of it is needed for anything else. Take your time, and bring friends: it goes faster with a fisher, a cook and an explorer."
 	]
@@ -3538,9 +3472,9 @@
 	quest.5C27A27FCA648624.quest_desc: ["&eSaturating Condensers&r above the rotational complex turn spent steam back into water, which you can pipe straight back into the reactor."]
 	quest.5C27A27FCA648624.title: "Water Back"
 	quest.5C2EFC1448F3F67D.quest_desc: [
-		"&eOther Vibranium Ore&r sits in cave ceilings in the Other, between Y 0 and 40. Some Vibranium Ore turns up in the Nether too."
+		"&eVibranium Ore&r turns up in the Nether, and it needs an Allthemodium pickaxe or better."
 		""
-		"Either way you need an Allthemodium pickaxe or better."
+		"The Nether only has a little. For more, head through to &eThe Other&r, where &eOther Vibranium Ore&r lines the cave ceilings between Y 0 and 40."
 	]
 	quest.5C2EFC1448F3F67D.title: "Vibranium"
 	quest.5C35F94738088035.quest_desc: ["With a bucket or tank item in its buffer, a router with a &eFluid Module&r moves fluids to and from the block it faces. The Mk2 reaches any block nearby."]
@@ -3573,6 +3507,10 @@
 		"Each one turns up in chests that suit it. Fiery relics hide in Nether chests, others in villages, mineshafts, deserts or the End. Explore widely."
 		""
 		"In this pack every artifact counts as a relic too, so everything in this chapter can level up."
+		""
+		"A new relic hides its abilities until you research them: hover over it and hold the research key its tooltip names. Research costs a few of your own levels."
+		""
+		"Relics earn experience by doing their job, boots by running and claws by digging, and each level gives an &eUpgrade Point&r to spend on the research screen. At the level cap you can &eRank Up&r for a higher cap, though the relic starts again from zero. &eRelic Experience Bottles&r speed it all along."
 	]
 	quest.5D03C361BA83F81A.title: "A Relic of Your Own"
 	quest.5D0C38B64CE673A3.quest_desc: ["Adds redstone control and comparator output to a machine. Right-click it to set what it does."]
@@ -3638,6 +3576,8 @@
 		"Hold it in your hand and step off something tall, and you'll glide instead of falling. Gliding uses stamina, shown by the wheel on screen. Land before it runs out."
 		""
 		"Running and swimming don't use stamina in this pack. Only gliding does."
+		""
+		"Glide over a lit &eCampfire&r and the rising warm air lifts you up, though it costs stamina too."
 	]
 	quest.5EA53D57AFC58156.title: "Off the Edge"
 	quest.5EC6CBA9F64119C4.quest_desc: ["Somebody has to keep the archers in check."]
@@ -3707,6 +3647,8 @@
 		"Your first &eJetpack&r can be made of wood: planks, a leather strap and a few simple parts. Wear it in your chest slot or a Curios slot (&eShift+G&r), then hold jump to lift off."
 		""
 		"A wooden jetpack is slow and drinks its charge quickly, but it gets you onto the roof. Better ones are built around the one before."
+		""
+		"Jetpacks run on FE. Anything that charges items will top one up: a &eWireless Player Charger&r by the door, a Powah &ePlayer Transmitter&r, or a &eFlux Controller&r, all in &eSparks&r. Search \"hover\" in Key Binds for the engine, hover and throttle keys. Hover mode lets you hang in the air while you build."
 	]
 	quest.602941FC879E457D.title: "Up \\& Away"
 	quest.602C37854C65C853.quest_desc: [
@@ -3807,7 +3749,7 @@
 	quest.618B176F170F61CA.quest_desc: [
 		"&eAllthemodium Ore&r forms on cave ceilings in Deep Dark biomes, below Y 10. Bring light, walk softly and look up."
 		""
-		"Smelt the raw ore into ingots. Save a few nuggets: the next quest needs them."
+		"Smelt the raw ore into ingots. Save a few nuggets: a Teleport Pad needs them."
 	]
 	quest.618B176F170F61CA.title: "Down in the Deep Dark"
 	quest.61D534C32CF6C9D7.quest_desc: ["Carry up to 10,000 RF a tick. Oritech power is pushed: generators and storage send it out, and pipes never pull."]
@@ -3848,12 +3790,6 @@
 		"It also combines two worn tools of the same kind into one, with the durability added together."
 	]
 	quest.6278C057B3D87B2C.title: "Start Fresh"
-	quest.62A7AD121090F731.quest_desc: [
-		"From the top down, the Mining Dimension is stone, then deepslate, then netherrack, then end stone above the bedrock."
-		""
-		"Ores take on the look of the block they're set in, so you'll see Nether and End versions of familiar ores in the lower layers. They smelt the same."
-	]
-	quest.62A7AD121090F731.title: "Layer Cake"
 	quest.62AB61EF3933713F.quest_desc: [
 		"Each tier is built on the one below: an Tertium piece between two &eImperium Ingots&r and two &eImperium Gemstones&r."
 		""
@@ -3970,12 +3906,6 @@
 		"You'll go through a lot of it. Generators, the Electrolytic Separator, the Purification Chamber and the chemical machines all want some."
 	]
 	quest.65F3240CE2B8E852.title: "Infused Alloy"
-	quest.6601A12B22EEFB28.quest_desc: [
-		"Jetpacks run on FE, so they need charging. Anything that charges items will do: a &eWireless Player Charger&r by the door, a Powah &ePlayer Transmitter&r, or a &eFlux Controller&r on your network. &eSparks&r covers the charger and the controller."
-		""
-		"Jetpacks have their own keys to toggle the engine, hover mode and the HUD, and to change throttle. Search \"hover\" or \"engine\" in Key Binds to find them. Hover mode lets you hang in the air while you build."
-	]
-	quest.6601A12B22EEFB28.title: "Keep It Charged"
 	quest.6620A16CFB01713B.quest_desc: [
 		"The &eFoundry&r makes Oritech's alloys: steel, electrum, adamant and more. You can hand-craft the first few, but it costs far more metal than the foundry does."
 		""
@@ -4080,16 +4010,14 @@
 		"On its own it's tough. With modules it flies, breathes underwater, feeds you and keeps the radiation out."
 	]
 	quest.67C69F169A5174EC.title: "The MekaSuit"
+	quest.67D301ADF4ADA2EC.quest_desc: [
+		"Mekanism's &eHDPE Reinforced Elytra&r is an elytra wrapped in five HDPE sheets and two atomic alloy."
+		""
+		"It flies like any elytra but lasts longer between repairs."
+	]
+	quest.67D301ADF4ADA2EC.title: "Plastic Wings"
 	quest.67E4B99842AE40C6.quest_desc: ["A thousand buckets. Enough lava to run a generator for a long while."]
 	quest.67E4B99842AE40C6.title: "1024B Fluid Storage Disk"
-	quest.67ED1E2EBC73CAC8.quest_desc: [
-		"Relics learn by doing. Use an ability for what it's meant for and the relic earns experience: boots by running, a pendant by being hit, claws by digging."
-		""
-		"When the bar fills, the relic levels up and gives you an &eUpgrade Point&r. Spend it on the research screen to make an ability stronger."
-		""
-		"&eRelic Experience Bottles&r are a shortcut: experience for your relics rather than for you."
-	]
-	quest.67ED1E2EBC73CAC8.title: "It Grows on You"
 	quest.684BFADFC09B142E.quest_desc: ["Items, fluids and energy, all in one can."]
 	quest.684BFADFC09B142E.title: "Ultimate Trash Can"
 	quest.6865ABE5A88680EF.quest_desc: [
@@ -4417,14 +4345,6 @@
 	quest.6E8B54D978994030.title: "The Rainbow Furnace"
 	quest.6E97B589CFB68CBD.quest_desc: ["&eGas Pipes&r move Mekanism's gases. They need Infused Alloy, so they come a little later."]
 	quest.6E97B589CFB68CBD.title: "Gas Pipes"
-	quest.6ED4658DE20BD246.quest_desc: [
-		"To socket a gem, put the item and the gem together in a &eSmithing Table&r. Or pick the gem up in your inventory and right-click it onto the item."
-		""
-		"The item needs an empty socket. Uncommon and better gear often has one, and a Sigil of Socketing can add more."
-		""
-		"Changed your mind? A &eSigil of Withdrawal&r pops the gems back out, and you keep both."
-	]
-	quest.6ED4658DE20BD246.title: "Set in Stone"
 	quest.6EF77A7565F00B61.quest_desc: ["Iron for hinges, buckets and a hundred small repairs."]
 	quest.6EF77A7565F00B61.quest_subtitle: "Odd Job"
 	quest.6EF77A7565F00B61.title: "Smelter's Due"
@@ -4448,14 +4368,6 @@
 		"Made on the Infusion Altar: a Soulium Seed Base in the middle, with four Soul Jars full of fish souls and four Prudentium Essence on the pedestals."
 	]
 	quest.6F2B55ED7A3B7EBA.title: "Fish Seeds"
-	quest.6F341E1F6E495AC2.quest_desc: [
-		"Eat &e50 different foods&r for another &c3 hearts&r."
-		""
-		"By now the easy foods are behind you. Sort the Cooking Table's list by &eEaten&r to find something new."
-		""
-		"Click the checkmark once your Food Book shows 50."
-	]
-	quest.6F341E1F6E495AC2.title: "Seasoned Cook"
 	quest.6F531896ECB0FEDD.quest_desc: ["Faster again. Built around an iron or silver furnace."]
 	quest.6F531896ECB0FEDD.title: "Golden Furnace"
 	quest.6F7946E42B17D436.quest_desc: [
@@ -4527,14 +4439,6 @@
 	quest.714590CDDF3837D6.title: "Oritech"
 	quest.7149BA847FFC8F0E.quest_desc: ["Widens what a Destroyer or Enderic Laser can reach, so one machine clears far more without moving."]
 	quest.7149BA847FFC8F0E.title: "Quarry Addon"
-	quest.7176D1C3D0815DF5.quest_desc: [
-		"Eat &e25 different foods&r and you gain &c3 extra hearts&r."
-		""
-		"Only filling food counts: four drumsticks or more. Open your Food Book to see how many you've eaten and what's left."
-		""
-		"Click the checkmark once you've reached the milestone."
-	]
-	quest.7176D1C3D0815DF5.title: "A Taste of Everything"
 	quest.7179EBBC885D43E1.quest_desc: [
 		"The &ePiglich&r guards the Ancient Pyramids in the soul sand valleys of the Other."
 		""
@@ -4571,6 +4475,8 @@
 		"A whole world built for digging: no towns, no structures, just stone, layer on layer, laced with ore."
 		""
 		"Dig as much as you like. Your base back home stays exactly as you left it."
+		""
+		"From the top down it's stone, deepslate, netherrack, then end stone above the bedrock. Ores take on the look of the block around them, but they smelt the same."
 		""
 		"Take your pad with you, or build another one here, for the trip home."
 	]
@@ -4631,14 +4537,6 @@
 		"Win and it pays in affix gear, gems and Gem Dust. Check JEI for the pearl's recipe."
 	]
 	quest.7358113C8896FA6E.title: "Challenge Gates"
-	quest.7366B4A0D762F3EB.quest_desc: [
-		"Now and then you'll see a lump of deepslate sitting out on the surface, studded with ore. It's a marker."
-		""
-		"Straight below it, down in the bedrock, is a &eResource Node&r. Nodes can't be broken, and they never run dry."
-		""
-		"Write down where it is. Oritech's &eBedrock Extractor&r can mine a node forever, once you can power it."
-	]
-	quest.7366B4A0D762F3EB.title: "Marked by a Boulder"
 	quest.7366E6C3CEFC9AE8.quest_desc: [
 		"People lived out here once. Structory leaves their traces: abandoned camps and chapels, an old manor, firetowers, graveyards, and ruins both above and below ground."
 		""
@@ -4651,6 +4549,8 @@
 		"A &eJar&r holds bottles, buckets, cookies or even a small mob. An &eItem Shelf&r shows off one item on a wall. A &eFlower Box&r holds any big plant under a window. A &eGlobe&r spins when you hit it."
 		""
 		"There are notice boards, hat stands, sacks, doormats and a lot more. Browse the mod in JEI."
+		""
+		"Amendments adds no blocks, just new places for old ones: lanterns on walls, carpet on stairs, flower pots and banners hanging from the ceiling, and cakes you can stack."
 	]
 	quest.738D460B9DBF23A5.title: "Odds and Ends"
 	quest.73A74258BA4CDD10.quest_desc: [
@@ -4676,7 +4576,7 @@
 		""
 		"&eOverworldian Nights&r is a good first one: zombies, skeletons, spiders, creepers and witches, with a pile of dungeon loot at the end."
 		""
-		"Hover over a pearl to see its waves, rewards and rules."
+		"Hover over a pearl to see its waves, rewards and rules. Use it on a block in an open space and stand back. A Gateway fails if the timer runs out, a monster wanders too far, or it can't find room to spawn, so fight on flat ground and stay close."
 	]
 	quest.7422BC30ED1E3918.title: "A Pearl Full of Trouble"
 	quest.74A6647F27B291DD.quest_desc: ["An electric furnace. The &eEnergized Smelter&r cooks anything a furnace would, on power instead of fuel, and takes upgrades."]
@@ -4775,6 +4675,8 @@
 		"&ePlatinum&r and &eUranium&r live low, down in the deepslate. Platinum is rare, so don't skip a single block of it."
 		""
 		"Treat uranium with respect later on. For now it's just another rock in your pack."
+		""
+		"Spot a lump of ore-studded deepslate sitting out on the surface? Straight below it, in the bedrock, is a &eResource Node&r that never runs dry. Note where it is: Oritech's &eBedrock Extractor&r can mine it forever."
 	]
 	quest.76DF8AE0C9039AE4.title: "Down Deep"
 	quest.773A7D92BF1F9371.quest_desc: ["A faster Destructor. Put one in front of a cobblestone generator and watch the numbers climb."]
@@ -4841,6 +4743,8 @@
 		"Keep a stack of each. You'll use them everywhere."
 	]
 	quest.78FD3CAA03278A82.title: "Nuts and Bolts"
+	quest.794CD53A45B7B900.quest_desc: ["The Vibranium Mace, an Unobtainium Smithing Template and a &eBlock of Unobtainium&r. That's nine of the rarest ingots in the pack in one swing."]
+	quest.794CD53A45B7B900.title: "Unobtainium Mace"
 	quest.7954892B593269ED.quest_desc: [
 		"&eOrganic Compost&r is dirt, straw, rotten flesh and bone meal mixed together. Place it and it slowly turns into rich soil."
 		""
@@ -4869,14 +4773,6 @@
 		"Right-click it to see which nodes it can reach."
 	]
 	quest.79EFCF37DCBCAC63.title: "Endless Ore"
-	quest.79F842955B3A5B92.quest_desc: [
-		"A new relic doesn't show you everything right away. Its abilities have to be researched first."
-		""
-		"Hover over a relic and hold the research key its tooltip names. The research screen shows each ability, what it does, and how it earns experience."
-		""
-		"Researching an ability costs some of your own experience, so bring a few levels."
-	]
-	quest.79F842955B3A5B92.title: "Read It Closely"
 	quest.7A029F3F00F5A8D6.quest_desc: ["The &eInfinite Fluid Storage Disk&r holds every bucket there is. Like its item cousin, it needs Withering Processors."]
 	quest.7A029F3F00F5A8D6.title: "A Bottomless Tank"
 	quest.7A401849EA875061.quest_desc: [
@@ -4893,22 +4789,8 @@
 		"Leave the budding blocks where they are, and come back later for another crop."
 	]
 	quest.7A60B5FB3AFB6CC9.title: "Crystal Caves"
-	quest.7A74DD440B26E87A.quest_desc: [
-		"Eat &e100 different foods&r. That's four milestones and &c12 extra hearts&r, and you keep every one of them if you die."
-		""
-		"There's more to come: milestones carry on all the way to 500 foods, each worth another &c3 hearts&r."
-		""
-		"Click the checkmark once your Food Book shows 100."
-	]
-	quest.7A74DD440B26E87A.title: "A Hundred Flavors"
 	quest.7A8DC469C6107CC2.quest_desc: ["Spirited rods. By now a single orb can keep a whole base supplied."]
 	quest.7A8DC469C6107CC2.title: "Spirited Energizing Rod"
-	quest.7A9FB006B9CF7BCA.quest_desc: [
-		"Deep underground you may stumble on a little abandoned campsite, with a chest or a barrel left behind."
-		""
-		"They're well worth a look, since the loot leans towards artifacts. Just knock on the chest before you open it."
-	]
-	quest.7A9FB006B9CF7BCA.title: "Campfire Stories"
 	quest.7B15752D4C4D1108.quest_desc: ["Sixteen blocks of diamond for the vault."]
 	quest.7B15752D4C4D1108.quest_subtitle: "Grand Bounty"
 	quest.7B15752D4C4D1108.title: "Diamond Hoard"
@@ -4938,14 +4820,6 @@
 		"The Spark of Creation stays in the grid, so it's ready for the next one."
 	]
 	quest.7B9B8D75659E2AD4.title: "A Network for Free"
-	quest.7BA7C43ED5298D12.quest_desc: [
-		"Press &eM&r to open the claim map. Click and drag over the land around your base to claim it, and nobody outside your team can break or take anything there."
-		""
-		"Hold &eShift&r while you drag to force-load those chunks instead. Furnaces and farms in a force-loaded chunk keep running while you're away."
-		""
-		"Right-click and drag to let land go."
-	]
-	quest.7BA7C43ED5298D12.title: "Stake Your Claim"
 	quest.7BD4696CF3657AE3.quest_desc: [
 		"Template, netherite pickaxe, Allthemodium Ingot."
 		""
@@ -5031,13 +4905,19 @@
 	quest.7E53F8F026CA59BE.quest_desc: [
 		"Normally a Vault only opens once for each player. Not here: use another key on a vault you've already opened and it pays out again."
 		""
-		"So a good chamber is worth coming back to. Open a vault, then open one a second time."
+		"So a good chamber is worth coming back to."
 		""
 		"Drink an Ominous Bottle before you go in, and the chamber turns ominous: harder fights, &eOminous Trial Keys&r and better vaults."
 	]
 	quest.7E53F8F026CA59BE.title: "Back for Seconds"
 	quest.7E8608ED6BC69FB5.quest_desc: ["The advanced block charger covers a bigger area, faster."]
 	quest.7E8608ED6BC69FB5.title: "Advanced Block Charger"
+	quest.7EA7137D4E067C2C.quest_desc: [
+		"Bring a vanilla &eMace&r to a Smithing Table with an Allthemodium Smithing Template and a &eBlock of Allthemodium&r. A block, not an ingot: maces are greedy."
+		""
+		"Monsters \\& Mettle covers the mace itself."
+	]
+	quest.7EA7137D4E067C2C.title: "A Heavier Mace"
 	quest.7EAF12A262A3D126.quest_desc: [
 		"Can't find a seed in the wild? Buy it. The &eMarket&r sells seeds and saplings for an emerald each, including Croptopia's fruit trees and the crops from Farmer's Delight and Cultural Delights."
 		""
@@ -5100,13 +4980,11 @@
 	task.0023906E30BBAB72.title: "Any 65536k Storage Disk"
 	task.0027A0A2FE883201.title: "Visit a Moonlight Grove"
 	task.003664E2AE41AA74.title: "A smelting, blasting or smoking upgrade"
-	task.0038491BE3AE330E.title: "I've eaten 200 foods"
 	task.0071D24E173529B6.title: "Deep Caves"
 	task.00C314EA6FBEBECF.title: "Visit the Thermal Caves"
 	task.00C621D86FEB1E77.title: "Any Structory tower"
 	task.01B18AFD250A0268.title: "A ender generator, or the upgrade to one"
 	task.01C21C18B024CD2B.title: "A netherite chest or barrel, or the upgrade to one"
-	task.01D2D92F747771E1.title: "Got it"
 	task.0212D854856C3122.title: "Netherite Furnace, or the upgrade to one"
 	task.027CE67BF3F5ED49.title: "Any 4096k Storage Disk"
 	task.0304EF1BD8336240.title: "Any Pipe Duct"
@@ -5141,7 +5019,6 @@
 	task.0B10A15D8DE67E71.title: "Raw Allthemodium"
 	task.0B5AE8F0604768FE.title: "Everlasting Beef, raw or cooked"
 	task.0C5210CE6F778C8E.title: "Unobtainium Furnace, or the upgrade to one"
-	task.0C97E1B67886CB94.title: "Got it"
 	task.0D75DCBF57BD296C.title: "Lush Caves"
 	task.0DBB4813CCEE0D19.title: "A refill upgrade"
 	task.0DC7E7BC10DBFBB9.title: "Wither Prediction"
@@ -5149,8 +5026,6 @@
 	task.0EE8F35057EDE16E.title: "Infested Caves"
 	task.0F7BB1E5AEA314BC.title: "Ashen Savanna"
 	task.0F979F7E14A9150E.title: "Visit a Highlands"
-	task.0FE5E7CCEDF35B9C.title: "Socketed a gem"
-	task.104C000CE660C16A.title: "Got it"
 	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
 	task.112A40DF19A640C0.title: "4 Allthemodium Ingots"
 	task.1138B6D62B98EC2A.title: "Visit the Frostfire Caves"
@@ -5159,7 +5034,6 @@
 	task.11996A1BA4BBED4B.title: "Vibranium Ingot"
 	task.11E1DA99C8BE82EC.title: "Any knife"
 	task.11EEED92444B24A3.title: "Dripstone Caves"
-	task.12011417992E3EB4.title: "Opened a vault a second time"
 	task.124EDD03B61C0620.title: "Warped Mesa"
 	task.129BBFBAF3641CF4.title: "Activate a waystone"
 	task.12B4D4BCD62C054F.title: "Visit the Dripstone Caves"
@@ -5172,10 +5046,8 @@
 	task.15D1794F73A96E8C.title: "Any battery"
 	task.160CCBA902A0FE07.title: "16 Steel Ingots"
 	task.165D627B7309C30F.title: "Two elevators"
-	task.1672A4D74F5F9003.title: "Got it"
 	task.16A8B54504205298.title: "Got it"
 	task.173A187114B99DC0.title: "Defeat the Wither"
-	task.17C048CD6FFF9B98.title: "I've eaten 50 foods"
 	task.17C99A65C64E229C.title: "32 Osmium Ingots"
 	task.17F4B84A900CD47E.title: "Visit the Infested Caves"
 	task.18233B4FE27DCD76.title: "Any Supremium tool or armor"
@@ -5200,6 +5072,7 @@
 	task.1FD32C349F5BE4CE.title: "Orchid Swamp"
 	task.2101C9BF79FEFD2F.title: "Underground Jungle"
 	task.210AB02763E22BE9.title: "Any of these knick-knacks"
+	task.215C54E117BD8912.title: "Unobtainium Ingot"
 	task.21B8CA7B9DB538B0.title: "Found one"
 	task.22B3228EB0192AEB.title: "Any 256k Storage Disk"
 	task.22D98DF5755974BE.title: "Any YUNG's dungeon"
@@ -5211,7 +5084,6 @@
 	task.24A27D380EC9FC88.title: "Any special pearl"
 	task.24E5710F8E27E3F8.title: "A Vibranium Jetpack"
 	task.252ECF421401926A.title: "Four Hopper Botany Pots, any kind"
-	task.254D95A316632283.title: "Show me the way"
 	task.257533D134E54953.title: "A wireless heat transmitter or receiver"
 	task.2701C2300373B1E1.title: "A Jetpack, plain or armored"
 	task.2709944F6F67517F.title: "A Speed or Efficiency Addon"
@@ -5219,10 +5091,8 @@
 	task.27F521D000F2A379.title: "An Elite, Ultra or Mega Constructor"
 	task.283C367ED1DD7594.title: "Any 1048kB Fluid Storage Disk"
 	task.28649250150397FF.title: "Skylands in Autumn"
-	task.28ABCB74FC0E9352.title: "I've eaten 100 foods"
 	task.28BFA14D07D2A4A9.title: "An Explorify tavern"
 	task.28CE5200B010CA74.title: "Raw Silver"
-	task.293A41125A6FAB36.title: "Got it"
 	task.293DFB668E453536.title: "Any Handcrafted table"
 	task.295AEDB3AA11076C.title: "Silver Furnace, or the upgrade to one"
 	task.29E71D4FDF060875.title: "8 energy cables or pipes"
@@ -5232,12 +5102,10 @@
 	task.2A9F279C8AE7E958.title: "Visit the Fungal Caves"
 	task.2AC24C5202C2EFEA.title: "Any Luminax block"
 	task.2AF481585DD458B9.title: "Got it"
-	task.2C0DC9BF315A0AB3.title: "Found a node"
 	task.2C1BBB4A004879D7.title: "Arrive"
 	task.2C833A35A8CDFFE2.title: "A magnet or pickup upgrade"
 	task.2CDF9582E525CD02.title: "Any Pattern Grid"
 	task.2D2EDEC67A26C2A0.title: "Thermal Caves"
-	task.2D6A1FF21A37E88E.title: "Home sweet home"
 	task.2E4CE40E151FF005.title: "A gold backpack or better"
 	task.2E5402373D5F2357.title: "Ice Spikes"
 	task.2EE5CD8C543E5867.title: "Find an Ancient City"
@@ -5249,7 +5117,6 @@
 	task.304F6643BB193A0B.title: "Shrubland"
 	task.310142D198538916.title: "Tuff Caves"
 	task.314321CCCCFFEAA8.title: "Any External Storage"
-	task.3192840CE12B900A.title: "Got it"
 	task.319A0CEA0AA7B7D4.title: "Something for your feet"
 	task.319E1AA394C84D36.title: "A Chemical Oxidizer or a Thermal Evaporation Controller"
 	task.31FF9531693B2A70.title: "Any Macaw's trapdoor"
@@ -5257,8 +5124,7 @@
 	task.32C52FC69C0344F7.title: "Raw Lead"
 	task.32DDB26D25250A05.title: "Find a Trial Chamber"
 	task.33397A484C0B60A7.title: "Crystals of any metal"
-	task.341F6F5CA4127A19.title: "Good to know"
-	task.345832B194E94B45.title: "I've eaten 150 foods"
+	task.33D9FB3F691D8B90.title: "Vibranium Ingot"
 	task.3524F7D40DB92746.title: "Any 1024k Storage Disk"
 	task.3525C4C5FE565B1D.title: "Any 65536B Fluid Storage Disk"
 	task.35ECD5C223642F60.title: "A Cooking Table"
@@ -5270,7 +5136,6 @@
 	task.37EB5CD679DA1D10.title: "A Sophisticated chest or barrel"
 	task.3807E1E12BBFCB20.title: "Raw Zinc"
 	task.389EC6491653276C.title: "Raw Nickel"
-	task.389ED288E8F44930.title: "Got it"
 	task.38B2A80985F90927.title: "A Singularity or Jumbo Tank"
 	task.390125661336DDA3.title: "Visit a Orchid Swamp"
 	task.3A0C7F4C62056F74.title: "A keepsake for fighting"
@@ -5298,7 +5163,6 @@
 	task.3E9C226B470DB60E.title: "Any of these decorations"
 	task.3EA3AF5FEE570E54.title: "Skylands in Summer"
 	task.3EE55D12D4C2F86D.title: "Any Macaw's chair, table, desk, drawer or wardrobe"
-	task.3EE920524342544A.title: "Researched an ability"
 	task.3EF80FF4D3B5B3C2.title: "Desert Oasis"
 	task.3F183B37BBC6712E.title: "Walk into any cave biome"
 	task.3F3EE237FBE3AC42.title: "Diamond Ore Data Model"
@@ -5342,8 +5206,6 @@
 	task.49332FAC69684920.title: "Ice Marsh"
 	task.497952C884648D16.title: "Any Security Manager"
 	task.49D5EB9C6751CA06.title: "12 Cable"
-	task.4A2394EC462A25F0.title: "Got it"
-	task.4A9020F4241394A6.title: "Got it"
 	task.4A9D8ED2E7AAB659.title: "Overworldian Nights Gate Pearl"
 	task.4AD7AC6D85207D49.title: "Visit a Lavender Forest"
 	task.4B01344D556DF3CF.title: "Any balcony, railing or platform"
@@ -5396,7 +5258,6 @@
 	task.57F6671C9BC3B053.title: "Any Infinite Storage Disk"
 	task.587E4854720241AC.title: "Red Oasis"
 	task.591AC10AFB003F6F.title: "An Elite, Ultra or Mega Disk Interface"
-	task.59275E9143D53F3B.title: "Got it"
 	task.5972B78D5F97C173.title: "A Tier 3 stack upgrade or better"
 	task.598BBDF7EEB9EBC8.title: "Siberian Taiga"
 	task.599E506CD4D2F728.title: "Magnet or Void Junk"
@@ -5419,7 +5280,6 @@
 	task.5DDB354CE754C597.title: "An Advanced Importer or Exporter"
 	task.5F29BC2A81B5854B.title: "Obsidian Furnace, or the upgrade to one"
 	task.5F67B3C68FC91C70.title: "Find the stronghold"
-	task.5FFCC895842351C2.title: "A relic leveled up"
 	task.6026EDE2B5CE50C3.title: "64 crops, any kind"
 	task.6093645102144E6C.title: "Fluorite"
 	task.60C347D4186719A6.title: "A gold generator, or the upgrade to one"
@@ -5434,7 +5294,6 @@
 	task.6317C587E1D38B08.title: "Nickel Ingot"
 	task.63A12CE2D6300D51.title: "Any artifact"
 	task.63BCF17058DDBF18.title: "Vibranium Furnace, or the upgrade to one"
-	task.6469E6C048F59DC7.title: "Home sweet home"
 	task.646A250D4BD9C144.title: "A crafting or stonecutter upgrade"
 	task.6498DAF43F5EDA57.title: "Underground Jungle"
 	task.650AA1E592EA3E57.title: "Any bed"
@@ -5457,9 +5316,7 @@
 	task.6AB036671E054023.title: "Any 16384B Fluid Storage Disk"
 	task.6B57AB182B64E268.title: "Any GeOre shard"
 	task.6CB7819F0176EC13.title: "Any gem"
-	task.6CE668C15DB281D0.title: "Got it"
 	task.6CF6FDAFD316C3BB.title: "Allthemodium Ingot"
-	task.6D1AA13DA702459B.title: "Charged it"
 	task.6D59484744ADF30D.title: "Visit a Sakura Grove"
 	task.6DA0618E561E149A.title: "Set foot in the Overworld"
 	task.6DBBAE5C125636AB.title: "Any Structory ruin"
@@ -5482,14 +5339,12 @@
 	task.72C834CC8ECD5A60.title: "Any Grid"
 	task.72F3BCF5E0B14BED.title: "Any Macaw's path or paving"
 	task.72F98C1B69FD59E3.title: "Visit a Steppe"
-	task.7336271231723C5E.title: "I've eaten 25 foods"
 	task.735FBAF53702E674.title: "A copper backpack or better"
 	task.7414478B6B0141B5.title: "Unobtainium Ingot"
 	task.7417025329E1464E.title: "Interdimensional Wireless Transmitter"
 	task.748973B9C418CC7F.title: "Shadowlands"
 	task.74DE0E3648B03A9D.title: "A netherite generator, or the upgrade to one"
 	task.752DC1BFBFC4B602.title: "Any Chemical Storage Disk"
-	task.75D80002C5B017BD.title: "Got it"
 	task.760313734C4172D7.title: "An Elite, Ultra or Mega Destructor"
 	task.766CC255637C9256.title: "Any Mob Masher Upgrade"
 	task.76821F9B4B41C2EF.title: "Any ender gate"
@@ -5499,8 +5354,8 @@
 	task.77F5E2085C91D9A7.title: "Any Macaw's roof"
 	task.7893EF5B520AE6ED.title: "Any pipe upgrade"
 	task.789AB5D6C7AFFB81.title: "Crystal Peaks"
+	task.79196F38AF7F16A7.title: "Allthemodium Ingot"
 	task.79887281A4B7E2D0.title: "Open the book"
-	task.79B34A1C1380E8F7.title: "Found one"
 	task.79B8FEF15CAE5CBA.title: "Mantle Caves"
 	task.79E9D0609F4E40BC.title: "A tool swapper upgrade"
 	task.7ACED0B76983BD79.title: "Alpine Grove"
@@ -5519,7 +5374,6 @@
 	task.7DE561EDC4FECE52.title: "Any fancy bed"
 	task.7E00C8C5D4C3A141.title: "Bryce Canyon"
 	task.7E26C0366C71D28A.title: "Any sharestone"
-	task.7E81F48D4EDF9D8B.title: "Survived a Gateway"
 	task.7E9D5ED5150C97FF.title: "Any ultimate factory"
 	task.7EB95C7D5A751D6B.title: "32 Croptopia meals, any kind"
 	task.7F6C62B0B3CFE250.title: "Highlands"
