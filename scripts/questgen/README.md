@@ -1,6 +1,6 @@
 # Quest book source
 
-The FTB Quests book in `config/ftbquests/quests` is generated. Its source is here: one Python file per chapter in `chapters/`, with crate tables and chapter groups in `content.py`. Edit these, never the SNBT, and never the book in game: the next regenerate overwrites both, and CI fails when the committed SNBT doesn't match this source.
+The FTB Quests book in `config/ftbquests/quests` is generated. Its source is here: one Python file per chapter in `chapters/` (in filename order; `09a_name.py` slots in after `09_name.py`), with crate tables and chapter groups in `content.py`. Edit these, never the SNBT, and never the book in game: the next regenerate overwrites both, and CI fails when the committed SNBT doesn't match this source.
 
 All text is original. Don't copy from ATM10's or any other pack's quest files.
 

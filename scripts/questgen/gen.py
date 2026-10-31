@@ -29,7 +29,8 @@ HUB_DR = 1.75       # each step further out along a spoke
 
 def load_chapters():
     out = []
-    for p in sorted((HERE / "chapters").glob("[0-9][0-9]_*.py")):
+    # 09a_x sorts after 09_y, so a chapter can slot in after another without renumbering.
+    for p in sorted((HERE / "chapters").glob("[0-9][0-9]*_*.py")):
         spec = importlib.util.spec_from_file_location(p.stem, p)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
