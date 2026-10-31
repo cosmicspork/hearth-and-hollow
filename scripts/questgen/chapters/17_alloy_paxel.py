@@ -46,9 +46,16 @@ CHAPTER = {
                 "&e5.&r The paxel, on an Elite Crafting Table",
                 "",
                 "Every recipe is in JEI. Press &eU&r on an alloy ingot to see where it goes.",
+                "",
+                "To start, bring one ingot of each metal and the &eEnergizing Orb&r that will fuse them.",
             ],
-            "tasks": [{"check": "Show me the way"}],
-            "rewards": [],
+            "tasks": [
+                {"item": "powah:energizing_orb"},
+                {"tag": "c:ingots/allthemodium", "title": "Allthemodium Ingot", "icon": "allthemodium:allthemodium_ingot"},
+                {"tag": "c:ingots/vibranium", "title": "Vibranium Ingot", "icon": "allthemodium:vibranium_ingot"},
+                {"tag": "c:ingots/unobtainium", "title": "Unobtainium Ingot", "icon": "allthemodium:unobtainium_ingot"},
+            ],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}],
         },
         {
             "key": "hearts", "title": "Heart of a Lich",

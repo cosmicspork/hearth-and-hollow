@@ -4,33 +4,19 @@ CHAPTER = {
     "title": "Into the Hollow",
     "subtitle": "Caves worth seeing, ores worth finding, and faster ways to dig",
     "icon": "mininggadgets:mininggadget",
-    # Four tracks you can follow at once: a tour of the cave biomes, the ores by depth down
-    # to the Mining Dimension, what's buried down there, and the Mining Gadget.
+    # The tour fans out from the first cave; the caves themselves, the ores and the buried
+    # places need no order, so they sit in rows. The road to the Mining Dimension and the
+    # Mining Gadget are real chains, one line each.
     "layout": {
         "lines": [
-            {"spine": ["hollow", "lush", "dripstone", "jungle", "fungal", "thermal", "frostfire", "infested",
-                       "tuff", "mantle", "deep_caves", "spelunker"],
-             "branches": {
-                 "hollow": {"down": ["goblin"]},
-                 "infested": {"down": ["cave_spiders"]},
-                 "tuff": {"up": ["stone_caves"]},
-                 "deep_caves": {"up": ["geode"]},
-             }},
-            {"spine": ["common", "shallow", "deep", "deep_dark", "allthemodium", "pad", "mining"],
-             "branches": {
-                 "common": {"up": ["unified"], "down": ["minerals"]},
-                 "deep": {"up": ["node"], "down": ["potions"]},
-                 "mining": {"up": ["layers"]},
-             }},
-            {"spine": ["mineshaft", "dungeon", "stronghold", "ancient_city"],
-             "branches": {
-                 "mineshaft": {"up": ["bush", "berry"]},
-             }},
-            {"spine": ["blank", "gadget", "table", "three", "five"],
-             "branches": {
-                 "gadget": {"down": ["charge"]},
-                 "three": {"up": ["tidy"], "down": ["fortune"]},
-             }},
+            {"flow": ["hollow", ["goblin", "spelunker", "cave_spiders"]]},
+            {"rows": ["lush", "dripstone", "jungle", "fungal", "thermal", "frostfire",
+                      "infested", "tuff", "mantle", "deep_caves", "stone_caves"], "per_row": 6},
+            {"rows": ["common", "shallow", "deep", "minerals", "potions", "geode",
+                      "mineshaft", "dungeon", "stronghold", "ancient_city", "bush", "berry"], "per_row": 6},
+            {"flow": ["deep_dark", "allthemodium", "pad", "mining"]},
+            {"flow": ["blank", "gadget", "table", "three", "five"],
+             "branches": {"three": {"up": ["tidy"], "down": ["fortune"]}}},
         ],
     },
     "quests": [
@@ -40,7 +26,7 @@ CHAPTER = {
             "desc": [
                 "Under every hill there's another world: mossy grottos, ice halls lit by soul lanterns, warm pools, jungles that never see the sun, and rivers of lava near the bottom.",
                 "",
-                "Step into any cave and this chapter opens up. The top line is a tour of the caves themselves. The others follow the ores down, dig up what's buried, and build a gadget that clears a tunnel in seconds.",
+                "Step into any cave and this chapter opens up. The rows below are a tour of the caves themselves, then the ores and what's buried with them. The lines underneath follow the ores down to a dimension of their own, and build a gadget that clears a tunnel in seconds.",
                 "",
                 "Take these torches. It's dark down there.",
             ],
@@ -177,7 +163,7 @@ CHAPTER = {
             "desc": [
                 "Moss, spikes, mud, mushrooms, hot springs, blue ice, cobwebs, tuff, magma and the great dark caverns. You've seen the whole underground.",
                 "",
-                "Visit every cave on this line and this one completes too.",
+                "Visit every cave in the rows below and this one completes too.",
             ],
             "tasks": [
                 {"biome": "minecraft:lush_caves", "title": "Lush Caves", "icon": "minecraft:moss_block"},
@@ -239,18 +225,6 @@ CHAPTER = {
             "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "minecraft:white_wool", "count": 16}],
         },
         {
-            "key": "unified", "title": "One Metal, One Ingot", "shape": "gear",
-            "desc": [
-                "Plenty of mods want tin, lead or osmium, and they all share one set of ores. You'll never end up with three different tin ingots that don't stack.",
-                "",
-                "Each ore comes in stone and deepslate versions, and many have Nether and End versions too. They all smelt to the same thing.",
-                "",
-                "Some gem ores show up in JEI but don't generate in this pack. If an ore isn't in this chapter, don't go looking for it.",
-            ],
-            "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
             "key": "minerals", "title": "Not Just Metal", "optional": True, "icon": "alltheores:fluorite", "wide": True,
             "desc": [
                 "A few ores give something other than metal: &eFluorite&r, &eSulfur&r and &eSalt&r.",
@@ -270,6 +244,8 @@ CHAPTER = {
                 "&eTin&r, &eZinc&r and &eAluminum&r spread through a tall band of stone, from deep caves up into the hills. Any decent caving trip turns some up.",
                 "",
                 "Aluminum climbs highest of all, so look in mountain cliffs too.",
+                "",
+                "Every mod that wants tin, lead or osmium shares one set of ores, so you'll never hold three tin ingots that don't stack. Some gem ores show up in JEI but don't generate in this pack: if an ore isn't in this chapter, don't go looking for it.",
             ],
             "tasks": [
                 {"tag": "c:raw_materials/tin", "title": "Raw Tin", "icon": "alltheores:raw_tin"},
@@ -360,6 +336,8 @@ CHAPTER = {
                 "&ePlatinum&r and &eUranium&r live low, down in the deepslate. Platinum is rare, so don't skip a single block of it.",
                 "",
                 "Treat uranium with respect later on. For now it's just another rock in your pack.",
+                "",
+                "Spot a lump of ore-studded deepslate sitting out on the surface? Straight below it, in the bedrock, is a &eResource Node&r that never runs dry. Note where it is: Oritech's &eBedrock Extractor&r can mine it forever.",
             ],
             "tasks": [
                 {"tag": "c:raw_materials/platinum", "title": "Raw Platinum", "icon": "alltheores:raw_platinum"},
@@ -367,18 +345,6 @@ CHAPTER = {
             ],
             "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "alltheores:raw_osmium", "count": 8},
                         {"item": "alltheores:raw_tin", "count": 8}],
-        },
-        {
-            "key": "node", "title": "Marked by a Boulder", "optional": True, "icon": "minecraft:deepslate",
-            "desc": [
-                "Now and then you'll see a lump of deepslate sitting out on the surface, studded with ore. It's a marker.",
-                "",
-                "Straight below it, down in the bedrock, is a &eResource Node&r. Nodes can't be broken, and they never run dry.",
-                "",
-                "Write down where it is. Oritech's &eBedrock Extractor&r can mine a node forever, once you can power it.",
-            ],
-            "tasks": [{"check": "Found a node"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
             "key": "potions", "title": "Seeing Through Stone", "optional": True, "icon": "potionsmaster:pestle",
@@ -407,7 +373,7 @@ CHAPTER = {
             "desc": [
                 "Point, hold right-click, and a beam melts through stone in front of you.",
                 "",
-                "The &eMining Gadget&r runs on power, a little per block, so it needs charging. The reward includes a &eCharging Station&r to get you started.",
+                "The &eMining Gadget&r runs on power, a little per block, so it needs charging. The reward includes a &eCharging Station&r: feed it coal or logs and it fills whatever sits in its charging slot.",
                 "",
                 "There are three models that differ only in looks, so pick the one you like.",
             ],
@@ -424,16 +390,6 @@ CHAPTER = {
                 "Click an installed upgrade to take it back out.",
             ],
             "tasks": [{"item": "mininggadgets:modificationtable"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "charge", "title": "Full Charge", "icon": "charginggadgets:charging_station",
-            "desc": [
-                "The &eCharging Station&r burns ordinary fuel, like coal or wood, and pours the power into whatever you put in its charging slot.",
-                "",
-                "Drop your gadget in, feed it a few logs, and come back to a full battery. Later on, any machine that charges items will do the same job.",
-            ],
-            "tasks": [{"check": "Charged it"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
@@ -507,22 +463,14 @@ CHAPTER = {
                 "",
                 "Dig as much as you like. Your base back home stays exactly as you left it.",
                 "",
+                "From the top down it's stone, deepslate, netherrack, then end stone above the bedrock. Ores take on the look of the block around them, but they smelt the same.",
+                "",
                 "Take your pad with you, or build another one here, for the trip home.",
             ],
             "tasks": [{"dimension": "allthemodium:mining", "title": "Enter the Mining Dimension",
                        "icon": "allthemodium:teleport_pad"}],
             "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "alltheores:raw_platinum", "count": 8},
                         {"item": "alltheores:raw_silver", "count": 8}],
-        },
-        {
-            "key": "layers", "title": "Layer Cake", "shape": "gear",
-            "desc": [
-                "From the top down, the Mining Dimension is stone, then deepslate, then netherrack, then end stone above the bedrock.",
-                "",
-                "Ores take on the look of the block they're set in, so you'll see Nether and End versions of familiar ores in the lower layers. They smelt the same.",
-            ],
-            "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
             "key": "five", "title": "Five by Five", "shape": "hexagon", "size": 1.5,

@@ -55,11 +55,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["01EFE30897AF9B5A"]
 			id: "26AF74EA4C09B57C"
 			rewards: [
 				{
@@ -90,11 +89,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["01EFE30897AF9B5A"]
 			id: "6AF886AF6C938EDD"
 			rewards: [
 				{
@@ -149,11 +147,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6AF886AF6C938EDD"]
 			id: "533E9A11E9D7F019"
 			rewards: [
 				{
@@ -199,11 +196,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: -1.75d
+			y: 8.5d
 		}
 		{
-			dependencies: ["533E9A11E9D7F019"]
 			id: "6CC432F2B3F3FECF"
 			rewards: [
 				{
@@ -256,11 +252,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6AF886AF6C938EDD"]
 			id: "7EAF12A262A3D126"
 			rewards: [
 				{
@@ -299,11 +294,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
+			x: 1.75d
+			y: 10.25d
 		}
 		{
-			dependencies: ["7EAF12A262A3D126"]
 			id: "4C96A0F8665954F6"
 			optional: true
 			rewards: [
@@ -341,11 +335,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 3.0d
+			x: 3.5d
+			y: 10.25d
 		}
 		{
-			dependencies: ["6AF886AF6C938EDD"]
+			dependencies: ["01EFE30897AF9B5A"]
 			id: "0B84A3E5BE9783DF"
 			rewards: [
 				{
@@ -375,11 +369,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0B84A3E5BE9783DF"]
 			id: "7954892B593269ED"
 			rewards: [
 				{
@@ -409,11 +402,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: -1.75d
+			y: 10.25d
 		}
 		{
-			dependencies: ["7954892B593269ED"]
 			id: "7D8106D659F1FE1E"
 			optional: true
 			rewards: [
@@ -444,11 +436,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: 0.0d
+			y: 10.25d
 		}
 		{
-			dependencies: ["0B84A3E5BE9783DF"]
 			id: "16B6BBC93215E6BF"
 			optional: true
 			rewards: [
@@ -479,11 +470,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 1.5d
+			x: -3.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["16B6BBC93215E6BF"]
 			id: "602CCEDB5F28ED21"
 			optional: true
 			rewards: [
@@ -514,8 +504,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			x: -1.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0B84A3E5BE9783DF"]
@@ -548,8 +538,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6F7946E42B17D436"]
@@ -582,11 +572,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6F7946E42B17D436"]
 			id: "011DA9679A6EC6A1"
 			optional: true
 			rewards: [
@@ -617,47 +606,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["6F7946E42B17D436"]
-			icon: {
-				count: 1
-				id: "solcarrot:food_book"
-			}
-			id: "7176D1C3D0815DF5"
-			rewards: [
-				{
-					id: "5783DC11E861FFD0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "7F834CB747BE4019"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7336271231723C5E"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7176D1C3D0815DF5"]
 			id: "5B8915F850F2D439"
 			rewards: [
 				{
@@ -694,11 +646,10 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.5d
+			x: -3.5d
+			y: 10.25d
 		}
 		{
-			dependencies: ["7176D1C3D0815DF5"]
 			id: "39BE6161684FC574"
 			optional: true
 			rewards: [
@@ -736,11 +687,11 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 1.5d
+			x: 1.75d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7176D1C3D0815DF5"]
+			dependencies: ["01EFE30897AF9B5A"]
 			id: "010C799C31E428CC"
 			rewards: [
 				{
@@ -770,8 +721,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["010C799C31E428CC"]
@@ -820,8 +771,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2D4F71A8058260DE"]
@@ -899,11 +850,10 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -1.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2D4F71A8058260DE"]
 			id: "6269BD5E294CD53A"
 			optional: true
 			rewards: [
@@ -934,57 +884,11 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 1.5d
+			x: 1.75d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2D4F71A8058260DE"]
-			icon: {
-				count: 1
-				id: "solcarrot:food_book"
-			}
-			id: "6F341E1F6E495AC2"
-			rewards: [
-				{
-					id: "46BE18D384FFD83D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "6650E3C86ED61D01"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					id: "62072197BE75639F"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "17C048CD6FFF9B98"
-					type: "checkmark"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6F341E1F6E495AC2"]
+			dependencies: ["01EFE30897AF9B5A"]
 			id: "43FC015E34776F75"
 			rewards: [
 				{
@@ -1014,11 +918,10 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -1.5d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["43FC015E34776F75"]
 			id: "0B29A883C2F19A1E"
 			rewards: [
 				{
@@ -1057,11 +960,11 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -3.0d
+			x: 3.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["0B29A883C2F19A1E"]
+			dependencies: ["43FC015E34776F75"]
 			id: "1807251A0DBF9634"
 			rewards: [
 				{
@@ -1098,11 +1001,11 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -4.5d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["6F341E1F6E495AC2"]
+			dependencies: ["1807251A0DBF9634"]
 			id: "1F62F17ACBD1A0A7"
 			rewards: [
 				{
@@ -1132,11 +1035,11 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 1.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["1F62F17ACBD1A0A7"]
+			dependencies: ["1807251A0DBF9634"]
 			id: "45423E939EF42180"
 			optional: true
 			rewards: [
@@ -1174,11 +1077,11 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["6F341E1F6E495AC2"]
+			dependencies: ["6F7946E42B17D436"]
 			icon: {
 				count: 1
 				id: "farmersdelight:roast_chicken_block"
@@ -1202,6 +1105,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -1219,64 +1123,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6B00282E9FE189A4"]
-			icon: {
-				count: 1
-				id: "solcarrot:food_book"
-			}
-			id: "7A74DD440B26E87A"
-			rewards: [
-				{
-					id: "7340DDDFBFE533CD"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4323A3053ECED524"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5CB31AF42AAB1225"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					id: "46AB2698EE8C3056"
-					item: {
-						count: 1
-						id: "farmersdelight:diamond_knife"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "28ABCB74FC0E9352"
-					type: "checkmark"
-				}
-			]
-			x: 18.0d
-			y: 0.0d
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 }
