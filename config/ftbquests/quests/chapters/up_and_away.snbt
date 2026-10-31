@@ -8,7 +8,7 @@
 		id: "minecraft:feather"
 	}
 	id: "31F28E2FD86A0C95"
-	order_index: 20
+	order_index: 24
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

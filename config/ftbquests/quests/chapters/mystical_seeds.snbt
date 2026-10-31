@@ -1,0 +1,2947 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_seeds"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "mysticalagriculture:iron_seeds"
+	}
+	id: "29E5169153F6AE98"
+	order_index: 20
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F4C91F5619176D3"
+			optional: true
+			rewards: [
+				{
+					id: "4D9EF0A5871419B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "565D3756B1B8FD93"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F0B092E5741C9E7"
+					item: {
+						count: 1
+						id: "mysticalagriculture:air_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "3D632C8DFD66A065"
+			optional: true
+			rewards: [
+				{
+					id: "497F51B3E3032307"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2724F5D77274FD0A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61515561A78F3808"
+					item: {
+						count: 1
+						id: "mysticalagriculture:earth_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			id: "0F807CFA097F3E69"
+			optional: true
+			rewards: [
+				{
+					id: "4B9F28070532CA56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64FCDF3A09F0E589"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C92DD7B793EC444"
+					item: {
+						count: 1
+						id: "mysticalagriculture:water_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "2DCE38A00D7D946D"
+			optional: true
+			rewards: [
+				{
+					id: "675A4E051BA92CE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0620503B692A5624"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57F0014AA8ABABC1"
+					item: {
+						count: 1
+						id: "mysticalagriculture:fire_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 0.0d
+		}
+		{
+			id: "0E76F5E42544E10A"
+			optional: true
+			rewards: [
+				{
+					id: "474A31316C6A2220"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "042C88E0A82AE6B7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1862EAEC7EF656BA"
+					item: {
+						count: 1
+						id: "mysticalagriculture:stone_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1702438719AAB86F"
+			optional: true
+			rewards: [
+				{
+					id: "7BB5FF64F9AFBD0E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "688B60B3B2D14840"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73D2BCFEB3409FBA"
+					item: {
+						count: 1
+						id: "mysticalagriculture:dirt_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			id: "68DF1CC5922CC711"
+			optional: true
+			rewards: [
+				{
+					id: "3E307238C4185AA2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "480BBE170CC19BB2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4ACEC543F0F180A4"
+					item: {
+						count: 1
+						id: "mysticalagriculture:wood_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "4D043AF9B6243935"
+			optional: true
+			rewards: [
+				{
+					id: "4A0F855770B30ACE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17D4A9399B43677A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0DA01295518ACAD7"
+					item: {
+						count: 1
+						id: "mysticalagriculture:ice_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			id: "09A8AF9A6AA54E30"
+			optional: true
+			rewards: [
+				{
+					id: "045E711EFA2B2E7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2F8AEC741E2D50BF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C281D221B2B9DD8"
+					item: {
+						count: 1
+						id: "mysticalagriculture:deepslate_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "3BF64D9230AF6997"
+			optional: true
+			rewards: [
+				{
+					id: "276807A8834E0801"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74D58723E61A4B7A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CC90445E150F605"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nature_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 2.5d
+		}
+		{
+			id: "08AD4AF61A9DB09E"
+			optional: true
+			rewards: [
+				{
+					id: "08FF2264908D0EF8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54B38F596B80E4D9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35464C87E67A7895"
+					item: {
+						count: 1
+						id: "mysticalagriculture:dye_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 2.5d
+		}
+		{
+			id: "7B938B75CEB7363A"
+			optional: true
+			rewards: [
+				{
+					id: "528F074E82002BFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3718082CA7210FB4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33BED621CE234DFE"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nether_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 2.5d
+		}
+		{
+			id: "2E770C9E4123A15C"
+			optional: true
+			rewards: [
+				{
+					id: "2B12660F3E191109"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "167CC46383033C19"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "427DE065EF46DB59"
+					item: {
+						count: 1
+						id: "mysticalagriculture:coal_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 2.5d
+		}
+		{
+			id: "2D9514A153596A71"
+			optional: true
+			rewards: [
+				{
+					id: "4A2A1DA7ED8406C4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0ECAA0ABA24EA2A4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43C6A7D928021931"
+					item: {
+						count: 1
+						id: "mysticalagriculture:coral_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 2.5d
+		}
+		{
+			id: "2E3243F65F1D8531"
+			optional: true
+			rewards: [
+				{
+					id: "5A4298BB1FF3B640"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50E939F036E39B63"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F62D3D1722EC576"
+					item: {
+						count: 1
+						id: "mysticalagriculture:honey_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 2.5d
+		}
+		{
+			id: "294DF3EAAE3D8293"
+			optional: true
+			rewards: [
+				{
+					id: "7F003D021A06ACDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71AFD8E802A93092"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F5834281797D723"
+					item: {
+						count: 1
+						id: "mysticalagriculture:amethyst_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.5d
+		}
+		{
+			id: "08340EB177507491"
+			optional: true
+			rewards: [
+				{
+					id: "08B07094C68CAC97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "318CF99FD805C404"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7619E916E474CCC2"
+					item: {
+						count: 1
+						id: "mysticalagriculture:silicon_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 2.5d
+		}
+		{
+			id: "40DD0279CF0D6C17"
+			optional: true
+			rewards: [
+				{
+					id: "32F2859EF08A1169"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2A2DF8E3282AEE35"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61EEBC4E9424987F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:sulfur_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 2.5d
+		}
+		{
+			id: "1619F2C02A17CF7D"
+			optional: true
+			rewards: [
+				{
+					id: "4B87978AC4AC15E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "584CB9B211F1B998"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "042BD31395BE43FE"
+					item: {
+						count: 1
+						id: "mysticalagriculture:aluminum_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.5d
+		}
+		{
+			id: "6DC303F34BBA5633"
+			optional: true
+			rewards: [
+				{
+					id: "24D1FD932517F8CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C50FE8802CBAC34"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38ADC661CCB1E76F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:mystical_flower_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 4.25d
+		}
+		{
+			id: "52EF6064FBE39C39"
+			optional: true
+			rewards: [
+				{
+					id: "17680254195F5219"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4170A0A10987E677"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18866CB38B143E17"
+					item: {
+						count: 1
+						id: "mysticalagriculture:pig_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 4.25d
+		}
+		{
+			id: "2D2D993BE4529113"
+			optional: true
+			rewards: [
+				{
+					id: "74EC260EE596472B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55ADBE8330FA08B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CE75B0228BB4345"
+					item: {
+						count: 1
+						id: "mysticalagriculture:chicken_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 4.25d
+		}
+		{
+			id: "166E753301E3FD6F"
+			optional: true
+			rewards: [
+				{
+					id: "528BDD905FB2017A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "377B51FC3C043948"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "546762D9E21E2F53"
+					item: {
+						count: 1
+						id: "mysticalagriculture:cow_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 4.25d
+		}
+		{
+			id: "65310972DDC3E3D4"
+			optional: true
+			rewards: [
+				{
+					id: "5DCA617C79D61F8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42CBFE5075A52128"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F3A6E8D4189C897"
+					item: {
+						count: 1
+						id: "mysticalagriculture:sheep_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 4.25d
+		}
+		{
+			id: "36E08B143119F7A7"
+			optional: true
+			rewards: [
+				{
+					id: "406CFF821FCF74BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17FF7A84AC056D82"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "499E63CB914049CC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:squid_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 4.25d
+		}
+		{
+			id: "219585BA15DC8A88"
+			optional: true
+			rewards: [
+				{
+					id: "52298C85A420849D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5691F701AA64C39F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71C0B91D7A8FA34F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:fish_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 4.25d
+		}
+		{
+			id: "7117E38E00A621C3"
+			optional: true
+			rewards: [
+				{
+					id: "1C20DE0514874D24"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E96A9AE1D71D4CC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6035B4CA7C9F12D5"
+					item: {
+						count: 1
+						id: "mysticalagriculture:slime_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 4.25d
+		}
+		{
+			id: "2FCFB1D6520340E7"
+			optional: true
+			rewards: [
+				{
+					id: "5B137FF4089EDADC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BF252EBFA24D210"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49E51C0B1A91F83C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:turtle_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 4.25d
+		}
+		{
+			id: "2321C7120A96F0DF"
+			optional: true
+			rewards: [
+				{
+					id: "6D1F13883A99C533"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01C72EDBC43A51EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "451B4E7FB3877840"
+					item: {
+						count: 1
+						id: "mysticalagriculture:armadillo_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 4.25d
+		}
+		{
+			id: "3C5664E1650BDE50"
+			optional: true
+			rewards: [
+				{
+					id: "5ECA4D131E340EE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3336070F588A0F87"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EF80C64090A0C8C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:iron_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: 6.75d
+		}
+		{
+			id: "1A42B59E69B6F1C7"
+			optional: true
+			rewards: [
+				{
+					id: "6AAB7C48E64C270F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C7F6FAF6C412E5E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3CDFFDF22711BE03"
+					item: {
+						count: 1
+						id: "mysticalagriculture:copper_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 6.75d
+		}
+		{
+			id: "07FAAABD8596911C"
+			optional: true
+			rewards: [
+				{
+					id: "60665EAD8005977D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "171056AA966A0089"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "364B93EBB40BD448"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nether_quartz_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 6.75d
+		}
+		{
+			id: "40901FB0F4228BF8"
+			optional: true
+			rewards: [
+				{
+					id: "45B952AE9AA24C8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "135902C04AEB84E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C744EBC785FB8ED"
+					item: {
+						count: 1
+						id: "mysticalagriculture:glowstone_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.75d
+		}
+		{
+			id: "371978AE8723C437"
+			optional: true
+			rewards: [
+				{
+					id: "0EF2A15E1A585ADB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67F983BEDDAC130D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33C0D30CAB5C9BEB"
+					item: {
+						count: 1
+						id: "mysticalagriculture:redstone_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 6.75d
+		}
+		{
+			id: "1C5A7184F90DB134"
+			optional: true
+			rewards: [
+				{
+					id: "3CC542B3CAAB519E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DC7A45529C71763"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79B6D38E153059BB"
+					item: {
+						count: 1
+						id: "mysticalagriculture:obsidian_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			id: "521DD97A3D5968F0"
+			optional: true
+			rewards: [
+				{
+					id: "2494E48557411E0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C5D65C90E93BAAA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5995AD2227C8FC24"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prismarine_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.75d
+		}
+		{
+			id: "2C571764D7F82FF1"
+			optional: true
+			rewards: [
+				{
+					id: "6AEC17FB42E5453B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76EF7038A4A020A3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20571CF5A8689E0A"
+					item: {
+						count: 1
+						id: "mysticalagriculture:sculk_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.75d
+		}
+		{
+			id: "511C1A8252391199"
+			optional: true
+			rewards: [
+				{
+					id: "641D4986CBE19706"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01E0FD646DE048A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36329E5253C2DC96"
+					item: {
+						count: 1
+						id: "mysticalagriculture:tin_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 6.75d
+		}
+		{
+			id: "323A91C2A6A33074"
+			optional: true
+			rewards: [
+				{
+					id: "24D3E787A6AAFA26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "558A8647C6DF95D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0584D5FE4BAA22F5"
+					item: {
+						count: 1
+						id: "mysticalagriculture:bronze_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.75d
+		}
+		{
+			id: "55E37AD0FF63A6DC"
+			optional: true
+			rewards: [
+				{
+					id: "39B8F8C31B472591"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "324144A3CD9B24F3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66908512C77AD5C1"
+					item: {
+						count: 1
+						id: "mysticalagriculture:zinc_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 6.75d
+		}
+		{
+			id: "26152ABE0D45C272"
+			optional: true
+			rewards: [
+				{
+					id: "02F912902D023E6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "61F524FC2A421A04"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28C9D6015A5D530C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:brass_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 8.5d
+		}
+		{
+			id: "631288BFB2AD915D"
+			optional: true
+			rewards: [
+				{
+					id: "6111EAB16CB1B2FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "225F64FE67330619"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AD3736AB9A7E61F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:silver_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 8.5d
+		}
+		{
+			id: "20E5ED1F094AAD43"
+			optional: true
+			rewards: [
+				{
+					id: "36C1DA5B5621C9A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "699AE276B418790A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1AD0C2FF34DA8635"
+					item: {
+						count: 1
+						id: "mysticalagriculture:lead_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 8.5d
+		}
+		{
+			id: "46DC709AAC0E9FE3"
+			optional: true
+			rewards: [
+				{
+					id: "7F22A1DA5CA6B878"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "798C2347529F2DAB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31677C42A26AB2A1"
+					item: {
+						count: 1
+						id: "mysticalagriculture:quartz_enriched_iron_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 8.5d
+		}
+		{
+			id: "2956723CE089344D"
+			optional: true
+			rewards: [
+				{
+					id: "2D77FE6A5E6CA883"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45E7856CA57D3CEB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34DC8DFED9DC3A81"
+					item: {
+						count: 1
+						id: "mysticalagriculture:zombie_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 8.5d
+		}
+		{
+			id: "601B30B6B06C4E0B"
+			optional: true
+			rewards: [
+				{
+					id: "7F3439059EF68E11"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AC67483E6CE831A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2AC21677D36864B8"
+					item: {
+						count: 1
+						id: "mysticalagriculture:skeleton_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 8.5d
+		}
+		{
+			id: "34B1C23E843A2C09"
+			optional: true
+			rewards: [
+				{
+					id: "38C241DEB64A4016"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5DC2B52FC2404B54"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23F3A72A49D05F82"
+					item: {
+						count: 1
+						id: "mysticalagriculture:creeper_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 8.5d
+		}
+		{
+			id: "2AD377E7C7CA95A3"
+			optional: true
+			rewards: [
+				{
+					id: "40B3E3C2A02CF8AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "35947E86E3DE057D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "72A6210B6B54DFDE"
+					item: {
+						count: 1
+						id: "mysticalagriculture:spider_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 8.5d
+		}
+		{
+			id: "35E5546AB8C6F6DD"
+			optional: true
+			rewards: [
+				{
+					id: "5D070E22FDD5D1D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75239D037A66B257"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42EBA901109461A1"
+					item: {
+						count: 1
+						id: "mysticalagriculture:phantom_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 8.5d
+		}
+		{
+			id: "4FBBBE8BA758801D"
+			optional: true
+			rewards: [
+				{
+					id: "352F286DDB9AF1DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "750CE010BF23B290"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6171E8684B5C12E9"
+					item: {
+						count: 1
+						id: "mysticalagriculture:rabbit_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 8.5d
+		}
+		{
+			id: "313079ED5926FF5B"
+			optional: true
+			rewards: [
+				{
+					id: "4117303CA490B738"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "384C231BF448D6A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5DAFC193485C6FB8"
+					item: {
+						count: 1
+						id: "mysticalagriculture:gold_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -9.625d
+			y: 11.0d
+		}
+		{
+			id: "4DB8FFC84F331577"
+			optional: true
+			rewards: [
+				{
+					id: "5F29309D30DD89CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51FA3E1B0317C22B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "02E401C120327E50"
+					item: {
+						count: 1
+						id: "mysticalagriculture:lapis_lazuli_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 11.0d
+		}
+		{
+			id: "1F7BCF7C2C5317D7"
+			optional: true
+			rewards: [
+				{
+					id: "72D40AF5056E83F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A6105213C6544EF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E440EBB0196AFF0"
+					item: {
+						count: 1
+						id: "mysticalagriculture:end_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 11.0d
+		}
+		{
+			id: "08AF5E67639E7E14"
+			optional: true
+			rewards: [
+				{
+					id: "146A77127FD3632D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BCD321373ECA6DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24D94875CD0A75DE"
+					item: {
+						count: 1
+						id: "mysticalagriculture:experience_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 11.0d
+		}
+		{
+			id: "1AB5DC71B489C069"
+			optional: true
+			rewards: [
+				{
+					id: "796FF570E46BF960"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E1F3953BC139E6B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7570B10BD00230DC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:steel_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 11.0d
+		}
+		{
+			id: "3811E9601ED0EBF7"
+			optional: true
+			rewards: [
+				{
+					id: "3507D71232B93E7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "436526716315BBD9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0179A5A82E67A28D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nickel_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 11.0d
+		}
+		{
+			id: "010EA30DF2010CCD"
+			optional: true
+			rewards: [
+				{
+					id: "4C385B0EBDEDE1E0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "05289832CCAC5DE4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2902ECDBAEE4E213"
+					item: {
+						count: 1
+						id: "mysticalagriculture:constantan_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 11.0d
+		}
+		{
+			id: "38A6322CAD4EF20E"
+			optional: true
+			rewards: [
+				{
+					id: "0873A0FC2A281633"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79C12A8ED596AF99"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B2A030BCE08163F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:electrum_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 11.0d
+		}
+		{
+			id: "6327524005753A2A"
+			optional: true
+			rewards: [
+				{
+					id: "783797C29691D42C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "088E678F0E63196A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "438B0F6946342A51"
+					item: {
+						count: 1
+						id: "mysticalagriculture:invar_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 11.0d
+		}
+		{
+			id: "4C314A69421AD2AC"
+			optional: true
+			rewards: [
+				{
+					id: "1330FFAF0D682982"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D6033CFBED9EA32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "171A8B3607D95807"
+					item: {
+						count: 1
+						id: "mysticalagriculture:uranium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 11.0d
+		}
+		{
+			id: "599F03B9A2B63BB6"
+			optional: true
+			rewards: [
+				{
+					id: "390EB99F3BE9898A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A8B8C8EC1DB6E53"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2BE9A0F29F31AB9D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:soulium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 11.0d
+		}
+		{
+			id: "4EBAF99BC5CF9AAA"
+			optional: true
+			rewards: [
+				{
+					id: "0514AE1289064336"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F56548BACB6F187"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1403442050F1B9BB"
+					item: {
+						count: 1
+						id: "mysticalagriculture:signalum_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 11.0d
+		}
+		{
+			id: "189024CF01577218"
+			optional: true
+			rewards: [
+				{
+					id: "05C97D4813B29AC2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "306D5EEDA5ECCFDA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18FBEFDE49799DB4"
+					item: {
+						count: 1
+						id: "mysticalagriculture:lumium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: 12.75d
+		}
+		{
+			id: "22B1CB8EBCA26B82"
+			optional: true
+			rewards: [
+				{
+					id: "3678A795FC1B8A9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78ED026C1F117F22"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "319C5E478613909F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:osmium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 12.75d
+		}
+		{
+			id: "7265BC04C59307C5"
+			optional: true
+			rewards: [
+				{
+					id: "0955D25D295BE533"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2032F823D4A34F1D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "332FA01BB58DC282"
+					item: {
+						count: 1
+						id: "mysticalagriculture:fluorite_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 12.75d
+		}
+		{
+			id: "6AFB5C2CCFB57C70"
+			optional: true
+			rewards: [
+				{
+					id: "34F7B2D75FE00FC7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3AAFFFD664E5B789"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3BF8043575710101"
+					item: {
+						count: 1
+						id: "mysticalagriculture:refined_glowstone_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 12.75d
+		}
+		{
+			id: "31B34B53A5D264FE"
+			optional: true
+			rewards: [
+				{
+					id: "772475C597BACC6E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "467DC37CE4FF254F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "563034794E7733F5"
+					item: {
+						count: 1
+						id: "mysticalagriculture:refined_obsidian_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 12.75d
+		}
+		{
+			id: "0712ED6C6DCEA76A"
+			optional: true
+			rewards: [
+				{
+					id: "3515F8C471E68734"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FF020A63CB6CD68"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BD7CD2534A299EC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:energized_steel_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.75d
+		}
+		{
+			id: "36810C95B9A33ED7"
+			optional: true
+			rewards: [
+				{
+					id: "0738690B594AE86F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19F7968E74EECB30"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59A4A589EF5E8309"
+					item: {
+						count: 1
+						id: "mysticalagriculture:blazing_crystal_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 12.75d
+		}
+		{
+			id: "1B378960BF299315"
+			optional: true
+			rewards: [
+				{
+					id: "421F4AF81C012839"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7523799881EFA409"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66D97080E680EE2B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:breeze_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 12.75d
+		}
+		{
+			id: "5F8F1CFC350374EF"
+			optional: true
+			rewards: [
+				{
+					id: "5E2BA71158D6C62D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04C1EEFD2533223E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54DB590AD1128955"
+					item: {
+						count: 1
+						id: "mysticalagriculture:blaze_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 12.75d
+		}
+		{
+			id: "5570ACD15D5BFA78"
+			optional: true
+			rewards: [
+				{
+					id: "6960A0C01744EBCC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46941CCA66FD5F2B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "17B7096473A90F13"
+					item: {
+						count: 1
+						id: "mysticalagriculture:ghast_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 12.75d
+		}
+		{
+			id: "75A7CB1D286F0578"
+			optional: true
+			rewards: [
+				{
+					id: "5B0443727CB91021"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18688AEF17E2C6DF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C83F593122F359B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:enderman_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 12.75d
+		}
+		{
+			id: "61ECA7EF470AE0FC"
+			optional: true
+			rewards: [
+				{
+					id: "4490C4F0181B7DF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59A814FC9980646F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0DD3768BBD653B1A"
+					item: {
+						count: 1
+						id: "mysticalagriculture:diamond_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 15.25d
+		}
+		{
+			id: "7FAF9822E465FD9D"
+			optional: true
+			rewards: [
+				{
+					id: "2305DD82C8A658C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "041823C531AD578A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B996D820AA01175"
+					item: {
+						count: 1
+						id: "mysticalagriculture:emerald_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 15.25d
+		}
+		{
+			id: "646E3D84C94D2473"
+			optional: true
+			rewards: [
+				{
+					id: "742C6FD869E00D8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EA3D2343EF38E84"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F3702599D249D00"
+					item: {
+						count: 1
+						id: "mysticalagriculture:netherite_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 15.25d
+		}
+		{
+			id: "3FA66D3E6228E5F7"
+			optional: true
+			rewards: [
+				{
+					id: "5CF688E47D2936A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6EF6E72F5FF95B85"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0068447435D02336"
+					item: {
+						count: 1
+						id: "mysticalagriculture:platinum_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 15.25d
+		}
+		{
+			id: "544179BC4E2025D2"
+			optional: true
+			rewards: [
+				{
+					id: "6DB411521F886998"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "38100B7324C04F92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E42CD989C0620CB"
+					item: {
+						count: 1
+						id: "mysticalagriculture:enderium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.25d
+		}
+		{
+			id: "6AF6C919C410C5A5"
+			optional: true
+			rewards: [
+				{
+					id: "4ADAD63CD7B93AD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6258CA9824880851"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51B4C29D861C5C5B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:niotic_crystal_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 15.25d
+		}
+		{
+			id: "5BD9AD94BF7134DC"
+			optional: true
+			rewards: [
+				{
+					id: "0F67223D992ED49A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07089245799D1830"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7206B4EE336498FD"
+					item: {
+						count: 1
+						id: "mysticalagriculture:spirited_crystal_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 15.25d
+		}
+		{
+			id: "7A75F8E58A00344F"
+			optional: true
+			rewards: [
+				{
+					id: "5F3EECD84E24EB52"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "630FF253AFA6240B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E9B766B94EF3D3C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:uraninite_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 15.25d
+		}
+		{
+			id: "586E7BDC91396CCA"
+			optional: true
+			rewards: [
+				{
+					id: "64B4A5FED733FD2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6626ECE6A6F7401A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63EFA62CCB13CA4F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:wither_skeleton_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 15.25d
+		}
+		{
+			id: "3C05CEF2626143D1"
+			optional: true
+			rewards: [
+				{
+					id: "1C510702A9F79605"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "263EBF55CD10D9D9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F45E6EA238AE464"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nether_star_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 17.75d
+		}
+		{
+			id: "471612BCC2422437"
+			optional: true
+			rewards: [
+				{
+					id: "0340BBF54B176F03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D852B6EF081BE86"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D9F11CC2876D3D5"
+					item: {
+						count: 1
+						id: "mysticalagriculture:dragon_egg_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 17.75d
+		}
+		{
+			id: "23CC42770E083544"
+			optional: true
+			rewards: [
+				{
+					id: "014D974CDD0DF1F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14EC4A755C247A5B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35EB44AF19713B24"
+					item: {
+						count: 1
+						id: "mysticalagriculture:nitro_crystal_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 17.75d
+		}
+		{
+			id: "771ED5DFA445CA89"
+			optional: true
+			rewards: [
+				{
+					id: "5895A5301AF60C1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3452A6FF1C788917"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:allthemodium_seeds"
+					}
+					id: "0A188E8CCEEA48E1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:allthemodium_seeds)item(mysticalagriculture:vibranium_seeds)item(mysticalagriculture:unobtainium_seeds))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 17.75d
+		}
+	]
+}

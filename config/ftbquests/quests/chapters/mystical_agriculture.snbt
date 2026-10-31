@@ -1,0 +1,2339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "mysticalagriculture:inferium_seeds"
+	}
+	id: "6BCB81E1A28243BE"
+	order_index: 19
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			id: "4D56050E73039436"
+			rewards: [
+				{
+					id: "54261610C262FE5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BC6873BEBDE42F8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "73086D43E3FE4B29"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D56050E73039436"]
+			id: "6F48E5221B56C656"
+			rewards: [
+				{
+					id: "20B7111CA827C438"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EDF39EF00BF0EC4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "453E49D46BFD9773"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D56050E73039436"]
+			id: "1031B3A825D82366"
+			rewards: [
+				{
+					id: "33BDCBC00B836DDB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7433F4B35D144760"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2BF3C9B0CA504A39"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_seeds"
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1031B3A825D82366"]
+			id: "3D5510522128253D"
+			rewards: [
+				{
+					id: "020BE2E908FBEE4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5B07BB53B68089D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0E319C0B00ACE047"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_farmland"
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1031B3A825D82366"]
+			id: "39BB442C19716C82"
+			rewards: [
+				{
+					id: "28F8DCC18F70A285"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "144FD117C018F2E8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2412F43E1B4FD393"
+					item: {
+						count: 1
+						id: "mysticalagriculture:infusion_altar"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "716546460C9C13EC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:infusion_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39BB442C19716C82"]
+			id: "6EF490A1F8E868AF"
+			rewards: [
+				{
+					id: "6A988D35904636C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09B1253E7B809446"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:iron_seeds"
+					}
+					id: "6906D1D832010F42"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:stone_seeds)item(mysticalagriculture:dirt_seeds)item(mysticalagriculture:wood_seeds)item(mysticalagriculture:water_seeds)item(mysticalagriculture:air_seeds)item(mysticalagriculture:earth_seeds)item(mysticalagriculture:fire_seeds)item(mysticalagriculture:ice_seeds)item(mysticalagriculture:nature_seeds)item(mysticalagriculture:coal_seeds)item(mysticalagriculture:copper_seeds)item(mysticalagriculture:nether_seeds)item(mysticalagriculture:iron_seeds)item(mysticalagriculture:zombie_seeds)item(mysticalagriculture:gold_seeds)item(mysticalagriculture:diamond_seeds))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39BB442C19716C82"]
+			id: "46378A14A28455C5"
+			rewards: [
+				{
+					id: "34FD9995DFE65EF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "072DAAF0646F5037"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "17E7116AE8F16A4D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:soulium_dagger"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39BB442C19716C82"]
+			id: "4D793935DDBB2B76"
+			rewards: [
+				{
+					id: "1D7EF6439C9E6659"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1261A8EAAF19EF08"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F2FDEDCDC754D6C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:infusion_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D793935DDBB2B76"]
+			id: "1FF8A61D92046A07"
+			rewards: [
+				{
+					id: "44C75A869F8CF082"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "211A3ABBC595653A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51D541EA9D1B08AF"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_seed_base"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "6F8D0D7AD9F16971"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FF8A61D92046A07"]
+			id: "271A362A93370AA1"
+			rewards: [
+				{
+					id: "531190B7E66C435D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0A5E9E0BAC8CD5ED"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "52A6EC89BF7ED004"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "60C7E3D4AC6B3E33"
+					item: {
+						count: 1
+						id: "mysticalagriculture:tertium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["271A362A93370AA1"]
+			id: "3F6ABD274310DE54"
+			rewards: [
+				{
+					id: "30F6A5450DB0C2D6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "222DB4D507D2C39F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74CA0F37F65243D3"
+					item: {
+						count: 1
+						id: "mysticalagriculture:tertium_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "00172CFC902E0105"
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F6ABD274310DE54"]
+			id: "1A1905EFB2633500"
+			rewards: [
+				{
+					id: "2729DEAECE8D02F3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "663158B70A44F0B4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "26E5D55DE575AB4E"
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3C047C37DE3FAC9B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A1905EFB2633500"]
+			id: "4F1F15B6CB784DCB"
+			rewards: [
+				{
+					id: "6B5A1F8E449C00AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3C580072FF2EE484"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "52C0A61DC8650FDF"
+					item: {
+						count: 1
+						id: "mysticalagriculture:master_infusion_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A1905EFB2633500"]
+			icon: {
+				count: 1
+				id: "mysticalagradditions:insanium_essence"
+			}
+			id: "782F22D054F2DD83"
+			rewards: [
+				{
+					id: "79156578CFC9F46F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "684F8E7199159C6B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "765B5A2D79386070"
+					item: {
+						count: 1
+						id: "mysticalagradditions:insanium_farmland"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0A407E602EB8150F"
+					item: {
+						count: 1
+						id: "mysticalagradditions:insanium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:inferium_pickaxe"
+			}
+			id: "6250A25C1A8F4027"
+			rewards: [
+				{
+					id: "65C9F8CB63785DDE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23B502642162D0A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:inferium_pickaxe"
+					}
+					id: "6129F32365DC6C0A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_sword)item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:inferium_axe)item(mysticalagriculture:inferium_shovel)item(mysticalagriculture:inferium_hoe)item(mysticalagriculture:inferium_sickle)item(mysticalagriculture:inferium_scythe)item(mysticalagriculture:inferium_bow)item(mysticalagriculture:inferium_crossbow)item(mysticalagriculture:inferium_shears)item(mysticalagriculture:inferium_fishing_rod)item(mysticalagriculture:inferium_helmet)item(mysticalagriculture:inferium_chestplate)item(mysticalagriculture:inferium_leggings)item(mysticalagriculture:inferium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6250A25C1A8F4027"]
+			id: "6FF315F37048EB75"
+			optional: true
+			rewards: [
+				{
+					id: "7FE5ABA60859FF3F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6761AB2D3CABBE61"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:diamond_sickle"
+					}
+					id: "5622597078D1368D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:diamond_sickle)item(mysticalagriculture:diamond_scythe))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6250A25C1A8F4027"]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:prudentium_pickaxe"
+			}
+			id: "31F5A358CE8F8C15"
+			rewards: [
+				{
+					id: "07908D35D7B4AEC0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26C59A0410FC07BC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:prudentium_pickaxe"
+					}
+					id: "5A67654ABD8E0F54"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:prudentium_sword)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:prudentium_axe)item(mysticalagriculture:prudentium_shovel)item(mysticalagriculture:prudentium_hoe)item(mysticalagriculture:prudentium_sickle)item(mysticalagriculture:prudentium_scythe)item(mysticalagriculture:prudentium_bow)item(mysticalagriculture:prudentium_crossbow)item(mysticalagriculture:prudentium_shears)item(mysticalagriculture:prudentium_fishing_rod)item(mysticalagriculture:prudentium_helmet)item(mysticalagriculture:prudentium_chestplate)item(mysticalagriculture:prudentium_leggings)item(mysticalagriculture:prudentium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31F5A358CE8F8C15"]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:tertium_pickaxe"
+			}
+			id: "627CB43059F48766"
+			rewards: [
+				{
+					id: "00DF42DDD35BD4D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D4528D7EA9B89F8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:tertium_pickaxe"
+					}
+					id: "3C99B32E8EFB91C9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:tertium_sword)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:tertium_axe)item(mysticalagriculture:tertium_shovel)item(mysticalagriculture:tertium_hoe)item(mysticalagriculture:tertium_sickle)item(mysticalagriculture:tertium_scythe)item(mysticalagriculture:tertium_bow)item(mysticalagriculture:tertium_crossbow)item(mysticalagriculture:tertium_shears)item(mysticalagriculture:tertium_fishing_rod)item(mysticalagriculture:tertium_helmet)item(mysticalagriculture:tertium_chestplate)item(mysticalagriculture:tertium_leggings)item(mysticalagriculture:tertium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["627CB43059F48766"]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:imperium_pickaxe"
+			}
+			id: "62935F01AE8F7AB6"
+			rewards: [
+				{
+					id: "6B8F4F7CF4139CEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5896165ACF04C82D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:imperium_pickaxe"
+					}
+					id: "7500573A454ACA1E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:imperium_sword)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:imperium_axe)item(mysticalagriculture:imperium_shovel)item(mysticalagriculture:imperium_hoe)item(mysticalagriculture:imperium_sickle)item(mysticalagriculture:imperium_scythe)item(mysticalagriculture:imperium_bow)item(mysticalagriculture:imperium_crossbow)item(mysticalagriculture:imperium_shears)item(mysticalagriculture:imperium_fishing_rod)item(mysticalagriculture:imperium_helmet)item(mysticalagriculture:imperium_chestplate)item(mysticalagriculture:imperium_leggings)item(mysticalagriculture:imperium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62935F01AE8F7AB6"]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:supremium_pickaxe"
+			}
+			id: "1762969A24C7FE6C"
+			rewards: [
+				{
+					id: "08032F33BD4E8D9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "346E25C5DBC7D7E2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:supremium_pickaxe"
+					}
+					id: "4BE33E0559ACFF8F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:supremium_sword)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:supremium_axe)item(mysticalagriculture:supremium_shovel)item(mysticalagriculture:supremium_hoe)item(mysticalagriculture:supremium_sickle)item(mysticalagriculture:supremium_scythe)item(mysticalagriculture:supremium_bow)item(mysticalagriculture:supremium_crossbow)item(mysticalagriculture:supremium_shears)item(mysticalagriculture:supremium_fishing_rod)item(mysticalagriculture:supremium_helmet)item(mysticalagriculture:supremium_chestplate)item(mysticalagriculture:supremium_leggings)item(mysticalagriculture:supremium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:absorption_i_augment"
+			}
+			id: "77A2B74DBCBC2282"
+			optional: true
+			rewards: [
+				{
+					id: "00FE46C69D16E4A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47258E24CD8C1962"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:absorption_i_augment"
+					}
+					id: "69F6A5A68E080B78"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:absorption_i_augment)item(mysticalagriculture:absorption_ii_augment)item(mysticalagriculture:absorption_iii_augment)item(mysticalagriculture:absorption_iv_augment)item(mysticalagriculture:absorption_v_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:health_boost_i_augment"
+			}
+			id: "0F3758AE2DF5B079"
+			optional: true
+			rewards: [
+				{
+					id: "13692AFA8D781E80"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "495E63C30F6C5916"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:health_boost_i_augment"
+					}
+					id: "554C34076357C31F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:health_boost_i_augment)item(mysticalagriculture:health_boost_ii_augment)item(mysticalagriculture:health_boost_iii_augment)item(mysticalagriculture:health_boost_iv_augment)item(mysticalagriculture:health_boost_v_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:strength_i_augment"
+			}
+			id: "757591B2843F68FA"
+			optional: true
+			rewards: [
+				{
+					id: "4A6708B7EE0E1432"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2500C00437F94B35"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:strength_i_augment"
+					}
+					id: "63C1160E03302EA0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:strength_i_augment)item(mysticalagriculture:strength_ii_augment)item(mysticalagriculture:strength_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:attack_aoe_i_augment"
+			}
+			id: "20328547FDC8F3A3"
+			optional: true
+			rewards: [
+				{
+					id: "5B635B1788589A96"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CC96293A7928A79"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:attack_aoe_i_augment"
+					}
+					id: "68B1DF677BD1C839"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:attack_aoe_i_augment)item(mysticalagriculture:attack_aoe_ii_augment)item(mysticalagriculture:attack_aoe_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:speed_i_augment"
+			}
+			id: "496A9777A921F518"
+			optional: true
+			rewards: [
+				{
+					id: "2CCBB667C47BFE5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DF4EECDCBE57C53"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:speed_i_augment"
+					}
+					id: "2C9D7E28022E6777"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:speed_i_augment)item(mysticalagriculture:speed_ii_augment)item(mysticalagriculture:speed_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:jump_boost_i_augment"
+			}
+			id: "449AD8F163FAB64B"
+			optional: true
+			rewards: [
+				{
+					id: "422F81311DD09D66"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2329C7F6B962AD72"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:jump_boost_i_augment"
+					}
+					id: "2930FC12E704DD15"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:jump_boost_i_augment)item(mysticalagriculture:jump_boost_ii_augment)item(mysticalagriculture:jump_boost_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:haste_i_augment"
+			}
+			id: "712C67596C1DB470"
+			optional: true
+			rewards: [
+				{
+					id: "24E110AD0830B2EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BB776B5423947A4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:haste_i_augment"
+					}
+					id: "6EA6B674392D8099"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:haste_i_augment)item(mysticalagriculture:haste_ii_augment)item(mysticalagriculture:haste_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:mining_aoe_i_augment"
+			}
+			id: "436D95697CAFF8B1"
+			optional: true
+			rewards: [
+				{
+					id: "5E3379452ED56908"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3137EADE94F4D896"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:mining_aoe_i_augment"
+					}
+					id: "6701EFEB6E80B80F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:mining_aoe_i_augment)item(mysticalagriculture:mining_aoe_ii_augment)item(mysticalagriculture:mining_aoe_iii_augment)item(mysticalagriculture:mining_aoe_iv_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:pathing_aoe_i_augment"
+			}
+			id: "13695F7F355074C4"
+			optional: true
+			rewards: [
+				{
+					id: "1F7657E4C418C395"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10FD0036899613E9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:pathing_aoe_i_augment"
+					}
+					id: "5E7F752E00AEE059"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:pathing_aoe_i_augment)item(mysticalagriculture:pathing_aoe_ii_augment)item(mysticalagriculture:pathing_aoe_iii_augment)item(mysticalagriculture:pathing_aoe_iv_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:tilling_aoe_i_augment"
+			}
+			id: "4A2D493AC7A46C5C"
+			optional: true
+			rewards: [
+				{
+					id: "2D9953BC0F3A3866"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B4BB97286C01F69"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:tilling_aoe_i_augment"
+					}
+					id: "471C80AA62FC09D0"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:tilling_aoe_i_augment)item(mysticalagriculture:tilling_aoe_ii_augment)item(mysticalagriculture:tilling_aoe_iii_augment)item(mysticalagriculture:tilling_aoe_iv_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:luck_i_augment"
+			}
+			id: "348D7F1B4EDB2839"
+			optional: true
+			rewards: [
+				{
+					id: "4DC3AC2A469FAA03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C6574B4A1BFD02A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:luck_i_augment"
+					}
+					id: "343AA120B8CFF47E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:luck_i_augment)item(mysticalagriculture:luck_ii_augment)item(mysticalagriculture:luck_iii_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:flight_augment"
+			}
+			id: "3EB0FFC5F8A26280"
+			optional: true
+			rewards: [
+				{
+					id: "70DEBCA6ED34D3FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "127F9BD5C13733A5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12DE2D894FB9CFD1"
+					item: {
+						count: 1
+						id: "mysticalagriculture:flight_augment"
+					}
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:night_vision_augment"
+			}
+			id: "024CB470C736AB9B"
+			optional: true
+			rewards: [
+				{
+					id: "775847F0FB249E86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4556C450B3D2638F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48CAFF4329BA2C1E"
+					item: {
+						count: 1
+						id: "mysticalagriculture:night_vision_augment"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:no_fall_damage_augment"
+			}
+			id: "6D8ED61924431C78"
+			optional: true
+			rewards: [
+				{
+					id: "5725977D78286307"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C16EB445CAE95E6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "514689C3B0A34828"
+					item: {
+						count: 1
+						id: "mysticalagriculture:no_fall_damage_augment"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:slow_falling_augment"
+			}
+			id: "32D28F186D19C096"
+			optional: true
+			rewards: [
+				{
+					id: "22D7293E092EC109"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F36E5AA4376AECA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "313C9543D513A3DA"
+					item: {
+						count: 1
+						id: "mysticalagriculture:slow_falling_augment"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:step_assist_augment"
+			}
+			id: "7C6244E10519CA08"
+			optional: true
+			rewards: [
+				{
+					id: "4E7A04CF6687196D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04564579E769FA2C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "209993B2E0BD74F9"
+					item: {
+						count: 1
+						id: "mysticalagriculture:step_assist_augment"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:water_breathing_augment"
+			}
+			id: "43F0E240C807DA14"
+			optional: true
+			rewards: [
+				{
+					id: "4CB68E908B8D8F62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DF3E6883F99055D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27B9A43961703342"
+					item: {
+						count: 1
+						id: "mysticalagriculture:water_breathing_augment"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:blindness_resistance_augment"
+			}
+			id: "51BED4F4140F3C49"
+			optional: true
+			rewards: [
+				{
+					id: "6173D496A8338F4D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63896C6C5DFBB6F2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:blindness_resistance_augment"
+					}
+					id: "148407FA979E76AC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:blindness_resistance_augment)item(mysticalagriculture:fire_resistance_augment)item(mysticalagriculture:hunger_resistance_augment)item(mysticalagriculture:mining_fatigue_resistance_augment)item(mysticalagriculture:nausea_resistance_augment)item(mysticalagriculture:poison_resistance_augment)item(mysticalagriculture:slowness_resistance_augment)item(mysticalagriculture:weakness_resistance_augment)item(mysticalagriculture:wither_resistance_augment))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 15.25d
+		}
+		{
+			id: "1579194BF2C094AE"
+			rewards: [
+				{
+					id: "64F10465F0C392C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3232E3944F85764C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12CFD90731F3CF7B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:tinkering_table"
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: 13.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:cognizant_dust"
+			}
+			id: "033A3F06B0ACAA5B"
+			rewards: [
+				{
+					id: "40959F09F52B2A86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31F0C2ADEDCC694C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2703B5B4FC84EBA0"
+					item: {
+						count: 1
+						id: "mysticalagriculture:cognizant_dust"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			id: "766FB3578F483F11"
+			rewards: [
+				{
+					id: "1C5767D410CB47F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3DCB8FB37174F4D2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5120552B08CA747C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:awakening_altar"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4019FF432BE8319D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:awakening_pedestal"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23EBEB0E78CA3F82"
+					item: {
+						count: 1
+						id: "mysticalagriculture:essence_vessel"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"033A3F06B0ACAA5B"
+				"766FB3578F483F11"
+			]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_essence"
+			}
+			id: "14B1F4BA1A3BE476"
+			rewards: [
+				{
+					id: "5034FB8AA9C16E30"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0DECDF9C335F9BBD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5862894E64B743E4"
+					item: {
+						count: 1
+						id: "mysticalagriculture:awakened_supremium_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["14B1F4BA1A3BE476"]
+			icon: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_pickaxe"
+			}
+			id: "5BAEA4802FBF8642"
+			rewards: [
+				{
+					id: "332B40501377172B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0697728A4DDC281B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:awakened_supremium_pickaxe"
+					}
+					id: "200341A844E01721"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:awakened_supremium_sword)item(mysticalagriculture:awakened_supremium_pickaxe)item(mysticalagriculture:awakened_supremium_axe)item(mysticalagriculture:awakened_supremium_shovel)item(mysticalagriculture:awakened_supremium_hoe)item(mysticalagriculture:awakened_supremium_sickle)item(mysticalagriculture:awakened_supremium_scythe)item(mysticalagriculture:awakened_supremium_bow)item(mysticalagriculture:awakened_supremium_crossbow)item(mysticalagriculture:awakened_supremium_shears)item(mysticalagriculture:awakened_supremium_fishing_rod)item(mysticalagriculture:awakened_supremium_helmet)item(mysticalagriculture:awakened_supremium_chestplate)item(mysticalagriculture:awakened_supremium_leggings)item(mysticalagriculture:awakened_supremium_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:machine_frame"
+			}
+			id: "324ADC650C2BE914"
+			rewards: [
+				{
+					id: "0C72F5D8C9E40D04"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "079A71D3C678A945"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "671E145AA0F4EAC9"
+					item: {
+						count: 1
+						id: "mysticalagriculture:machine_frame"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 17.75d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:furnace"
+			}
+			id: "2CE9E90ADDC9A07E"
+			rewards: [
+				{
+					id: "0EA38D2AAC7DA72E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17AA947B882BADE0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0FDEC004525408A4"
+					item: {
+						count: 1
+						id: "mysticalagriculture:furnace"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 17.75d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagriculture:inferium_upgrade"
+			}
+			id: "33A50FC8109294C4"
+			optional: true
+			rewards: [
+				{
+					id: "55822C2FFCC35C2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32AA9BD0EEBEB27A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:inferium_upgrade"
+					}
+					id: "3B4BD2747E6D0B6A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_upgrade)item(mysticalagriculture:prudentium_upgrade)item(mysticalagriculture:tertium_upgrade)item(mysticalagriculture:imperium_upgrade)item(mysticalagriculture:supremium_upgrade)item(mysticalagriculture:awakened_supremium_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 17.75d
+		}
+		{
+			id: "08AC6105437441ED"
+			rewards: [
+				{
+					id: "5A2451B52D23290E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76614A148AE4F86E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "68BBA1A1A4D11C9C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:seed_reprocessor"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 17.75d
+		}
+		{
+			id: "3FBFB60D607AD27A"
+			rewards: [
+				{
+					id: "4302EB2B36C57922"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26EC8F5C4F9F8A30"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "53A46D472A772578"
+					item: {
+						count: 1
+						id: "mysticalagriculture:soul_extractor"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.75d
+		}
+		{
+			id: "624FBB674E7F2B30"
+			rewards: [
+				{
+					id: "1F6E996BE34136F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3403A26F5F702F2B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00AC80877164979F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:harvester"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 17.75d
+		}
+		{
+			id: "1BD36E35D7190F10"
+			rewards: [
+				{
+					id: "492F1008E8015AF8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "44B414E76E07A68E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "314AC1DC4634D378"
+					item: {
+						count: 1
+						id: "mysticalagriculture:enchanter"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 17.75d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagradditions:inferium_paxel"
+			}
+			id: "0D4A947038B9D40A"
+			rewards: [
+				{
+					id: "4BB15DBD4DD5AD61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72CB65671DEEB897"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagradditions:inferium_paxel"
+					}
+					id: "5E90F60A36478CD5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagradditions:inferium_paxel)item(mysticalagradditions:prudentium_paxel)item(mysticalagradditions:tertium_paxel)item(mysticalagradditions:imperium_paxel)item(mysticalagradditions:supremium_paxel)item(mysticalagradditions:awakened_supremium_paxel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 15.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mysticalagradditions:inferium_apple"
+			}
+			id: "489918314A63604D"
+			optional: true
+			rewards: [
+				{
+					id: "1D65F0190B2B060E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1289EE00C75DADA8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagradditions:inferium_apple"
+					}
+					id: "629E12AFE2E1F1C7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagradditions:inferium_apple)item(mysticalagradditions:prudentium_apple)item(mysticalagradditions:tertium_apple)item(mysticalagradditions:imperium_apple)item(mysticalagradditions:supremium_apple)item(mysticalagradditions:insanium_apple))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 15.25d
+		}
+		{
+			id: "07EDE8A242B51AB2"
+			rewards: [
+				{
+					id: "2ED543D1E6A93B41"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "714DD4E0A5227249"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D105DA355771582"
+					item: {
+						count: 1
+						id: "mysticalagradditions:withering_soul"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 21.75d
+		}
+		{
+			dependencies: ["07EDE8A242B51AB2"]
+			id: "621216B711D6C4DC"
+			optional: true
+			rewards: [
+				{
+					id: "6BD8839D713140A6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "60E2B7A3341A5C91"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mysticalagriculture:witherproof_bricks"
+					}
+					id: "1985FCED07EF8F1F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mysticalagriculture:witherproof_block)item(mysticalagriculture:witherproof_bricks)item(mysticalagriculture:witherproof_glass))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 20.25d
+		}
+		{
+			dependencies: ["07EDE8A242B51AB2"]
+			id: "059037054F4BBC09"
+			rewards: [
+				{
+					id: "2B86E2EA62FBFEC7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "560FF863E7CED3AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "634694F30F95FBCD"
+					item: {
+						count: 1
+						id: "mysticalagradditions:nether_star_crux"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 21.75d
+		}
+		{
+			id: "3ACFD3F5F95A12C3"
+			rewards: [
+				{
+					id: "728BB2BFBDE7DB8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78E6AB6E638455FF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "783EBE56DC9CE815"
+					item: {
+						count: 1
+						id: "mysticalagradditions:dragon_scale"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 23.25d
+		}
+		{
+			dependencies: ["3ACFD3F5F95A12C3"]
+			id: "6FBC06855929E17C"
+			rewards: [
+				{
+					id: "4C4D1A5F562656C4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7F5C6FC7C2C9DBFC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7B9910BB49AA85A2"
+					item: {
+						count: 1
+						id: "mysticalagradditions:dragon_egg_crux"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 23.25d
+		}
+	]
+}
