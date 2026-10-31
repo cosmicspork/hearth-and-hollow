@@ -8,7 +8,7 @@
 		id: "mekanismgenerators:fission_reactor_casing"
 	}
 	id: "63310C5774205A41"
-	order_index: 12
+	order_index: 15
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -63,7 +63,7 @@
 				}
 			]
 			x: -4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["584BA33364A3188B"]
@@ -97,7 +97,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["018658BB468A1E76"]
@@ -141,7 +141,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7FEE886F83E9709B"]
@@ -184,7 +184,7 @@
 				}
 			]
 			x: 2.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["764B3DFBA120D935"]
@@ -232,10 +232,9 @@
 				}
 			]
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["487B7226DAD01AE2"]
 			icon: {
 				count: 1
 				id: "mekanism:hazmat_mask"
@@ -302,11 +301,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: -6.125d
+			y: 11.5d
 		}
 		{
-			dependencies: ["487B7226DAD01AE2"]
 			id: "1C36DF7EAAA290B4"
 			optional: true
 			rewards: [
@@ -337,8 +335,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			x: -4.375d
+			y: 11.5d
 		}
 		{
 			icon: {
@@ -395,7 +393,7 @@
 				}
 			]
 			x: -3.0d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["21E7128ADDBE1FDA"]
@@ -439,7 +437,7 @@
 				}
 			]
 			x: -1.0d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11040994E44DA3A9"]
@@ -491,7 +489,7 @@
 				}
 			]
 			x: 1.0d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0251B5C76B9DB63E"]
@@ -527,10 +525,9 @@
 				}
 			]
 			x: 3.0d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0251B5C76B9DB63E"]
 			icon: {
 				count: 1
 				id: "mekanism:boiler_casing"
@@ -584,8 +581,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 7.0d
+			x: -2.625d
+			y: 11.5d
 		}
 		{
 			icon: {
@@ -620,8 +617,8 @@
 					type: "advancement"
 				}
 			]
-			x: -2.0d
-			y: 9.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["39E401E4A9D05B9C"]
@@ -655,11 +652,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 9.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["399CBDCC664EE39F"]
 			id: "0B984B38CCB4FA21"
 			optional: true
 			rewards: [
@@ -690,10 +686,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 9.5d
+			x: -0.875d
+			y: 11.5d
 		}
 		{
+			dependencies: ["399CBDCC664EE39F"]
 			icon: {
 				count: 1
 				id: "mekanism:sps_casing"
@@ -747,11 +744,10 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 15.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["76DEA42704713281"]
 			icon: {
 				count: 1
 				id: "minecraft:carrot"
@@ -784,11 +780,10 @@
 					type: "advancement"
 				}
 			]
-			x: -2.0d
-			y: 13.5d
+			x: 0.875d
+			y: 11.5d
 		}
 		{
-			dependencies: ["5AD8924B275D40B4"]
 			icon: {
 				count: 1
 				id: "minecraft:creeper_head"
@@ -821,11 +816,10 @@
 					type: "advancement"
 				}
 			]
-			x: -2.0d
-			y: 12.0d
+			x: 2.625d
+			y: 11.5d
 		}
 		{
-			dependencies: ["76DEA42704713281"]
 			icon: {
 				count: 1
 				id: "minecraft:red_mushroom"
@@ -858,11 +852,10 @@
 					type: "advancement"
 				}
 			]
-			x: -2.0d
-			y: 16.5d
+			x: 4.375d
+			y: 11.5d
 		}
 		{
-			dependencies: ["23BEEC700CF05695"]
 			icon: {
 				count: 1
 				id: "minecraft:emerald"
@@ -895,8 +888,8 @@
 					type: "advancement"
 				}
 			]
-			x: -2.0d
-			y: 18.0d
+			x: 6.125d
+			y: 11.5d
 		}
 		{
 			dependencies: ["76DEA42704713281"]
@@ -929,8 +922,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 15.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["16DF7C38ED7D6E80"]
@@ -968,8 +961,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 15.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -1006,8 +999,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 20.5d
+			x: -2.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["352A68ABC78A600F"]
@@ -1040,11 +1033,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 20.5d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["19F9892805712E60"]
+			dependencies: ["352A68ABC78A600F"]
 			id: "2FEBF68152976A36"
 			rewards: [
 				{
@@ -1074,11 +1067,14 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 20.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["2FEBF68152976A36"]
+			dependencies: [
+				"19F9892805712E60"
+				"2FEBF68152976A36"
+			]
 			icon: {
 				count: 1
 				id: "mekanismgenerators:fusion_reactor_controller"
@@ -1139,8 +1135,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 20.5d
+			x: 2.0d
+			y: 8.25d
 		}
 		{
 			icon: {
@@ -1180,11 +1176,10 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 23.0d
+			x: -7.875d
+			y: 14.0d
 		}
 		{
-			dependencies: ["4AF0645E20E7A0F2"]
 			icon: {
 				count: 1
 				id: "mekanism:creative_energy_cube"
@@ -1219,11 +1214,10 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 23.0d
+			x: -6.125d
+			y: 14.0d
 		}
 		{
-			dependencies: ["3E3B7C679E42B4C1"]
 			icon: {
 				count: 1
 				id: "ironjetpacks:jetpack"
@@ -1262,11 +1256,10 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 23.0d
+			x: -4.375d
+			y: 14.0d
 		}
 		{
-			dependencies: ["6C80442F197B2646"]
 			icon: {
 				count: 1
 				id: "mekanism:creative_chemical_tank"
@@ -1301,11 +1294,10 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 23.0d
+			x: -2.625d
+			y: 14.0d
 		}
 		{
-			dependencies: ["7692BBE580897F2C"]
 			icon: {
 				count: 1
 				id: "mekanism:creative_fluid_tank"
@@ -1340,11 +1332,10 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 23.0d
+			x: -0.875d
+			y: 14.0d
 		}
 		{
-			dependencies: ["3612B5B973D72E55"]
 			icon: {
 				count: 1
 				id: "mekanism:creative_bin"
@@ -1379,11 +1370,10 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 23.0d
+			x: 0.875d
+			y: 14.0d
 		}
 		{
-			dependencies: ["6004D81354E9AFC5"]
 			icon: {
 				count: 1
 				id: "powah:energy_cell_creative"
@@ -1418,11 +1408,10 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 23.0d
+			x: 2.625d
+			y: 14.0d
 		}
 		{
-			dependencies: ["1E261AFA56C9638A"]
 			icon: {
 				count: 1
 				id: "refinedstorage:creative_controller"
@@ -1457,11 +1446,10 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 23.0d
+			x: 4.375d
+			y: 14.0d
 		}
 		{
-			dependencies: ["7B9B8D75659E2AD4"]
 			icon: {
 				count: 1
 				id: "universalgrid:creative_wireless_universal_grid"
@@ -1496,11 +1484,10 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 23.0d
+			x: 6.125d
+			y: 14.0d
 		}
 		{
-			dependencies: ["1F88D25274EF81E4"]
 			icon: {
 				count: 1
 				id: "mininggadgets:upgrade_battery_creative"
@@ -1535,8 +1522,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 23.0d
+			x: 7.875d
+			y: 14.0d
 		}
 	]
 }

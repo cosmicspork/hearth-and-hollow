@@ -62,19 +62,19 @@ hash = "f08cb9e93177347bd05fae88b8533afe0f371b37dd1d3f35259aa8b3226ec88d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alloy_paxel.snbt"
-hash = "42305e458492dec3d5b75d5ddb9284bdbcbecca58a525a4a955a7d7109910b74"
+hash = "cf5cebe2d1068fecce22b2334109592dabfd1a18b056149a44d1aabe78d83e07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/allthemodium_ascent.snbt"
-hash = "eca64cdc420fbac6fa554353cb2ab741a89c4a7b652d836b116a835f07693fda"
+hash = "2be405ddee326c058c7217567dbbb77ea9131d32a871f9a6d767ae2eba0e2cc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/almanac.snbt"
-hash = "e872f27afc72b7409e550ad35d5e182cccdd16e9fe3ea9180d9209a98aacc75a"
+hash = "eef9185970e541bac4ea73455c59ece0384bfc320b3837ffdeeb37de2797f912"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
-hash = "9f1f1dc0e0fbbfc29489505a97b60634f0aea3fae0c739de6723a00bb9653f3d"
+hash = "352f7e9f5243df4fa648a33d0835ef68cc80fe7900ab23ffb7a5de5fba75fcad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/builders_bench.snbt"
@@ -85,8 +85,12 @@ file = "config/ftbquests/quests/chapters/curios_and_keepsakes.snbt"
 hash = "dd2273289350028f38e8606aac4a69355b882f899e80141cbc0d69c4c610c29e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/furnaces.snbt"
+hash = "2d017a52c6c64037f574455b8f7b0dfeada6acae12c25110d81830966c008d3c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/green_thumb.snbt"
-hash = "fc7705c231f53c0cf5622ce2496e161a62ceca4b4303afa565e342db51fea49f"
+hash = "bd90b2e92cc5c656cddca8b7d81de544f1627f02e64c5e71f92e0d3a178c84ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hearth_and_table.snbt"
@@ -97,12 +101,20 @@ file = "config/ftbquests/quests/chapters/into_the_hollow.snbt"
 hash = "86a380bd55b85e441c7c0c01de5c92c27ed5539de53c958a50ec94a2d88dc967"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/logistics.snbt"
+hash = "69cf1472504596fedcc9ab0e3b6721da91f8ee5a2461ccbdfab6109f737d1c3c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "283055d3504e7148ec4adbd94a23f19a51aad03073cf5dc6c133b7d928319ce7"
+hash = "0a9ac09db4101b9b0e8aced67b1058bca891110c1c9e0c94b51372f3f443ab92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism_reactors.snbt"
-hash = "66b63297183f8a4a0e02ec9ce489d2d7e8c13c8f278584468ad38ca8f4cb5a30"
+hash = "7edbdf5c1e6d31af20d7fe9ebd8e89ca244e9f618c136b6bdb5a0a6f03f8da53"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism_systems.snbt"
+hash = "542ebf9f627f194049958383cadc9a2454669f233cfa66276ed2e49a078ee07a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/monsters_and_mettle.snbt"
@@ -110,19 +122,27 @@ hash = "4f5b570d7050377e745d3d1e9c14d0de663901b16b135654b9b906428372e0cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "8e983ac402fcf096ef37e562378ea608e86c0d425a30690c9d5946c43ab3cc9e"
+hash = "9eeebc7d17e25baae1927eff75af39cd54fe06d891dccb3d52475a675613c642"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oritech_kit.snbt"
+hash = "9fc55f3ea53377fcb84d2ab46d0a90da0ad4e491058f38c80cee5ecab46fd94e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/packing_it_in.snbt"
-hash = "d423ff02e8a895daca16010f9ce29ec5f75e381ac975cabbcf45371f14bcc392"
+hash = "6775449969ba06bb1dc364956ebbaf80321c4599fa4e0dea83519e3c910d13ff"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/refined_automation.snbt"
+hash = "a28e75bf86f2dd4901d73aea4a3f9051bc71719a06e530cf8685591237b70ec6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/refined_storage.snbt"
-hash = "930ec5a94ba01fef3ed91f2bccfe8b95041c95a578c642b409500c87bcac194f"
+hash = "dcfe3a41a498d6826fd3762525e05fbcfa6a53ed87f8b8d8f38f16769ede0e05"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sparks.snbt"
-hash = "b634ee80b0b7ff7b6f24e1d6af2a095f80c50a5298a5b068ac7352a7edc505dc"
+hash = "03f0acbf993ddf58e79661d8e306c95411a996be227330e7e1638dd7c114a107"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_of_the_trade.snbt"
@@ -130,7 +150,7 @@ hash = "2bd9220165b6f13c26002eb20546ab33b8d49c3b216573bb3fd9bd853a4be5e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/up_and_away.snbt"
-hash = "e86621dc8d71a9d072330fd589aa1bf263a530e43633b25cb375f8d20384e123"
+hash = "66dee49d47fda8bd260e5fb9cd529e73625332b64fd92c8ca1a82dfef356f7c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wanderlust.snbt"
@@ -146,7 +166,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "091c9cb4d9a36fa1c6f12831bf02795656da26d17ea0c7cc6c391f2bde8dedb7"
+hash = "c2270aa07bab3edd726fdef98827d55de765c1413b1fa97cf7f2e36139abffc7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"

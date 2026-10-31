@@ -1,0 +1,1772 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_systems"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "mekanism:basic_energy_cube"
+	}
+	id: "066DEC55CF9583C9"
+	order_index: 16
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "601FF5BC4A18BDE3"
+			rewards: [
+				{
+					id: "22F86712EACE7F84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67E9236D9F6F74B8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0EF982E0BAFF396F"
+					item: {
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["601FF5BC4A18BDE3"]
+			id: "55359CA561423DA9"
+			optional: true
+			rewards: [
+				{
+					id: "20FFDD20E12F8D13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC01192C327B21C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "491247574B7878AA"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["601FF5BC4A18BDE3"]
+			id: "7B9B1975332A092D"
+			min_width: 300
+			rewards: [
+				{
+					id: "26B01CCEF21DDBE8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "02ACBBE853186CD0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "6715E307A914720C"
+					item: {
+						count: 1
+						id: "mekanism:induction_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "2C3ADC35092B715C"
+					item: {
+						count: 1
+						id: "mekanism:induction_port"
+					}
+					type: "item"
+				}
+				{
+					id: "0D9B623C64040B7A"
+					item: {
+						count: 1
+						id: "mekanism:basic_induction_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "17135AA8E3AB75CC"
+					item: {
+						count: 1
+						id: "mekanism:basic_induction_provider"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7B9B1975332A092D"]
+			id: "79FC9BF235F0A984"
+			optional: true
+			rewards: [
+				{
+					id: "70A4599BB4B1387F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D59E3DD450C91EE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5770689CD01DFCCA"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_induction_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "0768F9B32D407B80"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_induction_provider"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			id: "7978BCFC946903E6"
+			rewards: [
+				{
+					id: "5AF67C336B1BEDF0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20D90ADA800CB94F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "35674E5B862DFD4E"
+					item: {
+						count: 1
+						id: "mekanismgenerators:heat_generator"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 11.0d
+		}
+		{
+			id: "3098E0D69C4C6064"
+			rewards: [
+				{
+					id: "5BE8FEFAAE52AB8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "067EFC7247D30B6B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35BA09091E5DF0CB"
+					item: {
+						count: 1
+						id: "mekanismgenerators:wind_generator"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			id: "7A9079E387046CD2"
+			rewards: [
+				{
+					id: "38764E69B30CB941"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F1439167F6B506F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					icon: {
+						count: 1
+						id: "mekanismgenerators:solar_generator"
+					}
+					id: "3B82EE00E9C859AA"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mekanismgenerators:solar_generator)item(mekanismgenerators:advanced_solar_generator))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 11.0d
+		}
+		{
+			id: "392824171370F6EA"
+			rewards: [
+				{
+					id: "5A34395795BC3261"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E4D25F4C4145EFA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1557924355E6831B"
+					item: {
+						count: 1
+						id: "mekanismgenerators:advanced_solar_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "47F843839BF823A9"
+			rewards: [
+				{
+					id: "44CCDD838E218D47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "545EF2368EDC384A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63193B104E12CD54"
+					item: {
+						count: 1
+						id: "mekanismgenerators:gas_burning_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 11.0d
+		}
+		{
+			id: "5AFB73471CB9115E"
+			rewards: [
+				{
+					id: "37EF04AB5EA8E703"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D8DC21FF7994070"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "373612A93EFB5023"
+					item: {
+						count: 1
+						id: "mekanism:block_bio_fuel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FB442CC7F0934E7"
+					item: {
+						count: 1
+						id: "mekanismgenerators:bio_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "666D0F96D8BD2B0F"
+			optional: true
+			rewards: [
+				{
+					id: "2C52C2D6107C009A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30711CFF7C743CE3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49577B5BBBF6C150"
+					item: {
+						count: 1
+						id: "mekanism:chargepad"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 11.0d
+		}
+		{
+			id: "6CE981A14E5BC78E"
+			rewards: [
+				{
+					id: "2929D1093EE012B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2236406D2D8C4590"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "712FC66D17F06C98"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1BB42BC320CB5062"
+			rewards: [
+				{
+					id: "23A0560B359E7336"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12CE61BF375D2705"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5559DD1D4248F61C"
+					item: {
+						count: 1
+						id: "mekanism:basic_logistical_transporter"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "2C5F50D00CD3E5C1"
+			rewards: [
+				{
+					id: "31A3C270B6CBEAD6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79C2A6ED4DADA563"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2CEF660A838284A2"
+					item: {
+						count: 1
+						id: "mekanism:basic_mechanical_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "602754F21A6A24E6"
+			rewards: [
+				{
+					id: "0935187878BB1167"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "61056B52A3D8C937"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "52CF1597227E5981"
+					item: {
+						count: 1
+						id: "mekanism:basic_pressurized_tube"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "150E35B79590BED2"
+			optional: true
+			rewards: [
+				{
+					id: "1BD986BB3FE7747E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A872ABA681EEFA9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7791D8B3F14FE575"
+					item: {
+						count: 1
+						id: "mekanism:basic_thermodynamic_conductor"
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: 13.5d
+		}
+		{
+			id: "7B26545A6FA5A450"
+			rewards: [
+				{
+					id: "646DD70C5AC93620"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31637EC2B4687C32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6651919572457FCC"
+					item: {
+						count: 1
+						id: "mekanism:logistical_sorter"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			id: "1806337BC707BBAB"
+			rewards: [
+				{
+					id: "6344E264435EF677"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1F538B0C18BC6F3A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "409B3E691ACDE0DC"
+					item: {
+						count: 1
+						id: "mekanism:configurator"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 13.5d
+		}
+		{
+			id: "51BCBEA71F2A6F1D"
+			optional: true
+			rewards: [
+				{
+					id: "338EED3DA8E8A266"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "371B7562B7E1A6CF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28E5F6875620C48A"
+					item: {
+						count: 1
+						id: "mekanism:configuration_card"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			id: "4CE0F1A6F940F613"
+			rewards: [
+				{
+					id: "796227CECEB5AF6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63545081E7A8C69A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "14B02311549CDB1C"
+					item: {
+						count: 1
+						id: "mekanism:basic_bin"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 13.5d
+		}
+		{
+			id: "1B8FCC1116D3F297"
+			optional: true
+			rewards: [
+				{
+					id: "13FA2C36FD2E0F8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0472DA3E91038D10"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "478FF01B3F1A6513"
+					item: {
+						count: 1
+						id: "mekanism:cardboard_box"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "341647BEAEEC8554"
+			rewards: [
+				{
+					id: "4BEC5ED429A8AD17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63A0C422316E6C0C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B96B2683FDE2F5D"
+					item: {
+						count: 1
+						id: "mekanism:basic_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 13.5d
+		}
+		{
+			id: "053674F41F96C542"
+			rewards: [
+				{
+					id: "3225D6D28CAFB744"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "665FFCFA8AE768E0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35E5BEFDE6A50C25"
+					item: {
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			id: "70738B53DF25B42C"
+			rewards: [
+				{
+					id: "4AFAFCE5DD1FB748"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08D09AB58DA3AA81"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mekanism:personal_chest"
+					}
+					id: "7EAEADECD591DBA7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mekanism:personal_chest)item(mekanism:personal_barrel))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 13.5d
+		}
+		{
+			id: "0140DA1D2A0C42B3"
+			optional: true
+			rewards: [
+				{
+					id: "3A9495DCDD047895"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "506E65D589B2EFE8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4C0066680DCD9699"
+					item: {
+						count: 1
+						id: "mekanism:dynamic_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "346F9D04688635F7"
+					item: {
+						count: 1
+						id: "mekanism:dynamic_valve"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			id: "55293F079519C979"
+			optional: true
+			rewards: [
+				{
+					id: "1E8EFFC1743161CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22D57F8C7C79B424"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A84DA82C9E4E301"
+					item: {
+						count: 1
+						id: "mekanism:qio_drive_array"
+					}
+					type: "item"
+				}
+				{
+					id: "254381B8D1263D62"
+					item: {
+						count: 1
+						id: "mekanism:qio_dashboard"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 13.5d
+		}
+		{
+			id: "4D515BD2ADEEDAE0"
+			rewards: [
+				{
+					id: "3EB4838E679C0D36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FC3796FC392C548"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "348A025F0D42A6DD"
+					item: {
+						count: 1
+						id: "mekanism:atomic_disassembler"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			id: "1FED4F187694C37A"
+			rewards: [
+				{
+					id: "074ECA20B2F38047"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2F198CA4987B47F2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mekanism:jetpack"
+					}
+					id: "75036D2434FF932E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mekanism:jetpack)item(mekanism:jetpack_armored))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 16.0d
+		}
+		{
+			id: "337F4F7FB910171F"
+			rewards: [
+				{
+					id: "1B17DF7DE9585BCC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A0A7B61E7272673"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "148C463E24FF226E"
+					item: {
+						count: 1
+						id: "mekanism:free_runners"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			id: "186164B6E9DF1596"
+			optional: true
+			rewards: [
+				{
+					id: "6A4D562F522ADE32"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4299B3D626271C36"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D36796EF14F53CF"
+					item: {
+						count: 1
+						id: "mekanism:scuba_mask"
+					}
+					type: "item"
+				}
+				{
+					id: "40DE13FBFD9A1252"
+					item: {
+						count: 1
+						id: "mekanism:scuba_tank"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 16.0d
+		}
+		{
+			id: "41F1B79A7A17023B"
+			optional: true
+			rewards: [
+				{
+					id: "6D9085EEE88A106C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "064F76AB063163EE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "341954F5D826241E"
+					item: {
+						count: 1
+						id: "mekanism:portable_teleporter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			id: "49322E8D105D2E0B"
+			rewards: [
+				{
+					id: "328BCBDBA960C8D8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "35CF4D1F5D6BD0B5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "02DD994BC9608150"
+					item: {
+						count: 1
+						id: "mekanism:meka_tool"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 16.0d
+		}
+		{
+			id: "77159AAE0D072E39"
+			min_width: 300
+			rewards: [
+				{
+					id: "72E2309124F10A5E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2BA79429A8542940"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "550FF4806324FFFE"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "122066A2ED90B904"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					id: "6D4B3166FFC18311"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "463A8A020006B777"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			id: "66E39867BC33D027"
+			rewards: [
+				{
+					id: "5965B870FC95B8A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1030707232DFBF56"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "669A4FC52DC253ED"
+					item: {
+						count: 1
+						id: "mekanism:modification_station"
+					}
+					type: "item"
+				}
+				{
+					id: "65E82CEF2CCAF150"
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 16.0d
+		}
+		{
+			id: "3AFC4104CC277E71"
+			optional: true
+			rewards: [
+				{
+					id: "68DD3136544E417C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F7DBA5BAC66E14E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76407FAB41C05274"
+					item: {
+						count: 1
+						id: "mekanism:module_excavation_escalation_unit"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 17.75d
+		}
+		{
+			id: "434D5E42347BF4ED"
+			optional: true
+			rewards: [
+				{
+					id: "19270C4CD08C5F91"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EB5BCEDB7D4AB9C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "566C6B5FDA26BC2A"
+					item: {
+						count: 1
+						id: "mekanism:module_vein_mining_unit"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 17.75d
+		}
+		{
+			id: "616501A9854FC307"
+			optional: true
+			rewards: [
+				{
+					id: "78C3B6C6C430E34F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D3B7F8A51803EC6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29441A074DE0E911"
+					item: {
+						count: 1
+						id: "mekanism:module_gravitational_modulating_unit"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 17.75d
+		}
+		{
+			id: "2735297BEC1A2E15"
+			optional: true
+			rewards: [
+				{
+					id: "1EA1EEB73B617F91"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6A0EFAC139EAB362"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "238FEB37C5A00A83"
+					item: {
+						count: 1
+						id: "mekanism:module_jetpack_unit"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 17.75d
+		}
+		{
+			id: "1C38FB01E03E717F"
+			optional: true
+			rewards: [
+				{
+					id: "261DAA650880B47A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74E6D9A8F944A6A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06B37996A468580F"
+					item: {
+						count: 1
+						id: "mekanism:module_magnetic_attraction_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.75d
+		}
+		{
+			id: "7D017BA6EEC27E2F"
+			optional: true
+			rewards: [
+				{
+					id: "037E44EA8075BD34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "340187FCAC3B8907"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "24050E67C0AA323B"
+					item: {
+						count: 1
+						id: "mekanism:module_elytra_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 17.75d
+		}
+		{
+			id: "46D842909B51EC15"
+			rewards: [
+				{
+					id: "20484545FD9664C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "37CAAB58C6AF6F70"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "17B6280FE2BE323C"
+					item: {
+						count: 1
+						id: "mekanism:teleporter"
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "646761E51244139D"
+					item: {
+						count: 1
+						id: "mekanism:teleporter_frame"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			id: "6BF4FF33C1704A87"
+			rewards: [
+				{
+					id: "48580632F454FC07"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E1342556DC201D3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "501E2AD74CA711D4"
+					item: {
+						count: 1
+						id: "mekanism:robit"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 17.75d
+		}
+		{
+			id: "4DBADCA721BDEC7F"
+			rewards: [
+				{
+					id: "5CD52287F93A2F6F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5C3C15C6DBB79401"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "241316F0934F9E09"
+					item: {
+						count: 1
+						id: "mekanism:digital_miner"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 17.75d
+		}
+		{
+			id: "1DB81C1A0E6474C6"
+			optional: true
+			rewards: [
+				{
+					id: "3117B327DC67EE3B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CE70CA3B63CBC92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "094E6C11A01C690B"
+					item: {
+						count: 1
+						id: "mekanism:quantum_entangloporter"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 17.75d
+		}
+		{
+			dependencies: ["6CE981A14E5BC78E"]
+			id: "0B261DF8010D741B"
+			rewards: [
+				{
+					id: "3B7515066993BF85"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36C873C1F8DF173D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79CC799BFCC91B66"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BB42BC320CB5062"]
+			id: "28863DE855695491"
+			rewards: [
+				{
+					id: "28B0BF43E0A7511E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B93C914831A80B6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0ED91DCE9074CCCE"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_logistical_transporter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C5F50D00CD3E5C1"]
+			id: "0169093668F76821"
+			rewards: [
+				{
+					id: "1B8DC044F81B4D5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04A5E5FB5B640D32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B21F73FE2C21220"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_mechanical_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["602754F21A6A24E6"]
+			id: "69E58B74588C0E28"
+			rewards: [
+				{
+					id: "3B49A29890B997DB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "759DA2ADB1065595"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "550F48664547E329"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_pressurized_tube"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+	]
+}
