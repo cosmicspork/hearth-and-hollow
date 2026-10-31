@@ -17,16 +17,15 @@ CHAPTER = {
     "title": "Up & Away",
     "subtitle": "Jetpacks, elevators and a waystone network of your own",
     "icon": "minecraft:feather",
+    # Three separate ways of getting about, so none waits on the others.
     "layout": {
-        "direction": "up",
-        "spine": ["start", "elevator", "waystone", "warp_stone", "emerald", "allthemodium"],
-        "branches": {
-            "start": {"up": ["charge"]},
-            "elevator": {"down": ["shrink"]},
-            "waystone": {"up": ["sharestone"], "down": ["warp_plate"]},
-            "warp_stone": {"up": ["bound_scroll"]},
-            "allthemodium": {"up": ["vibranium", "unobtainium"]},
-        },
+        "lines": [
+            {"spine": ["start", "emerald", "allthemodium", "vibranium", "unobtainium"],
+             "branches": {"start": {"down": ["charge"]}}},
+            {"spine": ["waystone", "warp_stone", "bound_scroll"],
+             "branches": {"waystone": {"up": ["sharestone"], "down": ["warp_plate"]}}},
+            {"spine": ["elevator", "shrink"]},
+        ],
     },
     "quests": [
         {
@@ -54,7 +53,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "elevator", "title": "Going Up",
+            "key": "elevator", "title": "Going Up", "shape": "hexagon",
             "icon": "elevatorid:elevator_white",
             "desc": [
                 "An &eElevator&r is eight wool around an ender pearl. Stack two or more in a shaft, one above the other, with room to stand on each.",
@@ -80,7 +79,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "waystone", "title": "A Waystone of Your Own",
+            "key": "waystone", "title": "A Waystone of Your Own", "shape": "hexagon",
             "icon": "waystones:waystone",
             "desc": [
                 "The waystones in villages are handy, but they're never quite where you live. Make your own.",

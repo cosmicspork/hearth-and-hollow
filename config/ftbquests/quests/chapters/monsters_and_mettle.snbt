@@ -15,8 +15,7 @@
 		{
 			id: "55274C15951A8044"
 			rewards: [ ]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "gear"
 			tasks: [
 				{
 					id: "66628684157625AA"
@@ -24,10 +23,10 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["55274C15951A8044"]
+			dependencies: ["6FDEE1032AA1E808"]
 			id: "4E3DAB4C06AB591E"
 			rewards: [
 				{
@@ -70,10 +69,9 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["55274C15951A8044"]
 			icon: {
 				count: 1
 				id: "minecraft:golden_sword"
@@ -97,6 +95,8 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					advancement: "apotheosis:progression/haven"
@@ -105,11 +105,11 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6FDEE1032AA1E808"]
+			dependencies: ["347DB171ECD19E8C"]
 			id: "5A9E40D30101FD3A"
 			optional: true
 			rewards: [
@@ -140,11 +140,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["6FDEE1032AA1E808"]
+			dependencies: ["1B86F686C714BC59"]
 			icon: {
 				count: 1
 				id: "endermanoverhaul:icy_pearl"
@@ -187,7 +187,7 @@
 				}
 			]
 			x: 2.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6FDEE1032AA1E808"]
@@ -238,11 +238,10 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1B86F686C714BC59"]
 			icon: {
 				count: 1
 				id: "minecraft:amethyst_shard"
@@ -266,6 +265,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -280,8 +280,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["347DB171ECD19E8C"]
@@ -318,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["606225A066E886EA"]
@@ -353,8 +353,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.5d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["606225A066E886EA"]
@@ -388,8 +388,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 1.5d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["606225A066E886EA"]
@@ -422,8 +422,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6ED4658DE20BD246"]
@@ -456,8 +456,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4491DE4DCDDF00A4"]
@@ -490,8 +490,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.0d
+			x: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5E15185300FB6262"]
@@ -525,8 +525,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -1.5d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5E15185300FB6262"]
@@ -572,11 +572,10 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.0d
-			y: 1.5d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["5E15185300FB6262"]
 			icon: {
 				count: 1
 				id: "gateways:gate_pearl"
@@ -600,6 +599,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "4A9D8ED2E7AAB659"
@@ -614,8 +614,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 0.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["7422BC30ED1E3918"]
@@ -661,11 +661,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 2.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["3CEF37B6337C7241"]
+			dependencies: ["1B86F686C714BC59"]
 			icon: {
 				count: 1
 				id: "gateways:gate_pearl"
@@ -698,8 +698,8 @@
 					type: "advancement"
 				}
 			]
-			x: 18.0d
-			y: -1.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3CEF37B6337C7241"]
@@ -737,8 +737,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 1.5d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3CEF37B6337C7241"]
@@ -776,8 +776,8 @@
 					type: "structure"
 				}
 			]
-			x: 20.0d
-			y: 0.0d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6D40D938E2A94CDA"]
@@ -816,8 +816,8 @@
 					type: "structure"
 				}
 			]
-			x: 20.0d
-			y: -1.5d
+			x: 4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["75F3E3DFA31E06B2"]
@@ -856,8 +856,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -3.0d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6D40D938E2A94CDA"]
@@ -905,11 +905,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 22.0d
-			y: 0.0d
+			x: 6.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["7E53F8F026CA59BE"]
+			dependencies: ["1B86F686C714BC59"]
 			icon: {
 				count: 1
 				id: "minecraft:diamond_chestplate"
@@ -919,13 +919,13 @@
 				{
 					id: "1EDD099A97169C54"
 					type: "xp"
-					xp: 50
+					xp: 25
 				}
 				{
 					id: "0D7E272F80CB21D6"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "ember"
+							"ftbquests:loot_crate": "lantern"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -961,7 +961,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [
 				{
 					advancement: "apotheosis:progression/ascent"
@@ -970,7 +969,254 @@
 					type: "advancement"
 				}
 			]
-			x: 24.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B003232D8A9449B"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "7818BFA73E8FCBF3"
+			optional: true
+			rewards: [
+				{
+					id: "3BFC42F2AEF9B718"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "139EDF86837E4074"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:gateways/ascent"
+					criterion: ""
+					id: "57D7339767EE0CBC"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B003232D8A9449B"]
+			icon: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "0B43596D17178607"
+			rewards: [
+				{
+					id: "2635A3D87765A695"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "192111EC163B9682"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "2A9B2F114DFEBAC7"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/guardian"
+							"apotheosis:purity": "flawless"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "apotheosis:progression/summit"
+					criterion: ""
+					id: "7483E259E3B75843"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B43596D17178607"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "291EC6C55C2C258F"
+			optional: true
+			rewards: [
+				{
+					id: "31CD1A14DE55D677"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E417AC48B712AFC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:gateways/summit"
+					criterion: ""
+					id: "3BB4EFDB7A029DD7"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B43596D17178607"]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			id: "72161221FA31FC21"
+			rewards: [
+				{
+					id: "72F355E5166EDF64"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1FD71E175CA306CB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "139C2EE95B35CF8C"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/warlord"
+							"apotheosis:purity": "perfect"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "apotheosis:progression/pinnacle"
+					criterion: ""
+					id: "2325214BC925BFAD"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72161221FA31FC21"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "26BEA4913ED1B728"
+			optional: true
+			rewards: [
+				{
+					id: "2F1FF875ECFADAE1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3A959E04237EC48B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:gateways/pinnacle"
+					criterion: ""
+					id: "1C8616391693839A"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26BEA4913ED1B728"]
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "28424C5E347C0B5B"
+			optional: true
+			rewards: [
+				{
+					id: "55FC74BE703FEC56"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "20E9D1A99BFA619C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "apotheosis:gateways/sigil_of_supremacy"
+					criterion: ""
+					id: "77018B4E0E24AC65"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
 			y: 0.0d
 		}
 	]

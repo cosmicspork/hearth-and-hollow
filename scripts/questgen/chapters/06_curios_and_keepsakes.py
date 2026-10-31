@@ -4,55 +4,34 @@ CHAPTER = {
     "title": "Curios & Keepsakes",
     "subtitle": "Artifacts, relics, and a few extra hearts",
     "icon": "bhc:heart_amulet",
-    "layout": {
-        "spine": ["keepsakes", "artifact", "mimic", "relic", "research", "level", "red_heart", "amulet",
-                  "canister", "slots", "yellow"],
-        "branches": {
-            "artifact": {"up": ["campsite", "brush"], "down": ["beef"]},
-            "mimic": {"up": ["mimi_dust"]},
-            "relic": {"up": ["fleet"], "down": ["prospector"]},
-            "level": {"up": ["rank"]},
-            "red_heart": {"up": ["patch"]},
-            "amulet": {"up": ["relic_apple", "wither_bone"]},
-            "slots": {"up": ["fighter"]},
-        },
-    },
+    # A grid: these turn up in whatever order the world hands them out.
+    "layout": {"grid": [
+        ["artifact", "fleet", "prospector", "fighter", "beef", "mimic", "mimi_dust", "brush", "campsite", "slots"],
+        ["relic", "research", "level", "rank"],
+        ["red_heart", "patch", "amulet", "relic_apple", "wither_bone", "canister", "yellow"],
+    ]},
     "quests": [
         {
-            "key": "keepsakes", "title": "Curios & Keepsakes",
-            "shape": "hexagon", "size": 1.5,
-            "desc": [
-                "Out in the world there are trinkets worth more than diamonds: boots that walk on water, a scarf that finds extra ore, a necklace that bites back.",
-                "",
-                "You wear them in extra slots for your head, neck, belt, hands, feet and more. Press &eShift+G&r to open them.",
-                "",
-                "Most of these keepsakes also grow stronger the longer you use them. This chapter shows you how.",
-            ],
-            "tasks": [{"check": "Show me"}],
-            "rewards": [],
-        },
-        {
-            "key": "artifact", "title": "Finders Keepers", "icon": "artifacts:cloud_in_a_bottle",
+            "key": "artifact", "title": "Finders Keepers", "shape": "hexagon", "icon": "artifacts:cloud_in_a_bottle",
             "desc": [
                 "Artifacts turn up in loot chests all over: dungeons, mineshafts, temples, shipwrecks, strongholds and village houses.",
                 "",
                 "Each one does one thing well. A &eCloud in a Bottle&r gives you a double jump, &eFlippers&r make you a fish, and the &eAntidote Vessel&r cuts poisons short.",
                 "",
-                "Hover over an artifact to see what it does, then wear it in a Curios slot.",
+                "Hover over an artifact to see what it does, then wear it in a Curios slot: press &eShift+G&r to open them. There are slots for your head, neck, belt, hands, feet and more.",
             ],
             "tasks": [{"tag": "artifacts:artifacts", "title": "Any artifact", "icon": "artifacts:cloud_in_a_bottle"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "campsite", "title": "Campfire Stories", "optional": True, "icon": "minecraft:lantern",
+            "key": "campsite", "title": "Campfire Stories", "shape": "gear", "optional": True,
             "desc": [
                 "Deep underground you may stumble on a little abandoned campsite, with a chest or a barrel left behind.",
                 "",
                 "They're well worth a look, since the loot leans towards artifacts. Just knock on the chest before you open it.",
             ],
             "tasks": [{"check": "Found one"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
+                    },
         {
             "key": "brush", "title": "Brush Up", "optional": True,
             "desc": [
@@ -99,7 +78,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "relic", "title": "A Relic of Your Own", "icon": "relics:leafy_mantle",
+            "key": "relic", "title": "A Relic of Your Own", "shape": "hexagon", "icon": "relics:leafy_mantle",
             "desc": [
                 "Relics are rarer keepsakes: mantles, belts, boots, a flute that holds your horse, a ring with seven sins in it.",
                 "",
@@ -108,7 +87,7 @@ CHAPTER = {
                 "In this pack every artifact counts as a relic too, so everything in this chapter can level up.",
             ],
             "tasks": [{"tag": "relics:relic", "title": "Any relic", "icon": "relics:leafy_mantle"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "relics:relic_experience_bottle", "count": 4}],
         },
         {
             "key": "fleet", "title": "Fleet of Foot", "optional": True, "icon": "artifacts:running_shoes",
@@ -140,7 +119,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "research", "title": "Read It Closely",
+            "key": "research", "title": "Read It Closely", "shape": "gear",
             "desc": [
                 "A new relic doesn't show you everything right away. Its abilities have to be researched first.",
                 "",
@@ -149,20 +128,18 @@ CHAPTER = {
                 "Researching an ability costs some of your own experience, so bring a few levels.",
             ],
             "tasks": [{"check": "Researched an ability"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
+                    },
         {
-            "key": "level", "title": "It Grows on You", "shape": "hexagon", "icon": "relics:relic_experience_bottle",
+            "key": "level", "title": "It Grows on You", "shape": "gear",
             "desc": [
                 "Relics learn by doing. Use an ability for what it's meant for and the relic earns experience: boots by running, a pendant by being hit, claws by digging.",
                 "",
                 "When the bar fills, the relic levels up and gives you an &eUpgrade Point&r. Spend it on the research screen to make an ability stronger.",
                 "",
-                "The &eRelic Experience Bottles&r in the reward are a shortcut: experience for your relics rather than for you.",
+                "&eRelic Experience Bottles&r are a shortcut: experience for your relics rather than for you.",
             ],
             "tasks": [{"check": "A relic leveled up"}],
-            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "relics:relic_experience_bottle", "count": 4}],
-        },
+                    },
         {
             "key": "rank", "title": "Rank Up", "shape": "gear",
             "desc": [
@@ -173,10 +150,9 @@ CHAPTER = {
                 "It's a big step, so read the warning before you hold the button.",
             ],
             "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
+                    },
         {
-            "key": "red_heart", "title": "A Heart in Hand",
+            "key": "red_heart", "title": "A Heart in Hand", "shape": "hexagon",
             "desc": [
                 "Hostile mobs sometimes drop a &cMiniature Red Heart&r. Hold Shift over one to see the odds.",
                 "",

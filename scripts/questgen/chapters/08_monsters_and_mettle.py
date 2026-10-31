@@ -7,30 +7,43 @@ CHAPTER = {
     "subtitle": "Better gear, harder fights",
     "icon": "apotheosis:sigil_of_socketing",
     "layout": {
-        "spine": ["mettle", "affix", "frontier", "gem", "dust", "socket", "salvage", "reforge", "pearl",
-                  "gateway", "trials", "vault", "ascent"],
-        "branches": {
-            "mettle": {"down": ["epitaph"]},
-            "affix": {"up": ["dummy"], "down": ["locals"]},
-            "dust": {"up": ["cutting"], "down": ["sigil"]},
-            "reforge": {"up": ["hellshelf"], "down": ["disenchant"]},
-            "gateway": {"up": ["frontier_gate"], "down": ["trophy"]},
-            "trials": {"up": ["nether_trial", "fragments"]},
-        },
+        "info": ["mettle"],
+        "lines": [
+            # World Tiers, with each tier's challenge Gateway above it.
+            {"spine": ["affix", "frontier", "ascent", "summit", "pinnacle"],
+             "branches": {
+                 "affix": {"down": ["epitaph"]},
+                 "frontier": {"up": ["frontier_gate"], "down": ["locals"]},
+                 "ascent": {"up": ["ascent_gate"]},
+                 "summit": {"up": ["summit_gate"]},
+                 "pinnacle": {"up": ["pinnacle_gate", "supremacy"]},
+             }},
+            # The gear guide: gems and the Apotheosis workbenches.
+            {"spine": ["gem", "dust", "socket", "salvage", "reforge"],
+             "branches": {
+                 "gem": {"down": ["dummy"]},
+                 "dust": {"up": ["cutting"], "down": ["sigil"]},
+                 "reforge": {"up": ["hellshelf"], "down": ["disenchant"]},
+             }},
+            # Fights worth seeking out.
+            {"spine": ["pearl", "gateway", "trials", "vault"],
+             "branches": {
+                 "gateway": {"down": ["trophy"]},
+                 "trials": {"up": ["nether_trial", "fragments"]},
+             }},
+        ],
     },
     "quests": [
         {
-            "key": "mettle", "title": "Monsters & Mettle",
-            "shape": "hexagon", "size": 1.5,
+            "key": "mettle", "title": "Monsters & Mettle", "shape": "gear",
             "desc": [
                 "Out in the world, gear isn't just iron or diamond. A sword can roll with bonus damage, a chestplate with extra health, boots with a burst of speed. Some even carry sockets for gems.",
                 "",
                 "How strong that loot gets, and how strong the monsters guarding it are, depends on your &eWorld Tier&r. Press &eCtrl+T&r to see them.",
                 "",
-                "This chapter walks you from your first lucky drop to the tiers beyond.",
+                "The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom one is fights worth seeking out. Follow whichever you're in the mood for.",
             ],
             "tasks": [{"check": "Show me"}],
-            "rewards": [],
         },
         {
             "key": "epitaph", "title": "When It Goes Wrong", "shape": "gear",
@@ -45,13 +58,13 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}, {"book": "epitaphs:soulbound", "level": 1}],
         },
         {
-            "key": "affix", "title": "Something Special", "icon": "minecraft:golden_sword",
+            "key": "affix", "title": "World Tier: Haven", "shape": "hexagon", "size": 1.5, "icon": "minecraft:golden_sword",
             "desc": [
                 "Watch for gear with a colored name. That's an &eaffix item&r: Common, Uncommon, Rare, Epic or Mythic, each with more bonuses than the last.",
                 "",
-                "They turn up in chests, and on &eElite&r mobs, the ones with names that hit too hard.",
+                "They turn up in chests, and on &eElite&r mobs, the ones with names that hit too hard. Pick up your first one and the &eHaven&r tier is yours.",
                 "",
-                "Until you open the World Tier screen with &eCtrl+T&r and activate Haven, they show as Unidentified. Do that first.",
+                "Until Haven is active, affix items show as Unidentified. Open the World Tier screen with &eCtrl+T&r to check.",
             ],
             "tasks": [{"advancement": "apotheosis:progression/haven"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
@@ -89,11 +102,13 @@ CHAPTER = {
             "rewards": [{"xp": 25}, {"crate": "lantern"}, {"book": "minecraft:protection", "level": 3}],
         },
         {
-            "key": "gem", "title": "A Gem in the Rough", "icon": "minecraft:amethyst_shard",
+            "key": "gem", "title": "A Gem in the Rough", "shape": "hexagon", "icon": "minecraft:amethyst_shard",
             "desc": [
                 "&eGems&r turn up in chest loot and now and then from monsters. Bosses and Invaders drop them more often.",
                 "",
                 "Each gem has a &ePurity&r, from Cracked up to Perfect, and purity is all that sets its strength. A gem gives a different bonus depending on what you put it in: hover over one to see.",
+                "",
+                "This line covers what to do with them, and with the gear you outgrow.",
             ],
             "tasks": [{"item": "apotheosis:gem", "title": "Any gem", "icon": "minecraft:amethyst_shard"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
@@ -190,7 +205,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "minecraft:book", "count": 4}],
         },
         {
-            "key": "pearl", "title": "A Pearl Full of Trouble", "icon": "gateways:gate_pearl",
+            "key": "pearl", "title": "A Pearl Full of Trouble", "shape": "hexagon", "icon": "gateways:gate_pearl",
             "desc": [
                 "A &eGate Pearl&r opens a Gateway: a portal that sends out waves of monsters, and pays out if you beat them all.",
                 "",
@@ -281,19 +296,77 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "minecraft:trial_key", "count": 2}],
         },
         {
-            "key": "ascent", "title": "The Ascent", "shape": "hexagon", "size": 1.5, "icon": "minecraft:diamond_chestplate",
+            "key": "ascent", "title": "World Tier: Ascent", "shape": "hexagon", "icon": "minecraft:diamond_chestplate",
             "desc": [
                 "Wear a full set of &aUncommon&r gear, weapon included, and slay an &cApothic Invader&r. They arrive with a loud noise and a beam of light from the sky, and never in Haven.",
                 "",
                 "Do both and the &eAscent&r tier is yours. Every Invader drops its own affix item, so it's worth the fight.",
-                "",
-                "Beyond Ascent lie Summit and Pinnacle, behind the Wither and the Ender Dragon. Keep climbing.",
             ],
             "tasks": [{"advancement": "apotheosis:progression/ascent"}],
-            "rewards": [{"xp": 50}, {"crate": "ember"},
+            "rewards": [{"xp": 25}, {"crate": "lantern"},
                         {"item": "apotheosis:gem", "components": {"apotheosis:gem": "apotheosis:core/splendor",
                                                                   "apotheosis:purity": "normal"}},
                         {"book": "minecraft:unbreaking", "level": 3}],
+        },
+        {
+            "key": "ascent_gate", "title": "The Sunlit Ascent", "optional": True, "icon": "gateways:gate_pearl",
+            "desc": [
+                "Ascent has a challenge Gateway of its own, tougher than the Frontier's and better paid.",
+                "",
+                "As before, JEI has the pearl's recipe. Bring your best gear, and some food.",
+            ],
+            "tasks": [{"advancement": "apotheosis:gateways/ascent"}],
+            "rewards": [{"xp": 10}, {"crate": "lantern"}],
+        },
+        {
+            "key": "summit", "title": "World Tier: Summit", "shape": "hexagon", "icon": "minecraft:wither_skeleton_skull",
+            "desc": [
+                "The &eSummit&r takes a full set of &9Rare&r gear, weapon included, and the &cWither&r dead at your feet.",
+                "",
+                "Pick your arena with care: the Wither breaks blocks as it fights. Three Wither Skeleton Skulls on four soul sand or soul soil summon it, and the Nether's skeletons drop skull fragments.",
+            ],
+            "tasks": [{"advancement": "apotheosis:progression/summit"}],
+            "rewards": [{"xp": 25}, {"crate": "lantern"},
+                        {"item": "apotheosis:gem", "components": {"apotheosis:gem": "apotheosis:core/guardian",
+                                                                  "apotheosis:purity": "flawless"}}],
+        },
+        {
+            "key": "summit_gate", "title": "The Thundering Summit", "optional": True, "icon": "gateways:gate_pearl",
+            "desc": [
+                "The Summit's challenge Gateway, another step up from the Ascent's. JEI has the pearl's recipe.",
+            ],
+            "tasks": [{"advancement": "apotheosis:gateways/summit"}],
+            "rewards": [{"xp": 10}, {"crate": "ember"}],
+        },
+        {
+            "key": "pinnacle", "title": "World Tier: Pinnacle", "shape": "hexagon", "size": 1.5, "icon": "minecraft:dragon_head",
+            "desc": [
+                "The last tier. Wear a full set of &5Epic&r gear, weapon included, and free the End by slaying the &cEnder Dragon&r.",
+                "",
+                "From here the monsters are as strong as they get, and so is the loot. You can always step back down with &eCtrl+T&r when you'd rather build in peace.",
+            ],
+            "tasks": [{"advancement": "apotheosis:progression/pinnacle"}],
+            "rewards": [{"xp": 50}, {"crate": "ember"},
+                        {"item": "apotheosis:gem", "components": {"apotheosis:gem": "apotheosis:core/warlord",
+                                                                  "apotheosis:purity": "perfect"}}],
+        },
+        {
+            "key": "pinnacle_gate", "title": "The Apothic Pinnacle", "optional": True, "icon": "gateways:gate_pearl",
+            "desc": [
+                "The hardest of the tier Gateways. Beat it and you've seen everything Apotheosis can throw at you, nearly.",
+            ],
+            "tasks": [{"advancement": "apotheosis:gateways/pinnacle"}],
+            "rewards": [{"xp": 25}, {"crate": "ember"}],
+        },
+        {
+            "key": "supremacy", "title": "Supremacy", "optional": True, "icon": "gateways:gate_pearl",
+            "desc": [
+                "Nearly. The &eEndless Gateway of Apothic Invaders&r never stops sending waves.",
+                "",
+                "Hold out to wave 100 and it gives up a &eSigil of Supremacy&r. Bragging rights don't come bigger.",
+            ],
+            "tasks": [{"advancement": "apotheosis:gateways/sigil_of_supremacy"}],
+            "rewards": [{"xp": 50}, {"crate": "ember"}],
         },
     ],
 }

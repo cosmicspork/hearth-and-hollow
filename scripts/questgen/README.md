@@ -77,7 +77,9 @@ Lines between quests must never cross. Most chapters use one straight main line 
 - Every quest appears exactly once in the layout, and dependencies come only from it.
 - The spine is the chapter's backbone: 6 to 14 quests, from an introduction to a finale. Branches are side topics, 1 to 3 quests long.
 - `"direction": "down"` or `"up"` turns the whole spine.
-- `{"grid": [[row keys], ...]}` lays out rows with no lines (the Bounty Board).
+- `{"lines": [{"spine": [...], "branches": {...}}, ...]}` stacks several spines top to bottom, each a separate track with its own branches and no lines between them. Use it when a chapter covers things players do in parallel (Monsters & Mettle: World Tiers, the gear guide, challenges). Each line can be shorter than 6.
+- `{"grid": [[row keys], ...]}` lays out rows with no lines (the Bounty Board, Wanderlust, Curios & Keepsakes): for things the world hands out in no particular order. Make each row one theme.
+- `"info": [keys]`, alongside any layout but `free`, sets explainer quests in a row above everything, with no dependencies. With nothing before them they follow the ungated checkmark rule below.
 - `{"hub": True, ...}` puts `spine[0]` in the middle with straight spokes around it.
 - `{"free": {key: (x, y)}, "deps": {key: [keys]}}` places quests by hand (the Alloy Paxel, the Almanac).
 

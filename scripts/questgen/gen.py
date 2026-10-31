@@ -19,6 +19,7 @@ HERE = Path(__file__).parent
 # Layout spacing, in quest-book grid units.
 SPINE_DX = 2.0
 BRANCH_DY = 1.5
+LINE_GAP = 2.5     # between stacked lines, and above them for info quests
 GRID_DX = 1.75
 GRID_DY = 1.75
 HUB_R = 4.5         # radius of the first ring of spokes
@@ -183,8 +184,13 @@ class Book:
         hub:      True places spine[0] in the middle with straight spokes around it:
                   each spine quest followed by its "up" branch, and each "down"
                   branch as a spoke of its own. Spokes depend only on the middle.
+        lines:    several spines stacked top to bottom, each {"spine": [...], "branches": {...}}
+                  laid out as above, all starting at the same left edge. Each line is a
+                  separate track with no dependency on the others.
         grid:     rows of keys with no dependencies (the Bounty Board).
         free:     exact positions, with dependencies given separately in deps.
+        info:     with any of the above but free, keys set in a row above everything else,
+                  with no dependencies: explainers that belong to no line.
         """
         pos, deps = {}, {}
         lay = ch["layout"]
@@ -199,15 +205,38 @@ class Book:
                 width = (len(row) - 1) * GRID_DX
                 for c, k in enumerate(row):
                     pos[k] = (c * GRID_DX - width / 2, r * GRID_DY)
-            return pos, deps
-        spine = lay["spine"]
-        if lay.get("hub"):
-            return Book.hub_layout(spine, lay.get("branches", {}))
+        elif "lines" in lay:
+            top = 0.0
+            for line in lay["lines"]:
+                lpos, ldeps = Book.spine_layout(line["spine"], line.get("branches", {}))
+                ys = [y for _, y in lpos.values()]
+                shift = top - min(ys)
+                pos.update({k: (x, y + shift) for k, (x, y) in lpos.items()})
+                deps.update(ldeps)
+                top = max(ys) + shift + LINE_GAP
+        elif lay.get("hub"):
+            pos, deps = Book.hub_layout(lay["spine"], lay.get("branches", {}))
+        else:
+            pos, deps = Book.spine_layout(lay["spine"], lay.get("branches", {}))
+            turn = {"right": lambda x, y: (x, y), "down": lambda x, y: (y, x), "up": lambda x, y: (y, -x)}
+            f = turn[lay.get("direction", "right")]
+            pos = {k: f(*xy) for k, xy in pos.items()}
+        if lay.get("info"):
+            x0 = min(x for x, _ in pos.values())
+            y = min(y for _, y in pos.values()) - LINE_GAP
+            for i, k in enumerate(lay["info"]):
+                pos[k] = (x0 + i * SPINE_DX, y)
+        return pos, deps
+
+    @staticmethod
+    def spine_layout(spine, branches):
+        """One spine left to right, with branches hanging up and down off it."""
+        pos, deps = {}, {}
         for i, k in enumerate(spine):
             pos[k] = (i * SPINE_DX, 0.0)
             if i:
                 deps[k] = [spine[i - 1]]
-        for root, arms in lay.get("branches", {}).items():
+        for root, arms in branches.items():
             x = pos[root][0]
             for direction, sign in (("up", -1), ("down", 1)):
                 prev = root
@@ -215,9 +244,7 @@ class Book:
                     pos[k] = (x, sign * j * BRANCH_DY)
                     deps[k] = [prev]
                     prev = k
-        turn = {"right": lambda x, y: (x, y), "down": lambda x, y: (y, x), "up": lambda x, y: (y, -x)}
-        f = turn[lay.get("direction", "right")]
-        return {k: f(*xy) for k, xy in pos.items()}, deps
+        return pos, deps
 
     @staticmethod
     def hub_layout(spine, branches):

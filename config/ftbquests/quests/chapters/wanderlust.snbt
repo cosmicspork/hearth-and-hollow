@@ -14,17 +14,61 @@
 		{
 			id: "4B0B24BDEB3638C7"
 			linked_quest: "6FDEE1032AA1E808"
-			x: 18.0d
-			y: 3.0d
+			x: 7.875d
+			y: 1.75d
 		}
 		{
 			id: "7F86EE7B6C064291"
 			linked_quest: "7422BC30ED1E3918"
-			x: 18.0d
-			y: 4.5d
+			x: 9.625d
+			y: 1.75d
 		}
 	]
 	quests: [
+		{
+			icon: {
+				count: 1
+				id: "minecraft:grass_block"
+			}
+			id: "39466924602BC427"
+			rewards: [
+				{
+					id: "082E53CD32B77833"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B8CFB6E830BBBC8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "66D75184A6647FE0"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					id: "6DA0618E561E149A"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
 		{
 			icon: {
 				count: 1
@@ -50,7 +94,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
 			tasks: [
 				{
 					id: "76FE97CC00FF22CF"
@@ -61,11 +104,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: -6.125d
+			y: 1.75d
 		}
 		{
-			dependencies: ["023B3A10D76CF2E9"]
 			id: "59737F6289621673"
 			rewards: [
 				{
@@ -93,11 +135,10 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: -4.375d
+			y: 1.75d
 		}
 		{
-			dependencies: ["023B3A10D76CF2E9"]
 			id: "5EA53D57AFC58156"
 			rewards: [
 				{
@@ -127,30 +168,12 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: -2.625d
+			y: 1.75d
 		}
 		{
-			dependencies: ["5EA53D57AFC58156"]
 			id: "093A6FEC87B7921C"
-			rewards: [
-				{
-					id: "69DD8F641700CF71"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "4B9405513276403F"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "kindling"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
 			shape: "gear"
 			tasks: [
 				{
@@ -158,11 +181,10 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: -0.875d
+			y: 1.75d
 		}
 		{
-			dependencies: ["5EA53D57AFC58156"]
 			icon: {
 				count: 1
 				id: "minecraft:filled_map"
@@ -288,11 +310,10 @@
 					type: "biome"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 10.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3CFD7811CEC9356F"]
 			id: "0206A15D6B33C72C"
 			optional: true
 			rewards: [
@@ -324,11 +345,10 @@
 					type: "biome"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3CFD7811CEC9356F"]
 			id: "26EBB0CE42133A10"
 			optional: true
 			rewards: [
@@ -360,11 +380,10 @@
 					type: "biome"
 				}
 			]
-			x: 4.0d
-			y: 1.5d
+			x: 8.75d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3CFD7811CEC9356F"]
 			id: "13C6D6D1360653CF"
 			rewards: [
 				{
@@ -413,11 +432,10 @@
 					type: "structure"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: -4.375d
+			y: 5.25d
 		}
 		{
-			dependencies: ["13C6D6D1360653CF"]
 			id: "7CB170FDD5D037D4"
 			optional: true
 			rewards: [
@@ -449,11 +467,10 @@
 					type: "structure"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: -2.625d
+			y: 5.25d
 		}
 		{
-			dependencies: ["13C6D6D1360653CF"]
 			id: "2A3151FDFB9A441B"
 			optional: true
 			rewards: [
@@ -494,11 +511,10 @@
 					type: "structure"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: -0.875d
+			y: 5.25d
 		}
 		{
-			dependencies: ["2A3151FDFB9A441B"]
 			id: "42D3CDF4C2603F32"
 			optional: true
 			rewards: [
@@ -530,11 +546,10 @@
 					type: "structure"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: 0.875d
+			y: 5.25d
 		}
 		{
-			dependencies: ["13C6D6D1360653CF"]
 			id: "677BEC24411F3B73"
 			rewards: [
 				{
@@ -574,11 +589,10 @@
 					value: 5
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 2.625d
+			y: 5.25d
 		}
 		{
-			dependencies: ["677BEC24411F3B73"]
 			id: "17768AA219D41404"
 			optional: true
 			rewards: [
@@ -616,11 +630,10 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.5d
+			x: 4.375d
+			y: 5.25d
 		}
 		{
-			dependencies: ["677BEC24411F3B73"]
 			id: "7366E6C3CEFC9AE8"
 			rewards: [
 				{
@@ -651,11 +664,10 @@
 					type: "structure"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: -7.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["7366E6C3CEFC9AE8"]
 			id: "75D1AEF5F001EFB1"
 			optional: true
 			rewards: [
@@ -687,11 +699,10 @@
 					type: "structure"
 				}
 			]
-			x: 10.0d
-			y: -1.5d
+			x: -5.25d
+			y: 7.0d
 		}
 		{
-			dependencies: ["7366E6C3CEFC9AE8"]
 			icon: {
 				count: 1
 				id: "minecraft:grass_block"
@@ -736,11 +747,10 @@
 					type: "structure"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["297CFF2AA839CF49"]
 			id: "248E8BBF58BC0886"
 			rewards: [
 				{
@@ -771,11 +781,10 @@
 					type: "structure"
 				}
 			]
-			x: 14.0d
-			y: 0.0d
+			x: -1.75d
+			y: 7.0d
 		}
 		{
-			dependencies: ["248E8BBF58BC0886"]
 			id: "31D3CC66FAA927AB"
 			optional: true
 			rewards: [
@@ -807,11 +816,10 @@
 					type: "structure"
 				}
 			]
-			x: 14.0d
-			y: -1.5d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["248E8BBF58BC0886"]
 			id: "2A40B24FF7219947"
 			rewards: [
 				{
@@ -842,11 +850,10 @@
 					type: "structure"
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 5.25d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2A40B24FF7219947"]
 			id: "5BBAFCEE171ADDC2"
 			optional: true
 			rewards: [
@@ -878,11 +885,10 @@
 					type: "structure"
 				}
 			]
-			x: 16.0d
-			y: -1.5d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2A40B24FF7219947"]
 			id: "50AD5140D01BB781"
 			optional: true
 			rewards: [
@@ -911,11 +917,10 @@
 					type: "advancement"
 				}
 			]
-			x: 16.0d
-			y: 1.5d
+			x: 1.75d
+			y: 7.0d
 		}
 		{
-			dependencies: ["50AD5140D01BB781"]
 			id: "1E53EE806FDBBCAC"
 			optional: true
 			rewards: [
@@ -947,11 +952,10 @@
 					type: "structure"
 				}
 			]
-			x: 16.0d
-			y: 3.0d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2A40B24FF7219947"]
 			id: "38885A1AF52B23C8"
 			rewards: [
 				{
@@ -982,31 +986,13 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 0.0d
+			x: 0.875d
+			y: 1.75d
 		}
 		{
-			dependencies: ["38885A1AF52B23C8"]
 			id: "2095408ABFC31E96"
 			optional: true
-			rewards: [
-				{
-					id: "5A5A70416652709D"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "72876406A5D553C1"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "kindling"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
 			shape: "gear"
 			tasks: [
 				{
@@ -1014,11 +1000,10 @@
 					type: "checkmark"
 				}
 			]
-			x: 18.0d
-			y: 1.5d
+			x: 6.125d
+			y: 1.75d
 		}
 		{
-			dependencies: ["38885A1AF52B23C8"]
 			icon: {
 				count: 1
 				id: "paraglider:goddess_statue"
@@ -1051,11 +1036,10 @@
 					type: "advancement"
 				}
 			]
-			x: 20.0d
-			y: 0.0d
+			x: 2.625d
+			y: 1.75d
 		}
 		{
-			dependencies: ["57CFE8378E7F3BE5"]
 			id: "2DA83054B4065A27"
 			optional: true
 			rewards: [
@@ -1087,11 +1071,390 @@
 					type: "structure"
 				}
 			]
-			x: 20.0d
-			y: -1.5d
+			x: 4.375d
+			y: 1.75d
 		}
 		{
-			dependencies: ["57CFE8378E7F3BE5"]
+			icon: {
+				count: 1
+				id: "minecraft:cherry_sapling"
+			}
+			id: "56BEDBCEE539CC71"
+			rewards: [
+				{
+					id: "4EEEDFF1CEDB6C60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22D4B5DAA1FC6ABA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:sakura_grove"
+					icon: {
+						count: 1
+						id: "minecraft:cherry_sapling"
+					}
+					id: "6D59484744ADF30D"
+					type: "biome"
+				}
+			]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:allium"
+			}
+			id: "718F1F03BD03F83A"
+			rewards: [
+				{
+					id: "6C38E8B155AEAAF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6E3AE26E30AE5C45"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:lavender_forest"
+					icon: {
+						count: 1
+						id: "minecraft:allium"
+					}
+					id: "4AD7AC6D85207D49"
+					type: "biome"
+				}
+			]
+			x: -8.75d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:white_tulip"
+			}
+			id: "155927DE8A181767"
+			rewards: [
+				{
+					id: "7FCD769CB83C8D15"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2CDDEC5CBDD29694"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:moonlight_grove"
+					icon: {
+						count: 1
+						id: "minecraft:white_tulip"
+					}
+					id: "0027A0A2FE883201"
+					type: "biome"
+				}
+			]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+			id: "3B56BC2183E1FD3F"
+			rewards: [
+				{
+					id: "3F82802CD8285B90"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "784822FE466D62F4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:birch_taiga"
+					icon: {
+						count: 1
+						id: "minecraft:birch_sapling"
+					}
+					id: "71223C5281712EF9"
+					type: "biome"
+				}
+			]
+			x: -5.25d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:dead_bush"
+			}
+			id: "5D30300305202129"
+			rewards: [
+				{
+					id: "00C5486544220F69"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1979DA7CCE55EC85"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:shrubland"
+					icon: {
+						count: 1
+						id: "minecraft:dead_bush"
+					}
+					id: "3229C344E0CE8203"
+					type: "biome"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:short_grass"
+			}
+			id: "5D11B0B7FFB9553A"
+			rewards: [
+				{
+					id: "424C88757BDCEB3A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B2C277DA5B43271"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:steppe"
+					icon: {
+						count: 1
+						id: "minecraft:short_grass"
+					}
+					id: "72F98C1B69FD59E3"
+					type: "biome"
+				}
+			]
+			x: -1.75d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:stone"
+			}
+			id: "428EA159EB908121"
+			rewards: [
+				{
+					id: "5187E3C197D80C5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D378F74484E8334"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:highlands"
+					icon: {
+						count: 1
+						id: "minecraft:stone"
+					}
+					id: "0F979F7E14A9150E"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:blue_orchid"
+			}
+			id: "02A23AD84E3C2D8E"
+			rewards: [
+				{
+					id: "672D92BF3CC01416"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C937E035881FA46"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:orchid_swamp"
+					icon: {
+						count: 1
+						id: "minecraft:blue_orchid"
+					}
+					id: "390125661336DDA3"
+					type: "biome"
+				}
+			]
+			x: 1.75d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:cactus"
+			}
+			id: "0CF868B6B531D184"
+			rewards: [
+				{
+					id: "757B861E9514F73E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78E5192285E5BB0C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:lush_desert"
+					icon: {
+						count: 1
+						id: "minecraft:cactus"
+					}
+					id: "4159CD60F1C27B48"
+					type: "biome"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+			id: "2DA8665EB9369B73"
+			rewards: [
+				{
+					id: "0733D2757D0FC61E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E90D2E8FB797A37"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:alpine_grove"
+					icon: {
+						count: 1
+						id: "minecraft:spruce_sapling"
+					}
+					id: "5246A092D2EC68AE"
+					type: "biome"
+				}
+			]
+			x: 5.25d
+			y: 3.5d
+		}
+		{
 			icon: {
 				count: 1
 				id: "explorerscompass:explorerscompass"
@@ -1133,8 +1496,8 @@
 					type: "advancement"
 				}
 			]
-			x: 22.0d
-			y: 0.0d
+			x: 0.0d
+			y: 8.75d
 		}
 	]
 }

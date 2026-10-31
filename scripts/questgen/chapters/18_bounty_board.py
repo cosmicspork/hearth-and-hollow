@@ -89,7 +89,7 @@ GRAND = [
 ]
 
 BOARD = {
-    "key": "board", "title": "The Bounty Board", "shape": "gear", "wide": True,
+    "key": "board", "title": "The Bounty Board", "shape": "gear", "size": 2.0, "wide": True,
     "desc": [
         "Every job on this board can be done again and again, as often as you like.",
         "",
