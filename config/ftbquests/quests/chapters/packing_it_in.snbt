@@ -63,10 +63,9 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1ED950662D2763B3"]
 			id: "3F2D985BFCF53A6F"
 			rewards: [
 				{
@@ -86,6 +85,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "549F497B7AB6A612"
@@ -97,30 +97,12 @@
 				}
 			]
 			x: 0.0d
-			y: -1.5d
+			y: 33.5d
 		}
 		{
-			dependencies: ["1ED950662D2763B3"]
 			id: "21CEC5AD22967163"
 			min_width: 300
-			rewards: [
-				{
-					id: "4CBF430184EEAF9F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "1E5706E946F2395E"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "kindling"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
 			shape: "gear"
 			tasks: [
 				{
@@ -129,7 +111,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1ED950662D2763B3"]
@@ -174,10 +156,10 @@
 				}
 			]
 			x: 2.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["672BDE2DDB749647"]
+			dependencies: ["1ED950662D2763B3"]
 			id: "3DA2D9FFD9251C31"
 			rewards: [
 				{
@@ -207,11 +189,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["672BDE2DDB749647"]
+			dependencies: ["1ED950662D2763B3"]
 			icon: {
 				count: 1
 				id: "sophisticatedstorage:iron_chest"
@@ -253,11 +235,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["672BDE2DDB749647"]
 			id: "0F0B905A64EAA527"
 			rewards: [
 				{
@@ -277,6 +258,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -294,11 +276,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["0F0B905A64EAA527"]
 			id: "65B21594EE43AAD9"
 			rewards: [
 				{
@@ -318,6 +299,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "0413A2D8073D8898"
@@ -328,8 +310,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["65B21594EE43AAD9"]
@@ -362,8 +344,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1DBF1C72400C8C4A"]
@@ -397,14 +379,14 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["0F0B905A64EAA527"]
+			dependencies: ["65B21594EE43AAD9"]
 			icon: {
 				count: 1
-				id: "sophisticatedbackpacks:iron_backpack"
+				id: "sophisticatedbackpacks:copper_backpack"
 			}
 			id: "6E03269FEA380C16"
 			rewards: [
@@ -429,7 +411,7 @@
 				{
 					icon: {
 						count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
+						id: "sophisticatedbackpacks:copper_backpack"
 					}
 					id: "735FBAF53702E674"
 					item: {
@@ -442,11 +424,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 1.5d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["0F0B905A64EAA527"]
 			id: "6C228A15C8184693"
 			rewards: [
 				{
@@ -466,10 +447,11 @@
 					type: "item"
 				}
 				{
+					count: 16
 					id: "542D0612A69EE58F"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:hopper_upgrade"
+						id: "pipez:item_pipe"
 					}
 					type: "item"
 				}
@@ -494,11 +476,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["6C228A15C8184693"]
+			dependencies: ["1945F94AA7E4F2FE"]
 			id: "4965DD5EE6DB56CA"
 			optional: true
 			rewards: [
@@ -521,27 +503,21 @@
 			]
 			tasks: [
 				{
-					icon: {
-						count: 1
-						id: "pipez:universal_pipe"
-					}
 					id: "27847F78FAA33D05"
 					item: {
-						components: {
-							"ftbfiltersystem:filter": "or(item(pipez:fluid_pipe)item(pipez:energy_pipe)item(pipez:universal_pipe))"
-						}
 						count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "pipez:universal_pipe"
 					}
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: 2.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["6C228A15C8184693"]
+			dependencies: ["3F2D985BFCF53A6F"]
 			id: "1D6E474243C8ED6F"
+			optional: true
 			rewards: [
 				{
 					id: "2F6F196DF64B994D"
@@ -577,11 +553,15 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 2.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["6C228A15C8184693"]
+			icon: {
+				count: 1
+				id: "pipez:basic_upgrade"
+			}
 			id: "1945F94AA7E4F2FE"
 			rewards: [
 				{
@@ -618,11 +598,10 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["1945F94AA7E4F2FE"]
 			id: "260BBD6E309437E5"
 			rewards: [
 				{
@@ -642,10 +621,11 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "6D42F0DFA9F2A4FD"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:stack_upgrade_tier_1"
+						id: "modularrouters:blank_module"
 					}
 					type: "item"
 				}
@@ -669,11 +649,11 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: 25.0d
 		}
 		{
-			dependencies: ["260BBD6E309437E5"]
+			dependencies: ["6A305913910C235B"]
 			id: "609BC9D0610D0E4E"
 			optional: true
 			rewards: [
@@ -704,12 +684,13 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -1.5d
+			x: 4.0d
+			y: 25.0d
 		}
 		{
-			dependencies: ["260BBD6E309437E5"]
+			dependencies: ["1D6E474243C8ED6F"]
 			id: "51CC9B1DCA0B6DB9"
+			optional: true
 			rewards: [
 				{
 					id: "3B9582BB86FE7EBE"
@@ -730,27 +711,21 @@
 			]
 			tasks: [
 				{
-					icon: {
-						count: 1
-						id: "trashcans:item_trash_can"
-					}
 					id: "7758F8A2B06C146F"
 					item: {
-						components: {
-							"ftbfiltersystem:filter": "or(item(trashcans:item_trash_can)item(trashcans:liquid_trash_can)item(trashcans:energy_trash_can)item(trashcans:ultimate_trash_can))"
-						}
 						count: 1
-						id: "ftbfiltersystem:smart_filter"
+						id: "trashcans:item_trash_can"
 					}
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 1.5d
+			x: 4.0d
+			y: 33.5d
 		}
 		{
-			dependencies: ["260BBD6E309437E5"]
+			dependencies: ["51CC9B1DCA0B6DB9"]
 			id: "63FBB5FB2DC3C943"
+			optional: true
 			rewards: [
 				{
 					id: "4656029AD4C75242"
@@ -779,11 +754,11 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: 6.0d
+			y: 33.5d
 		}
 		{
-			dependencies: ["63FBB5FB2DC3C943"]
+			dependencies: ["1CBB82802FC6D781"]
 			id: "4EC4115450CD8A2F"
 			rewards: [
 				{
@@ -803,10 +778,11 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "4745605ECB26A2D9"
 					item: {
 						count: 1
-						id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+						id: "sophisticatedstorage:oak_storage_connector"
 					}
 					type: "item"
 				}
@@ -822,8 +798,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4EC4115450CD8A2F"]
@@ -865,8 +841,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -1.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4EC4115450CD8A2F"]
@@ -912,7 +888,7 @@
 					id: "1161EEFEEB42CFD7"
 					item: {
 						components: {
-							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:diamond_chest)item(sophisticatedstorage:diamond_barrel)item(sophisticatedstorage:netherite_chest)item(sophisticatedstorage:netherite_barrel))"
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:diamond_chest)item(sophisticatedstorage:diamond_barrel)item(sophisticatedstorage:basic_to_diamond_tier_upgrade)item(sophisticatedstorage:copper_to_diamond_tier_upgrade)item(sophisticatedstorage:iron_to_diamond_tier_upgrade)item(sophisticatedstorage:gold_to_diamond_tier_upgrade)item(sophisticatedstorage:netherite_chest)item(sophisticatedstorage:netherite_barrel))"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -920,8 +896,2208 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["672BDE2DDB749647"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:gold_chest"
+			}
+			id: "1CBB82802FC6D781"
+			rewards: [
+				{
+					id: "4A53E058EE285BF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19ADA488B372AAE1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:gold_chest"
+					}
+					id: "4203F25E86BCA644"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:gold_chest)item(sophisticatedstorage:gold_barrel)item(sophisticatedstorage:basic_to_gold_tier_upgrade)item(sophisticatedstorage:copper_to_gold_tier_upgrade)item(sophisticatedstorage:iron_to_gold_tier_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60FE95B6343462DA"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:netherite_chest"
+			}
+			id: "353216D47AB13391"
+			optional: true
+			rewards: [
+				{
+					id: "52606577D6A49267"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02AE96B641ABFB11"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:netherite_chest"
+					}
+					id: "01C21C18B024CD2B"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:netherite_chest)item(sophisticatedstorage:netherite_barrel)item(sophisticatedstorage:basic_to_netherite_tier_upgrade)item(sophisticatedstorage:copper_to_netherite_tier_upgrade)item(sophisticatedstorage:iron_to_netherite_tier_upgrade)item(sophisticatedstorage:gold_to_netherite_tier_upgrade)item(sophisticatedstorage:diamond_to_netherite_tier_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["672BDE2DDB749647"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:shulker_box"
+			}
+			id: "6D6E33C693B8AB99"
+			optional: true
+			rewards: [
+				{
+					id: "528970FF5E8174B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6715EA489D4DF7E5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:shulker_box"
+					}
+					id: "7243314E623185B1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:shulker_box)item(sophisticatedstorage:copper_shulker_box)item(sophisticatedstorage:iron_shulker_box)item(sophisticatedstorage:gold_shulker_box)item(sophisticatedstorage:diamond_shulker_box)item(sophisticatedstorage:netherite_shulker_box))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["672BDE2DDB749647"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:limited_barrel_1"
+			}
+			id: "5CC81A6F093896CE"
+			optional: true
+			rewards: [
+				{
+					id: "4B5BF06A093579C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "485B4B21B77E5FB7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+					}
+					id: "7D0B0B4AB418B7FC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:limited_barrel_1)item(sophisticatedstorage:limited_barrel_2)item(sophisticatedstorage:limited_barrel_3)item(sophisticatedstorage:limited_barrel_4))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CBB82802FC6D781"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:paintbrush"
+			}
+			id: "4EF0489944EF83A2"
+			optional: true
+			rewards: [
+				{
+					id: "769292FB397EF853"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79764E2CAF241834"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:paintbrush"
+					}
+					id: "4C29A1FC81F5E06E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:decoration_table)item(sophisticatedstorage:paintbrush))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EC4115450CD8A2F"]
+			icon: {
+				count: 1
+				id: "sophisticatedstorage:storage_io"
+			}
+			id: "1A4501EFB6D51C7C"
+			optional: true
+			rewards: [
+				{
+					id: "397E2A81B11A5C41"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D228FD2E8AE711A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:storage_io"
+					}
+					id: "3B6DF2AB05180CC3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:storage_input)item(sophisticatedstorage:storage_output)item(sophisticatedstorage:storage_io))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F0B905A64EAA527"]
+			id: "75AEE839F2AD0E4C"
+			optional: true
+			rewards: [
+				{
+					id: "6EB6ED60348A5131"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "52901DECDEA52216"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:hopper_upgrade"
+					}
+					id: "61180773530EA3E2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:hopper_upgrade)item(sophisticatedstorage:advanced_hopper_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75AEE839F2AD0E4C"]
+			id: "604F286A4CF9586F"
+			optional: true
+			rewards: [
+				{
+					id: "7A898AD3A94C6A5E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DABC38A81C5502E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:magnet_upgrade"
+					}
+					id: "2C833A35A8CDFFE2"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:magnet_upgrade)item(sophisticatedstorage:advanced_magnet_upgrade)item(sophisticatedstorage:pickup_upgrade)item(sophisticatedstorage:advanced_pickup_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75AEE839F2AD0E4C"]
+			id: "4C5BB78EF524AC5B"
+			optional: true
+			rewards: [
+				{
+					id: "2ACC1F1AA211D847"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30EAE7A52192C081"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E2A7619FDB0CAEB"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C5BB78EF524AC5B"]
+			id: "262AD05484ADB5E4"
+			optional: true
+			rewards: [
+				{
+					id: "6F48F8E1C245AA42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39AC74D61AF64D07"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_3"
+					}
+					id: "5972B78D5F97C173"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:stack_upgrade_tier_3)item(sophisticatedstorage:stack_upgrade_tier_4)item(sophisticatedstorage:stack_upgrade_tier_5))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C5BB78EF524AC5B"]
+			id: "47E50B85ED685F60"
+			optional: true
+			rewards: [
+				{
+					id: "011BCF87B64C10F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6483138A122CE42F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:compacting_upgrade"
+					}
+					id: "061F4BBF3AEB7346"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:compacting_upgrade)item(sophisticatedstorage:advanced_compacting_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47E50B85ED685F60"]
+			id: "7D1A343965395D13"
+			optional: true
+			rewards: [
+				{
+					id: "36BB7CEB64100277"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4183E948805DB0A8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:smelting_upgrade"
+					}
+					id: "003664E2AE41AA74"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:smelting_upgrade)item(sophisticatedstorage:auto_smelting_upgrade)item(sophisticatedstorage:blasting_upgrade)item(sophisticatedstorage:auto_blasting_upgrade)item(sophisticatedstorage:smoking_upgrade)item(sophisticatedstorage:auto_smoking_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D1A343965395D13"]
+			id: "596C66DE5BD8D0F3"
+			optional: true
+			rewards: [
+				{
+					id: "2F82A18654D70398"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EFD1700B4B4FE3B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:void_upgrade"
+					}
+					id: "43BD3301641A5A94"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:void_upgrade)item(sophisticatedstorage:advanced_void_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["596C66DE5BD8D0F3"]
+			id: "6A9CF31EE7F4C2AF"
+			optional: true
+			rewards: [
+				{
+					id: "51E3C409FD7386B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3AB2C5AAD61E3DE1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedstorage:crafting_upgrade"
+					}
+					id: "646A250D4BD9C144"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedstorage:crafting_upgrade)item(sophisticatedstorage:stonecutter_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6E03269FEA380C16"]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			id: "60308AFBA3DB96C6"
+			rewards: [
+				{
+					id: "10C2D767E9E23051"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "353DB61FC6F5C2AE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+					id: "447CEAF35053D715"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["60308AFBA3DB96C6"]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "0B16A10D224B7821"
+			rewards: [
+				{
+					id: "4E09237696E8BAC8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6502C613FEAFD5D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+					}
+					id: "2E4CE40E151FF005"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B16A10D224B7821"]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:diamond_backpack"
+			}
+			id: "53941AE5A791BEB5"
+			rewards: [
+				{
+					id: "73A5FB893378353D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18008D5C11F25B40"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					id: "41AA925EA7DC2307"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["53941AE5A791BEB5"]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			id: "5401516BC00BF512"
+			optional: true
+			rewards: [
+				{
+					id: "4A0F9E64ED688683"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5D3312DD8EED20BD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2C4A29654B3B55EA"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["65B21594EE43AAD9"]
+			id: "4DAFC1C3473CD8B0"
+			optional: true
+			rewards: [
+				{
+					id: "468326B8D1D31709"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12AC0C03B4DED7BA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46788119AAEED1B7"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6E03269FEA380C16"]
+			id: "68D62D82C54B61B1"
+			optional: true
+			rewards: [
+				{
+					id: "51A9B72032A3DF8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D06E606DDADED74"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:tool_swapper_upgrade"
+					}
+					id: "79E9D0609F4E40BC"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:tool_swapper_upgrade)item(sophisticatedbackpacks:advanced_tool_swapper_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6E03269FEA380C16"]
+			id: "2BD36B823FA2B9C1"
+			optional: true
+			rewards: [
+				{
+					id: "57005E57740FCF8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E7CDAC4C5384B64"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:refill_upgrade"
+					}
+					id: "0DBB4813CCEE0D19"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:refill_upgrade)item(sophisticatedbackpacks:advanced_refill_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["60308AFBA3DB96C6"]
+			id: "167616BB0903DE82"
+			optional: true
+			rewards: [
+				{
+					id: "7A72A3BFB0DCD6E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C815C17B8867406"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:deposit_upgrade"
+					}
+					id: "0A28CE71A0915E43"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:deposit_upgrade)item(sophisticatedbackpacks:advanced_deposit_upgrade)item(sophisticatedbackpacks:restock_upgrade)item(sophisticatedbackpacks:advanced_restock_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["60308AFBA3DB96C6"]
+			id: "365EC6354C359484"
+			optional: true
+			rewards: [
+				{
+					id: "3171265005658635"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "442B52DA52DB1613"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:void_upgrade"
+					}
+					id: "6266E1986595DC9C"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:void_upgrade)item(sophisticatedbackpacks:advanced_void_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0B16A10D224B7821"]
+			id: "6C3D000609F6BFED"
+			optional: true
+			rewards: [
+				{
+					id: "4073F2BC58F3830B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07A150CE95F698FC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37C3E026A10B96AF"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:tank_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0B16A10D224B7821"]
+			id: "633C01D84DB7729C"
+			optional: true
+			rewards: [
+				{
+					id: "124D7631EE374DDE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5DDFD2B5D6910A60"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:jukebox_upgrade"
+					}
+					id: "472E86717E3DF16A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:jukebox_upgrade)item(sophisticatedbackpacks:advanced_jukebox_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["53941AE5A791BEB5"]
+			id: "293829C786BBFABB"
+			optional: true
+			rewards: [
+				{
+					id: "2211CE2EAE967C5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58791D1E42695F03"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "799A3225EBE2E2D4"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:inception_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["53941AE5A791BEB5"]
+			id: "68921C32DF469C53"
+			optional: true
+			rewards: [
+				{
+					id: "020296321CC7315F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "527A8B1BCC6F1E25"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "sophisticatedbackpacks:mob_catcher_upgrade"
+					}
+					id: "77195E48F6CCA183"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:mob_catcher_upgrade)item(sophisticatedbackpacks:advanced_mob_catcher_upgrade))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5401516BC00BF512"]
+			id: "11331CCF05DCAA35"
+			optional: true
+			rewards: [
+				{
+					id: "07E62CF4AABB9BC0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "227EE69139C6248C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26A4D2ACF098381D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:everlasting_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6C228A15C8184693"]
+			id: "2116522EDDD7558C"
+			optional: true
+			rewards: [
+				{
+					id: "74ACE8A78D5660E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75E65A7006A7C7F9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06E6C6B1BBA1B626"
+					item: {
+						count: 1
+						id: "pipez:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6C228A15C8184693"]
+			id: "2702C984450BD46D"
+			optional: true
+			rewards: [
+				{
+					id: "721BB8D306313025"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E3BE9B28CCD4F24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4145C0F227814747"
+					item: {
+						count: 1
+						id: "pipez:energy_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1945F94AA7E4F2FE"]
+			id: "6E97B589CFB68CBD"
+			optional: true
+			rewards: [
+				{
+					id: "27C69E630B7F5C77"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4886E871800C2726"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F867081A69A14B8"
+					item: {
+						count: 1
+						id: "pipez:gas_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1945F94AA7E4F2FE"]
+			id: "581C5080B1FD3F3B"
+			rewards: [
+				{
+					id: "253288980C8E3621"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76DB6E14DCEC0632"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D33D6AA4E7942D4"
+					item: {
+						count: 1
+						id: "pipez:improved_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["581C5080B1FD3F3B"]
+			id: "4F3B8463D82F2FD8"
+			rewards: [
+				{
+					id: "4972A042FFCC96E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "386D744E412973EB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14B10A5097AC6F1B"
+					item: {
+						count: 1
+						id: "pipez:advanced_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4F3B8463D82F2FD8"]
+			id: "4832B5D9BBEB3B18"
+			rewards: [
+				{
+					id: "3118494FE7089042"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C43260D33CA0D32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1DFB71A3E1D0B6CD"
+					item: {
+						count: 1
+						id: "pipez:ultimate_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["581C5080B1FD3F3B"]
+			id: "2DEEE2DE7E8F54C9"
+			optional: true
+			rewards: [
+				{
+					id: "22EE97CAD68D8E6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08A265B5D65B6E5F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63799923E6F2F69D"
+					item: {
+						count: 1
+						id: "pipez:filter_destination_tool"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["260BBD6E309437E5"]
+			id: "49956EE3C6A2E2D4"
+			optional: true
+			rewards: [
+				{
+					id: "148C1AF92818C794"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C306B7B35FD3D09"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31747EFAB0C7695D"
+					item: {
+						count: 1
+						id: "modularrouters:speed_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["49956EE3C6A2E2D4"]
+			id: "54C2DAB264BE1CBD"
+			optional: true
+			rewards: [
+				{
+					id: "2FDD3171940711FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EFA9D0F68084DF1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "55F1EEEE795BC708"
+					item: {
+						count: 1
+						id: "modularrouters:stack_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["260BBD6E309437E5"]
+			id: "055890DF3B787287"
+			optional: true
+			rewards: [
+				{
+					id: "47165A9575240E03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E6B13319BA5FCE7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "modularrouters:tag_filter"
+					}
+					id: "5A3981F513F095D5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(modularrouters:tag_filter)item(modularrouters:mod_filter)item(modularrouters:regex_filter)item(modularrouters:inspection_filter)item(modularrouters:bulk_item_filter))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["260BBD6E309437E5"]
+			id: "6A305913910C235B"
+			rewards: [
+				{
+					id: "7F67F94DFDC9A1C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FF4CA96D1EC0192"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "611E7031569B4E84"
+					item: {
+						count: 1
+						id: "modularrouters:sender_module_2"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6A305913910C235B"]
+			id: "5C35F94738088035"
+			optional: true
+			rewards: [
+				{
+					id: "5E345F04269AC355"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DCE5D9D2116D3B8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "modularrouters:fluid_module"
+					}
+					id: "5DA4D1A26591CC32"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(modularrouters:fluid_module)item(modularrouters:fluid_module_2))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6A305913910C235B"]
+			id: "224AE0B3D44C35E1"
+			optional: true
+			rewards: [
+				{
+					id: "09DE75C41FBFD413"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71B5189F03280CB9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "251EE30159334A42"
+					item: {
+						count: 1
+						id: "modularrouters:distributor_module"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["609BC9D0610D0E4E"]
+			id: "4B64225EDDD4C85E"
+			optional: true
+			rewards: [
+				{
+					id: "0B746056B5B13A71"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3990B2364FA8B3FA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44C24AE9CC1FD813"
+					item: {
+						count: 1
+						id: "modularrouters:xp_vacuum_augment"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["609BC9D0610D0E4E"]
+			id: "63EA9CE978513053"
+			rewards: [
+				{
+					id: "703E080625723F69"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09AC23E617352064"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "031A659C40BEA8D0"
+					item: {
+						count: 1
+						id: "modularrouters:breaker_module"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["63EA9CE978513053"]
+			id: "4946024405924A20"
+			optional: true
+			rewards: [
+				{
+					id: "76AB74CA4AC93767"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B7EA39C7E2F3900"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F499752CDD9267A"
+					item: {
+						count: 1
+						id: "modularrouters:placer_module"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["63EA9CE978513053"]
+			id: "5CC27283ECA803C4"
+			optional: true
+			rewards: [
+				{
+					id: "49263E85F6784645"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D5C260EFCDF3CA6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B40D712F05C57C1"
+					item: {
+						count: 1
+						id: "modularrouters:dropper_module"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["5CC27283ECA803C4"]
+			id: "21AC789D0809656C"
+			optional: true
+			rewards: [
+				{
+					id: "0865942451C69561"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "689B45ED3D6C8DCF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DF88344B90BED66"
+					item: {
+						count: 1
+						id: "modularrouters:flinger_module"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["63EA9CE978513053"]
+			id: "5231DE299957F1B0"
+			rewards: [
+				{
+					id: "74DF74CA545515B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "040C7435D3A55D42"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "55A10B5DED5E6533"
+					item: {
+						count: 1
+						id: "modularrouters:extruder_module_1"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5231DE299957F1B0"]
+			id: "44F6B047E3A8EA68"
+			optional: true
+			rewards: [
+				{
+					id: "1118609450DFA42C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "679E2733E5B9FE82"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5218465B7ED44C12"
+					item: {
+						count: 1
+						id: "modularrouters:extruder_module_2"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["5231DE299957F1B0"]
+			id: "1EAD8F9695CF6C87"
+			rewards: [
+				{
+					id: "21317FA5F310B670"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "038686173444B032"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FAD8BFF35222A36"
+					item: {
+						count: 1
+						id: "modularrouters:activator_module"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1EAD8F9695CF6C87"]
+			id: "00D08C6C7AF39E06"
+			optional: true
+			rewards: [
+				{
+					id: "50CA5F9FB66C6484"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D7A646342DA6DF4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77226D0FE2FA2A50"
+					item: {
+						count: 1
+						id: "modularrouters:player_module"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["1EAD8F9695CF6C87"]
+			id: "0E1D87DB8D970169"
+			optional: true
+			rewards: [
+				{
+					id: "65EEA1B50375F0BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "73F5484B7193FDDB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D7E2C6E579E4887"
+					item: {
+						count: 1
+						id: "modularrouters:detector_module"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["1EAD8F9695CF6C87"]
+			id: "20C476B8FEEEC24F"
+			rewards: [
+				{
+					id: "0A31933B0CD497AE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "23ECC15964FC41DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0AEED6BAAC0B35F4"
+					item: {
+						count: 1
+						id: "modularrouters:sender_module_3"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F2D985BFCF53A6F"]
+			id: "3B9856BC56ACC593"
+			optional: true
+			rewards: [
+				{
+					id: "32A2BA5B5914D840"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36E0D2C5A4BB002F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "crafting_on_a_stick:stonecutter"
+					}
+					id: "184DE4899D7E45BB"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(crafting_on_a_stick:stonecutter)item(crafting_on_a_stick:loom)item(crafting_on_a_stick:smithing_table)item(crafting_on_a_stick:anvil)item(crafting_on_a_stick:grindstone)item(crafting_on_a_stick:cartography_table))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1D6E474243C8ED6F"]
+			id: "5F60EA6A8A926214"
+			optional: true
+			rewards: [
+				{
+					id: "170A97A8CACFD881"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F25AD75B913D153"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54BEBDD1A651CD65"
+					item: {
+						count: 1
+						id: "itemcollectors:advanced_collector"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["51CC9B1DCA0B6DB9"]
+			id: "61867EE8BC44D0DD"
+			optional: true
+			rewards: [
+				{
+					id: "4036F95797A136DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E1EA2A409ED1E7C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "470A3D9A28111ED3"
+					item: {
+						count: 1
+						id: "trashcans:liquid_trash_can"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["61867EE8BC44D0DD"]
+			id: "1F3CFF6E67832237"
+			optional: true
+			rewards: [
+				{
+					id: "31700316C552EB78"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0ADE930277E57EC6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19A7471FAB564EAF"
+					item: {
+						count: 1
+						id: "trashcans:energy_trash_can"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["51CC9B1DCA0B6DB9"]
+			id: "684BFADFC09B142E"
+			optional: true
+			rewards: [
+				{
+					id: "39C3CCF640A8639A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B9330298A586097"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F2EE04757530DE2"
+					item: {
+						count: 1
+						id: "trashcans:ultimate_trash_can"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 35.0d
 		}
 	]
 }
