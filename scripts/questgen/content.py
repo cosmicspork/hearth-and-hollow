@@ -27,6 +27,7 @@ TABLES = [
             ("minecraft:candle", 4, 0.6),
             ("minecraft:flower_pot", 4, 0.4),
             ("minecraft:leather", 6, 0.6),
+            ("minecraft:ender_pearl", 2, 0.4),
         ],
     },
     {
