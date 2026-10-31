@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Curios & Keepsakes",
     "subtitle": "Artifacts, relics, and a few extra hearts",
     "icon": "bhc:heart_amulet",
+    "theme": "curio",
     # A grid: these turn up in whatever order the world hands them out.
     "layout": {"grid": [
         ["artifact", "fleet", "prospector", "fighter", "beef", "slots"],

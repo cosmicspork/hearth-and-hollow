@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Mekanism",
     "subtitle": "Up to five ingots from every ore",
     "icon": "mekanism:enrichment_chamber",
+    "theme": "mekanism",
     # Two ladders where the order is real, ore processing and the alloys and circuits, and the
     # factory tiers. Machines, upgrades and the chemistry kit need no order, so they sit in blocks.
     "layout": {

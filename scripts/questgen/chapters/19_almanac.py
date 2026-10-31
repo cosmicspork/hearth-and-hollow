@@ -71,6 +71,7 @@ CHAPTER = {
     "title": "The Almanac",
     "subtitle": "Every fish, every feast, every far-off place",
     "icon": "minecraft:writable_book",
+    "theme": "almanac",
     "layout": {"free": FREE, "deps": DEPS},
     "quests": [
         {

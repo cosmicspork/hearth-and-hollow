@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Mekanism Reactors",
     "subtitle": "Fission, fusion and antimatter",
     "icon": "mekanismgenerators:fission_reactor_casing",
+    "theme": "mekanism",
     "layout": {
         "info": ["safety"],
         "lines": [

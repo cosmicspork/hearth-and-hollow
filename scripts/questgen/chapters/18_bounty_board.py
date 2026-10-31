@@ -1,7 +1,7 @@
 TIERS = {
-    "odd": ("Odd Job", [{"xp": 10}, {"crate": "kindling"}]),
-    "commission": ("Commission", [{"xp": 10}, {"crate": "hearth"}]),
-    "grand": ("Grand Bounty", [{"xp": 25}, {"crate": "ember"}]),
+    "odd": ("Odd Job", [{"xp": 10}, {"crate_item": "kindling"}]),
+    "commission": ("Commission", [{"xp": 10}, {"crate_item": "hearth"}]),
+    "grand": ("Grand Bounty", [{"xp": 25}, {"crate_item": "ember"}]),
 }
 
 

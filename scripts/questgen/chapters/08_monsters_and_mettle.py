@@ -6,6 +6,7 @@ CHAPTER = {
     "title": "Monsters & Mettle",
     "subtitle": "Better gear, harder fights",
     "icon": "apotheosis:sigil_of_socketing",
+    "theme": "hunter",
     "layout": {
         "info": ["mettle"],
         "lines": [

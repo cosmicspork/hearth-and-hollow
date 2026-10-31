@@ -1,0 +1,151 @@
+{
+	icon: {
+		count: 1
+		id: "ironjetpacks:thruster"
+	}
+	id: "09A1F14D608457E8"
+	loot_size: 2
+	order_index: 18
+	rewards: [
+		{
+			count: 16
+			id: "6B1105CF7FD2BCFA"
+			item: {
+				count: 1
+				id: "minecraft:firework_rocket"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 4
+			id: "4B7AE420FBE05D66"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "63150C5ED5D39FCE"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "4A493AFD87940C60"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "0D6FA44D2556D068"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 6
+			id: "07687399968EBCDE"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "5FDD3867A3F60930"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "0AD633D4F1F53C4D"
+			item: {
+				count: 1
+				id: "powah:dielectric_paste"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "0CA4A75C28C66A32"
+			item: {
+				count: 1
+				id: "minecraft:slime_ball"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			id: "00B65BDC5CAD4A98"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "15B55B2806537752"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "6DF37991C1D2D237"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "7C2317F0CB9E0905"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "1EE8C13CADB8DCEC"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

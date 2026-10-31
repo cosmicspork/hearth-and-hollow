@@ -18,6 +18,7 @@ CHAPTER = {
     "title": "Oritech",
     "subtitle": "Industry on a grand scale",
     "icon": "oritech:basic_generator_block",
+    "theme": "oritech",
     # The machine ladder and the core ladder carry the order. Generators, addons and odds and
     # ends need none, so they sit in blocks; the laser and the frame machines fan out briefly.
     "layout": {

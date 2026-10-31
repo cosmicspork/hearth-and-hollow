@@ -1,0 +1,279 @@
+{
+	icon: {
+		count: 1
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "4DD3DB2B887A605F"
+	loot_size: 2
+	order_index: 5
+	rewards: [
+		{
+			count: 2
+			id: "6BDA0FF73350C464"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "77A0CDE4B3122A80"
+			item: {
+				count: 1
+				id: "farmersdelight:baked_cod_stew"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "4D27C68747170C0E"
+			item: {
+				count: 1
+				id: "farmersdelight:fish_stew"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "5932CB37EFAC1D75"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_cookie"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "29CDFCAA38DACD68"
+			item: {
+				count: 1
+				id: "croptopia:salt"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "753BCE2A73A82795"
+			item: {
+				count: 1
+				id: "croptopia:butter"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "2E764F8940EBEF0F"
+			item: {
+				count: 1
+				id: "minecraft:sugar"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			id: "31C8D1D3A6D7320C"
+			item: {
+				count: 1
+				id: "minecraft:egg"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 16
+			id: "2FCD2F4D07866F0B"
+			item: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 4
+			id: "6C525D663F8D58A0"
+			item: {
+				count: 1
+				id: "croptopia:pepper"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "465607FFC9EC7EF9"
+			item: {
+				count: 1
+				id: "croptopia:cheese"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "095769C97556C4C0"
+			item: {
+				count: 1
+				id: "croptopia:dough"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "5018E988DAA6604C"
+			item: {
+				count: 1
+				id: "croptopia:vanilla"
+			}
+			random_bonus: 4
+			weight: 0.4f
+		}
+		{
+			count: 8
+			id: "66A5EC5D710F1B6D"
+			item: {
+				count: 1
+				id: "croptopia:flour"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "29FE1E4B9789D0E7"
+			item: {
+				count: 1
+				id: "croptopia:olive_oil"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "52AD891DBF746858"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+			random_bonus: 2
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "0E3FF7C2F1BE34FC"
+			item: {
+				count: 1
+				id: "minecraft:cocoa_beans"
+			}
+			random_bonus: 8
+			weight: 0.5f
+		}
+		{
+			id: "2474CDA061A3FC31"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "27A1719A1095CFA4"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "1F648E62465A7CF8"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "341CBE035E4CAF33"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "1D4D7A75C74ACA90"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+		{
+			count: 16
+			id: "48A6B8AF9F7B50DF"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			random_bonus: 16
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "31E2E9C48D71F571"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 6
+			id: "5B299420F97CB0AD"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "0F12C824995E1EE4"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "6414A56302AA4F97"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			random_bonus: 8
+			weight: 0.3f
+		}
+	]
+	use_title: true
+}

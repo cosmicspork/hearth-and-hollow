@@ -1,0 +1,196 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:iron_sword"
+	}
+	id: "155DB9931188C043"
+	loot_size: 2
+	order_index: 10
+	rewards: [
+		{
+			count: 16
+			id: "6943A4D29A7768B8"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "23228F86E00A5F29"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "7F3DEB412AEE7E1C"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "6804AF9B9A708823"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "7B27A04F6AE3CBE1"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "0C6B499FDA977D4F"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "238BC1F5A70EE72C"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			id: "5E0362DD87CAFA69"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "3B033D7CE30007C0"
+			item: {
+				count: 1
+				id: "minecraft:spectral_arrow"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "6EE9BBA173479CD5"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "5AFDE0907793072B"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			id: "556DF6C100423C08"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:sharpness": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "5B7F5D8AF03F8262"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:protection": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "3A9A45936CF51782"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:looting": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "299A1A9FA034B6E7"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "627F25ADEC46E5CD"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "2407DD60BFFF704B"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+	]
+	use_title: true
+}

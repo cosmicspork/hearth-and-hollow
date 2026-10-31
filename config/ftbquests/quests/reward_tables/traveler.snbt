@@ -1,0 +1,211 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:compass"
+	}
+	id: "6D6A8DFA125A1F60"
+	loot_size: 2
+	order_index: 7
+	rewards: [
+		{
+			count: 6
+			id: "7995A8CA794BB81A"
+			item: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			id: "642990815C501A8C"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			id: "46AF47735FC632E7"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "3DA14EDC98714CB7"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			id: "3A73DF55BB3A6A9C"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "572AA4E6EF88301C"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "7C977A3630A232B8"
+			item: {
+				count: 1
+				id: "minecraft:lead"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "6E0EF1CF4EBE9C44"
+			item: {
+				count: 1
+				id: "minecraft:oak_boat"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "4E62C4B4ED774929"
+			item: {
+				count: 1
+				id: "minecraft:spyglass"
+			}
+			weight: 0.2f
+		}
+		{
+			count: 8
+			id: "6427FF0393419111"
+			item: {
+				count: 1
+				id: "waystones:warp_dust"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "312BA9F7E91AE775"
+			item: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "7D309FC4CEB4579B"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			id: "1FBBD6A09C121D9E"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "12336CC68D929BAC"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "6D34C222E207914A"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "7DE5A3F005E57470"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "31E84C9603697ADD"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+		{
+			count: 16
+			id: "4DF7446FC155A4A9"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			random_bonus: 16
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "71894CFD4E176B14"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 6
+			id: "41DFCE774A35D71D"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "4A87E58A8DEA5377"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			random_bonus: 8
+			weight: 0.3f
+		}
+	]
+	use_title: true
+}

@@ -18,6 +18,7 @@ CHAPTER = {
     "title": "Oritech Kit",
     "subtitle": "Oil, pipes, exo suits and augments",
     "icon": "oritech:exo_chestplate",
+    "theme": "oritech",
     # Oil runs to the refinery and splits; the jetpack and the exo suit meet in the exo jetpack.
     # Tools, pipes and storage need no order, so they sit in blocks.
     "layout": {

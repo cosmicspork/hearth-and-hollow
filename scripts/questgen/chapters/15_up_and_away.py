@@ -17,6 +17,7 @@ CHAPTER = {
     "title": "Up & Away",
     "subtitle": "Jetpacks, wings, elevators and a waystone network of your own",
     "icon": "minecraft:feather",
+    "theme": "aviator",
     # Separate ways of getting about, so none waits on the others.
     "layout": {
         "lines": [

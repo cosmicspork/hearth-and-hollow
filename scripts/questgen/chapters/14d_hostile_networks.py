@@ -94,6 +94,7 @@ CHAPTER = {
     "title": "Hostile Neural Networks",
     "subtitle": "Teach a model a mob, then farm it without the fight",
     "icon": "hostilenetworks:sim_chamber",
+    "theme": "grinder",
     "layout": {"lines": [
         {"flow": ["learner", "sim", "fabricator", "data_center"],
          "branches": {"sim": {"up": ["matrix"], "down": ["wither_prediction"]}}},

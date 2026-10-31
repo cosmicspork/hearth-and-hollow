@@ -54,6 +54,7 @@ CHAPTER = {
     "title": "Refined Storage",
     "subtitle": "One network for everything: disks, grids and wireless access",
     "icon": "refinedstorage:controller",
+    "theme": "storage",
     # The network fans out from the processors to the controller, the item and fluid disk ladders
     # climb side by side, and the wireless grids meet in the Universal Grid. The bigger disks and
     # other odds and ends need no order.

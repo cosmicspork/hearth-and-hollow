@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 import content
-from gen import load_chapters
+from gen import Book, load_chapters
 
 NAMES = {}
 for line in (Path(__file__).parent / "index/items.tsv").read_text().splitlines():
@@ -45,14 +45,25 @@ def task(t):
     return str(t)
 
 
-def reward(r):
+def table_title(name):
+    t = next(t for t in content.TABLES + content.THEMES if t["name"] == name)
+    return re.sub(r"&[0-9a-fk-or]", "", t["title"])
+
+
+def reward(r, theme=None):
     n = f" x{r['count']}" if r.get("count", 1) != 1 else ""
     if "xp" in r:
         return f"{r['xp']} XP"
     if "xp_levels" in r:
         return f"{r['xp_levels']} levels"
     if "crate" in r:
-        return f"{r['crate'].title()} crate{n}"
+        if not theme:
+            return f"{table_title(r['crate'])} rolls{n}"
+        kind, extra = Book.PAYOUTS[r["crate"]]
+        what = {"random": "1 item from", "loot": "rolls on", "choice": "pick one from"}[kind]
+        return f"{what} {table_title(theme)}" + (f" + {table_title(extra)} rolls" if extra else "") + n
+    if "crate_item" in r:
+        return f"{table_title(r['crate_item'])}{n}"
     if "book" in r:
         return f"Book: {r['book'].split(':')[1].replace('_', ' ')} {r.get('level', 1)}"
     if "item" in r:
@@ -70,9 +81,9 @@ def main():
     groups = {g["key"]: g["title"] for g in content.GROUPS}
     for n, ch in enumerate(chapters, 1):
         out += [f"## {n}. {ch['title']}", ""]
-        meta = f"*{groups[ch['group']]}*"
+        meta = f"*{groups[ch['group']]}*" if ch.get("group") else ""
         if ch.get("subtitle"):
-            meta += f" · {md(ch['subtitle'])}"
+            meta += (" · " if meta else "") + md(ch["subtitle"])
         out += [meta, ""]
         for q in ch["quests"]:
             flags = []
@@ -95,7 +106,7 @@ def main():
                 out += ["  \n".join(para), ""]
             out += ["- **Tasks:** " + "; ".join(task(t) for t in q["tasks"])]
             if q.get("rewards"):
-                out += ["- **Rewards:** " + ", ".join(reward(r) for r in q["rewards"])]
+                out += ["- **Rewards:** " + ", ".join(reward(r, ch.get("theme")) for r in q["rewards"])]
             out += [""]
     Path(sys.argv[1]).write_text("\n".join(out))
     print(f"wrote {sys.argv[1]}: {total} quests")

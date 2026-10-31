@@ -37,6 +37,7 @@ BIOME_TAGS = lines("biome_tags.txt")
 ADVANCEMENTS = lines("advancements.txt")
 DIMENSIONS = lines("dimensions.txt") | {"minecraft:the_nether"}
 CRATES = {t["name"] for t in content.TABLES}
+THEMES = {t["name"]: t for t in content.THEMES}
 GROUPS = {g["key"] for g in content.GROUPS}
 
 # Generation for these is switched off in the pack; don't send players looking for them.
@@ -77,6 +78,8 @@ def check_chapter(ch, errs, warns):
             err(f"missing chapter key {k}")
     if ch.get("group") and ch["group"] not in GROUPS:
         err(f"unknown group {ch.get('group')}")
+    if ch.get("theme") and ch["theme"] not in THEMES:
+        err(f"unknown theme {ch.get('theme')}")
     item_ok(ch.get("icon"), "chapter icon")
     text_ok(ch.get("title", "") + ch.get("subtitle", ""), "chapter title")
     keys = [q.get("key") for q in ch.get("quests", [])]
@@ -167,8 +170,9 @@ def check_chapter(ch, errs, warns):
                     err(f"{tc}: give this task a title")
         for r in q.get("rewards", []):
             rc = f"{ctx} reward {r}"
-            if "crate" in r and r["crate"] not in CRATES:
-                err(f"{rc}: unknown crate")
+            for k in ("crate", "crate_item"):
+                if k in r and r[k] not in CRATES:
+                    err(f"{rc}: unknown crate")
             if "item" in r:
                 item_ok(r["item"], rc)
             if "command" in r and not r["command"].startswith("/"):
@@ -196,13 +200,51 @@ def check_links(ch, errs):
             errs.append(f"{ch.get('file')}: link {l.get('quest')} points into its own chapter")
 
 
+def table_item(row):
+    it = row[0]
+    return None if isinstance(it, tuple) else it
+
+
+def check_tables(errs):
+    """Every item a reward table can give, or shows as its icon, must exist."""
+    for t in content.TABLES + content.THEMES + [{"name": "jackpots", "rewards": content.JACKPOTS},
+                                                {"name": "staples", "rewards": content.STAPLES}]:
+        for row in t["rewards"]:
+            i = table_item(row)
+            if i and i not in ITEMS:
+                errs.append(f"table {t['name']}: unknown item {i}")
+            if not 3 <= len(row) <= 4:
+                errs.append(f"table {t['name']}: {row} should be (item, count, weight[, bonus])")
+        if t.get("icon") and t["icon"] not in ITEMS:
+            errs.append(f"table {t['name']}: unknown icon {t['icon']}")
+
+
+def check_theme_skips(ch, warns):
+    """A theme shouldn't hand out what its own chapters ask for: it would skip the quest.
+    Jackpots and staples are left out; they're the same in every theme."""
+    theme = THEMES.get(ch.get("theme"))
+    if not theme:
+        return
+    gives = {table_item(r) for r in theme["rewards"]} - {None} - theme.get("allow", set())
+    for q in ch["quests"]:
+        for t in q["tasks"]:
+            # A task on a specific variant (an Almanac page) isn't met by the plain item.
+            if t.get("components"):
+                continue
+            for i in ([t["item"]] if "item" in t else []) + t.get("any", []):
+                if i in gives:
+                    warns.append(f"{ch['file']}: theme {theme['name']} gives {i}, which {q['key']} asks for")
+
+
 def main():
     paths = [Path(a) for a in sys.argv[1:]]
     chapters = [load(p) for p in paths] if paths else load_chapters()
     errs, warns = [], []
+    check_tables(errs)
     for ch in chapters:
         check_chapter(ch, errs, warns)
         check_links(ch, errs)
+        check_theme_skips(ch, warns)
     if not errs:
         with tempfile.TemporaryDirectory() as d:
             try:

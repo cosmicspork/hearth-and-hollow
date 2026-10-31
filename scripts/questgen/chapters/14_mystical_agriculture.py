@@ -58,6 +58,7 @@ CHAPTER = {
     "title": "Mystical Agriculture",
     "subtitle": "Grow your resources instead of mining them",
     "icon": "mysticalagriculture:inferium_seeds",
+    "theme": "grower",
     "layout": {"lines": [
         {"spine": ["start", "seeds", "altar", "crystal", "prudentium", "tertium", "imperium", "supremium", "finale"],
          "branches": {

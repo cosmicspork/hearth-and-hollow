@@ -1,0 +1,170 @@
+{
+	icon: {
+		count: 1
+		id: "powah:dielectric_paste"
+	}
+	id: "041278CDAD7DD44C"
+	loot_size: 2
+	order_index: 12
+	rewards: [
+		{
+			count: 16
+			id: "3D14F5F3020E309D"
+			item: {
+				count: 1
+				id: "powah:dielectric_paste"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 4
+			id: "12416445A542DB30"
+			item: {
+				count: 1
+				id: "powah:uraninite"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 32
+			id: "5E54AEBA7289D795"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 2
+			id: "582C9E259FD7276E"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "08A6C897121EAB75"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "29E74555C9FFE0E6"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "2E45ACEC27EB9687"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "001F8149AEC17B0C"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			random_bonus: 2
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "07823C01D6D3860A"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "3F2410B5E256BB9B"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+			random_bonus: 16
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "586E7625CD1E4E08"
+			item: {
+				count: 1
+				id: "alltheores:steel_ingot"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			id: "71C8018E3AA51A5A"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "646015881E6C354E"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "7DD68CAD09A4FEA7"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "716F397BE219ED7D"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "6B394D5E83414EE0"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

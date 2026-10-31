@@ -153,6 +153,7 @@ CHAPTER = {
     "title": "Sparks",
     "subtitle": "From a coal generator to a reactor, carried anywhere",
     "icon": "powah:energizing_orb",
+    "theme": "spark",
     # One line per mod, so a generator upgrade never waits on a flux network. Powah's crystals
     # and its rods climb side by side; machines that come in every tier need no order.
     "layout": {

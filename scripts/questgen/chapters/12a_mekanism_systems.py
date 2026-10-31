@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Mekanism Systems",
     "subtitle": "Power, transport, storage and the gear to go with it",
     "icon": "mekanism:basic_energy_cube",
+    "theme": "mekanism",
     # Each transmitter climbs its tiers beside the others; energy storage has its own short
     # ladder. Generators, storage and gear need no order, so they sit in blocks.
     "layout": {

@@ -14,6 +14,7 @@ CHAPTER = {
     "title": "Green Thumb",
     "subtitle": "Pots, pylons and faster crops",
     "icon": "botanypots:terracotta_botany_pot",
+    "theme": "grower",
     "layout": {"lines": [
         {"flow": ["pot", "hopper_pot"]},
         {"rows": ["watering", "accelerator", "fertilizer"]},
