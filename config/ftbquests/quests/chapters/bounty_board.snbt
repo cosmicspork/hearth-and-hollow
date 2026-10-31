@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bounty_board"
-	group: "6FE350D5D0123F96"
+	group: ""
 	icon: {
 		count: 1
 		id: "minecraft:bell"

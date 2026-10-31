@@ -1,6 +1,5 @@
 CHAPTER = {
     "file": "welcome_home",
-    "group": "settled",
     "title": "Welcome Home",
     "subtitle": "Your first night, and some tips and tricks",
     "icon": "minecraft:campfire",

@@ -184,9 +184,14 @@ class Book:
         hub:      True places spine[0] in the middle with straight spokes around it:
                   each spine quest followed by its "up" branch, and each "down"
                   branch as a spoke of its own. Spokes depend only on the middle.
-        lines:    several spines stacked top to bottom, each {"spine": [...], "branches": {...}}
-                  laid out as above, all starting at the same left edge. Each line is a
-                  separate track with no dependency on the others.
+        lines:    several tracks stacked top to bottom, each centred on x = 0 and with no
+                  dependency on the others. A line is one of:
+                  {"spine": [...], "branches": {...}}  laid out as above;
+                  {"flow": [...], "branches": {...}}   like a spine, but a stage may be a list
+                      of keys, stacked in one column: a fan out from the stage before and a
+                      fan in to the stage after (two lists of the same length pair up);
+                  {"rows": [...], "per_row": n}        keys in wrapped rows with no dependencies,
+                      for catalogs that need no order.
         grid:     rows of keys with no dependencies (the Bounty Board).
         free:     exact positions, with dependencies given separately in deps.
         info:     with any of the above but free, keys set in a row above everything else,
@@ -208,10 +213,16 @@ class Book:
         elif "lines" in lay:
             top = 0.0
             for line in lay["lines"]:
-                lpos, ldeps = Book.spine_layout(line["spine"], line.get("branches", {}))
+                if "rows" in line:
+                    lpos, ldeps = Book.rows_layout(line["rows"], line.get("per_row", 10)), {}
+                else:
+                    stages = line.get("flow") or line["spine"]
+                    lpos, ldeps = Book.flow_layout(stages, line.get("branches", {}))
+                xs = [x for x, _ in lpos.values()]
                 ys = [y for _, y in lpos.values()]
+                dx = -(min(xs) + max(xs)) / 2
                 shift = top - min(ys)
-                pos.update({k: (x, y + shift) for k, (x, y) in lpos.items()})
+                pos.update({k: (x + dx, y + shift) for k, (x, y) in lpos.items()})
                 deps.update(ldeps)
                 top = max(ys) + shift + LINE_GAP
         elif lay.get("hub"):
@@ -222,11 +233,45 @@ class Book:
             f = turn[lay.get("direction", "right")]
             pos = {k: f(*xy) for k, xy in pos.items()}
         if lay.get("info"):
-            x0 = min(x for x, _ in pos.values())
+            xs = [x for x, _ in pos.values()]
             y = min(y for _, y in pos.values()) - LINE_GAP
+            x0 = (min(xs) + max(xs)) / 2 - (len(lay["info"]) - 1) * SPINE_DX / 2
             for i, k in enumerate(lay["info"]):
                 pos[k] = (x0 + i * SPINE_DX, y)
         return pos, deps
+
+    @staticmethod
+    def flow_layout(stages, branches):
+        """Stages left to right; a list stage stacks its keys in one column, centred on the line."""
+        pos, deps, prev = {}, {}, []
+        for i, stage in enumerate(stages):
+            keys = stage if isinstance(stage, list) else [stage]
+            for j, k in enumerate(keys):
+                pos[k] = (i * SPINE_DX, (j - (len(keys) - 1) / 2) * BRANCH_DY)
+                if len(prev) == len(keys) > 1:
+                    deps[k] = [prev[j]]
+                elif prev:
+                    deps[k] = list(prev)
+            prev = keys
+        for root, arms in branches.items():
+            x, y0 = pos[root]
+            for direction, sign in (("up", -1), ("down", 1)):
+                last = root
+                for j, k in enumerate(arms.get(direction, []), 1):
+                    pos[k] = (x, y0 + sign * j * BRANCH_DY)
+                    deps[k] = [last]
+                    last = k
+        return pos, deps
+
+    @staticmethod
+    def rows_layout(keys, per_row):
+        """Wrapped rows with no dependencies; a short last row is centred under the others."""
+        pos = {}
+        for i, k in enumerate(keys):
+            r, c = divmod(i, per_row)
+            n = min(per_row, len(keys) - r * per_row)
+            pos[k] = ((c - (n - 1) / 2) * GRID_DX, r * GRID_DY)
+        return pos
 
     @staticmethod
     def spine_layout(spine, branches):
@@ -323,7 +368,8 @@ class Book:
             "default_hide_dependency_lines": False,
             "default_quest_shape": "",
             "filename": ch["file"],
-            "group": qid(f"group:{ch['group']}"),
+            # No group puts a chapter above all the groups, in order.
+            "group": qid(f"group:{ch['group']}") if ch.get("group") else "",
             "icon": item(ch["icon"]),
             "id": cid,
             "order_index": order,

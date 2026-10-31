@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome_home"
-	group: "6D64CA34D687FD52"
+	group: ""
 	icon: {
 		count: 1
 		id: "minecraft:campfire"

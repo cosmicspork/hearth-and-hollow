@@ -12,6 +12,7 @@ just quest-check   # validate the chapters (needs the index)
 just quest-index   # build the index from the dev instance; run `just sync` first
 just quest-book    # the whole book as Markdown in run/quests.md, for proofreading
 python3 scripts/questgen/preview.py wanderlust   # ASCII sketch of a chapter's layout
+python3 scripts/questgen/render.py run/layouts wanderlust   # PNG of a chapter's layout
 ```
 
 `check.py` looks every id up in `index/`, which `build_index.py` builds from the mod jars and the vanilla client jar. The index isn't committed; rebuild it after adding or updating mods. Look ids up there too: `grep -i 'name' index/items.tsv` (id, English name, jar), and `item_tags.txt`, `entities.tsv`, `structures.txt`, `structure_tags.txt`, `biomes.txt`, `biome_tags.txt`, `advancements.txt`, `dimensions.txt`.
@@ -25,7 +26,7 @@ To research a mechanic, unzip the mod jar into a fresh directory under `run/insp
 ```python
 CHAPTER = {
     "file": "tools_of_the_trade",          # snbt filename, lowercase; part of every id
-    "group": "settled",                    # settled | world | hum | long | always
+    "group": "settled",                    # settled | world | hum | long; leave out to sit above the groups
     "title": "Tools of the Trade",
     "subtitle": "One short line",
     "icon": "minecraft:iron_pickaxe",
@@ -77,7 +78,10 @@ Lines between quests must never cross. Most chapters use one straight main line 
 - Every quest appears exactly once in the layout, and dependencies come only from it.
 - The spine is the chapter's backbone: 6 to 14 quests, from an introduction to a finale. Branches are side topics, 1 to 3 quests long.
 - `"direction": "down"` or `"up"` turns the whole spine.
-- `{"lines": [{"spine": [...], "branches": {...}}, ...]}` stacks several spines top to bottom, each a separate track with its own branches and no lines between them. Use it when a chapter covers things players do in parallel (Monsters & Mettle: World Tiers, the gear guide, challenges). Each line can be shorter than 6.
+- `{"lines": [...]}` stacks several tracks top to bottom, each centred and with no lines between them. Use it when a chapter covers things players do in parallel (Monsters & Mettle: World Tiers, the gear guide, challenges). Each line can be shorter than 6. A line is one of:
+  - `{"spine": [...], "branches": {...}}`, as above.
+  - `{"flow": [...], "branches": {...}}`: a spine where a stage can be a list of keys, stacked in one column. Each key in a list depends on the stage before, and the stage after depends on all of them, so the line fans out and back in: a wrench, then every pipe type, then the pipe that needs them all. Two lists of the same length in a row pair up instead, for parallel tracks.
+  - `{"rows": [...], "per_row": 10}`: keys in centred, wrapped rows with no dependencies, for catalogs (backpack upgrades, seeds, trash cans).
 - `{"grid": [[row keys], ...]}` lays out rows with no lines (the Bounty Board, Wanderlust, Curios & Keepsakes): for things the world hands out in no particular order. Make each row one theme.
 - `"info": [keys]`, alongside any layout but `free`, sets explainer quests in a row above everything, with no dependencies. With nothing before them they follow the ungated checkmark rule below.
 - `{"hub": True, ...}` puts `spine[0]` in the middle with straight spokes around it.
@@ -85,7 +89,9 @@ Lines between quests must never cross. Most chapters use one straight main line 
 
 `"links": [{"quest": "chapter_file:key", "pos": (x, y)}]` shows a quest from another chapter here as well, at a position in the chapter's final coordinates, with no lines. Wanderlust uses them to point at Monsters & Mettle.
 
-Every chapter is open from the start (flexible progression), so the lines suggest an order rather than lock one.
+Every chapter is open from the start (flexible progression): a player can finish a quest's tasks at any time, but can't claim its rewards until the quests before it are done. So a dependency is a real gate on rewards. Use one only where the order is real (a tier needs the tier before it, a machine needs its parts) and put everything else in `rows` or a grid. Collections never chain: the third fishing spot doesn't wait on the first two.
+
+Keep each chapter balanced: lines centred, branches about as long above as below, and no line much wider than the rest. Render the chapter and look at it before calling it done. A chapter taller than about 25 units is probably two chapters.
 
 ## Voice
 

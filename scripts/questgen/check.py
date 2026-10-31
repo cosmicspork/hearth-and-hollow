@@ -72,10 +72,10 @@ def check_chapter(ch, errs, warns):
         if DASHES.search(s):
             err(f"{ctx}: no em or en dashes in text")
 
-    for k in ("file", "group", "title", "icon", "layout", "quests"):
+    for k in ("file", "title", "icon", "layout", "quests"):
         if k not in ch:
             err(f"missing chapter key {k}")
-    if ch.get("group") not in GROUPS:
+    if ch.get("group") and ch["group"] not in GROUPS:
         err(f"unknown group {ch.get('group')}")
     item_ok(ch.get("icon"), "chapter icon")
     text_ok(ch.get("title", "") + ch.get("subtitle", ""), "chapter title")

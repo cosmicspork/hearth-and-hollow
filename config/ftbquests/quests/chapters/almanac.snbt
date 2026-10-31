@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "almanac"
-	group: "3D424858AC8D0F3F"
+	group: ""
 	icon: {
 		count: 1
 		id: "minecraft:writable_book"

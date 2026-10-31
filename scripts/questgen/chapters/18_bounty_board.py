@@ -103,7 +103,6 @@ BOARD = {
 
 CHAPTER = {
     "file": "bounty_board",
-    "group": "always",
     "title": "Bounty Board",
     "subtitle": "Repeatable deliveries and hunts, in three tiers",
     "icon": "minecraft:bell",

@@ -66,7 +66,6 @@ DEPS["complete"] = [row[-1] for row in ROWS]
 
 CHAPTER = {
     "file": "almanac",
-    "group": "long",
     "title": "The Almanac",
     "subtitle": "Every fish, every feast, every far-off place",
     "icon": "minecraft:writable_book",
