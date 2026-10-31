@@ -24,6 +24,7 @@ CHAPTER = {
     "title": "Hearth & Table",
     "subtitle": "Grow it, catch it, cook it, and eat a little of everything",
     "icon": "farmersdelight:cooking_pot",
+    "theme": "pantry",
     # Three tracks fan out from the knife: Farmer's Delight, Cooking for Blockheads and fishing.
     # Gardening and the odd extras need no order, so they sit in rows below.
     "layout": {"lines": [

@@ -225,6 +225,7 @@ CHAPTER = {
     "title": "Packing It In",
     "subtitle": "Chests and backpacks that grow with you",
     "icon": "minecraft:chest",
+    "theme": "packer",
     # Each tier ladder runs beside its stack upgrade ladder; everything that just fits in a
     # slot sits in a block of its own with no lines, since it needs no order.
     "layout": {

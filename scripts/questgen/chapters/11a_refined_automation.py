@@ -32,6 +32,7 @@ CHAPTER = {
     "title": "The Network at Work",
     "subtitle": "Importers and exporters, faster devices, upgrades and autocrafting",
     "icon": "refinedstorage:autocrafter",
+    "theme": "storage",
     # Two ladders, Cable Tiers grades and autocrafters, with the devices and upgrades that need
     # no order in blocks between them.
     "layout": {

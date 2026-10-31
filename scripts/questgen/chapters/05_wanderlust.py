@@ -37,6 +37,7 @@ CHAPTER = {
     "title": "Wanderlust",
     "subtitle": "Strange biomes, sky islands, old towns and older ruins",
     "icon": "paraglider:paraglider",
+    "theme": "traveler",
     # A grid: the world hands these out in whatever order you wander into them.
     "layout": {"grid": [
         ["arrive"],

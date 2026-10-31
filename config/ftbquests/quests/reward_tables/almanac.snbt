@@ -1,0 +1,228 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:writable_book"
+	}
+	id: "57FE9E52A38B8B63"
+	loot_size: 2
+	order_index: 20
+	rewards: [
+		{
+			count: 2
+			id: "30A85CD28BEF712A"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "5A69B50BF32FABC0"
+			item: {
+				count: 1
+				id: "farmersdelight:baked_cod_stew"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "7A78CDE32DB27E36"
+			item: {
+				count: 1
+				id: "farmersdelight:fish_stew"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "353D42B9EDD4D481"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_cookie"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "29FFF6508EFBC079"
+			item: {
+				count: 1
+				id: "croptopia:salt"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "3E4AC76F3169294D"
+			item: {
+				count: 1
+				id: "croptopia:butter"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 6
+			id: "55E61AA03996050A"
+			item: {
+				count: 1
+				id: "minecraft:cooked_salmon"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 6
+			id: "1AFB4A3D48193CEB"
+			item: {
+				count: 1
+				id: "minecraft:cooked_cod"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			id: "6FA3A1553A5A2BA9"
+			item: {
+				count: 1
+				id: "minecraft:paper"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "30EC8661DB067B88"
+			item: {
+				count: 1
+				id: "minecraft:ink_sac"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "7771989D9BB5E6E6"
+			item: {
+				count: 1
+				id: "minecraft:feather"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "5F66B37919CF80E2"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "035FF6100DCA6FD1"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			id: "5B66381D05729AF9"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "2E5D027A2D8C788B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:luck_of_the_sea": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "68DFF6506F301FC1"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:lure": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "651354A39E3F08C4"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "50014D9898704D28"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "14E8914F7A5BF3C6"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "11C2203CC2550A23"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "0993298CA6A62AFD"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

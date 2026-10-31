@@ -1,0 +1,181 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:zombie_head"
+	}
+	id: "5400C5F1DDC85EC5"
+	loot_size: 2
+	order_index: 17
+	rewards: [
+		{
+			count: 16
+			id: "329ED75491E45AF3"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "5BE4847BE0AF4DBD"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_shard"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "567E8433DAEA118F"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fertilized_essence"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "03B61245E26F6BA2"
+			item: {
+				count: 1
+				id: "minecraft:rotten_flesh"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "22411B3241312948"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "0AE1A3031417AF84"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "5D2F8C7438716402"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "375002FC6FCA72FA"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "6F5EA400A716FB54"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "5872A82816896A9E"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "6A5C5A97EB3AEBB6"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "4AC0604A40C77B79"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "1B50DEFAE1CC3431"
+			item: {
+				count: 1
+				id: "minecraft:spider_eye"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			id: "2945B261033ABC68"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "5830B21987703AEC"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "0C7FA364701979E7"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "111740C87F848DB2"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+	]
+	use_title: true
+}

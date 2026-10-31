@@ -95,6 +95,7 @@ CHAPTER = {
     "title": "A Seed for Everything",
     "subtitle": "Every resource and mob seed, a row for each tier of essence",
     "icon": "mysticalagriculture:iron_seeds",
+    "theme": "grower",
     "layout": {"lines": [{"rows": keys, "per_row": _per_row(len(keys))} for keys in _TIER_ROWS]},
     "quests": SEED_QUESTS + [
         {

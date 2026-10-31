@@ -1,0 +1,170 @@
+{
+	icon: {
+		count: 1
+		id: "mysticalagriculture:inferium_seeds"
+	}
+	id: "327B34F5C8C797CE"
+	loot_size: 2
+	order_index: 16
+	rewards: [
+		{
+			count: 16
+			id: "220D248DA7D39488"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 8
+			id: "4F3EDD6C36BD9CC2"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_shard"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "393BA765794BE15B"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fertilized_essence"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "053203BB19A50230"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_seed_base"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "3773EE4E7DB1E4E9"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_ingot"
+			}
+			random_bonus: 2
+			weight: 0.5f
+		}
+		{
+			id: "4EA5DC7AEB56FD89"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_ingot"
+			}
+			random_bonus: 1
+			weight: 0.3f
+		}
+		{
+			count: 4
+			id: "17AF85FCDE6157E5"
+			item: {
+				count: 1
+				id: "mysticalagriculture:soul_dust"
+			}
+			random_bonus: 4
+			weight: 0.4f
+		}
+		{
+			count: 16
+			id: "73A8EC20CE05D9EC"
+			item: {
+				count: 1
+				id: "mysticalagriculture:soulstone"
+			}
+			random_bonus: 16
+			weight: 0.4f
+		}
+		{
+			count: 16
+			id: "28BAAB207AF7FA0F"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "54B3A3027238DDCF"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			random_bonus: 16
+			weight: 0.4f
+		}
+		{
+			count: 16
+			id: "568C8EE5AB3042B5"
+			item: {
+				count: 1
+				id: "minecraft:dirt"
+			}
+			random_bonus: 16
+			weight: 0.4f
+		}
+		{
+			id: "2CE5F843DFF9BC52"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "61C3884755511D03"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "646A24123979958E"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "7B882AADB212BC13"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "72FE96FAF2D92DE8"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

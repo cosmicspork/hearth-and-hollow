@@ -74,6 +74,7 @@ CHAPTER = {
     "title": "The Builder's Bench",
     "subtitle": "Roofs, chairs, lamps and a gadget that builds walls",
     "icon": "handcrafted:oak_chair",
+    "theme": "builder",
     # The tools in one line: the bench fans out to the chisel and Framed Blocks, and the
     # Building Gadget to the other gadgets. The block families need no order, so they sit in
     # themed rows: furniture, the house itself, outside, and lights.

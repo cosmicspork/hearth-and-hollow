@@ -36,6 +36,7 @@ CHAPTER = {
     "title": "Mob Grinding",
     "subtitle": "A farm for any drop, with the experience bottled",
     "icon": "mob_grinding_utils:saw",
+    "theme": "grinder",
     "layout": {"lines": [
         {"flow": ["masher", ["dreadful", "fan", "conveyor", "absorption"]]},
         {"flow": [["xp_tank", "swab"], ["solidifier", "gm_feed"], "spawner"],

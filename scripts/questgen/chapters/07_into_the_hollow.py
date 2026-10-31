@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Into the Hollow",
     "subtitle": "Caves worth seeing, ores worth finding, and faster ways to dig",
     "icon": "mininggadgets:mininggadget",
+    "theme": "prospector",
     # The tour fans out from the first cave; the caves themselves, the ores and the buried
     # places need no order, so they sit in rows. The road to the Mining Dimension and the
     # Mining Gadget are real chains, one line each.

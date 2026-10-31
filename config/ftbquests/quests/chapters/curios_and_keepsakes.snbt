@@ -26,14 +26,8 @@
 				}
 				{
 					id: "5CC62C03D3D6D9DB"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -68,14 +62,8 @@
 				}
 				{
 					id: "4C1347FD932DD962"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -102,14 +90,8 @@
 				}
 				{
 					id: "703A9A07FC4B07F8"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -142,14 +124,8 @@
 				}
 				{
 					id: "427A5B3F29D383D4"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -174,14 +150,8 @@
 				}
 				{
 					id: "4AB98777ED514591"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -212,14 +182,8 @@
 				}
 				{
 					id: "0B834AC3A21CCC24"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 				{
 					count: 4
@@ -267,14 +231,8 @@
 				}
 				{
 					id: "381D8176CC90912A"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -312,14 +270,8 @@
 				}
 				{
 					id: "7F44F4242613353F"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -352,14 +304,8 @@
 				}
 				{
 					id: "0E58766583EF32DA"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -387,14 +333,8 @@
 				}
 				{
 					id: "70A37F373D1BF986"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -420,14 +360,8 @@
 				}
 				{
 					id: "3F2D7C239C986AB3"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -453,14 +387,8 @@
 				}
 				{
 					id: "4D352B99EB5CCF4D"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -486,14 +414,8 @@
 				}
 				{
 					id: "13D9C06B030196F4"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -519,14 +441,13 @@
 				}
 				{
 					id: "6DD90454AE809FFD"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
+				}
+				{
+					id: "02119C0D7A11EE7E"
+					table_id: 3838760969712918949L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -558,14 +479,13 @@
 				}
 				{
 					id: "0C79F0134DD5B2E3"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
+				}
+				{
+					id: "6B394EB0F1E1BE71"
+					table_id: 3838760969712918949L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -664,14 +584,8 @@
 				}
 				{
 					id: "582257CF6885FE45"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -704,14 +618,13 @@
 				}
 				{
 					id: "67CEC10EBD841B0C"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "ember"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
+					table_id: 2722083855650631736L
+					type: "choice"
+				}
+				{
+					id: "3A07E2789956534B"
+					table_id: 661225014641778553L
+					type: "loot"
 				}
 				{
 					count: 8

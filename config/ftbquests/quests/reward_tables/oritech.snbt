@@ -1,0 +1,205 @@
+{
+	icon: {
+		count: 1
+		id: "oritech:machine_core_1"
+	}
+	id: "7544621E95881C71"
+	loot_size: 2
+	order_index: 15
+	rewards: [
+		{
+			count: 4
+			id: "507EC2A8E73580F3"
+			item: {
+				count: 1
+				id: "alltheores:steel_ingot"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 6
+			id: "3A3F44BE9A75DBFB"
+			item: {
+				count: 1
+				id: "alltheores:osmium_ingot"
+			}
+			random_bonus: 6
+		}
+		{
+			count: 6
+			id: "0710917DC1AFA3D3"
+			item: {
+				count: 1
+				id: "alltheores:tin_ingot"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 6
+			id: "572E0B24714F9C20"
+			item: {
+				count: 1
+				id: "alltheores:lead_ingot"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "6DFFCA120CD74816"
+			item: {
+				count: 1
+				id: "alltheores:nickel_ingot"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "45BA6491DF0C3B3D"
+			item: {
+				count: 1
+				id: "alltheores:electrum_ingot"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "629A307CDA6C1681"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 16
+			id: "0D6BDD8282E2DB54"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "31814EAE91DF629E"
+			item: {
+				count: 1
+				id: "oritech:silicon"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "68033EF7FBA74A13"
+			item: {
+				count: 1
+				id: "oritech:plastic_sheet"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "72C3CBDAD12D7193"
+			item: {
+				count: 1
+				id: "oritech:carbon_fibre_strands"
+			}
+			random_bonus: 4
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "249099620E3C18FF"
+			item: {
+				count: 1
+				id: "oritech:raw_silicon"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "4D9A3884C6DEAA22"
+			item: {
+				count: 1
+				id: "oritech:silicon_wafer"
+			}
+			random_bonus: 2
+			weight: 0.4f
+		}
+		{
+			id: "2345DE5085B72E03"
+			item: {
+				count: 1
+				id: "oritech:adamant_ingot"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "237F6DFCAA36FD4B"
+			item: {
+				count: 1
+				id: "oritech:basic_battery"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "2A466D2545A681DC"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "4E2141C991DE9A4A"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "2E31824B20410646"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "25B28FA3D0777297"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "20C1AA93F463E006"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

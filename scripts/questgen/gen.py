@@ -3,7 +3,7 @@
 usage: python3 gen.py [REPO_DIR]   (default: the repository this script is in)
 
 Chapters live in chapters/NN_name.py, each defining CHAPTER (see README.md).
-Crate tables and chapter groups live in content.py.
+Crate tables, themed tables and chapter groups live in content.py.
 """
 import importlib.util
 import math
@@ -54,6 +54,11 @@ def crate(name, n=1):
     return item("ftbquests:lootcrate", n, {"ftbquests:loot_crate": name})
 
 
+def table_ref(name):
+    """A reward table's id as the long FTB stores in table_id. qid clears the top bit, so it fits."""
+    return L(int(qid(f"table:{name}"), 16))
+
+
 def book(enchant, level):
     return item("minecraft:enchanted_book", components={
         "minecraft:stored_enchantments": {"levels": {enchant: level}}})
@@ -70,46 +75,81 @@ class Book:
     def __init__(self):
         self.lang = {}
 
-    # ---- crate tables -------------------------------------------------------
+    # ---- reward tables ------------------------------------------------------
     def tables(self, root):
-        for order, t in enumerate(content.TABLES):
-            tid = qid(f"table:{t['name']}")
-            rewards = []
-            for n, (it, count, weight) in enumerate(t["rewards"]):
-                stack = book(*it[1:]) if isinstance(it, tuple) and it[0] == "book" else (
-                    it if isinstance(it, dict) else item(it))
-                r = {"id": qid(f"table:{t['name']}:{n}"), "item": stack}
-                if count != 1:
-                    r["count"] = count
-                if weight != 1:
-                    r["weight"] = F(weight)
-                rewards.append(r)
-            write(root / f"reward_tables/{t['name']}.snbt", {
-                "id": tid,
-                "loot_crate": {
+        """The four crate tables, then the themes, which have an icon instead of a crate."""
+        for order, t in enumerate(content.TABLES + content.THEMES):
+            rows = list(t["rewards"])
+            if "color" not in t:
+                # A theme's own entry for a shared item wins, so a theme can make a jackpot likelier.
+                own = {repr(r[0]) for r in rows}
+                shared = content.JACKPOTS + (content.STAPLES if t.get("staples") else [])
+                rows += [r for r in shared if repr(r[0]) not in own]
+            d = {
+                "id": qid(f"table:{t['name']}"),
+                "loot_size": t.get("rolls", 2),
+                "order_index": order,
+                "rewards": [self.table_entry(t["name"], n, row) for n, row in enumerate(rows)],
+                "use_title": True,
+            }
+            if "color" in t:
+                d["loot_crate"] = {
                     "color": t["color"],
                     # FTB's own crate drops stay off: they count every dying mob as a boss.
                     # Mob and boss drops are global loot modifiers in kubejs/data/hearthandhollow.
                     "drops": {"boss": 0, "monster": 0, "passive": 0},
                     "glow": B(1 if t["glow"] else 0),
                     "string_id": t["name"],
-                },
-                "loot_size": t["rolls"],
-                "order_index": order,
-                "rewards": rewards,
-                "use_title": True,
-            })
-            self.lang[f"reward_table.{tid}.title"] = t["title"]
+                }
+            else:
+                d["icon"] = item(t["icon"])
+            write(root / f"reward_tables/{t['name']}.snbt", d)
+            self.lang[f"reward_table.{d['id']}.title"] = t["title"]
+
+    @staticmethod
+    def table_entry(table, n, row):
+        it, count, weight, *bonus = row
+        stack = book(*it[1:]) if isinstance(it, tuple) and it[0] == "book" else (
+            it if isinstance(it, dict) else item(it))
+        r = {"id": qid(f"table:{table}:{n}"), "item": stack}
+        if count != 1:
+            r["count"] = count
+        if bonus:
+            r["random_bonus"] = bonus[0]
+        if weight != 1:
+            r["weight"] = F(weight)
+        return r
 
     # ---- tasks and rewards --------------------------------------------------
-    def reward(self, qkey, n, r):
+    # A quest's tier marker, {"crate": tier}, pays out from the chapter's theme when it has
+    # one: (reward type on the theme, general table rolled as well).
+    PAYOUTS = {
+        "kindling": ("random", None),
+        "hearth": ("loot", None),
+        "lantern": ("loot", "lantern"),
+        "ember": ("choice", "ember"),
+    }
+
+    def reward(self, qkey, n, r, theme=None):
+        """One reward entry from a chapter file, as a list of FTB rewards."""
+        if "crate" in r:
+            kind, extra = self.PAYOUTS[r["crate"]] if theme else ("loot", None)
+            rolls = [(kind, theme or r["crate"])] + ([("loot", extra)] if extra else [])
+            out = []
+            for c in range(r.get("count", 1)):
+                for k, (kind, table) in enumerate(rolls):
+                    # The first keeps the id the crate item had, so a claimed reward stays claimed.
+                    key = f"{qkey}:reward:{n}" + (f":{c}:{k}" if c or k else "")
+                    out.append({"id": qid(key), "type": kind, "table_id": table_ref(table)})
+            return out
         d = {"id": qid(f"{qkey}:reward:{n}")}
         if "xp" in r:
             d.update(type="xp", xp=r["xp"])
         elif "xp_levels" in r:
             d.update(type="xp_levels", xp_levels=r["xp_levels"])
-        elif "crate" in r:
-            d.update(type="item", item=crate(r["crate"]))
+        elif "crate_item" in r:
+            # A crate to open later: the Bounty Board's pay.
+            d.update(type="item", item=crate(r["crate_item"]))
         elif "book" in r:
             d.update(type="item", item=book(r["book"], r.get("level", 1)))
         elif "item" in r:
@@ -121,7 +161,7 @@ class Book:
             raise ValueError(f"{qkey}: unknown reward {r}")
         if r.get("count", 1) != 1:
             d["count"] = r["count"]
-        return d
+        return [d]
 
     def task(self, qkey, n, t, consume):
         d = {"id": qid(f"{qkey}:task:{n}")}
@@ -343,7 +383,8 @@ class Book:
                 "x": D(x),
                 "y": D(y),
                 "tasks": [self.task(qkey, n, t, repeat) for n, t in enumerate(q["tasks"])],
-                "rewards": [self.reward(qkey, n, r) for n, r in enumerate(q.get("rewards", []))],
+                "rewards": [d for n, r in enumerate(q.get("rewards", []))
+                            for d in self.reward(qkey, n, r, ch.get("theme"))],
             }
             if deps.get(q["key"]):
                 d["dependencies"] = [ids[k] for k in deps[q["key"]]]

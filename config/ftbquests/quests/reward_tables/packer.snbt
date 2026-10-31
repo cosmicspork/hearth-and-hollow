@@ -1,0 +1,170 @@
+{
+	icon: {
+		count: 1
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "098B892367E7AC30"
+	loot_size: 2
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "77301F82AAC4DDFC"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:upgrade_base"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "2A4077A59CF82B3D"
+			item: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "5A52C895FAC70C4A"
+			item: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "149CBB7EA4352B6C"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			random_bonus: 2
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "2D06DB7873A02B2E"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			id: "10E0B7E6F74241E5"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "49DEC65F603F091C"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "19BDA28346F5F0FA"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "5E85362E9F40B1B8"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "224A5E009C8824F3"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "15FC9AE6B6FE6B8E"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.4f
+		}
+		{
+			id: "6D37301CAEF83D97"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "27D8A109F7648A81"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "4C5099292A6B06EC"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "034F06628E3524B8"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "2499965D59B53746"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

@@ -142,6 +142,7 @@ CHAPTER = {
     "title": "Logistics",
     "subtitle": "Pipes that carry, routers that sort, cans that swallow",
     "icon": "pipez:item_pipe",
+    "theme": "packer",
     # Pipez fans out from the first pipe to the Universal Pipe, routers climb their two Mk
     # ladders side by side, and the trash cans meet in the Ultimate one. Modules that need no
     # order sit in a block with no lines.

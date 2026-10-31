@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Allthemodium Ascent",
     "subtitle": "Three endgame metals, two strange dimensions and some very big tables",
     "icon": "allthemodium:allthemodium_ingot",
+    "theme": "ascent",
     # The three metals in one line, in the order you can mine them; the maces upgrade along
     # with them; the Extended Crafting tables are a line of their own.
     "layout": {

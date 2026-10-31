@@ -1,0 +1,236 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "6950B51D8872EFFF"
+	loot_size: 2
+	order_index: 9
+	rewards: [
+		{
+			count: 8
+			id: "1E03C14F6605F4D3"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 12
+			id: "4DDE15847906A8AF"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+			random_bonus: 12
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "26B6684449640AE4"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "261E89A0B42BDF2D"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "0B763C42E3A70F6A"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "11623C331EBC9942"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "4843ED298B5803E2"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 6
+			id: "47AB2B55250B0E79"
+			item: {
+				count: 1
+				id: "alltheores:raw_tin"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 6
+			id: "1C5E0AE523C4C701"
+			item: {
+				count: 1
+				id: "alltheores:raw_osmium"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 6
+			id: "12DBB11EDDD3C64A"
+			item: {
+				count: 1
+				id: "alltheores:raw_lead"
+			}
+			random_bonus: 6
+			weight: 0.6f
+		}
+		{
+			count: 2
+			id: "7829DEE57E16EEAB"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 2
+			weight: 0.4f
+		}
+		{
+			id: "1E56836B9EB1453D"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 2
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "27172AD56E7F79F8"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "2DEE9294D9FDD875"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "032AC01B2093466C"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "6B89F08F3AE8A58D"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "2988B06097E59907"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+		{
+			count: 16
+			id: "71CCF765B8A0ED0E"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			random_bonus: 16
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "7C14C41348C4614B"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 6
+			id: "4E6DB552E33CE9A3"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "44503E5C4B8AF253"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "75C1C11FAC2FC4B7"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			random_bonus: 8
+			weight: 0.3f
+		}
+	]
+	use_title: true
+}

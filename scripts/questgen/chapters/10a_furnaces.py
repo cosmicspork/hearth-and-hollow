@@ -67,6 +67,7 @@ CHAPTER = {
     "title": "Faster Furnaces",
     "subtitle": "From iron to unobtainium, upgraded in place",
     "icon": "ironfurnaces:iron_furnace",
+    "theme": "spark",
     # One ladder of furnace tiers, with the side roads above and below it, and the augments,
     # which fit any furnace, in a row of their own.
     "layout": {

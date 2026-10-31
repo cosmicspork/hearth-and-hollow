@@ -1,6 +1,6 @@
 # Quest book source
 
-The FTB Quests book in `config/ftbquests/quests` is generated. Its source is here: one Python file per chapter in `chapters/` (in filename order; `09a_name.py` slots in after `09_name.py`), with crate tables and chapter groups in `content.py`. Edit these, never the SNBT, and never the book in game: the next regenerate overwrites both, and CI fails when the committed SNBT doesn't match this source.
+The FTB Quests book in `config/ftbquests/quests` is generated. Its source is here: one Python file per chapter in `chapters/` (in filename order; `09a_name.py` slots in after `09_name.py`), with crate tables, themed reward tables and chapter groups in `content.py`. Edit these, never the SNBT, and never the book in game: the next regenerate overwrites both, and CI fails when the committed SNBT doesn't match this source.
 
 All text is original. Don't copy from ATM10's or any other pack's quest files.
 
@@ -30,6 +30,7 @@ CHAPTER = {
     "title": "Tools of the Trade",
     "subtitle": "One short line",
     "icon": "minecraft:iron_pickaxe",
+    "theme": "smithy",                     # optional: the themed table its quests roll, see Rewards and pacing
     "layout": {...},                       # see Layout
     "links": [...],                        # optional, see Layout
     "quests": [ {...}, ... ],
@@ -59,7 +60,7 @@ Prefer a task the game can detect over a checkmark. A checkmark quest with nothi
 
 Item tasks take `"components": {...}` for a specific variant. FTB Quests compares each listed component whole, so `minecraft:custom_data` must match exactly: fine for an item a quest reward created (the Almanac pages), useless for items that carry extra data (a dropped trophy). Don't use observation or energy tasks; they don't work reliably here.
 
-Rewards: `{"xp": 10}`, `{"xp_levels": 30}`, `{"crate": "kindling" | "hearth" | "lantern" | "ember", "count": 1}`, `{"item": "mod:id", "count": 4, "components": {...}}`, `{"book": "minecraft:mending", "level": 1}`, `{"command": "/tellraw ..."}` (`{p}` is the player's name).
+Rewards: `{"xp": 10}`, `{"xp_levels": 30}`, `{"crate": "kindling" | "hearth" | "lantern" | "ember", "count": 1}` (a tier, see Rewards and pacing), `{"crate_item": "kindling"}` (a crate to open later; the Bounty Board only), `{"item": "mod:id", "count": 4, "components": {...}}`, `{"book": "minecraft:mending", "level": 1}`, `{"command": "/tellraw ..."}` (`{p}` is the player's name).
 
 ## Layout
 
@@ -106,9 +107,21 @@ Short, warm and practical. Each quest says what the thing is, why you'd want it,
 
 ## Rewards and pacing
 
-- Every quest: `{"xp": 10}` plus a crate. Milestones `{"xp": 25}`, finales `{"xp": 50}`.
-- Crates by stage: **Kindling** for early and easy quests; **Hearth** for mid-game quests; **Lantern** for a chapter's milestones (2 to 4 per chapter); **Ember** for a chapter finale in the mid and late game.
-- Milestone and finale quests can also give something from the chapter's own mod. Rewards help without skipping a mod's progression: never give the thing the next quest asks for.
+- Every quest: `{"xp": 10}` plus a tier. Milestones `{"xp": 25}`, finales `{"xp": 50}`.
+- Tiers by stage: **Kindling** for early and easy quests; **Hearth** for mid-game quests; **Lantern** for a chapter's milestones (2 to 4 per chapter); **Ember** for a chapter finale in the mid and late game.
+- A tier isn't a crate item. Quests roll FTB reward tables directly, and hovering the reward lists everything it can give, with the odds. In a chapter with a `theme`, the tier picks how it pays out from that theme:
+
+  | Tier | Pays out |
+  |---|---|
+  | Kindling | 1 random item from the theme |
+  | Hearth | the theme's 2 rolls |
+  | Lantern | the theme's 2 rolls, plus the general Lantern table's |
+  | Ember | the player picks any one item from the theme, plus the general Ember table's rolls |
+
+  A chapter without a theme (Welcome Home, the endgame) rolls the general table of the same name. The four general tables are also the crates: mob and boss drops, and the Bounty Board's `crate_item` pay.
+- Themes (`THEMES` in `content.py`) are per questline; related chapters share one (Mekanism's three chapters roll the Mekanism Parts Bin). Every theme also carries `JACKPOTS`, rare treats at low weight, and those marked `"staples"` carry `STAPLES`, everyday odds and ends. A theme's own entry for a shared item replaces the shared one. Neighbouring themes share lists such as `METALS` and `FOODS`. Entries are `(item, count, weight[, bonus])`, where bonus adds 0 to that many to the count.
+- Rewards help without skipping a mod's progression: never give the thing the next quest asks for. `check.py` warns when a theme gives an item that a quest in one of its chapters asks for; swap the entry, or list it in the theme's `allow` when the overlap is intended. Remember an Ember finale lists the whole theme, so a rare entry there is one a player can simply take.
+- Milestone and finale quests can also give something from the chapter's own mod.
 - Settled-stage chapters (Tools of the Trade, Hearth & Table, The Builder's Bench) stay in Kindling and Hearth, with Lantern for milestones and the finale.
 
 ## Pack facts you can rely on

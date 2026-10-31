@@ -1,0 +1,250 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:bricks"
+	}
+	id: "666A24F1A872EB54"
+	loot_size: 2
+	order_index: 6
+	rewards: [
+		{
+			count: 32
+			id: "65F0375490515366"
+			item: {
+				count: 1
+				id: "minecraft:stone_bricks"
+			}
+			random_bonus: 32
+		}
+		{
+			count: 16
+			id: "2389ACC8D6C7D8A0"
+			item: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "6F28EE568C123B0B"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			random_bonus: 16
+		}
+		{
+			count: 32
+			id: "013126081348E415"
+			item: {
+				count: 1
+				id: "minecraft:oak_planks"
+			}
+			random_bonus: 32
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "077A92464B9C71DB"
+			item: {
+				count: 1
+				id: "minecraft:spruce_log"
+			}
+			random_bonus: 16
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "7941FC7E6B49D624"
+			item: {
+				count: 1
+				id: "minecraft:terracotta"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "4411DBC60B0EE75D"
+			item: {
+				count: 1
+				id: "minecraft:scaffolding"
+			}
+			random_bonus: 16
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "5A45B070E513D0CD"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+			random_bonus: 8
+			weight: 0.6f
+		}
+		{
+			count: 4
+			id: "77B2265C13791D86"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			random_bonus: 4
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "1AEC45ACF147D7B7"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			random_bonus: 16
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "19322D0AC9206728"
+			item: {
+				count: 1
+				id: "minecraft:white_dye"
+			}
+			random_bonus: 4
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "603F98EE46EB7EB9"
+			item: {
+				count: 1
+				id: "minecraft:blue_dye"
+			}
+			random_bonus: 4
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "3FB216D0F6CEF5E4"
+			item: {
+				count: 1
+				id: "minecraft:red_dye"
+			}
+			random_bonus: 4
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "5187318C61EAB419"
+			item: {
+				count: 1
+				id: "minecraft:flower_pot"
+			}
+			random_bonus: 2
+			weight: 0.4f
+		}
+		{
+			id: "3FCC69C16BCDA6F9"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "09F9649441ED81E7"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "7D83BD208FFA03AC"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "044B8DCAEB96A151"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "0D75D056206B2054"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+		{
+			count: 16
+			id: "62C4573FD72B3045"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			random_bonus: 16
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "2E596755C247BFAC"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 6
+			id: "3C6E43AA4A75937E"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "478BBF7AEB47CE90"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+			weight: 0.3f
+		}
+		{
+			count: 8
+			id: "2453C7F32A25B8E7"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			random_bonus: 8
+			weight: 0.3f
+		}
+	]
+	use_title: true
+}

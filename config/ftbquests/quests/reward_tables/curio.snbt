@@ -1,0 +1,145 @@
+{
+	icon: {
+		count: 1
+		id: "minecraft:amethyst_cluster"
+	}
+	id: "25C6C8D830E1B038"
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{
+			count: 8
+			id: "5361527D4199F137"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 6
+			id: "3886E5EA2692E9C7"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			random_bonus: 6
+		}
+		{
+			count: 4
+			id: "5E0D92297B5F3DE5"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 4
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "3792C6D97302FE3F"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 1
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "4E55F81DEB59DAEE"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			random_bonus: 8
+			weight: 0.8f
+		}
+		{
+			count: 2
+			id: "7F6ECB299F377BB0"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+			random_bonus: 2
+			weight: 0.5f
+		}
+		{
+			id: "619742EA6912BAA4"
+			item: {
+				count: 1
+				id: "minecraft:rabbit_foot"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "0DB19FC60B6B4075"
+			item: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "7DA5D4A85E911759"
+			item: {
+				count: 1
+				id: "relics:relic_experience_bottle"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			id: "0C1E376D03A6C958"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "462F075E89820A4B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "2059B0FD64EFE64F"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_nugget"
+			}
+			weight: 0.15f
+		}
+		{
+			id: "5B3CE5D5B1FFE351"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "757555946D5068B3"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			random_bonus: 8
+			weight: 0.15f
+		}
+	]
+	use_title: true
+}

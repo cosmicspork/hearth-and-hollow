@@ -4,6 +4,7 @@ CHAPTER = {
     "title": "Tools of the Trade",
     "subtitle": "From stone to netherite, and the small upgrades that make it last",
     "icon": "minecraft:iron_pickaxe",
+    "theme": "smithy",
     # The tiers in one line, armor below and enchanting above; the handy extras need no
     # order, so they sit in rows underneath.
     "layout": {"lines": [
