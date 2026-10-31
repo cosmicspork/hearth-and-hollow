@@ -17,14 +17,14 @@ No quests, scripts, configs or other assets from those packs are included. The q
 
 ## The quest book
 
-20 chapters and over 900 quests, from your first night to the endgame. Every chapter is open from day one and nothing in the pack is locked behind a quest, so follow it or wander off. Chapters split into lines you can follow side by side, and the tech chapters cover their mods in detail, down to every seed, generator and pipe.
+A guided book from your first night to the endgame. Every chapter is open from day one and nothing in the pack is locked behind a quest, so follow it or wander off. Chapters split into lines you can follow side by side, and the tech chapters cover their mods in detail, down to every seed, generator and pipe.
 
-Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bounty Board keeps your farms and factories busy. The Allthemodium Alloy Paxel takes one finished piece from every tech line, and the Almanac collects four pages from around the world. At the very end of Mekanism, enough power to break the universe makes the Spark of Creation, a catalyst for creative items.
+Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bounty Board keeps your farms and factories busy. The Allthemodium Alloy Paxel takes one finished piece from every tech line, and the Almanac collects four pages from around the world. At the very end, enough power to break the universe makes the Spark of Creation, a catalyst for creative items.
 
 ## What's in it
 
 - **Exploring:** Terralith biomes, Incendium's Nether, Nullscape's End, Moog's sky islands, YUNG's structures, Towns and Towers, Formations, Structory, Explorify, paragliders with heart containers and stamina, waystones and JourneyMap
-- **Mining:** the Allthemodium mining, Other and Beyond dimensions, Mining Gadgets, Allthemodium gear, one set of ores from AllTheOres
+- **Mining:** the Allthemodium mining, Other and Beyond dimensions, Mining Gadgets, Allthemodium gear, one set of ores from AllTheOres, with the common metals half again as plentiful in the Overworld
 - **Building:** Macaw's, Handcrafted, FramedBlocks, Supplementaries, Cluttered, Twigs, Building Gadgets
 - **Tech:** Mekanism, Refined Storage, Powah, Flux Networks, Oritech, Mystical Agriculture with Botany Pots, Pylons and Modular Routers
 - **Cozy:** Farmer's Delight and Croptopia food, Comforts, Hourglass, Cooking for Blockheads, ambient sounds, auroras, falling leaves, fireflies and other small particle details

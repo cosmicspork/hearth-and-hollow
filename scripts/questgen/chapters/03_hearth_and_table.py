@@ -24,19 +24,16 @@ CHAPTER = {
     "title": "Hearth & Table",
     "subtitle": "Grow it, catch it, cook it, and eat a little of everything",
     "icon": "farmersdelight:cooking_pot",
-    "layout": {
-        "spine": ["table", "wild", "cutting_board", "cooking_pot", "food_25", "recipe_book", "kitchen", "food_50",
-                  "feast", "food_100"],
-        "branches": {
-            "table": {"up": ["straw"]},
-            "wild": {"up": ["garden", "orchard"], "down": ["market", "fertilizer"]},
-            "cutting_board": {"up": ["compost", "rich_soil"], "down": ["trough", "nest"]},
-            "cooking_pot": {"up": ["stove"], "down": ["skillet"]},
-            "food_25": {"up": ["utensils"], "down": ["cultural"]},
-            "kitchen": {"up": ["pantry"], "down": ["cow_jar"]},
-            "food_50": {"up": ["rod", "tackle_box", "big_fish"], "down": ["fillet", "fish_mount"]},
-        },
-    },
+    # Three tracks fan out from the knife: Farmer's Delight, Cooking for Blockheads and fishing.
+    # Gardening and the odd extras need no order, so they sit in rows below.
+    "layout": {"lines": [
+        {"flow": ["table", ["cutting_board", "recipe_book", "rod"], ["cooking_pot", "kitchen", "big_fish"],
+                  ["feast", "pantry", "fish_mount"]],
+         "branches": {"cooking_pot": {"up": ["stove"]}, "big_fish": {"down": ["fillet"]}}},
+        {"rows": ["wild", "garden", "orchard", "cultural", "straw", "utensils",
+                  "compost", "rich_soil", "market", "fertilizer", "trough", "nest",
+                  "skillet", "cow_jar", "tackle_box"], "per_row": 5},
+    ]},
     "quests": [
         {
             "key": "table", "title": "Hearth & Table",
@@ -214,18 +211,6 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "kindling"}],
         },
         {
-            "key": "food_25", "title": "A Taste of Everything", "shape": "hexagon", "icon": "solcarrot:food_book",
-            "desc": [
-                "Eat &e25 different foods&r and you gain &c3 extra hearts&r.",
-                "",
-                "Only filling food counts: four drumsticks or more. Open your Food Book to see how many you've eaten and what's left.",
-                "",
-                "Click the checkmark once you've reached the milestone.",
-            ],
-            "tasks": [{"check": "I've eaten 25 foods"}],
-            "rewards": [{"xp": 25}, {"crate": "hearth", "count": 2}],
-        },
-        {
             "key": "utensils", "title": "Croptopia's Kitchen",
             "desc": [
                 "Many Croptopia recipes call for a utensil in the crafting grid: a &eFrying Pan&r, &eCooking Pot&r, &eKnife&r, &eMortar and Pestle&r or &eAll Purpose Food Press&r.",
@@ -267,6 +252,8 @@ CHAPTER = {
                 "",
                 "Counters, fridges, sinks, ovens and the rest share their contents with it when they touch it or each other. Kitchen Floor connects them across a room.",
                 "",
+                "Looking for something you haven't eaten yet? Sort the Cooking Table's list by &eEaten&r.",
+                "",
                 "Here's a toaster to get you started.",
             ],
             "tasks": [{"any": kitchen("cooking_table"), "title": "A Cooking Table",
@@ -296,18 +283,6 @@ CHAPTER = {
             ],
             "tasks": [{"item": "cookingforblockheads:cow_jar"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "food_50", "title": "Seasoned Cook", "shape": "hexagon", "icon": "solcarrot:food_book",
-            "desc": [
-                "Eat &e50 different foods&r for another &c3 hearts&r.",
-                "",
-                "By now the easy foods are behind you. Sort the Cooking Table's list by &eEaten&r to find something new.",
-                "",
-                "Click the checkmark once your Food Book shows 50.",
-            ],
-            "tasks": [{"check": "I've eaten 50 foods"}],
-            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"crate": "hearth"}],
         },
         {
             "key": "rod", "title": "Gone Fishing",
@@ -368,7 +343,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "feast", "title": "A Feast for Friends",
+            "key": "feast", "title": "A Feast for Friends", "shape": "hexagon",
             "icon": "farmersdelight:roast_chicken_block",
             "desc": [
                 "Some dishes are too big for one plate. A &efeast&r is placed on the table, and everyone can help themselves to a serving.",
@@ -380,20 +355,6 @@ CHAPTER = {
                                "farmersdelight:rice_roll_medley_block", "culturaldelights:eggplant_parmesan_block"],
                        "title": "Any feast", "icon": "farmersdelight:roast_chicken_block"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "food_100", "title": "A Hundred Flavors", "shape": "hexagon", "size": 1.5,
-            "icon": "solcarrot:food_book",
-            "desc": [
-                "Eat &e100 different foods&r. That's four milestones and &c12 extra hearts&r, and you keep every one of them if you die.",
-                "",
-                "There's more to come: milestones carry on all the way to 500 foods, each worth another &c3 hearts&r.",
-                "",
-                "Click the checkmark once your Food Book shows 100.",
-            ],
-            "tasks": [{"check": "I've eaten 100 foods"}],
-            "rewards": [{"xp": 50}, {"crate": "lantern"}, {"crate": "hearth", "count": 2},
-                        {"item": "farmersdelight:diamond_knife"}],
         },
     ],
 }

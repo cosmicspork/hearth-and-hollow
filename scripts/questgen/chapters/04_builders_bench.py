@@ -74,26 +74,19 @@ CHAPTER = {
     "title": "The Builder's Bench",
     "subtitle": "Roofs, chairs, lamps and a gadget that builds walls",
     "icon": "handcrafted:oak_chair",
-    "layout": {
-        "hub": True,
-        "spine": ["bench", "chairs", "framed", "roofs", "windows", "doors", "odds", "lights", "paths", "gadget",
-                  "copypaste", "home"],
-        "branches": {
-            "bench": {"up": ["chisel"], "down": ["twigs"]},
-            "chairs": {"up": ["fancy_bed"], "down": ["mcw_furniture", "clutter"]},
-            "framed": {"up": ["framing_saw"]},
-            "roofs": {"up": ["balconies"]},
-            "windows": {"up": ["curtains"], "down": ["trapdoors"]},
-            "doors": {"up": ["fences"], "down": ["bridges"]},
-            "odds": {"up": ["timber"], "down": ["amendments"]},
-            "lights": {"up": ["luminax"], "down": ["copper"]},
-            "paths": {"up": ["holidays"]},
-            "gadget": {"up": ["exchanger"], "down": ["destruction"]},
-            "copypaste": {"up": ["template"], "down": ["cut_paste"]},
-        },
-    },
-    # The Charging Station lives in Sparks; it shows here too, by the gadgets that need it.
-    "links": [{"quest": "sparks:charging_station", "pos": (-7.2, 2.2)}],
+    # The tools in one line: the bench fans out to the chisel and Framed Blocks, and the
+    # Building Gadget to the other gadgets. The block families need no order, so they sit in
+    # themed rows: furniture, the house itself, outside, and lights.
+    "layout": {"lines": [
+        {"flow": ["bench", "gadget", ["cut_paste", "exchanger", "destruction", "copypaste"]],
+         "branches": {"bench": {"up": ["chisel"], "down": ["framed", "framing_saw"]},
+                      "copypaste": {"down": ["template"]}}},
+        {"rows": ["chairs", "fancy_bed", "mcw_furniture", "clutter", "odds", "timber",
+                  "roofs", "balconies", "windows", "curtains", "trapdoors", "doors"], "per_row": 6},
+        {"rows": ["fences", "bridges", "paths", "twigs", "lights", "luminax", "copper", "holidays"], "per_row": 4},
+    ]},
+    # The gadgets run on FE; the Charging Station lives in Sparks.
+    "links": [{"quest": "sparks:charging_station", "pos": (4.0, 2.25)}],
     "quests": [
         {
             "key": "bench", "title": "The Builder's Bench",
@@ -298,6 +291,8 @@ CHAPTER = {
                 "A &eJar&r holds bottles, buckets, cookies or even a small mob. An &eItem Shelf&r shows off one item on a wall. A &eFlower Box&r holds any big plant under a window. A &eGlobe&r spins when you hit it.",
                 "",
                 "There are notice boards, hat stands, sacks, doormats and a lot more. Browse the mod in JEI.",
+                "",
+                "Amendments adds no blocks, just new places for old ones: lanterns on walls, carpet on stairs, flower pots and banners hanging from the ceiling, and cakes you can stack.",
             ],
             "tasks": [{"any": ODDS, "title": "Any of these", "icon": "supplementaries:jar"}],
             "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "supplementaries:flower_box", "count": 2},
@@ -313,24 +308,6 @@ CHAPTER = {
             "tasks": [{"any": TIMBER, "title": "Any timber frame or daub", "icon": "supplementaries:timber_frame"}],
             "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "supplementaries:timber_frame", "count": 8},
                         {"item": "supplementaries:daub", "count": 8}],
-        },
-        {
-            "key": "amendments", "title": "Small Touches", "shape": "gear", "wide": True,
-            "desc": [
-                "Amendments lets ordinary blocks go where they couldn't before:",
-                "",
-                "Lanterns hang on walls",
-                "Carpet lies on stairs and slabs",
-                "Flower pots hang from the ceiling",
-                "Banners hang from the ceiling, too",
-                "Tools hang on tripwire hooks",
-                "Items sit on hanging signs",
-                "Cakes stack, and can be eaten from any side",
-                "",
-                "No new blocks to learn. Just try it.",
-            ],
-            "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}],
         },
         {
             "key": "lights", "title": "Lamps and Lanterns", "shape": "hexagon",
@@ -452,17 +429,6 @@ CHAPTER = {
             ],
             "tasks": [{"item": "buildinggadgets2:gadget_cut_paste"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "home", "title": "A Place of Your Own", "shape": "hexagon", "size": 1.5,
-            "icon": "handcrafted:oak_fancy_bed",
-            "desc": [
-                "A roof with a ridge, windows with curtains, a chair by the fire and a path to the door. That's not a shelter any more, that's a home.",
-                "",
-                "There's always one more thing to add. Have fun with it.",
-            ],
-            "tasks": [{"check": "Home sweet home"}],
-            "rewards": [{"xp": 50}, {"crate": "lantern"}],
         },
     ],
 }

@@ -8,20 +8,86 @@
 		id: "allthemodium:alloy_paxel"
 	}
 	id: "6A08833828DDC5F3"
-	order_index: 21
+	order_index: 26
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			id: "464331F2EC5BB489"
 			min_width: 300
-			rewards: [ ]
+			rewards: [
+				{
+					id: "7467CCD2194B68B8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "18F8E531360C677E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
 					id: "254D95A316632283"
-					type: "checkmark"
+					item: {
+						count: 1
+						id: "powah:energizing_orb"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "allthemodium:allthemodium_ingot"
+					}
+					id: "79196F38AF7F16A7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/allthemodium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "allthemodium:vibranium_ingot"
+					}
+					id: "33D9FB3F691D8B90"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/vibranium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						count: 1
+						id: "allthemodium:unobtainium_ingot"
+					}
+					id: "215C54E117BD8912"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item_tag(c:ingots/unobtainium)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
 				}
 			]
 			x: 0.0d

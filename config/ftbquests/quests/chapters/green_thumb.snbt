@@ -8,7 +8,7 @@
 		id: "botanypots:terracotta_botany_pot"
 	}
 	id: "4BF4F37B8A473892"
-	order_index: 16
+	order_index: 21
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

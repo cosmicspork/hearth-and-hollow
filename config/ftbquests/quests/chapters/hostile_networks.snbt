@@ -8,7 +8,7 @@
 		id: "hostilenetworks:sim_chamber"
 	}
 	id: "471B39DFF7D32D90"
-	order_index: 18
+	order_index: 23
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

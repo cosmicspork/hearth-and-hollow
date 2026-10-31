@@ -80,12 +80,20 @@ CHEST_UPGRADES = [
         "A &eStack Upgrade&r lets each slot hold more than a stack. Tier 1 doubles it, and every tier after holds more again.",
         "",
         "Upgrade slots are few, so it's usually the first thing worth putting in a chest.",
-    ], {"item": "sophisticatedstorage:stack_upgrade_tier_1"}),
-    side("ss_stack_high", "Deeper Still", [
-        "Tiers 3, 4 and 5 hold a lot. Conversion recipes turn the tier you have into a better one, so nothing goes to waste.",
-    ], {"any": tiers("sophisticatedstorage:stack_upgrade_tier_3", "sophisticatedstorage:stack_upgrade_tier_4",
-                     "sophisticatedstorage:stack_upgrade_tier_5"),
-        "title": "A Tier 3 stack upgrade or better", "icon": "sophisticatedstorage:stack_upgrade_tier_3"}),
+    ], {"item": "sophisticatedstorage:stack_upgrade_tier_1"}, optional=False),
+    side("ss_stack_2", "Stack Upgrade Tier 2", [
+        "Built from a Tier 1 upgrade, and each slot holds more again. There's a Tier 1 Plus in between if you want a cheaper step.",
+    ], {"item": "sophisticatedstorage:stack_upgrade_tier_2"}, optional=False),
+    side("ss_stack_3", "Stack Upgrade Tier 3", [
+        "Tier 3 holds a lot. Conversion recipes turn the tier you have into a better one, so nothing goes to waste.",
+    ], {"item": "sophisticatedstorage:stack_upgrade_tier_3"}, optional=False),
+    side("ss_stack_4", "Stack Upgrade Tier 4", [
+        "Deeper again. By now one chest can swallow a whole mining trip.",
+    ], {"item": "sophisticatedstorage:stack_upgrade_tier_4"}, optional=False),
+    side("ss_stack_5", "Stack Upgrade Tier 5", [
+        "The deepest slots Sophisticated Storage makes. Put one in a netherite barrel and see how far it goes.",
+    ], {"item": "sophisticatedstorage:stack_upgrade_tier_5"}, shape="hexagon", optional=False,
+        rewards=[{"xp": 25}, {"crate": "lantern"}]),
     side("ss_compacting", "Pack It Down", [
         "A &eCompacting Upgrade&r squeezes items into their compressed forms as they come in: nuggets into ingots, ingots into blocks.",
     ], {"any": tiers("sophisticatedstorage:compacting_upgrade", "sophisticatedstorage:advanced_compacting_upgrade"),
@@ -104,6 +112,14 @@ CHEST_UPGRADES = [
         "A &eCrafting Upgrade&r puts a crafting table in a tab on the chest. The &eStonecutter Upgrade&r adds a stonecutter the same way.",
     ], {"any": tiers("sophisticatedstorage:crafting_upgrade", "sophisticatedstorage:stonecutter_upgrade"),
         "title": "A crafting or stonecutter upgrade", "icon": "sophisticatedstorage:crafting_upgrade"}),
+    side("ss_filter", "Only What Belongs", [
+        "A &eFilter Upgrade&r sets what pipes and hoppers may put into the chest, or take out of it. Keep the ore chest for ore.",
+    ], {"any": tiers("sophisticatedstorage:filter_upgrade", "sophisticatedstorage:advanced_filter_upgrade"),
+        "title": "A filter upgrade", "icon": "sophisticatedstorage:filter_upgrade"}),
+    side("ss_jukebox", "A Chest with a Tune", [
+        "Put music discs in a chest with a &eJukebox Upgrade&r and it plays them. The advanced one holds several and plays them in turn.",
+    ], {"any": tiers("sophisticatedstorage:jukebox_upgrade", "sophisticatedstorage:advanced_jukebox_upgrade"),
+        "title": "A jukebox upgrade", "icon": "sophisticatedstorage:jukebox_upgrade"}),
 ]
 
 BACKPACKS = [
@@ -128,6 +144,22 @@ BACKPACKS = [
         "The last tier is made on a smithing table: a netherite upgrade template, your diamond backpack and a netherite ingot.",
     ], {"item": "sophisticatedbackpacks:netherite_backpack"},
         icon="sophisticatedbackpacks:netherite_backpack", shape="hexagon",
+        rewards=[{"xp": 25}, {"crate": "lantern"}]),
+    side("bp_stack_starter", "Stack Upgrade Starter Tier", [
+        "A backpack &eStack Upgrade&r lets each slot hold more than a stack. The Starter Tier is the cheap first step.",
+    ], {"item": "sophisticatedbackpacks:stack_upgrade_starter_tier"}, optional=False),
+    side("bp_stack_1", "Stack Upgrade Tier 1", [
+        "More per slot again. Each tier is built from the one before, and conversion recipes skip a step if you have the materials.",
+    ], {"item": "sophisticatedbackpacks:stack_upgrade_tier_1"}, optional=False),
+    side("bp_stack_2", "Stack Upgrade Tier 2", [
+        "A backpack that carries a small warehouse.",
+    ], {"item": "sophisticatedbackpacks:stack_upgrade_tier_2"}, optional=False),
+    side("bp_stack_3", "Stack Upgrade Tier 3", [
+        "Deeper still. Pair it with a magnet and the mining trips get long.",
+    ], {"item": "sophisticatedbackpacks:stack_upgrade_tier_3"}, optional=False),
+    side("bp_stack_4", "Stack Upgrade Tier 4", [
+        "The deepest backpack slots there are.",
+    ], {"item": "sophisticatedbackpacks:stack_upgrade_tier_4"}, shape="hexagon", optional=False,
         rewards=[{"xp": 25}, {"crate": "lantern"}]),
     side("bp_crafting", "Craft on the Go", [
         "The &eCrafting Upgrade&r adds a crafting table to the backpack, in a tab down its side.",
@@ -166,169 +198,49 @@ BACKPACKS = [
     side("bp_everlasting", "Forever Yours", [
         "With an &eEverlasting Upgrade&r your backpack can't be destroyed. Dropped, it never despawns and never falls into the void.",
     ], {"item": "sophisticatedbackpacks:everlasting_upgrade"}),
-]
-
-PIPEZ = [
-    side("pz_fluid", "Fluid Pipes", [
-        "&eFluid Pipes&r work like item pipes: wrench the side touching a tank to pull from it, and the fluid flows to whatever the pipe touches.",
-    ], {"item": "pipez:fluid_pipe"}, crate="kindling"),
-    side("pz_energy", "Energy Pipes", [
-        "&eEnergy Pipes&r carry FE from generators to machines, the same way.",
-    ], {"item": "pipez:energy_pipe"}, crate="kindling"),
-    side("pz_gas", "Gas Pipes", [
-        "&eGas Pipes&r move Mekanism's gases. They need Infused Alloy, so they come a little later.",
-    ], {"item": "pipez:gas_pipe"}),
-    side("pz_improved", "Improved Pipe Upgrade", [
-        "Gold and redstone around a Basic upgrade. Moves more, more often.",
-    ], {"item": "pipez:improved_upgrade"}, optional=False),
-    side("pz_advanced", "Advanced Pipe Upgrade", [
-        "Diamonds and redstone blocks around an Improved upgrade, and faster again.",
-    ], {"item": "pipez:advanced_upgrade"}, optional=False),
-    side("pz_ultimate", "Ultimate Pipe Upgrade", [
-        "Netherite ingots and redstone blocks around an Advanced upgrade. The fastest pipes you can make.",
-    ], {"item": "pipez:ultimate_upgrade"}, optional=False),
-    side("pz_filter_tool", "Send It There", [
-        "A filter in an upgrade can name a destination. Click a block with the &eFilter Destination Tool&r, then add it to a filter, and matching items go only there.",
-    ], {"item": "pipez:filter_destination_tool"}),
-]
-
-ROUTERS = [
-    side("mr_speed", "Speed Upgrade", [
-        "A &eSpeed Upgrade&r makes the router tick more often. Stack a few for a router that keeps up with a busy machine.",
-    ], {"item": "modularrouters:speed_upgrade"}),
-    side("mr_stack", "Stack Upgrade", [
-        "A &eStack Upgrade&r moves more items each time the router ticks.",
-    ], {"item": "modularrouters:stack_upgrade"}),
-    side("mr_filter", "Smarter Filters", [
-        "Module filters take items, but also filter items: a &eTag Filter&r, a &eMod Filter&r, a &eRegex Filter&r for registry names, an &eInspection Filter&r, and a &eBulk Item Filter&r for long lists.",
-    ], {"any": tiers("modularrouters:tag_filter", "modularrouters:mod_filter", "modularrouters:regex_filter",
-                     "modularrouters:inspection_filter", "modularrouters:bulk_item_filter"),
-        "title": "Any filter item", "icon": "modularrouters:tag_filter"}),
-    side("mr_sender2", "Sender Module Mk2", [
-        "The &eSender Module Mk2&r sends items to any inventory nearby, with no line of sight needed. Most routers end up with one.",
-    ], {"item": "modularrouters:sender_module_2"}, optional=False),
-    side("mr_fluid", "Fluid Module", [
-        "With a bucket or tank item in its buffer, a router with a &eFluid Module&r moves fluids to and from the block it faces. The Mk2 reaches any block nearby.",
-    ], {"any": tiers("modularrouters:fluid_module", "modularrouters:fluid_module_2"),
-        "title": "A fluid module", "icon": "modularrouters:fluid_module"}),
-    side("mr_distributor", "Share It Out", [
-        "A &eDistributor Module&r spreads items across several inventories: round robin, random, nearest first or furthest first.",
-    ], {"item": "modularrouters:distributor_module"}),
-    side("mr_xp", "Bottled Experience", [
-        "Fit an &eXP Vacuum Augment&r to a Vacuum Module and it collects experience orbs instead of items, as Bottles o' Enchanting.",
-    ], {"item": "modularrouters:xp_vacuum_augment"}),
-    side("mr_breaker", "Breaker Module", [
-        "A &eBreaker Module&r breaks the block in front of the router and keeps it. Pair it with a sender for a tiny automatic quarry face.",
-    ], {"item": "modularrouters:breaker_module"}, optional=False),
-    side("mr_placer", "Placer Module", [
-        "The &ePlacer Module&r puts a block from the router's buffer in front of it. Handy for replanting, or for setting blocks where a machine expects them.",
-    ], {"item": "modularrouters:placer_module"}),
-    side("mr_dropper", "Dropper Module", [
-        "The &eDropper Module&r drops items from the buffer onto the ground in front of the router.",
-    ], {"item": "modularrouters:dropper_module"}),
-    side("mr_flinger", "Flinger Module", [
-        "The &eFlinger Module&r throws items, a long way if you like. Set the speed and angle in its menu, and aim for a hopper.",
-    ], {"item": "modularrouters:flinger_module"}),
-    side("mr_extruder", "Extruder Module", [
-        "An &eExtruder Module Mk1&r places a line of blocks from the buffer when the router gets a redstone signal, and pulls them back when it stops. Instant doors and bridges.",
-    ], {"item": "modularrouters:extruder_module_1"}, optional=False),
-    side("mr_extruder2", "Extruder Module Mk2", [
-        "The Mk2 extrudes copies of blocks from a pattern instead of real ones, so a hidden door can look like any wall.",
-    ], {"item": "modularrouters:extruder_module_2"}),
-    side("mr_activator", "Activator Module", [
-        "An &eActivator Module&r right-clicks blocks and mobs with whatever is in the buffer, like a player would. Shear sheep, milk cows, fill bottles.",
-    ], {"item": "modularrouters:activator_module"}, optional=False),
-    side("mr_player", "Player Module", [
-        "The &ePlayer Module&r moves items between the router and your own inventory, remotely. Armor slots included.",
-    ], {"item": "modularrouters:player_module"}),
-    side("mr_detector", "Detector Module", [
-        "A &eDetector Module&r gives off a redstone signal when the item in the buffer matches its filter.",
-    ], {"item": "modularrouters:detector_module"}),
-    side("mr_sender3", "Sender Module Mk3", [
-        "The Mk3 sends items to an inventory anywhere, even in another dimension. Mining Dimension output, straight home.",
-    ], {"item": "modularrouters:sender_module_3"}, shape="hexagon", optional=False,
-        rewards=[{"xp": 25}, {"crate": "hearth"}]),
-]
-
-ODDS = [
-    side("cs_more", "More Sticks", [
-        "The &eStonecutter&r, &eLoom&r, &eSmithing Table&r, &eAnvil&r, &eGrindstone&r and &eCartography Table&r all come on sticks too.",
-    ], {"any": tiers("crafting_on_a_stick:stonecutter", "crafting_on_a_stick:loom", "crafting_on_a_stick:smithing_table",
-                     "crafting_on_a_stick:anvil", "crafting_on_a_stick:grindstone", "crafting_on_a_stick:cartography_table"),
-        "title": "Any other workstation on a stick", "icon": "crafting_on_a_stick:stonecutter"}, crate="kindling"),
-    side("ic_advanced", "Advanced Item Collector", [
-        "The &eAdvanced Item Collector&r reaches a little farther, and has a filter so it only picks up what you want.",
-    ], {"item": "itemcollectors:advanced_collector"}),
-    side("tc_liquid", "Liquid Trash Can", [
-        "Voids fluids and gases, with a filter for up to nine fluids.",
-    ], {"item": "trashcans:liquid_trash_can"}),
-    side("tc_energy", "Energy Trash Can", [
-        "Voids energy. It can also cap how fast it takes it, which makes it a handy limiter.",
-    ], {"item": "trashcans:energy_trash_can"}),
-    side("tc_ultimate", "Ultimate Trash Can", [
-        "Items, fluids and energy, all in one can.",
-    ], {"item": "trashcans:ultimate_trash_can"}),
+    side("bp_smelting", "A Furnace on Your Back", [
+        "The &eSmelting Upgrade&r adds a furnace in a tab on the backpack. Blasting and smoking ones too, and auto versions that smelt as items come in.",
+    ], {"any": tiers("sophisticatedbackpacks:smelting_upgrade", "sophisticatedbackpacks:auto_smelting_upgrade",
+                     "sophisticatedbackpacks:blasting_upgrade", "sophisticatedbackpacks:auto_blasting_upgrade",
+                     "sophisticatedbackpacks:smoking_upgrade", "sophisticatedbackpacks:auto_smoking_upgrade"),
+        "title": "A smelting, blasting or smoking upgrade", "icon": "sophisticatedbackpacks:smelting_upgrade"}),
+    side("bp_workshop", "A Workshop in a Bag", [
+        "The &eStonecutter&r, &eAnvil&r and &eSmithing&r upgrades each add their workstation as a tab on the backpack.",
+    ], {"any": tiers("sophisticatedbackpacks:stonecutter_upgrade", "sophisticatedbackpacks:anvil_upgrade",
+                     "sophisticatedbackpacks:smithing_upgrade"),
+        "title": "A stonecutter, anvil or smithing upgrade", "icon": "sophisticatedbackpacks:anvil_upgrade"}),
+    side("bp_compacting", "Squeeze It In", [
+        "A &eCompacting Upgrade&r turns nuggets into ingots and ingots into blocks as you pick them up.",
+    ], {"any": tiers("sophisticatedbackpacks:compacting_upgrade", "sophisticatedbackpacks:advanced_compacting_upgrade"),
+        "title": "A compacting upgrade", "icon": "sophisticatedbackpacks:compacting_upgrade"}),
+    side("bp_filter", "Keep It Tidy", [
+        "A &eFilter Upgrade&r sets what may go into the backpack or come out of it when it's placed and piped.",
+    ], {"any": tiers("sophisticatedbackpacks:filter_upgrade", "sophisticatedbackpacks:advanced_filter_upgrade"),
+        "title": "A filter upgrade", "icon": "sophisticatedbackpacks:filter_upgrade"}),
 ]
 
 CHAPTER = {
     "file": "packing_it_in",
     "group": "hum",
     "title": "Packing It In",
-    "subtitle": "Chests that grow, pipes that carry, routers that sort",
+    "subtitle": "Chests and backpacks that grow with you",
     "icon": "minecraft:chest",
-    # Five tracks you can follow at once, one per mod or job, plus the odds and ends.
+    # Each tier ladder runs beside its stack upgrade ladder; everything that just fits in a
+    # slot sits in a block of its own with no lines, since it needs no order.
     "layout": {
-        "info": ["essentials"],
         "lines": [
-            # Sophisticated Storage: the chests themselves.
-            {"spine": ["start", "tier", "ss_gold", "controller", "packed", "ss_netherite"],
-             "branches": {
-                 "start": {"up": ["tape"], "down": ["motion"]},
-                 "tier": {"up": ["ss_shulker"], "down": ["ss_limited"]},
-                 "ss_gold": {"up": ["ss_paint"]},
-                 "controller": {"up": ["link"], "down": ["ss_io"]},
-             }},
-            # What goes in a chest's upgrade slots.
-            {"spine": ["upgrades", "ss_hopper", "ss_stack", "ss_compacting", "ss_smelting", "ss_void",
-                       "ss_crafting"],
-             "branches": {
-                 "ss_hopper": {"up": ["ss_magnet"]},
-                 "ss_stack": {"up": ["ss_stack_high"]},
-             }},
-            # Sophisticated Backpacks: each tier, with its upgrades above and below it.
-            {"spine": ["bp_base", "bp_bigger", "bp_iron", "bp_gold", "bp_diamond", "bp_netherite"],
-             "branches": {
-                 "bp_base": {"up": ["bp_magnet", "bp_feeding"], "down": ["bp_crafting"]},
-                 "bp_bigger": {"up": ["bp_tool_swapper"], "down": ["bp_refill"]},
-                 "bp_iron": {"up": ["bp_deposit"], "down": ["bp_void"]},
-                 "bp_gold": {"up": ["bp_tank"], "down": ["bp_jukebox"]},
-                 "bp_diamond": {"up": ["bp_inception"], "down": ["bp_mob_catcher"]},
-                 "bp_netherite": {"up": ["bp_everlasting"]},
-             }},
-            # Pipez: each pipe, and each upgrade tier.
-            {"spine": ["pipes", "pipe_speed", "pz_improved", "pz_advanced", "pz_ultimate"],
-             "branches": {
-                 "pipes": {"up": ["pz_fluid"], "down": ["pz_energy"]},
-                 "pipe_speed": {"up": ["universal"], "down": ["pz_gas"]},
-                 "pz_improved": {"up": ["pz_filter_tool"]},
-             }},
-            # Modular Routers: the modules worth knowing.
-            {"spine": ["router", "mr_sender2", "vacuum", "mr_breaker", "mr_extruder", "mr_activator", "mr_sender3"],
-             "branches": {
-                 "router": {"up": ["mr_speed", "mr_stack"], "down": ["mr_filter"]},
-                 "mr_sender2": {"up": ["mr_fluid"], "down": ["mr_distributor"]},
-                 "vacuum": {"up": ["mr_xp"]},
-                 "mr_breaker": {"up": ["mr_placer"], "down": ["mr_dropper", "mr_flinger"]},
-                 "mr_extruder": {"up": ["mr_extruder2"]},
-                 "mr_activator": {"up": ["mr_player"], "down": ["mr_detector"]},
-             }},
-            # Odds and ends.
-            {"spine": ["stick", "collector", "trash", "extractor"],
-             "branches": {
-                 "stick": {"up": ["cs_more"]},
-                 "collector": {"up": ["ic_advanced"]},
-                 "trash": {"up": ["tc_liquid", "tc_energy"], "down": ["tc_ultimate"]},
-             }},
+            {"flow": [["start", "ss_stack"], ["tier", "ss_stack_2"], ["ss_gold", "ss_stack_3"],
+                      ["packed", "ss_stack_4"], ["ss_netherite", "ss_stack_5"]]},
+            {"flow": ["controller", ["link", "ss_io"]]},
+            {"rows": ["upgrades", "ss_hopper", "ss_magnet", "ss_compacting", "ss_smelting", "ss_void", "ss_crafting",
+                      "ss_filter", "ss_jukebox", "tape", "motion", "ss_shulker", "ss_limited", "ss_paint"],
+             "per_row": 7},
+            {"flow": [["bp_bigger", "bp_stack_starter"], ["bp_iron", "bp_stack_1"], ["bp_gold", "bp_stack_2"],
+                      ["bp_diamond", "bp_stack_3"], ["bp_netherite", "bp_stack_4"]]},
+            {"rows": ["bp_base", "bp_magnet", "bp_feeding", "bp_crafting", "bp_tool_swapper", "bp_refill",
+                      "bp_deposit", "bp_void", "bp_tank", "bp_smelting", "bp_workshop", "bp_compacting", "bp_filter",
+                      "bp_jukebox", "bp_inception", "bp_mob_catcher", "bp_everlasting"],
+             "per_row": 9},
         ],
     },
     "quests": [
@@ -336,43 +248,18 @@ CHAPTER = {
             "key": "start", "title": "Packing It In",
             "shape": "hexagon", "size": 1.5, "icon": "sophisticatedstorage:chest", "icon_components": OAK,
             "desc": [
-                "Sooner or later every base turns into a maze of chests. This chapter is about taming the pile: chests that grow with you, pipes that carry, and small machines that sort things while you're out.",
+                "Sooner or later every base turns into a maze of chests. This chapter is about taming the pile: chests and backpacks that grow with you. Moving things between them is in &eLogistics&r.",
                 "",
                 "Start with a Sophisticated &echest&r or &ebarrel&r: planks around a lever. It holds as much as a vanilla chest, plus a slot for an upgrade.",
                 "",
                 "Already have chests full of stuff? Right-click a placed vanilla chest with a &eBasic Tier Upgrade&r and it becomes a Sophisticated one, with everything still inside.",
+                "",
+                "Some clicks that save clicking: &eShift&r and drag moves a whole row of items, &eCtrl&r-click moves one, &eSpace&r-click moves everything, and &eMiddle-click&r sorts.",
             ],
             "tasks": [{"any": ["sophisticatedstorage:chest", "sophisticatedstorage:barrel"],
                        "title": "A Sophisticated chest or barrel", "icon": "sophisticatedstorage:chest",
                        "icon_components": OAK}],
             "rewards": [{"xp": 10}, {"crate": "kindling", "count": 2}],
-        },
-        {
-            "key": "stick", "title": "A Workbench in Your Pocket", "shape": "hexagon",
-            "desc": [
-                "A crafting table on a stick. Right-click it to craft wherever you stand.",
-                "",
-                "Better yet, tuck it into its Curios slot and press &eShift+E&r to open it without digging through your bags. Anything you leave in the grid is still there next time.",
-                "",
-                "This line is for the small helpers that don't belong to any one mod.",
-            ],
-            "tasks": [{"item": "crafting_on_a_stick:crafting_table"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}],
-        },
-        {
-            "key": "essentials", "title": "Inventory Tricks", "shape": "gear", "wide": True,
-            "desc": [
-                "A few clicks that save a lot of clicking:",
-                "",
-                "&eShift&r and drag over items to move them all across",
-                "&eCtrl&r-click to move just one",
-                "&eShift+Ctrl&r-click to move every stack of that item",
-                "&eSpace&r-click to move everything in that inventory",
-                "&eMiddle-click&r to sort",
-                "",
-                "When a tool breaks or a stack of blocks runs out, the next one from your inventory slides into your hand.",
-            ],
-            "tasks": [{"check": "Got it"}],
         },
         {
             "key": "tier", "title": "Upgrade in Place",
@@ -420,7 +307,7 @@ CHAPTER = {
             "desc": [
                 "Sophisticated chests and barrels have upgrade slots, just like your backpack. Start with an &eUpgrade Base&r: planks and iron.",
                 "",
-                "Any upgrade at all finishes this one. The rest of the line goes through the ones worth having, one at a time.",
+                "Any upgrade at all finishes this one. The others around it are the ones worth having, in any order.",
             ],
             "tasks": [{"tag": "sophisticatedstorage:upgrade", "title": "Any storage upgrade",
                        "icon": "sophisticatedstorage:hopper_upgrade"}],
@@ -432,8 +319,6 @@ CHAPTER = {
                 "Your backpack has upgrade slots down its side. Every upgrade starts from an &eUpgrade Base&r: string, iron and leather.",
                 "",
                 "Many chest upgrades also craft straight into their backpack twin, so a spare from your chests isn't wasted.",
-                "",
-                "This line follows the backpack up through its tiers, with the upgrades worth having above and below each one.",
             ],
             "tasks": [{"item": "sophisticatedbackpacks:upgrade_base"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
@@ -472,101 +357,6 @@ CHAPTER = {
                                "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack",
                                "sophisticatedbackpacks:netherite_backpack"],
                        "title": "A copper backpack or better", "icon": "sophisticatedbackpacks:copper_backpack"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "pipes", "title": "Pipe a Furnace Array",
-            "shape": "hexagon",
-            "desc": [
-                "&eItem Pipes&r connect to anything with an inventory. Right-click where a pipe meets a chest with the &ePipe Wrench&r, and that side starts pulling items out.",
-                "",
-                "Pipes push into whichever face they touch. Run one along the tops of a row of furnaces for ore, one along the sides for fuel, and pull the bottoms into an output chest.",
-                "",
-                "Now you can fill one chest and walk away.",
-            ],
-            "tasks": [{"item": "pipez:item_pipe", "count": 16}, {"item": "pipez:wrench"}],
-            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "pipez:item_pipe", "count": 16}],
-        },
-        {
-            "key": "universal", "title": "One Pipe for Everything", "optional": True,
-            "desc": [
-                "The &eUniversal Pipe&r carries items, fluids and energy in one line, which keeps a busy wall tidy.",
-                "",
-                "Two each of the item, energy and fluid pipes, with iron and a block of redstone, make six.",
-            ],
-            "tasks": [{"item": "pipez:universal_pipe"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "collector", "title": "Tidy Up the Floor", "optional": True,
-            "desc": [
-                "An &eItem Collector&r picks up items lying around it and puts them in the inventory it's attached to.",
-                "",
-                "Put one on a chest next to your mob farm or under a tree farm and stop chasing drops. You can widen or shrink its range in its menu.",
-            ],
-            "tasks": [{"any": ["itemcollectors:basic_collector", "itemcollectors:advanced_collector"],
-                       "title": "Any item collector", "icon": "itemcollectors:basic_collector"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "pipe_speed", "title": "Faster Pipes", "icon": "pipez:basic_upgrade",
-            "desc": [
-                "A bare pipe is slow. Right-click the pulling end of a pipe to open it, and slot in an upgrade.",
-                "",
-                "Upgrades move more at once and more often. Better ones also unlock filters, redstone control and how items are shared out, such as round robin across all your furnaces.",
-                "",
-                "They go Basic, Improved, Advanced and Ultimate, each built around the one before.",
-            ],
-            "tasks": [{"any": ["pipez:basic_upgrade", "pipez:improved_upgrade", "pipez:advanced_upgrade",
-                               "pipez:ultimate_upgrade"],
-                       "title": "Any pipe upgrade", "icon": "pipez:basic_upgrade"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "router", "title": "Route It",
-            "shape": "hexagon",
-            "desc": [
-                "A &eModular Router&r is a tiny block with one slot of buffer and room for modules. Each module does one job.",
-                "",
-                "A &ePuller Module&r takes items from the inventory beside it. A &eSender Module&r ships them to an inventory in a straight line; the Mk2 doesn't need line of sight.",
-                "",
-                "Hover a module and press &eCtrl+C&r to set its direction and filter.",
-            ],
-            "tasks": [{"item": "modularrouters:modular_router"}, {"item": "modularrouters:puller_module_1"}],
-            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "modularrouters:blank_module", "count": 4}],
-        },
-        {
-            "key": "vacuum", "title": "Vacuum Module", "optional": True,
-            "desc": [
-                "The &eVacuum Module&r sucks nearby items off the ground into the router.",
-                "",
-                "Pair it with a Sender Module and items go straight to storage. Add an &eXP Vacuum Augment&r and it gathers experience orbs instead, turning them into Bottles o' Enchanting.",
-            ],
-            "tasks": [{"item": "modularrouters:vacuum_module"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "trash", "title": "Take Out the Trash", "optional": True,
-            "desc": [
-                "Every automated setup makes something you don't want. A &eTrash Can&r deletes it.",
-                "",
-                "The &eItem Trash Can&r has a filter for up to nine items, so it only eats what you tell it to.",
-                "",
-                "Pipe your overflow into one and nothing backs up.",
-            ],
-            "tasks": [{"item": "trashcans:item_trash_can"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "extractor", "title": "Stone from Nowhere", "optional": True,
-            "desc": [
-                "XyCraft's &eExtractor&r pulls items out of the world. Point it at a stone block with water and lava touching it, and it makes copies of that stone, slowly, with no power.",
-                "",
-                "It keeps what it makes, so pipe the stone out into a chest.",
-                "",
-                "Cobblestone, andesite, granite and more each have their own setup. Press &eU&r on the Extractor to see them all.",
-            ],
-            "tasks": [{"item": "xycraft_machines:extractor"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
@@ -609,5 +399,5 @@ CHAPTER = {
                        "title": "A diamond chest or barrel, or the upgrade to one", "icon": "sophisticatedstorage:diamond_chest"}],
             "rewards": [{"xp": 50}, {"crate": "ember"}, {"item": "sophisticatedstorage:stack_upgrade_tier_2"}],
         },
-    ] + STORAGE + CHEST_UPGRADES + BACKPACKS + PIPEZ + ROUTERS + ODDS,
+    ] + STORAGE + CHEST_UPGRADES + BACKPACKS,
 }

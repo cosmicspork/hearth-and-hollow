@@ -8,7 +8,7 @@
 		id: "allthemodium:allthemodium_ingot"
 	}
 	id: "109E2C32DE0A3837"
-	order_index: 20
+	order_index: 25
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -48,11 +48,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -0.0d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0684FFD80B7BF030"]
 			id: "71C17E71CA1B9CBF"
 			optional: true
 			rewards: [
@@ -83,8 +82,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -0.0d
+			x: 0.875d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0684FFD80B7BF030"]
@@ -124,8 +123,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["618B176F170F61CA"]
@@ -158,8 +157,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["618B176F170F61CA"]
@@ -206,11 +205,11 @@
 					type: "dimension"
 				}
 			]
-			x: 0.0d
-			y: -4.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["529EB9E5D8A11071"]
+			dependencies: ["618B176F170F61CA"]
 			id: "71099A6DBC9C74FE"
 			rewards: [
 				{
@@ -248,8 +247,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["71099A6DBC9C74FE"]
@@ -282,11 +281,10 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -6.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["71099A6DBC9C74FE"]
 			id: "3A0D837FE1BE2F95"
 			rewards: [
 				{
@@ -323,11 +321,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -6.0d
+			x: -0.875d
+			y: 15.0d
 		}
 		{
-			dependencies: ["71099A6DBC9C74FE"]
+			dependencies: ["5C2EFC1448F3F67D"]
 			id: "28B1507A648721C2"
 			rewards: [
 				{
@@ -358,8 +356,8 @@
 					type: "dimension"
 				}
 			]
-			x: 0.0d
-			y: -8.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28B1507A648721C2"]
@@ -393,8 +391,8 @@
 					type: "structure"
 				}
 			]
-			x: 1.5d
-			y: -8.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4DC5D14811471696"]
@@ -426,10 +424,10 @@
 				}
 			]
 			x: 3.0d
-			y: -8.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["28B1507A648721C2"]
+			dependencies: ["71099A6DBC9C74FE"]
 			id: "5C2EFC1448F3F67D"
 			rewards: [
 				{
@@ -467,8 +465,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -10.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5C2EFC1448F3F67D"]
@@ -501,8 +499,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -10.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B9F8587B26491A8"]
@@ -535,11 +533,115 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -10.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5C2EFC1448F3F67D"]
+			id: "7EA7137D4E067C2C"
+			optional: true
+			rewards: [
+				{
+					id: "6FB8FE97C8900EB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EB4C0B7709A0734"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "251A6610E34BC4B2"
+					item: {
+						count: 1
+						id: "allthemodium:allthemodium_mace"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7EA7137D4E067C2C"]
+			id: "54F1AEA280C30276"
+			optional: true
+			rewards: [
+				{
+					id: "0C2E3520959264BA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2CA07D7D94638978"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50F3B6F3B799DE84"
+					item: {
+						count: 1
+						id: "allthemodium:vibranium_mace"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54F1AEA280C30276"]
+			id: "794CD53A45B7B900"
+			optional: true
+			rewards: [
+				{
+					id: "315FD34D6205A7A4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "78D92BD98B4A22D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73DF7A6872E0EBB9"
+					item: {
+						count: 1
+						id: "allthemodium:unobtainium_mace"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28B1507A648721C2"]
 			id: "7C2B1D710BBE205C"
 			rewards: [
 				{
@@ -577,8 +679,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -12.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7C2B1D710BBE205C"]
@@ -612,11 +714,10 @@
 					type: "dimension"
 				}
 			]
-			x: -1.5d
-			y: -12.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7C2B1D710BBE205C"]
 			id: "2038E7A17CB7EF02"
 			rewards: [
 				{
@@ -656,8 +757,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -14.0d
+			x: -5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2038E7A17CB7EF02"]
@@ -690,8 +791,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -16.0d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["75FD93A935F23B49"]
@@ -724,8 +825,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -18.0d
+			x: -1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2C21ED508BC849C4"]
@@ -759,8 +860,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -20.0d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2F8C6FD9A76B3A2E"]
@@ -794,8 +895,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -20.0d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2F8C6FD9A76B3A2E"]
@@ -828,8 +929,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -22.0d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5524BBF09C99175C"]
@@ -905,8 +1006,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -24.0d
+			x: 5.0d
+			y: 12.5d
 		}
 	]
 }

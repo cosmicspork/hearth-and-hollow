@@ -8,7 +8,7 @@
 		id: "mob_grinding_utils:saw"
 	}
 	id: "7DEDCE79D4C955D3"
-	order_index: 17
+	order_index: 22
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

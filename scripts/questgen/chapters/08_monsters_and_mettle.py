@@ -12,25 +12,21 @@ CHAPTER = {
             # World Tiers, with each tier's challenge Gateway above it.
             {"spine": ["affix", "frontier", "ascent", "summit", "pinnacle"],
              "branches": {
-                 "affix": {"down": ["epitaph"]},
                  "frontier": {"up": ["frontier_gate"], "down": ["locals"]},
                  "ascent": {"up": ["ascent_gate"]},
                  "summit": {"up": ["summit_gate"]},
                  "pinnacle": {"up": ["pinnacle_gate", "supremacy"]},
              }},
             # The gear guide: gems and the Apotheosis workbenches.
-            {"spine": ["gem", "dust", "socket", "salvage", "reforge"],
+            {"spine": ["gem", "dust", "salvage", "reforge"],
              "branches": {
-                 "gem": {"down": ["dummy"]},
                  "dust": {"up": ["cutting"], "down": ["sigil"]},
                  "reforge": {"up": ["hellshelf"], "down": ["disenchant"]},
              }},
-            # Fights worth seeking out.
-            {"spine": ["pearl", "gateway", "trials", "vault"],
-             "branches": {
-                 "gateway": {"down": ["trophy"]},
-                 "trials": {"up": ["nether_trial", "fragments"]},
-             }},
+            # Trial Chambers, down to the mace.
+            {"flow": ["trials", "vault", "heavy_core", "mace"]},
+            # Fights and keepsakes that need no order.
+            {"rows": ["pearl", "nether_trial", "fragments", "trophy", "dummy"]},
         ],
     },
     "quests": [
@@ -41,21 +37,11 @@ CHAPTER = {
                 "",
                 "How strong that loot gets, and how strong the monsters guarding it are, depends on your &eWorld Tier&r. Press &eCtrl+T&r to see them.",
                 "",
-                "The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom one is fights worth seeking out. Follow whichever you're in the mood for.",
+                "The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom ones are fights worth seeking out. Follow whichever you're in the mood for.",
+                "",
+                "Harder fights mean the odd death. Your things go into a &eGrave&r where you fell, which only you can open, and the chat tells you where. Items with the &eSoulbound&r enchantment stay with you instead: World Tier Haven gives you a book of it.",
             ],
             "tasks": [{"check": "Show me"}],
-        },
-        {
-            "key": "epitaph", "title": "When It Goes Wrong", "shape": "gear",
-            "desc": [
-                "Harder fights mean the odd death. When you die, your things go into a &eGrave&r where you fell, and only you can open it.",
-                "",
-                "The chat message tells you where it is, so you can go back for it.",
-                "",
-                "Items with the &eSoulbound&r enchantment stay with you instead. Here's a book to start with.",
-            ],
-            "tasks": [{"check": "Good to know"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}, {"book": "epitaphs:soulbound", "level": 1}],
         },
         {
             "key": "affix", "title": "World Tier: Haven", "shape": "hexagon", "size": 1.5, "icon": "minecraft:golden_sword",
@@ -67,7 +53,7 @@ CHAPTER = {
                 "Until Haven is active, affix items show as Unidentified. Open the World Tier screen with &eCtrl+T&r to check.",
             ],
             "tasks": [{"advancement": "apotheosis:progression/haven"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}, {"book": "epitaphs:soulbound", "level": 1}],
         },
         {
             "key": "dummy", "title": "Practice Makes Perfect", "optional": True,
@@ -108,6 +94,8 @@ CHAPTER = {
                 "",
                 "Each gem has a &ePurity&r, from Cracked up to Perfect, and purity is all that sets its strength. A gem gives a different bonus depending on what you put it in: hover over one to see.",
                 "",
+                "To socket a gem, put the item and the gem together in a &eSmithing Table&r, or pick the gem up and right-click it onto the item. The item needs an empty socket: Uncommon and better gear often has one.",
+                "",
                 "This line covers what to do with them, and with the gear you outgrow.",
             ],
             "tasks": [{"item": "apotheosis:gem", "title": "Any gem", "icon": "minecraft:amethyst_shard"}],
@@ -138,23 +126,11 @@ CHAPTER = {
             "desc": [
                 "No socket on your favorite sword? A &eSigil of Socketing&r adds one. Combine the item and the sigil in a Smithing Table.",
                 "",
-                "Sigils can add up to two sockets to an item.",
+                "Sigils can add up to two sockets to an item. Changed your mind about a gem? A &eSigil of Withdrawal&r pops it back out, and you keep both.",
                 "",
                 "The recipe needs &eGem-Fused Slate&r, which is deepslate around a pinch of Gem Dust.",
             ],
             "tasks": [{"item": "apotheosis:sigil_of_socketing"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "socket", "title": "Set in Stone", "icon": "minecraft:smithing_table",
-            "desc": [
-                "To socket a gem, put the item and the gem together in a &eSmithing Table&r. Or pick the gem up in your inventory and right-click it onto the item.",
-                "",
-                "The item needs an empty socket. Uncommon and better gear often has one, and a Sigil of Socketing can add more.",
-                "",
-                "Changed your mind? A &eSigil of Withdrawal&r pops the gems back out, and you keep both.",
-            ],
-            "tasks": [{"check": "Socketed a gem"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
@@ -211,21 +187,9 @@ CHAPTER = {
                 "",
                 "&eOverworldian Nights&r is a good first one: zombies, skeletons, spiders, creepers and witches, with a pile of dungeon loot at the end.",
                 "",
-                "Hover over a pearl to see its waves, rewards and rules.",
+                "Hover over a pearl to see its waves, rewards and rules. Use it on a block in an open space and stand back. A Gateway fails if the timer runs out, a monster wanders too far, or it can't find room to spawn, so fight on flat ground and stay close.",
             ],
             "tasks": [{"item": "gateways:gate_pearl", "components": GATE, "title": "Overworldian Nights Gate Pearl"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "gateway", "title": "Hold the Gate", "shape": "hexagon", "icon": "minecraft:shield",
-            "desc": [
-                "Use the pearl on a block in an open space and stand back.",
-                "",
-                "A Gateway fails in a burst of lightning if the timer runs out, a monster wanders too far, or it can't find room to spawn. Fight on flat ground and stay close.",
-                "",
-                "Rewards pop out of the Gateway as you earn them.",
-            ],
-            "tasks": [{"check": "Survived a Gateway"}],
             "rewards": [{"xp": 25}, {"crate": "lantern"},
                         {"item": "apotheosis:gem", "components": {"apotheosis:gem": "apotheosis:core/ballast",
                                                                   "apotheosis:purity": "flawed"}}],
@@ -283,16 +247,37 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
+            "key": "heavy_core", "title": "Heavier Than It Looks", "icon": "minecraft:heavy_core",
+            "desc": [
+                "A &eHeavy Core&r is the rarest thing in a Trial Chamber. Drink an Ominous Bottle, beat the chamber's ominous waves for an &eOminous Trial Key&r, and open an &eOminous Vault&r. Now and then one gives a core.",
+                "",
+                "If luck won't oblige, Oritech can make one. Forge &eReinforced Deepslate&r in the Atomic Forge from deepslate and two duratium ingots, then collide it with &eDuratium Dust&r in the Particle Accelerator.",
+                "",
+                "Oritech's &eElectric Mace&r needs a core too.",
+            ],
+            "tasks": [{"item": "minecraft:heavy_core"}],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "minecraft:ominous_bottle"}],
+        },
+        {
+            "key": "mace", "title": "Mind the Drop", "shape": "hexagon", "icon": "minecraft:mace",
+            "desc": [
+                "A Heavy Core and a &eBreeze Rod&r make a &eMace&r. It hits hard on its own, and much harder when you fall onto your target first: the further the drop, the bigger the smash.",
+                "",
+                "It's also where the Allthemodium maces start. &eAllthemodium Ascent&r upgrades it three times over.",
+            ],
+            "tasks": [{"item": "minecraft:mace"}],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "minecraft:wind_charge", "count": 16}],
+        },
+        {
             "key": "vault", "title": "Back for Seconds", "icon": "minecraft:vault",
             "desc": [
                 "Normally a Vault only opens once for each player. Not here: use another key on a vault you've already opened and it pays out again.",
                 "",
-                "So a good chamber is worth coming back to. Open a vault, then open one a second time.",
+                "So a good chamber is worth coming back to.",
                 "",
                 "Drink an Ominous Bottle before you go in, and the chamber turns ominous: harder fights, &eOminous Trial Keys&r and better vaults.",
             ],
-            "tasks": [{"advancement": "minecraft:adventure/under_lock_and_key"},
-                      {"check": "Opened a vault a second time"}],
+            "tasks": [{"advancement": "minecraft:adventure/under_lock_and_key"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "minecraft:trial_key", "count": 2}],
         },
         {

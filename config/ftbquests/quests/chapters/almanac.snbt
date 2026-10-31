@@ -8,7 +8,7 @@
 		id: "minecraft:writable_book"
 	}
 	id: "7FF15EBCAE2C8B9B"
-	order_index: 23
+	order_index: 28
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -24,7 +24,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -101,11 +101,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.0d
+			x: -11.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["5F793A298673F7E9"]
 			icon: {
 				count: 1
 				id: "farmersdelight:vegetable_soup"
@@ -180,11 +179,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.0d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4D67700D3BBF9BEB"]
 			icon: {
 				count: 1
 				id: "croptopia:cherry_pie"
@@ -259,11 +257,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0E11ACD43E3C4DF8"]
 			icon: {
 				count: 1
 				id: "culturaldelights:spicy_curry"
@@ -338,11 +335,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -3.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["102120BAD782AC54"]
 			icon: {
 				count: 1
 				id: "croptopia:strawberry_ice_cream"
@@ -417,11 +413,10 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["613FAEC013BB28F5"]
 			icon: {
 				count: 1
 				id: "croptopia:strawberry_jam"
@@ -520,11 +515,10 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["35959001CADEC254"]
 			icon: {
 				count: 1
 				id: "farmersdelight:honey_glazed_ham_block"
@@ -607,79 +601,19 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["665EEB86298DA219"]
-			icon: {
-				count: 1
-				id: "solcarrot:food_book"
-			}
-			id: "25A641CB52BF8788"
-			rewards: [
-				{
-					id: "3F7429DFEE5A88D5"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "5FB3E81F10D30200"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
+			dependencies: [
+				"5F793A298673F7E9"
+				"4D67700D3BBF9BEB"
+				"0E11ACD43E3C4DF8"
+				"102120BAD782AC54"
+				"613FAEC013BB28F5"
+				"35959001CADEC254"
+				"665EEB86298DA219"
 			]
-			tasks: [
-				{
-					id: "345832B194E94B45"
-					type: "checkmark"
-				}
-			]
-			x: 14.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["25A641CB52BF8788"]
-			icon: {
-				count: 1
-				id: "solcarrot:food_book"
-			}
-			id: "2768A866D8D5DFFB"
-			rewards: [
-				{
-					id: "5BA5230E0303B98F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "113425195B439069"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0038491BE3AE330E"
-					type: "checkmark"
-				}
-			]
-			x: 16.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2768A866D8D5DFFB"]
 			id: "0A72F92664F513E3"
 			rewards: [
 				{
@@ -746,8 +680,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -3.0d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			icon: {
@@ -848,11 +782,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["19DCC7B13D81267F"]
 			icon: {
 				count: 1
 				id: "aquaculture:atlantic_cod"
@@ -927,11 +860,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["7B4F04D3F0EF829A"]
 			icon: {
 				count: 1
 				id: "aquaculture:tuna"
@@ -998,11 +930,10 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6F17D8D9506A3BAC"]
 			icon: {
 				count: 1
 				id: "aquaculture:bayad"
@@ -1061,11 +992,10 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -1.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["61517948B15EF2E1"]
 			icon: {
 				count: 1
 				id: "aquaculture:arapaima"
@@ -1124,11 +1054,10 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -1.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0123AB4A358212F1"]
 			icon: {
 				count: 1
 				id: "aquaculture:box_turtle"
@@ -1170,11 +1099,10 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -1.0d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6BFAA2D8C21B4C12"]
 			icon: {
 				count: 1
 				id: "aquaculture:red_shrooma"
@@ -1216,11 +1144,19 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: -1.0d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["5B9CEE28BBEF9AD6"]
+			dependencies: [
+				"19DCC7B13D81267F"
+				"7B4F04D3F0EF829A"
+				"6F17D8D9506A3BAC"
+				"61517948B15EF2E1"
+				"0123AB4A358212F1"
+				"6BFAA2D8C21B4C12"
+				"5B9CEE28BBEF9AD6"
+			]
 			icon: {
 				count: 1
 				id: "aquaculture:neptunes_bounty"
@@ -1288,8 +1224,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -1.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			icon: {
@@ -1372,11 +1308,10 @@
 					type: "biome"
 				}
 			]
-			x: 8.0d
-			y: 1.0d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["22AAF987309806CA"]
 			icon: {
 				count: 1
 				id: "minecraft:snow_block"
@@ -1457,11 +1392,10 @@
 					type: "biome"
 				}
 			]
-			x: 10.0d
-			y: 1.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3B2379512913DFEE"]
 			icon: {
 				count: 1
 				id: "minecraft:red_sand"
@@ -1542,11 +1476,10 @@
 					type: "biome"
 				}
 			]
-			x: 12.0d
-			y: 1.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1701B5AD38CD52FD"]
 			icon: {
 				count: 1
 				id: "minecraft:amethyst_cluster"
@@ -1627,11 +1560,10 @@
 					type: "biome"
 				}
 			]
-			x: 14.0d
-			y: 1.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3B05A6F3D0207C39"]
 			icon: {
 				count: 1
 				id: "minecraft:feather"
@@ -1694,11 +1626,17 @@
 					type: "biome"
 				}
 			]
-			x: 16.0d
-			y: 1.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["2BE03CBB14E8327A"]
+			dependencies: [
+				"22AAF987309806CA"
+				"3B2379512913DFEE"
+				"1701B5AD38CD52FD"
+				"3B05A6F3D0207C39"
+				"2BE03CBB14E8327A"
+			]
 			icon: {
 				count: 1
 				id: "minecraft:end_stone"
@@ -1785,8 +1723,8 @@
 					type: "biome"
 				}
 			]
-			x: 18.0d
-			y: 1.0d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -1841,11 +1779,10 @@
 					value: 1L
 				}
 			]
-			x: 10.0d
-			y: 3.0d
+			x: 4.75d
+			y: 4.0d
 		}
 		{
-			dependencies: ["50C07FD3C57F42D2"]
 			icon: {
 				count: 1
 				id: "minecraft:sculk_shrieker"
@@ -1898,11 +1835,10 @@
 					value: 1L
 				}
 			]
-			x: 12.0d
-			y: 3.0d
+			x: 6.25d
+			y: 4.0d
 		}
 		{
-			dependencies: ["72E1310967061C15"]
 			icon: {
 				count: 1
 				id: "minecraft:wither_skeleton_skull"
@@ -1955,11 +1891,10 @@
 					value: 1L
 				}
 			]
-			x: 14.0d
-			y: 3.0d
+			x: 7.75d
+			y: 4.0d
 		}
 		{
-			dependencies: ["2637571AD1864C37"]
 			icon: {
 				count: 1
 				id: "allthemodium:piglich_heart"
@@ -2012,11 +1947,16 @@
 					value: 1L
 				}
 			]
-			x: 16.0d
-			y: 3.0d
+			x: 9.25d
+			y: 4.0d
 		}
 		{
-			dependencies: ["7179EBBC885D43E1"]
+			dependencies: [
+				"50C07FD3C57F42D2"
+				"72E1310967061C15"
+				"2637571AD1864C37"
+				"7179EBBC885D43E1"
+			]
 			icon: {
 				count: 1
 				id: "minecraft:dragon_egg"
@@ -2094,8 +2034,8 @@
 					value: 1L
 				}
 			]
-			x: 18.0d
-			y: 3.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2266,7 +2206,7 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
+			x: 0.0d
 			y: 0.0d
 		}
 	]

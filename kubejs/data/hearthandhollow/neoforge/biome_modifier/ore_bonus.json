@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_overworld",
+  "features": [
+    "hearthandhollow:ore_bonus/iron_upper",
+    "hearthandhollow:ore_bonus/iron_middle",
+    "hearthandhollow:ore_bonus/iron_small",
+    "hearthandhollow:ore_bonus/copper",
+    "hearthandhollow:ore_bonus/gold",
+    "hearthandhollow:ore_bonus/gold_lower",
+    "hearthandhollow:ore_bonus/aluminum",
+    "hearthandhollow:ore_bonus/lead",
+    "hearthandhollow:ore_bonus/nickel",
+    "hearthandhollow:ore_bonus/osmium",
+    "hearthandhollow:ore_bonus/platinum",
+    "hearthandhollow:ore_bonus/silver",
+    "hearthandhollow:ore_bonus/tin",
+    "hearthandhollow:ore_bonus/uranium",
+    "hearthandhollow:ore_bonus/zinc"
+  ],
+  "step": "underground_ores"
+}
