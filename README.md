@@ -24,7 +24,7 @@ Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bo
 ## What's in it
 
 - **Exploring:** Terralith biomes, Incendium's Nether, Nullscape's End, Moog's sky islands, YUNG's structures, Towns and Towers, Formations, Structory, Explorify, paragliders with heart containers and stamina, waystones and JourneyMap
-- **Mining:** the Allthemodium mining, Other and Beyond dimensions, Mining Gadgets, Allthemodium gear, one set of ores from AllTheOres
+- **Mining:** the Allthemodium mining, Other and Beyond dimensions, Mining Gadgets, Allthemodium gear, one set of ores from AllTheOres, with the common metals half again as plentiful in the Overworld
 - **Building:** Macaw's, Handcrafted, FramedBlocks, Supplementaries, Cluttered, Twigs, Building Gadgets
 - **Tech:** Mekanism, Refined Storage, Powah, Flux Networks, Oritech, Mystical Agriculture with Botany Pots, Pylons and Modular Routers
 - **Cozy:** Farmer's Delight and Croptopia food, Comforts, Hourglass, Cooking for Blockheads, ambient sounds, auroras, falling leaves, fireflies and other small particle details
