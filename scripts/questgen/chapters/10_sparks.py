@@ -83,50 +83,6 @@ GENERATORS = [
         icon="generatorgalore:iron_generator_64x"),
 ]
 
-FURNACES = [
-    furnace("if_silver", "silver", "Silver Furnace", ["Another road to gold. Built around a copper or iron furnace."],
-            ["upgrade_silver", "upgrade_silver2"]),
-    furnace("if_gold", "gold", "Golden Furnace", ["Faster again. Built around an iron or silver furnace."],
-            ["upgrade_gold", "upgrade_gold2"], optional=False),
-    furnace("if_diamond", "diamond", "Diamond Furnace", ["Built around a golden furnace. From here the line splits."],
-            ["upgrade_diamond"], optional=False),
-    furnace("if_emerald", "emerald", "Emerald Furnace", ["A faster step up from diamond."], ["upgrade_emerald"]),
-    furnace("if_crystal", "crystal", "Crystal Furnace", [
-        "Glass and an eye of ender around a diamond furnace. Emerald and crystal both lead on to obsidian.",
-    ], ["upgrade_crystal"]),
-    furnace("if_obsidian", "obsidian", "Obsidian Furnace", ["From an emerald or crystal furnace."],
-            ["upgrade_obsidian", "upgrade_obsidian2"], optional=False),
-    furnace("if_netherite", "netherite", "Netherite Furnace", ["The fastest of the vanilla metals."], ["upgrade_netherite"],
-            optional=False),
-    furnace("if_allthemodium", "allthemodium", "Allthemodium Furnace", ["Past netherite, the furnaces follow the allthemodium metals."],
-            ["upgrade_allthemodium"], optional=False),
-    furnace("if_vibranium", "vibranium", "Vibranium Furnace", ["Faster again."], ["upgrade_vibranium"], optional=False),
-    furnace("if_unobtainium", "unobtainium", "Unobtainium Furnace", ["The last of the metal furnaces."],
-            ["upgrade_unobtainium"], optional=False, shape="hexagon", rewards=[{"xp": 25}, {"crate": "hearth"}]),
-    side("if_rainbow", "The Rainbow Furnace", [
-        "The showpiece. One each of the copper, iron, silver, gold, diamond, emerald, crystal and obsidian furnaces make eight &eRainbow Plating&r.",
-        "",
-        "Wrap the plating around a &eRainbow Core&r, made from netherite furnaces and stained glass in every color of the rainbow.",
-    ], {"item": "ironfurnaces:million_furnace"}, icon="ironfurnaces:million_furnace",
-        rewards=[{"xp": 25}, {"crate": "lantern"}]),
-    side("if_heater", "Heat Without Fuel", [
-        "Feed FE to a &eWireless Heat Transmitter&r, and place a &eWireless Heat Receiver&r in it to bind them.",
-        "",
-        "Then put the receiver in a furnace's fuel slot, and the furnace runs on that power. Iron tier and up.",
-    ], {"any": ["ironfurnaces:heater", "ironfurnaces:item_heater"], "title": "A wireless heat transmitter or receiver",
-        "icon": "ironfurnaces:heater"}, icon="ironfurnaces:heater"),
-    side("aug_speed", "Augment: Speed", ["Halves the cook time for every recipe, but burns fuel twice as fast."],
-         {"item": "ironfurnaces:augment_speed"}),
-    side("aug_fuel", "Augment: Fuel Efficiency", ["Fuel heats the furnace twice as much, but cooking is a quarter slower."],
-         {"item": "ironfurnaces:augment_fuel"}),
-    side("aug_blasting", "Augment: Blasting", ["The furnace only does blasting recipes, like a blast furnace."],
-         {"item": "ironfurnaces:augment_blasting"}),
-    side("aug_smoking", "Augment: Smoking", ["The furnace only does smoking recipes, like a smoker. Good for a kitchen."],
-         {"item": "ironfurnaces:augment_smoking"}),
-    side("aug_factory", "Augment: Factory", ["Turns the furnace into a factory that runs on power instead of fuel."],
-         {"item": "ironfurnaces:augment_factory"}),
-]
-
 POWAH = [
     powah("p_battery", "Battery", [
         "A &eBattery&r charges the gear in your inventory while you carry it. Shift-click one into an Ender Cell to grow its channel.",
@@ -197,7 +153,8 @@ CHAPTER = {
     "title": "Sparks",
     "subtitle": "From a coal generator to a reactor, carried anywhere",
     "icon": "powah:energizing_orb",
-    # One line per mod, so a furnace upgrade never waits on a flux network.
+    # One line per mod, so a generator upgrade never waits on a flux network. Powah's crystals
+    # and its rods climb side by side; machines that come in every tier need no order.
     "layout": {
         "lines": [
             # Generator Galore: each generator, upgraded in place from the one before.
@@ -208,34 +165,15 @@ CHAPTER = {
                  "gg_diamond": {"up": ["gg_emerald"], "down": ["gg_netherite", "gg_netherstar"]},
                  "gg_obsidian": {"up": ["gg_magmatic"], "down": ["gg_enchantment"]},
              }},
-            # Iron Furnaces: each tier, with the augments hung off the tiers that suit them.
-            {"spine": ["iron_furnace", "if_gold", "if_diamond", "if_obsidian", "if_netherite", "if_allthemodium",
-                       "if_vibranium", "if_unobtainium"],
-             "branches": {
-                 "iron_furnace": {"up": ["if_silver"]},
-                 "if_gold": {"up": ["aug_speed", "aug_fuel"], "down": ["aug_blasting", "aug_smoking"]},
-                 "if_diamond": {"up": ["if_emerald"], "down": ["if_crystal"]},
-                 "if_obsidian": {"up": ["gen_augment"], "down": ["aug_factory"]},
-                 "if_netherite": {"up": ["if_rainbow"], "down": ["if_heater"]},
-             }},
-            # Powah: a tier ladder. Each tier's rod sits above it, and the machines it opens up below.
-            {"spine": ["cables", "cell", "orb", "steel", "blazing", "niotic", "spirited", "nitro", "reactor"],
-             "branches": {
-                 "cables": {"up": ["wrench"]},
-                 "cell": {"up": ["p_battery"], "down": ["p_hopper", "p_discharger"]},
-                 "orb": {"up": ["rods_basic"], "down": ["thermo", "p_magmator"]},
-                 "steel": {"up": ["p_rod_hardened"], "down": ["p_furnator", "p_solar"]},
-                 "blazing": {"up": ["p_rod_blazing"], "down": ["p_transmitter"]},
-                 "niotic": {"up": ["p_rod_niotic"], "down": ["p_ender_cell", "p_ender_gate"]},
-                 "spirited": {"up": ["p_rod_spirited"]},
-                 "nitro": {"up": ["p_rod_nitro"]},
-             }},
-            # Flux Networks.
-            {"spine": ["flux_dust", "flux_link", "flux_controller", "flux_storage", "flux_herculean",
-                       "flux_gargantuan"]},
-            # Charging your gear.
-            {"spine": ["charging_station", "charger", "wc_advanced_player"],
-             "branches": {"charger": {"down": ["wc_block", "wc_advanced_block"]}}},
+            {"flow": ["cables", "orb", ["steel", "rods_basic"], ["blazing", "p_rod_hardened"],
+                      ["niotic", "p_rod_blazing"], ["spirited", "p_rod_niotic"], ["nitro", "p_rod_spirited"],
+                      ["reactor", "p_rod_nitro"]]},
+            {"rows": ["cell", "p_battery", "p_hopper", "p_discharger", "p_ender_cell", "p_ender_gate",
+                      "p_furnator", "p_magmator", "thermo", "p_solar", "p_transmitter", "wrench"],
+             "per_row": 6},
+            {"flow": ["flux_dust", "flux_storage", "flux_herculean", "flux_gargantuan"],
+             "branches": {"flux_dust": {"up": ["flux_link"], "down": ["flux_controller"]}}},
+            {"rows": ["charging_station", "charger", "wc_advanced_player", "wc_block", "wc_advanced_block"]},
         ],
     },
     "quests": [
@@ -247,7 +185,7 @@ CHAPTER = {
                 "",
                 "The &eCopper Generator&r burns coal and other furnace fuel. Powah's &eFurnator&r does the same job.",
                 "",
-                "Feed it, connect it to a machine, and you've got a spark. This chapter has a line each for Generator Galore, Iron Furnaces, Powah, Flux Networks and charging your gear.",
+                "Feed it, connect it to a machine, and you've got a spark. This chapter has a line each for Generator Galore, Powah, Flux Networks and charging your gear. Faster furnaces have a chapter of their own.",
             ],
             "tasks": [{"any": ["generatorgalore:copper_generator", "powah:furnator_starter"],
                        "title": "A Copper Generator or a Furnator", "icon": "generatorgalore:copper_generator"}],
@@ -286,7 +224,7 @@ CHAPTER = {
                 "",
                 "Pipez &eEnergy Pipes&r work too, if you'd rather match your item pipes.",
                 "",
-                "This line climbs Powah's tiers: starter, basic, hardened, blazing, niotic, spirited and nitro. Each tier's rod sits above it and the machines it opens up below.",
+                "This line climbs Powah's tiers: starter, basic, hardened, blazing, niotic, spirited and nitro, with each tier's rod running alongside. The machines below come in every tier, so take them in any order.",
             ],
             "tasks": [{"any": ["powah:energy_cable_starter", "pipez:energy_pipe"], "count": 8,
                        "title": "8 energy cables or pipes", "icon": "powah:energy_cable_starter"}],
@@ -340,30 +278,6 @@ CHAPTER = {
             "tasks": [{"any": ["wirelesschargers:basic_wireless_player_charger",
                                "wirelesschargers:advanced_wireless_player_charger"],
                        "title": "A wireless player charger", "icon": "wirelesschargers:basic_wireless_player_charger"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "iron_furnace", "title": "Iron Furnaces", "shape": "hexagon",
-            "desc": [
-                "Eight iron ingots around a furnace make an &eIron Furnace&r, which smelts faster than the stone one. Copper ingots make a &eCopper Furnace&r, a smaller step up.",
-                "",
-                "Already built a row of vanilla furnaces? Sneak and right-click one with a &eStone to Iron Furnace Upgrade&r and it changes on the spot. Every tier on this line works that way.",
-                "",
-                "Every furnace in the pack runs a little lighter on your computer, too.",
-            ],
-            "tasks": [{"any": ["ironfurnaces:iron_furnace", "ironfurnaces:copper_furnace", "ironfurnaces:upgrade_iron",
-                               "ironfurnaces:upgrade_copper", "ironfurnaces:upgrade_iron2"],
-                       "title": "A copper or iron furnace, or the upgrade to one", "icon": "ironfurnaces:iron_furnace"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "gen_augment", "title": "A Furnace That Makes Power", "optional": True,
-            "desc": [
-                "Iron Furnaces take augments. Right-click a furnace with an augment to fit it.",
-                "",
-                "The &eGenerator&r augment turns the furnace's heat into power, though it can't smelt any more. Better furnaces make more.",
-            ],
-            "tasks": [{"item": "ironfurnaces:augment_generator"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
@@ -502,5 +416,5 @@ CHAPTER = {
             "tasks": [{"item": "powah:reactor_starter", "count": 36}],
             "rewards": [{"xp": 50}, {"crate": "ember"}, {"item": "powah:energizing_rod_hardened", "count": 2}],
         },
-    ] + GENERATORS + FURNACES + POWAH + FLUX + CHARGING,
+    ] + GENERATORS + POWAH + FLUX + CHARGING,
 }

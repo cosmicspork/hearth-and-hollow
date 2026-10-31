@@ -7,7 +7,7 @@ def creative(key, title, item, line, components=None):
         task["components"] = components
     return {
         "key": key, "title": title, "optional": True, "icon": item,
-        "desc": [line, "", "The Spark of Creation stays in the grid, so it's ready for the next one."],
+        "desc": [line],
         "tasks": [task],
         "rewards": [{"xp": 25}, {"crate": "ember"}],
     }
@@ -22,16 +22,14 @@ CHAPTER = {
     "layout": {
         "info": ["safety"],
         "lines": [
-            {"spine": ["yellowcake", "centrifuge", "fission_casing", "fuel_assembly", "fission"],
-             "branches": {"fission": {"up": ["hazmat"], "down": ["waste_barrel"]}}},
-            {"spine": ["turbine_casing", "rotor", "coils", "condenser"],
-             "branches": {"coils": {"down": ["boiler"]}}},
-            {"spine": ["sna", "polonium", "plutonium"]},
-            {"spine": ["sps", "antimatter", "nucleosynthesizer"],
-             "branches": {"sps": {"up": ["exp_pig", "exp_creeper"], "down": ["exp_mooshroom", "exp_villager"]}}},
-            {"spine": ["laser", "amplifier", "hohlraum", "fusion"]},
-            {"spine": ["spark", "creative_cube", "creative_jetpack", "creative_chem_tank", "creative_fluid_tank",
-                       "creative_bin", "creative_cell", "creative_controller", "creative_grid", "creative_battery"]},
+            {"flow": ["yellowcake", "centrifuge", "fission_casing", "fuel_assembly", "fission"]},
+            {"flow": ["turbine_casing", "rotor", "coils", "condenser"]},
+            {"flow": ["sna", "polonium", "sps", "antimatter", "nucleosynthesizer"]},
+            {"flow": ["laser", ["amplifier", "hohlraum"], "fusion"]},
+            {"rows": ["hazmat", "waste_barrel", "boiler", "plutonium", "exp_pig", "exp_creeper", "exp_mooshroom",
+                      "exp_villager"]},
+            {"rows": ["spark", "creative_cube", "creative_jetpack", "creative_chem_tank", "creative_fluid_tank",
+                      "creative_bin", "creative_cell", "creative_controller", "creative_grid", "creative_battery"]},
         ],
     },
     "quests": [

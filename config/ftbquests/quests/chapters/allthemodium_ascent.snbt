@@ -8,7 +8,7 @@
 		id: "allthemodium:allthemodium_ingot"
 	}
 	id: "109E2C32DE0A3837"
-	order_index: 16
+	order_index: 21
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
