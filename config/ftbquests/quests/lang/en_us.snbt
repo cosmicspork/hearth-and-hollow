@@ -1,5 +1,5 @@
 {
-	chapter.07BB46C630FA3246.chapter_subtitle: ["Ores, where they hide, and faster ways to dig"]
+	chapter.07BB46C630FA3246.chapter_subtitle: ["Caves worth seeing, ores worth finding, and faster ways to dig"]
 	chapter.07BB46C630FA3246.title: "Into the Hollow"
 	chapter.086C57609DB3DB96.chapter_subtitle: ["Big machines, lasers, and ore from below the bedrock"]
 	chapter.086C57609DB3DB96.title: "Oritech"
@@ -243,6 +243,14 @@
 		"No new blocks to learn. Just try it."
 	]
 	quest.07B9BA1B3E67D805.title: "Small Touches"
+	quest.07BD59A4F375F180.quest_desc: [
+		"Deep in the Deep Dark lie the ruins of an &eAncient City&r: halls of deepslate and sculk around a great empty portal frame."
+		""
+		"Its chests hold some of the best loot underground, and its &eSuspicious Clay&r can hide an Allthemodium Smithing Template, so bring a brush."
+		""
+		"The Warden lives here too. Sneak, and keep the noise down. Sculk can't hear through wool, so the reward should help."
+	]
+	quest.07BD59A4F375F180.title: "The Silent City"
 	quest.07E13ADC954AED93.quest_desc: [
 		"A Wireless Transmitter stops at the edge of its range and at the edge of the dimension it's in. The &eInterdimensional Wireless Transmitter&r doesn't: infinite range, from any dimension."
 		""
@@ -414,6 +422,12 @@
 		"Press &eU&r on a template to see what it needs."
 	]
 	quest.0E66799BE221568C.title: "New Tricks for an Old Stick"
+	quest.0EE1F465B4ACDEB5.quest_desc: [
+		"&eFungal Caves&r are carpeted with moss and rooted dirt and sprout red and brown mushrooms everywhere, with roots hanging from the ceiling."
+		""
+		"Pick a bowlful on the way. A stew is a good lunch three hundred blocks down."
+	]
+	quest.0EE1F465B4ACDEB5.title: "Mushroom Country"
 	quest.0EE59A78B459C2F8.quest_desc: [
 		"An emerald, energized, and hungrier still."
 		""
@@ -662,12 +676,6 @@
 		"They come as blocks, stairs, slabs, walls, buttons and pressure plates in all sixteen colors, so a floor or a ceiling can be the light. Dim versions are made with wool instead of glowstone."
 	]
 	quest.1E496E2ED47A7FDD.title: "Glow in Color"
-	quest.1E53EE806FDBBCAC.quest_desc: [
-		"Strongholds are huge here: libraries, armories, prisons, crypts and long, dark corridors, all around the End Portal room."
-		""
-		"You don't have to go through the portal yet. But it's worth knowing where it is."
-	]
-	quest.1E53EE806FDBBCAC.title: "The Stronghold"
 	quest.1EBD11F16E51110E.quest_desc: [
 		"Artifacts turn up in loot chests all over: dungeons, mineshafts, temples, shipwrecks, strongholds and village houses."
 		""
@@ -1008,12 +1016,6 @@
 		"Find a tavern. A warm room on a long road is worth something."
 	]
 	quest.2A3151FDFB9A441B.title: "A Roadside Tavern"
-	quest.2A40B24FF7219947.quest_desc: [
-		"YUNG's Better Dungeons replaces the old cobblestone box with real dungeons: skeleton dungeons, spider dungeons, and zombie dungeons with a staircase down from the surface."
-		""
-		"Bring torches, food and a good sword. Breaking the spawners makes the place quieter, and drops something you'll want soon."
-	]
-	quest.2A40B24FF7219947.title: "Down in the Dark"
 	quest.2AA2D6536DD79316.quest_desc: [
 		"The &eHeart Amulet&r is glass, string and a heart. It sits in its own Curios slot."
 		""
@@ -1170,6 +1172,12 @@
 		"Enchanted books can go on an anvil with a tool to add that enchantment, or with each other to make a stronger book."
 	]
 	quest.302537769E5066AA.title: "A Touch of Shine"
+	quest.30470F3BA87F18FF.quest_desc: [
+		"Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more."
+		""
+		"They're a fast way to find ore, and the minecart chests are Loot Chests too."
+	]
+	quest.30470F3BA87F18FF.title: "Rails Under the Hills"
 	quest.30B8CC0C1ABCCA7E.quest_desc: [
 		"Bring it all to an &eElite Crafting Table&r: the four alloy tools, a ring of alloy ingots, four Insanium Essence and the five tech pieces."
 		""
@@ -1184,6 +1192,18 @@
 		"Drop your gadget in, feed it a few logs, and come back to a full battery. Later on, any machine that charges items will do the same job."
 	]
 	quest.30D6C9F473F2BB9B.title: "Full Charge"
+	quest.311E4E25B1251EAB.quest_desc: [
+		"Cave spiders are small enough to slip through a one-block gap, and their bite is poisonous."
+		""
+		"Thin them out. Break their spawners too, if you find any: it's quieter that way."
+	]
+	quest.311E4E25B1251EAB.title: "Pest Control"
+	quest.314A53DD91312149.quest_desc: [
+		"Moss, spikes, mud, mushrooms, hot springs, blue ice, cobwebs, tuff, magma and the great dark caverns. You've seen the whole underground."
+		""
+		"Visit every cave on this line and this one completes too."
+	]
+	quest.314A53DD91312149.title: "Spelunker"
 	quest.31C91E01FF122D39.quest_desc: [
 		"Macaw's Trapdoors comes in the same styles as its doors: barn, ranch, barred, glass and more, in every wood."
 		""
@@ -1426,6 +1446,12 @@
 		"A &eRegulator Upgrade&r in an Exporter keeps a set amount in the target instead of emptying the network into it."
 	]
 	quest.3C468B27D06F9F1C.title: "In and Out"
+	quest.3CE585E4B4A78412.quest_desc: [
+		"Some caves are made almost entirely of one stone: &eGranite&r, &eDiorite&r or &eAndesite Caves&r."
+		""
+		"Handy when you want a lot of one color for a build."
+	]
+	quest.3CE585E4B4A78412.title: "Three Kinds of Stone"
 	quest.3CEF37B6337C7241.quest_desc: [
 		"Use the pearl on a block in an open space and stand back."
 		""
@@ -1505,6 +1531,12 @@
 		"Use &ePliers&r on a bridge two or more blocks wide to open a gap in the railing for a side entrance. Bridge lanterns and torches sit on the handrails."
 	]
 	quest.402FF1E4D7717A7D.title: "Across the River"
+	quest.40330ACD0008E5A5.quest_desc: [
+		"Cobwebs hang across the passages of the &eInfested Caves&r, and the walls are crawling with spiders."
+		""
+		"Bring shears for the webs and milk for the poison. Cave spiders bite small, but they bite often."
+	]
+	quest.40330ACD0008E5A5.title: "Something Is Crawling"
 	quest.40E8C5A0930086CC.quest_desc: [
 		"Most Oritech machines are multiblocks. Place the machine, then right-click it: the spots that need &emachine cores&r light up for a few seconds."
 		""
@@ -1527,12 +1559,24 @@
 		"Your &eNature's Compass&r can find it."
 	]
 	quest.428EA159EB908121.title: "Highlands"
+	quest.42C7410E288CE2D5.quest_desc: [
+		"Plain deepslate caverns low in the world, with &eamethyst geodes&r tucked into the walls."
+		""
+		"Light up the floor as you go, or the dark fills with company."
+	]
+	quest.42C7410E288CE2D5.title: "The Deep Caves"
 	quest.42D3CDF4C2603F32.quest_desc: [
 		"Terralith builds its own walled villages, including one for the desert."
 		""
 		"Safe places to spend a night on the road, as long as the gates hold."
 	]
 	quest.42D3CDF4C2603F32.title: "Behind the Walls"
+	quest.43CDE3A7C43C257D.quest_desc: [
+		"&eLush Caves&r grow moss, azaleas and dripleaf, with &eglow berries&r hanging from the roof. Axolotls swim in the pools."
+		""
+		"Glow berries light up when they're ripe, and you can eat them straight off the vine."
+	]
+	quest.43CDE3A7C43C257D.title: "Green Underground"
 	quest.43DC8D9332D82C58.quest_desc: [
 		"Why mine iron when you can grow it? Mystical Agriculture has seeds that grow real resources, and the rest of this chapter gets the farm running by itself."
 		""
@@ -1653,6 +1697,12 @@
 		"Most of these blocks are made from everyday materials. Hover over one and press &eR&r to see how. Many also have a second trick when you right-click them, so poke at everything."
 	]
 	quest.4792FFB4325B8F0C.title: "The Builder's Bench"
+	quest.482AE3D49B0CD859.quest_desc: [
+		"Blue ice walls, patches of netherrack and sculk, and soul lanterns burning cold. The &eFrostfire Caves&r are the strangest place underground."
+		""
+		"Only Strays haunt them. Their arrows slow you down, so keep a shield up."
+	]
+	quest.482AE3D49B0CD859.title: "Frost and Fire"
 	quest.492C3906176473DF.quest_desc: [
 		"A Grid, an Advanced Processor and a crafting table make a &eCrafting Grid&r: a Grid with a crafting area that pulls ingredients straight from storage."
 		""
@@ -1726,6 +1776,12 @@
 		"Craft them from dye, seeds and a few gold nuggets."
 	]
 	quest.4C96A0F8665954F6.title: "Better Dirt"
+	quest.4CA5BD885E464469.quest_desc: [
+		"Strongholds are huge here: libraries, armories, prisons, crypts and long, dark corridors, all around the End Portal room."
+		""
+		"You don't have to go through the portal yet. But it's worth knowing where it is."
+	]
+	quest.4CA5BD885E464469.title: "The Stronghold"
 	quest.4CA601136464C123.quest_desc: [
 		"A &eFactory&r is a machine with several lanes, so it works on more than one stack at a time."
 		""
@@ -1857,6 +1913,12 @@
 		"Smelt it into netherite scrap. Bring a fire resistance potion and some blocks to wall off the lava."
 	]
 	quest.4F1908AA3DFF27E5.title: "Ancient Debris"
+	quest.4F3C2E364A1A6F9E.quest_desc: [
+		"Whole caverns of &etuff&r, the soft grey stone you usually only see in patches."
+		""
+		"It makes a lovely building stone, polished or as bricks, so bring a few stacks home."
+	]
+	quest.4F3C2E364A1A6F9E.title: "Grey on Grey"
 	quest.50923A38F1212EF9.quest_desc: [
 		"A &eBotany Pot&r grows a crop on a single block. Give it soil and a seed and it grows right there, with no farmland to trample and no field to fence in."
 		""
@@ -2082,11 +2144,11 @@
 	]
 	quest.57CFE8378E7F3BE5.title: "Pray to the Goddess"
 	quest.57D58CBCC225CD17.quest_desc: [
-		"Every machine in the pack eats metal, and all of it comes out of the ground."
+		"Under every hill there's another world: mossy grottos, ice halls lit by soul lanterns, warm pools, jungles that never see the sun, and rivers of lava near the bottom."
 		""
-		"This chapter covers which ores are out there and where they sit, a few unusual ways to get more, and a gadget that turns a day of mining into ten minutes."
+		"Step into any cave and this chapter opens up. The top line is a tour of the caves themselves. The others follow the ores down, dig up what's buried, and build a gadget that clears a tunnel in seconds."
 		""
-		"Start by packing a stack of torches. It's dark down there."
+		"Take these torches. It's dark down there."
 	]
 	quest.57D58CBCC225CD17.title: "Into the Hollow"
 	quest.580EB79C40EEF010.quest_desc: ["Respawn the dragon with four End Crystals and do it all over again."]
@@ -2167,6 +2229,12 @@
 		"Hold on to the hearts. The alloys at the end of this road need them."
 	]
 	quest.59EC7BD5FE16B14B.title: "The Piglich"
+	quest.5A974AA36DDC7B80.quest_desc: [
+		"&eThermal Caves&r are warm and wet: pools of water, banks of clay and small dripleaf."
+		""
+		"The water isn't empty. Drowned like it here, so look before you swim."
+	]
+	quest.5A974AA36DDC7B80.title: "Hot Springs"
 	quest.5A9E40D30101FD3A.quest_desc: [
 		"A &eTarget Dummy&r shows the damage of every hit and your damage per second, so you can tell whether that new affix really is better. Your gear doesn't wear down hitting it."
 		""
@@ -2185,12 +2253,6 @@
 		"Mushroom islands are far out at sea. A Nature's Compass will point the way."
 	]
 	quest.5B9CEE28BBEF9AD6.title: "Mushroom Island"
-	quest.5BBAFCEE171ADDC2.quest_desc: [
-		"Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more."
-		""
-		"They're a fast way to find ore, and the minecart chests are Loot Chests too."
-	]
-	quest.5BBAFCEE171ADDC2.title: "Rails Under the Hills"
 	quest.5BBCAFE8772F71C8.quest_desc: [
 		"The &eChemical Crystallizer&r needs two &eFluorite&r gems along with its Ultimate Control Circuits."
 		""
@@ -2393,6 +2455,12 @@
 		"Many endermen drop a pearl of their own. Snowy ones drop the &eIcy Pearl&r, which freezes whatever it hits, a &eBubble Pearl&r flies straight with no drop, and an &eAncient Pearl&r calls a friendly enderman to fight for you."
 	]
 	quest.63B7777813217FB5.title: "Locals With Attitude"
+	quest.63BF0EE6E676E66E.quest_desc: [
+		"Blackstone, basalt and magma, with lava dripping from the roof. The &eMantle Caves&r feel like the Nether broke through."
+		""
+		"Watch where you step, and keep a bucket of water handy. The potion should help."
+	]
+	quest.63BF0EE6E676E66E.title: "Close to the Core"
 	quest.63E0ADA390159C38.quest_desc: [
 		"Every window deserves curtains. Macaw's Windows has them in all sixteen colors, plus curtain rods to hang them from."
 		""
@@ -2407,6 +2475,12 @@
 		"Cobblestone, andesite, granite and more each have their own setup. Press &eU&r on the Extractor to see them all."
 	]
 	quest.63FBB5FB2DC3C943.title: "Stone from Nowhere"
+	quest.64142DBF2F5648FE.quest_desc: [
+		"YUNG's Better Dungeons replaces the old cobblestone box with real dungeons: skeleton dungeons, spider dungeons, and zombie dungeons with a staircase down from the surface."
+		""
+		"Bring torches, food and a good sword. Breaking the spawners makes the place quieter, and drops something you'll want soon."
+	]
+	quest.64142DBF2F5648FE.title: "Down in the Dark"
 	quest.6414F40CD42B0211.quest_desc: ["Built around an Allthemodium Jetpack with vibranium ingots. More armor, more speed, more charge."]
 	quest.6414F40CD42B0211.title: "Vibranium Jetpack"
 	quest.64D7E229F3AD6A18.quest_desc: [
@@ -2617,6 +2691,12 @@
 		"Bring blocks to wall off corridors, and a shield for the arrows."
 	]
 	quest.6D40D938E2A94CDA.title: "Trial Chambers"
+	quest.6D4809624C1B97CE.quest_desc: [
+		"&eDripstone Caves&r bristle with stone spikes, up and down."
+		""
+		"Look up before you dig. Pointed dripstone falls when you break the block it hangs from, and it hurts. Land on one and it hurts more."
+	]
+	quest.6D4809624C1B97CE.title: "Mind Your Head"
 	quest.6D4A8EE2E92BB963.quest_desc: [
 		"Comforts adds two ways to rest away from your bed."
 		""
@@ -2876,6 +2956,12 @@
 		"Later on, any machine or cell that charges items will top up a gadget too."
 	]
 	quest.74F1BBF845B45E83.title: "Power to the Gadgets"
+	quest.74F714E45F2B8EAD.quest_desc: [
+		"Mud, mangrove roots, moss and whole trees, all under the rock. The &eUnderground Jungle&r even has frogs, turtles and tropical fish."
+		""
+		"Fewer monsters spawn here than in most caves, though creepers, spiders and witches still find their way in."
+	]
+	quest.74F714E45F2B8EAD.title: "A Jungle in the Dark"
 	quest.74FDF8562F62A3A2.quest_desc: [
 		"A Teleport Pad placed in the End leads to &eThe Beyond&r."
 		""
@@ -3115,11 +3201,15 @@
 	task.0020A9EADF46996A.title: "Sulfur"
 	task.0027A0A2FE883201.title: "Visit a Moonlight Grove"
 	task.0038491BE3AE330E.title: "I've eaten 200 foods"
+	task.0071D24E173529B6.title: "Deep Caves"
+	task.00C314EA6FBEBECF.title: "Visit the Thermal Caves"
 	task.00C621D86FEB1E77.title: "Any Structory tower"
 	task.01D2D92F747771E1.title: "Got it"
 	task.03612743E4094A1B.title: "A Repurposed Structures village"
 	task.03FE4697B44C1F6D.title: "Sakura Grove"
+	task.046C882D847E0DBB.title: "Visit the Lush Caves"
 	task.04B46072E24D23BA.title: "A Copper Generator or a Furnator"
+	task.0572B2CD476BE9F9.title: "Dripstone Caves"
 	task.05B16E687BAB2ADB.title: "Lush Desert"
 	task.05C68EA39402AE4D.title: "Any storage upgrade"
 	task.05D082591AA14A87.title: "Raw Osmium"
@@ -3129,6 +3219,8 @@
 	task.06ED96D427FD4A5D.title: "Defeat the Ender Dragon"
 	task.06F52439B3709AEA.title: "A fortified village"
 	task.071FFC4172E4B8E9.title: "Fungal Caves"
+	task.07A23F4B38392EE2.title: "Granite Caves"
+	task.07F507DB5CF7F0EA.title: "Visit the Underground Jungle"
 	task.086AFD05D37FDA27.title: "Any volcanic biome"
 	task.09DC59BB798E12A9.title: "Something for your hands"
 	task.0A3E8F424BE5D5FC.title: "An iron stick or better"
@@ -3136,15 +3228,17 @@
 	task.0B10A15D8DE67E71.title: "Raw Allthemodium"
 	task.0B5AE8F0604768FE.title: "Everlasting Beef, raw or cooked"
 	task.0C97E1B67886CB94.title: "Got it"
+	task.0D75DCBF57BD296C.title: "Lush Caves"
 	task.0DC7E7BC10DBFBB9.title: "Wither Prediction"
 	task.0E53E2EABA2FF525.title: "An Allthemodium Jetpack"
-	task.0EDA88E344ADA662.title: "Any YUNG's mineshaft"
+	task.0EE8F35057EDE16E.title: "Infested Caves"
 	task.0F7BB1E5AEA314BC.title: "Ashen Savanna"
 	task.0F979F7E14A9150E.title: "Visit a Highlands"
 	task.0FE5E7CCEDF35B9C.title: "Socketed a gem"
 	task.104C000CE660C16A.title: "Got it"
 	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
 	task.112A40DF19A640C0.title: "4 Allthemodium Ingots"
+	task.1138B6D62B98EC2A.title: "Visit the Frostfire Caves"
 	task.1161EEFEEB42CFD7.title: "A diamond chest or barrel, or better"
 	task.1169824E5067B52B.title: "A campfire, either kind"
 	task.11996A1BA4BBED4B.title: "Vibranium Ingot"
@@ -3153,6 +3247,7 @@
 	task.12011417992E3EB4.title: "Opened a vault a second time"
 	task.124EDD03B61C0620.title: "Warped Mesa"
 	task.129BBFBAF3641CF4.title: "Activate a waystone"
+	task.12B4D4BCD62C054F.title: "Visit the Dripstone Caves"
 	task.12EAB4CC72282C0A.title: "Raw Aluminum"
 	task.141D08FB600AA9F5.title: "Raw Tin"
 	task.1486C2BB35930FFE.title: "A storage minecart or boat"
@@ -3165,8 +3260,10 @@
 	task.173A187114B99DC0.title: "Defeat the Wither"
 	task.17C048CD6FFF9B98.title: "I've eaten 50 foods"
 	task.17C99A65C64E229C.title: "32 Osmium Ingots"
-	task.182AF15AECA6DE72.title: "Any YUNG's dungeon"
+	task.17F4B84A900CD47E.title: "Visit the Infested Caves"
 	task.18539D277111E0F9.title: "Any wireless charger"
+	task.188A8B3443F6A5CC.title: "Visit the Mantle Caves"
+	task.19BAF9D0C96E4077.title: "Any YUNG's mineshaft"
 	task.1A7DC2287779DD21.title: "Frozen Cliffs"
 	task.1A8A10EAF076C178.title: "Any sharestone"
 	task.1BC91CA46067539E.title: "Any Skylands biome"
@@ -3183,6 +3280,8 @@
 	task.210AB02763E22BE9.title: "Any of these knick-knacks"
 	task.21B8CA7B9DB538B0.title: "Found one"
 	task.22B3228EB0192AEB.title: "Any 256k Storage Disk"
+	task.22D98DF5755974BE.title: "Any YUNG's dungeon"
+	task.2356941AC42B6740.title: "Diorite Caves"
 	task.235703669BFB2C20.title: "Stand on the Calcite House island"
 	task.24574331F3AD1F72.title: "Three machine cores, any tier"
 	task.24A27D380EC9FC88.title: "Any special pearl"
@@ -3202,6 +3301,7 @@
 	task.2A2DC1D02ED7C209.title: "An iron furnace or better"
 	task.2A324A3234090DFE.title: "Unobtainium Ingot"
 	task.2A8B583CAE43FC66.title: "Almanac Page: Field Notes"
+	task.2A9F279C8AE7E958.title: "Visit the Fungal Caves"
 	task.2AC24C5202C2EFEA.title: "Any Luminax block"
 	task.2AF481585DD458B9.title: "Got it"
 	task.2C0DC9BF315A0AB3.title: "Found a node"
@@ -3211,11 +3311,13 @@
 	task.2D6A1FF21A37E88E.title: "Home sweet home"
 	task.2DCF1F9E06A25E50.title: "Any flux storage"
 	task.2E5402373D5F2357.title: "Ice Spikes"
+	task.2EE5CD8C543E5867.title: "Find an Ancient City"
 	task.2F16A0C084949714.title: "Mushroom Fields"
 	task.2F4F4E2573029283.title: "Enter the Mining Dimension"
 	task.2F762CD33931A90D.title: "Fruit from a Croptopia tree"
 	task.301DE51A4CE85C30.title: "Any wireless upgrade"
 	task.304F6643BB193A0B.title: "Shrubland"
+	task.310142D198538916.title: "Tuff Caves"
 	task.314321CCCCFFEAA8.title: "Any External Storage"
 	task.3192840CE12B900A.title: "Got it"
 	task.319A0CEA0AA7B7D4.title: "Something for your feet"
@@ -3249,6 +3351,7 @@
 	task.3C0C5FB20723A394.title: "Find a Witch Tower"
 	task.3D1BDA31736D4F0A.title: "Any Allthemodium metal seed"
 	task.3D2A05B4A71003A2.title: "Any Handcrafted chair"
+	task.3DB9716D00F41936.title: "Andesite Caves"
 	task.3DD1D0A49DAFA4F2.title: "Any relic"
 	task.3E458D26F1B32C6D.title: "Visit the Beyond"
 	task.3E75C98FEB25110A.title: "Birch Taiga"
@@ -3257,6 +3360,7 @@
 	task.3EE55D12D4C2F86D.title: "Any Macaw's chair, table, desk, drawer or wardrobe"
 	task.3EE920524342544A.title: "Researched an ability"
 	task.3EF80FF4D3B5B3C2.title: "Desert Oasis"
+	task.3F183B37BBC6712E.title: "Walk into any cave biome"
 	task.3F8D1E0332E6F9A1.title: "Any oreberry"
 	task.405A978664FE39D6.title: "4 Allthemodium Ingots"
 	task.40DF75848B4247D8.title: "Osmium Ingot"
@@ -3291,6 +3395,7 @@
 	task.4BD5609781C10DAF.title: "An Unobtainium Jetpack"
 	task.4C3150A8E6FD30D6.title: "Something for your head"
 	task.4CC1018B9A3D7BC6.title: "Any Exporter"
+	task.4D1F40B6FFC923DF.title: "Visit the Deep Caves"
 	task.4EDD878C8FBF1330.title: "32 wool, any color"
 	task.4F1D928025B93DF5.title: "Any Macaw's bridge"
 	task.4FFF1B45F91EDD28.title: "Raw Uranium"
@@ -3310,16 +3415,17 @@
 	task.55510BA463EC6A4A.title: "Visit the Other"
 	task.556C080414F0C440.title: "Any Growth Accelerator"
 	task.55C2462C42310547.title: "Any wooden tool"
+	task.55D154D1B693D687.title: "Visit the Tuff Caves"
 	task.560BAC2ACA4F883E.title: "Painted Mountains"
 	task.5658F2DE00118B83.title: "Moonlight Grove"
 	task.5701A8BF97CC6412.title: "Defeat a Warden"
 	task.57C6DAA5E8BB6C01.title: "Any tiered Importer or Exporter"
-	task.581E71A351C4A503.title: "Find the stronghold"
 	task.587E4854720241AC.title: "Red Oasis"
 	task.59275E9143D53F3B.title: "Got it"
 	task.598BBDF7EEB9EBC8.title: "Siberian Taiga"
 	task.599E506CD4D2F728.title: "Magnet or Void Junk"
 	task.59EA90AEC5DF667C.title: "Salt"
+	task.59EABA4D4A8FF5CD.title: "Fungal Caves"
 	task.5AAA7C49AA04660C.title: "A witch hut"
 	task.5B0718317590C1F9.title: "Amethyst Canyon"
 	task.5B44038E14BD636A.title: "Any Crafting Grid"
@@ -3327,6 +3433,8 @@
 	task.5BE243441D9F8FF5.title: "An Overhauled Village"
 	task.5D1FADFE0B0E8988.title: "Find an Ancient Pyramid"
 	task.5D945DE9C431A11A.title: "Any waystone"
+	task.5DD49C352B02DA57.title: "Frostfire Caves"
+	task.5F67B3C68FC91C70.title: "Find the stronghold"
 	task.5FFCC895842351C2.title: "A relic leveled up"
 	task.6026EDE2B5CE50C3.title: "64 crops, any kind"
 	task.6093645102144E6C.title: "Fluorite"
@@ -3337,7 +3445,9 @@
 	task.6317C587E1D38B08.title: "Nickel Ingot"
 	task.63A12CE2D6300D51.title: "Any artifact"
 	task.6469E6C048F59DC7.title: "Home sweet home"
+	task.6498DAF43F5EDA57.title: "Underground Jungle"
 	task.650AA1E592EA3E57.title: "Any bed"
+	task.658275DD32D05257.title: "Thermal Caves"
 	task.66628684157625AA.title: "Show me"
 	task.66C154FA20EBC2CD.title: "Glacial Chasm"
 	task.66FD4B4E12D83E19.title: "Four solar generators, either kind"
@@ -3383,6 +3493,7 @@
 	task.789AB5D6C7AFFB81.title: "Crystal Peaks"
 	task.79887281A4B7E2D0.title: "Open the book"
 	task.79B34A1C1380E8F7.title: "Found one"
+	task.79B8FEF15CAE5CBA.title: "Mantle Caves"
 	task.7ACED0B76983BD79.title: "Alpine Grove"
 	task.7ADF8B736859CB28.title: "A Kitchen Counter"
 	task.7B94A6D43110E7A6.title: "Raw Allthemodium"

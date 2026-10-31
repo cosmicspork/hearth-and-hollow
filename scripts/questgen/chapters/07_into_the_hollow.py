@@ -2,35 +2,241 @@ CHAPTER = {
     "file": "into_the_hollow",
     "group": "world",
     "title": "Into the Hollow",
-    "subtitle": "Ores, where they hide, and faster ways to dig",
+    "subtitle": "Caves worth seeing, ores worth finding, and faster ways to dig",
     "icon": "mininggadgets:mininggadget",
+    # Four tracks you can follow at once: a tour of the cave biomes, the ores by depth down
+    # to the Mining Dimension, what's buried down there, and the Mining Gadget.
     "layout": {
-        "direction": "down",
-        "spine": ["hollow", "common", "shallow", "deep", "blank", "gadget", "three", "deep_dark",
-                  "allthemodium", "pad", "mining", "five"],
-        "branches": {
-            "hollow": {"up": ["unified"], "down": ["minerals"]},
-            "common": {"up": ["bush", "berry"]},
-            "shallow": {"up": ["goblin"], "down": ["geode"]},
-            "deep": {"up": ["node"], "down": ["potions"]},
-            "gadget": {"up": ["table"], "down": ["charge"]},
-            "three": {"up": ["tidy"], "down": ["fortune"]},
-            "mining": {"up": ["layers"]},
-        },
+        "lines": [
+            {"spine": ["hollow", "lush", "dripstone", "jungle", "fungal", "thermal", "frostfire", "infested",
+                       "tuff", "mantle", "deep_caves", "spelunker"],
+             "branches": {
+                 "hollow": {"down": ["goblin"]},
+                 "infested": {"down": ["cave_spiders"]},
+                 "tuff": {"up": ["stone_caves"]},
+                 "deep_caves": {"up": ["geode"]},
+             }},
+            {"spine": ["common", "shallow", "deep", "deep_dark", "allthemodium", "pad", "mining"],
+             "branches": {
+                 "common": {"up": ["unified"], "down": ["minerals"]},
+                 "deep": {"up": ["node"], "down": ["potions"]},
+                 "mining": {"up": ["layers"]},
+             }},
+            {"spine": ["mineshaft", "dungeon", "stronghold", "ancient_city"],
+             "branches": {
+                 "mineshaft": {"up": ["bush", "berry"]},
+             }},
+            {"spine": ["blank", "gadget", "table", "three", "five"],
+             "branches": {
+                 "gadget": {"down": ["charge"]},
+                 "three": {"up": ["tidy"], "down": ["fortune"]},
+             }},
+        ],
     },
     "quests": [
         {
             "key": "hollow", "title": "Into the Hollow",
-            "shape": "hexagon", "size": 1.5, "icon": "minecraft:iron_pickaxe",
+            "shape": "hexagon", "size": 1.5, "icon": "minecraft:lantern",
             "desc": [
-                "Every machine in the pack eats metal, and all of it comes out of the ground.",
+                "Under every hill there's another world: mossy grottos, ice halls lit by soul lanterns, warm pools, jungles that never see the sun, and rivers of lava near the bottom.",
                 "",
-                "This chapter covers which ores are out there and where they sit, a few unusual ways to get more, and a gadget that turns a day of mining into ten minutes.",
+                "Step into any cave and this chapter opens up. The top line is a tour of the caves themselves. The others follow the ores down, dig up what's buried, and build a gadget that clears a tunnel in seconds.",
                 "",
-                "Start by packing a stack of torches. It's dark down there.",
+                "Take these torches. It's dark down there.",
             ],
-            "tasks": [{"item": "minecraft:torch", "count": 64}],
+            "tasks": [{"biome": "#c:is_cave", "title": "Walk into any cave biome", "icon": "minecraft:lantern"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "minecraft:torch", "count": 32}],
+        },
+        {
+            "key": "lush", "title": "Green Underground", "icon": "minecraft:moss_block",
+            "desc": [
+                "&eLush Caves&r grow moss, azaleas and dripleaf, with &eglow berries&r hanging from the roof. Axolotls swim in the pools.",
+                "",
+                "Glow berries light up when they're ripe, and you can eat them straight off the vine.",
+            ],
+            "tasks": [{"biome": "minecraft:lush_caves", "title": "Visit the Lush Caves", "icon": "minecraft:moss_block"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:glow_berries", "count": 8}],
+        },
+        {
+            "key": "dripstone", "title": "Mind Your Head", "icon": "minecraft:pointed_dripstone",
+            "desc": [
+                "&eDripstone Caves&r bristle with stone spikes, up and down.",
+                "",
+                "Look up before you dig. Pointed dripstone falls when you break the block it hangs from, and it hurts. Land on one and it hurts more.",
+            ],
+            "tasks": [{"biome": "minecraft:dripstone_caves", "title": "Visit the Dripstone Caves", "icon": "minecraft:pointed_dripstone"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}],
+        },
+        {
+            "key": "jungle", "title": "A Jungle in the Dark", "icon": "minecraft:mangrove_roots",
+            "desc": [
+                "Mud, mangrove roots, moss and whole trees, all under the rock. The &eUnderground Jungle&r even has frogs, turtles and tropical fish.",
+                "",
+                "Fewer monsters spawn here than in most caves, though creepers, spiders and witches still find their way in.",
+            ],
+            "tasks": [{"biome": "terralith:cave/underground_jungle", "title": "Visit the Underground Jungle", "icon": "minecraft:mangrove_roots"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:moss_block", "count": 8}],
+        },
+        {
+            "key": "fungal", "title": "Mushroom Country", "icon": "minecraft:red_mushroom",
+            "desc": [
+                "&eFungal Caves&r are carpeted with moss and rooted dirt and sprout red and brown mushrooms everywhere, with roots hanging from the ceiling.",
+                "",
+                "Pick a bowlful on the way. A stew is a good lunch three hundred blocks down.",
+            ],
+            "tasks": [{"biome": "terralith:cave/fungal_caves", "title": "Visit the Fungal Caves", "icon": "minecraft:red_mushroom"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:mushroom_stew", "count": 2}],
+        },
+        {
+            "key": "thermal", "title": "Hot Springs", "icon": "minecraft:clay",
+            "desc": [
+                "&eThermal Caves&r are warm and wet: pools of water, banks of clay and small dripleaf.",
+                "",
+                "The water isn't empty. Drowned like it here, so look before you swim.",
+            ],
+            "tasks": [{"biome": "terralith:cave/thermal_caves", "title": "Visit the Thermal Caves", "icon": "minecraft:clay"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:clay_ball", "count": 16}],
+        },
+        {
+            "key": "frostfire", "title": "Frost and Fire", "icon": "minecraft:blue_ice",
+            "desc": [
+                "Blue ice walls, patches of netherrack and sculk, and soul lanterns burning cold. The &eFrostfire Caves&r are the strangest place underground.",
+                "",
+                "Only Strays haunt them. Their arrows slow you down, so keep a shield up.",
+            ],
+            "tasks": [{"biome": "terralith:cave/frostfire_caves", "title": "Visit the Frostfire Caves", "icon": "minecraft:blue_ice"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:soul_lantern", "count": 4}],
+        },
+        {
+            "key": "infested", "title": "Something Is Crawling", "icon": "minecraft:cobweb",
+            "desc": [
+                "Cobwebs hang across the passages of the &eInfested Caves&r, and the walls are crawling with spiders.",
+                "",
+                "Bring shears for the webs and milk for the poison. Cave spiders bite small, but they bite often.",
+            ],
+            "tasks": [{"biome": "terralith:cave/infested_caves", "title": "Visit the Infested Caves", "icon": "minecraft:cobweb"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:shears"}],
+        },
+        {
+            "key": "tuff", "title": "Grey on Grey", "icon": "minecraft:tuff",
+            "desc": [
+                "Whole caverns of &etuff&r, the soft grey stone you usually only see in patches.",
+                "",
+                "It makes a lovely building stone, polished or as bricks, so bring a few stacks home.",
+            ],
+            "tasks": [{"biome": "terralith:cave/tuff_caves", "title": "Visit the Tuff Caves", "icon": "minecraft:tuff"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}],
+        },
+        {
+            "key": "mantle", "title": "Close to the Core", "icon": "minecraft:magma_block",
+            "desc": [
+                "Blackstone, basalt and magma, with lava dripping from the roof. The &eMantle Caves&r feel like the Nether broke through.",
+                "",
+                "Watch where you step, and keep a bucket of water handy. The potion should help.",
+            ],
+            "tasks": [{"biome": "terralith:cave/mantle_caves", "title": "Visit the Mantle Caves", "icon": "minecraft:magma_block"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:potion", "components": {"minecraft:potion_contents": {"potion": "minecraft:long_fire_resistance"}}}],
+        },
+        {
+            "key": "deep_caves", "title": "The Deep Caves", "icon": "minecraft:deepslate",
+            "desc": [
+                "Plain deepslate caverns low in the world, with &eamethyst geodes&r tucked into the walls.",
+                "",
+                "Light up the floor as you go, or the dark fills with company.",
+            ],
+            "tasks": [{"biome": "terralith:cave/deep_caves", "title": "Visit the Deep Caves", "icon": "minecraft:deepslate"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:torch", "count": 32}],
+        },
+        {
+            "key": "stone_caves", "title": "Three Kinds of Stone", "optional": True, "icon": "minecraft:granite",
+            "desc": [
+                "Some caves are made almost entirely of one stone: &eGranite&r, &eDiorite&r or &eAndesite Caves&r.",
+                "",
+                "Handy when you want a lot of one color for a build.",
+            ],
+            "tasks": [
+                {"biome": "terralith:cave/granite_caves", "title": "Granite Caves", "icon": "minecraft:granite"},
+                {"biome": "terralith:cave/diorite_caves", "title": "Diorite Caves", "icon": "minecraft:diorite"},
+                {"biome": "terralith:cave/andesite_caves", "title": "Andesite Caves", "icon": "minecraft:andesite"},
+            ],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}],
+        },
+        {
+            "key": "cave_spiders", "title": "Pest Control", "optional": True, "icon": "minecraft:spider_eye",
+            "desc": [
+                "Cave spiders are small enough to slip through a one-block gap, and their bite is poisonous.",
+                "",
+                "Thin them out. Break their spawners too, if you find any: it's quieter that way.",
+            ],
+            "tasks": [{"kill": "minecraft:cave_spider", "count": 8}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:milk_bucket"}],
+        },
+        {
+            "key": "spelunker", "title": "Spelunker", "shape": "hexagon", "size": 1.5, "wide": True,
+            "icon": "minecraft:soul_lantern",
+            "desc": [
+                "Moss, spikes, mud, mushrooms, hot springs, blue ice, cobwebs, tuff, magma and the great dark caverns. You've seen the whole underground.",
+                "",
+                "Visit every cave on this line and this one completes too.",
+            ],
+            "tasks": [
+                {"biome": "minecraft:lush_caves", "title": "Lush Caves", "icon": "minecraft:moss_block"},
+                {"biome": "minecraft:dripstone_caves", "title": "Dripstone Caves", "icon": "minecraft:pointed_dripstone"},
+                {"biome": "terralith:cave/underground_jungle", "title": "Underground Jungle", "icon": "minecraft:mangrove_roots"},
+                {"biome": "terralith:cave/fungal_caves", "title": "Fungal Caves", "icon": "minecraft:red_mushroom"},
+                {"biome": "terralith:cave/thermal_caves", "title": "Thermal Caves", "icon": "minecraft:clay"},
+                {"biome": "terralith:cave/frostfire_caves", "title": "Frostfire Caves", "icon": "minecraft:blue_ice"},
+                {"biome": "terralith:cave/infested_caves", "title": "Infested Caves", "icon": "minecraft:cobweb"},
+                {"biome": "terralith:cave/tuff_caves", "title": "Tuff Caves", "icon": "minecraft:tuff"},
+                {"biome": "terralith:cave/mantle_caves", "title": "Mantle Caves", "icon": "minecraft:magma_block"},
+                {"biome": "terralith:cave/deep_caves", "title": "Deep Caves", "icon": "minecraft:deepslate"},
+            ],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "minecraft:lantern", "count": 8}],
+        },
+        {
+            "key": "mineshaft", "title": "Rails Under the Hills", "shape": "hexagon",
+            "desc": [
+                "Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more.",
+                "",
+                "They're a fast way to find ore, and the minecart chests are Loot Chests too.",
+            ],
+            "tasks": [{"structure": "#bettermineshafts:better_mineshafts", "title": "Any YUNG's mineshaft",
+                       "icon": "minecraft:rail"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "dungeon", "title": "Down in the Dark",
+            "desc": [
+                "YUNG's Better Dungeons replaces the old cobblestone box with real dungeons: skeleton dungeons, spider dungeons, and zombie dungeons with a staircase down from the surface.",
+                "",
+                "Bring torches, food and a good sword. Breaking the spawners makes the place quieter, and drops something you'll want soon.",
+            ],
+            "tasks": [{"structure": "#betterdungeons:better_dungeons", "title": "Any YUNG's dungeon",
+                       "icon": "minecraft:skeleton_skull"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "stronghold", "title": "The Stronghold",
+            "desc": [
+                "Strongholds are huge here: libraries, armories, prisons, crypts and long, dark corridors, all around the End Portal room.",
+                "",
+                "You don't have to go through the portal yet. But it's worth knowing where it is.",
+            ],
+            "tasks": [{"structure": "betterstrongholds:stronghold", "title": "Find the stronghold",
+                       "icon": "minecraft:ender_eye"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "ancient_city", "title": "The Silent City", "shape": "hexagon", "icon": "minecraft:echo_shard",
+            "desc": [
+                "Deep in the Deep Dark lie the ruins of an &eAncient City&r: halls of deepslate and sculk around a great empty portal frame.",
+                "",
+                "Its chests hold some of the best loot underground, and its &eSuspicious Clay&r can hide an Allthemodium Smithing Template, so bring a brush.",
+                "",
+                "The Warden lives here too. Sneak, and keep the noise down. Sculk can't hear through wool, so the reward should help.",
+            ],
+            "tasks": [{"structure": "minecraft:ancient_city", "title": "Find an Ancient City", "icon": "minecraft:sculk_shrieker"}],
+            "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "minecraft:white_wool", "count": 16}],
         },
         {
             "key": "unified", "title": "One Metal, One Ingot", "shape": "gear",
@@ -59,7 +265,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "common", "title": "Everyday Metals", "icon": "alltheores:raw_tin", "wide": True,
+            "key": "common", "shape": "hexagon", "title": "Everyday Metals", "icon": "alltheores:raw_tin", "wide": True,
             "desc": [
                 "&eTin&r, &eZinc&r and &eAluminum&r spread through a tall band of stone, from deep caves up into the hills. Any decent caving trip turns some up.",
                 "",
@@ -187,7 +393,7 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "blank", "title": "A Blank Slate",
+            "key": "blank", "shape": "hexagon", "title": "A Blank Slate",
             "desc": [
                 "Every part of the Mining Gadget starts from a &eBlank Upgrade Module&r: redstone, lapis, diamonds and a glass pane.",
                 "",
