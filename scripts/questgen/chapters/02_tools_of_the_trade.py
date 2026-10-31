@@ -4,19 +4,16 @@ CHAPTER = {
     "title": "Tools of the Trade",
     "subtitle": "From stone to netherite, and the small upgrades that make it last",
     "icon": "minecraft:iron_pickaxe",
-    "layout": {
-        "direction": "down",
-        "spine": ["tools", "stone", "iron", "iron_armor", "paxel", "diamond", "enchanting", "smithing", "debris",
-                  "netherite", "finale"],
-        "branches": {
-            "stone": {"up": ["shield"]},
-            "iron": {"up": ["magnet", "advanced_magnet"], "down": ["stick", "stick_template"]},
-            "iron_armor": {"up": ["other_metals"]},
-            "diamond": {"up": ["diamond_armor"], "down": ["mega_torch", "feral_flare"]},
-            "enchanting": {"up": ["mending"], "down": ["grindstone"]},
-            "netherite": {"up": ["netherite_armor"], "down": ["netherite_stick"]},
-        },
-    },
+    # The tiers in one line, armor below and enchanting above; the handy extras need no
+    # order, so they sit in rows underneath.
+    "layout": {"lines": [
+        {"flow": ["tools", "stone", "iron", "diamond", "smithing", "debris", "netherite", "finale"],
+         "branches": {"iron": {"down": ["iron_armor"]}, "diamond": {"up": ["enchanting"], "down": ["diamond_armor"]},
+                      "netherite": {"down": ["netherite_armor"]}}},
+        {"rows": ["magnet", "advanced_magnet", "shield", "paxel", "other_metals", "mending",
+                  "stick", "stick_template", "netherite_stick", "mega_torch", "feral_flare", "grindstone"],
+         "per_row": 6},
+    ]},
     "quests": [
         {
             "key": "tools", "title": "Tools of the Trade",

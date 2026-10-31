@@ -40,16 +40,18 @@ CHAPTER = {
     # A grid: the world hands these out in whatever order you wander into them.
     "layout": {"grid": [
         ["arrive"],
-        ["wanderlust", "lootr", "glider", "updraft", "orbs", "goddess", "horned", "trouble"],
-        [f"biome_{b[0]}" for b in TEN_BIOMES] + ["skylands", "volcano", "biomes"],
+        ["wanderlust", "lootr", "glider", "orbs", "goddess", "horned"],
+        [f"biome_{b[0]}" for b in TEN_BIOMES[:5]],
+        [f"biome_{b[0]}" for b in TEN_BIOMES[5:]],
+        ["skylands", "biomes", "volcano"],
         ["villages", "rs_villages", "tavern", "fortified", "waystones", "sharestone"],
         ["ruins", "towers", "sky", "witch_tower", "witch_hut", "temple"],
         ["traveler"],
     ]},
-    # Shown here as well as in Monsters & Mettle, beside the quest that points to them.
+    # Shown here as well as in Monsters & Mettle, either side of the row of things to do on the road.
     "links": [
-        {"quest": "monsters_and_mettle:affix", "pos": (7.875, 1.75)},
-        {"quest": "monsters_and_mettle:pearl", "pos": (9.625, 1.75)},
+        {"quest": "monsters_and_mettle:affix", "pos": (-6.125, 1.75)},
+        {"quest": "monsters_and_mettle:pearl", "pos": (6.125, 1.75)},
     ],
     "quests": [
         {
@@ -58,6 +60,8 @@ CHAPTER = {
                 "The world out there is bigger and stranger than you'd think. Terralith reshapes the land into dozens of new biomes, islands float overhead, and towns, towers and ruins wait to be found.",
                 "",
                 "Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them.",
+                "",
+                "Chests out here, and the monsters guarding them, carry gear with bonus stats. The two quests either side of the next row are from &eMonsters & Mettle&r, the chapter for all of that.",
                 "",
                 "Here's a &espyglass&r for scouting the horizon.",
             ],
@@ -92,26 +96,19 @@ CHAPTER = {
                 "Hold it in your hand and step off something tall, and you'll glide instead of falling. Gliding uses stamina, shown by the wheel on screen. Land before it runs out.",
                 "",
                 "Running and swimming don't use stamina in this pack. Only gliding does.",
+                "",
+                "Glide over a lit &eCampfire&r and the rising warm air lifts you up, though it costs stamina too.",
             ],
             "tasks": [{"item": "paraglider:paraglider"}],
             "rewards": [{"xp": 10}, {"crate": "kindling"}],
         },
-        {
-            "key": "updraft", "title": "Warm Air Rising", "shape": "gear",
-            "desc": [
-                "Fire makes wind. Glide over a lit &eCampfire&r or an open fire and the rising air lifts you up.",
-                "",
-                "Rising air uses stamina too, so catch your breath before a long flight.",
-            ],
-            "tasks": [{"check": "Got it"}],
-                    },
         {
             "key": "biomes", "title": "Ten Corners of the World", "shape": "hexagon", "wide": True,
             "icon": "minecraft:filled_map",
             "desc": [
                 "Terralith has cherry groves, lavender fields, orchid swamps, deserts with grass in them, and far more.",
                 "",
-                "Visit all ten. Each one ticks off its own quest in this row too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far.",
+                "Visit all ten. Each one ticks off its own quest in the rows above too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far.",
                 "",
                 "Keep an eye out on the way: villages, ruins and waystones turn up where you least expect them. Take this &eExplorer's Compass&r for the structures you'll want to find next.",
             ],
@@ -284,15 +281,6 @@ CHAPTER = {
             "tasks": [{"item": "paraglider:spirit_orb", "count": 4}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
-        {
-            "key": "trouble", "title": "Trouble Worth Finding", "shape": "gear", "optional": True,
-            "desc": [
-                "Not everything you find out here is a plain sword. Chests in dungeons and ruins, and the tougher monsters guarding them, carry gear with bonus stats.",
-                "",
-                "&eMonsters & Mettle&r is the chapter for all of that. The two quests beside this one are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win.",
-            ],
-            "tasks": [{"check": "Got it"}],
-                    },
         {
             "key": "goddess", "title": "Pray to the Goddess", "shape": "hexagon", "icon": "paraglider:goddess_statue",
             "desc": [
