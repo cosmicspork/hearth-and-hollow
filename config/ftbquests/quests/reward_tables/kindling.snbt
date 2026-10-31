@@ -133,6 +133,15 @@
 			}
 			weight: 0.6f
 		}
+		{
+			count: 2
+			id: "263BA50A6C40C6B2"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 0.4f
+		}
 	]
 	use_title: true
 }
