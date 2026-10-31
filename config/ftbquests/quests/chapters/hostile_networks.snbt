@@ -1,0 +1,2199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_networks"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "471B39DFF7D32D90"
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49241F3629B5F1E7"
+			rewards: [
+				{
+					id: "6943D36F6C76804E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20E2B357647CCD30"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6CDDE2023E9744B7"
+					item: {
+						count: 1
+						id: "hostilenetworks:deep_learner"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A5BF187321AD9F5"]
+			id: "55B7158AF0C339BC"
+			rewards: [
+				{
+					id: "13D811228A24399D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75E0008308A68FAE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "603261E51867FEFD"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49241F3629B5F1E7"]
+			id: "3A5BF187321AD9F5"
+			rewards: [
+				{
+					id: "2CB8D8536719F0D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F23F8B991BA2EBF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27847C5468977B05"
+					item: {
+						count: 1
+						id: "hostilenetworks:sim_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A5BF187321AD9F5"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				count: 1
+				id: "hostilenetworks:prediction"
+			}
+			id: "6EC0318BAA83CAB0"
+			rewards: [
+				{
+					id: "144C21D029B401B0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3A69E3F20D6E56AF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "16867F6D10A39F12"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A5BF187321AD9F5"]
+			id: "3237FA76293F1DBA"
+			rewards: [
+				{
+					id: "6EB8E11A59F8946C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EDF3B35F56C74AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13E88ED94596A842"
+					item: {
+						count: 1
+						id: "hostilenetworks:loot_fabricator"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3237FA76293F1DBA"]
+			id: "0A8504E5B99B1D43"
+			rewards: [
+				{
+					id: "5E58331F2817ED4A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "713F5A2CE00AAFFE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5B4A6FBC61B21628"
+					item: {
+						count: 1
+						id: "hostilenetworks:data_center"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "1D3BF77D1CB34C70"
+			optional: true
+			rewards: [
+				{
+					id: "4ACD346F88896F48"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "78FE2D5D917CE26B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22A1FEF8BDE18EEB"
+					item: {
+						count: 1
+						id: "hostilenetworks:overworld_prediction"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 5.5d
+		}
+		{
+			id: "06E2D5161DD649C6"
+			optional: true
+			rewards: [
+				{
+					id: "2BC7A6034F61E467"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "786A980226C3C021"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "446BF2865825B59E"
+					item: {
+						count: 1
+						id: "hostilenetworks:nether_prediction"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "06F2EDDB689D0F23"
+			optional: true
+			rewards: [
+				{
+					id: "535717D27AC66C0D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "60DFC134B80C8231"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "292C502075C5A999"
+					item: {
+						count: 1
+						id: "hostilenetworks:end_prediction"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "4633954BA316E366"
+			optional: true
+			rewards: [
+				{
+					id: "42ED00ED4AB0AB95"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6397B3B5E6DE12D8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "5DF71104CBAEC582"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:zombie"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "061748C4E1943C74"
+			optional: true
+			rewards: [
+				{
+					id: "1BFA7B94A387E45F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2FFA835C4438260F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "43B75ED7937ABFA7"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:skeleton"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:creeper"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "7845E12F44850DA8"
+			optional: true
+			rewards: [
+				{
+					id: "32EBE64B944C8E6E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "344D00A25D7D877E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "12DBF42EB09602B3"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:creeper"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "64E0513952E39D02"
+			optional: true
+			rewards: [
+				{
+					id: "1A30E13C3D6D3FF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F55C0CD0060039C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "57B93860A7787BB6"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:spider"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:slime"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "6F94888591C13D60"
+			optional: true
+			rewards: [
+				{
+					id: "4C9A263350019A03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3162BB753320EDFA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "22F49AF093D2E94B"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:slime"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:drowned"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "5B3EA85C5ED7D104"
+			optional: true
+			rewards: [
+				{
+					id: "61498DD251E2DF08"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54CFB183DEFDB946"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "6D862436442ED433"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:drowned"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:phantom"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "4DCA03B18352ECB1"
+			optional: true
+			rewards: [
+				{
+					id: "339A1AFB401D5078"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D0AE0CA507B4833"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "2D75C46614264618"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:phantom"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:witch"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "2D30013B5CBBD153"
+			optional: true
+			rewards: [
+				{
+					id: "2970FAD4BA4E4A29"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "281DB5DB69DDF21E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "61CCD2859B4AC64C"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:witch"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:breeze"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "5B7A78F183051B41"
+			optional: true
+			rewards: [
+				{
+					id: "707505EF5AE19119"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "70222E1BE7AEDFA1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "4E43204D65D314E9"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:breeze"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:guardian"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "52BF5C21899642FA"
+			optional: true
+			rewards: [
+				{
+					id: "3F2C92D140D625C5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "600C0836780076D3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "27695E4548CBE23A"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:guardian"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:vindicator"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "5BE0B9BE960515B6"
+			optional: true
+			rewards: [
+				{
+					id: "28560680ABFD1133"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "592D34D2712AA429"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "2EDAEC85A5C38CD0"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:vindicator"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:evoker"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "412CFF44A2A1601C"
+			optional: true
+			rewards: [
+				{
+					id: "04E6B1A31385AB8A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4C7E1CD471EE7A9D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "3A357E3016347774"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:evoker"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:elder_guardian"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "175ECA0CFCA7858E"
+			optional: true
+			rewards: [
+				{
+					id: "0E06299972645ECA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7B60DFD3101CF249"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "50E9D8F1DBB0217E"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:elder_guardian"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:iron_golem"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "5709E9EE049F880B"
+			optional: true
+			rewards: [
+				{
+					id: "7A6FDEF57C6CC16C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "00BCEDDED179677A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "48C03B3856C155F4"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:iron_golem"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:chicken"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "244E40D9F2FF2A0E"
+			optional: true
+			rewards: [
+				{
+					id: "10A3D022CE722D30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2AF55900C64031A2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "06D47466772F24CF"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:chicken"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:cow"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "0A0680C2A2915A77"
+			optional: true
+			rewards: [
+				{
+					id: "1EA7A42DEE805D8F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "182CCA4B717F071B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "3D85396476619DCC"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:cow"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:mooshroom"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "715BE28077242B64"
+			optional: true
+			rewards: [
+				{
+					id: "4425FA4085F0DFD8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3406B46FFCD7963D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "316889CF5284DB91"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:mooshroom"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:pig"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "0DF82F3A8A63005E"
+			optional: true
+			rewards: [
+				{
+					id: "29B86D85DE29F4BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47B59D585EEAB0B1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "54063BC317BDA3CE"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:pig"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.75d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:sheep"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "7DA28C6A59DC8CE6"
+			optional: true
+			rewards: [
+				{
+					id: "6F2E91AE8BB30AA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "256CAFE790153724"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "0C9BC7AE2F1925BE"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:sheep"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:rabbit"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "67C1B647A7C23F32"
+			optional: true
+			rewards: [
+				{
+					id: "077488C02AE6647E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58C441413A4BD145"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "7525630BB1932CEC"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:rabbit"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:polar_bear"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "22F762C7AAAE7901"
+			optional: true
+			rewards: [
+				{
+					id: "7BAFB602245C4D99"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42AF40C0C13D0A4C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "4F90CDB04A8590E0"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:polar_bear"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:snow_golem"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "0923A52325656859"
+			optional: true
+			rewards: [
+				{
+					id: "799CB8663A6EA34C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FEA1CA2601E24E0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "4A1DA977F8663264"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:snow_golem"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:cod"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "30CFC7D8ACD88949"
+			optional: true
+			rewards: [
+				{
+					id: "07E30715205483FC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "506070541B83356D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "5B02510E50139017"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:cod"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:squid"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "6C7F13ED4B042AE5"
+			optional: true
+			rewards: [
+				{
+					id: "08DAB93BB248AE88"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7056FE723C9DE191"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "0B7E3492335E2371"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:squid"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:glow_squid"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "30F44DDF921B6A0F"
+			optional: true
+			rewards: [
+				{
+					id: "013778EBF141E2B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7675DAF1846EDBAB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "28FE649C4F07DDE2"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:glow_squid"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 11.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:blaze"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "1B069CCAD8B66D44"
+			optional: true
+			rewards: [
+				{
+					id: "6F2BF146FC279D1B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "247F3FCFAF154F49"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "776A3EA641DA6608"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:blaze"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:ghast"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "4E532DF50059A780"
+			optional: true
+			rewards: [
+				{
+					id: "12773509C88553D4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "35E930A4EA23FFF7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "6708628D40673F0B"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ghast"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:magma_cube"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "1CFFF84E84084992"
+			optional: true
+			rewards: [
+				{
+					id: "5EC0CAB336ADDDB9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0224B1ECA601085E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "2763B0248A2F186C"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:magma_cube"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:hoglin"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "4778D7EEE5C47D49"
+			optional: true
+			rewards: [
+				{
+					id: "40958401BDC4678C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "50CDE2A126F2F90C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "5BDD448E4988FF56"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:hoglin"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "7B7B32BD4CE7C331"
+			optional: true
+			rewards: [
+				{
+					id: "1A45F0175EB75623"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "245FC42D59F67FB3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "2E77FC6A4DDA316E"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "383B0D1A52E598C8"
+			optional: true
+			rewards: [
+				{
+					id: "6464FB0F4482FF3C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "622969F999280E66"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "19A481F6803D0B52"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 14.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:enderman"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "77E58ECDC96FAD71"
+			optional: true
+			rewards: [
+				{
+					id: "0019D9F3C8E9BD1E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0A02870E4CE8A6A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "38AEC75DEB1727B0"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:enderman"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:shulker"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "7F34147977E60DC2"
+			optional: true
+			rewards: [
+				{
+					id: "0872EF17BE467EBE"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "56BA2BA416A19C2B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "6645E34E8168A76D"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:shulker"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "0D1ACFCABE48A061"
+			optional: true
+			rewards: [
+				{
+					id: "5125BF25E05AB638"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1B06C450B684EB4F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "4D6665955E8D55DD"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:warden"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "523AC9E14369AEE2"
+			optional: true
+			rewards: [
+				{
+					id: "27864F6AB6227276"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "18F2D2BE9F6C5E4D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "5C588533C30EF17B"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:warden"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "707379AAA0B2B4DC"
+			optional: true
+			rewards: [
+				{
+					id: "27EE3F52137B9741"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "321DB4CA03EE78FB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "045FD7FB1CABF146"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:artifacts/mimic"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "7A24E1E781114AD3"
+			optional: true
+			rewards: [
+				{
+					id: "3354081A907E0E05"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2E19729E02C4218C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "5794F33174C8680E"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:artifacts/mimic"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			id: "24B4A3B6B4EC054F"
+			optional: true
+			rewards: [
+				{
+					id: "0562F884318B67A7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3CB633C3D2E2DB3F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
+					id: "1062F3A5CD5BD5A1"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 16.5d
+		}
+	]
+}

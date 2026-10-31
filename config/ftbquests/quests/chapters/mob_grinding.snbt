@@ -1,0 +1,1003 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding"
+	group: "73D6AE1B18A4548B"
+	icon: {
+		count: 1
+		id: "mob_grinding_utils:saw"
+	}
+	id: "7DEDCE79D4C955D3"
+	order_index: 17
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12AA614633E6F06A"
+			rewards: [
+				{
+					id: "73F67593653DAAED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "281253DC8E9FDCFF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4F4B48070DF67C30"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["12AA614633E6F06A"]
+			id: "734A6F348105A68C"
+			optional: true
+			rewards: [
+				{
+					id: "66C152FE25084A72"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14628ADB8A2DCBA8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mob_grinding_utils:dreadful_dirt"
+					}
+					id: "29E67D8B97F73133"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mob_grinding_utils:dreadful_dirt)item(mob_grinding_utils:delightful_dirt))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12AA614633E6F06A"]
+			id: "690E4BD4BAE14389"
+			optional: true
+			rewards: [
+				{
+					id: "48B2DD890B20DC01"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23737728793CFA9E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37D89A1EB6368412"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:fan"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12AA614633E6F06A"]
+			id: "43171CA0A21CD96E"
+			rewards: [
+				{
+					id: "2A5E7A3A8AA103CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BDEA5259652A24F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A7108BB6D2F4F34"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:entity_conveyor"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12AA614633E6F06A"]
+			id: "6E86768C0FE66A53"
+			optional: true
+			rewards: [
+				{
+					id: "5908A0E6A66F88F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "342BA6C60598D68B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F87034E4981B7DE"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:absorption_hopper"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "5AAD5AFE2342A321"
+			rewards: [
+				{
+					id: "0D126CDAEA239BEE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "227C9AF3A9482E40"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mob_grinding_utils:tank"
+					}
+					id: "177547D6EFCA4467"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mob_grinding_utils:tank)item(mob_grinding_utils:jumbo_tank))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5AAD5AFE2342A321"]
+			id: "1C453D7D168732FB"
+			optional: true
+			rewards: [
+				{
+					id: "46547A13DA576F61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24B2C0B3F054B3E7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E946EFA953E13F1"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:xp_tap"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "5DD4B8C411DCA08A"
+			rewards: [
+				{
+					id: "78DD9EE27D7927A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "65F7B0FC21763188"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4030CF4D6003E98A"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:mob_swab"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5AAD5AFE2342A321"]
+			id: "1B612907F6B6A38E"
+			rewards: [
+				{
+					id: "1AAD8145BA5B2387"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "425E5457244EB423"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1662B9935AFC88D9"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:xpsolidifier"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5DD4B8C411DCA08A"]
+			id: "16B2A4A03DA2F593"
+			rewards: [
+				{
+					id: "422C82C3808F3943"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77D34E04C7388BC9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "521B6984D0006E33"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:gm_chicken_feed"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1B612907F6B6A38E"
+				"16B2A4A03DA2F593"
+			]
+			id: "1BF3D6E3FF628002"
+			rewards: [
+				{
+					id: "52C2A9F7C076EC35"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "69353ABF01068DF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0BA7B4BFA6F4823A"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:entity_spawner"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.25d
+		}
+		{
+			id: "78189E78A00ABFBE"
+			optional: true
+			rewards: [
+				{
+					id: "466181E3AB7828AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D3F7A1CBE6D73BE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29EA2C619190FF39"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_sharpness"
+					}
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 12.5d
+		}
+		{
+			id: "5B78B2141F1E740B"
+			optional: true
+			rewards: [
+				{
+					id: "0F7DEE9D1317C170"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "001FC394A8A57E72"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40F3633F38409B56"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_looting"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			id: "512A1D4995618B6F"
+			optional: true
+			rewards: [
+				{
+					id: "57C5D967FFCFD0D2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E891A43352BEE8D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F7551BE8EAEEE46"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_fire"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 12.5d
+		}
+		{
+			id: "7E49A75D95859B62"
+			optional: true
+			rewards: [
+				{
+					id: "1D76CAC020325B8B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EADBCF8E0F68D16"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11FE1D6423A79E62"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_smite"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "4E858FA51E7EE948"
+			optional: true
+			rewards: [
+				{
+					id: "417B66190ED38761"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D0C81DCAD97181A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07621821D834D0B3"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_arthropod"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 12.5d
+		}
+		{
+			id: "3025117458AC624B"
+			optional: true
+			rewards: [
+				{
+					id: "7048194264FC4019"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DD736C58A89013B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B8E8973006148E8"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_beheading"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			id: "41505B58F8209DB5"
+			optional: true
+			rewards: [
+				{
+					id: "4CEB67A6C4F15292"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F61DCD630DD3B45"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09229FFD721695D5"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:fan_upgrade_speed"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 12.5d
+		}
+		{
+			id: "524F77AB95346DE6"
+			optional: true
+			rewards: [
+				{
+					id: "63BD3B2A8A9290B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "44C87F0493D9EA5B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A959CDAF6EA8F4F"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:fan_upgrade_width"
+					}
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 14.25d
+		}
+		{
+			id: "5213D55201CE5D73"
+			optional: true
+			rewards: [
+				{
+					id: "223547E82C97218B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E6F7B80D8A54C4D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47305ADA7C8B760C"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:fan_upgrade_height"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 14.25d
+		}
+		{
+			id: "6EA07FC704C53A2C"
+			optional: true
+			rewards: [
+				{
+					id: "3C9924C0995E24D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0DC219F83EE8F98D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0CB14E67B00147D4"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:spawner_upgrade_width"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 14.25d
+		}
+		{
+			id: "715E84C98704AAF5"
+			optional: true
+			rewards: [
+				{
+					id: "7165E485114F02C7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3486133B4A7C37BF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F612F4986C3CDB7"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:spawner_upgrade_height"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 14.25d
+		}
+		{
+			id: "39660BD94267C871"
+			optional: true
+			rewards: [
+				{
+					id: "375DEEEE04521DC4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1088ECCA80AB208C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46346C2956115BB2"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:absorption_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 14.25d
+		}
+		{
+			id: "15F8189333D323C8"
+			optional: true
+			rewards: [
+				{
+					id: "7FD49CF608155995"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22DD0CD00E7F87D7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "604A1C496E4DAC3A"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:xp_solidifier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 14.25d
+		}
+		{
+			id: "6720CF3DBE3A0AC2"
+			optional: true
+			rewards: [
+				{
+					id: "5DAAD61EED4BE6C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54E974673EEA9790"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5446920821A27198"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:spikes"
+					}
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 16.75d
+		}
+		{
+			id: "231364C97547CE46"
+			optional: true
+			rewards: [
+				{
+					id: "24D1D6BA1099A3DC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E8D516FC69C5242"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mob_grinding_utils:ender_inhibitor_on"
+					}
+					id: "0C072A275D81794D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mob_grinding_utils:ender_inhibitor_on)item(mob_grinding_utils:ender_inhibitor_off))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 16.75d
+		}
+		{
+			id: "6D3C1A843C2FB31F"
+			optional: true
+			rewards: [
+				{
+					id: "0B5223515214ACED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "006E5F2AC33AC22C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "mob_grinding_utils:wither_muffler"
+					}
+					id: "3BED15882900F9DE"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(mob_grinding_utils:wither_muffler)item(mob_grinding_utils:dragon_muffler))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 16.75d
+		}
+		{
+			id: "77DE01517AC2992E"
+			optional: true
+			rewards: [
+				{
+					id: "20E6F981BDD46E0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E0A6B126D6DCCF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2036CB2E4C0C394C"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:tinted_glass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 16.75d
+		}
+	]
+}
