@@ -86,7 +86,7 @@ hash = "fc73800c52f94daddd61165985f49a665459f93d2458a32d9eaad12d40c5903a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/green_thumb.snbt"
-hash = "add03e483592eeb18739d453220e872f66d3a70a7f67b38c8939efb8335626dc"
+hash = "c156aa4a3bc464c67c513c5faa9b641bd86b771253b5d09dc654b6930877fa10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hearth_and_table.snbt"
@@ -142,7 +142,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d95474367f7bfc6dd58f48a52f7c18a5201569ac96373e62952ce30f4867c0ba"
+hash = "915e7f899b4ac8e504f3ec8ae4bac4ecbff4f55e0ce5baa536baab19a53b4e1f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"
@@ -245,6 +245,18 @@ file = "config/mysticalagriculture-common.toml"
 hash = "6d7a0e0099d749d1fef3e78eada4c6a1a9917756cfdb5c71d75d9138711b4cd0"
 
 [[files]]
+file = "config/mysticalcustomization/crops/allthemodium.json"
+hash = "2dac911b4f6f5f2b5994c7f058ca059dcc24edf48bef20e59fc8b7c4fe69d9dd"
+
+[[files]]
+file = "config/mysticalcustomization/crops/unobtainium.json"
+hash = "84c6e078b448639528f169b6644c246ef34de034a334171e32d97e52ddaa82db"
+
+[[files]]
+file = "config/mysticalcustomization/crops/vibranium.json"
+hash = "844b36851f1a758639c61d784a25ac16f45a33f271ec12836dd68b5f77a9874d"
+
+[[files]]
 file = "config/naturescompass-common.toml"
 hash = "f705833ed32e19207a93d470aa0c809f59af44a56ee8639c5019866fb0732a36"
 
@@ -337,6 +349,10 @@ file = "config/potionsmaster/zinc.json"
 hash = "e489fcf643f22ac069eb7381879d2939a74ad5eef6641934b329d2c781863ae6"
 
 [[files]]
+file = "config/pylons-server.toml"
+hash = "29f23ae5a53e604b05539fb8b95e58e82e9f0c44867ca7b552ea72fb81fdeabd"
+
+[[files]]
 file = "config/solcarrot-server.toml"
 hash = "08bc533ecc8cc3c50eb69763236d174f0c6f0a1d27f1e7bee96d0b191ee567bf"
 
@@ -419,6 +435,10 @@ hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 [[files]]
 file = "kubejs/data/alltheores/neoforge/biome_modifier/sapphire_overworld.json"
 hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/apotheosis/data_maps/item/loot_category_overrides.json"
+hash = "fbe2cc21aacc90215125adff87cb7220bc7c1ae8a1069afee1e5af45005a1cb0"
 
 [[files]]
 file = "kubejs/data/botanypots/recipe/allthemodium/crop/ancient_soulberries.json"
@@ -657,8 +677,76 @@ file = "kubejs/data/hearthandhollow/loot_table/crates/mob.json"
 hash = "c4fb608cf653b84033a71ab58f5f773321fecbc7be9caa56f14d42f7e67a1a0f"
 
 [[files]]
+file = "kubejs/data/hearthandhollow/neoforge/biome_modifier/mining_ores.json"
+hash = "8549275b1652b2f4867b78157cb397009f4de2a84d8e3843f29b6e215727e9ba"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/recipe/essence/allthemodium_ingot.json"
+hash = "d37e4b7b0cfa7fe54895cc11a526aa1fbe7735c61b7b684e8d0cf64d736e42ef"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/recipe/essence/unobtainium_ingot.json"
+hash = "3351c568a9b8da529f8cb45f6e802857878c991a3f7615f6d27456e77ad28b78"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/recipe/essence/vibranium_ingot.json"
+hash = "dc75b2ca4e11a803863cce6e2cb4213f38c6c6366d0b8bac2c0f47d46e34445a"
+
+[[files]]
 file = "kubejs/data/hearthandhollow/tags/entity_type/crate_bosses.json"
 hash = "c45fcf0c722d8b0b63678de6165b6a44a68534ed218b849e984abf6eadc25c02"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/end_inferium.json"
+hash = "b58290ac4ffee612587c2fb29a7a4165310c6fb956c7ffeedef26252d285ab4e"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/end_prosperity.json"
+hash = "ac909f6200e78cf90807d1f2fb0d525b3f308c40995f14036c96460ef2f9549e"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/inferium.json"
+hash = "b4c2123e619a7b1b7938c25abaf7015ca0dd773a7652b3b94e654699f4eb7c01"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/nether_inferium.json"
+hash = "8707675618e9a6fee117ced82066ae1d619bd6198a09972ac0797e98e6b2e302"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/nether_prosperity.json"
+hash = "4a3c9fe7f303634d5fef64fdf4df5c0780fc09f5aee9856ae294d292aa7d0a02"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/prosperity.json"
+hash = "7ff55d4e5963304e8f12df02cd0e3c016fa6f628a28a3545fa84f302ba04acfa"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/soulstone.json"
+hash = "18db8565d77474c7aa22a59fbf020e3d0bea215cb1e62566aea3be738fd49d22"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/uraninite.json"
+hash = "400e4530ed75f6222a0cd87304dabf49015ee873e2c7d6820749e09462692751"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_blue.json"
+hash = "5a95eaee46bb4951429b1b5cf97b34d49f60cc5f3546852b10f2180048e49df3"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_dark.json"
+hash = "538140b95998b71987429fb06869b44e793dfc53d8f313e67f392afd401072d3"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_green.json"
+hash = "a6321ce2e5af9f02f2d3746e15113a3cf44b70fdef1275a245635e61580275f5"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_light.json"
+hash = "f9604236f95281b5bd779866f207c7a3a01f4b0d38040c9cfbf219b8a4ec752d"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_red.json"
+hash = "89bdc61b2c0373174baf573bbb36052d8014768392312a26e2a11372dda98a4f"
 
 [[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
@@ -689,12 +777,24 @@ file = "kubejs/data/oritech/worldgen/configured_feature/uranium_patch.json"
 hash = "c13849ece20a38d51511878043e7fdd2b03084b49fe04a95236c56dbcf5d631d"
 
 [[files]]
+file = "kubejs/data/powah/data_maps/fluid/heat_source.json"
+hash = "0725837e777fe530550789149ccee069729a383d1ab6e9be5310cedb00756cb8"
+
+[[files]]
+file = "kubejs/data/powah/data_maps/fluid/magmator_fuel.json"
+hash = "b997887e0f2ad5ca35a959a55f69e6dda1ced6296cd13dd34b25715d96d671e5"
+
+[[files]]
 file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
 hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 
 [[files]]
 file = "kubejs/server_scripts/capstone.js"
 hash = "f48159ed854a9b9b2ae833d8296028f7393d66598194ba1ecc2490d32cc37e44"
+
+[[files]]
+file = "kubejs/startup_scripts/iron_furnaces.js"
+hash = "9014e0a1f9cbf47ca42b6db213af1f5bc3ac446256e0de1ff98110071e746ed7"
 
 [[files]]
 file = "mods/akashic-tome.pw.toml"
@@ -1664,6 +1764,11 @@ metafile = true
 [[files]]
 file = "mods/mystical-agriculture.pw.toml"
 hash = "4add482b7c2db2afc83926b333fe9e18985c2da7f892a13cf8025533092fe01c"
+metafile = true
+
+[[files]]
+file = "mods/mystical-customization.pw.toml"
+hash = "356febd0e1611778016cbaada29fe291b8a867aae530e23e1d005a7cf35040a1"
 metafile = true
 
 [[files]]

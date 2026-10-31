@@ -24,6 +24,7 @@ CHAPTER = {
             "tertium": {"up": ["pylon"], "down": ["trees"]},
             "imperium": {"up": ["soul_dagger"], "down": ["masher", "absorption"]},
             "supremium": {"up": ["learner", "sim"], "down": ["master_crystal"]},
+            "finale": {"up": ["metal_seeds"]},
         },
     },
     "quests": [
@@ -296,6 +297,20 @@ CHAPTER = {
                 {"item": "hostilenetworks:prediction", "components": {"hostilenetworks:data_model": "hostilenetworks:wither"}},
             ],
             "rewards": [{"xp": 50}, {"crate": "ember"}, {"item": "mysticalagradditions:insanium_farmland", "count": 4}],
+        },
+        {
+            "key": "metal_seeds", "title": "Metal in the Soil", "optional": True,
+            "desc": [
+                "Insanium Essence opens up seeds for the three endgame metals: &eAllthemodium&r, &eVibranium&r and &eUnobtainium Seeds&r, made on the Infusion Altar from their ingots.",
+                "",
+                "Each one is picky about its soil: it only grows with a block of the same metal under its farmland.",
+                "",
+                "Eight essence in a ring make one ingot. Slow, but it never runs out.",
+            ],
+            "tasks": [{"any": ["mysticalagriculture:allthemodium_seeds", "mysticalagriculture:vibranium_seeds",
+                               "mysticalagriculture:unobtainium_seeds"],
+                       "title": "Any Allthemodium metal seed", "icon": "mysticalagriculture:allthemodium_seeds"}],
+            "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
     ],
 }

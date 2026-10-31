@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "allthemodium:mining",
+  "features": [
+    "hearthandhollow:mining/uraninite",
+    "hearthandhollow:mining/inferium",
+    "hearthandhollow:mining/prosperity",
+    "hearthandhollow:mining/xychorium_blue",
+    "hearthandhollow:mining/xychorium_dark",
+    "hearthandhollow:mining/xychorium_green",
+    "hearthandhollow:mining/xychorium_light",
+    "hearthandhollow:mining/xychorium_red",
+    "hearthandhollow:mining/soulstone",
+    "hearthandhollow:mining/nether_inferium",
+    "hearthandhollow:mining/nether_prosperity",
+    "hearthandhollow:mining/end_inferium",
+    "hearthandhollow:mining/end_prosperity",
+    "alltheores:ore_sulfur_placed",
+    "alltheores:ore_fluorite_placed"
+  ],
+  "step": "underground_ores"
+}

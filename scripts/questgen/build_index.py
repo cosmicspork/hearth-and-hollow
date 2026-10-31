@@ -68,6 +68,13 @@ for jar in jars:
                 sets[key].add(f"{prefix}{m[1]}:{m[2]}")
                 break
 
+# Mystical Customization registers the pack's own crops at startup from config, so no jar lists them.
+for crop in sorted((Path(__file__).resolve().parents[2] / "config/mysticalcustomization/crops").glob("*.json")):
+    name = json.loads(crop.read_text())["name"]
+    for kind in ("seeds", "essence"):
+        items.setdefault(f"mysticalagriculture:{crop.stem}_{kind}", crop.name)
+        names.setdefault(f"mysticalagriculture:{crop.stem}_{kind}", f"{name} {kind.title()}")
+
 with open(out / "items.tsv", "w") as f:
     for i in sorted(items):
         f.write(f"{i}\t{names.get(i, '')}\t{items[i]}\n")
