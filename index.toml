@@ -693,6 +693,10 @@ file = "kubejs/data/hearthandhollow/neoforge/biome_modifier/mining_ores.json"
 hash = "8549275b1652b2f4867b78157cb397009f4de2a84d8e3843f29b6e215727e9ba"
 
 [[files]]
+file = "kubejs/data/hearthandhollow/neoforge/biome_modifier/ore_bonus.json"
+hash = "8bebcceba0efebbbb3998599a710b8ead874f33fc518b62c0b557c3072f29d3c"
+
+[[files]]
 file = "kubejs/data/hearthandhollow/recipe/essence/allthemodium_ingot.json"
 hash = "d37e4b7b0cfa7fe54895cc11a526aa1fbe7735c61b7b684e8d0cf64d736e42ef"
 
@@ -759,6 +763,66 @@ hash = "f9604236f95281b5bd779866f207c7a3a01f4b0d38040c9cfbf219b8a4ec752d"
 [[files]]
 file = "kubejs/data/hearthandhollow/worldgen/placed_feature/mining/xychorium_red.json"
 hash = "89bdc61b2c0373174baf573bbb36052d8014768392312a26e2a11372dda98a4f"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/aluminum.json"
+hash = "1f1c43816fe971075674c79558317b712e8d16e504eed7bb5e40c32e4bdb7153"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/copper.json"
+hash = "b9d9f18ba0c5b07d2981dd524e35403440a4e457d82d4181a06fdbbdf56e0763"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/gold.json"
+hash = "b494a610c9bedfb4e3733540d61adcb1fdac7e9e3f41520f0bc464d02d78e666"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/gold_lower.json"
+hash = "50e417a8a0f32f6a9ab7b20f1dc622e3721a8ef381c80d4db0e262062943220b"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/iron_middle.json"
+hash = "89f7af36126ed0f470116d5f870dc35d524b6bce089941660e302c3f56c443a2"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/iron_small.json"
+hash = "fc999a32d07dd83c7838c637663938eaa035ea795055f50a903cb3d00b3d0d21"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/iron_upper.json"
+hash = "3df3fa95860a740a59d6efec6c8876440af2818a7cd45e7263be2359d697db3f"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/lead.json"
+hash = "8b9c3aa3c389fa71b0667fb43580fc0e89ddb78a9d953ec7203a1478af7f67eb"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/nickel.json"
+hash = "fc18f7e4498eb0ddd1af36e2e8deb7542c767c01077c97d98f19cf887f1979cd"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/osmium.json"
+hash = "056f1e8819ac137815dd61ed2285f417b7aa965eb2bcf5dc828b3c73d9165b81"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/platinum.json"
+hash = "87c17e5899e62a6588c46e6eeb18e138b9b8fcebb5963f92d096afa5a1d3257c"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/silver.json"
+hash = "1f5e2fd830a2f5506e7472ea448389d490649013f16a42b755a5519f0d478c26"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/tin.json"
+hash = "63c60af5c30c31b1338e0cb669b2d86a66226c1f4299cdb5b515ed1802959396"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/uranium.json"
+hash = "c3e58edb15f8c5b5a4c9acab377afd1d3316c974f23692a0615aa3ce6a8b7f39"
+
+[[files]]
+file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/zinc.json"
+hash = "f14edca61f5e355419e046ef29c9fcc193cb4afe3487a0af75235df75d828488"
 
 [[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
