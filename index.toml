@@ -154,7 +154,7 @@ hash = "55ab0d454b5b03282797a915d4c21f3436c8de1de29647f2c9db160fd16f8936"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/kindling.snbt"
-hash = "e72ab521fa5ff7b44af1e24697c55e0d1b0a1611cccfccfd992d87521ac38bfe"
+hash = "5cd5960b66a5074c3416e8a757bc6cb46ced531b3a3fd43558ef5bdf0775e98d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/lantern.snbt"
