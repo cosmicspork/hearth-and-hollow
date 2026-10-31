@@ -1,17 +1,47 @@
-// The Spark of Creation and the creative items it unlocks. The spark costs an antimatter pellet,
-// two nether stars and the best of Mekanism's alloys and circuits. Each creative recipe then takes
-// top-tier versions of the thing it makes infinite, and gives the spark back.
+// The Spark of Creation and the creative items it unlocks. The spark takes The Ultimate Ingot, which
+// takes one of every singularity, plus an antimatter pellet and the best of Mekanism's alloys and
+// circuits, all on the Ultimate Crafting Table. Each creative recipe then takes top-tier versions of
+// the thing it makes infinite, and gives the spark back.
 
 ServerEvents.recipes(event => {
   const SPARK = 'hearthandhollow:spark_of_creation'
   const id = name => `hearthandhollow:creative/${name}`
+  // Extended Crafting tier 4 is the Ultimate table (9x9).
+  const ultimate = (name, result, pattern, key) => {
+    event.custom({ type: 'extendedcrafting:shaped_table', tier: 4, pattern: pattern, key: key, result: { id: result } })
+      .id(id(name))
+  }
 
-  event.shaped(SPARK, ['ACA', 'NPN', 'ACA'], {
-    A: 'mekanism:alloy_atomic',
-    C: 'mekanism:ultimate_control_circuit',
-    N: '#c:nether_stars',
-    P: 'mekanism:pellet_antimatter'
-  }).id(id('spark_of_creation'))
+  // Extended Crafting has no recipe that makes The Ultimate Ingot, only one that puts nine nuggets
+  // back together, so this is ours.
+  ultimate('the_ultimate_ingot', 'extendedcrafting:the_ultimate_ingot',
+    ['B K B', ' KKK ', 'KKUKK', ' KKK ', 'B K B'],
+    {
+      U: { item: 'extendedcrafting:ultimate_singularity' },
+      K: { tag: 'c:ingots/crystaltine' },
+      B: { item: 'extendedcrafting:black_iron_block' }
+    })
+
+  ultimate('spark_of_creation', SPARK,
+    [
+      'N   C   N',
+      ' A  K  A ',
+      '  A P A  ',
+      '   KKK   ',
+      'CKKKIKKKC',
+      '   KKK   ',
+      '  A K A  ',
+      ' A  K  A ',
+      'N   C   N'
+    ],
+    {
+      I: { item: 'extendedcrafting:the_ultimate_ingot' },
+      P: { item: 'mekanism:pellet_antimatter' },
+      K: { tag: 'c:ingots/crystaltine' },
+      A: { item: 'mekanism:alloy_atomic' },
+      C: { item: 'mekanism:ultimate_control_circuit' },
+      N: { item: 'minecraft:nether_star' }
+    })
 
   // Ingredient actions only work on KubeJS's own recipe types, so these are plain crafting.
   const creative = (name, result, outer, inner) => {

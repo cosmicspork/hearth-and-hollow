@@ -19,7 +19,7 @@ No quests, scripts, configs or other assets from those packs are included. The q
 
 A guided book from your first night to the endgame. Every chapter is open from day one and nothing in the pack is locked behind a quest, so follow it or wander off. Chapters split into lines you can follow side by side, and the tech chapters cover their mods in detail, down to every seed, generator and pipe.
 
-Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bounty Board keeps your farms and factories busy. The Allthemodium Alloy Paxel takes one finished piece from every tech line, and the Almanac collects four pages from around the world. At the very end, enough power to break the universe makes the Spark of Creation, a catalyst for creative items.
+Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bounty Board keeps your farms and factories busy. The Allthemodium Alloy Paxel takes a piece from every tech line, and the Almanac collects four pages from around the world. At the very end, a little of everything crushed into one singularity, plus enough power to break the universe, makes the Spark of Creation, a catalyst for creative items.
 
 ## What's in it
 
