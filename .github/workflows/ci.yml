@@ -72,6 +72,9 @@ jobs:
             echo "::error::config/ftbquests doesn't match scripts/questgen. Edit the chapters, run 'just quests', and commit both."
             exit 1
           fi
+      # The CurseForge summary may only use words from the description.
+      - name: curseforge page
+        run: python3 scripts/check_curseforge.py
       - name: export builds
         run: |
           packwiz curseforge export -o pack.zip
