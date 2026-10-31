@@ -206,7 +206,7 @@ hash = "7e7ea8924a8e0fc2bb0b49313335509426536cbf9f1ae94d4208c4eee4b361c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/monsters_and_mettle.snbt"
-hash = "4f5b570d7050377e745d3d1e9c14d0de663901b16b135654b9b906428372e0cb"
+hash = "bed016b14232428848f5539d405493fcbd38ff1c05ea48dc7e8ac547f7248022"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mystical_agriculture.snbt"
@@ -266,7 +266,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "db311a60caafa8994cb2e54d5e472d9cf2fc80cabaea7fd935aca95e1da41c43"
+hash = "36ec9e87349db5c7fa0c07106f02e7514086004078869972bd457bb12b85e2f0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"
@@ -1527,7 +1527,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "45d3bc7051ed6546e492e5be236f0271031dd0e45328cf8eecbb035d521e345c"
+hash = "ab51e3a38c5081efca5bb0791b5c8316d4e70d73c6ea5936f2b8eed04aa03216"
 metafile = true
 
 [[files]]

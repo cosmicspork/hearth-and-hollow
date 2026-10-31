@@ -205,11 +205,17 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
+            # A trophy draws the mob named in its data, so a bare trophy icon is blank.
             "key": "trophy", "title": "Something for the Mantel", "optional": True, "icon": "trophymanager:trophy",
+            "icon_components": {"minecraft:custom_data": {"TrophyType": "entity",
+                                                          "TrophyEntity": {"entityType": "minecraft:creeper"},
+                                                          "Subject": "entity.minecraft.creeper"}},
             "desc": [
                 "Monsters very occasionally drop a &eTrophy&r of themselves. Bosses drop them far more often, and the Ender Dragon always does.",
                 "",
-                "Place one and pose it however you like: size, rotation, standing or flying. A wall of trophies makes a fine record of your adventures.",
+                "Place one, then right-click it with an empty hand to change its size, rotation and pose: standing, sitting or flying. Right-click it with any slab to swap the stand it sits on, or with armor to dress it up.",
+                "",
+                "A wall of trophies makes a fine record of your adventures.",
             ],
             "tasks": [{"item": "trophymanager:trophy"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
