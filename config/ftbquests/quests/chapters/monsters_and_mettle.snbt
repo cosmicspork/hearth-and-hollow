@@ -602,6 +602,15 @@
 		}
 		{
 			icon: {
+				components: {
+					"minecraft:custom_data": {
+						Subject: "entity.minecraft.creeper"
+						TrophyEntity: {
+							entityType: "minecraft:creeper"
+						}
+						TrophyType: "entity"
+					}
+				}
 				count: 1
 				id: "trophymanager:trophy"
 			}
