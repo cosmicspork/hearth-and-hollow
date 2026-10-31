@@ -53,6 +53,10 @@ file = "config/fluxnetworks-server.toml"
 hash = "26838f3232363d1a96743ec913e9c6a459dc485bd34a392fd06b3dd7907b96af"
 
 [[files]]
+file = "config/fml.toml"
+hash = "ae54768733410adc27681c133e6879af43482b3e05dabd9ef25a13ed13ceb994"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "d325e45633b3d89700f6795070ef0082ea18839cd13ba05217959636d2351a0e"
 
