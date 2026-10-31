@@ -13,21 +13,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7E470B8B3A5FBCC8"
-			rewards: [ ]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "2BE7C57E865B6807"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7E470B8B3A5FBCC8"]
 			icon: {
 				count: 1
 				id: "artifacts:cloud_in_a_bottle"
@@ -51,6 +36,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -68,46 +54,24 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -7.875d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1EBD11F16E51110E"]
-			icon: {
-				count: 1
-				id: "minecraft:lantern"
-			}
 			id: "7A9FB006B9CF7BCA"
 			optional: true
-			rewards: [
-				{
-					id: "063137D4CA40BAD0"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "248C15733B21B485"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
+			shape: "gear"
 			tasks: [
 				{
 					id: "79B34A1C1380E8F7"
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: 6.125d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7A9FB006B9CF7BCA"]
 			id: "080B9D0F0230DC03"
 			optional: true
 			rewards: [
@@ -138,11 +102,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.0d
+			x: 4.375d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1EBD11F16E51110E"]
 			id: "35719E573E8621A6"
 			optional: true
 			rewards: [
@@ -180,11 +143,10 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
+			x: -0.875d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1EBD11F16E51110E"]
 			id: "1BF6AF98B756BF4E"
 			rewards: [
 				{
@@ -212,11 +174,10 @@
 					value: 1L
 				}
 			]
-			x: 4.0d
+			x: 0.875d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1BF6AF98B756BF4E"]
 			id: "29F6424BECE6700C"
 			optional: true
 			rewards: [
@@ -247,11 +208,10 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 2.625d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1BF6AF98B756BF4E"]
 			icon: {
 				count: 1
 				id: "relics:leafy_mantle"
@@ -274,7 +234,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "0149BE8E17C2BB69"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -292,11 +262,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: -2.625d
+			y: 1.75d
 		}
 		{
-			dependencies: ["5D03C361BA83F81A"]
 			icon: {
 				count: 1
 				id: "artifacts:running_shoes"
@@ -338,11 +307,10 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: -6.125d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5D03C361BA83F81A"]
 			icon: {
 				count: 1
 				id: "artifacts:digging_claws"
@@ -384,104 +352,38 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: -4.375d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5D03C361BA83F81A"]
 			id: "79F842955B3A5B92"
-			rewards: [
-				{
-					id: "74593368B4949B98"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "1193EDDCCA566A90"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
+			shape: "gear"
 			tasks: [
 				{
 					id: "3EE920524342544A"
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: -0.875d
+			y: 1.75d
 		}
 		{
-			dependencies: ["79F842955B3A5B92"]
-			icon: {
-				count: 1
-				id: "relics:relic_experience_bottle"
-			}
 			id: "67ED1E2EBC73CAC8"
-			rewards: [
-				{
-					id: "13AF805631D83BF9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "15591A3344F246E1"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "lantern"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6AB235899FB5224C"
-					item: {
-						count: 1
-						id: "relics:relic_experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
+			rewards: [ ]
+			shape: "gear"
 			tasks: [
 				{
 					id: "5FFCC895842351C2"
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 0.875d
+			y: 1.75d
 		}
 		{
-			dependencies: ["67ED1E2EBC73CAC8"]
 			id: "4E43AB0121CDC8BB"
-			rewards: [
-				{
-					id: "20686C01EDE07DAE"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "3700C18F698CB8D7"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "hearth"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
+			rewards: [ ]
 			shape: "gear"
 			tasks: [
 				{
@@ -489,11 +391,10 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
-			y: -1.5d
+			x: 2.625d
+			y: 1.75d
 		}
 		{
-			dependencies: ["67ED1E2EBC73CAC8"]
 			id: "5D5482E0506DF402"
 			rewards: [
 				{
@@ -513,6 +414,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "38DC37F1478336D3"
@@ -523,11 +425,10 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 0.0d
+			x: -5.25d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5D5482E0506DF402"]
 			id: "246332DA8CEFA248"
 			optional: true
 			rewards: [
@@ -558,11 +459,10 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -1.5d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5D5482E0506DF402"]
 			id: "2AA2D6536DD79316"
 			rewards: [
 				{
@@ -592,11 +492,10 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 0.0d
+			x: -1.75d
+			y: 3.5d
 		}
 		{
-			dependencies: ["2AA2D6536DD79316"]
 			id: "5EF80534532D44CF"
 			rewards: [
 				{
@@ -626,11 +525,10 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -1.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["5EF80534532D44CF"]
 			id: "7A401849EA875061"
 			rewards: [
 				{
@@ -660,11 +558,10 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: -3.0d
+			x: 1.75d
+			y: 3.5d
 		}
 		{
-			dependencies: ["2AA2D6536DD79316"]
 			id: "6A3830D4991E6114"
 			rewards: [
 				{
@@ -695,11 +592,10 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 0.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["6A3830D4991E6114"]
 			icon: {
 				count: 1
 				id: "artifacts:snorkel"
@@ -802,11 +698,10 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 7.875d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D15724E29BBA7A5"]
 			icon: {
 				count: 1
 				id: "artifacts:vampiric_glove"
@@ -848,11 +743,10 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -1.5d
+			x: -2.625d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6D15724E29BBA7A5"]
 			id: "45E3776247E65942"
 			rewards: [
 				{
@@ -893,8 +787,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 0.0d
+			x: 5.25d
+			y: 3.5d
 		}
 	]
 }

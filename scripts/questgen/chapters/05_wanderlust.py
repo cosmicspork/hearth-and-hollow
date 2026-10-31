@@ -1,15 +1,35 @@
 TEN_BIOMES = [
-    ("terralith:sakura_grove", "Sakura Grove", "minecraft:cherry_sapling"),
-    ("terralith:lavender_forest", "Lavender Forest", "minecraft:allium"),
-    ("terralith:moonlight_grove", "Moonlight Grove", "minecraft:white_tulip"),
-    ("terralith:birch_taiga", "Birch Taiga", "minecraft:birch_sapling"),
-    ("terralith:shrubland", "Shrubland", "minecraft:dead_bush"),
-    ("terralith:steppe", "Steppe", "minecraft:short_grass"),
-    ("terralith:highlands", "Highlands", "minecraft:stone"),
-    ("terralith:orchid_swamp", "Orchid Swamp", "minecraft:blue_orchid"),
-    ("terralith:lush_desert", "Lush Desert", "minecraft:cactus"),
-    ("terralith:alpine_grove", "Alpine Grove", "minecraft:spruce_sapling"),
+    ("sakura_grove", "terralith:sakura_grove", "Sakura Grove", "minecraft:cherry_sapling",
+     "Cherry trees in full bloom, and pink petals drifting over everything."),
+    ("lavender_forest", "terralith:lavender_forest", "Lavender Forest", "minecraft:allium",
+     "Purple as far as you can see. Bring a friend to show it to."),
+    ("moonlight_grove", "terralith:moonlight_grove", "Moonlight Grove", "minecraft:white_tulip",
+     "Pale flowers under tall trees. It's at its best after dark."),
+    ("birch_taiga", "terralith:birch_taiga", "Birch Taiga", "minecraft:birch_sapling",
+     "White birch among the spruce, cool and quiet."),
+    ("shrubland", "terralith:shrubland", "Shrubland", "minecraft:dead_bush",
+     "Dry scrub and low bushes. Not much shade, but a long view."),
+    ("steppe", "terralith:steppe", "Steppe", "minecraft:short_grass",
+     "Wide, open grassland that goes on and on. Good riding country."),
+    ("highlands", "terralith:highlands", "Highlands", "minecraft:stone",
+     "Rolling high ground of grass and bare stone. Climb a ridge and look around."),
+    ("orchid_swamp", "terralith:orchid_swamp", "Orchid Swamp", "minecraft:blue_orchid",
+     "A swamp that someone decorated, full of blue orchids."),
+    ("lush_desert", "terralith:lush_desert", "Lush Desert", "minecraft:cactus",
+     "Sand, but with grass and green scrub in it. Easier on the feet than a plain desert."),
+    ("alpine_grove", "terralith:alpine_grove", "Alpine Grove", "minecraft:spruce_sapling",
+     "Spruce on cold mountain slopes. Bring a paraglider for the way down."),
 ]
+
+
+def biome_quest(key, biome, title, icon, line):
+    return {
+        "key": f"biome_{key}", "title": title, "icon": icon,
+        "desc": [line, "", "Your &eNature's Compass&r can find it."],
+        "tasks": [{"biome": biome, "title": f"Visit a {title}", "icon": icon}],
+        "rewards": [{"xp": 10}, {"crate": "kindling"}],
+    }
+
 
 CHAPTER = {
     "file": "wanderlust",
@@ -17,34 +37,36 @@ CHAPTER = {
     "title": "Wanderlust",
     "subtitle": "Strange biomes, sky islands, old towns and older ruins",
     "icon": "paraglider:paraglider",
-    "layout": {
-        "spine": ["wanderlust", "glider", "biomes", "villages", "waystones", "ruins", "sky", "witch_tower",
-                  "dungeon", "orbs", "goddess", "traveler"],
-        "branches": {
-            "wanderlust": {"up": ["lootr"]},
-            "glider": {"up": ["updraft"]},
-            "biomes": {"up": ["skylands"], "down": ["volcano"]},
-            "villages": {"up": ["rs_villages"], "down": ["tavern", "fortified"]},
-            "waystones": {"up": ["sharestone"]},
-            "ruins": {"up": ["towers"]},
-            "witch_tower": {"up": ["witch_hut"]},
-            "dungeon": {"up": ["mineshaft"], "down": ["temple", "stronghold"]},
-            "orbs": {"down": ["trouble"]},
-            "goddess": {"up": ["horned"]},
-        },
-    },
-    # Shown here as well as in Monsters & Mettle, under the quest that points to them.
+    # A grid: the world hands these out in whatever order you wander into them.
+    "layout": {"grid": [
+        ["arrive"],
+        ["wanderlust", "lootr", "glider", "updraft", "orbs", "goddess", "horned", "trouble"],
+        [f"biome_{b[0]}" for b in TEN_BIOMES] + ["skylands", "volcano", "biomes"],
+        ["villages", "rs_villages", "tavern", "fortified", "waystones", "sharestone"],
+        ["ruins", "towers", "sky", "witch_tower", "witch_hut", "temple", "stronghold", "dungeon", "mineshaft"],
+        ["traveler"],
+    ]},
+    # Shown here as well as in Monsters & Mettle, beside the quest that points to them.
     "links": [
-        {"quest": "monsters_and_mettle:affix", "pos": (18, 3.0)},
-        {"quest": "monsters_and_mettle:pearl", "pos": (18, 4.5)},
+        {"quest": "monsters_and_mettle:affix", "pos": (7.875, 1.75)},
+        {"quest": "monsters_and_mettle:pearl", "pos": (9.625, 1.75)},
     ],
     "quests": [
         {
-            "key": "wanderlust", "title": "Wanderlust",
-            "shape": "hexagon", "size": 1.5, "icon": "naturescompass:naturescompass",
+            "key": "arrive", "title": "Wanderlust", "shape": "hexagon", "size": 1.5, "icon": "minecraft:grass_block",
             "desc": [
                 "The world out there is bigger and stranger than you'd think. Terralith reshapes the land into dozens of new biomes, islands float overhead, and towns, towers and ruins wait to be found.",
                 "",
+                "Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them.",
+                "",
+                "Here's a &espyglass&r for scouting the horizon.",
+            ],
+            "tasks": [{"dimension": "minecraft:overworld", "title": "Set foot in the Overworld"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:spyglass"}],
+        },
+        {
+            "key": "wanderlust", "title": "Which Way?", "shape": "hexagon", "icon": "naturescompass:naturescompass",
+            "desc": [
                 "Craft a &eNature's Compass&r: a compass ringed with saplings and logs. Open it, pick a biome and press &eStart Search&r. The needle points the way and the screen shows the coordinates.",
                 "",
                 "It won't teleport you. The walk is the point.",
@@ -82,19 +104,18 @@ CHAPTER = {
                 "Rising air uses stamina too, so catch your breath before a long flight.",
             ],
             "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}],
-        },
+                    },
         {
             "key": "biomes", "title": "Ten Corners of the World", "shape": "hexagon", "wide": True,
             "icon": "minecraft:filled_map",
             "desc": [
                 "Terralith has cherry groves, lavender fields, orchid swamps, deserts with grass in them, and far more.",
                 "",
-                "Visit these ten. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far.",
+                "Visit all ten. Each one ticks off its own quest in this row too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far.",
                 "",
                 "Keep an eye out on the way: villages, ruins and waystones turn up where you least expect them. Take this &eExplorer's Compass&r for the structures you'll want to find next.",
             ],
-            "tasks": [{"biome": b, "title": t, "icon": i} for b, t, i in TEN_BIOMES],
+            "tasks": [{"biome": b, "title": t, "icon": i} for _, b, t, i, _ in TEN_BIOMES],
             "rewards": [{"xp": 25}, {"crate": "lantern"}, {"item": "explorerscompass:explorerscompass"}],
         },
         {
@@ -291,7 +312,7 @@ CHAPTER = {
                 "",
                 "Every monster spawner you break drops one, and trial chamber rewards include them too.",
                 "",
-                "Collect four. You'll see why next.",
+                "Collect four, then bring them to the Goddess.",
             ],
             "tasks": [{"item": "paraglider:spirit_orb", "count": 4}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
@@ -301,11 +322,10 @@ CHAPTER = {
             "desc": [
                 "Not everything you find out here is a plain sword. Chests in dungeons and ruins, and the tougher monsters guarding them, carry gear with bonus stats.",
                 "",
-                "&eMonsters & Mettle&r is the chapter for all of that. The two quests below are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win.",
+                "&eMonsters & Mettle&r is the chapter for all of that. The two quests beside this one are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win.",
             ],
             "tasks": [{"check": "Got it"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}],
-        },
+                    },
         {
             "key": "goddess", "title": "Pray to the Goddess", "shape": "hexagon", "icon": "paraglider:goddess_statue",
             "desc": [
@@ -332,6 +352,7 @@ CHAPTER = {
                        "icon": "paraglider:horned_statue"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
+    ] + [biome_quest(*b) for b in TEN_BIOMES] + [
         {
             "key": "traveler", "title": "Seasoned Traveler", "shape": "hexagon", "size": 1.5,
             "icon": "explorerscompass:explorerscompass",

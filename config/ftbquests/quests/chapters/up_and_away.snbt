@@ -52,7 +52,7 @@
 				}
 			]
 			x: 0.0d
-			y: -0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["602941FC879E457D"]
@@ -82,11 +82,10 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: -0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["602941FC879E457D"]
 			icon: {
 				count: 1
 				id: "elevatorid:elevator_white"
@@ -110,6 +109,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					count: 2L
@@ -129,7 +129,7 @@
 				}
 			]
 			x: 0.0d
-			y: -2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0C219C46B19A7D0C"]
@@ -163,11 +163,10 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["0C219C46B19A7D0C"]
 			icon: {
 				count: 1
 				id: "waystones:waystone"
@@ -191,6 +190,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -209,7 +209,7 @@
 				}
 			]
 			x: 0.0d
-			y: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -254,8 +254,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -4.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -289,8 +289,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -4.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["550CC753646BC765"]
@@ -323,8 +323,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -6.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["36EB4650F02BEA32"]
@@ -357,11 +357,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["550CC753646BC765"]
+			dependencies: ["602941FC879E457D"]
 			icon: {
 				components: {
 					"ironjetpacks:jetpack_id": "ironjetpacks:emerald"
@@ -414,8 +414,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -8.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0BEE409DF9D8D1A1"]
@@ -472,8 +472,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -10.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C2BD9BCDC181F7E"]
@@ -518,8 +518,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -10.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6414F40CD42B0211"]
@@ -564,8 +564,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -10.0d
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 }

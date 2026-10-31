@@ -74,15 +74,15 @@ hash = "359d2aeaf19e84e4bd38e4978f84b5b012eb3d384159c346f985e9b752aadc24"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
-hash = "474aa9d1a295bc5d9f8b0c2333bf2b7e301d042601e7d67cc8080d14c966077c"
+hash = "8e151f51912a7fc3b78551970127f4dac0e123d95653023a8dcbb5e7f8ad53d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/builders_bench.snbt"
-hash = "3cc7bbc433e178052d0ad5da54de83f2dfdf9f55357199a52d6b9c4e274e2def"
+hash = "f77b0473e03ce38dd388ead28d97b99c1fba9c2134a9e0e92bd78255a59788d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/curios_and_keepsakes.snbt"
-hash = "fc73800c52f94daddd61165985f49a665459f93d2458a32d9eaad12d40c5903a"
+hash = "d1ba2e96340076df9218b982a8e27c390f9ab20ffbd920fef673b2a79aa8f144"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/green_thumb.snbt"
@@ -102,7 +102,7 @@ hash = "7f6330f566979359b62ac72b54a107b0341fdaa97a2adda642fea0e2f4bfdfc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/monsters_and_mettle.snbt"
-hash = "f0dfe5a62f3e38d202d553ef2a3379f1873f3a289d17624c843e716e13b9c93b"
+hash = "abe0bc5e4546b76d349b7f131df0d1911fdc8c1245ab10435c0dd9a94e8fe9ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -118,19 +118,19 @@ hash = "bfa253038859c6d92bc201a6b136474c25a47b991a0dd45cee8dda5475e5f2ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sparks.snbt"
-hash = "b9446d35defbbce5177afec1ed4918338d1e838245b90339c950ea02b35ba1fc"
+hash = "e95672b710e3c50ec320f742c21584b6ab1c99c7214e3632b75db4497adf547d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_of_the_trade.snbt"
-hash = "2b906535d78a5fb991205bd0b926bf6c5cc96aaa10803fb630b64427ecb6da81"
+hash = "071bc5058c06e5a76cdf6d654d3c4e60cbef3671da0f60eef4778eca8d325a3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/up_and_away.snbt"
-hash = "46fcd4fe03681191111c581b128fab08fe469f7e7843b8a3923ab1d93f05fe80"
+hash = "56ef45d7d79b7fe50f63a1a402cd3eadee0b5b5fbb5ffa6c154281a146b98c72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wanderlust.snbt"
-hash = "b43fb5ff97fb6b65d8e94f5d10e94c0bfa6de0b00814a314b12f27ffbb032ae3"
+hash = "59a9535fa621d995f911d7c3375dfb6ad5d19fc849bf6e6d082cb5f458ab4b69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_home.snbt"
@@ -142,7 +142,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "915e7f899b4ac8e504f3ec8ae4bac4ecbff4f55e0ce5baa536baab19a53b4e1f"
+hash = "25a93501b10030dc1392c660445b1e547c7987d9ec7e39d69b01a34c3caa16d9"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"

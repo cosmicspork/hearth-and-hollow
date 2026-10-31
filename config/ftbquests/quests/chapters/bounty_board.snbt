@@ -17,6 +17,7 @@
 			min_width: 300
 			rewards: [ ]
 			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "2AF481585DD458B9"

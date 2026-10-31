@@ -280,6 +280,49 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0728E3B31BA30CC0"]
+			id: "74F1BBF845B45E83"
+			rewards: [
+				{
+					id: "6BA0CDB1CECBFC7F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75C925432B469FD5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "34EA4A3270ECD7E3"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F046BE16A68B067"
+					item: {
+						count: 1
+						id: "charginggadgets:charging_station"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
 			dependencies: ["2E6009811F8E12CE"]
 			id: "2D15C773B7089981"
 			rewards: [

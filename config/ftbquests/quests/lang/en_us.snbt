@@ -94,13 +94,11 @@
 	]
 	quest.02116DB82D768CF8.title: "Heart of a Lich"
 	quest.023B3A10D76CF2E9.quest_desc: [
-		"The world out there is bigger and stranger than you'd think. Terralith reshapes the land into dozens of new biomes, islands float overhead, and towns, towers and ruins wait to be found."
-		""
 		"Craft a &eNature's Compass&r: a compass ringed with saplings and logs. Open it, pick a biome and press &eStart Search&r. The needle points the way and the screen shows the coordinates."
 		""
 		"It won't teleport you. The walk is the point."
 	]
-	quest.023B3A10D76CF2E9.title: "Wanderlust"
+	quest.023B3A10D76CF2E9.title: "Which Way?"
 	quest.024A7C9C1B8D951F.quest_desc: [
 		"Hold &e`&r (the key above Tab) and break a block. Every matching block touching it breaks too: a whole ore vein, a tree, a patch of gravel."
 		""
@@ -123,6 +121,12 @@
 		"Any one of them will do."
 	]
 	quest.0299C1CAECBAD261.title: "A Fighting Chance"
+	quest.02A23AD84E3C2D8E.quest_desc: [
+		"A swamp that someone decorated, full of blue orchids."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.02A23AD84E3C2D8E.title: "Orchid Swamp"
 	quest.02BAEEEB6FEBDA21.quest_desc: [
 		"Powah's &eReactor&r is a big generator built from 36 reactor blocks. Hold all of them and place one where there's open room, 3 blocks across and 4 tall: the reactor builds itself."
 		""
@@ -310,6 +314,12 @@
 		"&eWorms&r make good bait. A Worm Farm will raise them for you."
 	]
 	quest.0B29A883C2F19A1E.title: "The Tackle Box"
+	quest.0B43596D17178607.quest_desc: [
+		"The &eSummit&r takes a full set of &9Rare&r gear, weapon included, and the &cWither&r dead at your feet."
+		""
+		"Pick your arena with care: the Wither breaks blocks as it fights. Three Wither Skeleton Skulls on four soul sand or soul soil summon it, and the Nether's skeletons drop skull fragments."
+	]
+	quest.0B43596D17178607.title: "World Tier: Summit"
 	quest.0B84A3E5BE9783DF.quest_desc: [
 		"Place an item on a &eCutting Board&r, then use it with a knife in hand to chop it up: cabbage into leaves, meat into cuts, a pumpkin into slices."
 		""
@@ -369,6 +379,12 @@
 		"Put cubes in, pick a shape from the list, take it out. If you're short of material, it tells you what's missing."
 	]
 	quest.0CEF74E40FB2F4B5.title: "The Framing Saw"
+	quest.0CF868B6B531D184.quest_desc: [
+		"Sand, but with grass and green scrub in it. Easier on the feet than a plain desert."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.0CF868B6B531D184.title: "Lush Desert"
 	quest.0D049BFE3167C50C.quest_desc: [
 		"Right-click Farmland with an essence to turn it into &eEssence Farmland&r of that tier, or craft it from Farmland and the essence."
 		""
@@ -499,6 +515,12 @@
 		"Crude oil burns in a &eFuel Generator&r as it is, but it's worth far more refined."
 	]
 	quest.152D7F3650198C5A.title: "Black Gold"
+	quest.155927DE8A181767.quest_desc: [
+		"Pale flowers under tall trees. It's at its best after dark."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.155927DE8A181767.title: "Moonlight Grove"
 	quest.15638F6B41DA25BE.quest_desc: [
 		"The last page of the field notes is the strangest place in the world."
 		""
@@ -651,7 +673,7 @@
 		""
 		"Each one does one thing well. A &eCloud in a Bottle&r gives you a double jump, &eFlippers&r make you a fish, and the &eAntidote Vessel&r cuts poisons short."
 		""
-		"Hover over an artifact to see what it does, then wear it in a Curios slot."
+		"Hover over an artifact to see what it does, then wear it in a Curios slot: press &eShift+G&r to open them. There are slots for your head, neck, belt, hands, feet and more."
 	]
 	quest.1EBD11F16E51110E.title: "Finders Keepers"
 	quest.1ED950662D2763B3.quest_desc: [
@@ -699,7 +721,7 @@
 	quest.2095408ABFC31E96.quest_desc: [
 		"Not everything you find out here is a plain sword. Chests in dungeons and ruins, and the tougher monsters guarding them, carry gear with bonus stats."
 		""
-		"&eMonsters \\& Mettle&r is the chapter for all of that. The two quests below are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win."
+		"&eMonsters \\& Mettle&r is the chapter for all of that. The two quests beside this one are from it: one for your first piece of special gear, and one for &eGateways&r, portals that pour out waves of monsters and pay out if you win."
 	]
 	quest.2095408ABFC31E96.title: "Trouble Worth Finding"
 	quest.2137A757227177C3.quest_desc: [
@@ -864,6 +886,8 @@
 		"Knives are good for more than plants: a pig felled with one drops ham."
 	]
 	quest.26AF74EA4C09B57C.title: "Last Straw"
+	quest.26BEA4913ED1B728.quest_desc: ["The hardest of the tier Gateways. Beat it and you've seen everything Apotheosis can throw at you, nearly."]
+	quest.26BEA4913ED1B728.title: "The Apothic Pinnacle"
 	quest.26D79DF0FCFBA2C5.quest_desc: [
 		"The ground around a house matters as much as the house. Macaw's Paths and Pavings has flagstones, cobbled paths, running bond brick, basket weave and more, in most kinds of stone and wood."
 		""
@@ -907,6 +931,12 @@
 		"Unobtainium won't budge for anything less."
 	]
 	quest.28403086B7915729.title: "Vibranium Pickaxe"
+	quest.28424C5E347C0B5B.quest_desc: [
+		"Nearly. The &eEndless Gateway of Apothic Invaders&r never stops sending waves."
+		""
+		"Hold out to wave 100 and it gives up a &eSigil of Supremacy&r. Bragging rights don't come bigger."
+	]
+	quest.28424C5E347C0B5B.title: "Supremacy"
 	quest.28B1507A648721C2.quest_desc: [
 		"Place a Teleport Pad in the Nether and it leads to &eThe Other&r: an older, hotter Nether under a sky where it's always night."
 		""
@@ -921,6 +951,8 @@
 		"It's a gentle way to move in: keep your old storage and hook it up while you build disks."
 	]
 	quest.28E4E8A287384CDB.title: "Bring Your Chests"
+	quest.291EC6C55C2C258F.quest_desc: ["The Summit's challenge Gateway, another step up from the Ascent's. JEI has the pearl's recipe."]
+	quest.291EC6C55C2C258F.title: "The Thundering Summit"
 	quest.2929FC1A5CE99D97.quest_desc: [
 		"A backpack you can wear, place like a chest, or carry in your hand."
 		""
@@ -1078,6 +1110,12 @@
 		"Wish you'd picked stamina over hearts? This is how you change your mind. This quest wants one of the underground statues."
 	]
 	quest.2DA83054B4065A27.title: "The Horned Statue"
+	quest.2DA8665EB9369B73.quest_desc: [
+		"Spruce on cold mountain slopes. Bring a paraglider for the way down."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.2DA8665EB9369B73.title: "Alpine Grove"
 	quest.2E0EE5F1079BE906.quest_desc: [
 		"A &eFancy Bed&r has a proper wooden frame and works just like any other bed."
 		""
@@ -1180,6 +1218,8 @@
 		"&eGems&r turn up in chest loot and now and then from monsters. Bosses and Invaders drop them more often."
 		""
 		"Each gem has a &ePurity&r, from Cracked up to Perfect, and purity is all that sets its strength. A gem gives a different bonus depending on what you put it in: hover over one to see."
+		""
+		"This line covers what to do with them, and with the gear you outgrow."
 	]
 	quest.347DB171ECD19E8C.title: "A Gem in the Rough"
 	quest.349C0D23BBAF2413.quest_desc: [
@@ -1279,7 +1319,7 @@
 		""
 		"Every monster spawner you break drops one, and trial chamber rewards include them too."
 		""
-		"Collect four. You'll see why next."
+		"Collect four, then bring them to the Goddess."
 	]
 	quest.38885A1AF52B23C8.title: "Spirit Orbs"
 	quest.38EAC5CC9ABC90B8.quest_desc: [
@@ -1288,6 +1328,14 @@
 		"They drop &eWither Skull Fragments&r. Nine fragments craft a Wither Skeleton Skull, so you'll have three skulls long before your luck would give them to you."
 	]
 	quest.38EAC5CC9ABC90B8.title: "Skull Fragments"
+	quest.39466924602BC427.quest_desc: [
+		"The world out there is bigger and stranger than you'd think. Terralith reshapes the land into dozens of new biomes, islands float overhead, and towns, towers and ruins wait to be found."
+		""
+		"Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them."
+		""
+		"Here's a &espyglass&r for scouting the horizon."
+	]
+	quest.39466924602BC427.title: "Wanderlust"
 	quest.396B8362F17604D3.quest_desc: [
 		"Macaw's Stairs adds new stair styles, railings, platforms and balconies."
 		""
@@ -1326,10 +1374,8 @@
 		"Wear a full set of &aUncommon&r gear, weapon included, and slay an &cApothic Invader&r. They arrive with a loud noise and a beam of light from the sky, and never in Haven."
 		""
 		"Do both and the &eAscent&r tier is yours. Every Invader drops its own affix item, so it's worth the fight."
-		""
-		"Beyond Ascent lie Summit and Pinnacle, behind the Wither and the Ender Dragon. Keep climbing."
 	]
-	quest.3B003232D8A9449B.title: "The Ascent"
+	quest.3B003232D8A9449B.title: "World Tier: Ascent"
 	quest.3B05A6F3D0207C39.quest_desc: ["The places worth a screenshot. Some are rare enough that you may need a Nature's Compass to find them."]
 	quest.3B05A6F3D0207C39.title: "Wonders of the World"
 	quest.3B2379512913DFEE.quest_desc: ["Pack a warm coat. These are the most beautiful cold places in the world."]
@@ -1340,6 +1386,12 @@
 		"From here the book branches out. &eTools of the Trade&r gets you better gear, &eHearth \\& Table&r fills the kitchen, and &eWanderlust&r is for the road. Follow whichever calls to you."
 	]
 	quest.3B5008C4F0E744F8.title: "Settled In"
+	quest.3B56BC2183E1FD3F.quest_desc: [
+		"White birch among the spruce, cool and quiet."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.3B56BC2183E1FD3F.title: "Birch Taiga"
 	quest.3B9F8587B26491A8.quest_desc: [
 		"Bastion treasure rooms in the Nether have &eSuspicious Soul Sand&r. Brush it for a &eVibranium Smithing Template&r."
 		""
@@ -1385,7 +1437,7 @@
 	quest.3CFD7811CEC9356F.quest_desc: [
 		"Terralith has cherry groves, lavender fields, orchid swamps, deserts with grass in them, and far more."
 		""
-		"Visit these ten. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far."
+		"Visit all ten. Each one ticks off its own quest in this row too. Your Nature's Compass finds any of them, and &eSearch for Next&r skips to another one if the first is too far."
 		""
 		"Keep an eye out on the way: villages, ruins and waystones turn up where you least expect them. Take this &eExplorer's Compass&r for the structures you'll want to find next."
 	]
@@ -1469,6 +1521,12 @@
 		"That's the Hollow, mapped and mastered."
 	]
 	quest.417C041D143D1FDF.title: "Five by Five"
+	quest.428EA159EB908121.quest_desc: [
+		"Rolling high ground of grass and bare stone. Climb a ridge and look around."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.428EA159EB908121.title: "Highlands"
 	quest.42D3CDF4C2603F32.quest_desc: [
 		"Terralith builds its own walled villages, including one for the desert."
 		""
@@ -1517,6 +1575,14 @@
 		"Every proper cabin has one over the fireplace."
 	]
 	quest.45423E939EF42180.title: "Mount Your Catch"
+	quest.4545BC108AF73330.quest_desc: [
+		"The &eDestruction Gadget&r clears a whole box of blocks in front of you: a hillside in the way, a wall you changed your mind about, the dirt hut from your first night."
+		""
+		"Hold &eG&r to set how wide, tall and deep it digs. The preview shows exactly what goes before you commit."
+		""
+		"If you clear the wrong thing, &eUndo&r in its menu puts it back."
+	]
+	quest.4545BC108AF73330.title: "Clear the Site"
 	quest.458E38962AACF686.quest_desc: [
 		"A diamond, four Prosperity Shards and four Inferium Essence make an &eInfusion Crystal&r."
 		""
@@ -1580,7 +1646,7 @@
 	]
 	quest.4781CCBA023D08B1.title: "A Furnace That Makes Power"
 	quest.4792FFB4325B8F0C.quest_desc: [
-		"Four walls keep the rain off. This chapter is about making them feel like home."
+		"Four walls keep the rain off. This chapter is about making them feel like home, and it all starts at a &ecrafting table&r."
 		""
 		"Each quest shows you one family of blocks from the pack's building mods and hands you a few to try. Do them in any order, or skip the ones that don't suit your style."
 		""
@@ -1626,12 +1692,6 @@
 		"Found one? Copy it: seven diamonds, a block of netherrack and the template make two."
 	]
 	quest.4BC9D4CA74A6568C.title: "The Smithing Table"
-	quest.4BEE64357E5E7FD6.quest_desc: [
-		"Once you have power running, a &eBasic Wireless Player Charger&r charges the items in your inventory whenever you're near it, gadgets included."
-		""
-		"Feed it FE from a generator or cable and set it in the middle of your build site. The advanced version reaches further and charges faster."
-	]
-	quest.4BEE64357E5E7FD6.title: "Charge As You Go"
 	quest.4C099DAA5AC4678D.quest_desc: [
 		"The &eWireless Crafting Grid&r is a Crafting Grid you carry. It's built like the Wireless Grid, around a Crafting Grid instead."
 		""
@@ -1953,7 +2013,7 @@
 		""
 		"How strong that loot gets, and how strong the monsters guarding it are, depends on your &eWorld Tier&r. Press &eCtrl+T&r to see them."
 		""
-		"This chapter walks you from your first lucky drop to the tiers beyond."
+		"The top line climbs the World Tiers. The middle one is a guide to gems and the workbenches, and the bottom one is fights worth seeking out. Follow whichever you're in the mood for."
 	]
 	quest.55274C15951A8044.title: "Monsters \\& Mettle"
 	quest.55554CCED560B585.quest_desc: [
@@ -2000,6 +2060,12 @@
 		"Shutters, blinds and parapets come in the same woods."
 	]
 	quest.56AF8269532901B1.title: "Let the Light In"
+	quest.56BEDBCEE539CC71.quest_desc: [
+		"Cherry trees in full bloom, and pink petals drifting over everything."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.56BEDBCEE539CC71.title: "Sakura Grove"
 	quest.56E562F5985B73AF.quest_desc: [
 		"A &epaxel&r is a pickaxe, an axe and a shovel in one tool. No more swapping every time you hit dirt."
 		""
@@ -2151,6 +2217,18 @@
 		"In this pack every artifact counts as a relic too, so everything in this chapter can level up."
 	]
 	quest.5D03C361BA83F81A.title: "A Relic of Your Own"
+	quest.5D11B0B7FFB9553A.quest_desc: [
+		"Wide, open grassland that goes on and on. Good riding country."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.5D11B0B7FFB9553A.title: "Steppe"
+	quest.5D30300305202129.quest_desc: [
+		"Dry scrub and low bushes. Not much shade, but a long view."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.5D30300305202129.title: "Shrubland"
 	quest.5D5482E0506DF402.quest_desc: [
 		"Hostile mobs sometimes drop a &cMiniature Red Heart&r. Hold Shift over one to see the odds."
 		""
@@ -2412,7 +2490,7 @@
 		""
 		"When the bar fills, the relic levels up and gives you an &eUpgrade Point&r. Spend it on the research screen to make an ability stronger."
 		""
-		"The &eRelic Experience Bottles&r in the reward are a shortcut: experience for your relics rather than for you."
+		"&eRelic Experience Bottles&r are a shortcut: experience for your relics rather than for you."
 	]
 	quest.67ED1E2EBC73CAC8.title: "It Grows on You"
 	quest.6865ABE5A88680EF.quest_desc: [
@@ -2601,6 +2679,12 @@
 		"Halibut and herring prefer seas that aren't too warm. Tuna, grouper and jellyfish turn up in any ocean."
 	]
 	quest.6F17D8D9506A3BAC.title: "The Open Sea"
+	quest.6F2A07DFF5C26DC2.quest_desc: [
+		"A &estone pickaxe&r mines iron ore, which is the next step up, and it lasts a good deal longer than wood."
+		""
+		"Put the cobblestone you dig to use: a &efurnace&r turns raw iron into ingots, and charcoal from logs works as fuel when coal runs short."
+	]
+	quest.6F2A07DFF5C26DC2.title: "Set in Stone"
 	quest.6F341E1F6E495AC2.quest_desc: [
 		"Eat &e50 different foods&r for another &c3 hearts&r."
 		""
@@ -2626,11 +2710,11 @@
 	quest.6FDEE1032AA1E808.quest_desc: [
 		"Watch for gear with a colored name. That's an &eaffix item&r: Common, Uncommon, Rare, Epic or Mythic, each with more bonuses than the last."
 		""
-		"They turn up in chests, and on &eElite&r mobs, the ones with names that hit too hard."
+		"They turn up in chests, and on &eElite&r mobs, the ones with names that hit too hard. Pick up your first one and the &eHaven&r tier is yours."
 		""
-		"Until you open the World Tier screen with &eCtrl+T&r and activate Haven, they show as Unidentified. Do that first."
+		"Until Haven is active, affix items show as Unidentified. Open the World Tier screen with &eCtrl+T&r to check."
 	]
-	quest.6FDEE1032AA1E808.title: "Something Special"
+	quest.6FDEE1032AA1E808.title: "World Tier: Haven"
 	quest.7034F747A83C00B3.quest_desc: ["Clear the guardians from an ocean monument."]
 	quest.7034F747A83C00B3.quest_subtitle: "Commission"
 	quest.7034F747A83C00B3.title: "Monument Work"
@@ -2684,6 +2768,12 @@
 		"You'll be fighting a few of these for their hearts if you're after the Alloy Paxel. One of them goes on the wall."
 	]
 	quest.7179EBBC885D43E1.title: "A Lich in Gold"
+	quest.718F1F03BD03F83A.quest_desc: [
+		"Purple as far as you can see. Bring a friend to show it to."
+		""
+		"Your &eNature's Compass&r can find it."
+	]
+	quest.718F1F03BD03F83A.title: "Lavender Forest"
 	quest.71C17E71CA1B9CBF.quest_desc: [
 		"A bottle that slowly fills with time while you carry it."
 		""
@@ -2692,6 +2782,12 @@
 		"Gold, diamonds, lapis, a clock and a glass bottle."
 	]
 	quest.71C17E71CA1B9CBF.title: "Time in a Bottle"
+	quest.72161221FA31FC21.quest_desc: [
+		"The last tier. Wear a full set of &5Epic&r gear, weapon included, and free the End by slaying the &cEnder Dragon&r."
+		""
+		"From here the monsters are as strong as they get, and so is the loot. You can always step back down with &eCtrl+T&r when you'd rather build in peace."
+	]
+	quest.72161221FA31FC21.title: "World Tier: Pinnacle"
 	quest.72498393775CC042.quest_desc: [
 		"A whole world built for digging: no towns, no structures, just stone, layer on layer, laced with ore."
 		""
@@ -2772,6 +2868,14 @@
 		"Hover over a pearl to see its waves, rewards and rules."
 	]
 	quest.7422BC30ED1E3918.title: "A Pearl Full of Trouble"
+	quest.74F1BBF845B45E83.quest_desc: [
+		"Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way."
+		""
+		"Feed it furnace fuel, like coal, and put a gadget in to charge. Coal blocks burn longest."
+		""
+		"Later on, any machine or cell that charges items will top up a gadget too."
+	]
+	quest.74F1BBF845B45E83.title: "Power to the Gadgets"
 	quest.74FDF8562F62A3A2.quest_desc: [
 		"A Teleport Pad placed in the End leads to &eThe Beyond&r."
 		""
@@ -2830,6 +2934,12 @@
 		"One more step remains, from Mystical Agradditions. That's the finale."
 	]
 	quest.77BBC2D46DBB90A5.title: "Supremium"
+	quest.7818BFA73E8FCBF3.quest_desc: [
+		"Ascent has a challenge Gateway of its own, tougher than the Frontier's and better paid."
+		""
+		"As before, JEI has the pearl's recipe. Bring your best gear, and some food."
+	]
+	quest.7818BFA73E8FCBF3.title: "The Sunlit Ascent"
 	quest.78AC94275EBD0E2B.quest_desc: [
 		"The &eUltimate Machine Core&r is Oritech's best: prometheum around a superconductor. It gives a machine the highest quality there is, and with it the most room for addons."
 		""
@@ -2911,14 +3021,6 @@
 		"Rainbow trout and pink salmon also turn up in cold rivers."
 	]
 	quest.7B4F04D3F0EF829A.title: "Cold Water"
-	quest.7B86AD6AA450F6EE.quest_desc: [
-		"Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way."
-		""
-		"Feed it furnace fuel, like coal, and put a gadget in to charge. Coal blocks burn longest, which is why the last quest gave you some."
-		""
-		"Later on, any machine or cell that charges items will top up a gadget too."
-	]
-	quest.7B86AD6AA450F6EE.title: "Power to the Gadgets"
 	quest.7BA7C43ED5298D12.quest_desc: [
 		"Press &eM&r to open the claim map. Click and drag over the land around your base to claim it, and nobody outside your team can break or take anything there."
 		""
@@ -2954,9 +3056,9 @@
 	]
 	quest.7C2B1D710BBE205C.title: "Unobtainium"
 	quest.7C39909A9EE12274.quest_desc: [
-		"Every good home needs a good toolbox. This chapter takes you from your first stone pickaxe all the way to netherite, with a few handy extras on the way."
+		"Every good home needs a good toolbox. This chapter takes you from your first wooden pickaxe all the way to netherite, with a few handy extras on the way."
 		""
-		"A &estone pickaxe&r is where it starts. It mines iron ore, which is the next step up."
+		"Any &ewooden tool&r gets you started. A wooden pickaxe is the one that matters: it mines stone, and stone makes the next set."
 	]
 	quest.7C39909A9EE12274.title: "Tools of the Trade"
 	quest.7CB170FDD5D037D4.quest_desc: [
@@ -2983,14 +3085,6 @@
 		"A &eChemical Infuser&r then combines that chlorine with hydrogen from your first separator. Pipe the &ehydrogen chloride&r into the Chemical Injection Chamber and tier four is running."
 	]
 	quest.7DF583EE662550BA.title: "Hydrogen Chloride"
-	quest.7E470B8B3A5FBCC8.quest_desc: [
-		"Out in the world there are trinkets worth more than diamonds: boots that walk on water, a scarf that finds extra ore, a necklace that bites back."
-		""
-		"You wear them in extra slots for your head, neck, belt, hands, feet and more. Press &eShift+G&r to open them."
-		""
-		"Most of these keepsakes also grow stronger the longer you use them. This chapter shows you how."
-	]
-	quest.7E470B8B3A5FBCC8.title: "Curios \\& Keepsakes"
 	quest.7E53F8F026CA59BE.quest_desc: [
 		"Normally a Vault only opens once for each player. Not here: use another key on a vault you've already opened and it pays out again."
 		""
@@ -3019,6 +3113,7 @@
 	reward_table.354604C3695F61A5.title: "&dLantern Crate"
 	reward_table.3B7A20930808D1EF.title: "&aHearth Crate"
 	task.0020A9EADF46996A.title: "Sulfur"
+	task.0027A0A2FE883201.title: "Visit a Moonlight Grove"
 	task.0038491BE3AE330E.title: "I've eaten 200 foods"
 	task.00C621D86FEB1E77.title: "Any Structory tower"
 	task.01D2D92F747771E1.title: "Got it"
@@ -3045,6 +3140,7 @@
 	task.0E53E2EABA2FF525.title: "An Allthemodium Jetpack"
 	task.0EDA88E344ADA662.title: "Any YUNG's mineshaft"
 	task.0F7BB1E5AEA314BC.title: "Ashen Savanna"
+	task.0F979F7E14A9150E.title: "Visit a Highlands"
 	task.0FE5E7CCEDF35B9C.title: "Socketed a gem"
 	task.104C000CE660C16A.title: "Got it"
 	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
@@ -3108,7 +3204,6 @@
 	task.2A8B583CAE43FC66.title: "Almanac Page: Field Notes"
 	task.2AC24C5202C2EFEA.title: "Any Luminax block"
 	task.2AF481585DD458B9.title: "Got it"
-	task.2BE7C57E865B6807.title: "Show me"
 	task.2C0DC9BF315A0AB3.title: "Found a node"
 	task.2C1BBB4A004879D7.title: "Arrive"
 	task.2CDF9582E525CD02.title: "Any Pattern Grid"
@@ -3126,6 +3221,7 @@
 	task.319A0CEA0AA7B7D4.title: "Something for your feet"
 	task.319E1AA394C84D36.title: "A Chemical Oxidizer or a Thermal Evaporation Controller"
 	task.31FF9531693B2A70.title: "Any Macaw's trapdoor"
+	task.3229C344E0CE8203.title: "Visit a Shrubland"
 	task.32C52FC69C0344F7.title: "Raw Lead"
 	task.32DDB26D25250A05.title: "Find a Trial Chamber"
 	task.33397A484C0B60A7.title: "Crystals of any metal"
@@ -3139,6 +3235,7 @@
 	task.3807E1E12BBFCB20.title: "Raw Zinc"
 	task.389EC6491653276C.title: "Raw Nickel"
 	task.389ED288E8F44930.title: "Got it"
+	task.390125661336DDA3.title: "Visit a Orchid Swamp"
 	task.3A0C7F4C62056F74.title: "A keepsake for fighting"
 	task.3A2464F15CB46D49.title: "Any Wireless Transmitter"
 	task.3AABB44BD8469EF6.title: "A big fish"
@@ -3166,6 +3263,7 @@
 	task.40E7BC15071DB0F4.title: "Any stick template"
 	task.40EDA2B4EAFB892C.title: "Got it"
 	task.4110C6C679DB677F.title: "Corn, cucumber, eggplant, beans, avocado or lemon"
+	task.4159CD60F1C27B48.title: "Visit a Lush Desert"
 	task.41D3B29E8FE18C21.title: "Visit the Mining Dimension"
 	task.41E8FF2DA3EA0D21.title: "Any basic factory"
 	task.4477CD302009AFF7.title: "Cabbage, tomato, onion or rice"
@@ -3184,6 +3282,7 @@
 	task.4A2394EC462A25F0.title: "Got it"
 	task.4A9020F4241394A6.title: "Got it"
 	task.4A9D8ED2E7AAB659.title: "Overworldian Nights Gate Pearl"
+	task.4AD7AC6D85207D49.title: "Visit a Lavender Forest"
 	task.4B01344D556DF3CF.title: "Any balcony, railing or platform"
 	task.4B0F74D5901E7199.title: "Almanac Page: The Cookbook"
 	task.4B48ED3A521FB7AA.title: "Vibranium Ingot"
@@ -3201,6 +3300,7 @@
 	task.52146EE7CD4934E2.title: "Any Botany Pot"
 	task.5230052CA58924C4.title: "Any Importer"
 	task.5240A5B70CAE3C96.title: "Defeat an Elder Guardian"
+	task.5246A092D2EC68AE.title: "Visit a Alpine Grove"
 	task.533C344A7D7924D8.title: "Any Macaw's light"
 	task.535A1353A094B3D7.title: "Steppe"
 	task.53A32D7647AC1972.title: "Any feast"
@@ -3209,6 +3309,7 @@
 	task.5514FC50F2C15160.title: "An Emerald Jetpack"
 	task.55510BA463EC6A4A.title: "Visit the Other"
 	task.556C080414F0C440.title: "Any Growth Accelerator"
+	task.55C2462C42310547.title: "Any wooden tool"
 	task.560BAC2ACA4F883E.title: "Painted Mountains"
 	task.5658F2DE00118B83.title: "Moonlight Grove"
 	task.5701A8BF97CC6412.title: "Defeat a Warden"
@@ -3252,18 +3353,21 @@
 	task.6CE668C15DB281D0.title: "Got it"
 	task.6CF6FDAFD316C3BB.title: "Allthemodium Ingot"
 	task.6D1AA13DA702459B.title: "Charged it"
+	task.6D59484744ADF30D.title: "Visit a Sakura Grove"
+	task.6DA0618E561E149A.title: "Set foot in the Overworld"
 	task.6DBBAE5C125636AB.title: "Any Structory ruin"
 	task.6DC4948959CC4A49.title: "Visit the Deep Dark"
 	task.6E8E039819E84275.title: "Skylands in Winter"
 	task.6F78BFC2E40B5689.title: "64 logs, any kind"
 	task.6FFC7E03F144460D.title: "Any Macaw's door"
 	task.70EEF7F7464AD547.title: "8 processors, any grade"
+	task.71223C5281712EF9.title: "Visit a Birch Taiga"
 	task.71812351F6ACFE58.title: "An iron, gold or diamond generator"
 	task.723EADE44873F914.title: "Got it"
-	task.728D2F0E6200C997.title: "Let's build"
 	task.72A3097D3D3B6448.title: "Fluorite"
 	task.72C834CC8ECD5A60.title: "Any Grid"
 	task.72F3BCF5E0B14BED.title: "Any Macaw's path or paving"
+	task.72F98C1B69FD59E3.title: "Visit a Steppe"
 	task.7336271231723C5E.title: "I've eaten 25 foods"
 	task.735FBAF53702E674.title: "A copper backpack or better"
 	task.7414478B6B0141B5.title: "Unobtainium Ingot"

@@ -8,8 +8,8 @@ CHAPTER = {
         "spine": ["start", "cables", "cell", "orb", "steel", "blazing", "flux_dust", "flux_link", "reactor"],
         "branches": {
             "start": {"up": ["gg_upgrade"], "down": ["gg_other"]},
-            "cables": {"up": ["wrench"]},
             "cell": {"up": ["charger"], "down": ["iron_furnace", "gen_augment"]},
+            "cables": {"up": ["wrench"], "down": ["charging_station"]},
             "orb": {"up": ["rods_basic"], "down": ["thermo"]},
             "blazing": {"up": ["niotic", "spirited"]},
             "flux_link": {"up": ["flux_storage"], "down": ["flux_controller"]},
@@ -95,6 +95,18 @@ CHAPTER = {
             ],
             "tasks": [{"item": "powah:energy_cell_starter"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
+        },
+        {
+            "key": "charging_station", "title": "Power to the Gadgets",
+            "desc": [
+                "Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way.",
+                "",
+                "Feed it furnace fuel, like coal, and put a gadget in to charge. Coal blocks burn longest.",
+                "",
+                "Later on, any machine or cell that charges items will top up a gadget too.",
+            ],
+            "tasks": [{"item": "charginggadgets:charging_station"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:coal_block", "count": 8}],
         },
         {
             "key": "charger", "title": "Charge on the Go",

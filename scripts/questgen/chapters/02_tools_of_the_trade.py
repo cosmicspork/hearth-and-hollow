@@ -6,10 +6,10 @@ CHAPTER = {
     "icon": "minecraft:iron_pickaxe",
     "layout": {
         "direction": "down",
-        "spine": ["tools", "iron", "iron_armor", "paxel", "diamond", "enchanting", "smithing", "debris",
+        "spine": ["tools", "stone", "iron", "iron_armor", "paxel", "diamond", "enchanting", "smithing", "debris",
                   "netherite", "finale"],
         "branches": {
-            "tools": {"up": ["shield"]},
+            "stone": {"up": ["shield"]},
             "iron": {"up": ["magnet", "advanced_magnet"], "down": ["stick", "stick_template"]},
             "iron_armor": {"up": ["other_metals"]},
             "diamond": {"up": ["diamond_armor"], "down": ["mega_torch", "feral_flare"]},
@@ -20,14 +20,26 @@ CHAPTER = {
     "quests": [
         {
             "key": "tools", "title": "Tools of the Trade",
-            "shape": "hexagon", "size": 1.5, "icon": "minecraft:stone_pickaxe",
+            "shape": "hexagon", "size": 1.5, "icon": "minecraft:wooden_pickaxe",
             "desc": [
-                "Every good home needs a good toolbox. This chapter takes you from your first stone pickaxe all the way to netherite, with a few handy extras on the way.",
+                "Every good home needs a good toolbox. This chapter takes you from your first wooden pickaxe all the way to netherite, with a few handy extras on the way.",
                 "",
-                "A &estone pickaxe&r is where it starts. It mines iron ore, which is the next step up.",
+                "Any &ewooden tool&r gets you started. A wooden pickaxe is the one that matters: it mines stone, and stone makes the next set.",
+            ],
+            "tasks": [{"any": ["minecraft:wooden_pickaxe", "minecraft:wooden_axe", "minecraft:wooden_shovel",
+                               "minecraft:wooden_hoe", "minecraft:wooden_sword", "mekanismtools:wood_paxel"],
+                       "title": "Any wooden tool", "icon": "minecraft:wooden_pickaxe"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:torch", "count": 16}],
+        },
+        {
+            "key": "stone", "title": "Set in Stone",
+            "desc": [
+                "A &estone pickaxe&r mines iron ore, which is the next step up, and it lasts a good deal longer than wood.",
+                "",
+                "Put the cobblestone you dig to use: a &efurnace&r turns raw iron into ingots, and charcoal from logs works as fuel when coal runs short.",
             ],
             "tasks": [{"item": "minecraft:stone_pickaxe"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:furnace"}, {"item": "minecraft:coal", "count": 8}],
         },
         {
             "key": "shield", "title": "Shield Up",

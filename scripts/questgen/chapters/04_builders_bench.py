@@ -88,23 +88,25 @@ CHAPTER = {
             "odds": {"up": ["timber"], "down": ["amendments"]},
             "lights": {"up": ["luminax"], "down": ["copper"]},
             "paths": {"up": ["holidays"]},
-            "gadget": {"up": ["exchanger"], "down": ["charging", "wireless"]},
+            "gadget": {"up": ["exchanger"], "down": ["destruction"]},
             "copypaste": {"up": ["template"], "down": ["cut_paste"]},
         },
     },
+    # The Charging Station lives in Sparks; it shows here too, by the gadgets that need it.
+    "links": [{"quest": "sparks:charging_station", "pos": (-7.2, 2.2)}],
     "quests": [
         {
             "key": "bench", "title": "The Builder's Bench",
             "shape": "hexagon", "size": 1.5,
             "desc": [
-                "Four walls keep the rain off. This chapter is about making them feel like home.",
+                "Four walls keep the rain off. This chapter is about making them feel like home, and it all starts at a &ecrafting table&r.",
                 "",
                 "Each quest shows you one family of blocks from the pack's building mods and hands you a few to try. Do them in any order, or skip the ones that don't suit your style.",
                 "",
                 "Most of these blocks are made from everyday materials. Hover over one and press &eR&r to see how. Many also have a second trick when you right-click them, so poke at everything.",
             ],
-            "tasks": [{"check": "Let's build"}],
-            "rewards": [],
+            "tasks": [{"item": "minecraft:crafting_table"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:scaffolding", "count": 16}],
         },
         {
             "key": "chisel", "title": "A Chisel for Everything",
@@ -406,25 +408,15 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "charging", "title": "Power to the Gadgets",
+            "key": "destruction", "title": "Clear the Site",
             "desc": [
-                "Gadgets run on FE. If you don't have a power setup yet, the &eCharging Station&r is the easy way.",
+                "The &eDestruction Gadget&r clears a whole box of blocks in front of you: a hillside in the way, a wall you changed your mind about, the dirt hut from your first night.",
                 "",
-                "Feed it furnace fuel, like coal, and put a gadget in to charge. Coal blocks burn longest, which is why the last quest gave you some.",
+                "Hold &eG&r to set how wide, tall and deep it digs. The preview shows exactly what goes before you commit.",
                 "",
-                "Later on, any machine or cell that charges items will top up a gadget too.",
+                "If you clear the wrong thing, &eUndo&r in its menu puts it back.",
             ],
-            "tasks": [{"item": "charginggadgets:charging_station"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}, {"item": "minecraft:coal_block", "count": 8}],
-        },
-        {
-            "key": "wireless", "title": "Charge As You Go", "optional": True,
-            "desc": [
-                "Once you have power running, a &eBasic Wireless Player Charger&r charges the items in your inventory whenever you're near it, gadgets included.",
-                "",
-                "Feed it FE from a generator or cable and set it in the middle of your build site. The advanced version reaches further and charges faster.",
-            ],
-            "tasks": [{"item": "wirelesschargers:basic_wireless_player_charger"}],
+            "tasks": [{"item": "buildinggadgets2:gadget_destruction"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
