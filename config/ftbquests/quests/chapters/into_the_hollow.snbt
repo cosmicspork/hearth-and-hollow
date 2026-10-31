@@ -15,7 +15,7 @@
 		{
 			icon: {
 				count: 1
-				id: "minecraft:iron_pickaxe"
+				id: "minecraft:lantern"
 			}
 			id: "57D58CBCC225CD17"
 			rewards: [
@@ -35,13 +35,9 @@
 					}
 					type: "item"
 				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
 				{
-					count: 64L
-					id: "3F183B37BBC6712E"
+					count: 32
+					id: "5464D007F49F8F17"
 					item: {
 						count: 1
 						id: "minecraft:torch"
@@ -49,11 +45,878 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "#c:is_cave"
+					icon: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					id: "3F183B37BBC6712E"
+					type: "biome"
+				}
+			]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57D58CBCC225CD17"]
+			icon: {
+				count: 1
+				id: "minecraft:moss_block"
+			}
+			id: "43CDE3A7C43C257D"
+			rewards: [
+				{
+					id: "1A6E64AC743715C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "577C58D8DE098750"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D563D34C3572408"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					icon: {
+						count: 1
+						id: "minecraft:moss_block"
+					}
+					id: "046C882D847E0DBB"
+					type: "biome"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43CDE3A7C43C257D"]
+			icon: {
+				count: 1
+				id: "minecraft:pointed_dripstone"
+			}
+			id: "6D4809624C1B97CE"
+			rewards: [
+				{
+					id: "5FA7D396D2536BF4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A1798611F94D037"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:dripstone_caves"
+					icon: {
+						count: 1
+						id: "minecraft:pointed_dripstone"
+					}
+					id: "12B4D4BCD62C054F"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D4809624C1B97CE"]
+			icon: {
+				count: 1
+				id: "minecraft:mangrove_roots"
+			}
+			id: "74F714E45F2B8EAD"
+			rewards: [
+				{
+					id: "73B4CCDCC01F87E2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79CCEE3DD43E4B91"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2DBB59DF4002C289"
+					item: {
+						count: 1
+						id: "minecraft:moss_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/underground_jungle"
+					icon: {
+						count: 1
+						id: "minecraft:mangrove_roots"
+					}
+					id: "07F507DB5CF7F0EA"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74F714E45F2B8EAD"]
+			icon: {
+				count: 1
+				id: "minecraft:red_mushroom"
+			}
+			id: "0EE1F465B4ACDEB5"
+			rewards: [
+				{
+					id: "359599C1FC686C82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64F477D8DA593617"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D5A1E1B8F12ACE7"
+					item: {
+						count: 1
+						id: "minecraft:mushroom_stew"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/fungal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:red_mushroom"
+					}
+					id: "2A9F279C8AE7E958"
+					type: "biome"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EE1F465B4ACDEB5"]
+			icon: {
+				count: 1
+				id: "minecraft:clay"
+			}
+			id: "5A974AA36DDC7B80"
+			rewards: [
+				{
+					id: "5542A6F822321DC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BAEBDE79025910A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AAFC38DAE86BEE1"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/thermal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:clay"
+					}
+					id: "00C314EA6FBEBECF"
+					type: "biome"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A974AA36DDC7B80"]
+			icon: {
+				count: 1
+				id: "minecraft:blue_ice"
+			}
+			id: "482AE3D49B0CD859"
+			rewards: [
+				{
+					id: "4D3FFC05A1B02865"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B3E42DE4AC60C96"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C830857F758CC88"
+					item: {
+						count: 1
+						id: "minecraft:soul_lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/frostfire_caves"
+					icon: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					id: "1138B6D62B98EC2A"
+					type: "biome"
+				}
+			]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["482AE3D49B0CD859"]
+			icon: {
+				count: 1
+				id: "minecraft:cobweb"
+			}
+			id: "40330ACD0008E5A5"
+			rewards: [
+				{
+					id: "21988686274C2DEA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2225167195B2EF73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "56A165CEF659B84F"
+					item: {
+						count: 1
+						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/infested_caves"
+					icon: {
+						count: 1
+						id: "minecraft:cobweb"
+					}
+					id: "17F4B84A900CD47E"
+					type: "biome"
+				}
+			]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40330ACD0008E5A5"]
+			icon: {
+				count: 1
+				id: "minecraft:tuff"
+			}
+			id: "4F3C2E364A1A6F9E"
+			rewards: [
+				{
+					id: "6A709A0B01C27F4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "465738A4FC4B7434"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/tuff_caves"
+					icon: {
+						count: 1
+						id: "minecraft:tuff"
+					}
+					id: "55D154D1B693D687"
+					type: "biome"
+				}
+			]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3C2E364A1A6F9E"]
+			icon: {
+				count: 1
+				id: "minecraft:magma_block"
+			}
+			id: "63BF0EE6E676E66E"
+			rewards: [
+				{
+					id: "5101699C6A91E727"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "374E6E91870647EA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "79D1F4C323C4EA54"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/mantle_caves"
+					icon: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					id: "188A8B3443F6A5CC"
+					type: "biome"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63BF0EE6E676E66E"]
+			icon: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+			id: "42C7410E288CE2D5"
+			rewards: [
+				{
+					id: "7408107876E3DA8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20EB59464B29A18D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29D384592FE927BC"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/deep_caves"
+					icon: {
+						count: 1
+						id: "minecraft:deepslate"
+					}
+					id: "4D1F40B6FFC923DF"
+					type: "biome"
+				}
+			]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F3C2E364A1A6F9E"]
+			icon: {
+				count: 1
+				id: "minecraft:granite"
+			}
+			id: "3CE585E4B4A78412"
+			optional: true
+			rewards: [
+				{
+					id: "72E60DA7E85DCCB2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "322B577C26113B44"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/granite_caves"
+					icon: {
+						count: 1
+						id: "minecraft:granite"
+					}
+					id: "07A23F4B38392EE2"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/diorite_caves"
+					icon: {
+						count: 1
+						id: "minecraft:diorite"
+					}
+					id: "2356941AC42B6740"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/andesite_caves"
+					icon: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					id: "3DB9716D00F41936"
+					type: "biome"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40330ACD0008E5A5"]
+			icon: {
+				count: 1
+				id: "minecraft:spider_eye"
+			}
+			id: "311E4E25B1251EAB"
+			optional: true
+			rewards: [
+				{
+					id: "696509D8FA0744E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D395AEEE357CA9E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "kindling"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "5612611720F2CE21"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:cave_spider"
+					id: "0C66AD2CED5272B6"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42C7410E288CE2D5"]
+			icon: {
+				count: 1
+				id: "minecraft:soul_lantern"
+			}
+			id: "314A53DD91312149"
+			min_width: 300
+			rewards: [
+				{
+					id: "59FA619D5CF17DFF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2357F7666D979FEB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0FF0592EB186BDF9"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					icon: {
+						count: 1
+						id: "minecraft:moss_block"
+					}
+					id: "0D75DCBF57BD296C"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:dripstone_caves"
+					icon: {
+						count: 1
+						id: "minecraft:pointed_dripstone"
+					}
+					id: "0572B2CD476BE9F9"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/underground_jungle"
+					icon: {
+						count: 1
+						id: "minecraft:mangrove_roots"
+					}
+					id: "6498DAF43F5EDA57"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/fungal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:red_mushroom"
+					}
+					id: "59EABA4D4A8FF5CD"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/thermal_caves"
+					icon: {
+						count: 1
+						id: "minecraft:clay"
+					}
+					id: "658275DD32D05257"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/frostfire_caves"
+					icon: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					id: "5DD49C352B02DA57"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/infested_caves"
+					icon: {
+						count: 1
+						id: "minecraft:cobweb"
+					}
+					id: "0EE8F35057EDE16E"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/tuff_caves"
+					icon: {
+						count: 1
+						id: "minecraft:tuff"
+					}
+					id: "310142D198538916"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/mantle_caves"
+					icon: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					id: "79B8FEF15CAE5CBA"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/deep_caves"
+					icon: {
+						count: 1
+						id: "minecraft:deepslate"
+					}
+					id: "0071D24E173529B6"
+					type: "biome"
+				}
+			]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			id: "30470F3BA87F18FF"
+			rewards: [
+				{
+					id: "5D05B1304C475B93"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DBE849E138C423B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					id: "19BAF9D0C96E4077"
+					structure: "#bettermineshafts:better_mineshafts"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["30470F3BA87F18FF"]
+			id: "64142DBF2F5648FE"
+			rewards: [
+				{
+					id: "717B09297D327567"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56508967F906E230"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					id: "22D98DF5755974BE"
+					structure: "#betterdungeons:better_dungeons"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["64142DBF2F5648FE"]
+			id: "4CA5BD885E464469"
+			rewards: [
+				{
+					id: "2F928F9506A6DD4D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "099561F6C68AFADC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "hearth"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					id: "5F67B3C68FC91C70"
+					structure: "betterstrongholds:stronghold"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4CA5BD885E464469"]
+			icon: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			id: "07BD59A4F375F180"
+			rewards: [
+				{
+					id: "23947E9C9C04A106"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "25E9E88F8564DB96"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4DD897B3C7D2875A"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "minecraft:sculk_shrieker"
+					}
+					id: "2EE5CD8C543E5867"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["086155A9E07F1B84"]
 			id: "187942916B31E3C3"
 			rewards: [
 				{
@@ -80,11 +943,11 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["57D58CBCC225CD17"]
+			dependencies: ["086155A9E07F1B84"]
 			icon: {
 				count: 1
 				id: "alltheores:fluorite"
@@ -157,11 +1020,10 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["57D58CBCC225CD17"]
 			icon: {
 				count: 1
 				id: "alltheores:raw_tin"
@@ -186,6 +1048,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					icon: {
@@ -234,10 +1097,10 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["086155A9E07F1B84"]
+			dependencies: ["30470F3BA87F18FF"]
 			icon: {
 				count: 1
 				id: "oreberriesreplanted:iron_oreberry_bush"
@@ -278,8 +1141,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["088391B0BEA824F5"]
@@ -323,8 +1186,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 2.0d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["086155A9E07F1B84"]
@@ -414,11 +1277,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["02BC9448B77D2685"]
+			dependencies: ["57D58CBCC225CD17"]
 			icon: {
 				count: 1
 				id: "goblintraders:goblin_trader_spawn_egg"
@@ -464,11 +1327,11 @@
 					value: 1
 				}
 			]
-			x: -1.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["02BC9448B77D2685"]
+			dependencies: ["42C7410E288CE2D5"]
 			icon: {
 				count: 1
 				id: "geore:diamond_shard"
@@ -510,8 +1373,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 4.0d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["02BC9448B77D2685"]
@@ -589,8 +1452,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["76DF8AE0C9039AE4"]
@@ -624,8 +1487,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: 6.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["76DF8AE0C9039AE4"]
@@ -671,11 +1534,10 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["76DF8AE0C9039AE4"]
 			id: "2F7240862881C340"
 			rewards: [
 				{
@@ -695,6 +1557,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "49A4CD5FA7795BB0"
@@ -706,7 +1569,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["2F7240862881C340"]
@@ -758,8 +1621,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["0CDF490522849D03"]
@@ -792,8 +1655,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 10.0d
+			x: 4.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["0CDF490522849D03"]
@@ -826,11 +1689,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
-			y: 10.0d
+			x: 2.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["0CDF490522849D03"]
+			dependencies: ["03888092D173CBED"]
 			id: "0EF2A9AC02797372"
 			rewards: [
 				{
@@ -861,8 +1724,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 12.0d
+			x: 6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["0EF2A9AC02797372"]
@@ -907,8 +1770,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 12.0d
+			x: 6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["0EF2A9AC02797372"]
@@ -942,11 +1805,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 12.0d
+			x: 6.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["0EF2A9AC02797372"]
+			dependencies: ["76DF8AE0C9039AE4"]
 			id: "52E482C149D7265D"
 			rewards: [
 				{
@@ -977,8 +1840,8 @@
 					type: "biome"
 				}
 			]
-			x: 0.0d
-			y: 14.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["52E482C149D7265D"]
@@ -1022,8 +1885,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 16.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3BF050ED090F5DFF"]
@@ -1056,8 +1919,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 18.0d
+			x: 10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["202A345B110DB328"]
@@ -1114,8 +1977,8 @@
 					type: "dimension"
 				}
 			]
-			x: 0.0d
-			y: 20.0d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["72498393775CC042"]
@@ -1145,11 +2008,11 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: 20.0d
+			x: 12.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["72498393775CC042"]
+			dependencies: ["0EF2A9AC02797372"]
 			id: "417C041D143D1FDF"
 			rewards: [
 				{
@@ -1181,8 +2044,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 22.0d
+			x: 8.0d
+			y: 18.0d
 		}
 	]
 }

@@ -43,7 +43,7 @@ CHAPTER = {
         ["wanderlust", "lootr", "glider", "updraft", "orbs", "goddess", "horned", "trouble"],
         [f"biome_{b[0]}" for b in TEN_BIOMES] + ["skylands", "volcano", "biomes"],
         ["villages", "rs_villages", "tavern", "fortified", "waystones", "sharestone"],
-        ["ruins", "towers", "sky", "witch_tower", "witch_hut", "temple", "stronghold", "dungeon", "mineshaft"],
+        ["ruins", "towers", "sky", "witch_tower", "witch_hut", "temple"],
         ["traveler"],
     ]},
     # Shown here as well as in Monsters & Mettle, beside the quest that points to them.
@@ -263,28 +263,6 @@ CHAPTER = {
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
-            "key": "dungeon", "title": "Down in the Dark",
-            "desc": [
-                "YUNG's Better Dungeons replaces the old cobblestone box with real dungeons: skeleton dungeons, spider dungeons, and zombie dungeons with a staircase down from the surface.",
-                "",
-                "Bring torches, food and a good sword. Breaking the spawners makes the place quieter, and drops something you'll want soon.",
-            ],
-            "tasks": [{"structure": "#betterdungeons:better_dungeons", "title": "Any YUNG's dungeon",
-                       "icon": "minecraft:skeleton_skull"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "mineshaft", "title": "Rails Under the Hills", "optional": True,
-            "desc": [
-                "Mineshafts here match the land above them, with desert, icy, jungle, lush, badlands and mushroom versions and more.",
-                "",
-                "They're a fast way to find ore, and the minecart chests are Loot Chests too.",
-            ],
-            "tasks": [{"structure": "#bettermineshafts:better_mineshafts", "title": "Any YUNG's mineshaft",
-                       "icon": "minecraft:rail"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
             "key": "temple", "title": "The Pharaoh's Curse", "optional": True,
             "desc": [
                 "Desert temples here are deep tombs, and the curse is real: you get &cMining Fatigue&r inside until the temple is cleared, so digging is slow going.",
@@ -292,17 +270,6 @@ CHAPTER = {
                 "Find the Pharaoh at its heart and put him to rest. The curse lifts with him.",
             ],
             "tasks": [{"advancement": "betterdeserttemples:temple_clear"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
-        },
-        {
-            "key": "stronghold", "title": "The Stronghold", "optional": True,
-            "desc": [
-                "Strongholds are huge here: libraries, armories, prisons, crypts and long, dark corridors, all around the End Portal room.",
-                "",
-                "You don't have to go through the portal yet. But it's worth knowing where it is.",
-            ],
-            "tasks": [{"structure": "betterstrongholds:stronghold", "title": "Find the stronghold",
-                       "icon": "minecraft:ender_eye"}],
             "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
