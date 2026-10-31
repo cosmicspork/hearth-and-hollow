@@ -161,6 +161,10 @@ file = "config/ftbquests/quests/reward_tables/lantern.snbt"
 hash = "18d3c7527708584e938258e4238907c598ee2968af40c36a1100a7d79ef6bbc0"
 
 [[files]]
+file = "config/hourglass-server.toml"
+hash = "fb151822c1e1b88361ecfd9e3fea487d287e62f92de8cf00a0c24bdee44c5ed0"
+
+[[files]]
 file = "config/ironjetpacks/jetpacks/allthemodium.json"
 hash = "10127660416696d9c68032deb149e7e262c78b96efc68d1ac8a7d4e4d342a436"
 
