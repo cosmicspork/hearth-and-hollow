@@ -29,6 +29,86 @@ file = "config/explorerscompass-common.toml"
 hash = "a47e2a62dfe5cc2f92dd12b1ce1cdd323703e88c14977e5064be14ea588f8b12"
 
 [[files]]
+file = "config/extendedcrafting-common.toml"
+hash = "18ebafd04d9ff5f53170aa726d6abe973ddd4ed416bc4636c6d30b95ba0dea8f"
+
+[[files]]
+file = "config/extendedcrafting/singularities/aluminum.json"
+hash = "2fbb0fdb5d95f3487c2655d5d0a236aa9b17677c832b3ce7a6847de23fb7843b"
+
+[[files]]
+file = "config/extendedcrafting/singularities/bronze.json"
+hash = "ccf71176edbe08a4a77701ccd27251bb4c8f13c8f73cd6455e84fb9712bd87d7"
+
+[[files]]
+file = "config/extendedcrafting/singularities/coal.json"
+hash = "0ae1f7340d548abe2c6418b4e4e22836d0d086bf9accb63fdc7826e948146a68"
+
+[[files]]
+file = "config/extendedcrafting/singularities/copper.json"
+hash = "b8bedddbab362903586bdf8400c557b377082f763d31c83445d0a32e237b98f9"
+
+[[files]]
+file = "config/extendedcrafting/singularities/diamond.json"
+hash = "d92bfc4ab34b0b61684df3746a34d26bab6375116b3d3cb6195d096cc906b06b"
+
+[[files]]
+file = "config/extendedcrafting/singularities/electrum.json"
+hash = "0680c4cba825468048162ef0d4bb3db7b3b52417d52774581fe432a82238c1e5"
+
+[[files]]
+file = "config/extendedcrafting/singularities/emerald.json"
+hash = "446cfc0973dda02c495835bb45d406a801103144903edfcc641baca393dcee48"
+
+[[files]]
+file = "config/extendedcrafting/singularities/glowstone.json"
+hash = "631a85daa1c1b290eea94e8f9fa765a3454fc20a7b9b65d657cf49828acb433c"
+
+[[files]]
+file = "config/extendedcrafting/singularities/gold.json"
+hash = "19006ad7a8976d18443b82df40361950d0f66fb08b7622a04e924c138e2827b7"
+
+[[files]]
+file = "config/extendedcrafting/singularities/invar.json"
+hash = "a3fa94dfd5f27f9a310a499be2d9ad1c8ed72766588c993a50c52adda9d90552"
+
+[[files]]
+file = "config/extendedcrafting/singularities/iron.json"
+hash = "493f7f84e396a0ab98a75ab79878d406466a17d6604b1cc3af72e7d585f9cef4"
+
+[[files]]
+file = "config/extendedcrafting/singularities/lapis_lazuli.json"
+hash = "79d987f64ea300c7e7397233023ee4e62d2469df2ae9e29eee91aadfe795baba"
+
+[[files]]
+file = "config/extendedcrafting/singularities/lead.json"
+hash = "b10dbdd5484f61eebbec242d2b7bcf4baf70d9d7286b1d713cba7ba7891cedc5"
+
+[[files]]
+file = "config/extendedcrafting/singularities/nickel.json"
+hash = "42f9a7676416267e2b8c11734218b30d519e441859c0b6f831b4489e4d0e3e39"
+
+[[files]]
+file = "config/extendedcrafting/singularities/platinum.json"
+hash = "b12e8c0c866c399e1fb6b1def57404507472bbc6156ee66aac2bec0185396ec4"
+
+[[files]]
+file = "config/extendedcrafting/singularities/redstone.json"
+hash = "fc2e360ad8ba4905ad4eb87541e8a7feeb19d2a67310f66a14cb27528a9b805f"
+
+[[files]]
+file = "config/extendedcrafting/singularities/silver.json"
+hash = "c653622d41fec45a9feba046245ff3ad0dad7e095bf93cf00ef7790c600a2930"
+
+[[files]]
+file = "config/extendedcrafting/singularities/steel.json"
+hash = "d82f20cced1c7c206cb20b5f409b34990cf695f9af6417ac694f3a1c1fde8bb5"
+
+[[files]]
+file = "config/extendedcrafting/singularities/tin.json"
+hash = "f35d53b6ab13d328de8f035d52b59aa617391d2135aaaedda3d59f38fb8a8929"
+
+[[files]]
 file = "config/fancymenu/assets/logo.png"
 hash = "52d7474c13737d58f26869480fa03aeaa0ed96db65c7a0f431215a3af43d1530"
 
@@ -62,19 +142,19 @@ hash = "f08cb9e93177347bd05fae88b8533afe0f371b37dd1d3f35259aa8b3226ec88d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alloy_paxel.snbt"
-hash = "d9ffbb4d6af73a09e9a16a893c4364cecff266352930b008b9048818fd359c68"
+hash = "1350e829facb349c29358280132ff94496330e173152957d8d44cba50c764f7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/allthemodium_ascent.snbt"
-hash = "d8e6ff69274fabd0c242f54475a5fda60a0eaf15840158470bae5c848bc6f4af"
+hash = "01be958a89978337f3e83b2c211d4817dc16eaff576d031791ab0e907a2f9b4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/almanac.snbt"
-hash = "db74d337c3e9f283a524f5e6f7cf0e0a6e697380128e73be7b2892588df54f3c"
+hash = "b933dae77c296641ec7b16c63d5abfbd5ad99d9a625292d69ff94406f3e7c93e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
-hash = "2951ac8ef33c00eebb9aa6a96b0c78cee6dd3d9c0a15d1465c41465c3adda492"
+hash = "30b7f8257caf4a17e19226c125d44e529062d62214ebcdad15b7ded1a0d79880"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/builders_bench.snbt"
@@ -114,7 +194,7 @@ hash = "0a9ac09db4101b9b0e8aced67b1058bca891110c1c9e0c94b51372f3f443ab92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism_reactors.snbt"
-hash = "7edbdf5c1e6d31af20d7fe9ebd8e89ca244e9f618c136b6bdb5a0a6f03f8da53"
+hash = "5683f9d09bf9d0fd407b0dee3d6a240ef40b519af68572ccf8196f0002025402"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism_systems.snbt"
@@ -157,6 +237,10 @@ file = "config/ftbquests/quests/chapters/refined_storage.snbt"
 hash = "dcfe3a41a498d6826fd3762525e05fbcfa6a53ed87f8b8d8f38f16769ede0e05"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/spark_of_creation.snbt"
+hash = "cd4eaecb5297c219d16a38e1a0e3f6a65a3fdb17f1afe1181969cbeaf78f946a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/sparks.snbt"
 hash = "03f0acbf993ddf58e79661d8e306c95411a996be227330e7e1638dd7c114a107"
 
@@ -182,7 +266,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "dd1c1a5b15aa3ba561e1cb80d74ada7b1923dcf7d20609f8b1654da0699cf72c"
+hash = "db311a60caafa8994cb2e54d5e472d9cf2fc80cabaea7fd935aca95e1da41c43"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ember.snbt"
@@ -902,11 +986,11 @@ hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 
 [[files]]
 file = "kubejs/server_scripts/capstone.js"
-hash = "f48159ed854a9b9b2ae833d8296028f7393d66598194ba1ecc2490d32cc37e44"
+hash = "6e46b03c57dbcb4a4a9dde5e3466ad87fd8a300720002c5d8c097db0b486ceda"
 
 [[files]]
 file = "kubejs/server_scripts/creative.js"
-hash = "7565aa3e0bd7bf6905d7d288284b7ea837b4d40b30d40ce5dc55102035880b9e"
+hash = "f0b9b3a831a934142acab50fc6c13fcc4f06d5a801dc22d7aa2e08b57a49f9ab"
 
 [[files]]
 file = "kubejs/startup_scripts/iron_furnaces.js"

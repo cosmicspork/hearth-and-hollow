@@ -1,0 +1,1511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spark_of_creation"
+	group: "3D424858AC8D0F3F"
+	icon: {
+		count: 1
+		id: "hearthandhollow:spark_of_creation"
+	}
+	id: "041AB330B26A5B14"
+	order_index: 27
+	progression_mode: "flexible"
+	quest_links: [
+		{
+			id: "3998A7B330C8807A"
+			linked_quest: "16DF7C38ED7D6E80"
+			x: 4.5d
+			y: 6.75d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "extendedcrafting:ultimate_table"
+			}
+			id: "2AC54E2E6A1616F5"
+			rewards: [
+				{
+					id: "29B78339DC0371B2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "476ED6F8CB39C270"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2D8C3E2059640C31"
+					item: {
+						count: 1
+						id: "extendedcrafting:ultimate_table"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AC54E2E6A1616F5"]
+			icon: {
+				count: 1
+				id: "extendedcrafting:compressor"
+			}
+			id: "1B2D4C086D213720"
+			rewards: [
+				{
+					id: "3F7315E6016C2B04"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "182C76D93E10E201"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F6CDFDEDBAD706E"
+					item: {
+						count: 1
+						id: "extendedcrafting:compressor"
+					}
+					type: "item"
+				}
+				{
+					id: "43ADE39B40DA262F"
+					item: {
+						count: 1
+						id: "extendedcrafting:ultimate_catalyst"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:iron"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "702153B7CC347D16"
+			optional: true
+			rewards: [
+				{
+					id: "069FEBFC5436176F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3ABC3FE79AA143D8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "6C67D64C3A360E65"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:iron"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -7.875d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:gold"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "6524445C3AABEF30"
+			optional: true
+			rewards: [
+				{
+					id: "5EB0279125BD7CA4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "746AE7282F08B7AC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "3ADC1FEE1E5CB6FB"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:gold"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -6.125d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:copper"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "745F23572067F798"
+			optional: true
+			rewards: [
+				{
+					id: "5BE993C95689C0F4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "082DE5E702519220"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "7EB4A6B080102684"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:copper"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -4.375d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:coal"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "0C12B88C20FCFE4D"
+			optional: true
+			rewards: [
+				{
+					id: "14DB6352F68CE925"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6DCD8EB549952487"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "10CA34BC475023B9"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:coal"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -2.625d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:redstone"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "2BE29382279AE83C"
+			optional: true
+			rewards: [
+				{
+					id: "5734747D9FA97928"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "76C9DDC632002C00"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "3C1CAA7C8B5B88F2"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:redstone"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "4FBF3A88A9C27809"
+			optional: true
+			rewards: [
+				{
+					id: "32195750F90C26BC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2346D8E58836F81C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1EC98EAF6443CEEA"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:glowstone"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "3EDA362D1AC61C2E"
+			optional: true
+			rewards: [
+				{
+					id: "5534C32BEE8FE172"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "70D8289A1AFD4E98"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "24E3CB394C4D78A7"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:glowstone"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:diamond"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "23774F00D815BAD7"
+			optional: true
+			rewards: [
+				{
+					id: "0076E8E76C24D440"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "75F57A286CB41454"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1C338D0989B9C52F"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:diamond"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:emerald"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "314590FC5CC27466"
+			optional: true
+			rewards: [
+				{
+					id: "4E59D3E92B99F12F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "35265DB01813BB51"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "080DAD0FE5BA3F25"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:emerald"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 6.125d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:tin"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "33A0F81CF3956DAA"
+			optional: true
+			rewards: [
+				{
+					id: "4B13368993EC51EE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "79A8DB86E09E2A6C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "728E03B1D84CE4B8"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:tin"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:lead"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "3C4BC56DF9C9E69A"
+			optional: true
+			rewards: [
+				{
+					id: "65990E699BCE4254"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5AB485DDF915D411"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "6B15FEF80B4E34FA"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:lead"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:silver"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "171C3838945290BC"
+			optional: true
+			rewards: [
+				{
+					id: "5496CA7DA2DC9937"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7897E1585757DCF4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "6D8C46ACF2196546"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:silver"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:nickel"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "0D2B97C7DD27D3B5"
+			optional: true
+			rewards: [
+				{
+					id: "37C6243B1B67AA90"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "62946B2FD3C220B1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "51984CDE2AEA73B5"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:nickel"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:aluminum"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "6652A1C28FB978CB"
+			optional: true
+			rewards: [
+				{
+					id: "27A30F47C29327CB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4491294BFDD3632A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1ADAF7E2CFC4743C"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:aluminum"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:platinum"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "5F520318C38D225D"
+			optional: true
+			rewards: [
+				{
+					id: "2430CBB23466A1BD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "02BE7F97D09D411B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1677B33F2B6315DB"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:platinum"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:bronze"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "6D485BA017539056"
+			optional: true
+			rewards: [
+				{
+					id: "36E46F3283545E73"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7C10FBBFD2EC3751"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "60F633E94DC47C8A"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:bronze"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:steel"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "68064347936C2E86"
+			optional: true
+			rewards: [
+				{
+					id: "1547F93124BF68E3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "24AA5B8DC66A467D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "4457F53C400B277A"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:steel"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:electrum"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "1E9411F8738A9CF6"
+			optional: true
+			rewards: [
+				{
+					id: "67127E4B7676FE6D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6F8200629C752026"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1AA5EEBDFF9F67A1"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:electrum"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 4.25d
+		}
+		{
+			icon: {
+				components: {
+					"extendedcrafting:singularity_id": "extendedcrafting:invar"
+				}
+				count: 1
+				id: "extendedcrafting:singularity"
+			}
+			id: "3471BBDEEE89C02F"
+			optional: true
+			rewards: [
+				{
+					id: "5E68248959B50CA6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7528ADBAAC5DB068"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "lantern"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					id: "1C2A5F34BA047DCF"
+					item: {
+						components: {
+							"extendedcrafting:singularity_id": "extendedcrafting:invar"
+						}
+						count: 1
+						id: "extendedcrafting:singularity"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "extendedcrafting:ultimate_singularity"
+			}
+			id: "208D08A82F8BC343"
+			rewards: [
+				{
+					id: "1A037ED84356D72F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "26FA3CBD8369EBDF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5BE0C78FFACA20EA"
+					item: {
+						count: 1
+						id: "extendedcrafting:ultimate_singularity"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["208D08A82F8BC343"]
+			icon: {
+				count: 1
+				id: "extendedcrafting:the_ultimate_ingot"
+			}
+			id: "1DD84909B8530028"
+			rewards: [
+				{
+					id: "79E8F1C7B2BE75E9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11C817C79EB2BA6D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4B36ABB54652BAFF"
+					item: {
+						count: 1
+						id: "extendedcrafting:the_ultimate_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1DD84909B8530028"]
+			icon: {
+				count: 1
+				id: "hearthandhollow:spark_of_creation"
+			}
+			id: "783155A7542F9C20"
+			min_width: 300
+			rewards: [
+				{
+					id: "62E7F99A10DDFBF7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 3
+					id: "43CFBB10A4850EAF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					command: "/tellraw @a [\"\",{\"text\":\"{p}\",\"color\":\"gold\"},{\"text\":\" has made a Spark of Creation!\",\"color\":\"light_purple\"}]"
+					id: "18CDD8030FBC5DBE"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5AD54188174DF283"
+					item: {
+						count: 1
+						id: "hearthandhollow:spark_of_creation"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.75d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mekanism:creative_energy_cube"
+			}
+			id: "211F6174C46C7752"
+			optional: true
+			rewards: [
+				{
+					id: "15FA6FCB5DE0A9AE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "250B1176D111F584"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CF1E3B7395CCD62"
+					item: {
+						count: 1
+						id: "mekanism:creative_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "ironjetpacks:jetpack"
+			}
+			id: "55DB193B18AAC6F4"
+			optional: true
+			rewards: [
+				{
+					id: "0925750D2DE591DC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4A8E7DDA125479DB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3232FDCAA2C6B18B"
+					item: {
+						components: {
+							"ironjetpacks:jetpack_id": "ironjetpacks:creative"
+						}
+						count: 1
+						id: "ironjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mekanism:creative_chemical_tank"
+			}
+			id: "7EC72CA02267A666"
+			optional: true
+			rewards: [
+				{
+					id: "43B83A4A5A5E276C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3E57BFD57AE4C80A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E2EF37F5FAA4258"
+					item: {
+						count: 1
+						id: "mekanism:creative_chemical_tank"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mekanism:creative_fluid_tank"
+			}
+			id: "510AC4AB92CFC70D"
+			optional: true
+			rewards: [
+				{
+					id: "7C48EFB5389B921E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2DFC082CD5454C6E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6009877517621994"
+					item: {
+						count: 1
+						id: "mekanism:creative_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mekanism:creative_bin"
+			}
+			id: "18A36FCF159CA190"
+			optional: true
+			rewards: [
+				{
+					id: "2C917FE07065216E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "12E5B0213E497C26"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "566FC5EB0C590321"
+					item: {
+						count: 1
+						id: "mekanism:creative_bin"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "powah:energy_cell_creative"
+			}
+			id: "1CFC5BCEA9656A63"
+			optional: true
+			rewards: [
+				{
+					id: "0F09EF5EB6FFE39D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5D6E7BE4CA32A5FF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3CF06E83A76901C8"
+					item: {
+						count: 1
+						id: "powah:energy_cell_creative"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "refinedstorage:creative_controller"
+			}
+			id: "0185187F2FF301B3"
+			optional: true
+			rewards: [
+				{
+					id: "42FBC38A2FD7FEF2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4DEDBFD6C0E80FC5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D8CBB0D404DB745"
+					item: {
+						count: 1
+						id: "refinedstorage:creative_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "universalgrid:creative_wireless_universal_grid"
+			}
+			id: "65D2D26F132D8F8A"
+			optional: true
+			rewards: [
+				{
+					id: "0E26936309810B11"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "19722F23C1F5354F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6188FA5A45722A28"
+					item: {
+						count: 1
+						id: "universalgrid:creative_wireless_universal_grid"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 9.25d
+		}
+		{
+			icon: {
+				count: 1
+				id: "mininggadgets:upgrade_battery_creative"
+			}
+			id: "4C49B043F29B0D93"
+			optional: true
+			rewards: [
+				{
+					id: "50312D48D633F686"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4844FE27A20A8211"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "ember"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "360C93401E84F997"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_battery_creative"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.25d
+		}
+	]
+}

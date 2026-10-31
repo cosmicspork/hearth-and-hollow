@@ -1,4 +1,6 @@
 {
+	chapter.041AB330B26A5B14.chapter_subtitle: ["A little of everything, crushed into one spark, and creative items from it"]
+	chapter.041AB330B26A5B14.title: "The Spark of Creation"
 	chapter.066DEC55CF9583C9.chapter_subtitle: ["Power, transport, storage and the gear to go with it"]
 	chapter.066DEC55CF9583C9.title: "Mekanism Systems"
 	chapter.07BB46C630FA3246.chapter_subtitle: ["Caves worth seeing, ores worth finding, and faster ways to dig"]
@@ -37,9 +39,9 @@
 	chapter.50A71B15CF9C9BA4.title: "The Builder's Bench"
 	chapter.5201D4A39447C9B2.chapter_subtitle: ["Up to five ingots from every ore"]
 	chapter.5201D4A39447C9B2.title: "Mekanism"
-	chapter.63310C5774205A41.chapter_subtitle: ["Fission, fusion, antimatter, and enough power to break the universe"]
+	chapter.63310C5774205A41.chapter_subtitle: ["Fission, fusion and antimatter"]
 	chapter.63310C5774205A41.title: "Mekanism Reactors"
-	chapter.6A08833828DDC5F3.chapter_subtitle: ["The capstone: one tool, every road"]
+	chapter.6A08833828DDC5F3.chapter_subtitle: ["One tool, every road"]
 	chapter.6A08833828DDC5F3.title: "The Alloy Paxel"
 	chapter.6BCB81E1A28243BE.chapter_subtitle: ["Grow your resources instead of mining them"]
 	chapter.6BCB81E1A28243BE.title: "Mystical Agriculture"
@@ -140,6 +142,8 @@
 		"Each tier moves more fluids, and faster, so it pays to upgrade the busiest lines first."
 	]
 	quest.0169093668F76821.title: "Ultimate Mechanical Pipe"
+	quest.0185187F2FF301B3.quest_desc: ["Refined Storage Controllers and Ultimate Induction Providers make a Creative Controller: a network that never needs power."]
+	quest.0185187F2FF301B3.title: "A Network for Free"
 	quest.018658BB468A1E76.quest_desc: [
 		"The &eIsotopic Centrifuge&r spins uranium hexafluoride into fissile fuel."
 		""
@@ -555,8 +559,6 @@
 		"Pick your arena with care: the Wither breaks blocks as it fights. Three Wither Skeleton Skulls on four soul sand or soul soil summon it, and the Nether's skeletons drop skull fragments."
 	]
 	quest.0B43596D17178607.title: "World Tier: Summit"
-	quest.0B6BD8D81AB5D3C4.quest_desc: ["Tier 3 Battery Upgrades and Ultimate Induction Cells make a Creative Battery for the Mining Gadget."]
-	quest.0B6BD8D81AB5D3C4.title: "A Gadget That Never Tires"
 	quest.0B84A3E5BE9783DF.quest_desc: [
 		"Place an item on a &eCutting Board&r, then use it with a knife in hand to chop it up: cabbage into leaves, meat into cuts, a pumpkin into slices."
 		""
@@ -581,6 +583,12 @@
 		"Each tier holds more charge and flies faster. Hover over a jetpack to compare."
 	]
 	quest.0BEE409DF9D8D1A1.title: "Faster, Higher"
+	quest.0C12B88C20FCFE4D.quest_desc: [
+		"5,000 Coal in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.0C12B88C20FCFE4D.title: "Coal Singularity"
 	quest.0C219C46B19A7D0C.quest_desc: [
 		"An &eElevator&r is eight wool around an ender pearl. Stack two or more in a shaft, one above the other, with room to stand on each."
 		""
@@ -654,6 +662,12 @@
 		"Right-click a Wither with a &eModel Framework&r to attune one. Simulating it costs 2,560 FE a tick, and every run makes a &eGeneralized Ender Prediction&r as well."
 	]
 	quest.0D1ACFCABE48A061.title: "Wither Model"
+	quest.0D2B97C7DD27D3B5.quest_desc: [
+		"5,000 Nickel in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.0D2B97C7DD27D3B5.title: "Nickel Singularity"
 	quest.0D4A947038B9D40A.quest_desc: ["Mystical Agradditions adds an essence &ePaxel&r for every tier: the axe, pickaxe and shovel of one tier, on two sticks."]
 	quest.0D4A947038B9D40A.title: "One Tool for Everything"
 	quest.0D760E2390C4F61B.quest_desc: ["The furnace only does smoking recipes, like a smoker. Good for a kitchen."]
@@ -963,7 +977,7 @@
 	quest.16DF7C38ED7D6E80.quest_desc: [
 		"A Chemical Crystallizer packs antimatter into an &eAntimatter Pellet&r."
 		""
-		"Each pellet is a whole bucket of the stuff. Hold it carefully."
+		"Each pellet is a whole bucket of the stuff. Hold it carefully: one goes into the &eSpark of Creation&r, in its own chapter."
 	]
 	quest.16DF7C38ED7D6E80.title: "Impossible Material"
 	quest.16E214F36D126CC6.quest_desc: ["A laser you carry. One mode mines blocks from far away. The other makes things explode. &eShift+right-click&r switches between them."]
@@ -976,6 +990,12 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Dirt and four Inferium Essence on the pedestals."
 	]
 	quest.1702438719AAB86F.title: "Dirt Seeds"
+	quest.171C3838945290BC.quest_desc: [
+		"5,000 Silver in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.171C3838945290BC.title: "Silver Singularity"
 	quest.174C46A9FEA0F4E0.quest_desc: ["Adds two million RF to a machine's battery and lets it take power in faster. Good for anything that works in bursts."]
 	quest.174C46A9FEA0F4E0.title: "Capacitor Addon"
 	quest.175ECA0CFCA7858E.quest_desc: [
@@ -1028,6 +1048,8 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Lumium Ingots and four Imperium Essence on the pedestals."
 	]
 	quest.189024CF01577218.title: "Lumium Seeds"
+	quest.18A36FCF159CA190.quest_desc: ["Ultimate Bins and Atomic Alloy make a Creative Bin. Put one item in, and it hands out that item forever."]
+	quest.18A36FCF159CA190.title: "A Bin That Gives"
 	quest.192EFC51CA2C567A.quest_desc: ["An extender with a big battery built in: more addon spots and millions of RF of storage in one block."]
 	quest.192EFC51CA2C567A.title: "Power Bank Addon Extender"
 	quest.19A28662874641C7.quest_desc: [
@@ -1092,6 +1114,14 @@
 		"Right-click a Blaze with a &eModel Framework&r to attune one. Simulating it costs 256 FE a tick, and every run makes a &eGeneralized Nether Prediction&r as well."
 	]
 	quest.1B069CCAD8B66D44.title: "Blaze Model"
+	quest.1B2D4C086D213720.quest_desc: [
+		"The &eQuantum Compressor&r crushes 5,000 of one material into a &eSingularity&r, using 5,000,000 FE to do it."
+		""
+		"It needs an &eUltimate Catalyst&r in its catalyst slot, and it keeps it."
+		""
+		"There are nineteen singularities to make. They'll take a while, so set up farms and let the compressor chew."
+	]
+	quest.1B2D4C086D213720.title: "Quantum Compression"
 	quest.1B378960BF299315.quest_desc: [
 		"Grows &eBreeze Essence&r, which crafts back into the real thing."
 		""
@@ -1166,6 +1196,8 @@
 	quest.1CBB82802FC6D781.title: "Gold Tier"
 	quest.1CCDCB049D9FD108.quest_desc: ["Drinks lava for 40 FE/t. Pipe it from a Nether lake and it never stops."]
 	quest.1CCDCB049D9FD108.title: "Magmatic Generator"
+	quest.1CFC5BCEA9656A63.quest_desc: ["Four Nitro Energy Cells and four Nitro Crystals make a Creative Energy Cell."]
+	quest.1CFC5BCEA9656A63.title: "Powah, Unlimited"
 	quest.1CFFF84E84084992.quest_desc: [
 		"Magma cream."
 		""
@@ -1198,20 +1230,30 @@
 		"Both have filters, so you can leave the cobblestone on the ground."
 	]
 	quest.1DBF1C72400C8C4A.title: "Pull It In"
+	quest.1DD84909B8530028.quest_desc: [
+		"Set the Ultimate Singularity in the middle of the Ultimate Crafting Table, ring it with twelve &eCrystaltine Ingots&r, and put a &eBlock of Black Iron&r in each corner of the ring."
+		""
+		"Out comes &eThe Ultimate Ingot&r. Hold on to it."
+	]
+	quest.1DD84909B8530028.title: "The Ultimate Ingot"
 	quest.1E020D6AAB84F089.quest_desc: [
 		"A &eSolar Panel&r makes power in daylight. Anything blocking the sky above it stops it."
 		""
 		"A &eLens of Ender&r fitted to a panel lets it see through blocks, so you can bury it under a floor."
 	]
 	quest.1E020D6AAB84F089.title: "Solar Panel"
-	quest.1E261AFA56C9638A.quest_desc: ["Four Nitro Energy Cells and four Nitro Crystals make a Creative Energy Cell."]
-	quest.1E261AFA56C9638A.title: "Powah, Unlimited"
 	quest.1E496E2ED47A7FDD.quest_desc: [
 		"&eLuminax&r blocks are colored stone that gives off light, made from stone, a dye and glowstone dust."
 		""
 		"They come as blocks, stairs, slabs, walls, buttons and pressure plates in all sixteen colors, so a floor or a ceiling can be the light. Dim versions are made with wool instead of glowstone."
 	]
 	quest.1E496E2ED47A7FDD.title: "Glow in Color"
+	quest.1E9411F8738A9CF6.quest_desc: [
+		"5,000 Electrum in the Quantum Compressor."
+		""
+		"Electrum is an alloy. Press &eR&r on the ingot to see what makes it."
+	]
+	quest.1E9411F8738A9CF6.title: "Electrum Singularity"
 	quest.1EBD11F16E51110E.quest_desc: [
 		"Artifacts turn up in loot chests all over: dungeons, mineshafts, temples, shipwrecks, strongholds and village houses."
 		""
@@ -1254,8 +1296,6 @@
 	quest.1F7BCF7C2C5317D7.title: "End Seeds"
 	quest.1F85DA4ECC1B2654.quest_desc: ["The &ePlacer Module&r puts a block from the router's buffer in front of it. Handy for replanting, or for setting blocks where a machine expects them."]
 	quest.1F85DA4ECC1B2654.title: "Placer Module"
-	quest.1F88D25274EF81E4.quest_desc: ["Wireless Universal Grids and Ultimate Induction Cells make a Creative Wireless Universal Grid that never runs flat."]
-	quest.1F88D25274EF81E4.title: "Everything, Everywhere"
 	quest.1F8973A17F817A3A.quest_desc: [
 		"Macaw's Fences and Walls has picket fences, stockade walls, horse fences, wrought-iron railings, hedges and modern stone walls."
 		""
@@ -1300,12 +1340,20 @@
 	quest.2038E7A17CB7EF02.title: "Black Iron"
 	quest.2042C3929B79A339.quest_desc: ["Built around a golden furnace. From here it branches: emerald or crystal, then obsidian."]
 	quest.2042C3929B79A339.title: "Diamond Furnace"
+	quest.208D08A82F8BC343.quest_desc: [
+		"One of every singularity, on the Ultimate Crafting Table, makes the &eUltimate Singularity&r."
+		""
+		"Press &eR&r on it to see the full set."
+	]
+	quest.208D08A82F8BC343.title: "A Little of Everything"
 	quest.20E5ED1F094AAD43.quest_desc: [
 		"Grows &eLead Essence&r, which crafts back into the real thing."
 		""
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Lead Ingots and four Tertium Essence on the pedestals."
 	]
 	quest.20E5ED1F094AAD43.title: "Lead Seeds"
+	quest.211F6174C46C7752.quest_desc: ["Four Ultimate Energy Cubes and four Ultimate Induction Cells around the Spark make a Creative Energy Cube, full and bottomless."]
+	quest.211F6174C46C7752.title: "Endless Power"
 	quest.2137A757227177C3.quest_desc: [
 		"A front door says a lot about a house. Macaw's Doors has barn doors, stable doors, glass doors, paper doors, western doors and plenty more."
 		""
@@ -1384,6 +1432,12 @@
 	quest.235016AF92062BCA.quest_desc: ["Three ghasts. Mind the fireballs."]
 	quest.235016AF92062BCA.quest_subtitle: "Commission"
 	quest.235016AF92062BCA.title: "Quiet the Wailing"
+	quest.23774F00D815BAD7.quest_desc: [
+		"5,000 Diamond in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.23774F00D815BAD7.title: "Diamond Singularity"
 	quest.23A286CC00383011.quest_desc: [
 		"Tier five starts by dissolving ore in &esulfuric acid&r. The &eChemical Dissolution Chamber&r turns each ore into a big helping of &eDirty Slurry&r."
 		""
@@ -1666,6 +1720,12 @@
 	quest.2AA2D6536DD79316.title: "Heart Amulet"
 	quest.2AC05EC2962F2631.quest_desc: ["An &eEnergy Hopper&r charges the items inside the chest or other inventory it touches. Drop your tools in overnight."]
 	quest.2AC05EC2962F2631.title: "Energy Hopper"
+	quest.2AC54E2E6A1616F5.quest_desc: [
+		"The &eUltimate Crafting Table&r is 9x9: two Elite tables, a block of emerald and Ultimate Components."
+		""
+		"Everything in this chapter is made on one. The tables before it are in &eAllthemodium Ascent&r."
+	]
+	quest.2AC54E2E6A1616F5.title: "The Biggest Table"
 	quest.2AD377E7C7CA95A3.quest_desc: [
 		"Grows &eSpider Essence&r, which crafts back into the real thing."
 		""
@@ -1698,6 +1758,12 @@
 		"A paraglider and a good updraft will get you between islands. Falling will get you down."
 	]
 	quest.2BE03CBB14E8327A.title: "Four Seasons in the Sky"
+	quest.2BE29382279AE83C.quest_desc: [
+		"5,000 Redstone in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.2BE29382279AE83C.title: "Redstone Singularity"
 	quest.2BE46948DBA4CCF5.quest_desc: ["Carbon Fibre Strands around redstone. Spin coal dust in the Centrifuge for the strands."]
 	quest.2BE46948DBA4CCF5.title: "Improved Machine Core"
 	quest.2BE5EA215EFEA58E.quest_desc: [
@@ -1943,7 +2009,7 @@
 	]
 	quest.3098E0D69C4C6064.title: "Catch the Wind"
 	quest.30B8CC0C1ABCCA7E.quest_desc: [
-		"Bring it all to an &eElite Crafting Table&r: the four alloy tools, a ring of alloy ingots, four Insanium Essence and the five tech pieces."
+		"Bring it all to an &eElite Crafting Table&r: the four alloy tools, a ring of alloy ingots, four Supremium Essence and the five tech pieces."
 		""
 		"One tool for every block, made from everything you've built along the way. Well done."
 		""
@@ -1974,6 +2040,12 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Gold Ingots and four Imperium Essence on the pedestals."
 	]
 	quest.313079ED5926FF5B.title: "Gold Seeds"
+	quest.314590FC5CC27466.quest_desc: [
+		"5,000 Emerald in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.314590FC5CC27466.title: "Emerald Singularity"
 	quest.314A53DD91312149.quest_desc: [
 		"Moss, spikes, mud, mushrooms, hot springs, blue ice, cobwebs, tuff, magma and the great dark caverns. You've seen the whole underground."
 		""
@@ -2094,6 +2166,12 @@
 		"If your power grid has been coasting, this is where you'll find out."
 	]
 	quest.33976B383FA077EA.title: "Unobtainium Meets Vibranium"
+	quest.33A0F81CF3956DAA.quest_desc: [
+		"5,000 Tin in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.33A0F81CF3956DAA.title: "Tin Singularity"
 	quest.33A50FC8109294C4.quest_desc: [
 		"A &eMachine Upgrade&r goes into any of these machines. Each tier changes its speed, fuel use and fuel capacity, and on the Harvester its area. The tooltip shows by how much."
 		""
@@ -2116,6 +2194,12 @@
 		"It doubles as a crafting table that keeps its ingredients."
 	]
 	quest.345B0BA3BFE19CFA.title: "The Formulaic Assemblicator"
+	quest.3471BBDEEE89C02F.quest_desc: [
+		"5,000 Invar in the Quantum Compressor."
+		""
+		"Invar is an alloy. Press &eR&r on the ingot to see what makes it."
+	]
+	quest.3471BBDEEE89C02F.title: "Invar Singularity"
 	quest.3479F21CA9A75252.quest_desc: ["Speed Upgrades and sugar make a &eStack Upgrade&r: the device handles far more per operation."]
 	quest.3479F21CA9A75252.title: "Stack Upgrade"
 	quest.347DB171ECD19E8C.quest_desc: [
@@ -2208,8 +2292,6 @@
 		"Made on the Infusion Altar: a Soulium Seed Base in the middle, with four Soul Jars full of phantom souls and four Tertium Essence on the pedestals."
 	]
 	quest.35E5546AB8C6F6DD.title: "Phantom Seeds"
-	quest.3612B5B973D72E55.quest_desc: ["Ultimate Fluid Tanks and Atomic Alloy make a Creative Fluid Tank. Fill it once with any fluid and it never empties."]
-	quest.3612B5B973D72E55.title: "An Endless Well"
 	quest.363D7BC36DCA9B28.quest_desc: ["Every bonus you spliced into it, in one addon. The catch: it only works as the first and only addon on a machine."]
 	quest.363D7BC36DCA9B28.title: "Heart of the Machine"
 	quest.365EC6354C359484.quest_desc: ["A backpack &eVoid Upgrade&r deletes the items in its filter as you pick them up. Goodbye, cobblestone."]
@@ -2488,6 +2570,12 @@
 		"Smelt them for nuggets of their metal. It's slow, but it never runs out, and a closet full of bushes adds up."
 	]
 	quest.3C2424D4625EDF33.title: "First Harvest"
+	quest.3C4BC56DF9C9E69A.quest_desc: [
+		"5,000 Lead in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.3C4BC56DF9C9E69A.title: "Lead Singularity"
 	quest.3C5664E1650BDE50.quest_desc: [
 		"Grows &eIron Essence&r, which crafts back into the real thing."
 		""
@@ -2549,8 +2637,6 @@
 	]
 	quest.3E3A18A6D93159F3.quest_subtitle: "Hardened tier"
 	quest.3E3A18A6D93159F3.title: "Energized Steel"
-	quest.3E3B7C679E42B4C1.quest_desc: ["Four Ultimate Energy Cubes and four Ultimate Induction Cells around the Spark make a Creative Energy Cube, full and bottomless."]
-	quest.3E3B7C679E42B4C1.title: "Endless Power"
 	quest.3E60540A0EE7413F.quest_desc: ["64 FE/t, and thriftier with fuel again. Diamond is where the line branches out."]
 	quest.3E60540A0EE7413F.title: "Diamond Generator"
 	quest.3EB0FFC5F8A26280.quest_desc: [
@@ -2575,6 +2661,12 @@
 		"Bring plenty of redstone. You'll want a lot of dust."
 	]
 	quest.3ECE66DE6744CB4E.title: "Flux Dust"
+	quest.3EDA362D1AC61C2E.quest_desc: [
+		"5,000 Glowstone in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.3EDA362D1AC61C2E.title: "Glowstone Singularity"
 	quest.3EFE6467063B2323.quest_desc: [
 		"An &eImporter&r pulls from whatever it faces into the network. An &eExporter&r pushes the items you choose back out. Between them they can feed furnaces, machines and farms."
 		""
@@ -2876,7 +2968,7 @@
 		"&e1.&r Piglich Hearts, to bind the metals"
 		"&e2.&r Three alloy ingots, from the Energizing Orb"
 		"&e3.&r Four alloy tools, on an Advanced Crafting Table"
-		"&e4.&r One piece from each tech chapter"
+		"&e4.&r One piece from each tech line"
 		"&e5.&r The paxel, on an Elite Crafting Table"
 		""
 		"Every recipe is in JEI. Press &eU&r on an alloy ingot to see where it goes."
@@ -3001,15 +3093,15 @@
 	]
 	quest.4A2D493AC7A46C5C.title: "Tilling Area Augments"
 	quest.4A3EC994756078B7.quest_desc: [
-		"The paxel takes one finished piece from each tech chapter. Each one is near the end of its chapter. You'll get them all back when you craft the paxel."
+		"The paxel takes a well-advanced piece from each tech line, the kind you'll have once that line is running. You'll get them all back when you craft the paxel."
 		""
-		"&eMekanism:&r an Ultimate Control Circuit"
-		"&eOritech:&r an Ultimate Machine Core"
-		"&eRefined Storage:&r a 64K Storage Disk"
-		"&eMystical Agriculture:&r Insanium Essence"
+		"&eMekanism:&r an Elite Control Circuit"
+		"&eOritech:&r an Elite Machine Core"
+		"&eRefined Storage:&r a 16K Storage Disk"
+		"&eMystical Agriculture:&r Supremium Essence"
 		"&eHostile Neural Networks:&r a Wither Prediction"
 		""
-		"The recipe takes four Insanium Essence, so grow a few more."
+		"The recipe takes four Supremium Essence, so grow a few more."
 	]
 	quest.4A3EC994756078B7.title: "A Piece of Everything"
 	quest.4A43186E8348E9F4.quest_desc: ["Gives pipes access to one chosen slot of the machine. Handy for the Assembler, where each input slot wants something different."]
@@ -3022,14 +3114,6 @@
 		"Plates carry animals too, so they're perfect for moving a herd to the new barn."
 	]
 	quest.4A440CD3C7BF5EBB.title: "Warp Plates"
-	quest.4AF0645E20E7A0F2.quest_desc: [
-		"Fission, fusion, an Induction Matrix full to bursting, and a whole pellet of antimatter. You've made enough power to tear a hole in the world."
-		""
-		"Put it to use. An Antimatter Pellet, two Nether Stars, Ultimate Control Circuits and Atomic Alloy make a &eSpark of Creation&r."
-		""
-		"The Spark is a catalyst. It never gets used up, and with the best of each tech line it makes &dcreative&r items: an endless battery, an endless jetpack, tanks and bins that never run dry. Press &eU&r on the Spark to see them all."
-	]
-	quest.4AF0645E20E7A0F2.title: "Break the Universe"
 	quest.4AF5AA62125900CB.quest_desc: [
 		"A bare pipe is slow. Right-click the pulling end of a pipe to open it, and slot in an upgrade."
 		""
@@ -3071,6 +3155,8 @@
 		"Place one and pose it however you like: size, rotation, standing or flying. A wall of trophies makes a fine record of your adventures."
 	]
 	quest.4C48B47AAEB05307.title: "Something for the Mantel"
+	quest.4C49B043F29B0D93.quest_desc: ["Tier 3 Battery Upgrades and Ultimate Induction Cells make a Creative Battery for the Mining Gadget."]
+	quest.4C49B043F29B0D93.title: "A Gadget That Never Tires"
 	quest.4C513A7AE7FC93F6.quest_desc: ["The fortress has gotten crowded again."]
 	quest.4C513A7AE7FC93F6.quest_subtitle: "Commission"
 	quest.4C513A7AE7FC93F6.title: "Blaze Hunt"
@@ -3311,6 +3397,12 @@
 		"Made on the Infusion Altar: a Soulium Seed Base in the middle, with four Soul Jars full of rabbit souls and four Tertium Essence on the pedestals."
 	]
 	quest.4FBBBE8BA758801D.title: "Rabbit Seeds"
+	quest.4FBF3A88A9C27809.quest_desc: [
+		"5,000 Lapis Lazuli in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.4FBF3A88A9C27809.title: "Lapis Lazuli Singularity"
 	quest.4FDDDCB57B5D7E7B.quest_desc: ["The fastest of the vanilla metals."]
 	quest.4FDDDCB57B5D7E7B.title: "Netherite Furnace"
 	quest.4FDFFEF48D1A7DA3.quest_desc: ["The best speed addon: three quarters faster, for only a little more power. Once you can make these, the Speed Addon retires."]
@@ -3343,6 +3435,8 @@
 		"Start with an &eElder Guardian&r, deep in an ocean monument. They'll tire you out before you see them: bring milk for the fatigue."
 	]
 	quest.50C07FD3C57F42D2.title: "Something from the Deep"
+	quest.510AC4AB92CFC70D.quest_desc: ["Ultimate Fluid Tanks and Atomic Alloy make a Creative Fluid Tank. Fill it once with any fluid and it never empties."]
+	quest.510AC4AB92CFC70D.title: "An Endless Well"
 	quest.510FEAB9BF6E65A2.quest_desc: ["The biggest of ExtraStorage's crafters, built around a Diamond one with netherite blocks."]
 	quest.510FEAB9BF6E65A2.title: "Netherite Autocrafter"
 	quest.51149F68C2F5E075.quest_desc: ["Each piece of the &eExo Suit&r does one thing: the helmet gives night vision, the chestplate charges your powered gear, the leggings make you faster, and the boots stop all fall damage."]
@@ -3559,6 +3653,8 @@
 	quest.5585BE782A3BDA1A.title: "Pressurized Reactions"
 	quest.55B7158AF0C339BC.quest_desc: ["Every simulation uses up one &ePrediction Matrix&r, so the chamber needs a steady supply. Make them in bulk."]
 	quest.55B7158AF0C339BC.title: "Prediction Matrix"
+	quest.55DB193B18AAC6F4.quest_desc: ["An Unobtainium Jetpack with Ultimate Induction Cells and Atomic Alloy becomes a Creative Jetpack. It never needs charging."]
+	quest.55DB193B18AAC6F4.title: "Fly Forever"
 	quest.55E37AD0FF63A6DC.quest_desc: [
 		"Grows &eZinc Essence&r, which crafts back into the real thing."
 		""
@@ -3940,6 +4036,12 @@
 	quest.5EC6CBA9F64119C4.title: "Bone Collector"
 	quest.5EF80534532D44CF.quest_desc: ["An apple wrapped in two diamonds and two emeralds. Expensive, but you only need one per canister."]
 	quest.5EF80534532D44CF.title: "Relic Apple"
+	quest.5F520318C38D225D.quest_desc: [
+		"5,000 Platinum in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.5F520318C38D225D.title: "Platinum Singularity"
 	quest.5F793A298673F7E9.quest_desc: [
 		"Start the cookbook the way you start the day."
 		""
@@ -3966,8 +4068,6 @@
 		"The question mark on the enchanting screen shows exactly what you can roll."
 	]
 	quest.5FFB46F7B1D9E908.title: "Shelves With Heat"
-	quest.6004D81354E9AFC5.quest_desc: ["Ultimate Bins and Atomic Alloy make a Creative Bin. Put one item in, and it hands out that item forever."]
-	quest.6004D81354E9AFC5.title: "A Bin That Gives"
 	quest.601B30B6B06C4E0B.quest_desc: [
 		"Grows &eSkeleton Essence&r, which crafts back into the real thing."
 		""
@@ -4139,12 +4239,6 @@
 		"Made on the Infusion Altar: a Prosperity Seed Base in the middle, with four Invar Ingots and four Imperium Essence on the pedestals."
 	]
 	quest.6327524005753A2A.title: "Invar Seeds"
-	quest.6329FCE0566316B7.quest_desc: [
-		"The biggest of them: 9x9, from two Elite tables, a block of emerald and Ultimate components."
-		""
-		"Few recipes need all 81 slots. Hover the table and press &eU&r to see which ones do."
-	]
-	quest.6329FCE0566316B7.title: "Ultimate Crafting Table"
 	quest.633C01D84DB7729C.quest_desc: ["A &eJukebox Upgrade&r plays music discs from your backpack while you walk. The advanced one holds a whole playlist."]
 	quest.633C01D84DB7729C.title: "Bring the Music"
 	quest.63B7777813217FB5.quest_desc: [
@@ -4191,6 +4285,12 @@
 		"Right-click a Spider with a &eModel Framework&r to attune one. Simulating it costs 128 FE a tick, and every run makes a &eGeneralized Overworld Prediction&r as well."
 	]
 	quest.64E0513952E39D02.title: "Spider Model"
+	quest.6524445C3AABEF30.quest_desc: [
+		"5,000 Gold in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.6524445C3AABEF30.title: "Gold Singularity"
 	quest.65310972DDC3E3D4.quest_desc: [
 		"Grows &eSheep Essence&r, which crafts back into the real thing."
 		""
@@ -4205,6 +4305,8 @@
 	quest.65B21594EE43AAD9.title: "Backpack Upgrades"
 	quest.65B272BB7973E20F.quest_desc: ["Prometheum tools have no durability at all. The &ePickaxe&r switches between area mining and Silk Touch, and the &eBattleaxe&r fells a whole tree if you sneak while you chop."]
 	quest.65B272BB7973E20F.title: "Tools That Never Break"
+	quest.65D2D26F132D8F8A.quest_desc: ["Wireless Universal Grids and Ultimate Induction Cells make a Creative Wireless Universal Grid that never runs flat."]
+	quest.65D2D26F132D8F8A.title: "Everything, Everywhere"
 	quest.65EE65E03AAB3B13.quest_desc: [
 		"An Advanced Control Circuit between two Reinforced Alloys makes an &eElite Control Circuit&r."
 		""
@@ -4235,6 +4337,12 @@
 		"Making the housing and the part separately is handy when you keep spare parts around."
 	]
 	quest.66502B332CF836C7.title: "Storage Housing"
+	quest.6652A1C28FB978CB.quest_desc: [
+		"5,000 Aluminum in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.6652A1C28FB978CB.title: "Aluminum Singularity"
 	quest.665EEB86298DA219.quest_desc: [
 		"Every feast there is. Set them out on one long table and invite the whole server."
 		""
@@ -4323,6 +4431,12 @@
 	quest.67D772C8D56E8FFB.title: "Detector Module"
 	quest.67E4B99842AE40C6.quest_desc: ["A thousand buckets. Enough lava to run a generator for a long while."]
 	quest.67E4B99842AE40C6.title: "1024B Fluid Storage Disk"
+	quest.68064347936C2E86.quest_desc: [
+		"5,000 Steel in the Quantum Compressor."
+		""
+		"Steel is an alloy. Press &eR&r on the ingot to see what makes it."
+	]
+	quest.68064347936C2E86.title: "Steel Singularity"
 	quest.68751B8E3969A37D.quest_desc: [
 		"Oil springs gush up out of the ground, and they're much more common in deserts."
 		""
@@ -4455,8 +4569,6 @@
 		"Right-click a Squid with a &eModel Framework&r to attune one. Simulating it costs 32 FE a tick, and every run makes a &eGeneralized Overworld Prediction&r as well."
 	]
 	quest.6C7F13ED4B042AE5.title: "Squid Model"
-	quest.6C80442F197B2646.quest_desc: ["An Unobtainium Jetpack with Ultimate Induction Cells and Atomic Alloy becomes a Creative Jetpack. It never needs charging."]
-	quest.6C80442F197B2646.title: "Fly Forever"
 	quest.6C9C4B1D8A7D18E5.quest_desc: [
 		"The &eBuilding Gadget&r places whole rows, columns and walls of blocks at once."
 		""
@@ -4507,6 +4619,12 @@
 		"Look up before you dig. Pointed dripstone falls when you break the block it hangs from, and it hurts. Land on one and it hurts more."
 	]
 	quest.6D4809624C1B97CE.title: "Mind Your Head"
+	quest.6D485BA017539056.quest_desc: [
+		"5,000 Bronze in the Quantum Compressor."
+		""
+		"Bronze is an alloy. Press &eR&r on the ingot to see what makes it."
+	]
+	quest.6D485BA017539056.title: "Bronze Singularity"
 	quest.6D4A8EE2E92BB963.quest_desc: [
 		"Comforts adds two ways to rest away from your bed."
 		""
@@ -4657,6 +4775,12 @@
 		"They start at diamond, like the rest, and essence versions reach further."
 	]
 	quest.6FF315F37048EB75.title: "Sickles and Scythes"
+	quest.702153B7CC347D16.quest_desc: [
+		"5,000 Iron in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.702153B7CC347D16.title: "Iron Singularity"
 	quest.7034F747A83C00B3.quest_desc: ["Clear the guardians from an ocean monument."]
 	quest.7034F747A83C00B3.quest_subtitle: "Commission"
 	quest.7034F747A83C00B3.title: "Monument Work"
@@ -4870,6 +4994,12 @@
 		"Hover over a pearl to see its waves, rewards and rules. Use it on a block in an open space and stand back. A Gateway fails if the timer runs out, a monster wanders too far, or it can't find room to spawn, so fight on flat ground and stay close."
 	]
 	quest.7422BC30ED1E3918.title: "A Pearl Full of Trouble"
+	quest.745F23572067F798.quest_desc: [
+		"5,000 Copper in the Quantum Compressor."
+		""
+		"A Mystical Agriculture farm makes short work of it."
+	]
+	quest.745F23572067F798.title: "Copper Singularity"
 	quest.74A6647F27B291DD.quest_desc: ["An electric furnace. The &eEnergized Smelter&r cooks anything a furnace would, on power instead of fuel, and takes upgrades."]
 	quest.74A6647F27B291DD.title: "The Energized Smelter"
 	quest.74F1BBF845B45E83.quest_desc: [
@@ -4950,8 +5080,6 @@
 		"The vessels hold &eAir&r, &eEarth&r, &eWater&r and &eFire Essence&r, so plant the elemental seeds well ahead of time."
 	]
 	quest.766FB3578F483F11.title: "The Awakening Altar"
-	quest.7692BBE580897F2C.quest_desc: ["Ultimate Chemical Tanks and Atomic Alloy make a Creative Chemical Tank. Fill it once with any chemical and it never empties."]
-	quest.7692BBE580897F2C.title: "A Bottomless Tank"
 	quest.76ABBDB1A7DF4ACD.quest_desc: [
 		"A Basic Control Circuit between two Infused Alloys makes an &eAdvanced Control Circuit&r. You can also infuse a Basic circuit with more redstone, if you'd rather save the alloy."
 		""
@@ -5044,6 +5172,14 @@
 		"It's also a piece of the &eAllthemodium Alloy Paxel&r. The paxel quest gives it back once you've crafted the paxel."
 	]
 	quest.782F22D054F2DD83.title: "Insanium"
+	quest.783155A7542F9C20.quest_desc: [
+		"A little of everything in one ingot, and a pellet of antimatter from &eMekanism Reactors&r. That's enough to tear a hole in the world."
+		""
+		"On the Ultimate Crafting Table: The Ultimate Ingot in the middle, the &eAntimatter Pellet&r above it, Crystaltine around them, Atomic Alloy on the diagonals, Ultimate Control Circuits in the middle of each edge and Nether Stars in the corners. Press &eR&r on the Spark for the exact layout."
+		""
+		"The Spark is a catalyst. It never gets used up, and with the best of each tech line it makes &dcreative&r items: endless power, an endless jetpack, tanks and bins that never run dry."
+	]
+	quest.783155A7542F9C20.title: "Break the Universe"
 	quest.7845E12F44850DA8.quest_desc: [
 		"Gunpowder by the stack, and creeper heads."
 		""
@@ -5203,8 +5339,6 @@
 		"Cells set how much it holds. Providers set how fast power moves in and out. Look it up in JEI to see the layout."
 	]
 	quest.7B9B1975332A092D.title: "The Induction Matrix"
-	quest.7B9B8D75659E2AD4.quest_desc: ["Refined Storage Controllers and Ultimate Induction Providers make a Creative Controller: a network that never needs power."]
-	quest.7B9B8D75659E2AD4.title: "A Network for Free"
 	quest.7BAB923D2C362509.quest_desc: [
 		"Cable Tiers makes faster Importers, Exporters, Constructors, Destructors, Disk Interfaces and Interfaces, in three grades: &eElite&r, &eUltra&r and &eMega&r."
 		""
@@ -5317,6 +5451,8 @@
 	quest.7EBA022BA6DF6A8B.title: "Burst Addon"
 	quest.7EC15D0E59E6ADC3.quest_desc: ["Four times the 256k. Each step up takes three parts of the size below and four Advanced Processors."]
 	quest.7EC15D0E59E6ADC3.title: "1024k Storage Disk"
+	quest.7EC72CA02267A666.quest_desc: ["Ultimate Chemical Tanks and Atomic Alloy make a Creative Chemical Tank. Fill it once with any chemical and it never empties."]
+	quest.7EC72CA02267A666.title: "A Bottomless Tank"
 	quest.7F08027DAC18F338.quest_desc: [
 		"Put a &eSteam Boiler Addon&r on any generator except the Basic one, feed the addon water, and the generator makes steam instead of RF."
 		""
@@ -5413,6 +5549,7 @@
 	task.0757C74850D00D5C.title: "A emerald generator, or the upgrade to one"
 	task.07A23F4B38392EE2.title: "Granite Caves"
 	task.07F507DB5CF7F0EA.title: "Visit the Underground Jungle"
+	task.080DAD0FE5BA3F25.title: "Emerald Singularity"
 	task.086AFD05D37FDA27.title: "Any volcanic biome"
 	task.09DC59BB798E12A9.title: "Something for your hands"
 	task.0A188E8CCEEA48E1.title: "Any Allthemodium metal seed"
@@ -5435,6 +5572,7 @@
 	task.0F979F7E14A9150E.title: "Visit a Highlands"
 	task.1062F3A5CD5BD5A1.title: "Piglich Data Model"
 	task.10A61CA12E8FC956.title: "Golden Furnace, or the upgrade to one"
+	task.10CA34BC475023B9.title: "Coal Singularity"
 	task.10CE82F2D14B7A10.title: "A netherite pickaxe or paxel"
 	task.10D8F5389C745C27.title: "Allthemodium Furnace, or the upgrade to one"
 	task.112A40DF19A640C0.title: "4 Allthemodium Ingots"
@@ -5457,6 +5595,7 @@
 	task.15D1794F73A96E8C.title: "Any battery"
 	task.160CCBA902A0FE07.title: "16 Steel Ingots"
 	task.165D627B7309C30F.title: "Two elevators"
+	task.1677B33F2B6315DB.title: "Platinum Singularity"
 	task.16867F6D10A39F12.title: "Wither Prediction"
 	task.1708EFD9CCD303F2.title: "Diamond Furnace, or the upgrade to one"
 	task.173A187114B99DC0.title: "Defeat the Wither"
@@ -5474,14 +5613,19 @@
 	task.19EA78F8BBAE1A7A.title: "Any player transmitter"
 	task.1A7DC2287779DD21.title: "Frozen Cliffs"
 	task.1A8A10EAF076C178.title: "Any sharestone"
+	task.1AA5EEBDFF9F67A1.title: "Electrum Singularity"
 	task.1AD7169B763837EF.title: "An Elite, Ultra or Mega Autocrafter"
+	task.1ADAF7E2CFC4743C.title: "Aluminum Singularity"
 	task.1BC91CA46067539E.title: "Any Skylands biome"
 	task.1C23325272889E20.title: "A fluid module"
+	task.1C2A5F34BA047DCF.title: "Invar Singularity"
+	task.1C338D0989B9C52F.title: "Diamond Singularity"
 	task.1C3DABD7BE4DE4F1.title: "Tropical Jungle"
 	task.1C3F7DC0897AB54C.title: "Any fish mount"
 	task.1CD12FB79631558E.title: "Frostfire Caves"
 	task.1D8ED9183F0DDD2D.title: "Pulled an enchantment onto a book"
 	task.1E4F149E8416B07E.title: "Any Exporter"
+	task.1EC98EAF6443CEEA.title: "Lapis Lazuli Singularity"
 	task.1EDC8BD735A74914.title: "Any Mining Gadget"
 	task.1F0C5F131D2DBD47.title: "Any fertilizer"
 	task.1FD32C349F5BE4CE.title: "Orchid Swamp"
@@ -5498,6 +5642,7 @@
 	task.235703669BFB2C20.title: "Stand on the Calcite House island"
 	task.24574331F3AD1F72.title: "Three machine cores, any tier"
 	task.24A27D380EC9FC88.title: "Any special pearl"
+	task.24E3CB394C4D78A7.title: "Glowstone Singularity"
 	task.24E5710F8E27E3F8.title: "A Vibranium Jetpack"
 	task.252ECF421401926A.title: "Four Hopper Botany Pots, any kind"
 	task.26E0CA9687F2CA29.title: "Any item collector"
@@ -5564,6 +5709,7 @@
 	task.3A357E3016347774.title: "Evoker Data Model"
 	task.3A49A62B2CB5F218.title: "Any External Storage"
 	task.3AABB44BD8469EF6.title: "A big fish"
+	task.3ADC1FEE1E5CB6FB.title: "Gold Singularity"
 	task.3AE03A6D90137C2E.title: "16 cooked meat, any kind"
 	task.3B085FE17295A6DC.title: "Any Relay"
 	task.3B17F4E26387A4C9.title: "A Sink"
@@ -5579,6 +5725,7 @@
 	task.3BED15882900F9DE.title: "Either Death Muffler"
 	task.3BFB117C3C7562A3.title: "Find a Nether trial"
 	task.3C0C5FB20723A394.title: "Find a Witch Tower"
+	task.3C1CAA7C8B5B88F2.title: "Redstone Singularity"
 	task.3C99B32E8EFB91C9.title: "Any Tertium tool or armor"
 	task.3CDA87F8CF6AE8C8.title: "Any 64x generator"
 	task.3D2A05B4A71003A2.title: "Any Handcrafted chair"
@@ -5607,6 +5754,7 @@
 	task.436E5F80F731A18D.title: "Any Autocrafter Manager"
 	task.43B75ED7937ABFA7.title: "Skeleton Data Model"
 	task.43BD3301641A5A94.title: "A void upgrade"
+	task.4457F53C400B277A.title: "Steel Singularity"
 	task.447354FAE4DA8AD7.title: "A obsidian generator, or the upgrade to one"
 	task.4477CD302009AFF7.title: "Cabbage, tomato, onion or rice"
 	task.447CEAF35053D715.title: "An iron backpack or better"
@@ -5659,6 +5807,7 @@
 	task.50E9D8F1DBB0217E.title: "Elder Guardian Data Model"
 	task.50F37AD4828EC49F.title: "Any Controller"
 	task.518657E1FE0E1C90.title: "A enchantment generator, or the upgrade to one"
+	task.51984CDE2AEA73B5.title: "Nickel Singularity"
 	task.52146EE7CD4934E2.title: "Any Botany Pot"
 	task.5240A5B70CAE3C96.title: "Defeat an Elder Guardian"
 	task.5246A092D2EC68AE.title: "Visit a Alpine Grove"
@@ -5719,6 +5868,7 @@
 	task.6093645102144E6C.title: "Fluorite"
 	task.60C347D4186719A6.title: "A gold generator, or the upgrade to one"
 	task.60C6BAC42A4E7663.title: "Any thermo generator"
+	task.60F633E94DC47C8A.title: "Bronze Singularity"
 	task.61180773530EA3E2.title: "A hopper upgrade"
 	task.6129F32365DC6C0A.title: "Any Inferium tool or armor"
 	task.61BF063488CA0899.title: "Mirage Isles"
@@ -5757,12 +5907,15 @@
 	task.6A756CCA5F48C48F.title: "Any 262m Storage Disk"
 	task.6A9E7505904A18A6.title: "Trade with a goblin"
 	task.6AB036671E054023.title: "Any 16384B Fluid Storage Disk"
+	task.6B15FEF80B4E34FA.title: "Lead Singularity"
 	task.6B57AB182B64E268.title: "Any GeOre shard"
+	task.6C67D64C3A360E65.title: "Iron Singularity"
 	task.6CB7819F0176EC13.title: "Any gem"
 	task.6CF6FDAFD316C3BB.title: "Allthemodium Ingot"
 	task.6CFAD14F8B1A372E.title: "Any pipe upgrade"
 	task.6D59484744ADF30D.title: "Visit a Sakura Grove"
 	task.6D862436442ED433.title: "Drowned Data Model"
+	task.6D8C46ACF2196546.title: "Silver Singularity"
 	task.6DA0618E561E149A.title: "Set foot in the Overworld"
 	task.6DBBAE5C125636AB.title: "Any Structory ruin"
 	task.6DC4948959CC4A49.title: "Visit the Deep Dark"
@@ -5781,6 +5934,7 @@
 	task.71D650EC23573B26.title: "A motor, coil or processing unit"
 	task.7243314E623185B1.title: "Any Sophisticated shulker box"
 	task.728D36BE0DD698F1.title: "Prometheum Ingot"
+	task.728E03B1D84CE4B8.title: "Tin Singularity"
 	task.72A3097D3D3B6448.title: "Fluorite"
 	task.72C834CC8ECD5A60.title: "Any Grid"
 	task.72F3BCF5E0B14BED.title: "Any Macaw's path or paving"
@@ -5825,6 +5979,7 @@
 	task.7E26C0366C71D28A.title: "Any sharestone"
 	task.7E9D5ED5150C97FF.title: "Any ultimate factory"
 	task.7EAEADECD591DBA7.title: "A Personal Chest or Barrel"
+	task.7EB4A6B080102684.title: "Copper Singularity"
 	task.7EB95C7D5A751D6B.title: "32 Croptopia meals, any kind"
 	task.7F6C62B0B3CFE250.title: "Highlands"
 	task.7F99FC3B51108E4D.title: "Croptopia seeds"

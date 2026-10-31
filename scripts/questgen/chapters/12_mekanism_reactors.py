@@ -1,23 +1,8 @@
-SPARK = "hearthandhollow:spark_of_creation"
-
-
-def creative(key, title, item, line, components=None):
-    task = {"item": item}
-    if components:
-        task["components"] = components
-    return {
-        "key": key, "title": title, "optional": True, "icon": item,
-        "desc": [line],
-        "tasks": [task],
-        "rewards": [{"xp": 25}, {"crate": "ember"}],
-    }
-
-
 CHAPTER = {
     "file": "mekanism_reactors",
     "group": "long",
     "title": "Mekanism Reactors",
-    "subtitle": "Fission, fusion, antimatter, and enough power to break the universe",
+    "subtitle": "Fission, fusion and antimatter",
     "icon": "mekanismgenerators:fission_reactor_casing",
     "layout": {
         "info": ["safety"],
@@ -28,8 +13,6 @@ CHAPTER = {
             {"flow": ["laser", ["amplifier", "hohlraum"], "fusion"]},
             {"rows": ["hazmat", "waste_barrel", "boiler", "plutonium", "exp_pig", "exp_creeper", "exp_mooshroom",
                       "exp_villager"]},
-            {"rows": ["spark", "creative_cube", "creative_jetpack", "creative_chem_tank", "creative_fluid_tank",
-                      "creative_bin", "creative_cell", "creative_controller", "creative_grid", "creative_battery"]},
         ],
     },
     "quests": [
@@ -240,7 +223,7 @@ CHAPTER = {
             "desc": [
                 "A Chemical Crystallizer packs antimatter into an &eAntimatter Pellet&r.",
                 "",
-                "Each pellet is a whole bucket of the stuff. Hold it carefully.",
+                "Each pellet is a whole bucket of the stuff. Hold it carefully: one goes into the &eSpark of Creation&r, in its own chapter.",
             ],
             "tasks": [{"item": "mekanism:pellet_antimatter"}],
             "rewards": [{"xp": 25}, {"crate": "ember"}],
@@ -297,36 +280,5 @@ CHAPTER = {
                       {"item": "mekanismgenerators:laser_focus_matrix"}],
             "rewards": [{"xp": 50}, {"crate": "ember"}],
         },
-        {
-            "key": "spark", "title": "Break the Universe", "shape": "hexagon", "size": 2.0, "wide": True, "icon": SPARK,
-            "desc": [
-                "Fission, fusion, an Induction Matrix full to bursting, and a whole pellet of antimatter. You've made enough power to tear a hole in the world.",
-                "",
-                "Put it to use. An Antimatter Pellet, two Nether Stars, Ultimate Control Circuits and Atomic Alloy make a &eSpark of Creation&r.",
-                "",
-                "The Spark is a catalyst. It never gets used up, and with the best of each tech line it makes &dcreative&r items: an endless battery, an endless jetpack, tanks and bins that never run dry. Press &eU&r on the Spark to see them all.",
-            ],
-            "tasks": [{"item": SPARK}],
-            "rewards": [{"xp": 50}, {"crate": "ember", "count": 2}],
-        },
-        creative("creative_cube", "Endless Power", "mekanism:creative_energy_cube",
-                 "Four Ultimate Energy Cubes and four Ultimate Induction Cells around the Spark make a Creative Energy Cube, full and bottomless."),
-        creative("creative_jetpack", "Fly Forever", "ironjetpacks:jetpack",
-                 "An Unobtainium Jetpack with Ultimate Induction Cells and Atomic Alloy becomes a Creative Jetpack. It never needs charging.",
-                 {"ironjetpacks:jetpack_id": "ironjetpacks:creative"}),
-        creative("creative_chem_tank", "A Bottomless Tank", "mekanism:creative_chemical_tank",
-                 "Ultimate Chemical Tanks and Atomic Alloy make a Creative Chemical Tank. Fill it once with any chemical and it never empties."),
-        creative("creative_fluid_tank", "An Endless Well", "mekanism:creative_fluid_tank",
-                 "Ultimate Fluid Tanks and Atomic Alloy make a Creative Fluid Tank. Fill it once with any fluid and it never empties."),
-        creative("creative_bin", "A Bin That Gives", "mekanism:creative_bin",
-                 "Ultimate Bins and Atomic Alloy make a Creative Bin. Put one item in, and it hands out that item forever."),
-        creative("creative_cell", "Powah, Unlimited", "powah:energy_cell_creative",
-                 "Four Nitro Energy Cells and four Nitro Crystals make a Creative Energy Cell."),
-        creative("creative_controller", "A Network for Free", "refinedstorage:creative_controller",
-                 "Refined Storage Controllers and Ultimate Induction Providers make a Creative Controller: a network that never needs power."),
-        creative("creative_grid", "Everything, Everywhere", "universalgrid:creative_wireless_universal_grid",
-                 "Wireless Universal Grids and Ultimate Induction Cells make a Creative Wireless Universal Grid that never runs flat."),
-        creative("creative_battery", "A Gadget That Never Tires", "mininggadgets:upgrade_battery_creative",
-                 "Tier 3 Battery Upgrades and Ultimate Induction Cells make a Creative Battery for the Mining Gadget."),
     ],
 }

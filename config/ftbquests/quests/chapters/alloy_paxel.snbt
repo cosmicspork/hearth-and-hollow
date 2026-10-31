@@ -303,7 +303,7 @@
 		{
 			icon: {
 				count: 1
-				id: "mekanism:ultimate_control_circuit"
+				id: "mekanism:elite_control_circuit"
 			}
 			id: "4A3EC994756078B7"
 			min_width: 300
@@ -331,7 +331,7 @@
 					id: "537BD1A17B2BED62"
 					item: {
 						count: 1
-						id: "mekanism:ultimate_control_circuit"
+						id: "mekanism:elite_control_circuit"
 					}
 					type: "item"
 				}
@@ -339,7 +339,7 @@
 					id: "43776E5C1DA3E1B8"
 					item: {
 						count: 1
-						id: "oritech:machine_core_7"
+						id: "oritech:machine_core_5"
 					}
 					type: "item"
 				}
@@ -347,7 +347,7 @@
 					id: "556D9C3425EEAD78"
 					item: {
 						count: 1
-						id: "refinedstorage:64k_storage_disk"
+						id: "refinedstorage:16k_storage_disk"
 					}
 					type: "item"
 				}
@@ -356,7 +356,7 @@
 					id: "515100995360C8B6"
 					item: {
 						count: 1
-						id: "mysticalagradditions:insanium_essence"
+						id: "mysticalagriculture:supremium_essence"
 					}
 					type: "item"
 				}
@@ -428,7 +428,7 @@
 					id: "4142CA637685966D"
 					item: {
 						count: 1
-						id: "mekanism:ultimate_control_circuit"
+						id: "mekanism:elite_control_circuit"
 					}
 					type: "item"
 				}
@@ -436,7 +436,7 @@
 					id: "00D7393ECEEA5AC5"
 					item: {
 						count: 1
-						id: "oritech:machine_core_7"
+						id: "oritech:machine_core_5"
 					}
 					type: "item"
 				}
@@ -444,7 +444,7 @@
 					id: "59F7BAED025428DB"
 					item: {
 						count: 1
-						id: "refinedstorage:64k_storage_disk"
+						id: "refinedstorage:16k_storage_disk"
 					}
 					type: "item"
 				}
@@ -453,7 +453,7 @@
 					id: "32037B5D274FB36F"
 					item: {
 						count: 1
-						id: "mysticalagradditions:insanium_essence"
+						id: "mysticalagriculture:supremium_essence"
 					}
 					type: "item"
 				}

@@ -48,8 +48,8 @@ ServerEvents.recipes(event => {
     ['  U  ', '  A  ', '  T  ', ' VRV ', '  R  '],
     Object.assign({ T: { item: 'allthemodium:unobtainium_sword' } }, ingots))
 
-  // The first paxel: the four alloy tools, a ring of alloy ingots, Insanium essence, and the
-  // finale piece of each tech chapter.
+  // The first paxel: the four alloy tools, a ring of alloy ingots, Supremium essence, and a
+  // well-advanced piece of each tech line.
   table('alloy_paxel', 3, 'allthemodium:alloy_paxel',
     [
       'VAUIUAV',
@@ -66,10 +66,10 @@ ServerEvents.recipes(event => {
       X: { item: 'allthemodium:alloy_axe' },
       H: { item: 'allthemodium:alloy_shovel' },
       S: { item: 'allthemodium:alloy_sword' },
-      I: { item: 'mysticalagradditions:insanium_essence' },
-      M: { item: 'mekanism:ultimate_control_circuit' },
-      D: { item: 'refinedstorage:64k_storage_disk' },
-      O: { item: 'oritech:machine_core_7' },
+      I: { item: 'mysticalagriculture:supremium_essence' },
+      M: { item: 'mekanism:elite_control_circuit' },
+      D: { item: 'refinedstorage:16k_storage_disk' },
+      O: { item: 'oritech:machine_core_5' },
       W: {
         type: 'neoforge:components',
         items: 'hostilenetworks:prediction',

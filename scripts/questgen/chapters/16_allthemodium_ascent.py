@@ -17,8 +17,7 @@ CHAPTER = {
                  "unobtainium": {"up": ["beyond"]},
              }},
             {"flow": ["atm_mace", "vib_mace", "unob_mace"]},
-            {"flow": ["black_iron", "basic_table", "advanced_table", "elite_table", "crystaltine", "summit"],
-             "branches": {"elite_table": {"up": ["ultimate"]}}},
+            {"flow": ["black_iron", "basic_table", "advanced_table", "elite_table", "crystaltine", "summit"]},
             {"rows": ["compress", "tiab"]},
         ],
     },
@@ -268,16 +267,6 @@ CHAPTER = {
             ],
             "tasks": [{"item": "extendedcrafting:elite_table"}],
             "rewards": [{"xp": 25}, {"crate": "lantern"}],
-        },
-        {
-            "key": "ultimate", "title": "Ultimate Crafting Table", "optional": True,
-            "desc": [
-                "The biggest of them: 9x9, from two Elite tables, a block of emerald and Ultimate components.",
-                "",
-                "Few recipes need all 81 slots. Hover the table and press &eU&r to see which ones do.",
-            ],
-            "tasks": [{"item": "extendedcrafting:ultimate_table"}],
-            "rewards": [{"xp": 10}, {"crate": "hearth"}],
         },
         {
             "key": "crystaltine", "title": "Your First Elite Recipe",
