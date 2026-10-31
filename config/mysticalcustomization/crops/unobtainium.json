@@ -1,0 +1,14 @@
+{
+  "name": "Unobtainium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "tag": "c:ingots/unobtainium"
+  },
+  "crux": "allthemodium:unobtainium_block",
+  "color": "B445E6",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

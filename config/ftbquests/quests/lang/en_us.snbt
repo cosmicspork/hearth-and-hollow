@@ -1252,6 +1252,14 @@
 		"Most of Powah's better parts are made here. Press &eU&r on the orb to see what it can make."
 	]
 	quest.37BF4A1A5D96EDBF.title: "The Energizing Orb"
+	quest.37FD9DAFA6D982A2.quest_desc: [
+		"Insanium Essence opens up seeds for the three endgame metals: &eAllthemodium&r, &eVibranium&r and &eUnobtainium Seeds&r, made on the Infusion Altar from their ingots."
+		""
+		"Each one is picky about its soil: it only grows with a block of the same metal under its farmland."
+		""
+		"Eight essence in a ring make one ingot. Slow, but it never runs out."
+	]
+	quest.37FD9DAFA6D982A2.title: "Metal in the Soil"
 	quest.38534A91108CF3B2.quest_desc: [
 		"Point a &eConstruction Stick&r at a wall and right-click: it copies the face you're looking at, one block deep, using blocks from your inventory."
 		""
@@ -3142,6 +3150,7 @@
 	task.3BC6111D03DE8FC8.title: "Lavender Forest"
 	task.3BFB117C3C7562A3.title: "Find a Nether trial"
 	task.3C0C5FB20723A394.title: "Find a Witch Tower"
+	task.3D1BDA31736D4F0A.title: "Any Allthemodium metal seed"
 	task.3D2A05B4A71003A2.title: "Any Handcrafted chair"
 	task.3DD1D0A49DAFA4F2.title: "Any relic"
 	task.3E458D26F1B32C6D.title: "Visit the Beyond"
