@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.3.0...v0.3.1) (2026-11-01)
+
+
+### Bug Fixes
+
+* make Croptopia oatmeal craftable and quiet broken mod data ([#29](https://github.com/cosmicspork/hearth-and-hollow/issues/29)) ([290a4c8](https://github.com/cosmicspork/hearth-and-hollow/commit/290a4c82e22cef15cf1d5e58bb8629a91b8507d7))
+
 ## [0.3.0](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.2.0...v0.3.0) (2026-10-31)
 
 
