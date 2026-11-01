@@ -645,6 +645,10 @@ file = "kubejs/data/botanypots/recipe/allthemodium/crop/ancient_soulberries.json
 hash = "d374a3407cd9041bb4fea30dbde3f8ded4d9c18f0962035983e860671a2b8ef4"
 
 [[files]]
+file = "kubejs/data/c/tags/item/oats.json"
+hash = "fc1ec8f477b72a398a22e025e91737e16749f953ae45a56daa0d1ec624a7f671"
+
+[[files]]
 file = "kubejs/data/croptopia/recipe/botanypots/almond.json"
 hash = "5d2d37ad10b6fd14ff2bb1b6d5fa75407f89b63704b91f11505df328cd0dbae9"
 
@@ -1013,6 +1017,10 @@ file = "kubejs/data/hearthandhollow/worldgen/placed_feature/ore_bonus/zinc.json"
 hash = "f14edca61f5e355419e046ef29c9fcc193cb4afe3487a0af75235df75d828488"
 
 [[files]]
+file = "kubejs/data/incendium/recipe/upgrade_elytra.json"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
+
+[[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "66d26444f6a04e62c278949624bb818f7efa2f7bc25ba0946fa0e49f494bb776"
 
@@ -1047,6 +1055,10 @@ hash = "0725837e777fe530550789149ccee069729a383d1ab6e9be5310cedb00756cb8"
 [[files]]
 file = "kubejs/data/powah/data_maps/fluid/magmator_fuel.json"
 hash = "b997887e0f2ad5ca35a959a55f69e6dda1ced6296cd13dd34b25715d96d671e5"
+
+[[files]]
+file = "kubejs/data/rsinsertexportupgrade/curios/slots/curio.json"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"

@@ -35,4 +35,4 @@ pkill -f "neoforge/.*/unix_args.txt" 2>/dev/null || true
 if ls crash-reports/*.txt >/dev/null 2>&1; then
   echo "crash report written"; cat crash-reports/*.txt; exit 1
 fi
-grep -E '/ERROR\]' boot.log | grep -vE 'DISTXFORM|rsinsertexportupgrade|VersionChecker' || true
+grep -E '/ERROR\]' boot.log | grep -vE 'DISTXFORM|VersionChecker' || true
