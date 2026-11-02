@@ -192,7 +192,6 @@ THEMES = [
             ("minecraft:saddle", 1, 0.3),
             ("minecraft:lead", 2, 0.5),
             ("minecraft:oak_boat", 1, 0.4),
-            ("minecraft:spyglass", 1, 0.2),
             ("waystones:warp_dust", 8, 0.6, 8),
             ("waystones:return_scroll", 2, 0.5, 1),
             ("minecraft:golden_carrot", 4, 0.6, 4),

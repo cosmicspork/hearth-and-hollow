@@ -79,16 +79,8 @@
 			weight: 0.4f
 		}
 		{
-			id: "4E62C4B4ED774929"
-			item: {
-				count: 1
-				id: "minecraft:spyglass"
-			}
-			weight: 0.2f
-		}
-		{
 			count: 8
-			id: "6427FF0393419111"
+			id: "4E62C4B4ED774929"
 			item: {
 				count: 1
 				id: "waystones:warp_dust"
@@ -98,7 +90,7 @@
 		}
 		{
 			count: 2
-			id: "312BA9F7E91AE775"
+			id: "6427FF0393419111"
 			item: {
 				count: 1
 				id: "waystones:return_scroll"
@@ -108,7 +100,7 @@
 		}
 		{
 			count: 4
-			id: "7D309FC4CEB4579B"
+			id: "312BA9F7E91AE775"
 			item: {
 				count: 1
 				id: "minecraft:golden_carrot"
@@ -117,7 +109,7 @@
 			weight: 0.6f
 		}
 		{
-			id: "1FBBD6A09C121D9E"
+			id: "7D309FC4CEB4579B"
 			item: {
 				components: {
 					"minecraft:stored_enchantments": {
@@ -133,7 +125,7 @@
 		}
 		{
 			count: 2
-			id: "12336CC68D929BAC"
+			id: "1FBBD6A09C121D9E"
 			item: {
 				count: 1
 				id: "allthemodium:allthemodium_nugget"
@@ -141,7 +133,7 @@
 			weight: 0.15f
 		}
 		{
-			id: "6D34C222E207914A"
+			id: "12336CC68D929BAC"
 			item: {
 				count: 1
 				id: "minecraft:golden_apple"
@@ -149,7 +141,7 @@
 			weight: 0.15f
 		}
 		{
-			id: "7DE5A3F005E57470"
+			id: "6D34C222E207914A"
 			item: {
 				count: 1
 				id: "minecraft:name_tag"
@@ -158,7 +150,7 @@
 		}
 		{
 			count: 8
-			id: "31E84C9603697ADD"
+			id: "7DE5A3F005E57470"
 			item: {
 				count: 1
 				id: "minecraft:experience_bottle"
@@ -168,7 +160,7 @@
 		}
 		{
 			count: 16
-			id: "4DF7446FC155A4A9"
+			id: "31E84C9603697ADD"
 			item: {
 				count: 1
 				id: "minecraft:torch"
@@ -178,7 +170,7 @@
 		}
 		{
 			count: 8
-			id: "71894CFD4E176B14"
+			id: "4DF7446FC155A4A9"
 			item: {
 				count: 1
 				id: "minecraft:bread"
@@ -188,7 +180,7 @@
 		}
 		{
 			count: 6
-			id: "41DFCE774A35D71D"
+			id: "71894CFD4E176B14"
 			item: {
 				count: 1
 				id: "minecraft:cooked_beef"
@@ -198,7 +190,7 @@
 		}
 		{
 			count: 8
-			id: "4A87E58A8DEA5377"
+			id: "41DFCE774A35D71D"
 			item: {
 				count: 1
 				id: "minecraft:coal"

@@ -63,11 +63,9 @@ CHAPTER = {
                 "Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them.",
                 "",
                 "Chests out here, and the monsters guarding them, carry gear with bonus stats. The two quests either side of the next row are from &eMonsters & Mettle&r, the chapter for all of that.",
-                "",
-                "Here's a &espyglass&r for scouting the horizon.",
             ],
             "tasks": [{"dimension": "minecraft:overworld", "title": "Set foot in the Overworld"}],
-            "rewards": [{"xp": 10}, {"crate": "kindling"}, {"item": "minecraft:spyglass"}],
+            "rewards": [{"xp": 10}, {"crate": "kindling"}],
         },
         {
             "key": "wanderlust", "title": "Which Way?", "shape": "hexagon", "icon": "naturescompass:naturescompass",
