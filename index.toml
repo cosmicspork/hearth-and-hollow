@@ -2569,7 +2569,3 @@ metafile = true
 file = "shaderpacks/makeup-ultra-fast-shader.pw.toml"
 hash = "424cc9d64e4673f1f3e35de096fcf2ff27bbdc0c799442c621adca116c60165e"
 metafile = true
-
-[[files]]
-file = "update.log"
-hash = "5cf8056ae0cd6ad5f3466c94d0134bf53924238efe80b17e9a6c081e9d848def"
