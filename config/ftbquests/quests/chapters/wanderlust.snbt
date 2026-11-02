@@ -42,14 +42,6 @@
 					table_id: 7884270202854711136L
 					type: "random"
 				}
-				{
-					id: "66D75184A6647FE0"
-					item: {
-						count: 1
-						id: "minecraft:spyglass"
-					}
-					type: "item"
-				}
 			]
 			shape: "hexagon"
 			size: 1.5d

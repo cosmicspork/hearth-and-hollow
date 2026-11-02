@@ -254,7 +254,7 @@ hash = "3140b093d4673af4f023d0017dec3d5fb44753a728ee32dab85683a10876b2ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wanderlust.snbt"
-hash = "69d3a7f4bb5fd8084064b04aff464161923caf430a7fb46273005937232b6252"
+hash = "3b7cdd086e421a6c53323f9cb23a655966b335423e7d5e4d21fe53a9e9860307"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome_home.snbt"
@@ -266,7 +266,7 @@ hash = "2771673724282119083b01cc77559a24d7f911a918682cc80a7bb262860d51b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d9a8f0509211e7df86352e481b025d65c4205f7912b172695f1fb3d094e5ce7d"
+hash = "cd462d1bb932818bd81b82e2f00fbfc43606defc4de71e7aacdaa428c35a857b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/almanac.snbt"
@@ -350,7 +350,7 @@ hash = "3561ae8963027219877508aa296a2d7665dceea5b59c07533121f6d078afcc37"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/traveler.snbt"
-hash = "5e0f95a67a2b29a9bec33d098dd4918f7e25d4e069c3ae7e7129b9b3e8e15b76"
+hash = "88f622d6c5b5659c59fee29ec9bca3c0ef6f6246fd5c4d773aea8d7057bf47e0"
 
 [[files]]
 file = "config/hourglass-server.toml"

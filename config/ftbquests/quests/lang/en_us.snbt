@@ -2406,8 +2406,6 @@
 		"Nothing in this chapter has to be done in order. Each row is one kind of discovery, and they tick off as you stumble on them."
 		""
 		"Chests out here, and the monsters guarding them, carry gear with bonus stats. The two quests either side of the next row are from &eMonsters \\& Mettle&r, the chapter for all of that."
-		""
-		"Here's a &espyglass&r for scouting the horizon."
 	]
 	quest.39466924602BC427.title: "Wanderlust"
 	quest.395054B4C2775EED.quest_desc: ["The Mk3 sends items to an inventory anywhere, even in another dimension. Mining Dimension output, straight home."]
