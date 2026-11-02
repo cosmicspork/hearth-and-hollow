@@ -1112,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "2714ef70be26e58d37ef0b5284f099f636f975c811263d54cddf90e85ca5d633"
+hash = "f4342847bfd363ea4929ac7fcf7f424765c199e22d910543aeff4c12b5c01e99"
 metafile = true
 
 [[files]]
@@ -1187,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "0f6b24d697903dc261c881c4a736ec57c57ed5384f23d77ca9f6cec1e954d559"
+hash = "9aee12cd43dcf471f23d1dc7da556fbaadf3831fe6f699925a9d79915376b6a9"
 metafile = true
 
 [[files]]
@@ -1787,7 +1787,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
+hash = "4a5ea596148af390e53eaa5225a5569f15cda6ace0c51edf9c6b175cf6030322"
 metafile = true
 
 [[files]]
@@ -1862,7 +1862,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "00bacfc5a98d9b0dff90bbad503def28abf970a2061c9456f721e442bc32ab29"
+hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
 metafile = true
 
 [[files]]
@@ -2337,22 +2337,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8f2396245b3a810a4f9d087892827abfaea9e1e644d7b9a1e2c00549577a7224"
+hash = "8a6203521324d8359947340a6b39466e266d95998ebca7db3781d4439ad4fafe"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "635c0cbd8a1eb03fc35f5fa983cc8d7a50e43d4e03c17f63ed9456d0d8b15a06"
+hash = "19675ac15f764c55dd740f8fccd3891b01deb7d9d70735406252ffb3aa5419c4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "0c968785dacb078863f2dcc29e58848668223078e5eab803111f9ae687d3b7d3"
+hash = "24ad944db12175cc5e8be8e9cb91ade394116a07c8ba6fe6cc185ee82a7a6881"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "a8acfae98953d3f39cc0e4c2e0a4e4d1c4d041a057fc828e6542f26740bbe655"
+hash = "b3cac14bd70f75ca9804c72d6677b5996203029d98d942f6711e8c3f9c732ad9"
 metafile = true
 
 [[files]]
@@ -2447,7 +2447,7 @@ metafile = true
 
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
-hash = "ea6be03c1ca22efac137ec3a8c8e439df9ff0d1d30ee90a9402f2f94f75ad62c"
+hash = "fde5f4243c1ac40e9b51ac53d1fea860b118c3ad1154161c6e522a7b0b83c2bd"
 metafile = true
 
 [[files]]
@@ -2569,3 +2569,7 @@ metafile = true
 file = "shaderpacks/makeup-ultra-fast-shader.pw.toml"
 hash = "424cc9d64e4673f1f3e35de096fcf2ff27bbdc0c799442c621adca116c60165e"
 metafile = true
+
+[[files]]
+file = "update.log"
+hash = "5cf8056ae0cd6ad5f3466c94d0134bf53924238efe80b17e9a6c081e9d848def"
