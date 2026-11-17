@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.1](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.3.0...v0.3.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* **ci:** keep the update log out of the pack index ([#33](https://github.com/cosmicspork/hearth-and-hollow/issues/33)) ([c5df454](https://github.com/cosmicspork/hearth-and-hollow/commit/c5df45414433603e3b89b4be4fdfeea887ab6fc0))
+* drop the spyglass from quest rewards ([#32](https://github.com/cosmicspork/hearth-and-hollow/issues/32)) ([ccd5561](https://github.com/cosmicspork/hearth-and-hollow/commit/ccd5561c650b9e33a5fd0a3b2071f8345674a46a))
+* make Croptopia oatmeal craftable and quiet broken mod data ([#29](https://github.com/cosmicspork/hearth-and-hollow/issues/29)) ([290a4c8](https://github.com/cosmicspork/hearth-and-hollow/commit/290a4c82e22cef15cf1d5e58bb8629a91b8507d7))
+* **mods:** weekly mod updates ([#31](https://github.com/cosmicspork/hearth-and-hollow/issues/31)) ([63c61c4](https://github.com/cosmicspork/hearth-and-hollow/commit/63c61c4b01dc1f9ed575b12a587d1d0422e8e9e4))
+* **mods:** weekly mod updates ([#34](https://github.com/cosmicspork/hearth-and-hollow/issues/34)) ([b3f0e29](https://github.com/cosmicspork/hearth-and-hollow/commit/b3f0e29513b7fe4915db06cdfcf96a3dedb5fef0))
+
 ## [0.3.0](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.2.0...v0.3.0) (2026-10-31)
 
 
