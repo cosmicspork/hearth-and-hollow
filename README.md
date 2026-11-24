@@ -33,7 +33,7 @@ Rewards come in crates, from humble Kindling to grand Ember, and a repeatable Bo
 
 ## Requirements
 
-- Minecraft 1.21.1 with NeoForge 21.1.259
+- Minecraft 1.21.1 with NeoForge 21.1.267
 - At least 4 GB of RAM allocated, 6 GB recommended (8 GB if you run a heavy shader)
 
 Running a server for friends? See the [server guide](docs/server.md).
