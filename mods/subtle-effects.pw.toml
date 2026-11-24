@@ -1,13 +1,13 @@
 name = "Subtle Effects"
-filename = "SubtleEffects-neoforge-1.21.1-1.15.2.jar"
+filename = "SubtleEffects-neoforge-1.21.1-1.15.3.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "aa7b136ac1a8e4b670e2250fa7c69589091ed94b"
+hash = "886b352836f2453ed73e6b7b3142fdf34a6cdd72"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9597765
+file-id = 9671909
 project-id = 1023913
