@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.3.1...v0.3.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* **mods:** weekly mod updates ([#35](https://github.com/cosmicspork/hearth-and-hollow/issues/35)) ([a39d22b](https://github.com/cosmicspork/hearth-and-hollow/commit/a39d22b4e678fd5cd7236a15a1fef29b4cdf4db7))
+
 ## [0.3.1](https://github.com/cosmicspork/hearth-and-hollow/compare/v0.3.0...v0.3.1) (2026-11-17)
 
 
